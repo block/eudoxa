@@ -1,0 +1,994 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="19" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="12" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="positive_aspect" count="6" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="6" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="available_sizes" count="3" category="availability" />
+  <duplicate_canonical name="width_options" count="3" category="unknown" />
+  <duplicate_canonical name="camber_type" count="3" category="performance" />
+  <duplicate_canonical name="user_review_forum" count="3" category="review" />
+  <duplicate_canonical name="core_material" count="3" category="construction" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="sidewall_material" count="3" category="unknown" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="sustainability_certification" count="2" category="sustainability" />
+  <duplicate_canonical name="rider_level" count="2" category="target_user" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="negative_aspect" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][2]
+2. model_name: Jetstream [1][2]
+3. model_year: 2026 [1][2] (Merchant verified)
+4. SKU: L47945800 [3][4] (Merchant verified)
+5. product_type: Snowboard [1][2]
+6. board_category: All-Mountain / Freeride [1][2] (Merchant verified)
+7. Model series: Horizon Series (Salomon's new freeride collection) [5][6]
+8. New model status: Brand new model for 2026, no predecessor model [7][8]
+9. gender: Unisex [9]
+10. manufacturer: Salomon SAS, a French sports equipment company headquartered in Annecy, France [10]
+11. Parent company: Amer Sports Corporation, headquartered in Helsinki, Finland [11]
+12. Founded: 1947 by François Salomon in Annecy, France [12]
+13. Designed by: Salomon Snowboards [13]
+14. Built by: Amer Sports [13]
+15. Design team: Nils Mindnich and Wolle Nyvelt are designers of Salomon boards [14]
+16. Manufacturer reputation: One of the world's leading outdoor adventure sports brands [15]
+17. Ownership chain: Amer Sports owned by ANTA Sports consortium (ANTA Sports, FountainVest Partners, Anamered Investments, Tencent) [16]
+18. Snowboard market entry: 1997 [17]
+19. price_usd_msrp: $649.95 [9][18][19]
+20. price_usd_evo: $519.96 (20% off) [20]
+21. price_usd_tactics: $519.95 (20% off) [21]
+22. Sale price at Ski Haus (USD): $454.97 (sale price, was $649.95) [22]
+23. Sale price (CAD) at Alternative Groove: C$454.97 (was C$649.95, 30% off) [23]
+24. price_aud_merchant: AUD $759.99 (RRP $949.99, 20% discount) [MERCHANT]
+25. Sale price at Shred Shop (USD): $649.95 (sizes sold out/unavailable at time of check) [24]
+26. availability_status: salomon.com (official) [9]
+27. availability_status: evo.com (in stock) [20]
+28. availability_status: Tactics.com (in stock, sizes 153 and 157 at time of check) [21]
+29. availability_status: REI Co-op [25]
+30. availability_status: Amazon.com (via The Ski Monster Boston, sizes 153, 157, 160, 163) [26]
+31. availability_status: Blauer Board Shop [7]
+32. availability_status: Corbetts Ski + Snowboard [27]
+33. availability_status: The Ski Monster [13]
+34. availability_status: Ski Haus [22]
+35. availability_status: McU Sports (Boise) [4]
+36. availability_status: Mountain Cultures [28]
+37. availability_status: Absolute-Snow (UK) [15]
+38. availability_status: Snowtrax Store (UK, Dorset) [29]
+39. availability_status: SkiPro [30]
+40. availability_status: SkiEssentials [31]
+41. availability_status: Gear West [32]
+42. availability_status: Snowcountry.eu (EU) [33]
+43. availability_status: Glisshop (UK) [34]
+44. availability_status: Shred Shop (sold out at time of check) [24]
+45. available_sizes: 146cm, 149cm, 153cm, 157cm, 160cm, 163cm [MERCHANT][9]
+46. available_sizes: 146, 149, 153, 157, 160, 163, 166cm — seven sizes total [9][19]
+47. available_sizes: Merchant lists 6 sizes (146–163cm); Snowboard Magazine and The Snowboarder's Journal list 7 sizes including 166cm. The 166cm appears to be a seventh size available. Multiple authoritative review sources confirm 7 sizes.
+48. shape: Tapered Directional [1][2] (Merchant verified)
+49. Shape description: Wider, tapered shape with long drawn-out nose and scoopy kick tail [35]
+50. taper: Tail width slightly tapered 2–20mm, loosening up turning initiation and improving floatation [36]
+51. setback: 2.0cm (all sizes) [MERCHANT]
+52. width_options: Standard [MERCHANT]
+53. width_options: Wide (for 153cm and 157cm sizes) [21]
+54. width_options: Merchant lists "Standard"; Tactics classifies 153cm and 157cm as "Wide." Multiple reviewers describe board as having "mid-wide waist" [14]. This inconsistency likely reflects different retailer classification standards.
+55. Waist description: Mid-wide waist [14]
+56. camber_type: Rock Out Camber [1][2] (Merchant verified)
+57. camber_description: Flat between bindings for stability, camber near the feet for response, and rocker at tip/tail for pressability [1][2]
+58. camber_type: Rocker/Flat/Rocker [37]
+59. camber_type: Flat with Camber [21]
+60. sidecut_type: Radial Sidecut [1][2] (Merchant verified)
+61. Sidecut description: Created from a perfect circle, classic sidecut for consistent response forward and switch [38]
+62. sidecut_radius_size: 6.2m [MERCHANT]
+63. sidecut_radius_size: 6.5m [MERCHANT]
+64. sidecut_radius_size: 7.1m [MERCHANT]
+65. sidecut_radius_size: 7.3m [MERCHANT]
+66. sidecut_radius_size: 7.5m [MERCHANT]
+67. sidecut_radius_size: 7.7m [MERCHANT]
+68. flex_rating_10: 7/10 [MERCHANT][13]
+69. flex_rating_5: 3.5/5 (Medium-Stiff) [7]
+70. flex_direction: Progressive flex (stiffer tail, softer nose) [14][39]
+71. flex_rating_10_evo: Stiff [37]
+72. flex_feel: Overall medium flex [19]
+73. flex_feel: Snowboard Magazine describes it as "overall medium flex"; the merchant rates it 7/10 (medium-stiff); evo classifies it as "Stiff"; The Snowboarder's Journal reviewer calls it "the softest board I'd ridden in years" (from someone who usually rides stiffer). Forum users on snowboardingforum.com say it's "softer than I thought it'd be." The actual flex is likely medium-stiff by objective standards, but reviews from aggressive riders perceive it as softer than expected.
+74. user_review_forum: "softer than I thought it'd be, think Japanese low angle pow and carve board" [40]
+75. core_material: Aspen SLCT Core — hand selected Aspen wood strips [MERCHANT][38]
+76. sustainability_certification: FSC™ certified wood core [41][42]
+77. core_material: Aero Core — exclusive combination of ultra-light sustainable balsa wood and strong responsive poplar wood [38]
+78. Core profile: Popster — milled thinner underfoot and thicker outside bindings, enhancing natural flex and energy return [42]
+79. core_material: Full-length FSC-certified wood core ensures consistent flex, reliable snap, and long-lasting durability [42]
+80. laminate: BA MD Fiberglass (Medium Density European-made fiberglass layers) [MERCHANT][21]
+81. construction_material_innovation: Ghost Carbon Beams + (three carbon beams in nose and tail for stability and pop) [MERCHANT][42]
+82. construction_material_innovation: Ghost Carbon Beam with additional layer for added pop [36]
+83. construction_material_innovation: B/FX Basalt fibers mentioned by SkiPro [30]
+84. base_material: 50% Recycled Sintered Base [MERCHANT][38]
+85. base_type: Sintered EG base [38]
+86. Base finish: Fine Stone Finish — particularly efficient on Sintered EG base, speeds up in powder/softer snow [MERCHANT][38]
+87. Wax: Natural Wax — paraffin-free compound made from natural ingredients [43]
+88. Base colour variation: Flip Flop Base — two different color variations to reduce P-Tex waste [33]
+89. sidewall_material: 66% Recycled ABS Sidewalls [MERCHANT][42]
+90. sidewall_material: 100% Recycled ABS Sidewalls [42]
+91. sidewall_material: Merchant and most retailers (including official Salomon FW 25/26 preview and Absolute-Snow) state 66% recycled ABS sidewalls. King Snow's article states 100% recycled ABS sidewalls. The 66% figure is the more widely cited and comes from the official manufacturer trade preview, so is more likely correct.
+92. edge_technology: 20% recycled aluminum in the edges [42]
+93. resin: 30% Bio-Based Resin (30% plant material) [MERCHANT][42]
+94. topsheet: Olive wood veneer [42]
+95. sustainability_certification: FSC™ certified wood core [42]
+96. mounting_pattern: 2x4 Inserts [MERCHANT][7]
+97. binding_compatibility: Standard insert pattern compatible with most snowboard bindings [7]
+98. Effective edge 146cm: 105.7cm [MERCHANT]
+99. Effective edge 149cm: 108.1cm [MERCHANT]
+100. Effective edge 153cm: 112.0cm [MERCHANT]
+101. Effective edge 157cm: 115.3cm [MERCHANT]
+102. Effective edge 160cm: 117.6cm [MERCHANT]
+103. Effective edge 163cm: 119.9cm [MERCHANT]
+104. Waist width 146cm: 25.1cm [MERCHANT]
+105. Waist width 149cm: 25.4cm [MERCHANT]
+106. Waist width 153cm: 26.3cm [MERCHANT]
+107. Waist width 157cm: 26.6cm [MERCHANT]
+108. Waist width 160cm: 26.9cm [MERCHANT]
+109. Waist width 163cm: 27.2cm [MERCHANT]
+110. tip_tail_width_size: 30.0cm [MERCHANT]
+111. tip_tail_width_size: 30.4cm [MERCHANT]
+112. tip_tail_width_size: 31.4cm [MERCHANT]
+113. tip_tail_width_size: 32.0cm [MERCHANT]
+114. tip_tail_width_size: 32.5cm [MERCHANT]
+115. tip_tail_width_size: 33.2cm [MERCHANT]
+116. tip_tail_width_size: 28.6cm [MERCHANT]
+117. tip_tail_width_size: 29.0cm [MERCHANT]
+118. tip_tail_width_size: 29.6cm [MERCHANT]
+119. tip_tail_width_size: 30.0cm [MERCHANT]
+120. tip_tail_width_size: 30.5cm [MERCHANT]
+121. tip_tail_width_size: 31.0cm [MERCHANT]
+122. stance_width_range_size: 52.0cm [MERCHANT]
+123. stance_width_range_size: 53.0cm [MERCHANT]
+124. stance_width_range_size: 54.0cm [MERCHANT]
+125. stance_width_range_size: 55.0cm [MERCHANT]
+126. stance_width_range_size: 56.0cm [MERCHANT]
+127. stance_width_range_size: 57.0cm [MERCHANT]
+128. setback: 20mm / 0.78 inches [MERCHANT][21]
+129. recommended_weight_range_size: 50–75 kg [MERCHANT]
+130. recommended_weight_range_size: 50–80 kg [MERCHANT]
+131. recommended_weight_range_size: 60–90 kg [MERCHANT]
+132. recommended_weight_range_size: 60–95 kg [MERCHANT]
+133. recommended_weight_range_size: 70–95 kg [MERCHANT]
+134. recommended_weight_range_size: 70–105 kg [MERCHANT]
+135. Recommended boot size 153cm: 13 and under (US) [21]
+136. Recommended boot size 157cm: 14 and under (US) [21]
+137. rider_level: Intermediate-Advanced [MERCHANT]
+138. skill_level_recommendation: Advanced to Expert [7][15]
+139. rider_level: Merchant says "Intermediate-Advanced"; Blauer, Absolute-Snow and other retailers consistently say "Advanced to Expert." This is a notable difference for buyers; the board is more broadly positioned by the merchant but specialized retailers target it at more experienced riders.
+140. skill_level_recommendation: Riders who charge hard, ride fast, and often find themselves outside of groomers [13]
+141. negative_aspect: Park-riders doing rails, jumps, presses, switch spins [13]
+142. terrain_suitability: All Mountain, Freeride, Groomers, Powder [MERCHANT]
+143. riding_style: Carving/Freeride [35]
+144. terrain_suitability: Powder, variable snow, groomed trails [15]
+145. terrain_suitability: Carving precision and deep snow float [7]
+146. warranty: 2-year limited warranty against defects in materials and craftsmanship [7]
+147. Award: Snowboard Magazine Platinum Pick 2026 — listed as "one of the top carving boards out right now" [19]
+148. Review (Snowboard Magazine): Thrives on lower-angle terrain and casual cruising; smooth and predictable radial sidecut [19]
+149. Review (The Snowboarder's Journal): "The Jetstream rips" — praised for edge hold despite softer flex; forgiving, fun and playful [14]
+150. Review (King Snow / Aari, 20 years riding experience): Top 3 characteristics — held an edge super well, very responsive and easy to get on edge, lot of play in the nose [35]
+151. Review (King Snow): "perfect for a freeride carver—someone who wants to ride powder, and rip open-face groomers" [44]
+152. Review (The Snowboarder's Journal): Progressive flex (stiffer tail, softer nose) provides board that is forgiving, fun, playful, transitioning quickly edge to edge, but not prone to washout [14]
+153. negative_aspect: Not the first choice for bigger lines with variable snow (e.g. Alaska, Cascadian high country) — would prefer more support [45]
+154. positive_aspect: Excels at daily driving through spring powder, mellow park laps, banked slaloms, side hit sessions [45]
+155. positive_aspect: Comfortably handles high-speed stability and creative finessing [13]
+156. user_review_forum: Described as "somewhat of a cross between the Dancehaul and Super 8" by Salomon rep [40]
+157. user_review_forum: Overlap noted between Taka, Jetstream, Goop, and Sickstick models in Salomon's line [46]
+158. Early review (Angrysnowboarder on Patreon): Reviewed the 157cm; noted Rock Out Camber with flattened-out camber in the middle with rocker in tips [47]
+159. Review test rider profile (The Snowboarder's Journal): 44 years old, 5'7", 150 lbs, size 8 boot, 32 years riding experience, Mt. Baker home mountain [14]
+160. Review test rider profile (King Snow): 5'8", 150 lbs, rides 8.5 boot, tested 157cm [35]
+161. edge_hold: Excellent — multiple reviewers praise strong edge hold [35][14]
+162. positive_aspect: Superior buoyancy in powder; wider taper and Rock Out Camber provide excellent float [15][7]
+163. pop: Good — Ghost Carbon Beams provide pop, Popster core enhances energy return [42]
+164. positive_aspect: Very responsive and easy to get on edge [35]
+165. Stability at speed: Good for moderate speeds; may lack support at extreme speeds/steep terrain [45]
+166. turn_initiation_performance: Quick turning thanks to taper and radial sidecut [1]
+167. Dampening: Recycled ABS sidewalls combine toughness and dampening properties [38]
+168. positive_aspect: Lot of play in the nose [35]
+169. positive_aspect: Effortlessly slices through corduroy when high on edge [19]
+170. comparable_board_same_brand: MSRP $699.95, stiffer flex, quadratic sidecut (vs radial), all-mountain focus [48]
+171. comparable_board_same_brand: MSRP $749.95, aggressive flex, backseat camber, pin tail, steep/deep terrain focus [49]
+172. comparable_board_same_brand: Softest/most maneuverable of the three; Highpath is middle; Fastlane is stiffest charger [40]
+173. comparable_board_cross_brand: K2 Embassy Men's All-Mountain Snowboard [26]
+174. comparable_board_cross_brand: K2 Commonwealth Freeride Snowboard [26]
+175. comparable_board_cross_brand: GNU Upgrade Mens Snowboard [26]
+176. comparable_board_cross_brand: K2 Instrument Mens Snowboard [26]
+177. comparable_board_same_brand: Salomon Assassin ($649.95 MSRP) — directional twin, all-mountain quiver killer [20]
+178. comparable_board_same_brand: Salomon HPS Sickstick ($699.95 MSRP) — freestyle/freeride overlap noted by forum users [46]
+179. comparable_board_same_brand: Salomon Dancehaul ($549.95 MSRP) — rep described Jetstream as cross between Dancehaul and Super 8 [40]
+180. evo.com: Major US specialty retailer, offers lowest price guarantee + free shipping, highly reputable [20]
+181. Tactics: Established specialty retailer since 1999, low price guarantee + free shipping over $99 [21]
+182. REI Co-op: Major US outdoor retailer, well-known for 1-year satisfaction guarantee, highly reputable [25]
+183. Amazon (via The Ski Monster): Third-party seller, 90-day returns, binding mounting available [26]
+184. Blauer Board Shop: Core snowboard specialty shop, expert staff [7]
+185. The Ski Monster (Boston): Independent specialty retailer, staff tests all gear sold [13]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/jetstream-li8659</url>
+  <quote>The Jetstream is a charismatic and maneuverable freeride board with versatility for everyday use, regardless of conditions.</quote>
+  <quote>Article ref. L47945800</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/jetstream-li8659</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon manufacturer product page. Highest authority for product identity and specifications. Confirms model name, SKU, and description.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/salomon-jetstream-snowboard</url>
+  <quote>The all-new Salomon Jetstream Snowboard is built for riders who want to rip everything in their path.</quote>
+  <quote>Rock Out Camber – Flat between your bindings for stability, camber near the feet for response and a rocker on the tip/tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a major specialty retailer carrying official Salomon product data. Confirms key technical specs and marketing description.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/jetstream-li8659</url>
+  <quote>Article ref. L47945800</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/jetstream-li8659</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon page confirms the SKU number L47945800.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/brands/brands-salomon/salomon-jetstream-snowboard-2025-2026/</url>
+  <quote>SKU L47945800 Categories Gifts for Her, Gifts for Him, Gifts Worth the Splurge, New Arrivals, Salomon, Snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/brands/brands-salomon/salomon-jetstream-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>McU Sports retailer page confirming SKU and availability.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.absolute-snow.com/articles/salomon-freestyle-picks</url>
+  <quote>The Jetstream is part of Salomon's brand-new Horizon Collection — a showcase of their most advanced shapes.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/articles/salomon-freestyle-picks</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute-Snow editorial confirms the Jetstream is part of the Horizon Collection.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.rhythmsnowsports.com.au/blogs/news/salomon-2026-first-look-demo-day-with-rhythm</url>
+  <quote>With Highpath, Fastlane and Jetstream, we have high-performance, sustainable directional freeride boards without compromise.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rhythmsnowsports.com.au/blogs/news/salomon-2026-first-look-demo-day-with-rhythm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Rhythm Snowsports demo day article with direct Salomon crew quotes confirming Horizon series composition.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-jetstream-snowboard-2026</url>
+  <quote>New model!</quote>
+  <quote>Flex 3.5/5 (Medium-Stiff)</quote>
+  <quote>2 Year: Backed by Salomon's limited two-year warranty against defects in materials and craftsmanship.</quote>
+  <quote>2x4 Inserts: Standard insert pattern offering flexible stance options and compatibility with most snowboard bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-jetstream-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is a specialty core shop. Confirms new model status, warranty, flex rating, and insert pattern.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+  <quote>Also no more Super 8 in the line. Two new freeride boards, and an updated Highpath.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Forum discussion confirming Jetstream and Fastlane are new additions to the line for 2025/26.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url>
+  <quote>The Salomon Jetstream is available in seven unisex sizes from 146-166cm and is available at core shops and salomon.com for $649.95.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Snowboarder's Journal is a respected specialist publication. Confirms MSRP, 7 size options, unisex designation, and availability at salomon.com.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+  <quote>Salomon SAS is a French sports equipment manufacturing company headquartered in Annecy, France.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1947</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides reliable background on the manufacturer's identity and headquarters.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+  <quote>Salomon is owned by Finnish retail conglomerate Amer Sports, along with Wilson, Atomic, Precor, and Arc'teryx.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia confirms Amer Sports ownership of Salomon.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+  <quote>It was founded in 1947 by François Salomon in the heart of the French Alps.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1947</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia confirms founding year and founder.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://theskimonster.com/products/salomon-jetstream</url>
+  <quote>Flex // 7 out of 10 Shape // Directional Profile // Camber Core Materials // Aspen Added Materials // Carbon Stringers & Fiberglass Designed By // Salomon Snowboards Built By // Amer Sports</quote>
+  <quote>Who is this not for? Mainly a park-rider doing rails, jumps, presses, switch spins.</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/salomon-jetstream</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Ski Monster provides spec summary and clear use case guidance. Confirms Amer Sports as builder.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url>
+  <quote>The flex may be a bit softer than what I'm used to but it's also a bit different, with a stiffer tail and softer nose, or "progressive flex."</quote>
+  <quote>it made for a board that is forgiving, fun and playful, transitioning quickly edge to edge, but not prone to washout.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Detailed first-person review by Colin Wiseman in The Snowboarder's Journal. Provides expert assessment of flex character and ride feel.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.absolute-snow.com/salomon-jetstream-snowboards-men-2026</url>
+  <quote>The Jetstream is designed for advanced to expert riders who demand performance and versatility across the mountain.</quote>
+  <quote>Salomon is one of the world's leading outdoor adventure sports brands.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/salomon-jetstream-snowboards-men-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute-Snow is a reputable UK retailer. Confirms target rider level and brand reputation.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Amer_Sports</url>
+  <quote>Since 2018, Amer has been a subsidiary of Chinese retail conglomerate Anta Sports.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Amer_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia confirms Amer Sports ownership structure including ANTA Sports consortium.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.snowmagazine.com/features/focus-on/70-years-of-salomon</url>
+  <quote>in 1997 with a snowboard offer of boards, boots and bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowmagazine.com/features/focus-on/70-years-of-salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1997</date_of_first_relevance>
+  <date_of_last_relevance>2017</date_of_last_relevance>
+  <reasoning>Snow Magazine historical article confirms Salomon entered the snowboard market in 1997.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-pick-2026-salomon-jetstream</url>
+  <quote>Salomon Jetstream – $649.95 Sizes: 146, 149, 153, 157, 160, 163, 166</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-pick-2026-salomon-jetstream</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Magazine confirms MSRP of $649.95 and lists 7 sizes including 166cm.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-pick-2026-salomon-jetstream</url>
+  <quote>the board has been confidently placed on our Platinum Pick list for 2026 as one of the top carving boards out right now.</quote>
+  <quote>Wider and cool as a cucumber, the Jetstream thrives on lower-angle terrain and casual cruising.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-pick-2026-salomon-jetstream</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is a leading industry publication. Platinum Pick is a notable editorial award. The review provides key ride impressions.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/salomon</url>
+  <quote>Salomon Jetstream Snowboard 2026 $649.95 $519.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo listing page shows current sale price of $519.96 (20% off $649.95 MSRP). Prices are volatile snapshot.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.tactics.com/salomon/jetstream-snowboard</url>
+  <quote>Sale: $519.95 (20% off)</quote>
+  <quote>Width: Wide (for 153 and 157 sizes)</quote>
+  <quote>Stance Set Back (in): .78</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/salomon/jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a major specialty retailer. Provides current sale price, width classification, and detailed specs for in-stock sizes.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://skihaus.com/2026-jetstream-men-s-snowboard/</url>
+  <quote>Salomon Snowboards · MSRP: Was: $649.95 · Now: $454.97</quote>
+  </quotelist>
+  <url_with_text_link>https://skihaus.com/2026-jetstream-men-s-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Haus shows a deeper sale price of $454.97. Prices may vary and are a snapshot.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://alternativegroove.ca/products/salomon-jetstream-2026</url>
+  <quote>C$454.97 · On Sale · was · C$649.95 Save 30%</quote>
+  </quotelist>
+  <url_with_text_link>https://alternativegroove.ca/products/salomon-jetstream-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Canadian retailer showing CAD pricing with 30% discount. Snapshot pricing.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.shredshop.com/products/salomon-jetstream-snowboard-pr5a25451</url>
+  <quote>Regular price $649.95 · Sale price $649.95</quote>
+  <quote>146cm Variant sold out or unavailable 149cm Variant sold out or unavailable 153cm Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/products/salomon-jetstream-snowboard-pr5a25451</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Shred Shop shows all sizes as sold out/unavailable, indicating strong demand or limited stock.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.rei.com/product/252763/salomon-jetstream-snowboard-20252026</url>
+  <quote>Charismatic and maneuverable, this Salomon snowboard is a fun freeride board for everyday use.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252763/salomon-jetstream-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>REI Co-op product listing confirms availability at this major retailer.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.amazon.com/Salomon-Jetstream-Snowboard-2026/dp/B0FXF5HKVL</url>
+  <quote>Available Sizes: 153, 157, 160, 163 cm · Local Pickup: THE SKI MONSTER BOSTON · Returns: 90 Days</quote>
+  </quotelist>
+  <url_with_text_link>https://www.amazon.com/Salomon-Jetstream-Snowboard-2026/dp/B0FXF5HKVL</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing (sold by The Ski Monster) showing available sizes and return policy.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.corbetts.com/salomon-jetstream-snowboard-2026/</url>
+  <quote>CONSTRUCTION The Jetstream features a 50% recycled base, 66% recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges, an olive wood veneer, and an FSC™ certified wood core.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/salomon-jetstream-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Corbetts Ski + Snowboard retailer page confirms sustainability specs.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://mountaincultures.com/products/salomon-jetstream-snowboard-2026</url>
+  <quote>Aspen SLCT – Every single wood strip is hand selected to ensure unparalleled core quality and lightness.</quote>
+  </quotelist>
+  <url_with_text_link>https://mountaincultures.com/products/salomon-jetstream-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Mountain Cultures retailer confirms availability and core construction details.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowtraxstore.co.uk/products/salomon-jetstream-snowboard-2026</url>
+  <quote>The Salomon Jetstream Snowboard offers agile freeride performance with Rock Out Camber, tapered shape, and medium flex.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowtraxstore.co.uk/products/salomon-jetstream-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>UK retailer Snowtrax confirms availability and board summary description.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://skipro.com/products/jetstream-56w</url>
+  <quote>Light & Strong: FSC™ Aspen SLCT core with Popster profiling, reinforced with B/FX Basalt fibers.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/jetstream-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SkiPro mentions B/FX Basalt fibers as reinforcement, which is unique to this source and may reflect a spec variant or error.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.skiessentials.com/products/2026-salomon-jetstream-snowboard-l47945800</url>
+  <quote>The 2026 Salomon Jetstream is a freestyleoriented snowboard built for flow and creativity.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skiessentials.com/products/2026-salomon-jetstream-snowboard-l47945800</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SkiEssentials has a different characterization — "freestyle-oriented" — which differs from most sources calling it freeride. This may be auto-generated content.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.gearwest.com/products/salomon-w26-jetstream</url>
+  <quote>The Salomon Jetstream snowboard is a charismatic and maneuverable freeride board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gearwest.com/products/salomon-w26-jetstream</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Gear West retailer confirms availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.snowcountry.eu/26-salomon-snowboard-jetstream.html</url>
+  <quote>Flip Flop Base The base comes in two different color variations to reduce P-Tex waste.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcountry.eu/26-salomon-snowboard-jetstream.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowcountry.eu provides unique Flip Flop Base detail not found on other sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.glisshop.co.uk/snowboard/pack-board-bindings/salomon/</url>
+  <quote>The Salomon Jetstream is a versatile snowboard offering excellent grip, lift and manoeuvrability.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.glisshop.co.uk/snowboard/pack-board-bindings/salomon/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Glisshop UK confirms availability.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url>
+  <quote>My three favourite characteristics about this board: it held an edge super well, it was very responsive and easy to get on edge, and it still had a lot of play in the nose.</quote>
+  <quote>This is a carving/freeride-shaped snowboard.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>King Snow review by experienced rider Aari (100+ days/year, 20 years experience). Direct ride impressions highly relevant to purchase decision.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.shredshop.com/products/salomon-jetstream-snowboard-pr5a25451</url>
+  <quote>Tapered directional: Tail width is slightly tapered 2-20mm.</quote>
+  <quote>Ghost Carbon Beam +: Ghost Carbon beam with additional layer for added pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/products/salomon-jetstream-snowboard-pr5a25451</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Shred Shop provides specific taper dimension range and carbon beam detail.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/salomon-jetstream-snowboard</url>
+  <quote>Rocker/Flat/Rocker is another variation on the rocker theme.</quote>
+  <quote>Stiff</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo classifies the board as Rocker/Flat/Rocker profile and Stiff flex. These are evo's own standardized categories, which may differ from manufacturer descriptions.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://mountaincultures.com/products/salomon-jetstream-snowboard-2026</url>
+  <quote>Aero Core – Exclusive association of ultra-light and sustainable balsa wood and strong and responsive poplar wood.</quote>
+  <quote>Recycled ABS Sidewalls – combining toughness for energy transfer and dampening properties for impact absorption.</quote>
+  </quotelist>
+  <url_with_text_link>https://mountaincultures.com/products/salomon-jetstream-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Mountain Cultures page has full Salomon spec text including Aero Core and ABS sidewall details.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url>
+  <quote>a stiffer tail and softer nose, or "progressive flex."</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Expert reviewer confirms directional flex pattern — stiffer tail, softer nose.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+  <quote>Rep described the Jetstream as somewhat of a cross between the Dancehaul and Super 8, it's rock out camber, wide, tight sidecut, mid flex.</quote>
+  <quote>the Jetstream is softer than I thought it'd be, think Japanese low angle pow and carve board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Snowboarding Forum is a niche enthusiast community. Forum user relays Salomon rep comparison and first-hand flex impression. Lower credibility as individual anecdotes, but valuable community perspective.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.tactics.com/salomon/jetstream-snowboard</url>
+  <quote>Aspen SLCT Core - Every single FSC certified wood strip is hand selected.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/salomon/jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics confirms FSC certification of the Aspen SLCT Core.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url>
+  <quote>Sustainability is a core feature: a 50% recycled base, 100% recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges, an olive wood veneer, and an FSC-certified wood core.</quote>
+  <quote>The Popster core profile is milled thinner underfoot and thicker outside the bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>King Snow review lists sustainability specs. Note: claims 100% recycled ABS sidewalls, which conflicts with the more widely cited 66% figure.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/jetstream-li8659</url>
+  <quote>Natural wax: A paraffin-free wax compound made from natural ingredients. A non-pollutant compound held to the highest standards of glide speed.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/jetstream-li8659</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon page provides authoritative detail on the natural wax compound.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url>
+  <quote>I'd say this board is perfect for a freeride carver—someone who wants to get up on the mountain, ride powder, and also rip open-face groomers.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/salomon-jetstream-snowboard-review-2026-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Reviewer summary of ideal rider profile.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url>
+  <quote>I won't go as far as to say the Jetstream would be my first choice for bigger lines where one might encounter variable snow.</quote>
+  <quote>for daily driving through spring powder in the Mt Baker backcountry, mellow park laps, a few banked slaloms and side hit sessions, the board felt right at home.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-jetstream-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Critical assessment of board limitations from expert reviewer — important for buyers considering steep/variable terrain use.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.88</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+  <quote>It seems there is a bit of overlap between the Taka, the jestream, the Goop, maybe even the sickstick.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Forum user notes overlap between Jetstream and other Salomon models — useful comparison context for buyers considering within the Salomon line.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://www.patreon.com/posts/2026-salomon-125005614</url>
+  <quote>Board: Salomon Jetstream Size: 157 Camber Option: Rock out camber. A flattened out camber in the middle with rocker in the tips.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.patreon.com/posts/2026-salomon-125005614</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-05</date_of_first_relevance>
+  <date_of_last_relevance>2025-05</date_of_last_relevance>
+  <reasoning>Angrysnowboarder is a known snowboard reviewer. Early review posted May 2025, one of the first reviews. Content is paywalled but preview confirms size and camber.</reasoning>
+  <evidentiary_alignment>0.72</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/salomon</url>
+  <quote>Salomon Highpath Snowboard 2026 $699.95 $559.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo pricing for Highpath, the mid-range Horizon series board, for comparison.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/salomon</url>
+  <quote>Salomon Fastlane Snowboard 2026 $749.95 $599.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo pricing for Fastlane, the stiffest Horizon series board, for comparison.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-jetstream-2026</url>
+    <quote>brand: Salomon; model name: Jetstream; model year: 2026; SKU: L47945800 149; AUD price: $759.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-jetstream-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

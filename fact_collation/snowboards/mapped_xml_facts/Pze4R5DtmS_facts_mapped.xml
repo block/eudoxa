@@ -1,0 +1,857 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="recommended_weight_range_size" count="11" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="8" category="review" />
+  <duplicate_canonical name="availability_status" count="7" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="6" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="6" category="comparable" />
+  <duplicate_canonical name="user_review_forum" count="5" category="review" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="sidecut_radius_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="contact_length_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="3" category="review" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="price_aud_merchant" count="3" category="pricing" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="base_type" count="2" category="construction" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="2" category="review" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="warranty_period_years" count="2" category="warranty" />
+  <duplicate_canonical name="return_policy_terms" count="2" category="warranty" />
+</canonical_schema>
+
+<answer>
+1. brand: Rome (also known as Rome SDS / Rome Snowboard Design Syndicate) [1][2]
+2. model_name: Artifact [1]
+3. model_year: 2027 (designated as "2526" season on Rome's site, "2027" on Australian retailers) [1][3]
+4. Parent company: Nidecker Group / Low Pressure Studio (acquired Rome SDS in 2018) [4][5]
+5. Manufacturer founded: 2001 in Waterbury, Vermont, USA [6][7]
+6. Founders: Josh Reid and Paul Maravetz (both former Burton employees) [7][8]
+7. Headquarters: 1 Derby Lane, Suite 4, Waterbury, Vermont [9]
+8. Brand ethos: "All Ways Down" — rider-driven design with freestyle snowboarding at its core [10]
+9. manufacturing_location: Québec, Canada (per Curated.com expert guide) [11]
+10. R&D and design location: Waterbury, Vermont (stayed in Vermont after Nidecker acquisition) [12]
+11. product_type: Snowboard [1]
+12. board_category: Freestyle [1][13]
+13. gender: Men's [1]
+14. model_first_available_year: 2004 (per Rome's EU official site) [14]
+15. Description (manufacturer): "Built for riders who crave a super pressable ride for downrails, pole jams, rope ollies and bringing freestyle flavor all over the hill" [15]
+16. shape: True Twin (fully symmetrical — identical sidecuts, flex, camber, nose and tail) [1][16]
+17. camber_type: Stay Positive Camber (traditional full camber from nose to tail) [1][16]
+18. Nose/tail design: Twin Double Kick (aggressive two-part rise in nose and tail for presses and smoother landings) [1][16]
+19. sidecut_type: Radial Sidecut (single radius) [1][16]
+20. taper: 0mm (zero taper across all sizes) [1][3]
+21. setback: 0mm (zero setback; centered stance) [1][3]
+22. flex_direction: Symmetrical (twin flex pattern) [1]
+23. flex_rating_10: 4/10 (1=Soft, 10=Stiff) [1][3][16]
+24. flex_feel: 4.5/10 (slightly stiffer on snow than spec suggests) [17]
+25. flex_rating_10_evo: Soft (evo rates 3–5 as "medium" but lists it as "Soft") [18]
+26. flex_feel: Soft, playful, buttery; easy to press and butter but still has pop [15][19]
+27. core_material: Stomp Core — described as "100% Poplar" construction [20]
+28. core_material_blend_ratio: Stomp Core — described as "poplar and paulownia wood" blend [3] DISAGREEMENT: The manufacturer's 2526 page and prior years describe the Stomp Core as "100% Poplar." Ballistyx describes it as a poplar/paulownia blend for 2027. This may reflect a 2027 spec change, or a Ballistyx error.
+29. laminate: Biax Upper Glass (biaxial fiberglass) [1][3]
+30. laminate: Biax Lower Glass (biaxial fiberglass) [1][3]
+31. laminate: Biaxial — "laid at two different angles above and below the core for torsionally playful board" [1]
+32. construction_material_innovation: Twin Single Bamboo HotRods (single bamboo rod in nose and tail) [1][15]
+33. construction_material_innovation: "Bamboo Omega HotRods" [3] DISAGREEMENT: The manufacturer page says "Bamboo HotRod" (standard). Ballistyx says "Bamboo Omega HotRods." Omega is typically used for the Pro model's carbon rods. May indicate a 2027 upgrade or merchant error.
+34. construction_material_innovation: Flax Impact Plates — woven flax mats around binding inserts, sandwiched between core and topsheet [1][15]
+35. Flax Impact Plates function: "Withstand deep landings, distribute impact, increase lifespan without dramatically changing flex" [15]
+36. sidewall_material: Dampening sidewall material (smooths ride, resists repetitive shock damage) [21]
+37. Edge material: Stainless steel [21]
+38. mounting_pattern: 2x4 inserts [1]
+39. Insert count: 24 inserts per board (all sizes) [16]
+40. base_type: PowerSlide Base — high-end extruded base [1][15][21]
+41. base_type: SinterStrong base [3] DISAGREEMENT: Ballistyx's marketing copy mentions "SinterStrong" in the body text but then separately lists "PowerSlide Base" in the tech specs section. The Rome official site, evo, SkatePro, and the merchant data all say PowerSlide (extruded). The SinterStrong base is used on the Artifact Pro, not the standard Artifact. The Ballistyx body text appears to contain an error.
+42. base_material: "Our high-end, durable, 'faster than you'd expect' extruded base" [15]
+43. user_review_forum: Still an extruded base despite marketing; slower than sintered but easier to repair [22]
+44. user_review_forum: At least one user reported the board arriving with insufficient/no wax, making it unable to glide [23]
+45. available_sizes: 147, 150, 153, 154W, 156, 157W, 159, 160W [16]
+46. width_options: Standard and Wide [1]
+47. Effective edge 147cm: 112.0cm [16]
+48. Effective edge 150cm: 114.6cm [16]
+49. Effective edge 153cm: 117.3cm [16]
+50. Effective edge 154W: 118.2cm [16]
+51. Effective edge 156cm: 120.0cm [16]
+52. Effective edge 157W: 120.9cm [16]
+53. Effective edge 159cm: 122.7cm [16]
+54. Effective edge 160W: 123.6cm [16]
+55. Waist width 147cm: 25.2cm (252mm) [16]
+56. Waist width 150cm: 25.3cm (253mm) [16]
+57. Waist width 153cm: 25.5cm (255mm) [16]
+58. Waist width 154W: 26.5cm (265mm) [16]
+59. Waist width 156cm: 25.7cm (257mm) [16]
+60. Waist width 157W: 26.7cm (267mm) [16]
+61. Waist width 159cm: 25.8cm (258mm) [16]
+62. Waist width 160W: 26.9cm (269mm) [16]
+63. sidecut_radius_size: 7.36m [16]
+64. sidecut_radius_size: 7.90m [16]
+65. sidecut_radius_size: 8.14m [16]
+66. contact_length_size: 107.2cm [16]
+67. contact_length_size: 115.0cm [16]
+68. contact_length_size: 118.5cm [16]
+69. stance_width_range_size: 46.8–58.8cm [16]
+70. stance_width_range_size: 49.3–61.3cm [16]
+71. stance_width_range_size: 51.9–63.9cm [16]
+72. recommended_weight_range_size: 45–63 kg (99–139 lbs) [16]
+73. recommended_weight_range_size: 47.5–66 kg (105–145 lbs) [16]
+74. recommended_weight_range_size: 53.5–72 kg (118–158 lbs) [16]
+75. recommended_weight_range_size: 58–76.5 kg (128–168 lbs) [16]
+76. recommended_weight_range_size: 59–77.5 kg (130–170 lbs) [16]
+77. recommended_weight_range_size: 63.5–82 kg (140–180 lbs) [16]
+78. recommended_weight_range_size: 64.5–82.5 kg (142–182 lbs) [16]
+79. recommended_weight_range_size: 69–87.5 kg (152–192 lbs) [16]
+80. recommended_weight_range_size: 65–85 kg [3] DISAGREEMENT: Rome official 2526 says 59–77.5 kg. Ballistyx 2027 says 65–85 kg. The merchant data also says 65–85 kg. This could reflect an updated 2027 weight chart or listing error.
+81. recommended_weight_range_size: 75–95 kg [3] DISAGREEMENT: Rome 2526 says 63.5–82 kg. Ballistyx 2027 says 75–95 kg. Significant difference.
+82. recommended_weight_range_size: 71–91 kg [3] (consistent with Rome 2526's 64.5–82.5 kg or the merchant's 71–91 kg)
+83. Boot size (US) for 147–153cm: 6–9 US [16]
+84. Boot size (US) for 154W–157W: 8–12 US [16]
+85. Boot size (US) for 156–159cm: 7–10 US [16]
+86. Boot size (US) for 160W: 9–12 US [16]
+87. terrain_suitability: 9/10 [1][13]
+88. terrain_suitability: 6/10 [1][13]
+89. terrain_suitability: 4/10 [1][13]
+90. terrain_suitability: Park, rails, bonk features, side hits [1]
+91. riding_style: Freestyle, park, creativity and progression [1]
+92. rider_level: Beginner-Intermediate [1]
+93. skill_level_recommendation: Intermediate-Advanced [18]
+94. skill_level_recommendation: "Not suitable for beginners…anyone intermediate and up should be fine" [17] DISAGREEMENT: Merchant data says "Beginner-Intermediate" while evo and the independent reviewer say "Intermediate-Advanced." This is a meaningful difference for purchase decisions.
+95. board_weight_grams: 3080g (6 lb 13 oz) [17]
+96. weight_per_cm: 19.74 g/cm (vs average of 18.71 g/cm) — slightly heavier than average [17]
+97. reviewer_opinion_snowboardingprofiles: "Felt normal (maybe a touch heavier than normal)" [17]
+98. reviewer_opinion_the_good_ride: "Feels normal" [19]
+99. camber_height_mm: 4.5mm (unweighted measurement) [24]
+100. price_usd_msrp: $499.95 (sale price at time of check: $349.95, 30% off) [16]
+101. price_usd_evo: $499.95 [25]
+102. price_usd_msrp: $499 [17]
+103. price_usd_msrp: $499.95 (sold out) [26]
+104. price_aud_merchant: $849.99 AUD [3]
+105. price_aud_merchant: Available for preorder [13]
+106. price_aud_merchant: $849.99 AUD [1]
+107. price_usd_evo: $449.95 (on sale at $247.47) [25]
+108. price_usd_backcountry: $447.96 [19]
+109. eBay prices (various years/conditions): $280–$480+ [27]
+110. availability_status: Most sizes sold out; only 160W in stock (1 left, end-of-season sale) [16]
+111. availability_status: All sizes sold out [14]
+112. availability_status: In stock [25]
+113. estimated_availability_date: Available for preorder, estimated May 2026 delivery; sizes 156, 157W, 159 listed [3]
+114. availability_status: Available for preorder [13]
+115. availability_status: Sold out all sizes [26]
+116. availability_status: Listed as available [28]
+117. availability_status: Secondary market, various conditions and years [27]
+118. warranty_period_years: 2-year limited warranty against manufacturing defects from date of purchase [29]
+119. warranty_period_years: 2+1 year warranty (3 years total) if product is registered and newsletter subscription is active [30]
+120. warranty: Delamination, problems with inserts, cracked topsheet outside binding area [29]
+121. return_policy_terms: 45-day return period [31]
+122. Binding warranty: Lifetime parts warranty on bindings (for context on Rome's warranty approach) [32]
+123. user_review_forum: Based on 86 reviews; 90% five-star [16]
+124. overall_rating_snowboardingprofiles: 83.2/100 [17]
+125. reviewer_opinion_snowboardingprofiles: 19th out of 28 current freestyle boards tested [17]
+126. SnowboardingProfiles jump rating: 4.5/5 (strongest category) [17]
+127. SnowboardingProfiles jibbing rating: 3.0/5 [17]
+128. SnowboardingProfiles spin rating: 4.5/5 [17]
+129. SnowboardingProfiles switch rating: 4.5/5 [17]
+130. SnowboardingProfiles butter rating: 4.0/5 [17]
+131. powder_score_snowboardingprofiles: 2.0/5 (weakest area) [17]
+132. SnowboardingProfiles speed rating: 3.0/5 [17]
+133. carving_score_snowboardingprofiles: 3.5/5 [17]
+134. reviewer_opinion_the_good_ride: "One of the few true camber boards left in the jib park" [19]
+135. on_snow_feel_tgr: "Nice stable easy feel that wants to play in the jib park" [19]
+136. turn_initiation_performance: "Very quick and easy edge to edge" [19]
+137. flex_rating_10_the_good_ride: "Nice soft playful buttery feel…easy to butter" [19]
+138. reviewer_opinion_whitelines: "one of the best park boards out there, regardless of your ability level" [33]
+139. YouTube Archive review (2026): Described as "Just a standard jib board" [34]
+140. positive_aspect: Pop and power from camber + HotRods while maintaining soft flex (multiple user reviews) [23]
+141. positive_aspect: Comfortable from day one; "like an old friend from day one" (Rome site user review) [23]
+142. positive_aspect: Versatile enough for instructor work, park, groomers, and light powder (user review) [23]
+143. positive_aspect: Easy to carve hard with the wide version; playful for flat tricks and butters (user review) [23]
+144. positive_aspect: Good longevity reported by some — one user got "about 13 long seasons on my last Rome snowboard" [23]
+145. positive_aspect: Good for jibbing — "Jibbing Monster…my go to board for jibbing around in the park" (Rome site review) [16]
+146. negative_aspect: Base chipping/crumbling after only 14 days of use; warranty claim rejected (Rome site 1-star review) [23]
+147. negative_aspect: Board shipped without adequate wax — couldn't glide down hill on first use (Rome site 2-star review) [23]
+148. negative_aspect: Top sheet delamination/bubbling near edges after 5 days of aggressive riding (Rome EU site review) [35]
+149. negative_aspect: Extruded base is slower than sintered bases used on competing boards at this price point [22]
+150. negative_aspect: Not suitable for powder — "It's only major weakness is for powder" [17]
+151. negative_aspect: Soft flex means it can feel unstable at higher speeds [17]
+152. negative_aspect: Weight slightly above average for category [17]
+153. negative_aspect: Artifact Pro (sibling model) topsheet cracking reported near binding inserts after light use [36]
+154. comparable_board_same_brand: Rome Artifact Pro — stiffer (5/10 flex), SinterStrong sintered base, Carbon HotRods, $20 more than DOA competitor [37][38]
+155. comparable_board_cross_brand: Capita Horrorscope (softer, reverse camber, more buttery but less pop) [39]
+156. comparable_board_cross_brand: Capita DOA (hybrid camber, more forgiving, similar price point) [38]
+157. comparable_board_cross_brand: Salomon Huck Knife (similar soft freestyle twin) [40]
+158. comparable_board_cross_brand: K2 WWW (reverse camber park twin) [39]
+159. comparable_board_cross_brand: Bataleon Evil Twin (3BT base, catch-free, park-focused) [40]
+160. comparable_board_cross_brand: YES Basic (freestyle twin, similar category) [40]
+161. reviewer_opinion_snowboardingprofiles: The average price for comparable freestyle boards is $518; the Artifact at $499 is below average [17]
+162. Rome SDS reputation (SkatePro): "Rome SDS has been a serious player on the Snowboard market since 2001" [41]
+163. Rome SDS reputation (Curated.com): "one of the most well-known, respected, and best snowboarding brands in the world" [11]
+164. Brand philosophy: Anti-establishment, "by snowboarders for snowboarders," DIY ethos [42]
+165. Notable team riders: Ståle Sandbech (Olympic silver medallist) [42]
+166. evo.com: Major US online snowboard retailer; offers price match guarantee ("beat it by 5%") and free shipping [25]
+167. Ballistyx.com.au: Melbourne-based Australian snowboard retailer operating since 1992; rider-owned [3]
+168. Melbourne Snowboard Centre: Australian retailer at 392 Plenty Rd, Preston; 20% restocking fee on refunds [13]
+169. return_policy_terms: Free shipping on orders over $50; 45-day returns; 2+1 warranty [16][31]
+170. binding_compatibility: 2x4 insert pattern — compatible with all major snowboard bindings [3]
+171. camber_description: Traditional positive camber (not hybrid/rocker) [16][17]
+172. user_review_forum: Easier to repair with P-tex than sintered [22]
+173. user_review_forum: Does not hold wax as well; inherently slower than sintered [22]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/rome-artifact</url>
+  <quote>Board Type: Freestyle · All Mountain 6/10 · Powder 4/10 · Park 9/10</quote>
+  <quote>The Rome Artifact carries on the legacy of the original park board</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/rome-artifact</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre listing for the 2027 Rome Artifact. Merchant-verified product data page. This is the source of the merchant-supplied attribute data for the 2027 model year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-rome-artifact-snowboard</url>
+  <quote>Rome's Stomp Core blends poplar and paulownia wood to create a lightweight and responsive core.</quote>
+  <quote>It's backed up by a durable SinterStrong base that holds speed well</quote>
+  <quote>$849.99 AUD</quote>
+  <quote>Bamboo Omega HotRods keep the board lively and reactive</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-rome-artifact-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Ballistyx is an Australian retailer listing the 2027 model for preorder. Contains a detailed size chart and tech specs but has internal contradictions (body says SinterStrong, tech specs say PowerSlide). Core composition also differs from Rome's historical description. May reflect actual 2027 changes, but lower confidence on claims that differ from official Rome sources.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Nidecker</url>
+  <quote>In 2018, the Nidecker Group acquired the Dutch-based company Low Pressure Studio, owners of Bataleon, Lobster, and Switchback, at the same time adding Rome SDS</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Wikipedia article on Nidecker confirms the 2018 acquisition of Rome SDS through Low Pressure Studio. Wikipedia has editorial oversight and this fact is well-documented across multiple industry sources.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.ndk.group/</url>
+  <quote>The Nidecker Group is home to the most innovative and inspirational board sports and lifestyle brands: Bataleon, Emerica, éS, Etnies, Jones, Nidecker, Rome, Thirtytwo and #YES.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ndk.group/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Nidecker Group website confirming Rome is part of their brand portfolio. Primary authoritative source for corporate ownership.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.skatepro.com/en-us/m568.htm</url>
+  <quote>Rome SDS / Rome Snowboards has been a serious player on the Snowboard market since 2001 when the brand was founded by Josh Reid and Paul Maravetz.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skatepro.com/en-us/m568.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>SkatePro's Rome brand page states the founding year and founders. Consistent with all other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.linkedin.com/company/rome-snowboards</url>
+  <quote>Founded in 2001 by Josh Reid and Paul Maravetz, the Rome Snowboard Design Syndicate continues to produce high quality snowboarding products designed at our headquarters in Waterbury, Vermont</quote>
+  </quotelist>
+  <url_with_text_link>https://www.linkedin.com/company/rome-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Rome LinkedIn page provides authoritative founding info. Direct from the company.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://kemper-snowboards.com/pages/rome-snowboards</url>
+  <quote>Rome Snowboards was founded in 2001 in Waterbury, Vermont by Paul Maravetz and Josh Reid, two former Burton Snowboards product developers.</quote>
+  </quotelist>
+  <url_with_text_link>https://kemper-snowboards.com/pages/rome-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Third-party brand page confirms founders were ex-Burton employees.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.zoominfo.com/c/rome-snowboards-corp/130662773</url>
+  <quote>1 Derby Ln Ste 4, Waterbury, Vermont</quote>
+  </quotelist>
+  <url_with_text_link>https://www.zoominfo.com/c/rome-snowboards-corp/130662773</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Business database confirms headquarters address.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://skipro.com/products/artifact-56w</url>
+  <quote>Rome Snowboards, established in 2001 in Waterbury, Vermont, is driven by a passion for snowboarding. The brand's ethos, "All Ways Down," reflects their commitment to every aspect of snowboarding</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/artifact-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Ski Pro AZ retailer page provides brand context.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.curated.com/journal/1637000/an-expert-guide-to-rome-sds-snowboards</url>
+  <quote>The actual snowboarding equipment is produced by a manufacturer in Québec, Canada.</quote>
+  <quote>one of the most well-known, respected, and best snowboarding brands in the world</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/1637000/an-expert-guide-to-rome-sds-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Curated.com expert guide by snowboard expert Gaelen Mast. States manufacturing location in Québec. Curated is a platform connecting consumers with experts; the article is well-researched.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.boardsportsource.com/big-wig-interview-rome-sds-co-founder-talks-sale-to-nidecker/</url>
+  <quote>All of ROME SDS creative, R&D and design will stay in Waterbury, Vermont, USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/big-wig-interview-rome-sds-co-founder-talks-sale-to-nidecker/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Interview with Rome co-founder Josh Reid discussing the Nidecker acquisition. Confirms design stays in Vermont. Industry trade publication.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/rome-artifact</url>
+  <quote>Board Type: Freestyle · All Mountain 6/10 · Powder 4/10 · Park 9/10</quote>
+  <quote>PREORDER YOUR 2027 MODEL SNOWBOARD NOW</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/rome-artifact</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre listing for the 2027 Artifact. Confirms preorder status and terrain ratings.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://eu.romesnowboards.com/products/rome-artifact-2425-mens-snowboard</url>
+  <quote>Since its debut back in 2004, the Artifact series has developed quite the following in snowboard parks and street spots around the world.</quote>
+  </quotelist>
+  <url_with_text_link>https://eu.romesnowboards.com/products/rome-artifact-2425-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2004</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Rome's own EU webshop states the Artifact series debuted in 2004. This is the primary authoritative source for the model's first year of availability.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url>
+  <quote>The Artifact is built for riders who crave a super pressable ride for downrails, pole jams, rope ollies</quote>
+  <quote>Our high-end, durable, 'faster than you'd expect' extruded base.</quote>
+  <quote>Pressable and playful with plenty of pop.</quote>
+  <quote>Flax Impact Plates are woven flax mats that are housed around the board's insert packs</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Official Rome US product page for the 2526 Artifact. This is THE primary authoritative source for all specifications and technology descriptions. Highest confidence for objective specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url>
+  <quote>Length (cm) 147 150 153 154W 156 157W 159 160W</quote>
+  <quote>Waist Width (cm) 25.2 25.3 25.5 26.5 25.7 26.7 25.8 26.9</quote>
+  <quote>Effective Edge (cm) 112.0 114.6 117.3 118.2 120.0 120.9 122.7 123.6</quote>
+  <quote>$349.95 Regular price $499.95</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Official Rome US product page — full size chart from the fetched page. This is the most authoritative source for specifications, sizing, and current US pricing. Sale price of $349.95 reflects end-of-season 30% discount.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/rome-artifact-review</url>
+  <quote>Rating Score: 83.2/100</quote>
+  <quote>The Artifact ranked 19th= out of 28</quote>
+  <quote>Weight: 3080grams (6lb 13oz)</quote>
+  <quote>Not suitable for beginners, IMO, but still not a hard board to ride</quote>
+  <quote>Camber Height: 4.5mm</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/rome-artifact-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Comprehensive independent review from SnowboardingProfiles. The reviewer (Nate) physically tested the 2024 model (156cm). Provides measured weight, camber height, and detailed scoring across 10 categories. Site is well-regarded in the snowboard community. Review was updated Jan 2026 with links to 2026 model, suggesting specs are substantially unchanged.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/rome-artifact-snowboard</url>
+  <quote>Intermediate-Advanced</quote>
+  <quote>Soft</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/rome-artifact-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>evo.com product listing for the Rome Artifact 2026. evo is one of the largest US snowboard retailers. Their rider level classification differs from the merchant data provided (Beginner-Intermediate vs Intermediate-Advanced).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/rome-artifact-snowboard-review-and-buying-advice/</url>
+  <quote>The Rome Artifact is another great jib park snowboard from Rome and one of the few true camber boards left in the jib park.</quote>
+  <quote>Nice stable easy feel that wants to play in the jib park.</quote>
+  <quote>Turn Initiation: Very quick and easy edge to edge</quote>
+  <quote>Flex: Nice soft playful buttery feel</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/rome-artifact-snowboard-review-and-buying-advice/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2015</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-known snowboard review site. Their review is of the 2015 model but the core character of the Artifact has remained consistent. Provides on-snow impressions from an experienced reviewer.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/rome-artifact-snowboard-2024</url>
+  <quote>Stompcore – 100% Poplar Construction is Rome's most stable and predictable core.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/rome-artifact-snowboard-2024</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>evo.com 2024 model page describes the Stomp Core as 100% Poplar. This matches Rome's own language in prior years. Conflicts with Ballistyx 2027 description of poplar+paulownia blend.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://romesnowboards.com/blogs/news/snowboard-features-explained</url>
+  <quote>Our PowerSlide Base is an upgraded, faster, and more durable extruded base which can be found on models like the Agent, the Boneless and the Artifact.</quote>
+  <quote>All our edges are made from high quality stainless steel</quote>
+  <quote>sidewalls are made from a material which has a dampening effect</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/blogs/news/snowboard-features-explained</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Rome blog post explaining their snowboard technologies. Definitively states the Artifact uses the PowerSlide extruded base, not SinterStrong. This directly contradicts Ballistyx's body text claim.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/rome-snowboards-extruded-powerslide-base.273502/</url>
+  <quote>its still an extruded base that won't hold wax at all and is still the slower base option</quote>
+  <quote>The only advantage extruded bases have is that they are easier to repair with p-tex.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/rome-snowboards-extruded-powerslide-base.273502/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Forum discussion from snowboarding enthusiasts about the PowerSlide base specifically. Multiple users provide informed opinions on extruded vs sintered bases. Anecdotal but represents real rider sentiment on this purchase-critical attribute.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url>
+  <quote>After just 14 days of use, the board is no longer rideable. The base has started to chip and crumble along the edges.</quote>
+  <quote>The camber and hot rods give the board all the pop and power I was looking for while still keeping a softer flex like I like.</quote>
+  <quote>I got about 13 long seasons on my last Rome snowboard.</quote>
+  <quote>Took it out for the first time today and I couldn't get down the hill.</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/products/rome-artifact-2526-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>User reviews on the official Rome product page. These are verified purchasers (posted through Rome's review system). The range of opinions from 1-star to 5-star provides important durability and user experience data.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/rome-artifact-pro-snowboard-review</url>
+  <quote>I measured this one (Artifact Pro) at 6.5mm and the regular Artifact was 4.5mm.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/rome-artifact-pro-snowboard-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Independent reviewer physically measured the camber height of the standard Artifact at 4.5mm. This is a measured, not manufacturer-stated, value. Useful comparison data for Artifact vs Artifact Pro.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/rome-artifact-snowboard</url>
+  <quote>Rome Artifact Snowboard 2026 · $499.95</quote>
+  <quote>The Rome Artifact Snowboard 2026 is in stock now.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/rome-artifact-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>evo.com is the largest US online snowboard retailer. Confirms $499.95 MSRP and in-stock status for the 2026 model.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://skipro.com/products/artifact-56w</url>
+  <quote>$499.95 · Sold Out</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/artifact-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Ski Pro AZ listing confirms $499.95 price point but sold out status. Shows strong demand for the model.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.ebay.com/b/Rome-Artifact/260708/bn_7023327247</url>
+  <quote>Price · Under $280 · $280 to $300 · Over $300</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/b/Rome-Artifact/260708/bn_7023327247</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>eBay listing page showing secondary market prices. Useful for understanding resale value range but prices vary widely by condition and year.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.skatepro.com/en-us/60-52017.htm</url>
+  <quote>Built for the true freestylers, the Rome Artifact Snowboard offers endless fun in the park. With a forgiving flex of 4</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skatepro.com/en-us/60-52017.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>SkatePro is a European online retailer. Confirms flex rating of 4 and freestyle positioning.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://romesnowboards.com/pages/warranty</url>
+  <quote>We provide a 2 year limited warranty against manufacturing defects from the original date purchased from an Authorized Dealer.</quote>
+  <quote>Delamination. Problems with Inserts. Cracked topsheet</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/pages/warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Rome warranty page. Primary authoritative source for warranty terms.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://romesnowboards.com/pages/register</url>
+  <quote>*2+1 year warranty is only valid for snowboards and bindings that you have purchased in the last 12 months.</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/pages/register</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Rome product registration page. Confirms the 2+1 warranty extension program (3 years when registered and subscribed to newsletter).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://romesnowboards.com/</url>
+  <quote>We have a 45 day return policy, giving you 45 days from the day of delivery to request a return.</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Rome's official homepage footer stating return policy. Primary source for purchasing terms.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://images-na.ssl-images-amazon.com/images/I/81Lqij9fgvS.pdf</url>
+  <quote>The warranty period for most Rome Products is two years from this start date; the only exception is that Rome extends a lifetime parts warranty to their bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://images-na.ssl-images-amazon.com/images/I/81Lqij9fgvS.pdf</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Rome warranty PDF hosted on Amazon. Provides detailed warranty policy information. Older document but warranty terms have remained substantially consistent.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/rome-artifact-2020-2021.html</url>
+  <quote>one of the best park boards out there, regardless of your ability level.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/rome-artifact-2020-2021.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020-10</date_of_first_relevance>
+  <date_of_last_relevance>2021-09</date_of_last_relevance>
+  <reasoning>Whitelines is a respected snowboard publication. Review of the 2020-2021 model. Older year but provides credible press perspective on the Artifact line's standing.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.youtube.com/watch?v=RgyQTx8J-wE</url>
+  <quote>Just a standard jib board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.youtube.com/watch?v=RgyQTx8J-wE</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>YouTube video review of the 2026 Artifact. Brief summary characterizes it as a standard jib board — useful for quick comparison positioning.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://eu.romesnowboards.com/products/rome-artifact-2425-mens-snowboard</url>
+  <quote>the top layer is starting to bubble/delaminate near the edges but I also ride aggressive</quote>
+  </quotelist>
+  <url_with_text_link>https://eu.romesnowboards.com/products/rome-artifact-2425-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>User review on Rome EU webshop for the 2425 model reporting topsheet delamination after 5 days. Individual anecdote but posted on official manufacturer's site.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://romesnowboards.com/products/rome-artifact-pro-2526-mens-snowboard</url>
+  <quote>The top sheet is folding up and cracking on both sides of the board in the exact same spot just outside the binding inserts.</quote>
+  </quotelist>
+  <url_with_text_link>https://romesnowboards.com/products/rome-artifact-pro-2526-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>User review on Rome's own Artifact Pro page reporting topsheet cracking after only 7-8 rides. Relevant to the Artifact family's overall durability reputation even though it's the Pro model.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/2023-rome-snowboards-overview</url>
+  <quote>Slightly stiffer version of the Artifact (5/10 vs 4/10 on the artifact). It also has a sintered base (SinterStrong) versus the extruded base (PowerSlide base) that's on the regular Artifact.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/2023-rome-snowboards-overview</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles overview clearly differentiates the Artifact (PowerSlide/extruded) from the Artifact Pro (SinterStrong/sintered). Confirms that the regular Artifact has always used an extruded base.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/rome-artifact-pro-review/</url>
+  <quote>The Artifact Pro is $20 cheaper than the DOA for the latest version</quote>
+  <quote>The DOA uses a hybrid camber profile…The Artifact Pro has a plain old traditional camber profile</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/rome-artifact-pro-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Board of the World review provides direct comparison between Rome Artifact Pro and Capita DOA. Useful for competitive positioning context. Dated March 2026.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/capita-horrorscope-or-rome-artifact-rocker.39474/</url>
+  <quote>I've read that the Horrorscope is the more buttery board, while the Artifact Rocker has more pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/capita-horrorscope-or-rome-artifact-rocker.39474/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2011</date_of_first_relevance>
+  <date_of_last_relevance>2012</date_of_last_relevance>
+  <reasoning>Forum discussion comparing Rome Artifact to Capita Horrorscope. Older thread but the relative positioning of these two longstanding models remains similar. Forum posts are anecdotal.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/help-me-pick-a-park-board.268100/</url>
+  <quote>the Artifact and the Huck Knife look most appealing to me</quote>
+  <quote>Rome Artifacts I've owned 3 models…They all broke in to the point they were hard to ride</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/help-me-pick-a-park-board.268100/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Forum discussion about park board selection. Provides competitive context (YES Basic, Capita Outsiders, Bataleon Evil Twin, Salomon Huck Knife mentioned as alternatives). Also contains a durability concern from a multi-Artifact owner. Forum posts are anecdotal.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.skatepro.com/en-us/m568.htm</url>
+  <quote>Rome SDS / Rome Snowboards has been a serious player on the Snowboard market since 2001</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skatepro.com/en-us/m568.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Retailer brand page providing general reputation context.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-culture/scene/interviews/all-ways-down-20-years-of-rome-sds.html</url>
+  <quote>a DIY ethos – that scrappy East Coast 'born of ice' attitude.</quote>
+  <quote>Stale getting silver at the Sochi winter Olympics</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-culture/scene/interviews/all-ways-down-20-years-of-rome-sds.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Whitelines 20-year anniversary feature on Rome SDS. Excellent source for brand history and ethos. Reputable snowboard publication.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+</citations>
+</response>

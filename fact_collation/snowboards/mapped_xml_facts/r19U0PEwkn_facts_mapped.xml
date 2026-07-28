@@ -1,0 +1,984 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="14" category="availability" />
+  <duplicate_canonical name="comparable_board_same_brand" count="11" category="comparable" />
+  <duplicate_canonical name="sustainability_certification" count="8" category="sustainability" />
+  <duplicate_canonical name="construction_material_innovation" count="6" category="construction" />
+  <duplicate_canonical name="positive_aspect" count="6" category="review" />
+  <duplicate_canonical name="negative_aspect" count="6" category="review" />
+  <duplicate_canonical name="flex_rating_10" count="4" category="performance" />
+  <duplicate_canonical name="skill_level_recommendation" count="4" category="recommendation" />
+  <duplicate_canonical name="warranty" count="4" category="warranty" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="turn_initiation_performance" count="3" category="performance" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="flex_direction" count="2" category="unknown" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="overall_rating_snowboardingprofiles" count="2" category="review" />
+  <duplicate_canonical name="user_review_forum" count="2" category="review" />
+  <duplicate_canonical name="chatter_performance" count="2" category="performance" />
+  <duplicate_canonical name="weight_per_cm" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="graphic_designer_artist" count="2" category="identity" />
+  <duplicate_canonical name="return_policy_terms" count="2" category="warranty" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][34]
+2. model_name: Process [1][34]
+3. Full product name: Men's Burton Process Camber Snowboard [34]
+4. model_year: 2026 (Winter 2025/2026 season) [1][34]
+5. model_first_available_year: Burton Process (long-running model, reviewed by The Good Ride as "Burton Process 2011-2018" indicating the model dates back to at least 2011) [48]
+6. 2026 model update: Graphics only — "What is new on the 2026 model? Graphics." [40]
+7. manufacturer: Burton Snowboards, founded 1977 by Jake Burton Carpenter [112][46]
+8. Manufacturer headquarters: Burlington, Vermont, USA [46][112]
+9. manufacturing_location: Kiel-Nindl GMBH, Austria [29][103]
+10. sustainability_certification: Sources almost all materials within 250-mile radius, makes own board cores from FSC Certified wood, uses scrap wood to heat factory and presses [104]
+11. Burton market position: World's leading snowboard company, privately owned [112]
+12. sustainability_certification: Burton is a certified B Corporation [MERCHANT]
+13. product_type: Snowboard [1]
+14. board_category: All Mountain [13][1]
+15. Board subtype: All-Mountain Freestyle [50]
+16. gender: Men's [34]
+17. SKU: 106921 (Burton product code W26-106921) [34]
+18. Merchant SKU: 106921CA03RG152 [MERCHANT]
+19. pro_rider_name: Mark McMorris [3][33]
+20. price_usd_msrp: $549.95 [29][82][65]
+21. price_aud_merchant: $879.99 [MERCHANT]
+22. price_aud_merchant: $703.99 (20% off) [MERCHANT]
+23. comparable_board_same_brand: $679.95 [69]
+24. price_usd_evo: $439.96 (20% off $549.95) [68]
+25. availability_status: In stock, $549.95, free shipping, 1-year return policy, lowest price guarantee (beat by 5%) [32][54]
+26. availability_status: $549.95, members earn ~$54.99 rewards, style listed as "All-mountain, Freestyle" [82][84]
+27. availability_status: $549.95 (out of stock at time of search), 90-day returns [29]
+28. availability_status: Available, free shipping over $100 [36]
+29. availability_status: Available, 2026 Winter [7][6]
+30. availability_status: Available, price-match within 10 days, free binding installation with board+binding purchase [33]
+31. availability_status: Available [40] (Flying V variant listed; camber also available)
+32. availability_status: Listed as 2025 model available [24]
+33. availability_status: Available [13]
+34. availability_status: Available [8]
+35. availability_status: Available [34]
+36. availability_status: Available [5]
+37. Shipping restriction on merchant site: Australia only [MERCHANT]
+38. availability_status: Available [28]
+39. availability_status: Available [110]
+40. Camber variant: Burton Process Camber (PurePop Camber) — the subject board [34][1]
+41. comparable_board_same_brand: Burton Process Flying V (hybrid rocker/camber profile) — same price, same construction except profile [40][9]
+42. Flying V profile description: Rocker zones between and outside your feet for enhanced playfulness and float; camber zones underneath your feet for edge control, pop, and powerful turns [41]
+43. comparable_board_same_brand: Burton Process Smalls — available for youth riders [30]
+44. width_options: Standard and Wide [MERCHANT]
+45. Flying V flex rating (per The Inertia): 4/10 [70]
+46. shape: Twin (True Twin) — perfectly symmetrical tip to tail [1][14]
+47. Shape description: Perfectly symmetrical for a balanced ride that's equally versatile regular or switch [14]
+48. flex_direction: Twin Flex — flex is perfectly symmetrical from tip to tail [14][1]
+49. setback: 0mm (all sizes per merchant specs) [MERCHANT]
+50. setback: 12.5mm (0.5") stance setback on 157cm [Review site data]
+— DISAGREEMENT: Merchant specs list 0mm setback for all sizes; Snowboarding Profiles measured 12.5mm setback in practice. This may reflect the difference between board geometry (0mm) and actual stance reference position.
+51. camber_type: PurePop Camber [1][14]
+52. camber_description: An evolution of traditional camber with subtle flat zones just outside your feet to amplify pop and add playfulness [14][32]
+53. camber_description: Early rise tip and tail sections spin and float with a catch-free feel [14]
+54. camber_height_mm: 7mm [Review site data]
+55. camber_type: Hybrid Camber [Review site data — Snowboarding Profiles]
+56. flex_rating_10: 3.5/10 [MERCHANT]
+57. flex_rating_10: Medium, 6 out of 10 [29]
+58. flex_rating_10: Medium-Soft, feel on snow 5/10 [Review site data]
+59. flex_feel: Stiff [84]
+60. flex_rating_10: Felt closer to 6 or 7 out of 10 on stiffness scale [26]
+— DISAGREEMENT: Burton rates the board at 3.5/10 (soft-medium). The Ski Monster rates 6/10 (medium). MtnWeekly reviewer felt it was 6-7/10. REI lists "Stiff". Snowboarding Profiles says 5/10 on snow. Multiple reviewers note the board feels stiffer on snow than the official rating suggests. The merchant/Burton rating of 3.5 appears to be the lowest; independent reviewers consistently rate it higher.
+61. flex_direction: Even/uniform twin flex [14]
+62. flex_feel: "A midflex feel makes it feel energetic and jibby" [29]
+63. flex_feel: "Nice medium flex that feels easier and more playful on snow than it does when flexing it in hand" [25]
+64. core_material: Super Fly II 700G Core [14][22]
+65. core_material: Stronger and lighter woods target specific areas to provide pop, strength, and reduced weight [22]
+66. sustainability_certification: FSC Certified (Forest Stewardship Council) [29][106]
+67. construction_material_innovation: Dualzone EGD (Engineered Grain Direction) [14][22]
+68. construction_material_innovation: Wood grain positioned along toe and heel edges on two continuous zones, perpendicular to rest of wood core for consistent edge hold and added strength [14]
+69. construction_material_innovation: Squeezebox [14][22]
+70. construction_material_innovation: Thicker more powerful core sections balanced with thinner more flexible sections; rider energy transferred outward from beneath feet, energizing tip and tail [14]
+71. laminate: Triax Fiberglass [14][22]
+72. laminate: Glass strands weaved together in three directions at 45°, 45°, and 0° — allows for softer flexing board for presses while maintaining strength, pop, and response [110]
+73. resin: Super Sap Epoxy [14][32]
+74. sustainability_certification: Bio-based resin, reduces carbon footprint by 50% over conventional petroleum-based epoxies [14]
+75. base_type: Sintered [14][22]
+76. base_material: Durable and highly porous, superior wax absorption for greater overall glide [14]
+77. edge_technology: Frostbite Edges [14][32]
+78. edge_technology: Edges extend out slightly from sidewall beneath bindings for added bite on hardpack and ice; smooth and buttery when not engaged [14]
+79. construction_material_innovation: Pro-Tip — tip and tail taper out at points, reducing swing weight and promoting mobility [MERCHANT]
+80. construction_material_innovation: Infinite Ride — board overbuilt then machine-broken-in to maintain flex, pop, and feel from day one through many seasons [14][32]
+81. mounting_pattern: The Channel [14][22]
+82. mounting_pattern: Compatible with all major binding brands, gives ultimate control of stance width and location [14]
+83. binding_compatibility: Works best with Burton EST bindings [13]
+84. Channel system replaced Burton 3D mounting pattern in 2014 [56]
+85. available_sizes: 152cm, 155cm, 157cm, 159cm, 162cm [MERCHANT]
+86. available_sizes: 155cm W, 157cm W, 159cm W, 162cm W [MERCHANT]
+87. Effective edge (157cm): 1215mm [MERCHANT]
+88. sidecut_radius_size: 8.1m [MERCHANT]
+89. Waist width (157cm): 252mm [MERCHANT]
+90. tip_tail_width_size: 294.9mm [MERCHANT]
+91. stance_width_range_size: 560mm [MERCHANT]
+92. recommended_weight_range_size: 68-91kg / 150-200lbs [MERCHANT]
+93. terrain_suitability: 5/10 [13][MERCHANT]
+94. terrain_suitability: 10/10 [13][MERCHANT]
+95. terrain_suitability: 6/10 [13][MERCHANT]
+96. skill_level_recommendation: Beginner-Intermediate [MERCHANT]
+97. skill_level_recommendation: Intermediate to Advanced [Review site data]
+98. skill_level_recommendation: Progressing beginner or intermediate riders; more playful advanced riders; park riders [29]
+99. skill_level_recommendation: Not suitable for beginners [26]
+— DISAGREEMENT: Merchant lists "Beginner-Intermediate." Snowboarding Profiles and MtnWeekly position it for intermediate-to-advanced. The Ski Monster says beginner-to-intermediate. Burton's camber profile (even PurePop) may be more demanding for true beginners vs. Flying V.
+100. overall_rating_snowboardingprofiles: 83.1/100 (ranked 23rd out of 32 all-mountain boards tested) [Review site data]
+101. overall_rating_snowboardingprofiles: 84.6/100 [Review site data]
+102. powder_score_snowboardingprofiles: 2.5/5 [Review site data]
+103. carving_score_snowboardingprofiles: 3/5 [Review site data]
+104. turn_initiation_performance: 4/5 [Review site data]
+105. Snowboarding Profiles speed score: 3/5 [Review site data]
+106. Snowboarding Profiles crud score: 3/5 [Review site data]
+107. Snowboarding Profiles trees score: 4/5 [Review site data]
+108. Snowboarding Profiles switch score: 4/5 [Review site data]
+109. Snowboarding Profiles jumps score: 4/5 [Review site data]
+110. Snowboarding Profiles spins score: 4/5 [Review site data]
+111. Snowboarding Profiles butters score: 4/5 [Review site data]
+112. Snowboarding Profiles rails score: 3.5/5 [Review site data]
+113. Merchant average review rating: 5.0/5 (1 review) [MERCHANT]
+114. reviewer_opinion_the_good_ride: 4.0/5 (from 3 reviews, 2011-2018 model) [48]
+115. user_review_forum: Positive; low intermediate rider found 159cm fun for improving turns, holds well, steady at speed [27]
+116. pop: Easy to access, good snap from PurePop camber [11][26]
+117. positive_aspect: Reviewer's most liked feature — agile, easy pop, confidence in harder-to-access side-hits [11]
+118. switch_riding: Really good, easy transitions, rides very similar switch to regular direction [11]
+119. turn_initiation_performance: Nice and easy to initiate, doesn't take a lot of effort [50]
+120. positive_aspect: Nice and easy to butter on without risk of over-flexing [Review site data]
+121. turn_initiation_performance: Quick edge to edge [29]
+122. positive_aspect: Predictable with huge sweet spot [29]
+123. freestyle_park_rating: Twin shape for switch riding and solid pop for park laps [29]
+124. positive_aspect: Confident, decisive and a ton of fun at slow speeds [11]
+125. positive_aspect: "This board honestly allows you to try every type of movement, from butters, to carving, to any type of rotational air, and even powder" [30]
+126. positive_aspect: Burton worked to reduce weight with lighter wood core — you can feel it, the thing is easy to maneuver [30]
+127. negative_aspect: Becomes shy, hesitant and awkward at moderately fast speeds and above [11]
+128. negative_aspect: Not the most stable option; has a speed limit compared to burlier boards [29]
+129. negative_aspect: Gets washy during high speed or low angle carves [11]
+130. chatter_performance: Got bucked around easily, lots of chatter in uneven terrain [Review site data]
+131. negative_aspect: Not great in powder; board will get sinky in deep powder [11]
+132. negative_aspect: Not super stable on faster approaches or landings for larger jumps [11]
+133. negative_aspect: Aggressive riders looking for a powerful hard-charging board [29]
+134. chatter_performance: Chattery rather than damp [Review site data]
+135. board_weight_grams: 3100g / 6lbs 13oz [Review site data — Snowboarding Profiles]
+136. weight_per_cm: 19.75 g/cm (vs average of 18.64 g/cm across 300+ models) [Review site data]
+137. weight_per_cm: Felt a little heavier than normal compared to other boards tested [Review site data]
+138. warranty_period_years: 3-year warranty from date of purchase for all Channel-equipped Burton boards purchased after 08/13/13 [92][93]
+139. warranty: Against manufacturer's defects; repair or replace [92]
+140. warranty: Warranty claim processed and shipped back within 2 business days of receipt [95]
+141. warranty: Misuse, abuse, neglect, improper mounting, chairlift breakage, normal wear and tear, rock/impact damage, non-Burton hardware damage, eBay purchases [92][95]
+142. warranty: Products purchased from Authorized Burton Dealers, original purchaser only [92]
+143. sustainability_certification: 100% of Burton board cores are FSC certified [106]
+144. sustainability_certification: Reduces carbon footprint by 50% over conventional petroleum-based epoxies [14]
+145. sustainability_certification: Recycles sidewall and base scrap materials; water used in production recycled in closed loop reducing water usage by 50% [104]
+146. sustainability_certification: Uses scrap wood to heat factory and presses [104]
+147. comparable_board_same_brand: Custom is directional twin (longer nose); Process is true twin [75]
+148. comparable_board_same_brand: Custom is stiffer/more aggressive; Process is softer/more playful [75]
+149. comparable_board_same_brand: Custom has higher grade WFO sintered base and full tip-to-tail carbon layer; Process does not [72]
+150. comparable_board_same_brand: Process more park/freestyle oriented; Custom more all-mountain oriented [73]
+151. comparable_board_same_brand: Custom $679.95 vs Process $549.95 (Process is $130 cheaper) [65][69]
+152. comparable_board_same_brand: Process has easier-to-access pop but less total pop than Custom or Custom X [11]
+153. comparable_board_same_brand: Custom's extra stiffness and directional shape gives it the edge in powder [75]
+154. comparable_board_same_brand: Flying V is more forgiving and playful; Camber (PurePop) has more edge hold and precision [40]
+155. comparable_board_cross_brand: K2 Antidote — stiff but tons of pop, more advanced-rider oriented alternative [70]
+156. comparable_board_cross_brand: Ride Moderator — more approachable all-mountain option for those who don't want to bring A-game to every turn [70]
+157. comparable_board_cross_brand: Salomon Assassin — commonly compared in expert comparisons [77]
+158. comparable_board_cross_brand: Capita Mercury — mentioned by forum users as alternative for riders upgrading from Process [78]
+159. user_review_forum: Forum users suggest upgrading from Process to Custom or Capita Mercury when seeking stiffer, more stable all-mountain ride [78]
+160. graphic_designer_artist: Photographer Annie Spratt [82]
+161. graphic_designer_artist: Sean William Randall [40]
+162. topsheet_appearance_description: Tiger graphic with glow-in-the-dark elements [56]
+163. Recommended bindings used in review: Burton Malavita (Snowboarding Profiles), Burton Cartel X EST (MtnWeekly) [26][Review site data]
+164. The Process is described as "best-selling board in Burton's freestyle range" [75]
+165. return_policy_terms: Up to 1 full year [54]
+166. return_policy_terms: 90 days, new condition [103]
+167. REI membership reward on this board: ~$54.99 [82]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard</url>
+  <quote>The Burton Process Snowboard is a twin-shaped terror that brings freestyle finesse to every corner of the mountain.</quote>
+  <quote>PurePop camber and a snappy Super Fly II™ 700G Core deliver the perfect blend of power and playfulness</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is a major authoritative US retailer of snowboard equipment. Their product listing provides official Burton product descriptions and specifications. Highly reliable for stated specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.corbetts.com/burton-process-snowboard-2026/</url>
+  <quote>The men's Burton Process Snowboard is Mark McMorris' pick for its twin freestyle playfulness and all-terrain prowess.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-process-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Corbetts is an authorized Burton dealer. The Mark McMorris association is confirmed across multiple official and retail sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.burton.com/gb/en/p/mens-burton-process-camber-snowboard/W26-106921.html</url>
+  <quote>Shop the Men's Process Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/gb/en/p/mens-burton-process-camber-snowboard/W26-106921.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton website GB store confirming the W26-106921 product code and categorization.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://peterglenn.com/burton-process-camber-wide-snowboard-mens-2026-winter/</url>
+  <quote>The Burton Process Camber Wide Snowboard is an all-mountain board that blends performance with freestyle precision.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-process-camber-wide-snowboard-mens-2026-winter/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Peter Glenn is a reputable ski/snowboard retailer confirming availability and wide variant.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://peterglenn.com/burton-process-camber-snowboard-mens-2026-winter/</url>
+  <quote>The Burton Process Camber Snowboard is an all-mountain board that blends performance with freestyle precision.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-process-camber-snowboard-mens-2026-winter/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Peter Glenn confirming standard width availability.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.absolute-snow.co.uk/burton-process-snowboards-men-2026</url>
+  <quote>This board is ideal for beginner to intermediate riders who want a versatile all-mountain twin with freestyle flair.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.co.uk/burton-process-snowboards-men-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>UK retailer confirming availability and providing rider level recommendation.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://peterglenn.com/burton-process-flying-v-snowboard-men-s-2026-winter/</url>
+  <quote>The Burton Process Flying V Snowboard is performance-tuned for freestyle playfulness and all-mountain ripping.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-process-flying-v-snowboard-men-s-2026-winter/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms Flying V variant existence and availability.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/burton-process-review-all-mountain-snowboard</url>
+  <quote>Riding slow it's confident, decisive and a ton of fun! But get it up past moderately fast speeds and it becomes shy, hesitant and awkward.</quote>
+  <quote>Side-hits: This was the part of the Process I liked the most. It was nice and agile and nice easy access pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/burton-process-review-all-mountain-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles is a dedicated review site that weighs and tests boards with standardized methodology across 300+ models. Highly detailed and independent. Review was of 2025 model but specs are identical to 2026.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/burton-process</url>
+  <quote>Designed to meet the pro end demands of Burton pro rider Mark McMorris but while still being a friendly enough ride for the everyday rider</quote>
+  <quote>Board Type: All Mountain · Park 5/10 · All Mountain 10/10 · Powder 6/10</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-process</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian authorized dealer listing confirming terrain ratings and pro rider association.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard</url>
+  <quote>PurePop Camber – An evolution of a traditional camber shape, PurePop Camber profile features subtle flat zones just outside your feet</quote>
+  <quote>Sintered Base – Durable and highly porous, get added durability and superior wax absorption for greater overall glide.</quote>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo product detail page with full Burton technology descriptions. Reliable for specification details.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard</url>
+  <quote>Super Fly II™ 700G Core – Stronger and lighter woods target specific areas of the core to provide pop, strength, and reduced weight.</quote>
+  <quote>Dualzone™ EGD™ – The wood grain is positioned along the toe and heel edges on two continuous zones</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Same evo source providing core and construction specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://buckmans.com/product/49651/burton-process-snowboard-mens</url>
+  <quote>All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty from date of purchase.</quote>
+  </quotelist>
+  <url_with_text_link>https://buckmans.com/product/49651/burton-process-snowboard-mens</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Buckmans confirms warranty and provides additional product details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-process-2011-2018-snowboard-review/</url>
+  <quote>Nice medium flex that feels easier and more playful on snow than it does when flexing it in hand.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-process-2011-2018-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2011</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent review site with ethics statement about not being paid by manufacturers. Long-running Process review covering multiple years. Somewhat dated but flex character observations remain relevant.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://mtnweekly.com/reviews/snowboards/burton-process-camber-snowboard/</url>
+  <quote>I did find the camber was a little on the stiffer side although Burton and other retailers rate it on the low to medium flex rating.</quote>
+  <quote>Personally I felt it was closer to a 6 or 7 out of 10 on the stiffness scale.</quote>
+  </quotelist>
+  <url_with_text_link>https://mtnweekly.com/reviews/snowboards/burton-process-camber-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Mountain Weekly News professional review tested at Grand Targhee and Jackson Hole. Provides an important disagreement on flex rating. Very recent publication.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.rei.com/product/238081/burton-process-camber-snowboard-20242025</url>
+  <quote>I found the 159 fun for improving my quick turns. It holds well on loud powder, firm, and is steady at speed.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/238081/burton-process-camber-snowboard-20242025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>REI user review from verified purchaser of 2024/25 model. Provides real-world user experience data.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.skatepro.com/en-us/60-52361.htm</url>
+  <quote>Introducing the Burton Process Snowboard, the ultimate all-mountain ride for intermediate riders</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skatepro.com/en-us/60-52361.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SkatePro confirming availability and positioning.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://theskimonster.com/products/burton-process</url>
+  <quote>Flex // Medium (6 out of 10) Shape // True Twin Profile // Camber Core Materials // FSC Certified Super Fly 700g</quote>
+  <quote>Built By // Kiel-Nindl GMBH, Austria</quote>
+  <quote>Aggressive riders looking for a powerful hard-charging board.</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/burton-process</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Ski Monster is an expert specialty shop that tests everything they sell. Provides independent flex rating (6/10) and manufacturing info (Kiel-Nindl Austria).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/gear-we-test-burton-process-camber-snowboard/</url>
+  <quote>Burton has worked to reduce the weight in this ride by opting for a "lighter wood core" and it isn't just marketing jargon – you can feel it.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/gear-we-test-burton-process-camber-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-07</date_of_first_relevance>
+  <date_of_last_relevance>2022-07</date_of_last_relevance>
+  <reasoning>The Inertia is a reputable outdoor media site. Review provides hands-on feel assessment, though from an earlier model year. Core technology is unchanged.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard</url>
+  <quote>The Burton Process Snowboard 2026 is in stock now.</quote>
+  <quote>Infinite Ride™ – This Burton-exclusive technology allows maximized pop and strength by overbuilding the board</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo confirms in-stock status and provides Infinite Ride technology description.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.eriksbikeshop.com/products/burton-process-snowboard-2026-pr5a24509</url>
+  <quote>The 2026 Burton Process Snowboard is Mark McMorris' pick for its twin freestyle playfulness and all-terrain prowess.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/burton-process-snowboard-2026-pr5a24509</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>ERIK'S is a US retailer confirming availability and providing value-added services info.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/mens-burton-process-camber-snowboard/W26-106921.html</url>
+  <quote>Shop the Men's Process Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/mens-burton-process-camber-snowboard/W26-106921.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton US website product page. Primary authority for product identity, though JavaScript-dependent content limited what could be extracted.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.corbetts.com/burton-process-snowboard-2026/</url>
+  <quote>Corbetts.com offers you the best selection of mens snowboards at unbeatable prices. Free shipping over $100!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-process-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms retailer availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2026</url>
+  <quote>What is new on the 2026 model? Graphics.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is a specialty snowboard retailer. Directly confirms that the only change for 2026 is graphics — important for buyers considering prior-year models at discounts.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-flying-v-snowboard</url>
+  <quote>Flying V™ – Flying V rocker features rocker zones between and outside your feet for enhanced playfulness</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-flying-v-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo listing for Flying V variant confirms profile details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://brand.burton.com/history-2/</url>
+  <quote>In 1977 Jake made Burton Snowboards an official company.</quote>
+  <quote>In 1992, the company moved its factory and headquarters to its current home in Burlington, Vermont.</quote>
+  </quotelist>
+  <url_with_text_link>https://brand.burton.com/history-2/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton brand history page. Primary source for company founding date and headquarters.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-process-2011-2018-snowboard-review/</url>
+  <quote>Burton Process 2011-2018 Snowboard Review</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-process-2011-2018-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2011</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>The Good Ride review title confirms the Process model dates back to at least 2011. This establishes model lineage.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/burton-process-review-all-mountain-snowboard</url>
+  <quote>Ease of Turning/Slashing: Nice and easy to initiate turns on and doesn't take a lot of effort.</quote>
+  <quote>Nothing to test in on the day, but specs and experience with other similar boards suggests it won't be great in powder.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/burton-process-review-all-mountain-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles detailed performance testing data.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard</url>
+  <quote>Take up to a full year to return your item!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo return policy details relevant to purchase decision.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://buckmans.com/product/49651/burton-process-snowboard-mens</url>
+  <quote>The men's Burton Process Snowboard, with the coveted Tiger graphic, is Mark McMorris' pick</quote>
+  <quote>The Channel replaced Burton's 3D mounting pattern in 2014.</quote>
+  </quotelist>
+  <url_with_text_link>https://buckmans.com/product/49651/burton-process-snowboard-mens</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Buckmans 2025 model listing confirms Channel system history and graphic details.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="65">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-process-snowboard-2025</url>
+  <quote>Burton Process Snowboard 2026 · $549.95 View Selections</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-process-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo 2025 listing showing 2026 price at $549.95.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="68">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/burton-process-snowboard-2022</url>
+  <quote>Burton Process Snowboard 2025 · $549.95 $439.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/burton-process-snowboard-2022</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Shows prior-year Process sale pricing for value comparison.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="69">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-custom-snowboard</url>
+  <quote>Burton Custom Snowboard - Blem 2026 $679.95 $475.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-custom-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Burton Custom pricing from evo for competitive comparison.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="70">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/best-snowboards/</url>
+  <quote>Burton's Flying V camber has become somewhat polarizing, but we found that in the Burton Process, it was the sweet spot</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/best-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Inertia's 2026 best snowboards roundup provides competitive context and mentions Flying V and alternative boards.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="72">
+  <quotelist>
+  <url>https://snowboardrobot.com/difference-burton-custom-process/</url>
+  <quote>The Custom has a base that is one notch higher (faster) than the Process, as well as a full tip-to-tail carbon layer</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/difference-burton-custom-process/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Robot provides a detailed, knowledgeable comparison between Custom and Process. Confirms key construction differences.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="73">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-custom-vs-process-for-all-mountain-riding.200481/</url>
+  <quote>The Process is a bit more park oriented while the Custom is a bit more all mountain but both are very capable in either terrain.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-custom-vs-process-for-all-mountain-riding.200481/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016-01</date_of_first_relevance>
+  <date_of_last_relevance>2016-01</date_of_last_relevance>
+  <reasoning>Community forum discussion providing rider perspectives on Custom vs Process positioning. Lower credibility as forum but consistent with expert views.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="75">
+  <quotelist>
+  <url>https://snowboardselector.com/burton-custom-vs-burton-process/</url>
+  <quote>The Process is the board of choice for pro-snowboarder Mark McMorris, who has ridden it to multiple gold medal titles</quote>
+  <quote>The Custom will give you more control if you are riding bigger, steeper resorts.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardselector.com/burton-custom-vs-burton-process/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Selector provides a detailed owner comparison of both boards from firsthand experience over multiple years.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="77">
+  <quotelist>
+  <url>https://www.curated.com/journal/3557029/expert-comparison-burton-process-snowboard-2024-vs-burton-custom-snowboard-2024</url>
+  <quote>The Burton Process is a great choice for beginners and intermediate riders who want a forgiving and versatile board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/3557029/expert-comparison-burton-process-snowboard-2024-vs-burton-custom-snowboard-2024</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-02</date_of_first_relevance>
+  <date_of_last_relevance>2024-02</date_of_last_relevance>
+  <reasoning>Curated.com expert comparison contributed by multiple snowboarding experts. Provides buyer guidance.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="78">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/which-snowboard-to-replace-burton-process-with.277917/</url>
+  <quote>I got the Process as a softer deck to progress from beginner to intermediate.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/which-snowboard-to-replace-burton-process-with.277917/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-02</date_of_first_relevance>
+  <date_of_last_relevance>2023-02</date_of_last_relevance>
+  <reasoning>Forum discussion about upgrading from Process. Shows real-world upgrade paths and user perceptions. Low credibility individually but patterns emerge.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="82">
+  <quotelist>
+  <url>https://www.rei.com/product/253107/burton-process-camber-snowboard-20252026</url>
+  <quote>$549.95 · Members get an est. $54.99 in rewards</quote>
+  <quote>All 2014 and newer Burton snowboards with The Channel™ mounting system are backed by a 3-year warranty</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253107/burton-process-camber-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>REI is a major, reputable US outdoor retailer. Confirms pricing, warranty, and product details for 2025/2026 model year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="84">
+  <quotelist>
+  <url>https://www.rei.com/product/211945/burton-process-snowboard-20222023</url>
+  <quote>Process Camber Snowboard - 2025/2026 · $549.95 · Style: All-mountain, Freestyle · Shape: True Twin · Profile: Camber · Flex: Stiff</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/211945/burton-process-snowboard-20222023</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>REI cross-listing showing Process 2025/26 categorized as "Flex: Stiff" — notable disagreement with Burton's own rating.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="92">
+  <quotelist>
+  <url>https://www.burton.com/hu/en/help/warranty-ca.html</url>
+  <quote>Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/hu/en/help/warranty-ca.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton warranty page. Primary authority for warranty terms.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="93">
+  <quotelist>
+  <url>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url>
+  <quote>Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date</quote>
+  </quotelist>
+  <url_with_text_link>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton help center warranty policy page.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="95">
+  <quotelist>
+  <url>https://info.burton.com/hc/en-us/articles/115000875253-Warranty-FAQ</url>
+  <quote>W48 is our Product Service Program: We'll have your claim processed and on its way back to you within 2 business days</quote>
+  </quotelist>
+  <url_with_text_link>https://info.burton.com/hc/en-us/articles/115000875253-Warranty-FAQ</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton warranty FAQ providing W48 program details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="103">
+  <quotelist>
+  <url>https://theskimonster.com/products/burton-process</url>
+  <quote>Built By // Kiel-Nindl GMBH, Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/burton-process</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Ski Monster uniquely lists the manufacturing company, Kiel-Nindl GMBH in Austria.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="104">
+  <quotelist>
+  <url>https://ca.fsc.org/ca-en/newsfeed/lets-hit-the-slopes-burton-brings-fsc-certified-snowboards-to-canada</url>
+  <quote>100% of Burton's snowboard cores are made from responsibly harvested wood that meets FSC standards.</quote>
+  <quote>Their Austrian snowboard factory...sources almost all of their materials within a 250-mile radius</quote>
+  </quotelist>
+  <url_with_text_link>https://ca.fsc.org/ca-en/newsfeed/lets-hit-the-slopes-burton-brings-fsc-certified-snowboards-to-canada</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>FSC Canada official newsfeed article. Authoritative source for FSC certification and sustainability claims.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="106">
+  <quotelist>
+  <url>https://info.burton.com/hc/en-us/articles/235809187-What-does-FSC-Certification-mean-</url>
+  <quote>All of our board cores are now 100% certified by the Forest Stewardship Council or FSC for short.</quote>
+  </quotelist>
+  <url_with_text_link>https://info.burton.com/hc/en-us/articles/235809187-What-does-FSC-Certification-mean-</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton help article confirming FSC certification of all board cores.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="109">
+  <quotelist>
+  <url>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url>
+  <quote>Most of its snowboards are made at the Keil factory with 80 workers in Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-12</date_of_first_relevance>
+  <date_of_last_relevance>2019-12</date_of_last_relevance>
+  <reasoning>VTDigger is a reputable Vermont news outlet. Confirms Austrian factory details and scale.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="110">
+  <quotelist>
+  <url>https://www.bergsskishop.com/shop/p93040/process-snowboard-mens</url>
+  <quote>The glass strands are weaved together in three directions at 45°, 45°, and 0°.</quote>
+  <quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bergsskishop.com/shop/p93040/process-snowboard-mens</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Berg's Ski Shop provides detailed technical descriptions of Triax fiberglass construction.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="112">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced company background. Useful for manufacturer context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-process-2026</url>
+    <quote>brand: Burton; model name: Process; model year: 2026; AUD price: $703.99; RRP price: $879.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-process-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

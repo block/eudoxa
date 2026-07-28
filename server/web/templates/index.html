@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eudoxa — Product Recommendation Engine</title>
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <header class="app-header">
+                <div class="header-brand">
+                    <h1>Eudoxa</h1>
+                    <span class="header-subtitle"
+                        >Product Recommendation & Decision Support
+                        Engine.</span
+                    >
+                </div>
+                <div class="header-actions">
+                    Current session:
+                    <span
+                        id="mode-indicator"
+                        class="mode-indicator"
+                        style="display: none"
+                    ></span>
+                    <span class="header-label">New Session:</span>
+                    <button
+                        id="btn-new-session-blackbox"
+                        class="btn btn-secondary"
+                    >
+                        Black Box
+                    </button>
+                    <button
+                        id="btn-new-session-transparent"
+                        class="btn btn-primary"
+                    >
+                        Transparent
+                    </button>
+                    <button
+                        id="btn-new-session-debug"
+                        class="btn btn-secondary"
+                    >
+                        Debug
+                    </button>
+                    <div class="settings-dropdown" id="settings-dropdown">
+                        <button id="btn-settings" class="btn btn-secondary">
+                            ⚙️ Settings
+                        </button>
+                        <div
+                            class="settings-menu"
+                            id="settings-menu"
+                            style="display: none"
+                        >
+                            <div class="settings-section">
+                                <label class="settings-label">Model</label>
+                                <select
+                                    id="model-select"
+                                    class="settings-select"
+                                >
+                                    <option value="claude-opus-4-6">
+                                        claude-opus-4-6
+                                    </option>
+                                    <option value="claude-sonnet-4-6">
+                                        claude-sonnet-4-6
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="settings-section">
+                                <label class="settings-label"
+                                    >Server Log Level</label
+                                >
+                                <select
+                                    id="log-level-select"
+                                    class="settings-select"
+                                >
+                                    <option value="warn">Warn</option>
+                                    <option value="info" selected>Info</option>
+                                    <option value="debug">Debug</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn-show-state" class="btn btn-secondary">
+                        📊 State
+                    </button>
+                </div>
+            </header>
+
+            <main class="app-main">
+                <div class="chat-container" id="chat-container">
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="welcome-message">
+                            <h2>Welcome to Eudoxa</h2>
+                            <p>
+                                Your product recommendation assistant, powered
+                                by data-driven analysis.
+                            </p>
+                            <p>
+                                Click one of the
+                                <strong>New Session</strong> buttons to get
+                                started.
+                            </p>
+                            <p>
+                                "Black Box" vs "Transparent" should feel
+                                similar to use. Black Box keeps the decision
+                                model in a strict sandbox, so the LLM may have
+                                less reasoning ability about product decisions.
+                            </p>
+                            <p>
+                                In Transparent mode the LLM can see some detail
+                                and unredacted model parameters, so it can
+                                reason with more nuance about technical model
+                                results — but it could inadvertently "leak"
+                                some model methodology.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <div class="chat-input-hint">
+                            Remember: you can ask any freeform question —
+                            request citations for facts, ask for explanations,
+                            compare specific boards, etc.
+                        </div>
+                        <textarea
+                            id="chat-input"
+                            placeholder="Type your message..."
+                            rows="2"
+                            disabled
+                        ></textarea>
+                        <button id="btn-send" class="btn btn-primary" disabled>
+                            Send
+                        </button>
+                    </div>
+                </div>
+
+                <aside class="sidebar" id="sidebar">
+                    <div class="sidebar-section" id="session-info">
+                        <h3>Session</h3>
+                        <p class="muted">No active session</p>
+                    </div>
+                    <div class="sidebar-section" id="decision-panel">
+                        <h3>Latest Decision</h3>
+                        <p class="muted">No recommendation yet</p>
+                    </div>
+                    <div class="sidebar-section" id="audit-panel">
+                        <h3>Preference Overrides</h3>
+                        <p class="muted">None</p>
+                    </div>
+                </aside>
+            </main>
+
+            <div class="modal" id="state-modal" style="display: none">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Session State</h2>
+                        <div class="modal-header-actions">
+                            <button
+                                class="btn btn-secondary btn-copy-state"
+                                id="btn-copy-state"
+                            >
+                                📋 Copy to Clipboard
+                            </button>
+                            <button class="modal-close" id="btn-close-modal">
+                                ×
+                            </button>
+                        </div>
+                    </div>
+                    <pre id="state-json" class="state-json"></pre>
+                </div>
+            </div>
+        </div>
+
+        <script src="/static/app.js?v=2"></script>
+    </body>
+</html>

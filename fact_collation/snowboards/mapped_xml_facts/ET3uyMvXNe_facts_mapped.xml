@@ -1,0 +1,846 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="negative_aspect" count="8" category="review" />
+  <duplicate_canonical name="availability_status" count="8" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="8" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="7" category="comparable" />
+  <duplicate_canonical name="contact_length_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="camber_type" count="4" category="performance" />
+  <duplicate_canonical name="sidewall_material" count="4" category="unknown" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="binding_compatibility" count="3" category="unknown" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="sustainability_certification" count="2" category="sustainability" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="width_options" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_10_evo" count="2" category="performance" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="core_material_blend_ratio" count="2" category="construction" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="edge_hold" count="2" category="unknown" />
+  <duplicate_canonical name="overall_rating_snowboardingprofiles" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+PRODUCT IDENTIFICATION
+1. brand: Lib Tech (Lib Technologies) [1]
+2. model_name: Off Ramp [1]
+3. model_year: 2025 (model season 2024-2025) [1] — Note: A 2025-2026 (model year 2026) version is also now available [2]
+4. model_first_available_year: 2024 season (first model year, replacing the Box Knife) [3][4]
+5. predecessor_model_name: Lib Tech Box Knife (last model 2023) [3][4]
+6. product_type: Snowboard [1]
+7. board_category: All-Mountain Freestyle / Freestyle / Park [5][6]
+8. board_category: Freestyle / Park - Twin [1]
+9. gender: Men's [7]
+10. pro_rider_name: Phil Hansen and Matteo Soltane [1][5]
+11. graphic_designer_artist: Phil Hansen (@philliphansen) [2]
+12. SKU (merchant): 24SN053 157 [MERCHANT]
+13. Youth variant: Lib Tech Mini Ramp (kid's version of the Off Ramp) [8]
+MANUFACTURER & BRAND
+14. manufacturer: Mervin Manufacturing [9]
+15. Parent company ownership: Acquired by Spring Capital Group (Oregon-based private investment firm) in 2026 [10]
+16. Previous ownership: Altamont Capital Partners (from 2013), previously Quiksilver (1997-2013) [11][12]
+17. manufacturing_location_current: Sequim (Carlsborg), Washington, USA [9][13]
+18. Manufacturing method: Handbuilt in the USA by snowboarders [14]
+19. Manufacturer reputation: Longest running and last major board factory in the USA [13]
+20. sustainability_certification: Zero hazardous waste producing factory; powered by renewable energy sources [15][16]
+21. Sister brands: GNU Snowboards, Roxy Snowboards, Bent Metal bindings [9]
+22. Brand founded: 1977 by Mike Olson and Pete Saari [13]
+PRICING & AVAILABILITY
+23. price_usd_msrp: $549.99 [2] — Note: On the 2025-2026 official page the MSRP is also $549.99 [2]
+24. price_usd_msrp: $549.00 per SnowboardingProfiles [17] — DISAGREEMENT: SnowboardingProfiles lists $549 while evo lists the 2024 model at same price but evo also listed 2025 C3 at $579.99 [18]. evo price for 2025 model is $579.99. This likely reflects a difference between the 2024 and 2025 model years at evo.
+25. price_usd_evo: $579.99 RRP, on sale $405.99 (30% off) [18]
+26. price_usd_evo: $549.99 RRP, on sale $384.99 (30% off) [19]
+27. Price at Lib Tech direct (2025-2026, USD): $549.99, sale price $395.99 (shown on current site with 20% off snowboards promotion) [2]
+28. Price at GearChase (2025/2026, USD): $384.99 sale (was $549.99) [20]
+29. Price at Glacier Ski Shop (2026 demo, USD): $385.00 sale (regular $550.00) [21]
+30. price_aud_merchant: $678.99 (RRP $969.99, 30% discount) [MERCHANT]
+31. Price comparison to average: $14.27 more than the average snowboard price of $535.72 per Board of the World [22]
+32. negative_aspect: "Expensive for a jib board. Comparable boards from other brands are much friendlier on the wallet." [23]
+33. availability_status: Out of stock (2025 model) [14]
+34. availability_status: In stock (2025 and 2026 models) [18][19]
+35. availability_status: Available (2025 model) [24]
+36. availability_status: Available (2025 model) [25]
+37. availability_status: Available (2025 model) [26]
+38. availability_status: 151 backordered; other sizes listed [27]
+39. availability_status: In stock (2025-2026 model) [2]
+40. availability_status: Available direct from Lib Tech [28]
+RETAILER REPUTATION
+41. Tactics reputation: Established US-based boardsport retailer since 1999, free shipping over $250, lowest price guarantee [14]
+42. evo reputation: Large US online/brick-and-mortar retailer, free shipping, price match + beat by 5% policy [18]
+43. Blauer Board Shop reputation: Specialty snowboard shop recommended by Board of the World, carries early releases [29]
+44. Zumiez reputation: Major US youth action-sports chain retailer [25]
+SIZE VARIANTS & SPECS (from official Lib Tech site)
+45. available_sizes: 148cm, 151cm, 154cm, 157cm, 157cm Wide [2][30]
+46. contact_length_size: 110cm [2]
+47. contact_length_size: 111cm [2]
+48. contact_length_size: 113cm [2]
+49. contact_length_size: 115cm [2]
+50. contact_length_size: 115cm [2]
+51. sidecut_radius_size: 8.0m [2]
+52. sidecut_radius_size: 8.1m [2]
+53. sidecut_radius_size: 8.2m [2]
+54. sidecut_radius_size: 8.2m [2]
+55. sidecut_radius_size: 8.2m [2]
+56. tip_tail_width_size: 28.8cm / 28.8cm [2]
+57. tip_tail_width_size: 29.0cm / 29.0cm [2]
+58. tip_tail_width_size: 29.3cm / 29.3cm [2]
+59. tip_tail_width_size: 29.5cm / 29.5cm [2]
+60. tip_tail_width_size: 30.7cm / 30.7cm [2]
+61. Waist width 148cm: 25.0cm [2]
+62. Waist width 151cm: 25.1cm [2]
+63. Waist width 154cm: 25.3cm [2]
+64. Waist width 157cm: 25.3cm [2]
+65. Waist width 157W: 26.5cm [2]
+66. stance_width_range_size: 19.25"–24.0" / setback 0" [2]
+67. stance_width_range_size: 20.25"–25.0" / setback 0" [2]
+68. stance_width_range_size: 49–61cm [2]
+69. stance_width_range_size: 51.5–63.5cm [2]
+70. setback: 0" (centered stance / true twin) [2]
+71. recommended_weight_range_size: 85+ lbs / 40+ kg [2]
+72. recommended_weight_range_size: 95+ lbs / 45+ kg [2]
+73. recommended_weight_range_size: 110+ lbs / 50+ kg [2]
+74. recommended_weight_range_size: 120+ lbs / 55+ kg [2]
+75. recommended_weight_range_size: 125+ lbs / 60+ kg [2]
+76. width_options: Standard [14]
+77. width_options: Wide [14]
+78. Suggested boot size 151: US 10 & under [14]
+79. Suggested boot size 154: US 10.5 & under [14]
+80. Suggested boot size 157W: US 13 & under [14]
+81. mounting_pattern: 2x4 inserts [MERCHANT]
+FLEX
+82. flex_rating_10_manufacturer: 6.5/10 [2]
+83. flex_rating_10_manufacturer: 7/10 [2]
+84. flex_feel: Medium Firm Flex [24]
+85. flex_feel: More like 6/10 — "I'd say it is more like a 6 out of 10 flex" [30]
+86. flex_feel: Medium (5.5/10) on snow feel despite 7/10 stated [17]
+87. flex_rating_10_evo: "symmetrical 7 out of 10 flex which you can really feel between the feet with a soft buttery nose and tail" [31]
+88. flex_rating_10_evo: Medium — evo rates 6-8 as "stiff" on their scale [32]
+89. flex_direction: Symmetrical (true twin, equal nose/tail flex) [31]
+CAMBER & PROFILE
+90. camber_type: Traditional Camber [2][30]
+91. camber_type: C3 Camber (aggressive camber with mild rocker between feet) [33][34]
+92. camber_description: Upgraded from C3 to traditional camber for 2025, adding pop and stability [30][33]
+93. camber_height_mm: 11mm (described as "really pronounced") [35]
+94. camber_type: Proctor Ski & Board and evo 2024 listing label it "C3 Camber" even for 2025 [27][34]; Blauer, Lib Tech 2025, Board of the World call it "Traditional Camber" [24][30]. The 2024 model was C3; the 2025 model was officially changed to traditional camber per Lib Tech and major reviewers.
+95. DISAGREEMENT — evo 2025 product name includes "C3" in title, but the 2025 board has traditional camber according to Lib Tech and reviewers [18][30]
+SHAPE & DESIGN
+96. shape: True Twin [2][14]
+97. shape: Twin pill shape (skateboard-style rounded nose/tail) [2][31]
+98. Nose/tail shape: More rounded and less blunted than predecessor Box Knife [3]
+99. Design philosophy: Cambered freestyle/jib, resort/rope tow and unstrap friendly [2]
+CONSTRUCTION & MATERIALS
+100. core_material: Original Power Plus (OP+) [14][2]
+101. core_material_blend_ratio: 75% Aspen / 25% Paulownia [2][14]
+102. core_material_blend_ratio: Tactics, Blauer, Lib Tech official, and merchant all say 75% Aspen / 25% Paulownia. Evo lists it as "75% Paulownia / 25% Aspen" for the 2025 model [18]. This appears to be an error by evo, as the overwhelming consensus including the manufacturer is 75% Aspen / 25% Paulownia.
+103. laminate: Tri-axial and Bi-axial fiberglass [14]
+104. laminate: 3-way fiber orientation, increases snap and decreases vibrations [14]
+105. laminate: 2-way fiber orientation, provides maximum snap while decreasing chatter [14]
+106. base_material: Eco-Sublimated Sintered base [14][2]
+107. base_material: Fast, rugged, maximum wax retention due to high porosity [14]
+108. topsheet: Eco Sublimated Poly Top [14]
+109. topsheet: High strength, impact resistant, lightweight, UV and temperature resistant [24]
+110. sidewall_material: Birch internal sidewalls — vertical end grain, adds pop and durability [14]
+111. sidewall_material: "Extremely rugged high impact 6 ply sidewall reinforcement" [36]
+112. sidewall_material: UHMW Sintered Sidewalls [14]
+113. sidewall_material: "twice as sintered as most industry sidewalls" — increases durability, response and control [14]
+114. Tip/tail protection: UHMW Tip/Tail Impact Deflection [14]
+115. Tip/tail protection detail: "Long molecular chains create unbelievable impact resistance, resilience, a smooth ride and minimize tip and tail spin weight" [36]
+116. edge_technology: Magne-Traction (mini Magne-Traction serrated edges) [2][14]
+117. edge_technology: 7 strategically placed serrations along each edge [MERCHANT]
+118. edge_hold: "Strategically placed bumps that create added contact points along each edge for increased grip and control in all conditions" [14]
+119. sustainability_certification: Eco sublimation process (zero hazardous waste), water-based solvents, recycled sawdust, fast-growing renewable wood core [15][16]
+WARRANTY
+120. warranty_period_years: 1 year from time of purchase [14]
+121. warranty: Structural defects only; does NOT cover impact damage, abuse, misuse or normal wear and tear [14]
+TERRAIN & RIDING STYLE
+122. terrain_suitability: Freestyle / Park [2]
+123. terrain_suitability: All Mountain 8/10, Powder 6/10, Park 10/10 [20]
+124. riding_style: Freestyle, jib, park, all-terrain, street [MERCHANT]
+125. rider_level: Intermediate to Advanced / Expert [20][23]
+126. skill_level_recommendation: Park riders, jibbers, street rail enthusiasts [31]
+127. terrain_suitability: Boxes, rails, jumps, street spots, resort riding [14]
+128. terrain_suitability: Particularly strong in icy/hardpack East Coast conditions [30][22]
+REVIEW RATINGS
+129. Board of the World rating: 86.62/100 (4.33 out of 5) [30]
+130. Board of the World ranking: 15th out of 38 boards in the all-mountain category [22]
+131. overall_rating_snowboardingprofiles: 84.4/100 [17]
+132. overall_rating_snowboardingprofiles: 17th out of 33 all-mountain freestyle snowboards [17]
+133. user_review_forum: 9 reviews, 100% rating [2]
+134. Board of the World (all-mtn freestyle list): 4.30 out of 5 stars, +1.57% above average [37]
+RIDE PERFORMANCE — POSITIVES
+135. pop: Exceptional pop for hitting jumps; "effortless" initial pop with very high ceiling when loaded up [30][35]
+136. edge_hold: Strong edge hold on ice thanks to Magne-Traction + camber [30][22]
+137. positive_aspect: Stable underfoot, damp, and poppy feel [30]
+138. positive_aspect: "Stomper! Could just fully stomp landings" [35]
+139. positive_aspect: "Carved impressively well" and "really decent on a carve" for a freestyle board [30][35]
+140. positive_aspect: Versatile enough to use as an all-mountain board; not just a park board [30]
+141. positive_aspect: "Damp, higher-end feel, which is a rare quality in a park board" [30]
+142. positive_aspect: Highlight was performance on icy park jumps; powers through icy rutted-out landings [30]
+143. switch_riding: "Great for setting up and landing switch" [35]
+144. positive_aspect: "Skateboard style ollies happen without much input" [31]
+145. positive_aspect: UHMW sidewalls and tip/tail impact deflection — "you can put this board between you and the steel with confidence" [23]
+RIDE PERFORMANCE — NEGATIVES
+146. negative_aspect: "The base isn't the fastest base out there. In the flat sections this board actually felt quite slow" — needs regular waxing [30]
+147. negative_aspect: "Some jibbers will find it too stiff. It will take some muscle and practice to flex this board right" [30]
+148. negative_aspect: A heavier board than average; "you did notice that extra bit of weight on spins" [35]
+149. negative_aspect: "Not great" in powder, felt sinky, zero setback and true twin = no float advantage [35]
+150. negative_aspect: "Can be a little unforgiving on a flat base when not paying attention" [31]
+151. negative_aspect: "Not considered an all-mountain board on Whistler Blackcomb terrain" but holds up well on smaller mountains [31]
+152. negative_aspect: "Not 'my first park board' with its stronger flex and aggressive camber profile" [31]
+COMPARABLE / COMPETING PRODUCTS
+153. comparable_board_same_brand: GNU Headspace — softer flex, better for jibbing and buttering, C3 profile [30]
+154. comparable_board_cross_brand: Burton Blossom [23]
+155. comparable_board_cross_brand: Salomon Huck Knife [23]
+156. comparable_board_cross_brand: Bataleon Evil Twin [23]
+157. comparable_board_cross_brand: Jones Tweaker [23]
+158. comparable_board_cross_brand: Salomon Abstract [23]
+159. comparable_board_cross_brand: Burton Free Thinker [23]
+160. comparable_board_cross_brand: Capita Super DOA [37]
+161. comparable_board_same_brand: Sits between the Box Scratcher (rocker/softer) and Box Knife (predecessor) in Lib Tech's freestyle/park lineup [23]
+162. comparable_board_same_brand: Off Ramp is stiffer and better for jumps/carving; Headspace is softer and better for jibbing/buttering [30]
+RECOMMENDED BINDING PAIRINGS
+163. binding_compatibility: Union Ultra [30][31]
+164. binding_compatibility: Bent Metal Axtion (good match per SnowboardingProfiles reviewer) [38]
+165. binding_compatibility: Bent Metal Transfer (deemed too stiff a match) [38]
+ADDITIONAL PRODUCT DETAILS
+166. available_sizes: 154cm, 157cm [MERCHANT]
+167. Model series: Freestyle/Park lineup within Lib Tech [2]
+168. redesign_year: Off Ramp upgraded from C3 to traditional camber for 2025 [33]
+169. Lib Tech sale activity: Current 20% off 25/26 snowboards at lib-tech.com; 30% off at evo [2][18]
+</answer>
+
+<citations>
+
+    <citation id="1">
+      <quotelist>
+        <url>https://www.lib-tech.com/off-ramp</url>
+        <quote>Designed and refined all year by Phil Hansen, Matteo Soltane and friends as the ultimate freestyle jib stick</quote>
+        <quote>FREESTYLE / PARK - TWIN</quote>
+      </quotelist>
+      <url_with_text_link>https://www.lib-tech.com/off-ramp#:~:text=Designed%20and%20refined,FREESTYLE%20/%20PARK%20-%20TWIN</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer product page for the Off Ramp 2025-2026. Primary authority for product naming, category, and designer attribution.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="2">
+      <quotelist>
+        <url>https://www.lib-tech.com/off-ramp</url>
+        <quote>$549.99 $395.99</quote>
+        <quote>Camber, twin pill shape, mini Magne-Traction® on a poppy rugged Aspen and Paulownia core and street tough sintered base.</quote>
+        <quote>Off Ramp Specs table: Size 148 Contact 110 Side 8 Nose/Tail 28.8/28.8 Waist 25 Stance 19.25"-24"/0" Flex 6.5 Weight 85+/40+</quote>
+      </quotelist>
+      <url_with_text_link>https://www.lib-tech.com/off-ramp#:~:text=$549.99,street%20tough%20sintered%20base</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer product page with full spec table and pricing. Highest authority for measurements, sizes, and MSRP. The spec table was retrieved in full via web_fetch.</reasoning>
+      <evidentiary_alignment>0.97</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="3">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/2024-lib-tech-snowboards-overview</url>
+        <quote>The Off Ramp, replaces the Box Knife directly, with a few changes, but essentially like-for-like.</quote>
+        <quote>The tip and tail shape are also more rounded and less blunted than on the Box Knife.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/2024-lib-tech-snowboards-overview#:~:text=The%20Off%20Ramp%2C%20replaces,less%20blunted%20than%20on%20the%20Box%20Knife</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-12</date_of_first_relevance>
+      <date_of_last_relevance>2024-09</date_of_last_relevance>
+      <reasoning>SnowboardingProfiles' comprehensive lineup overview for 2024 Lib Tech boards. Nate is an established snowboard reviewer who tracks model changes year to year. Directly confirms the Box Knife to Off Ramp transition.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="4">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/lib-tech-box-knife-review</url>
+        <quote>NOTE: The 2023 model was the last model of the Box Knife.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/lib-tech-box-knife-review#:~:text=NOTE%3A%20The%202023%20model%20was%20the%20last%20model%20of%20the%20Box%20Knife</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-12</date_of_first_relevance>
+      <date_of_last_relevance>2024-09</date_of_last_relevance>
+      <reasoning>Directly confirms the Box Knife was discontinued after 2023 model year, making the Off Ramp its successor from 2024.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="5">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/lib-tech-off-ramp-review</url>
+        <quote>Style: All-Mountain-Freestyle</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/lib-tech-off-ramp-review#:~:text=Style%3A%20All-Mountain-Freestyle</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2025-10</date_of_last_relevance>
+      <reasoning>Independent reviewer categorizes the board as all-mountain-freestyle, supporting the terrain classification.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="6">
+      <quotelist>
+        <url>https://www.evo.com/snowboards/lib-tech-off-ramp-c3-snowboard-2025</url>
+        <quote>The Lib Tech Off Ramp C3 Snowboard is built for freestyle fun.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/snowboards/lib-tech-off-ramp-c3-snowboard-2025#:~:text=The%20Lib%20Tech%20Off%20Ramp%20C3%20Snowboard%20is%20built%20for%20freestyle%20fun</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Major retailer evo's product description confirming freestyle categorization.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="7">
+      <quotelist>
+        <url>https://www.tactics.com/lib-tech/off-ramp-camber-snowboard</url>
+        <quote>Lib Tech Men's Snowboards</quote>
+      </quotelist>
+      <url_with_text_link>https://www.tactics.com/lib-tech/off-ramp-camber-snowboard#:~:text=Lib%20Tech%20Men%27s%20Snowboards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Tactics categorizes under Men's snowboards.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="8">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/</url>
+        <quote>Mini Ramp – A kid's version of the Lib Tech Off Ramp has been released and is known as the Mini Ramp.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/#:~:text=Mini%20Ramp%20%E2%80%93%20A%20kid%E2%80%99s%20version%20of%20the%20Lib%20Tech%20Off%20Ramp</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-08</date_of_first_relevance>
+      <date_of_last_relevance>2025-08</date_of_last_relevance>
+      <reasoning>Review site confirming the youth variant (Mini Ramp) exists.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.35</attribute_importance>
+    </citation>
+
+    <citation id="9">
+      <quotelist>
+        <url>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url>
+        <quote>Mervin is the parent company of Lib Technologies (aka Lib Tech), GNU Snowboards, Roxy Snowboards, and Bent Metal bindings.</quote>
+        <quote>It manufactures its snowboards in Sequim, Washington.</quote>
+      </quotelist>
+      <url_with_text_link>https://en.wikipedia.org/wiki/Mervin_Manufacturing#:~:text=Mervin%20is%20the%20parent%20company,Sequim%2C%20Washington</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1977</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Wikipedia article on Mervin Manufacturing provides reliable background information on the parent company and manufacturing location.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="10">
+      <quotelist>
+        <url>https://shop-eat-surf-outdoor.com/news/mervin-manufacturing-acquired-qa-with-ceo-anthony-derocco/618475</url>
+        <quote>Mervin Manufacturing, the snow company behind Lib Tech and GNU, has been acquired by Eugene-based Spring Capital Group.</quote>
+      </quotelist>
+      <url_with_text_link>https://shop-eat-surf-outdoor.com/news/mervin-manufacturing-acquired-qa-with-ceo-anthony-derocco/618475#:~:text=Mervin%20Manufacturing%2C%20the%20snow%20company%20behind%20Lib%20Tech%20and%20GNU%2C%20has%20been%20acquired%20by%20Eugene-based%20Spring%20Capital%20Group</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-04</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Recent industry news article with CEO Q&A about the acquisition. Highly relevant for brand ownership context.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="11">
+      <quotelist>
+        <url>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url>
+        <quote>Mervin was purchased by Quiksilver in 1997 and later sold to Altamont Capital in 2013.</quote>
+      </quotelist>
+      <url_with_text_link>https://en.wikipedia.org/wiki/Mervin_Manufacturing#:~:text=Mervin%20was%20purchased%20by%20Quiksilver%20in%201997%20and%20later%20sold%20to%20Altamont%20Capital%20in%202013</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1997</date_of_first_relevance>
+      <date_of_last_relevance>2026-04</date_of_last_relevance>
+      <reasoning>Wikipedia confirms the ownership history timeline.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.35</attribute_importance>
+    </citation>
+
+    <citation id="12">
+      <quotelist>
+        <url>https://whitelines.com/archive/news/quiksilver-sells-mervin-manufacturing.html</url>
+        <quote>Founded by snowboarders Mike Olson and Pete Saari in 1977, Mervin is the parent company of Lib Tech, Gnu, Roxy Snowboarding and Bent Metal.</quote>
+      </quotelist>
+      <url_with_text_link>https://whitelines.com/archive/news/quiksilver-sells-mervin-manufacturing.html#:~:text=Founded%20by%20snowboarders%20Mike%20Olson%20and%20Pete%20Saari%20in%201977</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2013</date_of_first_relevance>
+      <date_of_last_relevance>2013</date_of_last_relevance>
+      <reasoning>Whitelines snowboard magazine article about the Quiksilver sale confirms founding date and brand portfolio.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.35</attribute_importance>
+    </citation>
+
+    <citation id="13">
+      <quotelist>
+        <url>https://www.mervin.com/about/</url>
+        <quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+        <quote>Based out of Carlsborg, Washington, between the rugged Olympic and Cascade Mountain Ranges</quote>
+      </quotelist>
+      <url_with_text_link>https://www.mervin.com/about/#:~:text=Mervin%20is%20the%20longest%20running,Carlsborg%2C%20Washington</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1977</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Mervin Manufacturing about page. Primary source for factory reputation and location claims.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="14">
+      <quotelist>
+        <url>https://www.tactics.com/lib-tech/off-ramp-camber-snowboard</url>
+        <quote>Handbuilt in the USA - Every Lib Tech board is handmade by snowboarders with jobs in the USA.</quote>
+        <quote>Magne-Traction Serrated Edges - Strategically placed bumps that create added contact points along each edge</quote>
+        <quote>Birch Internal Sidewalls - Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability.</quote>
+        <quote>UHMW Sintered Sidewalls - A Lib Tech innovation that is twice as sintered as most industry sidewalls.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.tactics.com/lib-tech/off-ramp-camber-snowboard#:~:text=Handbuilt%20in%20the%20USA,twice%20as%20sintered</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Tactics retailer product page with detailed feature descriptions matching manufacturer specs. Tactics is a reputable specialty retailer. Full page fetched and confirmed.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="15">
+      <quotelist>
+        <url>https://www.lib-tech.com/about-lib-tech/environmental</url>
+        <quote>Mervin uses better manufacturing practices that both protect the health of the Kraftsmen, but also that of the planet, leaving zero hazardous waste behind in production.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.lib-tech.com/about-lib-tech/environmental#:~:text=leaving%20zero%20hazardous%20waste%20behind%20in%20production</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2000</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Lib Tech environmental page. Direct manufacturer claim about zero hazardous waste.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.45</attribute_importance>
+    </citation>
+
+    <citation id="16">
+      <quotelist>
+        <url>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp</url>
+        <quote>Proudly built in the in the Mervin factory using zero hazardous waste and power from renewable sources.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp#:~:text=Proudly%20built%20in%20the%20in%20the%20Mervin%20factory%20using%20zero%20hazardous%20waste%20and%20power%20from%20renewable%20sources</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024</date_of_first_relevance>
+      <date_of_last_relevance>2025</date_of_last_relevance>
+      <reasoning>evo Field Tested review confirming renewable energy sourcing at Mervin factory.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="17">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/lib-tech-off-ramp-review</url>
+        <quote>Price: $549 · Style: All-Mountain-Freestyle · Flex Rating: Medium Stiff (7/10) Flex Feel on Snow: Medium (5.5/10) Rating Score: 84.4/100</quote>
+        <quote>The Off Ramp ranked 17th out of 33</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/lib-tech-off-ramp-review#:~:text=Price%3A%20%24549,ranked%2017th%20out%20of%2033</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2025-10</date_of_last_relevance>
+      <reasoning>SnowboardingProfiles is a dedicated snowboard review site with hands-on testing. Provides independent scoring and on-snow flex feel assessment that differs from manufacturer rating. The $549 price point refers to the 2024 model year.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="18">
+      <quotelist>
+        <url>https://www.evo.com/shop/snowboard/snowboards/lib-tech/rocker_camber</url>
+        <quote>Lib Tech Off Ramp C3 Snowboard 2025 $579.99 $405.99 Sale</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/lib-tech/rocker_camber#:~:text=Lib%20Tech%20Off%20Ramp%20C3%20Snowboard%202025%20%24579.99%20%24405.99%20Sale</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>evo listing page showing $579.99 RRP for the 2025 model — higher than the $549.99 on lib-tech.com. This may reflect evo's independent pricing or a different MSRP tier.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="19">
+      <quotelist>
+        <url>https://www.evo.com/shop/snowboard/snowboards/lib-tech/rocker_camber</url>
+        <quote>Lib Tech Off Ramp Snowboard 2026 $549.99 $384.99 Sale</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/lib-tech/rocker_camber#:~:text=Lib%20Tech%20Off%20Ramp%20Snowboard%202026%20%24549.99%20%24384.99%20Sale</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>evo listing page for the 2026 model at $549.99 MSRP, matching Lib Tech's official price.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="20">
+      <quotelist>
+        <url>https://gearchase.com/product/35022425</url>
+        <quote>On sale for $384.99 (was $549.99).</quote>
+        <quote>Personality/Flex: Medium - 6/10 Riding Level: Intermediate > Expert Terrain: All Mountain: 8/10 Powder: 6/10 Park: 10/10</quote>
+      </quotelist>
+      <url_with_text_link>https://gearchase.com/product/35022425#:~:text=On%20sale%20for%20%24384.99,Park%3A%2010/10</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>GearChase is a price aggregator. Shows terrain ratings and current sale price. The terrain ratings (All Mountain 8/10, Park 10/10, Powder 6/10) match the Lib Tech manufacturer graphic.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="21">
+      <quotelist>
+        <url>https://glacierskishop.com/collections/lib-tech</url>
+        <quote>Lib Tech Off Ramp Snowboard - 157cm 2026 Demo · Sale price$385.00 USD Regular price$550.00 USD</quote>
+      </quotelist>
+      <url_with_text_link>https://glacierskishop.com/collections/lib-tech#:~:text=Lib%20Tech%20Off%20Ramp%20Snowboard%20-%20157cm%202026%20Demo</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Glacier Ski Shop is a smaller specialist retailer. Demo pricing for the 2026 model year.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.6</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="22">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/lib-tech-off-ramp-review/</url>
+        <quote>The Lib Tech Off Ramp costs $14.27 more than the average snowboard price of $535.72.</quote>
+        <quote>Ranks 15th out of the 38 boards reviewed in the all mountain category.</quote>
+        <quote>A great option for those who like to get air (and spin) but also get a fair few icy days, as it has great icy edge hold.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/lib-tech-off-ramp-review/#:~:text=The%20Lib%20Tech%20Off%20Ramp%20costs%20%2414.27,great%20icy%20edge%20hold</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-08</date_of_first_relevance>
+      <date_of_last_relevance>2026-03</date_of_last_relevance>
+      <reasoning>Board of the World is a specialist snowboard review site run by Steve Weber. Provides pricing context relative to market average, ranking, and detailed performance impressions from hands-on testing on East Coast conditions.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="23">
+      <quotelist>
+        <url>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp</url>
+        <quote>Expensive for a jib board. Comparable boards from other brands are much friendlier on the wallet.</quote>
+        <quote>COMPARABLE BOARDS Burton Blossom – Burton Freethinker - Salomon Huck Knife – Bataleon Evil Twin – Jones Tweaker – Salomon Abstract</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp#:~:text=Expensive%20for%20a%20jib%20board,Salomon%20Abstract</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024</date_of_first_relevance>
+      <date_of_last_relevance>2025</date_of_last_relevance>
+      <reasoning>evo's Field Tested review by Duncan Philip, a 32-year-old park rider who tested at Whistler Blackcomb. Provides competitor comparisons and honest price critique. evo is a major reputable retailer with editorial standards.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="24">
+      <quotelist>
+        <url>https://blauerboardshop.com/products/lib-tech-off-ramp-2025</url>
+        <quote>Traditional Camber - Maximum control and powder. Distributes maximum energy to tops and tails. Precision, power and pop.</quote>
+        <quote>Eco Sublimated Poly Top - High strength, impact resistant, lightweight dimensionally stable UV and temperature resistant top material</quote>
+      </quotelist>
+      <url_with_text_link>https://blauerboardshop.com/products/lib-tech-off-ramp-2025#:~:text=Traditional%20Camber,temperature%20resistant%20top%20material</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Blauer Board Shop is a specialty snowboard retailer carrying Lib Tech. Their listing confirms camber profile and topsheet properties for the 2025 model.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="25">
+      <quotelist>
+        <url>https://www.zumiez.com/lib-tech-off-ramp-snowboard-2025.html</url>
+        <quote>Handcrafted in Washington State, Lib Tech presents the 2025 Off Ramp snowboard</quote>
+      </quotelist>
+      <url_with_text_link>https://www.zumiez.com/lib-tech-off-ramp-snowboard-2025.html#:~:text=Handcrafted%20in%20Washington%20State</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Zumiez product page confirming availability of the 2025 model at this major chain retailer.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="26">
+      <quotelist>
+        <url>https://gorgeperformance.com/products/off-ramp</url>
+        <quote>Crafted and perfected by Phil Hansen, Matteo Soltane and their crew as the ultimate freestyle jib board</quote>
+      </quotelist>
+      <url_with_text_link>https://gorgeperformance.com/products/off-ramp#:~:text=Crafted%20and%20perfected%20by%20Phil%20Hansen</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Gorge Performance listing confirms product availability at this smaller retailer.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.6</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="27">
+      <quotelist>
+        <url>https://proctorski.com/products/lib-tech-off-ramp-snowboard-2025</url>
+        <quote>Lib Tech Off Ramp Snowboard 2025 - Black / 151 is backordered</quote>
+        <quote>Rocker Type: C3 Camber – Aggressive dominant camber zones</quote>
+      </quotelist>
+      <url_with_text_link>https://proctorski.com/products/lib-tech-off-ramp-snowboard-2025#:~:text=Lib%20Tech%20Off%20Ramp%20Snowboard%202025%20-%20Black%20/%20151%20is%20backordered,C3%20Camber</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2025-09</date_of_last_relevance>
+      <reasoning>Proctor Ski & Board lists the board with backorder status and labels it C3 Camber, which conflicts with the manufacturer's 2025 update to traditional camber. This likely reflects use of prior-year copy.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.6</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="28">
+      <quotelist>
+        <url>https://www.lib-tech.com/off-ramp-2025-b-grade</url>
+        <quote>FREESTYLE / PARK - TWIN What are B-Grades?</quote>
+      </quotelist>
+      <url_with_text_link>https://www.lib-tech.com/off-ramp-2025-b-grade#:~:text=What%20are%20B-Grades</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Lib Tech page for the B-Grade (cosmetic imperfect) version of the Off Ramp, confirming B-grade availability direct from manufacturer.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.45</attribute_importance>
+    </citation>
+
+    <citation id="29">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/</url>
+        <quote>Blauer Boardshop, Evo, and Tactics are beginning to carry a few of them</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/#:~:text=Blauer%20Boardshop%2C%20Evo%2C%20and%20Tactics%20are%20beginning%20to%20carry</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-01</date_of_first_relevance>
+      <date_of_last_relevance>2025-08</date_of_last_relevance>
+      <reasoning>Board of the World lineup preview recommends these retailers for early availability.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="30">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/lib-tech-off-ramp-review/</url>
+        <quote>Our Rating: 86.62 out of a possible 100 or 4.33 out of a possible 5</quote>
+        <quote>I'd say it is more like a 6 out of 10 flex for both the torsional and longitudinal flex</quote>
+        <quote>The base isn't the fastest base out there. In the flat sections this board actually felt quite slow to me.</quote>
+        <quote>Some jibbers will find it too stiff.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/lib-tech-off-ramp-review/#:~:text=Our%20Rating%3A%2086.62,Some%20jibbers%20will%20find%20it%20too%20stiff</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-08</date_of_first_relevance>
+      <date_of_last_relevance>2026-03</date_of_last_relevance>
+      <reasoning>Board of the World is a hands-on review with detailed on-snow impressions. The reviewer tested at Stratton, VT in icy conditions. His flex assessment differs from the manufacturer's stated rating (6/10 vs 7/10), providing a valuable second opinion.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="31">
+      <quotelist>
+        <url>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp</url>
+        <quote>This board comes with a symmetrical 7 out of 10 flex which you can really feel between the feet with a soft buttery nose and tail.</quote>
+        <quote>It can be a little unforgiving on a flat base when not paying attention.</quote>
+        <quote>Not "my first park board" with its stronger flex and aggressive camber profile.</quote>
+        <quote>Though not considered an all-mountain board on Whistler Blackcomb terrain, it will hold up very well on a smaller mountain.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/reviews/snowboard/lib-tech-off-ramp#:~:text=This%20board%20comes%20with%20a%20symmetrical,smaller%20mountain</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024</date_of_first_relevance>
+      <date_of_last_relevance>2025</date_of_last_relevance>
+      <reasoning>evo Field Tested review provides experienced rider impressions from Whistler Blackcomb. Notes limitations on large mountain terrain and beginner unsuitability.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="32">
+      <quotelist>
+        <url>https://www.evo.com/snowboards/lib-tech-off-ramp-c3-snowboard</url>
+        <quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/snowboards/lib-tech-off-ramp-c3-snowboard#:~:text=Generally%20you%20will%20find%20flex%20ratings%20of%201-2%20as%20soft</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>evo's standardized flex scale context. By evo's scale, a 7/10 falls into "stiff" rather than "medium" — providing comparative context for the flex rating.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="33">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/</url>
+        <quote>Off Ramp – The 2025 version of the Lib Tech Off Ramp was upgraded to a traditional camber profile from Mervin's c3 camber profile previously.</quote>
+        <quote>This gives the board a little extra boost off pop and stability.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/2026-lib-tech-snowboards-lineup-preview-and-release-dates/#:~:text=Off%20Ramp%20%E2%80%93%20The%202025%20version,extra%20boost%20off%20pop%20and%20stability</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-08</date_of_first_relevance>
+      <date_of_last_relevance>2025-08</date_of_last_relevance>
+      <reasoning>Board of the World's lineup preview confirms the camber profile change from C3 to traditional for 2025.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="34">
+      <quotelist>
+        <url>https://www.evo.com/snowboards/lib-tech-off-ramp-snowboard</url>
+        <quote>C3 Camber – Aggressive dominant camber zones out to the contacts combined with mild rocker between your feet.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/snowboards/lib-tech-off-ramp-snowboard#:~:text=C3%20Camber%20%E2%80%93%20Aggressive%20dominant%20camber%20zones</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-09</date_of_first_relevance>
+      <date_of_last_relevance>2024-09</date_of_last_relevance>
+      <reasoning>evo listing for the 2024 Off Ramp model. Confirms the original (pre-2025) C3 camber specification.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="35">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/lib-tech-off-ramp-review</url>
+        <quote>I measured the camber in the Off Ramp at 11mm (which is really pronounced!)</quote>
+        <quote>It is a heavier board, so you don't necessarily get full value for that pop</quote>
+        <quote>The Off Ramp, as expected, wasn't great. It felt pretty sinky at times</quote>
+        <quote>Landing: Stomper! Could just fully stomp landings.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/lib-tech-off-ramp-review#:~:text=I%20measured%20the%20camber,stomp%20landings</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2025-10</date_of_last_relevance>
+      <reasoning>SnowboardingProfiles (Nate) provides detailed on-snow review with measured camber height, weight observations, powder performance notes, and landing assessment. Tested the 2024 model 154cm. Highly detailed review methodology.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="36">
+      <quotelist>
+        <url>https://blauerboardshop.com/products/lib-tech-off-ramp-2025</url>
+        <quote>Birch Internal Sidewalls - Extremely rugged high impact 6 ply sidewall reinforcement.</quote>
+        <quote>UHMW Tip/Tail Impact Deflection - Strong high impact ultra-high molecular weight polyethylene.</quote>
+      </quotelist>
+      <url_with_text_link>https://blauerboardshop.com/products/lib-tech-off-ramp-2025#:~:text=Birch%20Internal%20Sidewalls%20-%20Extremely,polyethylene</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Blauer Board Shop provides additional details on Birch sidewall ply count (6 ply) and UHMW tip/tail specifications not listed on other retailers.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="37">
+      <quotelist>
+        <url>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/</url>
+        <quote>Our Rating: 4.30 out of 5 stars for the Lib Tech Off Ramp snowboard.</quote>
+        <quote>The Lib Tech Off Ramp was one of my favorite all-mountain freestyle boards to demo.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/#:~:text=Our%20Rating%3A%204.30%20out%20of%205,favorite%20all-mountain%20freestyle%20boards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-02</date_of_last_relevance>
+      <reasoning>Board of the World's aggregated best-of list for all-mountain freestyle twins. Contextualizes the Off Ramp against other boards in the category.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="38">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/lib-tech-off-ramp-review</url>
+        <quote>the Bent Metal Transfer and Axtions last week and I would say the Transfers are a bit too stiff for the Off Ramp – but the Axtion's are a good match</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/lib-tech-off-ramp-review#:~:text=the%20Transfers%20are%20a%20bit%20too%20stiff%20for%20the%20Off%20Ramp</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-09</date_of_first_relevance>
+      <date_of_last_relevance>2025-10</date_of_last_relevance>
+      <reasoning>Binding pairing advice from reviewer who tested multiple bindings with this board. Practical advice for purchasers.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+  
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/lib-tech-off-ramp</url>
+    <quote>brand: Lib Tech; model name: Off Ramp; model year: 2025; SKU: 24SN053 157; AUD price: $678.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-off-ramp</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

@@ -1,0 +1,849 @@
+{
+  "version": "1.0",
+  "domain": "snowboards",
+  "description": "All-mountain snowboard comparison — 261 products across multiple brands, scored on performance, value, geometry, and rider-preference dimensions.",
+  "state_conventions": {
+    "active": {
+      "description": "Criterion participates in the ranking with its (positive) weight. Weight is relative — all active weights are normalized to sum to 1 before use."
+    },
+    "dormant": {
+      "description": "Unexplored preference — criterion participates in hybrid Monte Carlo sampling with uniform Dirichlet weight allocation. Generates clarifying questions when it differentiates competitive alternatives. Activated at runtime via set_target or set_weight transform."
+    },
+    "excluded": {
+      "description": "User explicitly does not care about this criterion (DON'T CARE). Dropped from the ranking, hybrid sampling, and question generation. Set at runtime via set_state; reactivatable via set_weight(weight=0.05)."
+    }
+  },
+  "alternatives": {
+    "id_columns": [
+      "product_guid"
+    ],
+    "id_template": "{product_guid}",
+    "display_template": "{manufacturer} {model_name}",
+    "metadata_columns": [
+      "comparable_board",
+      "camber_profile",
+      "base_material",
+      "terrain_suitability",
+      "topsheet",
+      "board_designer",
+      "manufacturing_location",
+      "board_category",
+      "shape",
+      "laminate",
+      "model_year",
+      "sustainability_certification",
+      "construction_material_innovation",
+      "sidewall_material",
+      "edge_technology",
+      "sidecut_type",
+      "binding_compatibility",
+      "predecessor_model_name",
+      "rider_level",
+      "brand",
+      "gender",
+      "mounting_pattern",
+      "product_type"
+    ]
+  },
+  "criteria": [
+    {
+      "name": "price",
+      "description": "Retail price in AUD. Lower price represents better value for money, all else being equal.",
+      "currency": "AUD",
+      "direction": "min",
+      "weight": 0.15,
+      "state": "active",
+      "source_column": "price",
+      "type": "numeric",
+      "distribution": "lognormal",
+      "ideal": 200,
+      "anti_ideal": 2500,
+      "output_columns": {
+        "mean": "price_mean",
+        "std": "price_std",
+        "confidence": "price_confidence"
+      }
+    },
+    {
+      "name": "core_material",
+      "description": "Core material quality score. Higher scores indicate premium wood cores with advanced reinforcements (carbon, kevlar) that improve pop, dampening, and durability.",
+      "direction": "max",
+      "weight": 0.06,
+      "state": "active",
+      "source_column": "core_material",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "core_material_score",
+        "confidence": "core_material_conf"
+      }
+    },
+    {
+      "name": "availability",
+      "description": "Current market availability score. Higher means easier to purchase right now — in stock at multiple retailers.",
+      "direction": "max",
+      "weight": 0.04,
+      "state": "active",
+      "source_column": "availability",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "availability_score",
+        "confidence": "availability_conf"
+      }
+    },
+    {
+      "name": "warranty",
+      "description": "Manufacturer warranty duration in years. Longer warranty indicates manufacturer confidence in durability and provides better buyer protection.",
+      "direction": "max",
+      "weight": 0.03,
+      "state": "active",
+      "source_column": "warranty",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 5.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "warranty_mean",
+        "std": "warranty_std",
+        "confidence": "warranty_conf"
+      }
+    },
+    {
+      "name": "reviewer_opinion",
+      "description": "Aggregate reviewer sentiment score. Higher indicates more positive expert and user reviews, reflecting overall satisfaction and recommendation strength.",
+      "direction": "max",
+      "weight": 0.08,
+      "state": "active",
+      "source_column": "reviewer_opinion",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "reviewer_opinion_score",
+        "confidence": "reviewer_opinion_conf"
+      }
+    },
+    {
+      "name": "board_weight",
+      "description": "Board weight in grams. Lighter boards are easier to manoeuvre in the air, less fatiguing on long days, and more responsive. Heavier boards can offer more stability at speed.",
+      "direction": "min",
+      "weight": 0.05,
+      "state": "active",
+      "source_column": "board_weight",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1800,
+      "anti_ideal": 7000,
+      "output_columns": {
+        "mean": "board_weight_mean",
+        "std": "board_weight_std",
+        "confidence": "board_weight_conf"
+      }
+    },
+    {
+      "name": "carving",
+      "description": "Carving performance rating on groomed runs. Higher scores indicate better edge-to-edge transitions, grip through carved turns, and precision on hardpack.",
+      "direction": "max",
+      "weight": 0.1,
+      "state": "active",
+      "source_column": "carving_rating",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "carving_score",
+        "confidence": "carving_conf"
+      }
+    },
+    {
+      "name": "powder",
+      "description": "Powder performance rating on a 1–10 scale. Higher scores indicate better float, nose lift, and manoeuvrability in deep snow conditions.",
+      "direction": "max",
+      "weight": 0.08,
+      "state": "active",
+      "source_column": "powder_rating",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 10.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "powder_mean",
+        "std": "powder_std",
+        "confidence": "powder_conf"
+      }
+    },
+    {
+      "name": "edge_hold",
+      "description": "Edge hold performance on ice and hardpack. Higher scores mean the board grips better on firm snow, reducing skid-out risk in icy conditions.",
+      "direction": "max",
+      "weight": 0.07,
+      "state": "active",
+      "source_column": "edge_hold",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "edge_hold_score",
+        "confidence": "edge_hold_conf"
+      }
+    },
+    {
+      "name": "chatter_performance",
+      "description": "Chatter dampening at speed. Higher scores indicate the board remains stable and composed at high speed without vibration or unpredictable behaviour.",
+      "direction": "max",
+      "weight": 0.06,
+      "state": "active",
+      "source_column": "chatter_performance",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "chatter_score",
+        "confidence": "chatter_conf"
+      }
+    },
+    {
+      "name": "positive_aspect",
+      "description": "Strength of positive attributes identified in reviews. Higher scores indicate more standout qualities — exceptional pop, responsiveness, build quality, or unique ride feel.",
+      "direction": "max",
+      "weight": 0.05,
+      "state": "active",
+      "source_column": "positive_aspect",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "positive_aspect_score",
+        "confidence": "positive_aspect_conf"
+      }
+    },
+    {
+      "name": "negative_aspect",
+      "description": "Severity of negative attributes identified in reviews. Lower scores (fewer/milder negatives) are better. High scores indicate significant drawbacks like poor durability or narrow use case.",
+      "direction": "min",
+      "weight": 0.05,
+      "state": "active",
+      "source_column": "negative_aspect",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 0.0,
+      "anti_ideal": 1.0,
+      "output_columns": {
+        "score": "negative_aspect_score",
+        "confidence": "negative_aspect_conf"
+      }
+    },
+    {
+      "name": "return_policy",
+      "description": "Return policy quality score. Higher scores indicate more generous return windows, fewer restocking fees, and easier exchange processes.",
+      "direction": "max",
+      "weight": 0.02,
+      "state": "active",
+      "source_column": "return_policy_terms",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "return_policy_score",
+        "confidence": "return_policy_conf"
+      }
+    },
+    {
+      "name": "jibbing",
+      "description": "Jibbing and rail performance rating. Higher scores indicate better press-ability, butter-ability, and forgiveness on rails and boxes in the terrain park.",
+      "direction": "max",
+      "weight": 0.04,
+      "state": "active",
+      "source_column": "jibbing_rating_tgr",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "jibbing_score",
+        "confidence": "jibbing_conf"
+      }
+    },
+    {
+      "name": "overall_rating",
+      "description": "Overall rating from SnowboardingProfiles on a 0–100 scale. A holistic assessment of the board's quality, performance, and value across all conditions.",
+      "direction": "max",
+      "weight": 0.07,
+      "state": "active",
+      "source_column": "overall_rating_snowboardingprofiles",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 100.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "overall_rating_mean",
+        "std": "overall_rating_std",
+        "confidence": "overall_rating_conf"
+      }
+    },
+    {
+      "name": "speed",
+      "description": "Speed and stability rating from TGR reviews. Higher scores indicate better high-speed composure, base glide, and confidence when charging.",
+      "direction": "max",
+      "weight": 0.06,
+      "state": "active",
+      "source_column": "speed_rating_tgr",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "speed_score",
+        "confidence": "speed_conf"
+      }
+    },
+    {
+      "name": "jumps",
+      "description": "Jump performance rating from TGR reviews. Higher scores indicate better pop, air stability, and landing forgiveness for freestyle jumping.",
+      "direction": "max",
+      "weight": 0.04,
+      "state": "active",
+      "source_column": "jumps_rating_tgr",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "jumps_score",
+        "confidence": "jumps_conf"
+      }
+    },
+    {
+      "name": "pipe",
+      "description": "Halfpipe performance rating from TGR reviews. Higher scores indicate better wall-to-wall transitions, edge hold on vert, and air control in pipe riding.",
+      "direction": "max",
+      "weight": 0.04,
+      "state": "active",
+      "source_column": "pipe_rating_tgr",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "pipe_score",
+        "confidence": "pipe_conf"
+      }
+    },
+    {
+      "name": "flex_rating",
+      "description": "Flex stiffness on a 1–10 scale. Softer flex (lower) is more playful and forgiving; stiffer (higher) provides stability at speed and in variable snow.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 1.0,
+      "range_max": 10.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "flex_rating",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "flex_rating_mean",
+        "std": "flex_rating_std",
+        "confidence": "flex_rating_conf"
+      }
+    },
+    {
+      "name": "sidecut_radius",
+      "description": "Sidecut radius in metres. Smaller radius enables tighter, quicker turns; larger radius provides stability and flow in wide arcs at speed.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 4.5,
+      "range_max": 12.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "sidecut_radius",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "sidecut_radius_mean",
+        "std": "sidecut_radius_std",
+        "confidence": "sidecut_radius_conf"
+      }
+    },
+    {
+      "name": "sidecut_radius_159",
+      "description": "Sidecut radius normalised to a 159 cm reference size, in metres. Enables apples-to-apples comparison of turn radius characteristics across different board lengths.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 5.0,
+      "range_max": 12.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "sidecut_radius_at_159",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "sidecut_radius_159_mean",
+        "std": "sidecut_radius_159_std",
+        "confidence": "sidecut_radius_159_conf"
+      }
+    },
+    {
+      "name": "effective_edge",
+      "description": "Effective edge length in cm — the portion of the edge in contact with snow during a turn. Longer effective edge provides more hold and stability; shorter is more manoeuvrable.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 100.0,
+      "range_max": 135.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "effective_edge",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "effective_edge_mean",
+        "std": "effective_edge_std",
+        "confidence": "effective_edge_conf"
+      }
+    },
+    {
+      "name": "waist_width",
+      "description": "Waist width at 156 cm reference size in cm. Must match boot size — too narrow causes toe/heel drag; too wide reduces edge-to-edge responsiveness.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 24.0,
+      "range_max": 31.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "waist_width_at_156",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "waist_width_mean",
+        "std": "waist_width_std",
+        "confidence": "waist_width_conf"
+      }
+    },
+    {
+      "name": "setback",
+      "description": "Stance setback in mm. Positive setback shifts weight toward the tail for directional float in powder; zero or negative indicates a centred twin stance for switch riding.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": -55.0,
+      "range_max": 90.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "setback",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "setback_mean",
+        "std": "setback_std",
+        "confidence": "setback_conf"
+      }
+    },
+    {
+      "name": "taper",
+      "description": "Nose-to-tail width taper in mm. More taper creates a surf-like powder feel and directional float; zero taper indicates symmetric twin geometry.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 0.0,
+      "range_max": 40.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "taper",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "taper_mean",
+        "std": "taper_std",
+        "confidence": "taper_conf"
+      }
+    },
+    {
+      "name": "stance_width",
+      "description": "Stance width in cm. Wider stance increases stability and leverage; narrower stance improves agility and is more comfortable for shorter riders.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 18.0,
+      "range_max": 65.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "stance_width_range_size",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "stance_width_mean",
+        "std": "stance_width_std",
+        "confidence": "stance_width_conf"
+      }
+    },
+    {
+      "name": "contact_length",
+      "description": "Snow contact length in cm — the running length of base touching snow. Longer contact provides more stability and float; shorter is more playful and loose.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 90.0,
+      "range_max": 155.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "contact_length_size",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "contact_length_mean",
+        "std": "contact_length_std",
+        "confidence": "contact_length_conf"
+      }
+    },
+    {
+      "name": "tip_tail_width",
+      "description": "Tip and tail width in cm. Wider tips/tails provide more float in powder and stability; narrower allows quicker edge engagement.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 20.0,
+      "range_max": 35.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "tip_tail_width",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "tip_tail_width_mean",
+        "std": "tip_tail_width_std",
+        "confidence": "tip_tail_width_conf"
+      }
+    },
+    {
+      "name": "tip_tail_width_159",
+      "description": "Tip/tail width normalised to 159 cm reference size in cm. Enables fair comparison of tip/tail dimensions across different board lengths.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 20.0,
+      "range_max": 34.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "tip_tail_width_at_159",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "tip_tail_width_159_mean",
+        "std": "tip_tail_width_159_std",
+        "confidence": "tip_tail_width_159_conf"
+      }
+    },
+    {
+      "name": "recommended_weight_range",
+      "description": "Recommended rider weight in kg. The board performs optimally within this range — too light and it won't flex properly; too heavy and it loses responsiveness.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 40.0,
+      "range_max": 105.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "recommended_weight_range",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "recommended_weight_mean",
+        "std": "recommended_weight_std",
+        "confidence": "recommended_weight_conf"
+      }
+    },
+    {
+      "name": "recommended_weight_159",
+      "description": "Recommended rider weight for the 159 cm size in kg. Normalised reference point for comparing weight recommendations across the dataset.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 45.0,
+      "range_max": 100.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "recommended_weight_at_159",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "recommended_weight_159_mean",
+        "std": "recommended_weight_159_std",
+        "confidence": "recommended_weight_159_conf"
+      }
+    },
+    {
+      "name": "turn_initiation",
+      "description": "Turn initiation speed on a 1–10 scale. Lower values indicate quicker, easier turn entry (more responsive); higher values mean the board requires more input to engage a turn.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 2.0,
+      "range_max": 9.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "turn_initiation_performance",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "turn_initiation_mean",
+        "std": "turn_initiation_std",
+        "confidence": "turn_initiation_conf"
+      }
+    },
+    {
+      "name": "camber_profile",
+      "description": "Camber profile preference score. Pre-scored [0,1] representing how well the board's camber type matches a rider's preferred profile (rocker, camber, hybrid, flat, etc.).",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 0.0,
+      "range_max": 1.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "camber_profile",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "camber_profile_score",
+        "confidence": "camber_profile_conf"
+      }
+    },
+    {
+      "name": "terrain_suitability",
+      "description": "Terrain suitability match on a 1–10 scale. Higher scores indicate the board is better suited to the rider's preferred terrain (groomed, powder, park, backcountry, all-mountain).",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 1.0,
+      "range_max": 10.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "terrain_suitability",
+      "type": "numeric_or_qualitative",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "mean": "terrain_suitability_mean",
+        "std": "terrain_suitability_std",
+        "confidence": "terrain_suitability_conf"
+      }
+    },
+    {
+      "name": "on_snow_feel",
+      "description": "On-snow feel preference score from TGR reviews. Pre-scored [0,1] representing how well the board's ride character matches the rider's preferred feel (playful, damp, surfy, snappy, etc.).",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 0.0,
+      "range_max": 1.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "on_snow_feel_tgr",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "on_snow_feel_score",
+        "confidence": "on_snow_feel_conf"
+      }
+    },
+    {
+      "name": "board_category",
+      "description": "Board category match score. Pre-scored [0,1] representing how well the board's category (all-mountain, freeride, freestyle, powder) aligns with the rider's intended use.",
+      "direction": "target",
+      "target_value": null,
+      "range_min": 0.0,
+      "range_max": 1.0,
+      "weight": 0,
+      "state": "dormant",
+      "source_column": "board_category",
+      "type": "categorical",
+      "fallback": {
+        "score": 0.5,
+        "confidence": 0.01
+      },
+      "ideal": 1.0,
+      "anti_ideal": 0.0,
+      "output_columns": {
+        "score": "board_category_score",
+        "confidence": "board_category_conf"
+      }
+    }
+  ],
+  "clarifying_questions": {
+    "trigger": "no_clear_winner",
+    "max_questions": 3,
+    "selection_method": "max_weight_sensitivity",
+    "templates": {
+      "price": "How important is staying within budget? (1 = money is no object, 10 = cheapest board that works)",
+      "core_material": "How much do you value premium core materials and construction? (1 = don't care, 10 = only the best cores)",
+      "availability": "How important is being able to buy the board right now? (1 = happy to wait/preorder, 10 = need it immediately)",
+      "warranty": "How important is a long manufacturer warranty? (1 = not a factor, 10 = essential for peace of mind)",
+      "reviewer_opinion": "How much do expert reviews influence your decision? (1 = I trust my own feel, 10 = reviews are everything)",
+      "board_weight": "How important is a lightweight board to you? (1 = don't notice weight, 10 = every gram counts)",
+      "carving": "How important is carving performance on groomers? (1 = rarely carve, 10 = live for carving)",
+      "powder": "How important is powder performance? (1 = mostly ride groomers, 10 = chase every powder day)",
+      "edge_hold": "How important is edge hold on ice and hardpack? (1 = mostly ride soft snow, 10 = need grip on ice)",
+      "chatter_performance": "How important is stability and dampening at high speed? (1 = cruise mellow, 10 = charge hard)",
+      "positive_aspect": "How much do standout positive qualities matter vs. being well-rounded? (1 = prefer balanced, 10 = want exceptional strengths)",
+      "negative_aspect": "How much do known drawbacks concern you? (1 = can live with trade-offs, 10 = want zero compromises)",
+      "return_policy": "How important is a generous return policy? (1 = not a factor, 10 = must be able to return easily)",
+      "jibbing": "How important is jibbing and rail performance? (1 = never hit rails, 10 = park rat life)",
+      "overall_rating": "How much weight do you put on overall review scores? (1 = just one data point, 10 = trust the aggregate)",
+      "speed": "How important is high-speed performance and base glide? (1 = mellow cruiser, 10 = speed is life)",
+      "jumps": "How important is jump and air performance? (1 = stay grounded, 10 = always in the air)",
+      "pipe": "How important is halfpipe performance? (1 = never ride pipe, 10 = pipe is my main discipline)",
+      "flex_rating": "What flex do you prefer? (1 = super soft/playful, 10 = stiff/aggressive)",
+      "sidecut_radius": "What turn radius do you prefer? (1 = tight quick turns, 10 = wide sweeping arcs)",
+      "sidecut_radius_159": "What turn radius do you prefer at a 159 cm board length? (1 = tight, 10 = wide)",
+      "effective_edge": "Do you prefer more effective edge for hold, or less for manoeuvrability? (1 = short/nimble, 10 = long/grippy)",
+      "waist_width": "What waist width suits your boot size? (1 = narrow/responsive, 10 = wide/no drag)",
+      "setback": "Do you prefer a centred stance or setback for directional riding? (1 = centred twin, 10 = deep setback)",
+      "taper": "Do you prefer a tapered shape or symmetric twin? (1 = zero taper/twin, 10 = heavy taper/surfy)",
+      "stance_width": "What stance width is comfortable for your body? (1 = narrow/agile, 10 = wide/stable)",
+      "contact_length": "Do you prefer more or less snow contact? (1 = short/loose, 10 = long/stable)",
+      "tip_tail_width": "What tip/tail width do you prefer? (1 = narrow/quick edge, 10 = wide/more float)",
+      "tip_tail_width_159": "What tip/tail width do you prefer at 159 cm? (1 = narrow, 10 = wide)",
+      "recommended_weight_range": "What is your riding weight in kg? This helps match you to the right board flex.",
+      "recommended_weight_159": "What is your weight? This helps match the 159 cm size recommendation to you.",
+      "turn_initiation": "Do you prefer quick effortless turn entry or a board that requires deliberate input? (1 = instant/easy, 10 = deliberate/powerful)",
+      "camber_profile": "What camber profile do you prefer? (rocker = playful/forgiving, camber = precise/poppy, hybrid = balanced)",
+      "terrain_suitability": "What terrain do you ride most? (groomed, powder, park, backcountry, all-mountain mix)",
+      "on_snow_feel": "What on-snow feel do you prefer? (playful/loose, damp/composed, surfy/flowing, snappy/responsive)",
+      "board_category": "What type of riding do you primarily do? (all-mountain, freeride, freestyle, powder)"
+    }
+  }
+}

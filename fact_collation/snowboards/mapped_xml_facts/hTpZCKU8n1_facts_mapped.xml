@@ -1,0 +1,770 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="positive_aspect" count="13" category="review" />
+  <duplicate_canonical name="negative_aspect" count="9" category="review" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="price_usd_msrp" count="4" category="pricing" />
+  <duplicate_canonical name="laminate" count="4" category="unknown" />
+  <duplicate_canonical name="skill_level_recommendation" count="4" category="recommendation" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="sustainability_certification" count="3" category="sustainability" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="3" category="comparable" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="sidecut_type" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="terrain_suitability" count="2" category="recommendation" />
+  <duplicate_canonical name="user_review_forum" count="2" category="review" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][5]
+2. model_name: Highpath [1][5]
+3. model_year: 2027 (Southern Hemisphere / AU model year designation) [7]
+4. product_type: Snowboard [5]
+5. board_category: All Mountain [5][9]
+6. board_category: All-Mountain / Freeride [2][15]
+7. gender: Unisex [16][18]
+8. manufacturer: Salomon S.A.S., a French sports equipment company headquartered in Annecy, France [21]
+9. Parent company: Amer Sports (Finnish conglomerate, headquartered in Helsinki) [21]
+10. Founded: Salomon was founded in 1947 by François Salomon in the French Alps [21]
+11. Salomon snowboard design/development location: Annecy, France [22]
+12. Salomon snowboard marketing location: Portland, Oregon, USA [22]
+13. manufacturing_location: China [23]
+14. model_first_available_year: 2022/2023 season (new for FW22/23) [24][25]
+15. pro_rider_name: Nils Mindnich and Victor Daviet [24][26]
+16. Nils Mindnich credentials: Won Legendary Banked Slalom (2017), Freeride World Tour champion (2020), Dirksen Derby (2021 & 2022), Natural Selection Tour competitor [27]
+17. Nils Mindnich now works for Salomon as product designer (engineering & prototyping) [28]
+18. Model variant: Also available as Highpath Splitboard (with Plum Hardware and Pomoca Skins) [29]
+19. Snowboard Magazine Platinum Pick award: Best of '23 [30]
+20. price_aud_merchant: $1,049.99 AUD (preorder 2027 model) [31]
+21. price_usd_msrp: $699.95 at evo, REI, Backcountry, The House [32][33]
+22. price_usd_msrp: $699 [34]
+23. price_usd_msrp: $649.95 [35]
+24. price_usd_msrp: $650 [36]
+25. price_eur_blue_tomato: €429.00 [32]
+26. price_gbp_blue_tomato_uk: £385.00 [32]
+27. price_cad_prfo: $769.99 CAD [32]
+28. Price (USD, Outdoor Gear Exchange on sale / prior-year models): $454.97 [32]
+29. price_usd_evo: $308.73 (discounted from $649.95) [35]
+30. estimated_availability_date: Preorder, estimated availability May 1, 2026 [31]
+31. availability_status: In stock at evo, REI, Backcountry, The House [32][33]
+32. Seller: evo.com — reputable major online specialty snowboard retailer [32]
+33. Seller: REI Co-op — major US outdoor retailer [33]
+34. Seller: Backcountry.com — major US specialty online retailer [32]
+35. Seller: The House — established US snowboard retailer [32]
+36. Seller: Outdoor Gear Exchange — specialty retailer [32]
+37. Seller: Blue Tomato — European specialty retailer (multiple countries) [32]
+38. Seller: SnowCountry (EU) — €449.00 [32]
+39. Seller: PRFO Sports (Canada) [32]
+40. Seller: Melbourne Snowboard Centre (Australia) — preorder 2027 model [7]
+41. Seller: Auski (Australia) — 2027 model [8]
+42. Seller: Rhythm Snowsports (Australia) — 2027 model [37]
+43. Seller: Blauer Board Shop (US) — 2027 model listed [38]
+44. Seller: Corbetts Ski + Snowboard [39]
+45. Seller: Salomon.com direct [36]
+46. shape: Tapered Directional [5][7]
+47. shape: Tail width is slightly tapered (2-20mm) [18]
+48. taper: 3mm [40] — DISAGREEMENT: evo's 2024 listing describes 4mm of taper [41]. The Good Ride measured 3mm; evo's reviewer stated 4mm for the 2023 model.
+49. camber_type: Rock Out Camber [5]
+50. camber_description: Flat between bindings for stability, camber near the feet for response, rocker on tip/tail for pressability [5][9]
+51. camber_type: Hybrid Camber [34]
+52. setback: 2.0cm (20mm) setback on effective edge [7][34]
+53. sidecut_type: Quadratic Sidecut [5][9]
+54. sidecut_type: A blend of elliptic curves for easy turn initiation, effortless direction changes, and fluid edge-to-edge transitions [9]
+55. flex_rating_10: 8/10 [31]
+56. flex_feel: Stiff [31]
+57. flex_rating_10: 7/10, feel described as "Medium-Stiff" [34]
+58. flex_rating_10_evo: Stiff (evo rates 6-8 as stiff) [9]
+59. flex_feel: "medium bordering on medium-soft" — DISAGREEMENT with merchant and evo listing. Reviewer states actual on-snow flex felt mellower than spec suggests. [40]
+60. flex_feel: "medium-stiff flexing board" [42]
+61. flex_direction: Directional flex (softer nose/tail, stiffer middle) [40]
+62. flex_rating_5: 4/5 (on a 1-5 scale where 5=Stiff) [43]
+63. core_material: Ghost Green Core — sustainable, ultra-light paulownia/aspen wood [5][42]
+64. core_material: Aspen SLCT — every wood strip hand-selected for quality and lightness [9][33]
+65. sustainability_certification: FSC certified [7]
+66. pop: Strategically milled inside insert packs for more natural flex and energy transfer to nose/tail for extra pop [9][43]
+67. laminate: BiAx HD Glass (fiberglass core set at two different angles for durability and lifespan) [31]
+68. laminate: Basalt Booster / B/FX Stringer — patented combination of fiberglass and basalt for optimal weight, power, and dampening [5][9]
+69. resin: 30% Bio-Based Resin (30% plant material) [7][37]
+70. topsheet: ABC Wrapper — wood veneer (olive wood veneer for 2027) instead of plastic, more damp, reduces weight with less fiberglass [8][37]
+71. topsheet: Castor bean-based bio topsheet [41]
+72. sidewall_material: 66% Recycled ABS Sidewalls [7][37] — DISAGREEMENT: Salomon US website (2026 model) states "100% recycled materials in the sidewalls" [5]. The 2027 merchant site states 66%. This may reflect an update between model years.
+73. edge_technology: At least 20% recycled aluminum in edges [5][37]
+74. base_material: 50% Recycled Sintered Base [5][7]
+75. base_type: Sintered (hard surface, good wax retention) [7]
+76. base_material: Fine Stone Finish — particularly efficient on Sintered EG base, speeds up in powder/softer snow [5]
+77. Base graphics: Random [7]
+78. Factory wax: Natural Wax — paraffin-free, made from natural ingredients, non-pollutant [5]
+79. edge_bevel_spec: All Mountain Edge Bevel — 1.5 degree base and side edge bevel [31]
+80. mounting_pattern: 2x4 Inserts [31]
+81. laminate: Included for chatter absorption [8]
+82. laminate: Absorb chatter on rough variable snow and crud [8]
+83. sustainability_certification: 28% bio-based materials in sidewalls, resin, and core (per Salomon 2026 model) [18]
+84. sustainability_certification: Bio-based topsheet, bio-based resin, FSC certified core, 50% recycled base, at least 20% recycled edges, 66% recycled ABS sidewalls [7][37]
+85. width_options: Standard and Wide [31]
+86. available_sizes: 156cm, 159cm, 159cm Wide, 162cm Wide [31]
+87. available_sizes: 146, 150, 153, 156, 159, 162, 159W, 162W, 165W [34]
+88. Waist width 156cm: 25.5cm (255mm) [31]
+89. Waist width 159cm: 25.7cm (257mm) [31]
+90. Waist width 159cm Wide: 26.5cm (265mm) [31]
+91. Waist width 162cm Wide: 26.7cm (267mm) [31]
+92. Effective edge 156cm: 118.5cm [31]
+93. Effective edge 159cm: 121.0cm [31]
+94. sidecut_radius_size: 7.3m [31]
+95. sidecut_radius_size: 7.7m [31]
+96. recommended_weight_range_size: 60-95kg (130-200 lbs) [31][34]
+97. recommended_weight_range_size: 70-100kg (155-220 lbs) [31][34]
+98. stance_width_range_size: 56.0cm [31]
+99. stance_width_range_size: 57.0cm [31]
+100. tip_tail_width_size: 30.1/29.8cm [31]
+101. tip_tail_width_size: 30.4/30.1cm [31]
+102. Boot size recommendation 146cm: US 6-7 [40]
+103. Boot size recommendation 150cm: US 7-8 [40]
+104. Boot size recommendation 153cm: US 8.5-9 [40]
+105. Boot size recommendation 156cm: US 9-9.5 [40]
+106. Boot size recommendation 159cm: US 9.5-10.5 [40]
+107. Boot size recommendation 159W: US 10.5-11.5 [40]
+108. Boot size recommendation 162W: US 11-12 [40]
+109. recommended_boot_size_165: US 12-13 [40]
+110. rider_level: Advanced [31]
+111. skill_level_recommendation: Advanced-Expert [9]
+112. skill_level_recommendation: Intermediate to Advanced/Expert [34]
+113. skill_level_recommendation: Intermediate to Expert [44]
+114. skill_level_recommendation: Rider who predominantly wants to carve, find powder, and minimize chatter in messy/harder snow [34]
+115. riding_style: All-mountain freeride, daily driver board [26][36]
+116. terrain_suitability: Backcountry to frontside, side hits and wind lips [5]
+117. terrain_suitability: One-board quiver potential for riders who want speed, carving, and powder float [40]
+118. positive_aspect: Good locked-in feeling, holds carve well even at high speeds [34]
+119. positive_aspect: Impressive grip in hard snow; Quadratic sidecut holds without grabbing in soft snow [40]
+120. positive_aspect: Very versatile board with decent directional float, good centered feel on groomers [40]
+121. positive_aspect: Easy accessible pop, good for ollies [40]
+122. positive_aspect: Semi-easy to butter despite being on the stiffer side [40]
+123. positive_aspect: "Comfortable and easy to ride anywhere from rutted-out berms to full-speed big mountain lines" [36]
+124. positive_aspect: Doesn't get cranky in harder micro bumpy snow unlike some past Salomon boards [40]
+125. positive_aspect: Felt very lightweight; Ghost Green Core lives up to its name [41]
+126. positive_aspect: Felt stable, damp and locked in while carving, reduced underfoot chatter [42]
+127. positive_aspect: Rides switch very well for a directional board [40]
+128. positive_aspect: Good base glide with good structure [40]
+129. positive_aspect: Most sustainable construction Salomon has brought to market [41]
+130. positive_aspect: Platinum Pick Best of '23, described as maintaining "perfect blend of stiffness for stability, yet soft in the right places" [30]
+131. negative_aspect: Not the dampest ride; bucks and bounces in soft uneven snow/messy spring conditions [40]
+132. negative_aspect: Not a speed specialist; does alright but "you don't get this for going fast" [40]
+133. negative_aspect: Not a true carving specialist; a little too soft for dedicated carving [40]
+134. negative_aspect: Felt stiff for mogul ups/downs and quick turns, a little jarring [42]
+135. negative_aspect: OK for jumps but not first choice; pop takes effort to access for sidehits [34]
+136. negative_aspect: Reasonably nimble at slower speeds but does better at higher speeds [34]
+137. negative_aspect: For the 1-percent looking to send XXL features, might like more stiffness in landing gear [36]
+138. negative_aspect: 159 felt a little wide for size 9 boot [40]
+139. negative_aspect: Felt a little heavier than normal (per SnowboardingProfiles tester) [34] — DISAGREEMENT: Curated/evo reviewer found it very lightweight [41][42]. The Good Ride stated lighter side of normal. Multiple reviewers disagree on perceived weight.
+140. overall_rating_snowboardingprofiles: 87.2/100 [34]
+141. reviewer_opinion_snowboardingprofiles: 3rd out of 16 freeride boards tested [34]
+142. powder_score_snowboardingprofiles: 4/5 [34]
+143. SnowboardingProfiles speed score: 4.5/5 [34]
+144. carving_score_snowboardingprofiles: 4.5/5 [34]
+145. SnowboardingProfiles turns score: 3.5/5 [34]
+146. SnowboardingProfiles jumps score: 3/5 [34]
+147. carving_rating_tgr: Great [40]
+148. base_glide_performance: Great [40]
+149. edge_hold: Hard Snow (good in hard snow) [40]
+150. speed_rating_tgr: Good [40]
+151. powder_rating_tgr: Good [40]
+152. reviewer_opinion_the_good_ride: Good [40]
+153. flex_rating_10_the_good_ride: Medium [40]
+154. on_snow_feel_tgr: Semi-Locked In [40]
+155. turn_initiation_performance: Medium/Fast [40]
+156. user_review_forum: 5/5 "Powerful. This Board is good for all conditions. Flex is Stiff but its very good" [18]
+157. user_review_forum: 4/5 "Super fun and easy board. Great on groomers. Not the best off-piste" [18]
+158. comparable_board_same_brand: Salomon Dancehaul — Highpath has a similar but softer flex personality in a more all-mountain-friendly package [40]
+159. comparable_board_cross_brand: Jones Flagship — Highpath sits in the middle between Jones Flagship and Jones Stratos in aggressiveness and stiffness [42]
+160. comparable_board_cross_brand: K2 Excavator — Highpath is more aggressive and significantly more expensive (at least $100 more) [42]
+161. comparable_board_cross_brand: Burton Instigator, Never Summer Hammer, Korua Otto, Tahoe Labs Directional Twin, Yes Basic Uninc, Cardiff Lynx [40]
+162. comparable_board_same_brand: Closest to the discontinued Salomon Ultimate Ride in flex; Huck Knife Pro may be more similar to Ultimate Ride [34]
+163. comparable_board_same_brand: The Highpath is "even more versatile than an Assassin" by design intent [24]
+164. warranty_period_years: 2 years for snowboards and other products (per Salomon warranty policy) [45]
+165. warranty: Against manufacturing or material defects, for original purchaser from authorized retailer [45]
+166. warranty: Salomon at its discretion will repair or replace at no charge [45]
+167. Effective edge 146cm: 110.5cm [31]
+168. Waist width 146cm: 24.3cm [31]
+169. sidecut_radius_size: 6.2m [31]
+170. recommended_weight_range_size: 50-75kg [31]
+171. Effective edge 150cm: 114.0cm [31]
+172. Waist width 150cm: 24.7cm [31]
+173. sidecut_radius_size: 6.5m [31]
+174. recommended_weight_range_size: 50-80kg [31]
+175. Effective edge 153cm: 117.0cm [31]
+176. Waist width 153cm: 25.2cm [31]
+177. sidecut_radius_size: 6.9m [31]
+178. recommended_weight_range_size: 60-90kg [31]
+</answer>
+
+<citations>
+
+    <citation id="1">
+      <quotelist>
+        <url>https://www.melbournesnowboard.com.au/products/salomon-highpath</url>
+        <quote>The Salomon Highpath was built to be the pinnacle in both all mountain performance and sustainable construction.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-highpath</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Australian merchant listing for the 2027 model Highpath, confirming brand and model name, as well as preorder status.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="2">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/salomon-highpath-snowboard-review</url>
+        <quote>In this review, I will take a look at the Highpath as a freeride snowboard.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/salomon-highpath-snowboard-review</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-01</date_of_first_relevance>
+      <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+      <reasoning>SnowboardingProfiles categorizes the Highpath primarily as a freeride board bordering on all-mountain, supporting the board subtype classification.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="5">
+      <quotelist>
+        <url>https://www.salomon.com/en-us/product/highpath-li8552/L47925200</url>
+        <quote>The Highpath is a culmination of our efforts to design a high performance, all-mountain snowboard built with recycled and bio-sourced materials.</quote>
+        <quote>50% recycled sintered base: 50% recycled base materials!</quote>
+        <quote>Highpath uses 100% recycled materials in the sidewalls, 50% recycled materials in the base, and at least 20% recycled aluminum in the edges.</quote>
+        <quote>B/FX stringer: A patented combination of fiberglass and basalt designed to provide an optimal ratio of weight, power, and dampening.</quote>
+        <quote>Natural wax: A paraffin-free wax compound made from natural ingredients.</quote>
+        <quote>Fine stone finish: Our fine stone finish is particularly efficient on our Sintered EG base.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.salomon.com/en-us/product/highpath-li8552/L47925200</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Salomon manufacturer product page — highest authority for specifications. Notable that it says 100% recycled sidewalls vs 66% listed on other sources (likely different model year).</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="7">
+      <quotelist>
+        <url>https://www.melbournesnowboard.com.au/products/salomon-highpath</url>
+        <quote>Constructed with eco-friendly materials like a bio-based topsheet and resin, a FSC certified core and 50% recycled base material and edges</quote>
+        <quote>Base graphics are random.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-highpath</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Australian merchant with detailed 2027 model specs. Confirms FSC core, recycled base, random base graphics, and preorder status.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="8">
+      <quotelist>
+        <url>https://www.auski.com.au/products/salomon-mens-highpath-snowboard-2027</url>
+        <quote>For 2027, the Highpath stands apart as Salomon's most environmentally advanced performance board, built with a 50% recycled sintered base, 30% bio-based resin, 66% recycled ABS sidewalls, and an olive wood veneer</quote>
+        <quote>Popster core construction adds lively snap out of turns, while Basalt Boosters and Fiberglass Dampers absorb chatter</quote>
+      </quotelist>
+      <url_with_text_link>https://www.auski.com.au/products/salomon-mens-highpath-snowboard-2027</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Australian specialty retailer providing detailed 2027-specific construction info including olive wood veneer topsheet detail unique to this year.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="9">
+      <quotelist>
+        <url>https://www.evo.com/snowboards/salomon-highpath-snowboard</url>
+        <quote>Rock Out Camber – Flat between your bindings for stability, camber near the feet for response and a rocker on the tip/tail for pressability.</quote>
+        <quote>Quadratic Sidecut – A blend of elliptic curves for easy turn initiation, effortless direction changes and fluid edge-to-edge transitions</quote>
+        <quote>Aspen SLCT – Every single wood strip is hand selected to ensure unparalleled core quality and lightness.</quote>
+        <quote>Advanced-Expert</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/snowboards/salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>evo is a highly reputable specialty snowboard retailer. Their product descriptions closely mirror manufacturer specs and provide standardized ability-level ratings.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="15">
+      <quotelist>
+        <url>https://www.curated.com/journal/1377001/expert-review-salomon-highpath-snowboard</url>
+        <quote>The Salomon Highpath is a solid all-mountain freeride board designed for advanced men or women riders.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.curated.com/journal/1377001/expert-review-salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-04</date_of_first_relevance>
+      <date_of_last_relevance>2023-04</date_of_last_relevance>
+      <reasoning>Curated expert review by a qualified snowboard expert who demoed the board. Supports "all-mountain freeride" and unisex classification.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="16">
+      <quotelist>
+        <url>https://www.curated.com/journal/1517000/expert-review-2023-salomon-highpath-snowboard</url>
+        <quote>Highpath is a unisex high performance all-mountain directional board.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.curated.com/journal/1517000/expert-review-2023-salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-09</date_of_first_relevance>
+      <date_of_last_relevance>2023-09</date_of_last_relevance>
+      <reasoning>Curated expert confirms unisex designation directly from brand claims.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="18">
+      <quotelist>
+        <url>https://www.salomon.com/en-us/shop/product/highpath-li5343.html</url>
+        <quote>Highpath uses 28% of bio-based materials in the sidewalls, resin, and core, with 50% recycled materials in the base and at least 20% in the edges.</quote>
+        <quote>Rated 5 out of 5 by oscar28693 from Powerfull This Board is good for only conditions. Flex is Stiff but its very good</quote>
+        <quote>Rated 4 out of 5 by steffen28762 from Fun Super fun and easy board.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.salomon.com/en-us/shop/product/highpath-li5343.html</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Salomon product page for a prior year Highpath model with user reviews. Provides 28% bio-based materials figure and consumer feedback.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="21">
+      <quotelist>
+        <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+        <quote>Salomon SAS is a French sports equipment manufacturing company headquartered in Annecy, France.</quote>
+        <quote>It was founded in 1947 by François Salomon in the heart of the French Alps</quote>
+        <quote>Salomon is owned by Finnish retail conglomerate Amer Sports</quote>
+      </quotelist>
+      <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1947</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Wikipedia provides well-sourced company history and ownership. Establishes Salomon's French heritage, founding date, and current Amer Sports ownership.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="22">
+      <quotelist>
+        <url>https://en.wikipedia.org/wiki/Salomon_Snowboards</url>
+        <quote>Marketing for Salomon Snowboards is based in Portland, Oregon, near Mount Hood, while design and development takes place at the base of the French Alps, in Annecy, France.</quote>
+      </quotelist>
+      <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Snowboards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1997</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Wikipedia article specific to Salomon Snowboards division confirming Annecy design HQ and Portland marketing office.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="23">
+      <quotelist>
+        <url>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url>
+        <quote>Manufactured in: China</quote>
+      </quotelist>
+      <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023</date_of_first_relevance>
+      <date_of_last_relevance>2025-12-08</date_of_last_relevance>
+      <reasoning>The Good Ride spec table explicitly states manufacturing location as China. Highly reliable review site for this type of detail.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="24">
+      <quotelist>
+        <url>https://www.boardsportsource.com/salomon-2022-23-snowboard-preview/</url>
+        <quote>the HIGHPATH is a new all mountain tapered directional shape designed by Nils Mindnich and Victor Daviet.</quote>
+        <quote>The concept was to shape a board which is even more versatile than an Assassin</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardsportsource.com/salomon-2022-23-snowboard-preview/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-01</date_of_first_relevance>
+      <date_of_last_relevance>2022-01</date_of_last_relevance>
+      <reasoning>BoardSport Source is an industry trade publication previewing the FW22/23 line. Primary source confirming the Highpath was new for 22/23, designed by Mindnich and Daviet.</reasoning>
+      <evidentiary_alignment>0.97</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="25">
+      <quotelist>
+        <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url>
+        <quote>the board, introduced new in 2023 by Salomon Snowboards, was a bit wider, a bit softer than what I was used to.</quote>
+      </quotelist>
+      <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-10</date_of_first_relevance>
+      <date_of_last_relevance>2023-06</date_of_last_relevance>
+      <reasoning>The Snowboarder's Journal is a respected snowboard publication. Confirms the Highpath was introduced new in the 2023 model year.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="26">
+      <quotelist>
+        <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url>
+        <quote>We wanted a board that could carve, ride powder, do anything—a daily driver.</quote>
+      </quotelist>
+      <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-10</date_of_first_relevance>
+      <date_of_last_relevance>2023-06</date_of_last_relevance>
+      <reasoning>Nils Mindnich's own quote about design intent — primary source for riding style characterization. Confirms "daily driver" all-terrain design philosophy.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="27">
+      <quotelist>
+        <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url>
+        <quote>He's won the Legendary Banked Slalom (2017), the Freeride World Tour (2020), the Dirksen Derby (2021 and 2022), competes on the Natural Selection Tour</quote>
+      </quotelist>
+      <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-10</date_of_first_relevance>
+      <date_of_last_relevance>2023-06</date_of_last_relevance>
+      <reasoning>Establishes Nils Mindnich's competitive credentials, lending credibility to the board's design pedigree.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="28">
+      <quotelist>
+        <url>https://snowboardmag.com/stories/the-interview-issue-nils-mindnich-on-another-chapter</url>
+        <quote>I accepted a job working for Salomon, doing product design. I'll be working with the snowboard design team primarily, designing and engineering and prototyping all the Salomon boards.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardmag.com/stories/the-interview-issue-nils-mindnich-on-another-chapter</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-11</date_of_first_relevance>
+      <date_of_last_relevance>2024-11</date_of_last_relevance>
+      <reasoning>Snowboard Magazine interview confirming Nils Mindnich's transition to full-time product designer at Salomon, working on all boards.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.45</attribute_importance>
+    </citation>
+
+    <citation id="29">
+      <quotelist>
+        <url>https://www.boutiqueadrenaline.com/products/69938-salomon-highpath-split</url>
+        <quote>The kit includes Plum Hardware and pre-cut Pomoca Skins</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boutiqueadrenaline.com/products/69938-salomon-highpath-split</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Retailer listing for the Highpath Splitboard variant confirming it exists as a separate product with Plum hardware and Pomoca skins.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="30">
+      <quotelist>
+        <url>https://snowboardmag.com/gear/platinum-picks-best-of-23-salomon-highpath</url>
+        <quote>The Highpath maintains the perfect blend of stiffness for stability, yet it's soft in the right places for that playful feel.</quote>
+        <quote>we chose it as a Platinum Pick for having some of the most sustainable construction on the market</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardmag.com/gear/platinum-picks-best-of-23-salomon-highpath</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-10</date_of_first_relevance>
+      <date_of_last_relevance>2022-10</date_of_last_relevance>
+      <reasoning>Snowboard Magazine is a leading industry publication. Platinum Pick award is a meaningful recognition of quality and innovation.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="31">
+      <quotelist>
+        <url>https://www.melbournesnowboard.com.au/products/salomon-highpath</url>
+        <quote>PREORDER YOUR 2027 MODEL SNOWBOARD NOW</quote>
+      </quotelist>
+      <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-highpath</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Merchant-provided specs and sizing data for 2027 model. Used as primary source for all size-specific dimensions provided by the merchant.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="32">
+      <quotelist>
+        <url>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url>
+        <quote>$699.95 Buy it Now Buy Salomon Highpath from evo</quote>
+        <quote>$699.95 Buy it Now Buy Salomon Highpath from REI</quote>
+        <quote>$699.95 Buy it Now Buy Salomon Highpath from Backcountry</quote>
+        <quote>€429.00 Buy it Now Buy Salomon Highpath from BlueTomato</quote>
+        <quote>£385.00 Buy it Now Buy Salomon Highpath from BlueTomato UK</quote>
+        <quote>$769.99 Buy it Now Buy Salomon Highpath from PRFO Sports Canada</quote>
+        <quote>$454.97 Buy it Now Buy Salomon Highpath from Outdoor Gear Exchange</quote>
+      </quotelist>
+      <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>The Good Ride price comparison aggregates real-time prices from multiple authorized retailers across regions. Prices are volatile snapshots but represent current retail pricing.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.95</attribute_importance>
+    </citation>
+
+    <citation id="33">
+      <quotelist>
+        <url>https://www.rei.com/product/252762/salomon-highpath-snowboard-20252026</url>
+        <quote>Aspen SLCT core; every single wood strip is hand-selected to ensure unparalleled core quality and lightness</quote>
+        <quote>B/FX stringer is a patented combination of fiberglass and basalt designed to provide an optimal ratio of weight, power and dampening</quote>
+      </quotelist>
+      <url_with_text_link>https://www.rei.com/product/252762/salomon-highpath-snowboard-20252026</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>REI is a highly reputable US outdoor retailer. Product page confirms key specs using manufacturer-supplied descriptions. $699.95 price point confirmed.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="34">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/salomon-highpath-snowboard-review</url>
+        <quote>Price: $699 (USD recommended retail)</quote>
+        <quote>Flex Feel: Medium-Stiff (7/10)</quote>
+        <quote>Rating Score: 87.2/100</quote>
+        <quote>The Highpath ranked 3rd= out of 16</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/salomon-highpath-snowboard-review</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-04</date_of_first_relevance>
+      <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+      <reasoning>Comprehensive hands-on review by an experienced tester with detailed scoring methodology. Provides independent on-snow performance data and comparative ranking.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="35">
+      <quotelist>
+        <url>https://www.evo.com/outlet/snowboards/salomon-highpath-snowboard-2023</url>
+        <quote>$649.95 Outlet: $308.73 Sale</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/outlet/snowboards/salomon-highpath-snowboard-2023</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-09</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Evo outlet page confirms the 2023 model's $649.95 original MSRP and current deep-discount outlet price. Shows price has increased for newer model years.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="36">
+      <quotelist>
+        <url>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url>
+        <quote>The Salomon Highpath runs $650 and is available at core snowboard shops and salomon.com.</quote>
+        <quote>It just feels damn comfortable and easy to ride anywhere from rutted-out berms to full-speed big mountain lines.</quote>
+      </quotelist>
+      <url_with_text_link>https://thesnowboardersjournal.com/blogs/reviews/salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-10</date_of_first_relevance>
+      <date_of_last_relevance>2023-06</date_of_last_relevance>
+      <reasoning>The Snowboarder's Journal is a respected specialist publication providing an in-depth first-person review. $650 was launch price; confirms availability at core shops and direct.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="37">
+      <quotelist>
+        <url>https://www.rhythmsnowsports.com.au/products/2027-highpath-snowboard</url>
+        <quote>Sustainable Flagship 50% Recycled Base, 66% Recycled ABS Sidewalls, 30% Bio-Based Resin, an Olive Wood Veneer and at least 20% Recycled Edges.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.rhythmsnowsports.com.au/products/2027-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Rhythm Snowsports (Australian retailer) provides specific 2027 model sustainability spec figures — 66% recycled sidewalls vs 100% on Salomon.com (model year difference likely).</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="38">
+      <quotelist>
+        <url>https://blauerboardshop.com/products/salomon-highpath-snowboard-2027</url>
+        <quote>Salomon Highpath Snowboard 2027 - Men's</quote>
+      </quotelist>
+      <url_with_text_link>https://blauerboardshop.com/products/salomon-highpath-snowboard-2027</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Blauer Board Shop listing confirms 2027 model availability from a US specialty retailer.</reasoning>
+      <evidentiary_alignment>0.6</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="39">
+      <quotelist>
+        <url>https://www.corbetts.com/salomon-highpath-snowboard-2026/</url>
+        <quote>Highpath uses 66% recycled materials in the sidewalls, 50% recycled materials in the base, and at least 20% recycled aluminum in the edges.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.corbetts.com/salomon-highpath-snowboard-2026/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Corbetts provides sidewall spec as 66% recycled for 2026 model — same as 2027 AU listings but different from Salomon.com's 100% claim.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="40">
+      <quotelist>
+        <url>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url>
+        <quote>The Salomon Highpath has a pretty mellow flex for a board like this. I would say the demo I had was medium bordering on medium-soft.</quote>
+        <quote>My one complaint about the Salomon Highpath is in uneven terrain like uneven wet spring powder or messy spring snow it bucked and bounced me around</quote>
+        <quote>I was really impressed with the grip on the Salomon Highpath.</quote>
+        <quote>The Salomon Highpath has a 3mm of taper which isn't much.</quote>
+        <quote>When it comes to pointing it the Salomon Highpath does alright on clean groomers but you don't get this for going fast.</quote>
+        <quote>It isn't a carving specialist because it's a little to soft for that.</quote>
+      </quotelist>
+      <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-highpath-snowboard-review/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2023-03</date_of_first_relevance>
+      <date_of_last_relevance>2025-12-08</date_of_last_relevance>
+      <reasoning>The Good Ride is one of the most thorough independent snowboard review sites. Extended 4-day demo by James (experienced reviewer with 800+ boards tested). Provides honest positives and negatives. Flex assessment notably softer than manufacturer claims.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.95</attribute_importance>
+    </citation>
+
+    <citation id="41">
+      <quotelist>
+        <url>https://www.evo.com/reviews/snowboard/salomon-highpath</url>
+        <quote>the first thing I noticed was how light it felt. The Ghost Green Core, lives up to it's name and is feather light.</quote>
+        <quote>With the slight setback stance and 4mm of taper I found the Highpath perfectly at home carving up groomers</quote>
+        <quote>a castor bean topsheet, basalt stringers, and a natural wax used in the finishing of the board.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/reviews/snowboard/salomon-highpath</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-08</date_of_first_relevance>
+      <date_of_last_relevance>2022-08</date_of_last_relevance>
+      <reasoning>evo's field-tested review by Kevin Kastafanas provides firsthand performance insights. Notes 4mm taper which conflicts with The Good Ride's 3mm — may be model year difference or measurement variation. Confirms lightweight feel.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="42">
+      <quotelist>
+        <url>https://www.curated.com/journal/1377001/expert-review-salomon-highpath-snowboard</url>
+        <quote>Stability: I felt stable on the Highpath. It felt pretty damp and locked in while carving, reduced a lot of underfoot chatter</quote>
+        <quote>While I do feel like I was able to turn this board quickly in trees, it was not my favorite in moguls.</quote>
+        <quote>I would put this board right in the middle of the Flagship and the Stratos as far as how aggressive it rides</quote>
+        <quote>fairly similar to the K2 Excavator but a bit more aggressive and significantly more expensive</quote>
+        <quote>Salomon uses a super lightweight paulownia wood core</quote>
+      </quotelist>
+      <url_with_text_link>https://www.curated.com/journal/1377001/expert-review-salomon-highpath-snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-05</date_of_first_relevance>
+      <date_of_last_relevance>2023-04</date_of_last_relevance>
+      <reasoning>Curated expert review with hands-on demo data. Provides useful comparative context to Jones Flagship, Jones Stratos, and K2 Excavator. The expert purchased the board with own money, adding credibility.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="43">
+      <quotelist>
+        <url>https://blauerboardshop.com/products/salomon-highpath-2025</url>
+        <quote>Flex Rating – 4/5 (1=Soft,5=Stiff)</quote>
+        <quote>Popster's shaped core profile thins out under foot and thickens outside your bindings before tapering again at tip and tail to maximize the natural snap and pop of wood.</quote>
+        <quote>ABC Wrapper is a patented process using structural bamboo veneers to reduce fiberglass and resin content in each board by 40%.</quote>
+      </quotelist>
+      <url_with_text_link>https://blauerboardshop.com/products/salomon-highpath-2025</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-06</date_of_first_relevance>
+      <date_of_last_relevance>2025-06</date_of_last_relevance>
+      <reasoning>Blauer Board Shop provides 2025 model specs with Salomon's 5-point flex scale (4/5). ABC Wrapper detail about 40% less fiberglass/resin content is a notable construction spec.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="44">
+      <quotelist>
+        <url>https://www.absolute-snow.com/salomon-highpath-snowboards-men-2026</url>
+        <quote>This snowboard is designed for intermediate to expert riders who want a high-performance, versatile board</quote>
+      </quotelist>
+      <url_with_text_link>https://www.absolute-snow.com/salomon-highpath-snowboards-men-2026</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025-06</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Absolute-Snow is a UK-based specialist retailer providing a broader rider level range (intermediate to expert) than some other sources.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="45">
+      <quotelist>
+        <url>https://www.salomon.com/en-us/b/warranty</url>
+        <quote>Two (2) years for other products</quote>
+        <quote>SALOMON or its authorized retailer shall at its sole discretion either (a) repair the Product or (b) replace the Product at no charge.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.salomon.com/en-us/b/warranty</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2017-11</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official Salomon warranty page confirming 2-year warranty for snowboards (categorized under "other products"). Authoritative for warranty claims.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+  </citations>
+</response>

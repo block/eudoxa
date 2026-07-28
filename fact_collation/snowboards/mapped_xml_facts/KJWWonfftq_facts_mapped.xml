@@ -1,0 +1,755 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="12" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="6" category="comparable" />
+  <duplicate_canonical name="terrain_suitability" count="6" category="recommendation" />
+  <duplicate_canonical name="positive_aspect" count="6" category="review" />
+  <duplicate_canonical name="laminate" count="4" category="unknown" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="core_material" count="3" category="construction" />
+  <duplicate_canonical name="rider_level" count="3" category="target_user" />
+  <duplicate_canonical name="warranty" count="3" category="warranty" />
+  <duplicate_canonical name="model_first_available_year" count="2" category="identity" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="turn_initiation_performance" count="2" category="performance" />
+  <duplicate_canonical name="pop" count="2" category="unknown" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][7]
+2. model_name: Fish 3D Splitboard (also listed as "3D Fish Directional Flat Top Splitboard") [1][2]
+3. model_year: 2026 [1][4]
+4. manufacturer: Burton Snowboards, founded 1977 by Jake Burton Carpenter [17]
+5. Manufacturer headquarters: Burlington, Vermont, USA [18]
+6. manufacturing_location_current: Primarily Austria (Keil factory) and China [19][20]
+7. Manufacturer reputation: One of the most storied brands in the snowboarding industry [6]
+8. product_type: Splitboard [1]
+9. board_category: Powder [7]
+10. gender: Unisex / Gender Neutral [1][8]
+11. Design inspiration: Evolution of the famous Burton Fish into splitboard format [7]
+12. model_first_available_year: 2021 (YOM: 2021 per forum reviewers) [9]
+13. model_first_available_year: Winter 2025-2026 season (the brand previously had a different "Fish" splitboard, now out of production) [6]
+14. predecessor_model_name: Burton Fish Splitboard (now discontinued); the non-split 3D Fish has been in production since 2021 [6][9]
+15. SKU (merchant): 2437410A03RG156 [MERCHANT]
+16. price_usd_msrp: $999.95 [10]
+17. price_usd_evo: $699.96 (was $999.95) [10]
+18. price_usd_msrp: $999 USD [6]
+19. price_aud_merchant: $1,119.99 (was $1,399.99 RRP AUD, 20% discount) [MERCHANT]
+20. Non-split 3D Fish price at Burton US: $659.95 (snowboard only, not splitboard) [11]; Splitboard from Burton approx $1,029.95 (via Good Ride links) [12]
+21. price_usd_backcountry: $543.96 – $799.96 (varying sale prices listed) [12]
+22. availability_status: evo.com (in stock) [10]
+23. availability_status: Backcountry.com [3]
+24. availability_status: Amazon.com [4][5]
+25. availability_status: Blauer Board Shop [1]
+26. availability_status: The Source Snowboard & Skate [14]
+27. availability_status: Level Nine Sports [9]
+28. availability_status: Steep and Cheap [13]
+29. availability_status: Gravity Coalition [14]
+30. availability_status: Alternative113 [15]
+31. availability_status: Boutique Garceau (Canada) [16]
+32. availability_status: ERIK'S Bike Board & Ski [8] (sizes 151, 156, 161 listed, some sold out)
+33. availability_status: Salty Peaks [21]
+34. Melbourne Snowboard shipping restriction: Australia only [MERCHANT]
+35. comparable_board_cross_brand: Jones Solution Splitboard $1,049.95; Lib Tech Escalator Splitboard $1,049.99; CAPiTA Navigator Split $1,099.95 [10]
+36. shape: Tapered Directional / Directional [7][MERCHANT]
+37. Tail design: Double swallowtail [1][7]
+38. 3D base technology: Surfboard-inspired 3D convex shaping in nose and tail [1]
+39. taper: 30mm [9][22]
+40. Shortened overall length: Designed with reduced length for sharpened manoeuvrability [7]
+41. sidecut_type: Hourglass-like sidecut delivering instantaneous short-to-medium turns (per Backcountry Magazine testers) [23]
+42. camber_type: Directional Flat Top (flat camber between feet, early rise rocker nose) [1][7]
+43. camber_description: A flat profile between the feet means stability, better balance, and continuous edge control; rocker nose for effortless float [1]
+44. flex_rating_10: 4.5/10 [MERCHANT]
+45. flex_rating_10: Medium 6/10 [9] — DISAGREEMENT: The merchant lists 4.5/10 while the detailed forum review of the 161 non-split lists 6/10. The splitboard may have a different flex feel; the merchant value may represent the splitboard-specific flex, while the forum reviewer may rate the solid board differently.
+46. flex_feel: Mid-flex [7]
+47. flex_direction: Directional Flex (increased pop in tail, stiffer nose for control) [1]
+48. flex_feel: Med/stiff between the feet but soft in the nose and medium stiff in the tail [24]
+49. flex_feel: One of the softest splits ever given Editors' Choice honors [23]
+50. Core profiling: Squeezebox — balance of thicker, more powerful core sections with thinner, more flexible sections [1]
+51. core_material: Super Fly II 700G Core with Dualzone EGD [1][7]
+52. core_material: Dual-species wood core that is loaded with pop and reduces overall weight [14]
+53. core_material: FSC™ Certified (stronger and lighter woods targeted in specific areas) [15]
+54. Core technology - Dualzone EGD: Wood grain aligned along heel and toe edge in two unbroken zones perpendicular to rest of core for consistent edge hold and strength [7]
+55. laminate: 45° Carbon Highlights — tip-to-tail carbon layer with 45° angled fibres for reduced weight and fine-tuned torsional flex [1][7]
+56. laminate: A 45° fiber angle provides a more aggressive ride (vs 60° which is more playful) [1]
+57. laminate: Mystery Glass — custom blend of fiberglass and carbon fiber designed to optimize strength-to-weight ratio [14]
+58. laminate: 0°/UDG & +/- 45° Stitched, 45° Carbon Highlights [9]
+59. base_material: Sintered WFO (extra absorbent, high density sintered material infused with specially formulated wax) [1][7]
+60. resin: Super Sap® Epoxy — bio-based materials that reduce carbon footprint by 50% over conventional petroleum-based epoxies [1]
+61. Factory treatment: Infinite Ride™ (overbuilt and machine-broken-in for consistent performance from day 1) [1]
+62. sidewall_material: Slimrail slanted sidewalls (reduces thickness and weight) [25]
+63. sustainability_certification: FSC™ Certified core woods [15]
+64. mounting_pattern: The Split Channel (with channel compatible pre-mounted pucks) [1][7]
+65. binding_compatibility: Compatible with all major bindings, not just Burton's [1]
+66. Pre-mounted pucks: Yes, comes with binding pucks ready to go [6]
+67. Recommended binding: Burton Step On Splitboard Binding (reviewer's favorite for touring) [6]
+68. Skin compatibility note: Works best with Burton proprietary skins due to swallowtail shape [6]
+69. Splitboard function: Splits into two separate halves for touring/uphill travel with climbing skins; special splitboard bindings required [8]
+70. available_sizes: 146cm, 151cm, 156cm, 161cm [9][8]
+146cm:
+71. Effective edge 146cm: 995mm [MERCHANT]
+72. sidecut_radius_size: 5.4m [MERCHANT]
+73. tip_tail_width_size: 303.6mm [MERCHANT]
+74. tip_tail_width_size: 273.6mm [MERCHANT]
+75. Waist width 146cm: 252mm [MERCHANT]
+76. recommended_weight_range_size: 45-68kg [MERCHANT]
+151cm:
+77. Effective edge 151cm: 1045mm [MERCHANT]
+78. sidecut_radius_size: 5.8m [MERCHANT]
+79. tip_tail_width_size: 311.5mm [MERCHANT]
+80. tip_tail_width_size: 281.5mm [MERCHANT]
+81. Waist width 151cm: 258mm [MERCHANT]
+82. recommended_weight_range_size: 54-82kg [MERCHANT]
+156cm:
+83. Effective edge 156cm: 1095mm [MERCHANT]
+84. sidecut_radius_size: 6.1m [MERCHANT]
+85. tip_tail_width_size: 315.3mm [MERCHANT]
+86. tip_tail_width_size: 285.3mm [MERCHANT]
+87. Waist width 156cm: 260mm [MERCHANT]
+88. stance_width_range_size: 560mm [MERCHANT]
+89. setback: -50mm [MERCHANT]
+90. recommended_weight_range_size: 68-91kg [MERCHANT]
+161cm:
+91. Effective edge 161cm: 1145mm [MERCHANT]
+92. sidecut_radius_size: 6.4m [MERCHANT]
+93. tip_tail_width_size: 319.1mm [MERCHANT]
+94. tip_tail_width_size: 289.1mm [MERCHANT]
+95. Waist width 161cm: 262mm [MERCHANT]
+96. recommended_weight_range_size: 82-118+kg [MERCHANT]
+97. contact_length_size: 1040mm [9]
+98. board_weight_grams: ~2900g (6.4 lbs) [25] — Note: This is for the non-split 3D Fish; the splitboard will weigh more due to hardware/clips.
+99. Weight category: On the lighter side of normal but not ultra-light [24]
+100. Weight note: Wood cores mean no consistency in board weight between individual units [24]
+101. terrain_suitability: 2/10 [MERCHANT][9]
+102. terrain_suitability: 4/10 [MERCHANT][9]
+103. terrain_suitability: 10/10 [MERCHANT][9]
+104. rider_level: Intermediate [MERCHANT]
+105. rider_level: Expert Powder and Backcountry Riders [4]
+106. rider_level: Advanced-Expert [8] — DISAGREEMENT: The merchant lists "Intermediate" while evo and Backcountry.com list "Advanced-Expert". The board's niche powder focus and splitboard nature suggest it is best suited for experienced riders, making "Intermediate" an outlier classification.
+107. width_options: Standard (not wide) [MERCHANT]
+108. terrain_suitability: Deep powder, backcountry, trees [MERCHANT][1]
+109. riding_style: Backcountry splitboarding, powder surfing [MERCHANT]
+110. terrain_suitability: Storm days, tight tree runs, big mountain powder lines [3]
+111. terrain_suitability: Powder touring and deep snow riding [4]
+112. Recommended skin setup: Burton proprietary skins recommended for best fit due to swallowtail [6]
+113. Equipment needed: Splitboard-specific bindings, climbing skins, backcountry safety gear (avalanche beacon, probe, shovel) [8]
+114. positive_aspect: Exceptional — "Unsinkable" per Backcountry Magazine Tahoe tester [23]
+115. positive_aspect: "It really felt surfy in the best possible way" [6]
+116. positive_aspect: Reviewer's favorite board for jamming through trees [24]
+117. turn_initiation_performance: Instantaneous short-to-medium turns from sidecut and spoon-shaped nose [23]
+118. turn_initiation_performance: "Rapid edge-to-edge energy" judged perfect for tight trees [23]
+119. positive_aspect: Ease-of-use and absolute control praised [6]
+120. pop: Board almost pops back as you go in and out of turns [26]
+121. positive_aspect: Unique maneuverability in the splitboard category [26]
+122. Volume shift sizing: Extra width in nose and mid-section compensates for shorter length [6]
+123. positive_aspect: Underrated feature — just adjust stance, no drilling needed [6]
+124. base_glide_performance: Exceptional initial glide (non-split version review) [24]
+125. Award: Backcountry Magazine 2026 Editors' Choice Splitboard [23]
+126. negative_aspect: Not at home in steep, hard conditions [6]
+127. negative_aspect: Nose feels a tad catchy when maneuvering in firm snow [6]
+128. negative_aspect: 3D makes it completely useless in windblown or icy crust (forum user opinion) [27]
+129. pop: Good but not exceptional [24]
+130. negative_aspect: Not about bombing speed; more for those that like to turn [24]
+131. negative_aspect: Not for powering over chopped up snow or bumps [24]
+132. negative_aspect: Base can get chalky after waxing with non-Burton wax; needs lots of maintenance [24]
+133. negative_aspect: 3D base profile makes hot waxing laboriously time-consuming with iron lifting off contours [25]
+134. switch_riding: Not designed for switch riding (directional shape)
+135. Skin fit: Swallowtail design means generic skins may not fit perfectly; Burton skins recommended [6]
+136. comparable_board_cross_brand: Weston Japow (similar pow-specific slayer) [6]
+137. comparable_board_cross_brand: Jones Storm Chaser (similar powder comparison) [6]
+138. comparable_board_cross_brand: Lib Tech Escalator Split (more versatile alternative, rides wide) [6]
+139. comparable_board_cross_brand: CAPiTA Spring Break Powder Glider, CAPiTA Spring Break Tree Hunter, Jones Mind Expander [28]
+140. comparable_board_cross_brand: The 3D Fish is a bit more versatile than comparable pow-specific slayers (Weston Japow, Jones Storm Chaser) per reviewer [6]
+141. Heli-skiing use: The world's largest heli operator in BC stocks more Fish (now the 3D Fish) than all other boards put together [29]
+142. warranty_period_years: 3 years from original purchase date against manufacturer defects (for channel boards purchased after 08/13/13) [30]
+143. warranty: Burton warrants all products free of defects in material or workmanship for a specified period from date of purchase [31]
+144. warranty: Valid for original purchaser only, requires proof of purchase from authorized retailer [31]
+145. warranty: Rock damage and impact-related damage not covered; eBay purchases not covered [30][31]
+146. return_policy_terms: Unused product with original packaging/tags within 30 days for full refund [14]
+147. sustainability_certification: Super Sap® Epoxy reduces carbon footprint by 50% over conventional petroleum-based epoxies [1]
+148. sustainability_certification: FSC™ Certified wood core [15]
+149. sustainability_certification: Burton is a certified B Corporation [manufacturer website footer]
+150. reviewer_opinion_the_good_ride: 6'0", 200 lbs rider rode the 156; felt good despite being shorter than normal ride [6]
+151. reviewer_opinion_the_good_ride: 156 best for US boot sizes 9-10; 152: 8-9; 160: 9.5-10.5 [24]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-3d-fish-split-2026</url>
+  <quote>Surfboard-inspired, 3D convex shaping in the tip and tail give the Fish a new level of float, responsiveness, and control in deep snow.</quote>
+  <quote>45° Carbon Highlights optimizes each layer of the fiberglass matrix and adds a full tip-to-tail carbon layer to reduce weight</quote>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-3d-fish-split-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Authorized Burton dealer listing the 2026 splitboard with full manufacturer specifications. Repeats Burton's official product descriptions.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-3d-fish-directional-flat-top-splitboard/W26-243741.html</url>
+  <quote>Shop the 3D Fish Directional Flat Top Splitboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-3d-fish-directional-flat-top-splitboard/W26-243741.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer product page for the W26 (Winter 2026) splitboard. Page required JavaScript to render specs, but confirms the product URL and model designation.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.backcountry.com/burton-fish-3d-splitboard-2025</url>
+  <quote>The Fish 3D Splitboard excels on storm days, tight tree runs, and big mountain powder lines.</quote>
+  <quote>Expert-level splitboard designed for deep powder and backcountry riding</quote>
+  </quotelist>
+  <url_with_text_link>https://www.backcountry.com/burton-fish-3d-splitboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Major specialty outdoor retailer Backcountry.com product listing. Classifies as expert-level and lists key terrain attributes.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://us.amazon.com/Burton-Fish-3D-Splitboard-CoLoler/dp/B0DTX4K848</url>
+  <quote>This board is built for advanced riders who prioritize surf-style float and nimble handling in deep snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://us.amazon.com/Burton-Fish-3D-Splitboard-CoLoler/dp/B0DTX4K848</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing for 156cm size confirms target rider level and availability through a major marketplace.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://us.amazon.com/Burton-Fish-3D-Splitboard-CoLoler/dp/B0DTX6K3YN</url>
+  <quote>Amazon.com : Burton, Fish 3D Splitboard - 2026, One Color, 146cm</quote>
+  </quotelist>
+  <url_with_text_link>https://us.amazon.com/Burton-Fish-3D-Splitboard-CoLoler/dp/B0DTX6K3YN</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing for 146cm confirms availability of this size option through Amazon.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/burton-3d-fish-splitboard-snowboard-review/</url>
+  <quote>Burton, one of the most storied brands in the industry, released the 3D Fish Directional Splitboard ($999) this year</quote>
+  <quote>This board is capable in hard-pack, just like any ride, but it's not at home in steep, hard conditions.</quote>
+  <quote>The nose feels a tad catchy when the rider has to maneuver in firm snow.</quote>
+  <quote>you could look at a board like the Weston Japow, or the Jones Storm Chaser, as similar comparisons</quote>
+  <quote>I would say the 3-D Fish is a bit more versatile than those pow-specific slayers</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/burton-3d-fish-splitboard-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Inertia is a respected surf/outdoor media outlet. This is an in-depth hands-on splitboard review published ~3 weeks ago, with real-world testing in backcountry conditions. Provides pricing, strengths, weaknesses, and competitor comparisons.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/burton-fish-3d-splitboard-2026</url>
+  <quote>The Burton Fish 3D is the evolution of the famous Burton Fish into the world of splitboarding.</quote>
+  <quote>The Super Fly II 700G Core features stronger and lighter woods targeted in specific areas</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-fish-3d-splitboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian authorized Burton dealer with detailed specs and ratings. This is the merchant site referenced in the user's attribute list.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.evo.com/splitboards/burton-3d-fish-splitboard</url>
+  <quote>Advanced-Expert Whether you charge the steepest lines, hit the biggest jumps in the park or carve with race-like precision</quote>
+  <quote>Splitboards are designed to break down into two separate halves for touring and uphill travel</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/splitboards/burton-3d-fish-splitboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is one of the largest specialty snowboard retailers in the US. Provides ability level classification and confirms splitboard educational context. In stock.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-fish-3d-snowboard-review.266968/</url>
+  <quote>YOM: 2021, Available Sizes: 146, 151, 156, 161, Size: 161 (319.1/262/289.1mm), Weight: 2900 grms (6.4 lbs) @161</quote>
+  <quote>Flex: Medium 6/10, Weight Range @161: 180-260 lbs.+ / 82-118 kg+</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-fish-3d-snowboard-review.266968/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Detailed community forum review by Craig64, a well-known and respected reviewer on snowboardingforum.com. Provides measured weight, running length, and detailed specs for the non-split 3D Fish which shares the same geometry. The flex rating of 6/10 differs from the merchant's 4.5/10.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/backcountry/gear/splitboards</url>
+  <quote>Burton Fish 3D Splitboard $999.95 $699.96 Sale</quote>
+  <quote>Jones Solution Splitboard $1,049.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/backcountry/gear/splitboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo category page showing splitboard pricing. Confirms MSRP of $999.95 and current sale at $699.96. Also provides competitive pricing context.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url>
+  <quote>$659.95 Buy it Now Buy Burton 3D Fish from Burton US</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent snowboard review site. Price listed is for the non-split 3D Fish. Shows the splitboard priced significantly higher than the solid version.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url>
+  <quote>$543.96 Buy it Now Buy Burton 3D Fish from Backcountry</quote>
+  <quote>$1029.95 Buy it Now Buy Burton 3D Fish from Burton US</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Good Ride's affiliate links showing multiple retailer prices, likely for the splitboard variant at some links. Prices are volatile and time-dependent.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.steepandcheap.com/burton-fish-3d-splitboard-2025</url>
+  <quote>Built for expert riders, this board features a split-channel mounting system</quote>
+  </quotelist>
+  <url_with_text_link>https://www.steepandcheap.com/burton-fish-3d-splitboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Steep and Cheap (Backcountry.com outlet) listing confirms availability and expert rider designation.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-3d-fish-splitboard-2025</url>
+  <quote>Glassing: Mystery Glass - This construction features a custom blend of fiberglass and carbon fiber</quote>
+  <quote>Core: Super Fly® 700G Core - This is a dual-species wood core that is loaded with pop</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-3d-fish-splitboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Source is a specialty snowboard retailer. Uniquely lists "Mystery Glass" fiberglass construction detail not found on all other retailer pages.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.alternative113.com/en/burton-24-fish-3d-splitboard-1-btn-051.html</url>
+  <quote>FSC™ Certified Super Fly II™ 700g: Stronger and lighter woods target specific areas of the core</quote>
+  </quotelist>
+  <url_with_text_link>https://www.alternative113.com/en/burton-24-fish-3d-splitboard-1-btn-051.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>European retailer listing for the Fish 3D Splitboard with detailed Burton specs including FSC certification.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://boutiquegarceau.com/en/products/fish-3d-split</url>
+  <quote>Its short, wide and directional shape offers great fluidity of movement, while its 30 mm tapered profile ensures easy turns</quote>
+  </quotelist>
+  <url_with_text_link>https://boutiquegarceau.com/en/products/fish-3d-split</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Canadian retailer confirming availability and 30mm taper specification.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced background on Burton's founding and corporate history.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>In 1992, the Burton factory relocated to Burlington, Vermont.</quote>
+  <quote>The company, whose flagship store is in Burlington, Vermont</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1992</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms Burlington, Vermont as headquarters location.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>In 2010, Burton announced that Burton Snowboards would cease manufacturing in Vermont and move production to Austria.</quote>
+  <quote>More recently, the company has shifted some of its snowboard production to China.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms manufacturing moved to Austria and China.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url>
+  <quote>Most of its snowboards are made at the Keil factory with 80 workers in Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>VTDigger is a reputable Vermont news outlet. Article from 2019 confirms Keil factory in Austria as primary snowboard manufacturing facility.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/burton-3d-fish-snowboard/</url>
+  <quote>The design is the result of more on-snow prototypes than any board in recent years</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/burton-3d-fish-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Salty Peaks is a longstanding specialty snowboard shop in Utah. Confirms availability.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.levelninesports.com/burton-fish-3d-splitboard-2025</url>
+  <quote>Short and wide with 30mm of taper, the Fish 3D Splitboard offers unmatched maneuverability</quote>
+  </quotelist>
+  <url_with_text_link>https://www.levelninesports.com/burton-fish-3d-splitboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Level Nine Sports retailer listing confirms 30mm taper specification and availability.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://backcountrymagazine.com/gear/2026-editors-choice-splitboard-reviews/</url>
+  <quote>Burton's 3D Fish was one of the most fun and floaty boards at this year's test.</quote>
+  <quote>one of the softest splits we've ever given Editors' Choice honors to</quote>
+  <quote>"Unsinkable," commented a Tahoe rider</quote>
+  </quotelist>
+  <url_with_text_link>https://backcountrymagazine.com/gear/2026-editors-choice-splitboard-reviews/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Backcountry Magazine is one of the most authoritative specialist publications for backcountry snowboarding. Their 2026 Editors' Choice award carries significant weight. Multiple testers across different regions validated the board's performance.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url>
+  <quote>It is med/stiff between the feet but soft in the nose and medium stiff in the tail.</quote>
+  <quote>The base glide was exceptional out of the box but after my fist wax the base got chalky and weird.</quote>
+  <quote>The Burton 3D Fish isn't about bombing but more for those that like to turn.</quote>
+  <quote>This is my favorite board for jamming through trees.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent rider-funded review site with no manufacturer bias. Review of the non-split 3D Fish (2021-2024) which shares the same shape, flex, and construction as the splitboard variant. The chalky base issue was specific to 2021 boards. Provides honest positives and negatives.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-fish-3d-snowboard-review.266968/</url>
+  <quote>I placed her on the scales and she comes in at around 2900grms.</quote>
+  <quote>A big thing you notice straight away on the new 3D fish is the slanted "Slimrail" sidewalls</quote>
+  <quote>hot waxing 3D boards is that it's a lot more laboriously time consuming</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-fish-3d-snowboard-review.266968/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Detailed owner review by Craig64, a highly respected forum reviewer who actually weighed the board. The 2900g figure is for the non-split 161cm. Also provides practical insight about waxing difficulty and sidewall construction.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/burton-3d-fish-splitboard-snowboard-review/</url>
+  <quote>The flex pattern also plays into this feeling: the board almost pops back a bit as you go in and out of turns</quote>
+  <quote>There's a maneuverability to this board that is unique in the industry.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/burton-3d-fish-splitboard-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Inertia's detailed review provides performance insights about the flex pattern and maneuverability that are unique to this splitboard variant.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-3d-fish.276473/</url>
+  <quote>3D makes it completely useless in windblown or icy crust.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-3d-fish.276473/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum user opinion about the 3D Fish's weakness on icy/crusty snow. Individual anecdote but consistent with the board's powder-specific design. Important negative for purchasers in variable conditions.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url>
+  <quote>Similar Boards (but not the same): Capita Spring Break 158 Powder Glider, Capita Spring Break 161 Tree Hunter, Jones Mind Expander</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-3d-fish-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride provides competitor comparisons based on riding similar boards. Useful for purchase comparison shopping.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/where-does-the-burton-fish-3d-stand-amongst-powder-boards.279635/</url>
+  <quote>The world's largest heli operator in BC stocks and "rents" more Fish - now the 3D Fish - than everything else put together.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/where-does-the-burton-fish-3d-stand-amongst-powder-boards.279635/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum post from a user who claims experience working for a BC cat/heli operator for 20 years. The claim about heli operators preferring the Fish is a strong endorsement from an industry insider, though unverifiable.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.burton.com/hu/en/help/warranty-ca.html</url>
+  <quote>Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/hu/en/help/warranty-ca.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton warranty page confirming 3-year warranty for Channel mount boards. This is the manufacturer's own policy documentation. The Split Channel board would qualify.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url>
+  <quote>Burton Snowboards warrants all products sold by Burton to be free of defects in material or workmanship for a specified period of coverage</quote>
+  </quotelist>
+  <url_with_text_link>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton help center warranty policy page. General warranty terms applicable to all Burton products.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-fish-3d-2021-2022.html</url>
+  <quote>The Burton Fish is a classic, the Fish 3D is the evolution of that archetype</quote>
+  <quote>Its whopping 30mm taper, voluptuous waist width, elongated nose and 3D shaping all work in synchrony</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-fish-3d-2021-2022.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-10</date_of_first_relevance>
+  <date_of_last_relevance>2022</date_of_last_relevance>
+  <reasoning>Whitelines is a well-established snowboard media outlet. Review of the 2021-2022 non-split 3D Fish provides design context applicable to the splitboard variant which shares the same shape.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.eriksbikeshop.com/products/burton-3d-fish-snowboard-2026-pr5a24500</url>
+  <quote>Size: 151cm Variant sold out or unavailable 156cm Variant sold out or unavailable 161cm Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/burton-3d-fish-snowboard-2026-pr5a24500</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>ERIK'S product page shows sizes 151, 156, 161 listed (some sold out), confirming size availability from another retailer.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Burton still run their prototyping facility in Vermont, but production takes place mostly in China and Austria.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles is a niche snowboard information site that researched manufacturing locations. Updated September 2025.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/mens-burton-fish-3d-directional-flat-top-snowboard/W21-219221.html</url>
+  <quote>Men's Burton Fish 3D Directional Flat Top Snowboard along with more all mountain, park and powder snowboards from Winter 2021</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/mens-burton-fish-3d-directional-flat-top-snowboard/W21-219221.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020-09</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Official Burton product page URL confirms the non-split Fish 3D was introduced in Winter 2021 (W21 in the URL). The 3D Fish Splitboard variant was introduced for Winter 2026.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-fish-3d-splitboard-2026</url>
+    <quote>brand: Burton; model name: Fish 3D Splitboard; model year: 2026; SKU: 2437410A03RG156; AUD price: $1,119.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-fish-3d-splitboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

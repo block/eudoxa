@@ -1,0 +1,1202 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="20" category="availability" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="7" category="comparable" />
+  <duplicate_canonical name="comparable_board_same_brand" count="6" category="comparable" />
+  <duplicate_canonical name="construction_material_innovation" count="5" category="construction" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="laminate" count="4" category="unknown" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="negative_aspect" count="4" category="review" />
+  <duplicate_canonical name="positive_aspect" count="3" category="review" />
+  <duplicate_canonical name="pro_rider_name" count="2" category="brand_info" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="edge_bevel_spec" count="2" category="construction" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="pop" count="2" category="unknown" />
+  <duplicate_canonical name="user_review_forum" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1]
+2. model_name: Huck Knife Pro [1]
+3. model_year: 2027 (merchant listing) [MERCHANT]
+4. product_type: Snowboard [1]
+5. board_category: Freestyle - All Mountain [MERCHANT]
+6. gender: Men's [2]
+7. manufacturer: Salomon Group, subsidiary of Amer Sports Corporation [3]
+8. Parent company: Amer Sports Corporation (NYSE-listed, headquartered in Helsinki, Finland) [3]
+9. Parent company ownership: Amer Sports is majority owned by ANTA Sports, FountainVest Partners, Anamered Investments (Chip Wilson/Lululemon), and Tencent [4]
+10. Salomon founded: 1947 in Annecy, French Alps [5]
+11. Salomon headquarters: Annecy Design Center, Annecy, France [6]
+12. Salomon US operations: Ogden, Utah [7]
+13. manufacturing_location_current: China (designed in France, manufactured in China) [8]
+14. manufacturing_location_prior: Some older Salomon boards were manufactured in Taiwan [9]
+15. Huck Knife line first introduced: 2017 [10]
+16. model_first_available_year: Approximately 2019-2020 season (earliest reviews found for 2020 model year) [11]
+17. pro_rider_name: Sven Thorgren [MERCHANT]
+18. pro_rider_name: Dusty Henricksen and Sven Thorgren [12]
+19. Limited edition variant: Huck Knife Pro Dusty LTD — collaboration with Dusty Henricksen [13]
+20. S/LAB Equipe variant: Huck Knife Pro S/LAB Equipe — made for team riders in 2027 Winter Games [14]
+21. availability_status: Preorder [MERCHANT]
+22. estimated_availability_date: May 1, 2026 [MERCHANT]
+23. price_aud_merchant: $1,089.99 [MERCHANT]
+24. price_usd_evo: $679.95 at evo [15]
+25. price_usd_msrp: $679.95 at Aspen Ski and Board (backordered) [16]
+26. price_usd_msrp: $629.95 [17]
+27. USD sale price (2025 model): $440.97 at Ski Barn [18]
+28. price_usd_backcountry: $543.96 at Backcountry and Christy Sports [19]
+29. price_eur_blue_tomato: €579.00 at Blue Tomato (multiple European markets) [19]
+30. price_gbp_blue_tomato_uk: £520.00 at Blue Tomato UK [19]
+31. Dusty LTD variant retail price: $700 USD [20]
+32. warranty: 2-year limited warranty covering materials and craftsmanship [21]
+33. availability_status: evo.com (in stock, 2026 model) [15]
+34. availability_status: Blauer Board Shop (2026 and 2027 models) [22]
+35. availability_status: Aspen Ski and Board (backordered) [16]
+36. availability_status: The House [23]
+37. availability_status: ERIK'S Bike Board & Ski [24]
+38. availability_status: Ski Barn [18]
+39. availability_status: Gear West [25]
+40. availability_status: Sports Basement [26]
+41. availability_status: Ski Pro AZ (sold out 2026) [27]
+42. availability_status: Absolute Snow (UK) [28]
+43. availability_status: Auski Australia [29]
+44. availability_status: Melbourne Snowboard (Australia) [30]
+45. availability_status: Blue Tomato (Europe-wide) [19]
+46. availability_status: Christy Sports [31]
+47. availability_status: Tactics.com [32]
+48. availability_status: Rudeboys [33]
+49. availability_status: MCU Sports [34]
+50. availability_status: Corbetts Ski + Snowboard [35]
+51. available_sizes: 153cm, 156cm, 159cm, 156cm Wide, 159cm Wide [MERCHANT]
+52. available_sizes: 149cm also offered [36]
+53. flex_rating_10: 8/10 [MERCHANT]
+54. flex_feel: Stiff, precise and responsive [MERCHANT]
+55. flex_rating_10: Blauer Board Shop (2026 model) lists flex as 4.5/5 (Stiff) which equals 9/10. Merchant site lists 8/10. This is likely a scale discrepancy (Blauer uses 5-point scale rounded vs. 10-point) but both describe "stiff." [37][MERCHANT]
+56. flex_rating_5: Blauer Board Shop (2025 model) lists flex as "5/5 (1=Soft, 5=Stiff)," which is even stiffer than the 2026/2027 rating. This may reflect model year changes or scale differences. [38]
+57. rider_level: Advanced [MERCHANT]
+58. shape: Twin (True Twin — identical tip/tail lengths, symmetrical core, centered stance) [39]
+59. setback: 0mm [40]
+60. camber_type: Quad Camber [MERCHANT]
+61. camber_description: A dynamic, camber-dominant profile with a more aggressive load outside of the feet for snap and response, and a mellower, more forgiving load between the feet [41]
+62. sidecut_type: Equaliser Rad Sidecut (EQ Rad) — combination of straight lines and short radius [MERCHANT]
+63. width_options: Standard, Wide [MERCHANT]
+64. mounting_pattern: 2x4 Inserts [MERCHANT]
+65. laminate: Tri-Ax HD Glass, Popster, Ghost Carbon Beams, Damplifier Lite, 30% Bio-Based Resin [MERCHANT]
+66. laminate: BA MD (medium density) [MERCHANT]
+67. laminate: TRIAX HD fiberglass — increases board life and durability [42]
+68. laminate: BIAX MD fiberglass — medium density European-made [42]
+69. resin: 30% Bio-Based Resin [MERCHANT]
+70. core_material: Ghost Green Core (sustainable, ultra-light wood) [MERCHANT]
+71. sustainability_certification: FSC™ certified wood (per Ski Pro AZ listing) [43]
+72. construction_material_innovation: Core milled inside inserts for more natural flex and energy transfer to nose/tail [MERCHANT]
+73. construction_material_innovation: Two Ghost Carbon Beams in tip and tail [MERCHANT]
+74. construction_material_innovation: Boost pop and stability for bigger tricks and faster riding [44]
+75. construction_material_innovation: Damplifier Lite — lightweight cork and honeycomb in nose [MERCHANT]
+76. construction_material_innovation: Reduces swing weight, increases dampening and shock resistance [45]
+77. sidewall_material: Royal Rubber Rails — full-length rubber sidewalls [MERCHANT]
+78. sidewall_material: Highest level of dampening and protection [42]
+79. base_material: Sintered EG Base (Gallium infused, Electra finish) [MERCHANT]
+80. base_type: Medium Stone Finish [MERCHANT]
+81. base_material: Engineered for fast glide speed and maximum wax retention in all conditions [41]
+82. edge_technology: Freestyle Edge Bevel [MERCHANT]
+83. edge_bevel_spec: 1.5 degree base edge bevel [MERCHANT]
+84. edge_bevel_spec: Salomon's US site describes the Freestyle EB as "2-degree bevel around the nose and tail and a 3-degree bevel between the feet" which refers to the combined side+base edge angles rather than just base edge [42]. Melbourne Snowboard confirms a "1.5 degree base edge bevel" [30]. These likely describe different parts of the same edge setup.
+85. Factory wax: Natural Wax — paraffin-free, made from natural ingredients [46]
+86. Effective edge 153cm: 119.2cm [MERCHANT]
+87. Waist width 153cm: 25.3cm [MERCHANT]
+88. tip_tail_width_size: 29.2cm [MERCHANT]
+89. sidecut_radius_size: 7.3m [MERCHANT]
+90. stance_width_range_size: 54.5cm [MERCHANT]
+91. recommended_weight_range_size: 50-70kg [MERCHANT]
+92. Effective edge 156cm: 121.6cm [MERCHANT]
+93. Waist width 156cm: 25.5cm [MERCHANT]
+94. tip_tail_width_size: 29.5cm [MERCHANT]
+95. sidecut_radius_size: 7.5m [MERCHANT]
+96. stance_width_range_size: 56.0cm [MERCHANT]
+97. recommended_weight_range_size: 55-75kg [MERCHANT]
+98. Effective edge 159cm: 124.0cm [MERCHANT]
+99. Waist width 159cm: 25.7cm [MERCHANT]
+100. recommended_weight_range_size: 65-90kg [MERCHANT]
+101. Effective edge 156W: 121.6cm [MERCHANT]
+102. Waist width 156W: 26.2cm [MERCHANT]
+103. recommended_weight_range_size: 65-90kg [MERCHANT]
+104. Effective edge 159W: 124.0cm [MERCHANT]
+105. Waist width 159W: 26.4cm [MERCHANT]
+106. recommended_weight_range_size: 65-95kg [MERCHANT]
+107. terrain_suitability: Park, jumps, rails, urban street spots, side hits, all mountain [MERCHANT]
+108. skill_level_recommendation: Advanced to expert freestyle riders who live in the park [37]
+109. riding_style: Jumps, transition, and rails using the most aggressive camber profile [41]
+110. pop: Explosive; returns energy — ollies were big with minimal effort [47]
+111. pop: "This board returns energy to you in a big way" [48]
+112. edge_hold: Strong, very predictable, even on firm and icy snow [47]
+113. flex_feel: Although stiff flex rating, never too hard to flex — pushes back nicely [47]
+114. Carving: Easily the most capable at deep carving at speed (The Manual) [48]
+115. Speed check capability: Blend of stiffness and light weight makes it incredible with speed checks [48]
+116. Weight feel: Light — both light and feels substantial underfoot (The Manual) [48]
+117. turn_initiation_performance: You turn, it turns; you ollie, it lifts you [48]
+118. Torsional flex: Rigid, very little torsional flex (The Manual) [48]
+119. Stability on jumps: Very stable and solid on jumps, even icy landings [47]
+120. base_glide_performance: Does very well in a lot of different snow conditions [47]
+121. positive_aspect: Good upgrade to regular Huck Knife — more responsive, poppier [49]
+122. reviewer_opinion_whitelines: "I giggled like a little school girl on my first run with this board" [50]
+123. positive_aspect: Excellent for speed checks and precise carving [48]
+124. positive_aspect: Very light for the performance level [48]
+125. user_review_forum: "After YEARS on this board, the pop is still good" — board still going strong after multiple seasons [51]
+126. negative_aspect: Board is pretty catchy if you're not on edge; edges grabbed snow when lazy/flat-based [52]
+127. negative_aspect: Not suitable for powder — catchy at higher speeds in 4"+ powder [52]
+128. negative_aspect: Too stiff for ground tricks and buttering [52]
+129. negative_aspect: Demands committed, technically proficient riding [53]
+130. Break-in noted on standard HK: Regular Huck Knife breaks in quite a bit after a season of daily use [49]
+131. user_review_forum: Hard pack/ice edge hold reduced by aggressive base edge bevel (3° between feet) [54]
+132. comparable_board_same_brand: Pro is stiffer, lighter, poppier, more responsive [55]
+133. comparable_board_same_brand: Choose HK for softer flex/rails; choose HK Pro for more jumps [56]
+134. comparable_board_same_brand: Ghost Green Core (vs. Aspen SLCT on standard), Ghost Carbon Beams (not on standard), Damplifier Lite (not on standard), Sintered EG base (vs. Sintered on standard) [57]
+135. comparable_board_same_brand: HK Pro ~8/10 vs. HK ~5/10 [MERCHANT][58]
+136. comparable_board_same_brand: ~$529.95 (significantly cheaper) [59]
+137. comparable_board_cross_brand: Capita Defenders of Awesome (DOA) — similar all-mountain freestyle twin, slightly stiffer than regular HK [60]
+138. comparable_board_cross_brand: HK is a little softer; DOA flex rated ~5.5/10 vs. HK ~4.5/10 [60]
+139. comparable_board_cross_brand: Burton Process — similar freestyle twin; Process is slightly stiffer than HK [61]
+140. comparable_board_cross_brand: Yes Jackpot — very similar feel underfoot to HK; slightly better edge hold on ice [62]
+141. comparable_board_cross_brand: HK Pro $679.95 vs. DOA ~$569.95 — Pro is notably more expensive [59]
+142. comparable_board_cross_brand: Lib Tech TRS HP, Never Summer Proto Type Two, Nitro Fury, Yes Greats [63]
+143. comparable_board_cross_brand: Capita Mega Mercury — riders considering as second board alongside HK Pro [64]
+144. comparable_board_same_brand: Salomon Assassin Pro — directional, more versatile [65]
+145. Salomon brand reputation: Well-established, top-tier ski and snowboard brand; one of the most innovative companies in outdoor sports [5]
+146. Amer Sports portfolio reputation: Includes Arc'teryx, Wilson, Atomic, Peak Performance — major global sports conglomerate [3]
+147. Huck Knife line reputation: Salomon's most popular freestyle snowboard since 2017; often seen on competition podiums [10]
+148. X Games visibility: Commonly spotted on pro riders at X Games and slopestyle competitions [48]
+149. Dusty Henricksen credentials: X Games gold medalist (slopestyle + knuckle huck, 2021); FIS Crystal Globe for slopestyle 2023 [20]
+150. sustainability_certification: 30% bio-based resin in laminate [MERCHANT]
+151. sustainability_certification: Paraffin-free, non-pollutant compound [46]
+152. sustainability_certification: Ghost Green Core uses sustainable, ultra-light wood — FSC™ certified [43]
+153. redesign_year: New graphics only (no construction changes from 2025) [37]
+154. availability_status: Preorder status suggests upcoming release; details match current generation closely [MERCHANT]
+155. Variant: Huck Knife Pro (standard) — 153, 156, 159, 156W, 159W [MERCHANT]
+156. Variant: Huck Knife Pro Dusty LTD — Dusty Henricksen collaboration, 153, 156, 159 [20]
+157. Variant: Huck Knife Pro S/LAB Equipe — team/competition edition [14]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url>
+  <quote>The Huck Knife Pro is a high-performance freestyle board designed to meet the needs of our most elite park riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon product page for the Huck Knife Pro (2026 model). This is the manufacturer's own authoritative source for product identity and positioning.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2027</url>
+  <quote>Salomon Huck Knife Pro Snowboard 2027 - Men's</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop listing confirms the 2027 model exists and is categorized as Men's.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Amer_Sports</url>
+  <quote>Amer Sports owns a portfolio of companies, including Atomic, Arc'teryx, Armada, Peak Performance, Salomon, and Wilson, among others.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Amer_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on Amer Sports confirms the corporate ownership structure including Salomon.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Amer_Sports</url>
+  <quote>Amer Sports is owned by Anta Sports, FountainVest Partners, Anamered Investments, and Tencent.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Amer_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Identifies the ultimate ownership chain of Salomon's parent.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://skipro.com/products/huck-knife-pro-56w</url>
+  <quote>Founded in 1947 in the heart of the French Alps, Salomon started as a small workshop producing saw blades.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/huck-knife-pro-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1947</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Pro AZ retailer page provides brand history consistent with Wikipedia and other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.powder.com/gear/salomon-annecy-factory-tour</url>
+  <quote>Salomon's Annecy Design Center is the brand's global headquarters.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.powder.com/gear/salomon-annecy-factory-tour</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Powder Magazine factory tour article confirms Salomon HQ location. Reputable ski/snowboard publication.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+  <quote>The US operations of Salomon are located in Ogden, Utah.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2007</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia on Salomon Group confirms US operational base.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Factory: China. Manufactured in China with design and development undertaken in France.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles is a specialist snowboard review site that researched manufacturing locations. Multiple sources corroborate Salomon boards are made in China.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url>
+  <quote>Taiwan - Some Rome, Some Burton, Some Flow, Some Salomon</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Forum discussion suggests some Salomon boards historically made in Taiwan. Lower credibility as forum post, but consistent with multiple sources discussing OEM manufacturing.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://thereasonmag.com/blogs/gear/salomon-s-most-poplar-freestyle-twin</url>
+  <quote>First introduced back in 2017, the Huck Knife quickly grew to become Salomon's most popular freestyle snowboard.</quote>
+  </quotelist>
+  <url_with_text_link>https://thereasonmag.com/blogs/gear/salomon-s-most-poplar-freestyle-twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2023-12</date_of_last_relevance>
+  <reasoning>The Reason Magazine confirms 2017 as the Huck Knife's debut year and its position as Salomon's top freestyle board. Corroborated by Board of the World review.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url>
+  <quote>Salomon Huck Knife Pro 2020 Snowboard Review</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-10</date_of_first_relevance>
+  <date_of_last_relevance>2024-01</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-established snowboard review site. Their earliest HK Pro review is for the 2020 model, suggesting the Pro debuted for the 2019/2020 season.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.salomon.com/en-int/shop-int/product/huck-knife-pro-li3469.html</url>
+  <quote>designed to meet the needs of elite park riders like Dusty Henricksen and Sven Thorgren.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-int/shop-int/product/huck-knife-pro-li3469.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon international product page names both pro riders. Manufacturer source — highest credibility for attribution.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url>
+  <quote>The Huck Knife Pro Dusty Ltd is a high-performance freestyle board designed in collaboration with Dusty Henricksen.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>MCU Sports retailer page confirms the Dusty LTD variant exists as a collaboration with Dusty Henricksen.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro-s-lab-equipe</url>
+  <quote>This limited edition of the Huck Knife Pro was made specifically for Salomon Team Riders in the 2027 Winter Games.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro-s-lab-equipe</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer confirms the S/LAB Equipe variant and its competition pedigree.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/salomon-huck-knife-pro-snowboard</url>
+  <quote>Salomon Huck Knife Pro Snowboard 2026 · $679.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/salomon-huck-knife-pro-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a major, reputable US ski/snowboard retailer. Price reflects current MSRP for the 2026 model. In stock status confirmed.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.aspenskiandboard.com/products/salomonhuckknifepromenssnowboard2026</url>
+  <quote>Salomon Huck Knife Pro Mens Snowboard 2026 - Multicolor / 153cm / Retail: $679.95 is backordered</quote>
+  </quotelist>
+  <url_with_text_link>https://www.aspenskiandboard.com/products/salomonhuckknifepromenssnowboard2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Aspen Ski and Board confirms price and backordered status for the 2026 model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/salomon-huck-knife-pro-snowboard-2022</url>
+  <quote>Salomon Huck Knife Pro Snowboard 2025 · $629.95 $440.97 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/salomon-huck-knife-pro-snowboard-2022</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo outlet page shows the 2025 model had a $629.95 MSRP, now discounted. Confirms year-over-year price increase to $679.95 for 2026.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.skibarn.com/products/salomon-mens-huck-knife-pro-boar</url>
+  <quote>Salomon Men's Huck Knife Pro Snowboard 2025 · $629.95 · $440.97</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skibarn.com/products/salomon-mens-huck-knife-pro-boar</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Barn shows discounted 2025 model pricing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url>
+  <quote>$543.96 Buy it Now Buy Salomon Huck Knife Pro from Backcountry</quote>
+  <quote>€579.00 Buy it Now Buy Salomon Huck Knife Pro from BlueTomato Belgium</quote>
+  <quote>£520.00 Buy it Now Buy Salomon Huck Knife Pro from BlueTomato UK</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride aggregates current prices from multiple retailers globally. Prices are snapshots and may change.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.snowboarder.com/news/salomon-dusty-henricksen-pro-model-snowboard</url>
+  <quote>The board retails for $700, and is offered in 153, 156, and 159 cm lengths.</quote>
+  <quote>He won a slopestyle gold medal at the 2020 Youth Olympic Games, and won the gold in both slopestyle and knuckle huck in his X Games debut in 2021.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboarder.com/news/salomon-dusty-henricksen-pro-model-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SNOWBOARDER Magazine — well-established snowboarding publication. Confirms Dusty LTD pricing and Henricksen's competition credentials.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url>
+  <quote>2 Year: Protected by Salomon's two-year limited warranty covering materials and craftsmanship.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop — specialist snowboard retailer. Warranty info corroborated by Buckmans listing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url>
+  <quote>2026 Salomon Huck Knife Pro is the ultimate park weapon for elite freestyle riders</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms retailer availability at Blauer Board Shop.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.the-house.com/1157765.html</url>
+  <quote>The Huck Knife Pro is a high-performance freestyle board designed to meet the needs of Salomon's most elite park riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1157765.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House is a well-known US action sports retailer. Confirms availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.eriksbikeshop.com/products/salomon-huck-knife-pro-mens-snowboard-2026-pr5a25446</url>
+  <quote>The 2026 Salomon Huck Knife Pro Snowboard is a high-performance freestyle board</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/salomon-huck-knife-pro-mens-snowboard-2026-pr5a25446</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>ERIK'S retailer page confirms availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.gearwest.com/products/salomon-w25-huck-knife-pro</url>
+  <quote>The 2025 Salomon Huck Knife Pro Snowboard is a high-performance freestyle board</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gearwest.com/products/salomon-w25-huck-knife-pro</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Gear West retailer confirmation.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.sportsbasement.com/products/huck-knife-pro-2</url>
+  <quote>The Salomon Huck Knife Pro takes what we all love about the freestyle king Huck Knife and amplifies it to the next level</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sportsbasement.com/products/huck-knife-pro-2</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Sports Basement — established California sports retailer. Confirms availability.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://skipro.com/products/huck-knife-pro-56w</url>
+  <quote>149 Variant sold out or unavailable 153 Variant sold out or unavailable 156 Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/huck-knife-pro-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Pro AZ retailer — all sizes sold out for 2026 model, demonstrating strong demand.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.absolute-snow.com/salomon-huck-knife-pro-snowboards-men-2026</url>
+  <quote>The Huck Knife Pro is ideal for park riders who focus on freestyle terrain, jumps, rails, and halfpipes.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/salomon-huck-knife-pro-snowboards-men-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute Snow — UK-based specialist snow sports retailer. Confirms availability in UK market.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.auski.com.au/products/salomon-mens-huck-knife-pro-snowboard-2027</url>
+  <quote>Flex rating 8 out of 10 — a stiff, responsive feel that rewards committed, high-speed riding</quote>
+  </quotelist>
+  <url_with_text_link>https://www.auski.com.au/products/salomon-mens-huck-knife-pro-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Auski Australia — Australian retailer listing the 2027 model with 8/10 flex rating. Corroborates merchant data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro</url>
+  <quote>For superior edge hold and forgiveness while on rails and boxes, a 1.5 degree base edge bevel is added.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard — Australian specialist retailer with detailed spec sheets. Corroborates merchant 1.5° base edge bevel data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.christysports.com/product/salomon-huck-knife-pro-wide-snowboard/499990713210.html</url>
+  <quote>Freestyle Edge Bevel – From detuning the tip and tail to a 2-degree edge holding tune</quote>
+  </quotelist>
+  <url_with_text_link>https://www.christysports.com/product/salomon-huck-knife-pro-wide-snowboard/499990713210.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Christy Sports — well-known US mountain sports retailer. Confirms availability of wide model.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.tactics.com/salomon/dusty-huck-knife-pro-ltd-snowboard</url>
+  <quote>Dusty Henricksen's Huck Knife Pro LTD Snowboard is a high-performance, true twin freestyle board built for elite park riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/salomon/dusty-huck-knife-pro-ltd-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics — major US skateboard/snowboard retailer. Confirms availability on Tactics.com.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://rudeboys.com/products/salomon-huck-knife-pro-snowboard-w26</url>
+  <quote>Our flagship true-twin freestyle board kicked up a notch, the Huck Knife Pro, was built for jumps, transition, and rails</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/salomon-huck-knife-pro-snowboard-w26</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Rudeboys retailer page confirms availability.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url>
+  <quote>Salomon Huck Knife Pro Dusty LTD Snowboard 2025-2026 for sale at McU Sports.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>MCU Sports retailer confirmation.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.tiktok.com/@corbettssnow/video/7433057229999394054</url>
+  <quote>The Pro version is going to be a lighter more stiff version made to send it even bigger and faster. Available at Corbetts!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tiktok.com/@corbettssnow/video/7433057229999394054</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>TikTok from Corbetts Ski + Snowboard retailer.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url>
+  <quote>The Huck Knife is available in 149,153,156, 156 Wide, 159,159 Wide, and 162cm.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World review lists available sizes for the regular HK, including 149cm which is also available in the Pro.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url>
+  <quote>4.5/5 (Stiff): A powerful flex tuned for maximum response, energy transfer, and stability at speed</quote>
+  <quote>Advanced to expert freestyle riders who live in the park and demand the snappiest, lightest, most precise board</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-pro-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop uses a 5-point scale listing flex as 4.5/5. This translates to 9/10, which differs from the merchant's 8/10. Both describe "stiff." The discrepancy may arise from different scale interpretations.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-pro-2025</url>
+  <quote>Flex Rating – 5/5 (1=Soft, 5=Stiff)</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-pro-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-08</date_of_last_relevance>
+  <reasoning>Blauer Board Shop rates 2025 model at 5/5 stiff. Important for understanding flex evolution or scale inconsistency across model years.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://rudeboys.com/products/salomon-huck-knife-pro-snowboard-w26</url>
+  <quote>True Twin: Freestyle specific: Identical tip/tail lengths, symmetrical core profiling, flex and a centered binding stance.</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/salomon-huck-knife-pro-snowboard-w26</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer confirms true twin specification — symmetrical in all respects.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url>
+  <quote>Shape: True Twin; 0mm setback; 0mm pintail</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/brands/brands-salomon/salomon-huck-knife-pro-dusty-ltd-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>MCU Sports listing confirms 0mm setback — true twin centered stance.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url>
+  <quote>Quad CamberA dynamic, camber-dominant profile with a more aggressive load outside of the feet for snap and response</quote>
+  <quote>Sintered EG: Engineered for fast glide speed and maximum wax retention in all conditions.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon US product page — manufacturer authority for camber and base specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/huck-knife-pro-li8540</url>
+  <quote>Freestyle EB: Equipped from the factory with a 2-degree bevel around the nose and tail and a 3-degree bevel between the feet</quote>
+  <quote>Royal Rubber Rails: Full length rubber sidewalls provide the highest level of dampening and protection.</quote>
+  <quote>TRIAX HD fiberglass: Fiber tech core that increases board life and durability</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/huck-knife-pro-li8540</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon US product page with detailed technical specs. Highest authority for construction details. Note the edge bevel description uses combined angles which differs from the merchant's 1.5° base bevel specification.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://skipro.com/products/huck-knife-pro-56w</url>
+  <quote>Ghost Green Core: Ultra‑light FSC™ wood for reactive flex and durability.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/huck-knife-pro-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Pro AZ listing mentions FSC certification for the core wood. This is a sustainability claim from a retailer page.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://skipro.com/products/huck-knife-pro-56w</url>
+  <quote>Ghost Carbon Beams: Boost pop and stability for bigger tricks and faster riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/huck-knife-pro-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer description of Ghost Carbon Beams function, consistent with manufacturer claims.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://www.absolute-snow.com/salomon-huck-knife-pro-snowboards-2025</url>
+  <quote>Damplifier Lite - A combination of lightweight cork and honeycomb are strategically placed in the tip for better float, lower swing weight, and increased dampening</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/salomon-huck-knife-pro-snowboards-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute Snow provides detailed technology explanation for Damplifier Lite.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url>
+  <quote>Natural wax: A paraffin-free wax compound made from natural ingredients.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/huck-knife-pro-li8540/L47946300</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Salomon page describes factory wax composition.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url>
+  <quote>Although the Huck Knife Pro does have quite a stiff flex rating, it is never too hard to flex. It pushes back really nicely</quote>
+  <quote>It has strong but it is very predictable hold, even when the snow gets firm and icy.</quote>
+  <quote>Ollies were big, needed only a tiny bit of effort and the overall flex was perfect for me.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Robot is a specialist review site with hands-on testing. Provides first-person ride impressions covering flex, edge hold, and pop. Independent and detailed review.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.themanual.com/outdoors/salomon-huck-knife-pro-snowboard-review/</url>
+  <quote>the Salomon Huck Knife Pro is easily the most capable at deep carving, especially at speed.</quote>
+  <quote>The board is both light and feels substantial underfoot.</quote>
+  <quote>The Salomon Huck Knife Pro's blend of stiffness and light weight makes it incredible with speed checks.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.themanual.com/outdoors/salomon-huck-knife-pro-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Manual is a reputable men's lifestyle publication. Their review was conducted at Breckenridge, Colorado with detailed on-snow testing. Provides strong ride characteristic evidence.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url>
+  <quote>Overall the Huck Knife Pro is a good upgrade to the regular Huck Knife.</quote>
+  <quote>I did find after a season of riding my Huck Knife almost every day, it does break in quite a bit</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Reviewer notes break-in of the standard Huck Knife, making the Pro's stiffer construction valuable for long-term use.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-huck-knife-pro-2020-2021.html</url>
+  <quote>I giggled like a little school girl on my first run with this board.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-huck-knife-pro-2020-2021.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020-09</date_of_first_relevance>
+  <date_of_last_relevance>2021-08</date_of_last_relevance>
+  <reasoning>Whitelines is a leading UK snowboard publication with hands-on team reviews. Very positive subjective impression.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+  <url>https://www.rei.com/product/252764/salomon-huck-knife-snowboard-20252026</url>
+  <quote>I bought the 2022 model of the Huck Knife when it was brand new. Too this day it is still going strong!</quote>
+  <quote>After YEARS on this board, the pop is still good!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252764/salomon-huck-knife-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>REI user review provides long-term durability evidence for the Huck Knife line. REI is a highly reputable retailer; user reviews are anecdotal but the detail suggests genuine experience.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="52">
+  <quotelist>
+  <url>https://www.themanual.com/outdoors/salomon-huck-knife-pro-snowboard-review/</url>
+  <quote>This board is pretty catchy if you're not on edge.</quote>
+  <quote>Really catchy in powder.</quote>
+  <quote>Don't butter with this board, and don't expect to do any ground tricks.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.themanual.com/outdoors/salomon-huck-knife-pro-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Manual review directly identifies the board's key weaknesses — essential for purchase decision-making. These are specific, experiential negatives from on-snow testing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/salomon-huck-knife-snowboard-review</url>
+  <quote>Not for beginners. It's not super catchy or anything, but it's not catch-free. Not completely forgiving if you don't ride it confidently.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/salomon-huck-knife-snowboard-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles — specialist review site. Notes that even the regular HK requires confident riding; the Pro is even more demanding.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/board-going-flat-one-ice-or-very-hard-pack-base-edge-bevels.268539/</url>
+  <quote>I've got a salomon huck knife pro which I really love on soft snow. But I noticed on very hard pack or ice, the boards goes directly flat.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/board-going-flat-one-ice-or-very-hard-pack-base-edge-bevels.268539/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-01</date_of_first_relevance>
+  <date_of_last_relevance>2021-12</date_of_last_relevance>
+  <reasoning>Forum user reports hard-pack edge hold issue related to the factory edge bevel. Anecdotal but relevant to icy-condition riders. Low individual credibility but describes a real user experience.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+  <url>https://www.sportsbasement.com/products/huck-knife-pro-2</url>
+  <quote>the Huck Knife Pro is lighter, stiffer, poppier, and more responsive.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sportsbasement.com/products/huck-knife-pro-2</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Sports Basement summarizes the key differences between HK and HK Pro.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url>
+  <quote>if you want a softer flexing board that is going to be a little nicer on rails, choose the Huck Knife, and if you want to ride more jumps go for the Huck Knife Pro.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Direct purchase guidance from an experienced reviewer — highly useful for buyers deciding between the two models.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="57">
+  <quotelist>
+  <url>https://www.the-house.com/1157765.html</url>
+  <quote>Board Profile: Quad Camber • Sidecut: EQ Rad • Fiber and Resin: Triax, BA MD Fiberglass, 30% Bio-based resin • Additives: Damplifier lite, Ghost Carbon Beam, Popster</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1157765.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House provides a concise technical spec summary differentiating Pro construction from standard HK.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="58">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/salomon-huck-knife-snowboard-2026</url>
+  <quote>3/5 (Medium): Balanced flex that's stable for jumps and rails yet playful enough for creative freestyle riding</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-huck-knife-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop rates the standard Huck Knife flex as 3/5 (6/10), confirming it is significantly softer than the Pro's 4.5/5 (8-9/10).</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="59">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url>
+  <quote>The Salomon Huck Knife ($529.95) feels noticeably similar underfoot to the Yes Jackpot ($549.95).</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World provides pricing context for the standard HK and its competitor, the Yes Jackpot.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="60">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url>
+  <quote>It's important to know that the Salomon Huck Knife is a little softer than the DOA.</quote>
+  <quote>I'd rate the Huck Knife's flex at a 4.5 out of 10, while the DOA is closer to a 5.5</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World's head-to-head comparison of HK vs DOA with specific flex numbers — directly relevant for buyers choosing between these popular competitors.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="61">
+  <quotelist>
+  <url>https://snowboardselector.com/burton-process-vs-salomon-huck-knife/</url>
+  <quote>I found the Process to be a little stiffer than the Huck Knife</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardselector.com/burton-process-vs-salomon-huck-knife/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Selector comparison review — detailed head-to-head comparison with Burton Process.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="62">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url>
+  <quote>The Salomon Huck Knife's base feels faster than the Yes Jackpot.</quote>
+  <quote>The Yes Jackpot has Yes' Midbite technology which offers extra grip for riding on ice</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Direct comparison with Yes Jackpot — relevant competitor with better ice grip but slower base.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="63">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url>
+  <quote>Similar Boards: Endeavor Pioneer, Lib Tech TRS HP, Never Summer Proto Type Two, Nitro Fury, Yes Greats</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-huck-knife-pro-2020-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-10</date_of_first_relevance>
+  <date_of_last_relevance>2024-01</date_of_last_relevance>
+  <reasoning>The Good Ride lists comparable boards — useful for competitive shopping context.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="64">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/mega-mercury-vs-huck-knife-pro.279756/</url>
+  <quote>Currently riding huck knife pro 155 and considering a second board. Looking at Capita Mega Mercury</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/mega-mercury-vs-huck-knife-pro.279756/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-08</date_of_first_relevance>
+  <date_of_last_relevance>2023-12</date_of_last_relevance>
+  <reasoning>Forum thread shows real rider considering Capita Mega Mercury as complement/alternative to HK Pro.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="65">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url>
+  <quote>Although they used to be similar, the Ultimate Ride is a good option if you like the sound of the Huck Knife Pro, but want a more directional board, for all-mountain riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-huck-knife-pro/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard Robot reviewer identifies Salomon's own Ultimate Ride and Assassin Pro as directional alternatives within the Salomon lineup.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro</url>
+    <quote>AUD price: $1,089.99; brand: Salomon; model name: Huck Knife Pro; model year: 2027; status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-huck-knife-pro</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

@@ -1,0 +1,1917 @@
+{
+  "product_guid": "WowzaDBiX1",
+  "source_pl": "WowzaDBiX1_facts.pl",
+  "n_attributes": 142,
+  "attributes": [
+    {
+      "name": "brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.001544,
+        "Lib_Tech": 0.998456
+      },
+      "original_name": "brand",
+      "dominant_value": "Lib_Tech",
+      "confidence": 0.998456
+    },
+    {
+      "name": "model_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 7.7e-05,
+        "Skunk_Ape": 0.999923
+      },
+      "original_name": "model_name",
+      "dominant_value": "Skunk_Ape",
+      "confidence": 0.999923
+    },
+    {
+      "name": "manufacturer",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.000337,
+        "Mervin_Manufacturing": 0.999663
+      },
+      "original_name": "manufacturer",
+      "dominant_value": "Mervin_Manufacturing",
+      "confidence": 0.999663
+    },
+    {
+      "name": "manufacturing_location",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.087684,
+        "Handbuilt_in_USA": 0.912316
+      },
+      "original_name": "manufacturing_location",
+      "dominant_value": "Handbuilt_in_USA",
+      "confidence": 0.912316
+    },
+    {
+      "name": "factory_address",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.3,
+      "posterior": {
+        "Unknown": 0.004329,
+        "65_Banana_Way_Sequim_WA_98382": 0.995671
+      },
+      "original_name": "Factory address",
+      "dominant_value": "65_Banana_Way_Sequim_WA_98382",
+      "confidence": 0.995671
+    },
+    {
+      "name": "model_first_available_year",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.104478,
+        "2008_2009_season": 0.895522
+      },
+      "original_name": "model_first_available_year",
+      "dominant_value": "2008_2009_season",
+      "confidence": 0.895522
+    },
+    {
+      "name": "model_first_available_year_camber",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.031877,
+        "2024_2025_season": 0.968123
+      },
+      "original_name": "Camber variant first available",
+      "dominant_value": "2024_2025_season",
+      "confidence": 0.968123
+    },
+    {
+      "name": "model_year",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.005241,
+        "2025_2026": 0.994759
+      },
+      "original_name": "Model year (C2X)",
+      "dominant_value": "2025_2026",
+      "confidence": 0.994759
+    },
+    {
+      "name": "model_year_twin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.005241,
+        "2026_2027": 0.994759
+      },
+      "original_name": "Model year (Twin)",
+      "dominant_value": "2026_2027",
+      "confidence": 0.994759
+    },
+    {
+      "name": "price_usd_msrp",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 7.7e-05,
+        "699.99": 0.999923
+      },
+      "original_name": "price_usd_msrp",
+      "unit": "USD",
+      "dominant_value": "699.99",
+      "confidence": 0.999923
+    },
+    {
+      "name": "price_usd_sale_manufacturer",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "440.99": 0.996251
+      },
+      "original_name": "Manufacturer sale price (C2X)",
+      "unit": "USD",
+      "dominant_value": "440.99",
+      "confidence": 0.996251
+    },
+    {
+      "name": "price_aud_merchant",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.002625,
+        "1169.99": 0.997375
+      },
+      "original_name": "price_aud_merchant",
+      "unit": "AUD",
+      "dominant_value": "1169.99",
+      "confidence": 0.997375
+    },
+    {
+      "name": "price_usd_evo",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013453,
+        "699.99": 0.986547
+      },
+      "original_name": "price_usd_evo",
+      "unit": "USD",
+      "dominant_value": "699.99",
+      "confidence": 0.986547
+    },
+    {
+      "name": "price_usd_tactics",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "489.99": 0.88,
+        "Unknown": 0.12
+      },
+      "original_name": "price_usd_tactics",
+      "unit": "USD",
+      "dominant_value": "489.99",
+      "confidence": 0.88
+    },
+    {
+      "name": "price_usd_tactics_rrp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.12,
+        "699.99": 0.88
+      },
+      "original_name": "price_usd_tactics full",
+      "unit": "USD",
+      "dominant_value": "699.99",
+      "confidence": 0.88
+    },
+    {
+      "name": "price_usd_backcountry",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.03801,
+        "559.99": 0.96199
+      },
+      "original_name": "price_usd_backcountry",
+      "unit": "USD",
+      "dominant_value": "559.99",
+      "confidence": 0.96199
+    },
+    {
+      "name": "price_usd_ebay",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.105263,
+        "699.99": 0.894737
+      },
+      "original_name": "Price at eBay (163W)",
+      "unit": "USD",
+      "dominant_value": "699.99",
+      "confidence": 0.894737
+    },
+    {
+      "name": "price_usd_ebay_uk",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.189189,
+        "853.12": 0.810811
+      },
+      "original_name": "Price at eBay UK (Twin 2027)",
+      "unit": "USD",
+      "dominant_value": "853.12",
+      "confidence": 0.810811
+    },
+    {
+      "name": "board_category",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.95,
+      "posterior": {
+        "All_Mountain_Freeride": 0.029128,
+        "All_Mountain_True_Twin": 0.416088,
+        "All_Mountain_Directional_Twin": 0.554784
+      },
+      "original_name": "board_category",
+      "dominant_value": "All_Mountain_Directional_Twin",
+      "confidence": 0.554784
+    },
+    {
+      "name": "skill_level_recommendation",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.159023,
+        "Advanced_Expert": 0.840977
+      },
+      "original_name": "skill_level_recommendation",
+      "dominant_value": "Advanced_Expert",
+      "confidence": 0.840977
+    },
+    {
+      "name": "skill_level_target_body",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Bigger_riders_with_big_boots": 0.986842
+      },
+      "original_name": "skill_level_recommendation (body type)",
+      "dominant_value": "Bigger_riders_with_big_boots",
+      "confidence": 0.986842
+    },
+    {
+      "name": "terrain_suitability",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.010989,
+        "All_mountain_powder_groomers_any_terrain": 0.989011
+      },
+      "original_name": "terrain_suitability",
+      "dominant_value": "All_mountain_powder_groomers_any_terrain",
+      "confidence": 0.989011
+    },
+    {
+      "name": "rider_level",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.88,
+      "posterior": {
+        "Intermediate_Advanced": 0.892854,
+        "Intermediate": 0.107146
+      },
+      "original_name": "rider_level",
+      "dominant_value": "Intermediate_Advanced",
+      "confidence": 0.892854
+    },
+    {
+      "name": "shape",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "True_Twin": 0.952378,
+        "Directional_Twin": 0.047622
+      },
+      "original_name": "shape",
+      "dominant_value": "True_Twin",
+      "confidence": 0.952378
+    },
+    {
+      "name": "camber_type",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.010989,
+        "C2x_Directional": 0.989011
+      },
+      "original_name": "camber_type",
+      "dominant_value": "C2x_Directional",
+      "confidence": 0.989011
+    },
+    {
+      "name": "camber_type_twin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.104345,
+        "Traditional_Camber": 0.895655
+      },
+      "original_name": "Camber type (Twin variant)",
+      "dominant_value": "Traditional_Camber",
+      "confidence": 0.895655
+    },
+    {
+      "name": "camber_description",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.135072,
+        "C2X_full_contact_carve_edge_hold_float_pop_stability": 0.864928
+      },
+      "original_name": "camber_description",
+      "dominant_value": "C2X_full_contact_carve_edge_hold_float_pop_stability",
+      "confidence": 0.864928
+    },
+    {
+      "name": "camber_description_c2",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.053398,
+        "C2_rocker_camber_pockets_forgiving": 0.946602
+      },
+      "original_name": "camber_description (C2 profile)",
+      "dominant_value": "C2_rocker_camber_pockets_forgiving",
+      "confidence": 0.946602
+    },
+    {
+      "name": "flex_rating_10",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.93,
+      "posterior": {
+        "6.0": 0.001712,
+        "7.0": 0.998288
+      },
+      "original_name": "flex_rating_10",
+      "unit": "/10",
+      "dominant_value": "7.0",
+      "confidence": 0.998288
+    },
+    {
+      "name": "flex_description",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.133117,
+        "Medium_Stiff": 0.866883
+      },
+      "original_name": "Flex description (evo)",
+      "dominant_value": "Medium_Stiff",
+      "confidence": 0.866883
+    },
+    {
+      "name": "flex_feel_tgr",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.053398,
+        "Medium_side_of_medium_stiff": 0.946602
+      },
+      "original_name": "Flex feel (The Good Ride)",
+      "dominant_value": "Medium_side_of_medium_stiff",
+      "confidence": 0.946602
+    },
+    {
+      "name": "core_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.008621,
+        "HP_60pct_Aspen_40pct_Paulownia": 0.991379
+      },
+      "original_name": "core_material",
+      "dominant_value": "HP_60pct_Aspen_40pct_Paulownia",
+      "confidence": 0.991379
+    },
+    {
+      "name": "sustainability_certification",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.025788,
+        "FSC_certified_wood_core": 0.974212
+      },
+      "original_name": "sustainability_certification",
+      "dominant_value": "FSC_certified_wood_core",
+      "confidence": 0.974212
+    },
+    {
+      "name": "laminate",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Tri_Ax_Bi_Ax_Fiber_with_Basalt_Alloy": 0.986842
+      },
+      "original_name": "laminate",
+      "dominant_value": "Tri_Ax_Bi_Ax_Fiber_with_Basalt_Alloy",
+      "confidence": 0.986842
+    },
+    {
+      "name": "topsheet",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Eco_Sublimated_Poly_Topsheet": 0.986842
+      },
+      "original_name": "topsheet",
+      "dominant_value": "Eco_Sublimated_Poly_Topsheet",
+      "confidence": 0.986842
+    },
+    {
+      "name": "base_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.010989,
+        "Sintered_Knife_Cut_Base": 0.989011
+      },
+      "original_name": "base_material",
+      "dominant_value": "Sintered_Knife_Cut_Base",
+      "confidence": 0.989011
+    },
+    {
+      "name": "base_type",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Sintered_Knife_Cut_die_cut_reduced_waste": 0.9839
+      },
+      "original_name": "base_type",
+      "dominant_value": "Sintered_Knife_Cut_die_cut_reduced_waste",
+      "confidence": 0.9839
+    },
+    {
+      "name": "sidewall_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.010989,
+        "Birch_Internal_UHMW_Sintered_Sidewall": 0.989011
+      },
+      "original_name": "sidewall_material",
+      "dominant_value": "Birch_Internal_UHMW_Sintered_Sidewall",
+      "confidence": 0.989011
+    },
+    {
+      "name": "edge_technology",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.005985,
+        "Magne_Traction_serrated_edges": 0.994015
+      },
+      "original_name": "edge_technology",
+      "dominant_value": "Magne_Traction_serrated_edges",
+      "confidence": 0.994015
+    },
+    {
+      "name": "construction_material_innovation",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.0161,
+        "UHMW_Tip_Tail_Impact_Deflection": 0.9839
+      },
+      "original_name": "construction_material_innovation",
+      "dominant_value": "UHMW_Tip_Tail_Impact_Deflection",
+      "confidence": 0.9839
+    },
+    {
+      "name": "mounting_pattern",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.005985,
+        "2x4_Inserts": 0.994015
+      },
+      "original_name": "mounting_pattern",
+      "dominant_value": "2x4_Inserts",
+      "confidence": 0.994015
+    },
+    {
+      "name": "graphic_designer_artist",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.000132,
+        "Quincy_Quigg": 0.999868
+      },
+      "original_name": "graphic_designer_artist",
+      "dominant_value": "Quincy_Quigg",
+      "confidence": 0.999868
+    },
+    {
+      "name": "width_options",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.006908,
+        "Wide_and_Ultra_Wide": 0.993092
+      },
+      "original_name": "width_options",
+      "dominant_value": "Wide_and_Ultra_Wide",
+      "confidence": 0.993092
+    },
+    {
+      "name": "available_sizes",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.93,
+      "posterior": {
+        "Unknown": 0.003671,
+        "157W_161W_165W_169W_163UW_170UW_173UW": 0.996329
+      },
+      "original_name": "available_sizes (C2X)",
+      "dominant_value": "157W_161W_165W_169W_163UW_170UW_173UW",
+      "confidence": 0.996329
+    },
+    {
+      "name": "available_sizes_twin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.005241,
+        "163W_166W": 0.994759
+      },
+      "original_name": "available_sizes (Twin)",
+      "dominant_value": "163W_166W",
+      "confidence": 0.994759
+    },
+    {
+      "name": "available_sizes_twin_note",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Only_Wide_no_UltraWide_two_sizes": 0.994759
+      },
+      "original_name": "Available sizes Twin restriction",
+      "dominant_value": "Only_Wide_no_UltraWide_two_sizes",
+      "confidence": 0.994759
+    },
+    {
+      "name": "contact_length_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "115.0": 0.997375
+      },
+      "original_name": "contact_length_size (157W)",
+      "unit": "cm",
+      "dominant_value": "115.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_161w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "118.0": 0.997375
+      },
+      "original_name": "contact_length_size (161W)",
+      "unit": "cm",
+      "dominant_value": "118.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_165w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "121.0": 0.997375
+      },
+      "original_name": "contact_length_size (165W)",
+      "unit": "cm",
+      "dominant_value": "121.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_169w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "124.0": 0.997375
+      },
+      "original_name": "contact_length_size (169W)",
+      "unit": "cm",
+      "dominant_value": "124.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_163uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "120.0": 0.997375
+      },
+      "original_name": "contact_length_size (163UW)",
+      "unit": "cm",
+      "dominant_value": "120.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_170uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "124.0": 0.997375
+      },
+      "original_name": "contact_length_size (170UW)",
+      "unit": "cm",
+      "dominant_value": "124.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_173uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "127.0": 0.997375
+      },
+      "original_name": "contact_length_size (173UW)",
+      "unit": "cm",
+      "dominant_value": "127.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "contact_length_163t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "116.0": 0.996251
+      },
+      "original_name": "contact_length_size (163W Twin)",
+      "unit": "cm",
+      "dominant_value": "116.0",
+      "confidence": 0.996251
+    },
+    {
+      "name": "contact_length_166t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "119.0": 0.996251
+      },
+      "original_name": "contact_length_size (166W Twin)",
+      "unit": "cm",
+      "dominant_value": "119.0",
+      "confidence": 0.996251
+    },
+    {
+      "name": "sidecut_radius_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.5": 0.997375
+      },
+      "original_name": "sidecut_radius_size (157W)",
+      "unit": "m",
+      "dominant_value": "8.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_161w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.5": 0.997375
+      },
+      "original_name": "sidecut_radius_size (161W)",
+      "unit": "m",
+      "dominant_value": "8.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_165",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.6": 0.997375
+      },
+      "original_name": "sidecut_radius_165",
+      "unit": "m",
+      "dominant_value": "8.6",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_169w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.6": 0.997375
+      },
+      "original_name": "sidecut_radius_size (169W)",
+      "unit": "m",
+      "dominant_value": "8.6",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_163uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.5": 0.997375
+      },
+      "original_name": "sidecut_radius_size (163UW)",
+      "unit": "m",
+      "dominant_value": "8.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_170uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "8.6": 0.039303,
+        "8.75": 0.960697
+      },
+      "original_name": "sidecut_radius_size (170UW)",
+      "unit": "m",
+      "dominant_value": "8.75",
+      "confidence": 0.960697
+    },
+    {
+      "name": "sidecut_radius_173uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "8.75": 0.997375
+      },
+      "original_name": "sidecut_radius_size (173UW)",
+      "unit": "m",
+      "dominant_value": "8.75",
+      "confidence": 0.997375
+    },
+    {
+      "name": "sidecut_radius_163t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "8.4": 0.996251
+      },
+      "original_name": "sidecut_radius_size (163W Twin)",
+      "unit": "m",
+      "dominant_value": "8.4",
+      "confidence": 0.996251
+    },
+    {
+      "name": "sidecut_radius_166t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "8.6": 0.996251
+      },
+      "original_name": "sidecut_radius_size (166W Twin)",
+      "unit": "m",
+      "dominant_value": "8.6",
+      "confidence": 0.996251
+    },
+    {
+      "name": "waist_width_157w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "26.8": 0.997375
+      },
+      "original_name": "Waist width 157W",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_161w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "26.8": 0.997375
+      },
+      "original_name": "Waist width 161W",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_165",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "26.8": 0.997375
+      },
+      "original_name": "waist_width_165",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_169w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "26.8": 0.997375
+      },
+      "original_name": "Waist width 169W",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_163uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "28.0": 0.997375
+      },
+      "original_name": "Waist width 163UW",
+      "unit": "cm",
+      "dominant_value": "28.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_170uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "28.5": 0.997375
+      },
+      "original_name": "Waist width 170UW",
+      "unit": "cm",
+      "dominant_value": "28.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_173uw",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "28.5": 0.997375
+      },
+      "original_name": "Waist width 173UW",
+      "unit": "cm",
+      "dominant_value": "28.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "waist_width_163t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "26.8": 0.996251
+      },
+      "original_name": "Waist width 163W (Twin)",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.996251
+    },
+    {
+      "name": "waist_width_166t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "26.8": 0.996251
+      },
+      "original_name": "Waist width 166W (Twin)",
+      "unit": "cm",
+      "dominant_value": "26.8",
+      "confidence": 0.996251
+    },
+    {
+      "name": "tip_tail_width_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "30.5/30.3": 0.997375
+      },
+      "original_name": "tip_tail_width_size (157W)",
+      "unit": "cm",
+      "dominant_value": "30.5/30.3",
+      "confidence": 0.997375
+    },
+    {
+      "name": "tip_tail_width_161w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "30.8/30.5": 0.997375
+      },
+      "original_name": "tip_tail_width_size (161W)",
+      "unit": "cm",
+      "dominant_value": "30.8/30.5",
+      "confidence": 0.997375
+    },
+    {
+      "name": "nose_tail_width_165",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "31.2/31.0": 0.997375
+      },
+      "original_name": "nose_tail_width_165",
+      "unit": "cm",
+      "dominant_value": "31.2/31.0",
+      "confidence": 0.997375
+    },
+    {
+      "name": "tip_tail_width_169w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "31.4/31.2": 0.997375
+      },
+      "original_name": "tip_tail_width_size (169W)",
+      "unit": "cm",
+      "dominant_value": "31.4/31.2",
+      "confidence": 0.997375
+    },
+    {
+      "name": "tip_tail_width_163uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "32.5/32.2": 0.997375
+      },
+      "original_name": "tip_tail_width_size (163UW)",
+      "unit": "cm",
+      "dominant_value": "32.5/32.2",
+      "confidence": 0.997375
+    },
+    {
+      "name": "tip_tail_width_170uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "32.9/32.6": 0.997375
+      },
+      "original_name": "tip_tail_width_size (170UW)",
+      "unit": "cm",
+      "dominant_value": "32.9/32.6",
+      "confidence": 0.997375
+    },
+    {
+      "name": "tip_tail_width_173uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "32.2/33.0": 0.039303,
+        "33.2/33.0": 0.960697
+      },
+      "original_name": "tip_tail_width_size (173UW)",
+      "unit": "cm",
+      "dominant_value": "33.2/33.0",
+      "confidence": 0.960697
+    },
+    {
+      "name": "tip_tail_width_163t",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "30.9/30.9": 0.996251
+      },
+      "original_name": "tip_tail_width_size (163W Twin)",
+      "unit": "cm",
+      "dominant_value": "30.9/30.9",
+      "confidence": 0.996251
+    },
+    {
+      "name": "tip_tail_width_166t",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "31.0/31.0": 0.996251
+      },
+      "original_name": "tip_tail_width_size (166W Twin)",
+      "unit": "cm",
+      "dominant_value": "31.0/31.0",
+      "confidence": 0.996251
+    },
+    {
+      "name": "stance_width_range_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002625,
+        "21.0-26.0_inches": 0.997375
+      },
+      "original_name": "stance_width_range_size",
+      "unit": "inches",
+      "dominant_value": "21.0-26.0_inches",
+      "confidence": 0.997375
+    },
+    {
+      "name": "setback",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003671,
+        "1.0": 0.996329
+      },
+      "original_name": "setback (C2X)",
+      "unit": "inches",
+      "dominant_value": "1.0",
+      "confidence": 0.996329
+    },
+    {
+      "name": "setback_twin",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.005241,
+        "0.0": 0.994759
+      },
+      "original_name": "setback (Twin)",
+      "unit": "inches",
+      "dominant_value": "0.0",
+      "confidence": 0.994759
+    },
+    {
+      "name": "recommended_weight_range_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "140+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (157W)",
+      "unit": "lbs",
+      "dominant_value": "140+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_161w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "145+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (161W)",
+      "unit": "lbs",
+      "dominant_value": "145+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_165",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "145+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_165",
+      "unit": "lbs",
+      "dominant_value": "145+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_169w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "150+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (169W)",
+      "unit": "lbs",
+      "dominant_value": "150+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_163uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "150+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (163UW)",
+      "unit": "lbs",
+      "dominant_value": "150+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_170uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "160+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (170UW)",
+      "unit": "lbs",
+      "dominant_value": "160+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_173uw",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "170+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (173UW)",
+      "unit": "lbs",
+      "dominant_value": "170+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_163t",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "150+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (163W Twin)",
+      "unit": "lbs",
+      "dominant_value": "150+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "recommended_weight_166t",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "155+_lbs": 0.996251
+      },
+      "original_name": "recommended_weight_range_size (166W Twin)",
+      "unit": "lbs",
+      "dominant_value": "155+_lbs",
+      "confidence": 0.996251
+    },
+    {
+      "name": "surface_area_163t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "700.0": 0.996251
+      },
+      "original_name": "Surface area 163W (Twin)",
+      "unit": "sq_cm",
+      "dominant_value": "700.0",
+      "confidence": 0.996251
+    },
+    {
+      "name": "surface_area_166t",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.003749,
+        "713.0": 0.996251
+      },
+      "original_name": "Surface area 166W (Twin)",
+      "unit": "sq_cm",
+      "dominant_value": "713.0",
+      "confidence": 0.996251
+    },
+    {
+      "name": "user_rating_c2x",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.010989,
+        "99.0": 0.989011
+      },
+      "original_name": "Lib-tech.com user rating (C2X)",
+      "unit": "percent",
+      "dominant_value": "99.0",
+      "confidence": 0.989011
+    },
+    {
+      "name": "user_rating_camber",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.013453,
+        "98.0": 0.986547
+      },
+      "original_name": "Lib-tech.com user rating (Camber)",
+      "unit": "percent",
+      "dominant_value": "98.0",
+      "confidence": 0.986547
+    },
+    {
+      "name": "user_rating_twin",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.013453,
+        "100.0": 0.986547
+      },
+      "original_name": "Lib-tech.com user rating (Twin)",
+      "unit": "percent",
+      "dominant_value": "100.0",
+      "confidence": 0.986547
+    },
+    {
+      "name": "edge_hold",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.005685,
+        "Holds_edge_super_well_grips_icy_snow": 0.994315
+      },
+      "original_name": "Edge hold",
+      "dominant_value": "Holds_edge_super_well_grips_icy_snow",
+      "confidence": 0.994315
+    },
+    {
+      "name": "edge_hold_negative",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.053398,
+        "Can_grab_hard_in_softer_snow": 0.946602
+      },
+      "original_name": "Edge hold negative",
+      "dominant_value": "Can_grab_hard_in_softer_snow",
+      "confidence": 0.946602
+    },
+    {
+      "name": "carving_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.058426,
+        "Pretty_good_for_hybrid_rocker": 0.941574
+      },
+      "original_name": "Carving (C2X)",
+      "dominant_value": "Pretty_good_for_hybrid_rocker",
+      "confidence": 0.941574
+    },
+    {
+      "name": "carving_rating_camber",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.78,
+      "posterior": {
+        "Unknown": 0.011125,
+        "Carving_really_fun": 0.988875
+      },
+      "original_name": "Carving (Camber)",
+      "dominant_value": "Carving_really_fun",
+      "confidence": 0.988875
+    },
+    {
+      "name": "carving_rating_twin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Very_enjoyable_carving_lay_trenches": 0.96199
+      },
+      "original_name": "Carving (Twin)",
+      "dominant_value": "Very_enjoyable_carving_lay_trenches",
+      "confidence": 0.96199
+    },
+    {
+      "name": "speed_performance",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.058426,
+        "Pretty_stable_and_fast_for_hybrid_rocker": 0.941574
+      },
+      "original_name": "Speed",
+      "dominant_value": "Pretty_stable_and_fast_for_hybrid_rocker",
+      "confidence": 0.941574
+    },
+    {
+      "name": "base_glide_performance",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.92,
+      "posterior": {
+        "Unknown": 0.00784,
+        "Thirsty_base_requires_frequent_waxing": 0.99216
+      },
+      "original_name": "Base glide concern",
+      "dominant_value": "Thirsty_base_requires_frequent_waxing",
+      "confidence": 0.99216
+    },
+    {
+      "name": "chatter_performance",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.006313,
+        "Blasts_through_chunder_absorbs_chatter": 0.993687
+      },
+      "original_name": "Uneven terrain / chatter performance",
+      "dominant_value": "Blasts_through_chunder_absorbs_chatter",
+      "confidence": 0.993687
+    },
+    {
+      "name": "pop_performance",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.058426,
+        "Really_good_pop_good_for_air": 0.941574
+      },
+      "original_name": "Pop/jumps",
+      "dominant_value": "Really_good_pop_good_for_air",
+      "confidence": 0.941574
+    },
+    {
+      "name": "park_performance_camber",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.096774,
+        "Surprisingly_poppy_for_size_ollies_butters": 0.903226
+      },
+      "original_name": "Park performance (Camber)",
+      "dominant_value": "Surprisingly_poppy_for_size_ollies_butters",
+      "confidence": 0.903226
+    },
+    {
+      "name": "switch_riding",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.058426,
+        "Less_good_than_older_model_still_doable": 0.941574
+      },
+      "original_name": "Switch riding (C2X)",
+      "dominant_value": "Less_good_than_older_model_still_doable",
+      "confidence": 0.941574
+    },
+    {
+      "name": "switch_riding_twin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.025788,
+        "Awesome_true_twin_made_for_switch": 0.974212
+      },
+      "original_name": "Switch riding (Twin)",
+      "dominant_value": "Awesome_true_twin_made_for_switch",
+      "confidence": 0.974212
+    },
+    {
+      "name": "powder_float_c2x",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Noticeably_better_in_fresh_snow": 0.96199
+      },
+      "original_name": "Powder float (C2X)",
+      "dominant_value": "Noticeably_better_in_fresh_snow",
+      "confidence": 0.96199
+    },
+    {
+      "name": "powder_float_camber",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.88,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Not_strongest_but_better_than_expected": 0.96199
+      },
+      "original_name": "Powder float (Camber)",
+      "dominant_value": "Not_strongest_but_better_than_expected",
+      "confidence": 0.96199
+    },
+    {
+      "name": "reviewer_opinion_whitelines",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.031877,
+        "Blown_away_quick_edge_to_edge_phenomenal_grip": 0.968123
+      },
+      "original_name": "Whitelines tester verdict",
+      "dominant_value": "Blown_away_quick_edge_to_edge_phenomenal_grip",
+      "confidence": 0.968123
+    },
+    {
+      "name": "durability_assessment",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Built_like_a_tank_juggernaut": 0.96199
+      },
+      "original_name": "Durability",
+      "dominant_value": "Built_like_a_tank_juggernaut",
+      "confidence": 0.96199
+    },
+    {
+      "name": "dampening_performance",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Absorbs_chatter_handles_tracked_out_snow": 0.96199
+      },
+      "original_name": "Dampening",
+      "dominant_value": "Absorbs_chatter_handles_tracked_out_snow",
+      "confidence": 0.96199
+    },
+    {
+      "name": "turn_initiation_performance",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.042056,
+        "Medium_fast_edge_to_edge": 0.957944
+      },
+      "original_name": "Turn initiation",
+      "dominant_value": "Medium_fast_edge_to_edge",
+      "confidence": 0.957944
+    },
+    {
+      "name": "negative_aspect",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.068323,
+        "Edge_changes_not_as_quick_due_to_width": 0.931677
+      },
+      "original_name": "Width makes edge-to-edge slower",
+      "dominant_value": "Edge_changes_not_as_quick_due_to_width",
+      "confidence": 0.931677
+    },
+    {
+      "name": "negative_aspect_slow_speed",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.068323,
+        "Tricky_to_handle_at_slower_speeds": 0.931677
+      },
+      "original_name": "Slow speed handling",
+      "dominant_value": "Tricky_to_handle_at_slower_speeds",
+      "confidence": 0.931677
+    },
+    {
+      "name": "negative_aspect_weight",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.116424,
+        "Not_the_lightest_or_most_nimble": 0.883576
+      },
+      "original_name": "Weight concern for larger boards",
+      "dominant_value": "Not_the_lightest_or_most_nimble",
+      "confidence": 0.883576
+    },
+    {
+      "name": "negative_aspect_wide_feet",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.139073,
+        "Hard_to_skid_turns_for_smaller_feet": 0.860927
+      },
+      "original_name": "Too wide for smaller-footed riders",
+      "dominant_value": "Hard_to_skid_turns_for_smaller_feet",
+      "confidence": 0.860927
+    },
+    {
+      "name": "negative_aspect_chairlift",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.246575,
+        "Heavy_hanging_off_one_leg_on_chair": 0.753425
+      },
+      "original_name": "Bigger boards heavy on chairlifts",
+      "dominant_value": "Heavy_hanging_off_one_leg_on_chair",
+      "confidence": 0.753425
+    },
+    {
+      "name": "user_review_forum",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.269103,
+        "Not_used_to_stiff_wondering_if_too_wide": 0.730897
+      },
+      "original_name": "Forum user concern",
+      "dominant_value": "Not_used_to_stiff_wondering_if_too_wide",
+      "confidence": 0.730897
+    },
+    {
+      "name": "comparable_board_cross_brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.73,
+      "posterior": {
+        "Unknown": 0.033816,
+        "Ride_Warpig_Superpig": 0.966184
+      },
+      "original_name": "Ride Warpig/Superpig comparable",
+      "dominant_value": "Ride_Warpig_Superpig",
+      "confidence": 0.966184
+    },
+    {
+      "name": "comparable_board_jones_flagship",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.189189,
+        "Jones_Flagship": 0.810811
+      },
+      "original_name": "Jones Flagship comparable",
+      "dominant_value": "Jones_Flagship",
+      "confidence": 0.810811
+    },
+    {
+      "name": "comparable_board_bataleon_goliath",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.310345,
+        "Bataleon_Goliath": 0.689655
+      },
+      "original_name": "Bataleon Goliath comparable",
+      "dominant_value": "Bataleon_Goliath",
+      "confidence": 0.689655
+    },
+    {
+      "name": "comparable_board_never_summer",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.224599,
+        "Never_Summer_Protosynthesis": 0.775401
+      },
+      "original_name": "Never Summer Protosynthesis comparable",
+      "dominant_value": "Never_Summer_Protosynthesis",
+      "confidence": 0.775401
+    },
+    {
+      "name": "comparable_board_gnu_riders_choice",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.189189,
+        "GNU_Riders_Choice": 0.810811
+      },
+      "original_name": "GNU Riders Choice comparable",
+      "dominant_value": "GNU_Riders_Choice",
+      "confidence": 0.810811
+    },
+    {
+      "name": "comparable_board_stump_ape",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.189189,
+        "Lib_Tech_Stump_Ape": 0.810811
+      },
+      "original_name": "Lib Tech Stump Ape comparable",
+      "dominant_value": "Lib_Tech_Stump_Ape",
+      "confidence": 0.810811
+    },
+    {
+      "name": "comparable_board_salomon_dancehaul",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.277264,
+        "Salomon_Dancehaul": 0.722736
+      },
+      "original_name": "Salomon Dancehaul comparable",
+      "dominant_value": "Salomon_Dancehaul",
+      "confidence": 0.722736
+    },
+    {
+      "name": "comparable_board_jones_stratos",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.113924,
+        "Jones_Stratos": 0.886076
+      },
+      "original_name": "Jones Stratos comparable",
+      "dominant_value": "Jones_Stratos",
+      "confidence": 0.886076
+    },
+    {
+      "name": "comparable_board_k2_party_platter",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.224599,
+        "K2_Party_Platter": 0.775401
+      },
+      "original_name": "K2 Party Platter comparable",
+      "dominant_value": "K2_Party_Platter",
+      "confidence": 0.775401
+    },
+    {
+      "name": "gender",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.000258,
+        "Mens": 0.999742
+      },
+      "original_name": "gender",
+      "dominant_value": "Mens",
+      "confidence": 0.999742
+    },
+    {
+      "name": "design_philosophy",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.010989,
+        "experiMENTAL_Division_project_for_big_riders": 0.989011
+      },
+      "original_name": "Design philosophy",
+      "dominant_value": "experiMENTAL_Division_project_for_big_riders",
+      "confidence": 0.989011
+    },
+    {
+      "name": "customer_service_email",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.008621,
+        "orders_at_mervin_dot_com": 0.991379
+      },
+      "original_name": "Customer service email",
+      "dominant_value": "orders_at_mervin_dot_com",
+      "confidence": 0.991379
+    },
+    {
+      "name": "reviewer_opinion_the_good_ride",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.95,
+      "posterior": {
+        "Fun_mountain_freestyle_ride_less_aggressive": 0.85,
+        "Unknown": 0.15
+      },
+      "original_name": "Reviewer opinion The Good Ride (Twin)",
+      "dominant_value": "Fun_mountain_freestyle_ride_less_aggressive",
+      "confidence": 0.85
+    },
+    {
+      "name": "reviewer_opinion_tgr_everyday",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.031877,
+        "Much_more_everyday_rider_friendly": 0.968123
+      },
+      "original_name": "Reviewer opinion TGR everyday rider",
+      "dominant_value": "Much_more_everyday_rider_friendly",
+      "confidence": 0.968123
+    },
+    {
+      "name": "reviewer_opinion_tgr_charger_warning",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.031877,
+        "If_expecting_hard_charger_might_be_disappointed": 0.968123
+      },
+      "original_name": "Reviewer opinion TGR charger warning",
+      "dominant_value": "If_expecting_hard_charger_might_be_disappointed",
+      "confidence": 0.968123
+    },
+    {
+      "name": "positive_aspect_pop",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.058426,
+        "Really_good_pop_good_for_air": 0.941574
+      },
+      "original_name": "Positive aspect pop",
+      "dominant_value": "Really_good_pop_good_for_air",
+      "confidence": 0.941574
+    },
+    {
+      "name": "positive_aspect_durability",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.95,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Board_is_a_tank_built_for_big_guys": 0.96199
+      },
+      "original_name": "Positive aspect durability",
+      "dominant_value": "Board_is_a_tank_built_for_big_guys",
+      "confidence": 0.96199
+    },
+    {
+      "name": "positive_aspect",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Phenomenal_grip_for_carving": 0.96199
+      },
+      "original_name": "Positive aspect edge hold",
+      "dominant_value": "Phenomenal_grip_for_carving",
+      "confidence": 0.96199
+    },
+    {
+      "name": "flex_classification_note",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.163602,
+        "Flex_6_8_classified_as_stiff": 0.836398
+      },
+      "original_name": "Evo flex classification note",
+      "dominant_value": "Flex_6_8_classified_as_stiff",
+      "confidence": 0.836398
+    }
+  ]
+}

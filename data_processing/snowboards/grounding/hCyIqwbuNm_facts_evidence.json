@@ -1,0 +1,2422 @@
+{
+  "product_guid": "hCyIqwbuNm",
+  "source_pl": "hCyIqwbuNm_facts.pl",
+  "n_attributes": 181,
+  "attributes": [
+    {
+      "name": "brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002022,
+        "Burton": 0.997978
+      },
+      "original_name": "brand",
+      "dominant_value": "Burton",
+      "confidence": 0.997978
+    },
+    {
+      "name": "model_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.002022,
+        "Counterbalance": 0.997978
+      },
+      "original_name": "model_name",
+      "dominant_value": "Counterbalance",
+      "confidence": 0.997978
+    },
+    {
+      "name": "model_year",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.034359,
+        "2027": 0.965641
+      },
+      "original_name": "model_year",
+      "dominant_value": "2027",
+      "confidence": 0.965641
+    },
+    {
+      "name": "model_first_available_year",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.001953,
+        "2025-2026_season": 0.998047
+      },
+      "original_name": "model_first_available_year",
+      "dominant_value": "2025-2026_season",
+      "confidence": 0.998047
+    },
+    {
+      "name": "manufacturer",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.092243,
+        "Burton_Snowboards": 0.907757
+      },
+      "original_name": "manufacturer",
+      "dominant_value": "Burton_Snowboards",
+      "confidence": 0.907757
+    },
+    {
+      "name": "manufacturer_reputation",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.15,
+        "Purpose_led_brand_40yr_heritage": 0.85
+      },
+      "original_name": "manufacturer reputation",
+      "dominant_value": "Purpose_led_brand_40yr_heritage",
+      "confidence": 0.85
+    },
+    {
+      "name": "sustainability_certification",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Certified_B_Corp": 0.986842
+      },
+      "original_name": "sustainability_certification",
+      "dominant_value": "Certified_B_Corp",
+      "confidence": 0.986842
+    },
+    {
+      "name": "product_type",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.002022,
+        "Snowboard": 0.997978
+      },
+      "original_name": "product_type",
+      "dominant_value": "Snowboard",
+      "confidence": 0.997978
+    },
+    {
+      "name": "sku_merchant",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "3028810FARRG146": 0.950001
+      },
+      "original_name": "SKU (merchant)",
+      "dominant_value": "3028810FARRG146",
+      "confidence": 0.950001
+    },
+    {
+      "name": "full_product_name_burton",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.008621,
+        "Burton_Counterbalance_Camber_Snowboard": 0.991379
+      },
+      "original_name": "full product name on Burton.com",
+      "dominant_value": "Burton_Counterbalance_Camber_Snowboard",
+      "confidence": 0.991379
+    },
+    {
+      "name": "available_colors",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.066764,
+        "Amoeba": 0.933236
+      },
+      "original_name": "available_colors",
+      "dominant_value": "Amoeba",
+      "confidence": 0.933236
+    },
+    {
+      "name": "available_colors_sun_glow",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.065939,
+        "Sun_Glow": 0.934061
+      },
+      "original_name": "available_colors",
+      "dominant_value": "Sun_Glow",
+      "confidence": 0.934061
+    },
+    {
+      "name": "available_colors_hallucinate",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.010186,
+        "Hallucinate": 0.989814
+      },
+      "original_name": "available_colors",
+      "dominant_value": "Hallucinate",
+      "confidence": 0.989814
+    },
+    {
+      "name": "available_colors_deco",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.017418,
+        "Deco": 0.982582
+      },
+      "original_name": "available_colors",
+      "dominant_value": "Deco",
+      "confidence": 0.982582
+    },
+    {
+      "name": "graphic_designer_artist",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.3,
+      "posterior": {
+        "Unknown": 0.137266,
+        "Shawna_X_abstract_microscope_view": 0.862734
+      },
+      "original_name": "graphic_designer_artist",
+      "dominant_value": "Shawna_X_abstract_microscope_view",
+      "confidence": 0.862734
+    },
+    {
+      "name": "graphic_designer_artist_hallucinate",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.25,
+      "posterior": {
+        "Unknown": 0.164727,
+        "Dylan_West_and_Sophie_Sellstrom": 0.835273
+      },
+      "original_name": "graphic_designer_artist",
+      "dominant_value": "Dylan_West_and_Sophie_Sellstrom",
+      "confidence": 0.835273
+    },
+    {
+      "name": "board_category",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Mellow_Freeride": 0.207386,
+        "All_Mountain": 0.074716,
+        "All_Mountain_Freeride": 0.717898
+      },
+      "original_name": "board_category",
+      "dominant_value": "All_Mountain_Freeride",
+      "confidence": 0.717898
+    },
+    {
+      "name": "gender",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.007095,
+        "Unisex": 0.992905
+      },
+      "original_name": "gender",
+      "dominant_value": "Unisex",
+      "confidence": 0.992905
+    },
+    {
+      "name": "rider_level",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.75,
+      "posterior": {
+        "Intermediate_Advanced": 0.01846,
+        "Intermediate_Expert": 0.971435,
+        "Intermediate": 0.010105
+      },
+      "original_name": "rider_level",
+      "dominant_value": "Intermediate_Expert",
+      "confidence": 0.971435
+    },
+    {
+      "name": "skill_level_recommendation",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.001563,
+        "One_board_quiver_daily_driver": 0.998437
+      },
+      "original_name": "skill_level_recommendation",
+      "dominant_value": "One_board_quiver_daily_driver",
+      "confidence": 0.998437
+    },
+    {
+      "name": "riding_style",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.064288,
+        "Groomers_powder_side_hits_park": 0.935712
+      },
+      "original_name": "riding_style",
+      "dominant_value": "Groomers_powder_side_hits_park",
+      "confidence": 0.935712
+    },
+    {
+      "name": "predecessor_model_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.000631,
+        "Replaces_Deep_Thinker_and_Story_Board": 0.999369
+      },
+      "original_name": "predecessor_model_name",
+      "dominant_value": "Replaces_Deep_Thinker_and_Story_Board",
+      "confidence": 0.999369
+    },
+    {
+      "name": "design_inspiration",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.002162,
+        "Mid_90s_Burton_shapes_Terje_Balance_Custom_DNA": 0.997838
+      },
+      "original_name": "design inspiration",
+      "dominant_value": "Mid_90s_Burton_shapes_Terje_Balance_Custom_DNA",
+      "confidence": 0.997838
+    },
+    {
+      "name": "shape",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.004975,
+        "Tapered_Directional": 0.995025
+      },
+      "original_name": "shape",
+      "dominant_value": "Tapered_Directional",
+      "confidence": 0.995025
+    },
+    {
+      "name": "taper",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "unk_taper": 0.038124,
+        "8.0": 0.961876
+      },
+      "original_name": "taper",
+      "unit": "mm",
+      "dominant_value": "8.0",
+      "confidence": 0.961876
+    },
+    {
+      "name": "camber_type",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.039699,
+        "Directional_Camber": 0.960301
+      },
+      "original_name": "camber_type",
+      "dominant_value": "Directional_Camber",
+      "confidence": 0.960301
+    },
+    {
+      "name": "camber_description",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.065233,
+        "Camber_under_feet_rockered_nose": 0.934767
+      },
+      "original_name": "camber_description",
+      "dominant_value": "Camber_under_feet_rockered_nose",
+      "confidence": 0.934767
+    },
+    {
+      "name": "camber_height_mm",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.010791,
+        "9.0": 0.989209
+      },
+      "original_name": "camber_height_mm",
+      "unit": "mm",
+      "dominant_value": "9.0",
+      "confidence": 0.989209
+    },
+    {
+      "name": "setback",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "neg2.5": 0.950001
+      },
+      "original_name": "setback",
+      "unit": "cm",
+      "dominant_value": "neg2.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "flex_rating_10",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "6.0": 0.056074,
+        "7.0": 0.817744,
+        "6.5": 0.126182
+      },
+      "original_name": "flex_rating_10",
+      "unit": "/10",
+      "dominant_value": "7.0",
+      "confidence": 0.817744
+    },
+    {
+      "name": "flex_feel",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.00145,
+        "Medium_aggressive": 0.99855
+      },
+      "original_name": "flex_feel",
+      "dominant_value": "Medium_aggressive",
+      "confidence": 0.99855
+    },
+    {
+      "name": "flex_direction",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "Directional_stiffer_nose_more_pop_tail": 0.950001
+      },
+      "original_name": "flex_direction",
+      "dominant_value": "Directional_stiffer_nose_more_pop_tail",
+      "confidence": 0.950001
+    },
+    {
+      "name": "terrain_suitability_park",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.069998,
+        "6.0": 0.930002
+      },
+      "original_name": "terrain_suitability",
+      "unit": "/10",
+      "dominant_value": "6.0",
+      "confidence": 0.930002
+    },
+    {
+      "name": "terrain_suitability",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.069998,
+        "8.0": 0.930002
+      },
+      "original_name": "terrain_suitability",
+      "unit": "/10",
+      "dominant_value": "8.0",
+      "confidence": 0.930002
+    },
+    {
+      "name": "terrain_suitability_powder",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.069998,
+        "7.0": 0.930002
+      },
+      "original_name": "terrain_suitability",
+      "unit": "/10",
+      "dominant_value": "7.0",
+      "confidence": 0.930002
+    },
+    {
+      "name": "overall_rating_snowboardingprofiles",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "86.1": 0.991189
+      },
+      "original_name": "overall_rating_snowboardingprofiles",
+      "unit": "/100",
+      "dominant_value": "86.1",
+      "confidence": 0.991189
+    },
+    {
+      "name": "powder_score_snowboardingprofiles",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "powder_score_snowboardingprofiles",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "carving_score_snowboardingprofiles",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "carving_score_snowboardingprofiles",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "turns_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "3.5": 0.991189
+      },
+      "original_name": "SnowboardingProfiles turns score",
+      "unit": "/5",
+      "dominant_value": "3.5",
+      "confidence": 0.991189
+    },
+    {
+      "name": "trees_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "SnowboardingProfiles trees score",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "crud_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "SnowboardingProfiles crud score",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "speed_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "SnowboardingProfiles speed score",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "jumps_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "4.0": 0.991189
+      },
+      "original_name": "SnowboardingProfiles jumps score",
+      "unit": "/5",
+      "dominant_value": "4.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "switch_score_sp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008811,
+        "3.0": 0.991189
+      },
+      "original_name": "SnowboardingProfiles switch score",
+      "unit": "/5",
+      "dominant_value": "3.0",
+      "confidence": 0.991189
+    },
+    {
+      "name": "powder_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Good": 0.986842
+      },
+      "original_name": "powder_rating_tgr",
+      "dominant_value": "Good",
+      "confidence": 0.986842
+    },
+    {
+      "name": "carving_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Great": 0.986842
+      },
+      "original_name": "carving_rating_tgr",
+      "dominant_value": "Great",
+      "confidence": 0.986842
+    },
+    {
+      "name": "speed_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Good": 0.986842
+      },
+      "original_name": "speed_rating_tgr",
+      "dominant_value": "Good",
+      "confidence": 0.986842
+    },
+    {
+      "name": "jumps_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Great": 0.986842
+      },
+      "original_name": "jumps_rating_tgr",
+      "dominant_value": "Great",
+      "confidence": 0.986842
+    },
+    {
+      "name": "jibbing_rating_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Average": 0.986842
+      },
+      "original_name": "jibbing_rating_tgr",
+      "dominant_value": "Average",
+      "confidence": 0.986842
+    },
+    {
+      "name": "edge_hold",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Hard_Snow_capable": 0.986842
+      },
+      "original_name": "edge_hold",
+      "dominant_value": "Hard_Snow_capable",
+      "confidence": 0.986842
+    },
+    {
+      "name": "on_snow_feel_tgr",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Stable": 0.986842
+      },
+      "original_name": "on_snow_feel_tgr",
+      "dominant_value": "Stable",
+      "confidence": 0.986842
+    },
+    {
+      "name": "turn_initiation_performance",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Medium_Fast": 0.986842
+      },
+      "original_name": "turn_initiation_performance",
+      "dominant_value": "Medium_Fast",
+      "confidence": 0.986842
+    },
+    {
+      "name": "core_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.037453,
+        "Super_Fly_II_700G_dual_species_wood": 0.962547
+      },
+      "original_name": "core_material",
+      "dominant_value": "Super_Fly_II_700G_dual_species_wood",
+      "confidence": 0.962547
+    },
+    {
+      "name": "construction_material_innovation",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.04187,
+        "Dualzone_EGD_wood_grain_edge_hold": 0.95813
+      },
+      "original_name": "construction_material_innovation",
+      "dominant_value": "Dualzone_EGD_wood_grain_edge_hold",
+      "confidence": 0.95813
+    },
+    {
+      "name": "construction_squeezebox",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.044495,
+        "Squeezebox_thicker_outside_thinner_underfoot": 0.955505
+      },
+      "original_name": "construction_material_innovation",
+      "dominant_value": "Squeezebox_thicker_outside_thinner_underfoot",
+      "confidence": 0.955505
+    },
+    {
+      "name": "laminate",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.037453,
+        "45deg_Carbon_Highlights_tip_to_tail": 0.962547
+      },
+      "original_name": "laminate",
+      "dominant_value": "45deg_Carbon_Highlights_tip_to_tail",
+      "confidence": 0.962547
+    },
+    {
+      "name": "edge_technology",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.037453,
+        "Frostbite_Edges_enhanced_edge_hold": 0.962547
+      },
+      "original_name": "edge_technology",
+      "dominant_value": "Frostbite_Edges_enhanced_edge_hold",
+      "confidence": 0.962547
+    },
+    {
+      "name": "base_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.033387,
+        "Sintered_WFO_high_density": 0.966613
+      },
+      "original_name": "base_material",
+      "dominant_value": "Sintered_WFO_high_density",
+      "confidence": 0.966613
+    },
+    {
+      "name": "base_type",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.001466,
+        "Sintered": 0.998534
+      },
+      "original_name": "base_type",
+      "dominant_value": "Sintered",
+      "confidence": 0.998534
+    },
+    {
+      "name": "resin",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.033387,
+        "Super_Sap_Epoxy_bio_based": 0.966613
+      },
+      "original_name": "resin",
+      "dominant_value": "Super_Sap_Epoxy_bio_based",
+      "confidence": 0.966613
+    },
+    {
+      "name": "sustainability_resin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.055926,
+        "50pct_reduction_vs_petroleum_epoxy": 0.944074
+      },
+      "original_name": "sustainability_certification",
+      "dominant_value": "50pct_reduction_vs_petroleum_epoxy",
+      "confidence": 0.944074
+    },
+    {
+      "name": "mounting_pattern",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.037277,
+        "The_Channel_two_parallel_slots": 0.962723
+      },
+      "original_name": "mounting_pattern",
+      "dominant_value": "The_Channel_two_parallel_slots",
+      "confidence": 0.962723
+    },
+    {
+      "name": "binding_compatibility",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.044415,
+        "All_major_brands_best_with_EST": 0.955585
+      },
+      "original_name": "binding_compatibility",
+      "dominant_value": "All_major_brands_best_with_EST",
+      "confidence": 0.955585
+    },
+    {
+      "name": "construction_infinite_ride",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.055926,
+        "Infinite_Ride_factory_broken_in": 0.944074
+      },
+      "original_name": "construction_material_innovation",
+      "dominant_value": "Infinite_Ride_factory_broken_in",
+      "confidence": 0.944074
+    },
+    {
+      "name": "construction_pro_tip",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.069998,
+        "Pro_Tip_reduced_swing_weight": 0.930002
+      },
+      "original_name": "construction_material_innovation",
+      "dominant_value": "Pro_Tip_reduced_swing_weight",
+      "confidence": 0.930002
+    },
+    {
+      "name": "factory_tuning",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.111924,
+        "Waxed_and_ready": 0.888076
+      },
+      "original_name": "factory tuning",
+      "dominant_value": "Waxed_and_ready",
+      "confidence": 0.888076
+    },
+    {
+      "name": "available_sizes",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "142_146_150_154_158_158W_162_162W": 0.117321,
+        "142_146_150_154_154W_158_158W_162_162W": 0.882679
+      },
+      "original_name": "available_sizes",
+      "dominant_value": "142_146_150_154_154W_158_158W_162_162W",
+      "confidence": 0.882679
+    },
+    {
+      "name": "width_options",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "Standard_and_Wide": 0.950001
+      },
+      "original_name": "width_options",
+      "dominant_value": "Standard_and_Wide",
+      "confidence": 0.950001
+    },
+    {
+      "name": "effective_edge_146",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "110.6": 0.950001
+      },
+      "original_name": "effective edge 146cm",
+      "unit": "cm",
+      "dominant_value": "110.6",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size_146",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "6.9": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "6.9",
+      "confidence": 0.950001
+    },
+    {
+      "name": "tip_width_146",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "284.5": 0.950001
+      },
+      "original_name": "tip_tail_width_size",
+      "unit": "mm",
+      "dominant_value": "284.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "tail_width_146",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "276.5": 0.950001
+      },
+      "original_name": "tip_tail_width_size",
+      "unit": "mm",
+      "dominant_value": "276.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_146",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "240.0": 0.950001
+      },
+      "original_name": "waist width 146cm",
+      "unit": "mm",
+      "dominant_value": "240.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "stance_width_range_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "50.5": 0.950001
+      },
+      "original_name": "stance_width_range_size",
+      "unit": "cm",
+      "dominant_value": "50.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_146",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "45-68kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "45-68kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "effective_edge_158",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "120.0": 0.950001
+      },
+      "original_name": "effective edge 158cm",
+      "unit": "cm",
+      "dominant_value": "120.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size_158",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "7.5": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "7.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "tip_tail_width_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "301.0": 0.950001
+      },
+      "original_name": "tip_tail_width_size",
+      "unit": "mm",
+      "dominant_value": "301.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "tail_width_158",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.449995,
+        "393.0": 0.550005
+      },
+      "original_name": "tip_tail_width_size",
+      "unit": "mm",
+      "dominant_value": "393.0",
+      "confidence": 0.550005
+    },
+    {
+      "name": "waist_width_158",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "253.0": 0.950001
+      },
+      "original_name": "waist width 158cm",
+      "unit": "mm",
+      "dominant_value": "253.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_158",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "68-91kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "68-91kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "board_weight_grams",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.006623,
+        "2680.0": 0.993377
+      },
+      "original_name": "board_weight_grams",
+      "unit": "g",
+      "dominant_value": "2680.0",
+      "confidence": 0.993377
+    },
+    {
+      "name": "weight_per_cm",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.006623,
+        "16.96": 0.993377
+      },
+      "original_name": "weight_per_cm",
+      "unit": "g/cm",
+      "dominant_value": "16.96",
+      "confidence": 0.993377
+    },
+    {
+      "name": "reviewer_opinion_snowboardingprofiles",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Felt_lighter_than_normal": 0.9839
+      },
+      "original_name": "reviewer_opinion_snowboardingprofiles",
+      "dominant_value": "Felt_lighter_than_normal",
+      "confidence": 0.9839
+    },
+    {
+      "name": "reviewer_opinion_the_good_ride",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.021922,
+        "Feels_Normal_lighter_side_of_heavy": 0.978078
+      },
+      "original_name": "reviewer_opinion_the_good_ride",
+      "dominant_value": "Feels_Normal_lighter_side_of_heavy",
+      "confidence": 0.978078
+    },
+    {
+      "name": "subjective_weight_feel_peter_glenn",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.162127,
+        "Poppy_strong_very_lightweight": 0.837873
+      },
+      "original_name": "subjective weight feel (Peter Glenn)",
+      "dominant_value": "Poppy_strong_very_lightweight",
+      "confidence": 0.837873
+    },
+    {
+      "name": "warranty_period_years",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.002013,
+        "3.0": 0.997987
+      },
+      "original_name": "warranty_period_years",
+      "unit": "years",
+      "dominant_value": "3.0",
+      "confidence": 0.997987
+    },
+    {
+      "name": "warranty",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.00605,
+        "W48_claim_processed_2_business_days": 0.99395
+      },
+      "original_name": "warranty",
+      "dominant_value": "W48_claim_processed_2_business_days",
+      "confidence": 0.99395
+    },
+    {
+      "name": "warranty_exclusions",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Misuse_abuse_neglect_rock_damage_normal_wear": 0.994759
+      },
+      "original_name": "warranty",
+      "dominant_value": "Misuse_abuse_neglect_rock_damage_normal_wear",
+      "confidence": 0.994759
+    },
+    {
+      "name": "warranty_conditions",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Original_owner_proof_of_purchase_authorized_dealer": 0.994759
+      },
+      "original_name": "warranty",
+      "dominant_value": "Original_owner_proof_of_purchase_authorized_dealer",
+      "confidence": 0.994759
+    },
+    {
+      "name": "price_aud_merchant",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.029999,
+        "949.99": 0.970001
+      },
+      "original_name": "price_aud_merchant",
+      "unit": "AUD",
+      "dominant_value": "949.99",
+      "confidence": 0.970001
+    },
+    {
+      "name": "price_usd_msrp",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.000631,
+        "659.0": 0.999369
+      },
+      "original_name": "price_usd_msrp",
+      "unit": "USD",
+      "dominant_value": "659.0",
+      "confidence": 0.999369
+    },
+    {
+      "name": "price_usd_evo",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008621,
+        "419.99": 0.991379
+      },
+      "original_name": "price_usd_evo",
+      "unit": "USD",
+      "dominant_value": "419.99",
+      "confidence": 0.991379
+    },
+    {
+      "name": "price_usd_backcountry",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008621,
+        "395.97": 0.991379
+      },
+      "original_name": "price_usd_backcountry",
+      "unit": "USD",
+      "dominant_value": "395.97",
+      "confidence": 0.991379
+    },
+    {
+      "name": "price_usd_tactics",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.008621,
+        "461.95": 0.991379
+      },
+      "original_name": "price_usd_tactics",
+      "unit": "USD",
+      "dominant_value": "461.95",
+      "confidence": 0.991379
+    },
+    {
+      "name": "price_usd_sun_ski",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "527.93": 0.986842
+      },
+      "original_name": "price USD (Sun & Ski Sports)",
+      "unit": "USD",
+      "dominant_value": "527.93",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_usd_blauer_board",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "659.0": 0.986842
+      },
+      "original_name": "price USD (Blauer Board Shop)",
+      "unit": "USD",
+      "dominant_value": "659.0",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_usd_darkside",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.108917,
+        "659.95": 0.891083
+      },
+      "original_name": "price USD (Darkside Snowboards)",
+      "unit": "USD",
+      "dominant_value": "659.95",
+      "confidence": 0.891083
+    },
+    {
+      "name": "price_gbp_blue_tomato_uk",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013158,
+        "610.0": 0.986842
+      },
+      "original_name": "price_gbp_blue_tomato_uk",
+      "unit": "GBP",
+      "dominant_value": "610.0",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_eur_blue_tomato",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "599.0": 0.986842
+      },
+      "original_name": "price_eur_blue_tomato",
+      "unit": "EUR",
+      "dominant_value": "599.0",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_eur_blue_tomato_rrp",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.013158,
+        "680.0": 0.986842
+      },
+      "original_name": "price_eur_blue_tomato",
+      "unit": "EUR",
+      "dominant_value": "680.0",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_eur_snowcountry",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "499.0": 0.986842
+      },
+      "original_name": "price EUR (SnowCountry)",
+      "unit": "EUR",
+      "dominant_value": "499.0",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_cad_burton_ca",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "839.99": 0.986842
+      },
+      "original_name": "price CAD (Burton Canada)",
+      "unit": "CAD",
+      "dominant_value": "839.99",
+      "confidence": 0.986842
+    },
+    {
+      "name": "price_cad_prfo",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "587.99": 0.986842
+      },
+      "original_name": "price_cad_prfo",
+      "unit": "CAD",
+      "dominant_value": "587.99",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.093921,
+        "Rhythm_Snowsports_AU": 0.906079
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Rhythm_Snowsports_AU",
+      "confidence": 0.906079
+    },
+    {
+      "name": "estimated_availability_date",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.138684,
+        "Elevation107_April_May_2026": 0.861316
+      },
+      "original_name": "estimated_availability_date",
+      "dominant_value": "Elevation107_April_May_2026",
+      "confidence": 0.861316
+    },
+    {
+      "name": "availability_status_auski",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.138184,
+        "Auski_Australia": 0.861816
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Auski_Australia",
+      "confidence": 0.861816
+    },
+    {
+      "name": "availability_status_balmoral",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.137266,
+        "Balmoral_Boards_AU": 0.862734
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Balmoral_Boards_AU",
+      "confidence": 0.862734
+    },
+    {
+      "name": "availability_status_snowbiz",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.169971,
+        "Snowbiz_AU": 0.830029
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Snowbiz_AU",
+      "confidence": 0.830029
+    },
+    {
+      "name": "availability_status_melb_snowboard",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.134819,
+        "Melbourne_Snowboard_Centre_preorder": 0.865181
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Melbourne_Snowboard_Centre_preorder",
+      "confidence": 0.865181
+    },
+    {
+      "name": "availability_status_basenz",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.110341,
+        "BaseNZ": 0.889659
+      },
+      "original_name": "availability_status",
+      "dominant_value": "BaseNZ",
+      "confidence": 0.889659
+    },
+    {
+      "name": "availability_status_evo",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.08482,
+        "evo_com": 0.91518
+      },
+      "original_name": "availability_status",
+      "dominant_value": "evo_com",
+      "confidence": 0.91518
+    },
+    {
+      "name": "availability_status_backcountry",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Backcountry_com": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Backcountry_com",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_tactics",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Tactics": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Tactics",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_sun_ski",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Sun_Ski_Sports": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Sun_Ski_Sports",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_blauer",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Blauer_Board_Shop": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Blauer_Board_Shop",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_peter_glenn",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.134994,
+        "Peter_Glenn": 0.865006
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Peter_Glenn",
+      "confidence": 0.865006
+    },
+    {
+      "name": "availability_status_utahskis",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.140734,
+        "UtahSkis": 0.859266
+      },
+      "original_name": "availability_status",
+      "dominant_value": "UtahSkis",
+      "confidence": 0.859266
+    },
+    {
+      "name": "availability_status_darkside",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.136782,
+        "Darkside_Snowboards": 0.863218
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Darkside_Snowboards",
+      "confidence": 0.863218
+    },
+    {
+      "name": "availability_status_pathfinder",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.138684,
+        "Pathfinder_of_WV": 0.861316
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Pathfinder_of_WV",
+      "confidence": 0.861316
+    },
+    {
+      "name": "availability_status_eriks",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.25,
+      "posterior": {
+        "Unknown": 0.164269,
+        "ERIKS_Bike_Board_Ski": 0.835731
+      },
+      "original_name": "availability_status",
+      "dominant_value": "ERIKS_Bike_Board_Ski",
+      "confidence": 0.835731
+    },
+    {
+      "name": "availability_status_burton_com",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.008621,
+        "Burton_com_official": 0.991379
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Burton_com_official",
+      "confidence": 0.991379
+    },
+    {
+      "name": "availability_status_blue_tomato",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "BlueTomato_EU": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "BlueTomato_EU",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_snowcountry",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "SnowCountry": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "SnowCountry",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_burton_ca",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Burton_Snowboards_Canada": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Burton_Snowboards_Canada",
+      "confidence": 0.986842
+    },
+    {
+      "name": "availability_status_prfo",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "PRFO_Sports_Canada": 0.986842
+      },
+      "original_name": "availability_status",
+      "dominant_value": "PRFO_Sports_Canada",
+      "confidence": 0.986842
+    },
+    {
+      "name": "shipping_restriction",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Australia_only": 0.950001,
+        "Unknown": 0.049999
+      },
+      "original_name": "shipping restriction (merchant)",
+      "dominant_value": "Australia_only",
+      "confidence": 0.950001
+    },
+    {
+      "name": "positive_aspect",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Better_Edge_Hold_Than_Most_Burton_Boards": 0.986842
+      },
+      "original_name": "positive_aspect",
+      "dominant_value": "Better_Edge_Hold_Than_Most_Burton_Boards",
+      "confidence": 0.986842
+    },
+    {
+      "name": "positive_aspect_pop",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Typical_Excellent_Burton_Pop": 0.986842
+      },
+      "original_name": "positive_aspect",
+      "dominant_value": "Typical_Excellent_Burton_Pop",
+      "confidence": 0.986842
+    },
+    {
+      "name": "positive_aspect_chatter",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Not_As_Much_Chatter_For_This_Much_Pop": 0.986842
+      },
+      "original_name": "positive_aspect",
+      "dominant_value": "Not_As_Much_Chatter_For_This_Much_Pop",
+      "confidence": 0.986842
+    },
+    {
+      "name": "positive_aspect_daily_driver",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Great_Directional_Daily_Driver": 0.986842
+      },
+      "original_name": "positive_aspect",
+      "dominant_value": "Great_Directional_Daily_Driver",
+      "confidence": 0.986842
+    },
+    {
+      "name": "negative_aspect",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.021922,
+        "Set_All_Way_Back_Much_Wider_Than_Reference": 0.978078
+      },
+      "original_name": "negative_aspect",
+      "dominant_value": "Set_All_Way_Back_Much_Wider_Than_Reference",
+      "confidence": 0.978078
+    },
+    {
+      "name": "negative_aspect_base_glide",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.002494,
+        "Base_glide_good_not_amazing": 0.997506
+      },
+      "original_name": "negative_aspect",
+      "dominant_value": "Base_glide_good_not_amazing",
+      "confidence": 0.997506
+    },
+    {
+      "name": "reviewer_opinion_tgr_recommend",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.014239,
+        "Will_recommend_a_lot": 0.985761
+      },
+      "original_name": "reviewer_opinion_the_good_ride",
+      "dominant_value": "Will_recommend_a_lot",
+      "confidence": 0.985761
+    },
+    {
+      "name": "reviewer_opinion_tgr_quiver_killer",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.014239,
+        "Ability_to_be_quiver_killer": 0.985761
+      },
+      "original_name": "reviewer_opinion_the_good_ride",
+      "dominant_value": "Ability_to_be_quiver_killer",
+      "confidence": 0.985761
+    },
+    {
+      "name": "reviewer_opinion_whitelines",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.020045,
+        "Boosts_off_side_hits_super_stable_landing": 0.979955
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Boosts_off_side_hits_super_stable_landing",
+      "confidence": 0.979955
+    },
+    {
+      "name": "reviewer_opinion_whitelines_edge",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.020045,
+        "Incredible_edge_hold_not_twitchy": 0.979955
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Incredible_edge_hold_not_twitchy",
+      "confidence": 0.979955
+    },
+    {
+      "name": "reviewer_opinion_whitelines_soft",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.020045,
+        "Softer_side_for_freeride_lively_turning": 0.979955
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Softer_side_for_freeride_lively_turning",
+      "confidence": 0.979955
+    },
+    {
+      "name": "review_positive_kingsnow",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.030787,
+        "Super_easy_quick_turns_tons_of_pop": 0.969213
+      },
+      "original_name": "review positive (KingSNOWBoard Aari)",
+      "dominant_value": "Super_easy_quick_turns_tons_of_pop",
+      "confidence": 0.969213
+    },
+    {
+      "name": "reviewer_opinion_whitelines_equilibrium",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.017418,
+        "Strikes_rare_equilibrium_freestyle_freeride": 0.982582
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Strikes_rare_equilibrium_freestyle_freeride",
+      "confidence": 0.982582
+    },
+    {
+      "name": "reviewer_opinion_sp_score",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.013158,
+        "Scored_86_1_ranked_10th_of_28_mellow_freeride": 0.986842
+      },
+      "original_name": "reviewer_opinion_snowboardingprofiles",
+      "dominant_value": "Scored_86_1_ranked_10th_of_28_mellow_freeride",
+      "confidence": 0.986842
+    },
+    {
+      "name": "reviewer_opinion_sp_vs_deep_thinker",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Deep_Thinker_slightly_better_but_close": 0.9839
+      },
+      "original_name": "reviewer_opinion_snowboardingprofiles",
+      "dominant_value": "Deep_Thinker_slightly_better_but_close",
+      "confidence": 0.9839
+    },
+    {
+      "name": "reviewer_opinion_sp_dampness",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "More_damp_spongy_absorbs_chatter_in_crud": 0.9839
+      },
+      "original_name": "reviewer_opinion_snowboardingprofiles",
+      "dominant_value": "More_damp_spongy_absorbs_chatter_in_crud",
+      "confidence": 0.9839
+    },
+    {
+      "name": "reviewer_opinion_whitelines_channel",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.030787,
+        "Channel_system_can_affect_flex": 0.969213
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Channel_system_can_affect_flex",
+      "confidence": 0.969213
+    },
+    {
+      "name": "reviewer_opinion_tgr_channel",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.021922,
+        "Not_biggest_fan_of_channel_want_four_screws": 0.978078
+      },
+      "original_name": "reviewer_opinion_the_good_ride",
+      "dominant_value": "Not_biggest_fan_of_channel_want_four_screws",
+      "confidence": 0.978078
+    },
+    {
+      "name": "user_review_forum",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.130435,
+        "Sloppy_flappy_nose_severely_underwhelmed": 0.869565
+      },
+      "original_name": "user_review_forum",
+      "dominant_value": "Sloppy_flappy_nose_severely_underwhelmed",
+      "confidence": 0.869565
+    },
+    {
+      "name": "user_review_forum_stability",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.177215,
+        "Lacked_power_stability_vs_Hometown_Hero": 0.822785
+      },
+      "original_name": "user_review_forum",
+      "dominant_value": "Lacked_power_stability_vs_Hometown_Hero",
+      "confidence": 0.822785
+    },
+    {
+      "name": "skill_level_recommendation_beginners",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.002991,
+        "Not_recommended_for_beginners": 0.997009
+      },
+      "original_name": "skill_level_recommendation",
+      "dominant_value": "Not_recommended_for_beginners",
+      "confidence": 0.997009
+    },
+    {
+      "name": "comparable_board_same_brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Carving_better_on_Counterbalance_than_Deep_Thinker": 0.9839
+      },
+      "original_name": "comparable_board_same_brand",
+      "dominant_value": "Carving_better_on_Counterbalance_than_Deep_Thinker",
+      "confidence": 0.9839
+    },
+    {
+      "name": "comparable_board_cross_brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.9,
+      "posterior": {
+        "Amplid_Souly_Grail_K2_Alchemist_Jones_Flagship_Pro_etc": 0.9839,
+        "Unknown": 0.0161
+      },
+      "original_name": "comparable_board_cross_brand",
+      "dominant_value": "Amplid_Souly_Grail_K2_Alchemist_Jones_Flagship_Pro_etc",
+      "confidence": 0.9839
+    },
+    {
+      "name": "comparable_board_same_brand_high_fidelity",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.021922,
+        "Burton_High_Fidelity_recommended": 0.978078
+      },
+      "original_name": "comparable_board_same_brand",
+      "dominant_value": "Burton_High_Fidelity_recommended",
+      "confidence": 0.978078
+    },
+    {
+      "name": "comparable_board_same_brand_alternatives",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.064189,
+        "Free_Thinker_or_Good_Company": 0.935811
+      },
+      "original_name": "comparable_board_same_brand",
+      "dominant_value": "Free_Thinker_or_Good_Company",
+      "confidence": 0.935811
+    },
+    {
+      "name": "comparable_board_cross_brand_forum",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.177215,
+        "Capita_Mercury_Nitro_Team_Salomon_Assassin_etc": 0.822785
+      },
+      "original_name": "comparable_board_cross_brand",
+      "dominant_value": "Capita_Mercury_Nitro_Team_Salomon_Assassin_etc",
+      "confidence": 0.822785
+    },
+    {
+      "name": "avg_price_competing_mellow_freeride",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "600.0": 0.9839
+      },
+      "original_name": "average price of competing mellow freeride boards",
+      "unit": "USD",
+      "dominant_value": "600.0",
+      "confidence": 0.9839
+    },
+    {
+      "name": "price_position",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "659_USD_slightly_above_600_category_avg": 0.9839
+      },
+      "original_name": "price position",
+      "dominant_value": "659_USD_slightly_above_600_category_avg",
+      "confidence": 0.9839
+    },
+    {
+      "name": "sustainability_super_sap",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.09325,
+        "Super_Sap_Epoxy_50pct_carbon_reduction": 0.90675
+      },
+      "original_name": "sustainability_certification",
+      "dominant_value": "Super_Sap_Epoxy_50pct_carbon_reduction",
+      "confidence": 0.90675
+    },
+    {
+      "name": "brand_ethos",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.2,
+        "Purpose_led_positively_impacting_people_planet_sport": 0.8
+      },
+      "original_name": "brand ethos",
+      "dominant_value": "Purpose_led_positively_impacting_people_planet_sport",
+      "confidence": 0.8
+    },
+    {
+      "name": "channel_history",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.119475,
+        "Channel_replaced_3D_in_2014": 0.880525
+      },
+      "original_name": "Channel mount replaced Burton 3D pattern in 2014",
+      "dominant_value": "Channel_replaced_3D_in_2014",
+      "confidence": 0.880525
+    },
+    {
+      "name": "channel_design",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.119475,
+        "Two_parallel_slots_two_screws_per_binding": 0.880525
+      },
+      "original_name": "Channel uses two parallel slots with two screws per binding",
+      "dominant_value": "Two_parallel_slots_two_screws_per_binding",
+      "confidence": 0.880525
+    },
+    {
+      "name": "est_binding_lock_in",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.134589,
+        "EST_bindings_only_compatible_Channel": 0.865411
+      },
+      "original_name": "EST bindings are only compatible with the Channel system",
+      "dominant_value": "EST_bindings_only_compatible_Channel",
+      "confidence": 0.865411
+    },
+    {
+      "name": "effective_edge_142",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "107.5": 0.950001
+      },
+      "original_name": "effective edge 142cm",
+      "unit": "cm",
+      "dominant_value": "107.5",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size_142",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "6.7": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "6.7",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_142",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "237.0": 0.950001
+      },
+      "original_name": "waist width 142cm",
+      "unit": "mm",
+      "dominant_value": "237.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_142",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "45-68kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "45-68kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "effective_edge_150",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "113.7": 0.950001
+      },
+      "original_name": "effective edge 150cm",
+      "unit": "cm",
+      "dominant_value": "113.7",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size_150",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "7.1": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "7.1",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_150",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "245.0": 0.950001
+      },
+      "original_name": "waist width 150cm",
+      "unit": "mm",
+      "dominant_value": "245.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_150",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "54-82kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "54-82kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "effective_edge_154",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "116.8": 0.950001
+      },
+      "original_name": "effective edge 154cm",
+      "unit": "cm",
+      "dominant_value": "116.8",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "7.3": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "7.3",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_154",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "249.0": 0.950001
+      },
+      "original_name": "waist width 154cm",
+      "unit": "mm",
+      "dominant_value": "249.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "54-82kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "54-82kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "effective_edge_162",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "123.1": 0.950001
+      },
+      "original_name": "effective edge 162cm",
+      "unit": "cm",
+      "dominant_value": "123.1",
+      "confidence": 0.950001
+    },
+    {
+      "name": "sidecut_radius_size_162",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "7.7": 0.950001
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "7.7",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_162",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "257.0": 0.950001
+      },
+      "original_name": "waist width 162cm",
+      "unit": "mm",
+      "dominant_value": "257.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_162",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "82-118+kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "82-118+kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_158w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "261.0": 0.950001
+      },
+      "original_name": "waist width 158cm Wide",
+      "unit": "mm",
+      "dominant_value": "261.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_158w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "68-91kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "68-91kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "waist_width_162w",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "265.0": 0.950001
+      },
+      "original_name": "waist width 162cm Wide",
+      "unit": "mm",
+      "dominant_value": "265.0",
+      "confidence": 0.950001
+    },
+    {
+      "name": "recommended_weight_range_size_162w",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.049999,
+        "82-118+kg": 0.950001
+      },
+      "original_name": "recommended_weight_range_size",
+      "dominant_value": "82-118+kg",
+      "confidence": 0.950001
+    },
+    {
+      "name": "deep_thinker_taper_comparison",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.9,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Deep_Thinker_7mm_vs_Counterbalance_8mm": 0.9839
+      },
+      "original_name": "Deep Thinker had 7mm taper vs Counterbalance 8mm",
+      "dominant_value": "Deep_Thinker_7mm_vs_Counterbalance_8mm",
+      "confidence": 0.9839
+    }
+  ]
+}

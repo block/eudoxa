@@ -1,0 +1,993 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="15" category="availability" />
+  <duplicate_canonical name="flex_rating_10" count="8" category="performance" />
+  <duplicate_canonical name="core_material" count="8" category="construction" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="6" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="3" category="construction" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="board_weight_grams" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="model_first_available_year" count="2" category="identity" />
+  <duplicate_canonical name="topsheet_appearance_description" count="2" category="identity" />
+  <duplicate_canonical name="available_colors" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="flex_direction" count="2" category="unknown" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="resin" count="2" category="unknown" />
+  <duplicate_canonical name="overall_rating_snowboardingprofiles" count="2" category="review" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="pop" count="2" category="unknown" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="pro_rider_name" count="2" category="brand_info" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][2]
+2. model_name: Blossom [1][2]
+3. model_year: 2027 [1][4]
+4. product_type: Snowboard [1][2]
+5.
+Manufacturer product category: Park & Freestyle
+6.
+Board category (merchant): Freestyle-All Mountain; described as "park-first snowboard built for riders who treat the entire mountain as their playground"
+7.
+Model first released: 2022 (new model year) — described as a "new camber freestyle board" that "largely replaces the outgoing Paramount"
+8.
+The Blossom appears on the Burton.com Winter 2022 US site, confirming 2022 as its debut model year
+9.
+2027 model delivery: "Expected delivery: April/May 2026" — boards landing exclusively in Australia before the rest of the world
+10.
+2027 topsheet graphic: "Team rider Niels Schack brings his creative spin to the Blossom board with a weathered topsheet graphic that shifts colors in cold temperatures"
+11. gender: Unisex / Gender neutral [3][6]
+12.
+Peter Glenn describes it as "a gender neutral, stiff, and aggressive board that is perfect for riding in the terrain park"
+13.
+Manufacturer heritage: "Founded by Jake Burton Carpenter in 1977"
+14.
+Brand description: "Burton is a purpose-led brand riding together positively impacting the future of people, planet, and the sport"
+15. price_aud_merchant: $879.99 [MERCHANT] [1]
+16.
+Price (USD, 2025 model on sale at evo.com): $619.95 MSRP, on sale for $399.99 (2025 previous season clearance)
+17.
+Price (USD, 2026 model at Ski Pro AZ): $599.95
+18.
+Price (USD, 2026 model at Aspen Ski & Board): $559.99 (Cherry Blossom / 152cm, backordered)
+19.
+Board of the World notes the Blossom is "a few dollars more expensive than the average park snowboard by around $80 – $100"
+20.
+The Blossom is "$180 less expensive" than the Good Company's upgrade alternatives; Good Company is $440 while Blossom is approximately $620
+21. flex_rating_10: Merchant lists flex as 7.5/10; Blauer Board Shop 2025 lists "Personality – 3-6/10" [Merchant vs. 11]; BaseNZ 2027 lists "Medium-stiff (6/10)" [5]; Melbourne Snowboard Centre lists "4.5/10" [16]; SnowboardingProfiles on-snow feel says "Medium (6.5/10)" [8]; Blauer Board Shop 2026 lists "6–9/10" [26]. Multiple sources disagree, likely reflecting the fact that flex is subjective and Burton's official rating scale may differ from retailer interpretation. Some sources may list feel vs. the official flex number.
+22. availability_status: Rhythm Snowsports (rhythmsnowsports.com.au) — 2027 model available; ships within Australia [1]
+23. availability_status: Melbourne Snowboard Centre (melbournesnowboard.com.au) — 2027 model listed [16]
+24.
+Seller (AU): Elevation107 (elevation107.com.au) — 2027 Dragon and Seahorse listed; lay-by available
+25. availability_status: Whiteroom Snow (whiteroomsnow.com.au) — 2027 Seahorse listed [17]
+26.
+Seller (NZ): BaseNZ (basenz.com) — 2027 Seahorse and Dragon both listed
+27. availability_status: NZ Shred (nzshred.co.nz) — 2027 Dragon and Seahorse listed [20]
+28.
+Seller (NZ): Boardertown (boardertown.co.nz) — 2027 Dragon listed
+[14b]
+29.
+Seller (US): evo.com — 2026 model in stock
+30. availability_status: Burton.com — 2026 model listed [2]
+31. availability_status: Peter Glenn — 2026 Cherry Blossom [7]
+32. availability_status: Backcountry.com — 2026 model [27]
+33. availability_status: Blauer Board Shop — 2025 and 2026 models [11]
+34. availability_status: Buckmans — 2026 model [12]
+35. availability_status: Ski Pro AZ (skipro.com) — 2026 model [21]
+36. availability_status: Skiis & Biikes — 2026 model [13]
+37. Shipping restriction (2027 model): Only available for shipping within Australia [MERCHANT]
+38. available_colors: Dragon, Seahorse [MERCHANT] [5][17]
+39.
+Prior season (2026) colour: "Cherry Blossom" — "fiery red deck and palm tree base painting"
+40. available_sizes: 144cm, 149cm, 152cm, 155cm, 158cm, 162cm [MERCHANT] [8]
+41. width_options: Standard, Wide [MERCHANT]
+42. shape: True Twin [MERCHANT] [1][6][7]
+43.
+Twin Shape is "perfectly symmetrical for a balanced ride so you can spin and stomp with outstanding stability whether you're riding regular or switch"
+44. flex_direction: Twin Flex [MERCHANT]
+45.
+Twin Flex: "perfectly symmetrical from tip to tail for a balanced ride that's equally versatile regular or switch"
+46. camber_type: Camber (traditional / full camber) [MERCHANT] [1][9]
+47.
+NOTE: The original 2022 Blossom used "PurePop Camber" with subtle flat zones outside the feet and early rise tip/tail. Current (2024+) models switched to traditional camber
+[29] — Camber profile change occurred between model years.
+48. setback: 0mm (centered) on all sizes [MERCHANT]
+49. core_material: Super Fly II 700G [MERCHANT] [1][7][23]
+50.
+Super Fly II 700G Core: "Stronger and lighter woods target specific areas of the core to provide pop, strength, and reduced weight"
+51.
+Core certification: FSC® Certified (per Snowleader listing for the 2022 model)
+52. core_material: Dualzone EGD [MERCHANT]
+53.
+Dualzone EGD: "wood grain is positioned along the toe and heel edges on two continuous zones, perpendicular to the rest of the wood core for consistent edge-hold and added strength"
+54. core_material: Squeezebox [MERCHANT]
+55.
+Squeezebox: "improves pop and performance through the balance of thicker, more powerful core sections with thinner, more flexible sections. Rider energy is transferred outward from beneath the feet"
+56. laminate: Triax fiberglass [MERCHANT] [1][23]
+57.
+Triax Fiberglass: "Versatile flex and response for everything from mini to mega shred"
+58. construction_material_innovation: Carbon I-Beam [MERCHANT] [1][23]
+59.
+Carbon I-Beam: "This ultra-light carbon backbone increases pop and longitudinal snap"
+60.
+Peter Glenn: "Burton sandwiched a Carbon I-Beam into the middle of the deck to add to the board's explosiveness and stability"
+61. base_type: Sintered WFO [MERCHANT] [1][7][23]
+62.
+Sintered WFO (evo.com describes as "Recycled Sintered WFO"): "Infusing a specially formulated wax deep into the pores of this extra-absorbent, high-density sintered material results in an ultra-durable base"
+63.
+Peter Glenn: "Burton's highest-quality Sintered WFO Base, which is extra-absorbent (of wax), ultradurable, and super fast"
+64. edge_technology: Frostbite Edges [MERCHANT]
+65.
+Melbourne Snowboard: "Frostbite Edges - Edges that extend out slightly underneath your bindings for enhanced edge hold on hardpack and ice"
+66.
+Factory tuning: "Board comes waxed and ready for the mountain right from the factory"
+67. resin: Super Sap Epoxy [MERCHANT] [1][11]
+68.
+Super Sap Epoxy: "A resin formulated with bio-based materials that reduces the carbon footprint by 50% over conventional all-petroleum-based epoxies. Less oil consumption means even less of a carbon footprint per board"
+69. Break-in technology: Infinite Ride [MERCHANT]
+70.
+Infinite Ride: "allows maximized pop and strength by overbuilding the board, then putting it in a machine that breaks in the board for you… your board will maintain its flex, pop, and feel from the first day forward, season after season"
+71. Nose/tail technology: Pro-Tip [MERCHANT]
+72.
+Pro-Tip: "A tapered tip and tail thickness reduces swing weight for easier mobility"
+73. mounting_pattern: The Channel [MERCHANT] [1][12][23]
+74.
+The Channel: "Stronger, faster, easier, and more adjustable — gives you ultimate control of your stance and your board in a design compatible with all major bindings (not just Burton's)"
+75.
+The Channel consists of "2 slots running parallel to the edges of the board (1 for each binding), allowing nearly infinite binding mounting options using just 2 screws per binding. The Channel works best with Burton's EST Bindings, but with the correct mounting discs, other bindings can be used"
+76.
+Channel history: "The Channel replaced Burton's 3D mounting pattern in 2014"
+77.
+Warranty: "All 2014 and newer Burton snowboards with The Channel mounting system… are backed by a three-year warranty from date of purchase"
+78. Effective edge (144cm): 107.5cm
+79. Effective edge (149cm): 112.5cm
+80. Effective edge (152cm): 115.5cm
+81. Effective edge (155cm): 118.5cm
+82. Effective edge (158cm): 121.5cm
+83. Effective edge (162cm): 125.5cm
+84. sidecut_radius_size: 7.0m
+85. sidecut_radius_size: 7.3m
+86. sidecut_radius_size: 7.5m
+87. sidecut_radius_size: 7.7m
+88. sidecut_radius_size: 7.9m
+89. sidecut_radius_size: 8.2m
+90. tip_tail_width_size: 27.8cm
+91. tip_tail_width_size: 28.4cm
+92. tip_tail_width_size: 29.0cm
+93. tip_tail_width_size: 29.3cm
+94. tip_tail_width_size: 29.7cm
+95. tip_tail_width_size: 30.3cm
+96. Waist width (144cm): 24.0cm
+97. Waist width (149cm): 24.4cm
+98. Waist width (152cm): 24.9cm
+99. Waist width (155cm): 25.1cm
+100. Waist width (158cm): 25.4cm
+101. Waist width (162cm): 25.8cm
+102. stance_width_range_size: 50.5cm
+103. stance_width_range_size: 53.0cm
+104. stance_width_range_size: 53.0cm
+105. stance_width_range_size: 56.0cm
+106. stance_width_range_size: 56.0cm
+107. stance_width_range_size: 56.0cm
+108. recommended_weight_range_size: 45-68kg
+109. recommended_weight_range_size: 45-68kg
+110. recommended_weight_range_size: 54-82kg
+111. recommended_weight_range_size: 54-82kg
+112. recommended_weight_range_size: 68-91kg
+113. recommended_weight_range_size: 82-118+kg
+114. terrain_suitability: 10/10 [MERCHANT]
+115. terrain_suitability: 7/10 [MERCHANT]
+116. terrain_suitability: 2/10 [MERCHANT]
+117. flex_rating_10: 7.5/10 [MERCHANT]
+118. rider_level: Intermediate-Advanced [MERCHANT] [1][23]
+119.
+Weight (2022 model, 155cm, per Snowleader): 2925g
+[30] — This is the 2022 model and may differ from 2027.
+120. board_weight_grams: 2900g [8] — Reviewer physically weighed the board.
+121. weight_per_cm: 18.35g/cm, which is slightly below the reviewer's average of 18.58g/cm across 300+ models [8]
+122.
+Earlier 2023 model (158cm) was weighed at a "little heavier than normal and felt a little heavier on snow too"
+[31] — Prior Blossom models were somewhat heavy.
+123. camber_height_mm: 7mm [8]
+124.
+Board of the World overall rating: 4.22 out of 5 stars
+125.
+Board of the World park ranking: "Ranks 2nd out of the 36 boards reviewed in the park category"
+126. overall_rating_snowboardingprofiles: 87.2/100 [8]
+127. overall_rating_snowboardingprofiles: 7th out of 33 all-mountain-freestyle snowboards tested [8]
+128. SnowboardingProfiles Jumps score: 4.5/5 (weighted 18/20) [8]
+129. carving_score_snowboardingprofiles: 4/5 (weighted 8/10) [8]
+130. SnowboardingProfiles Turns score: 4/5 (weighted 8/10) [8]
+131. SnowboardingProfiles Switch score: 4.5/5 (weighted 9/10) [8]
+132. SnowboardingProfiles Spins score: 4/5 (weighted 8/10) [8]
+133. SnowboardingProfiles Butters score: 3.5/5 (weighted 7/10) [8]
+134. SnowboardingProfiles Jibbing score: 3/5 (weighted 3/5) [8]
+135. powder_score_snowboardingprofiles: 2/5 (weighted 2/5) [8]
+136. SnowboardingProfiles Speed score: 4/5 (weighted 8/10) [8]
+137. flex_feel: "Mid-Stiff" / 6.5/10 [8]
+138. SnowboardingProfiles dampness: 6/10 [8]
+139. pop: 7/10 [8]
+140. SnowboardingProfiles aggressiveness: 7/10 [8]
+141.
+SnowboardingProfiles: "The Burton Blossom is a beast that carves as good as any twin out there, IMO"
+142.
+Board of the World: "a springboard level of pop. I would compare its pop to the Capita DOA"
+143.
+Board of the World first impression: "fast, stable, flexible with some effort, and an overall smooth ride"
+144.
+Board of the World: "one of the best park boards you can buy for the 2025 season (if not the best park board). If you're looking for a board that can both jib and jump, you just found it"
+145.
+Transfer Magazine: "The Blossom still has amazing edge control and as much as it's based towards park, it's still immensely suited to all mountain freestyle riding"
+146.
+Transfer Magazine: described as "the bigger juiced up jock brother to the now discontinued Killroy twin, which was an absolute powerhouse for all park rats"
+147.
+Transfer Magazine reviewer sentiment: "I had an absolute blast on this board and can honestly say I'm going to cry a little handing it back over"
+148.
+Board of the World (comparison review): "The Blossom has a higher-end feel to it. Its base has an extremely fast glide… a damp, 'charge through anything' type of feel"
+149.
+SnowboardingProfiles: "it doesn't quite get to the bar that the Free Thinker set"
+[8] — The predecessor Burton Free Thinker is regarded by some as a superior board.
+150.
+SnowboardingProfiles on powder: "it's not going to be a great powder floater"
+[31] — Full camber true twin is poor in deep snow.
+151.
+SnowboardingProfiles: "this is a board you have to ride aggressively and you've got to put it in to get it out… Not something you can get super casual on"
+152.
+Forum user complaint: no wide options in smaller sizes — "they do not have any wide options" for lighter riders with large feet
+153.
+Price perception: Board of the World notes the Blossom is "$80–$100" more expensive than the average park snowboard
+154.
+User experience note: a female rider "demoed the Blossom in a 152, loved the pop and aggressive feel, just a bit too stiff." Burton employees confirmed "sizes below 150 are made with more women-friendly stiffness"
+155. reviewer_opinion_snowboardingprofiles: The Blossom has fewer size options than the combined Free Thinker + Talent Scout lineups it replaced, "leads to less people being able to access this board with optimal sizing" [8]
+156. pop: High — requires some energy input but rewards with great boost [8]
+157. edge_hold: Good on hard snow / hardpack [8][1]
+158. Stability at speed: Good — "felt good and stable at speed" [8]
+159. switch_riding: Naturally good — "felt good riding switch and transitions were really good" [8]
+160. Buttering: Requires effort — "a bit of stiffness in the tip and tail" [8]
+161.
+Board of the World comparison: "The Blossom just felt like the higher-end, more impressive board" versus the Good Company. Going from Good Company to Blossom costs "$180" more
+162.
+Best suited to: "riders looking for a semi-aggressive board that is freestyle oriented, but is still fast and stable and can lay down a good carve"
+163.
+King Snow: "suited for more advanced and expert-level riders who love park riding and all-mountain performance. A proper choice for aggressive riders looking for a twin board that can handle high speeds, big jumps, and tech tricks"
+164.
+Snowboard Magazine: "the tool of choice for Zeb Powell and Luke Winkelmann"
+165.
+Transfer Magazine: "Seeing Zeb Powell have every cheat code under the sun activated and ripping this classic popsicle stick"
+166.
+Direct pop comparison: "I would compare its pop to the Capita DOA. Both boards run a traditional camber profile with an additional carbon beam"
+167.
+Comparable Burton board: "Burton Free Thinker – very similar board maybe one full notch stiffer"
+168.
+Comparable Burton board: "Burton Custom Camber – similar board, but this is a hair softer and directional making it better for carving all mountain"
+169.
+Comparable alternative: "Yes Jackpot – A bit cheaper, excellent for hitting jumps with some edge hold for carving"
+170.
+Comparable alternative: "Capita DOA – award winning twin with a ton of pop. Maybe one point softer than the Blossom"
+171.
+Comparable alternative: "Bataleon Evil Twin Plus – softer than the Blossom but just as versatile for hitting rails and jumps"
+172.
+Forum suggestions for non-Burton alternatives: "capita outsiders/indoor survival, yes dicey, maybe the huck knife, k2 afterblack, rome agent"
+173.
+Capita DOA price context: "$580 at the time of publishing" per The Inertia, vs. Blossom at ~$600
+174.
+SnowboardingProfiles: "Burton Freethinker (no like for like replacement, but the Blossom did take on some of its qualities)"
+175.
+Board of the World: "For 2025, there are no upgrades to the Burton Blossom snowboard. It will have the same specs but new graphics"
+176.
+Board of the World: "The 2026 was identical, so there were no technical upgrades to test out"
+177.
+SnowboardingProfiles: "on paper, it looks like nothing has really changed versus previous Blossom models, on-snow it did make improvements"
+178. 2027 update appears to be new graphics only (Dragon and Seahorse colourways) — no confirmed spec changes from 2026 [15][5]
+179.
+The Inertia: "established snowboard brands exist, including Burton, Lib Tech, Jones, Arbor, and CAPiTA, all with a strong track record for producing high-quality snowboards"
+180.
+Forum sentiment (critical): "Overpriced and overhyped. Their stuff isn't horrible, but on a scale of 1-10, everything is hyped and priced like it's 2-3 points higher than it really is"
+181.
+Forum sentiment (positive): "Burton is by far the best quality board I've owned"
+182.
+The Manual: "When it comes to buying snowboarding equipment, Burton, Jones, CAPiTA, and Arbor always feature highly on our lists"
+183. flex_rating_10: 7.5/10 [MERCHANT]
+184.
+Flex per Blauer Board Shop 2025 listing: "Personality – 3-6/10 (1=Soft,10=Stiff)"
+[11] — DISAGREEMENT with merchant value of 7.5/10. This may reflect the size-dependent flex (smaller sizes are softer).
+185.
+Flex per BaseNZ 2027 listing: "Medium-stiff (6/10), twin"
+[5] — DISAGREEMENT with merchant value of 7.5/10.
+186.
+Flex per Melbourne Snowboard: "4.5/10 (1 = soft, 10 = stiff)"
+[16] — SIGNIFICANT DISAGREEMENT with merchant value of 7.5/10. Likely an error or reflects a different size.
+187.
+Blauer Board Shop 2026 listing: "Flex 6–9/10 (Medium–Stiff)"
+[26] — Suggests flex varies by size, which is consistent with the range of reported values.
+188.
+Snowleader (2022 model): "Flex - 7/10 - Twin"
+189. flex_feel: 6.5/10, described as "Mid-Stiff" [8] — Comment: The wide range (3–9/10 across sources) likely reflects that Burton itself states a flex range rather than single number, and that smaller sizes (144, 149) are deliberately softer for lighter/women riders while larger sizes are stiffer.
+190. SKU (Dragon/149cm): 2294314FENRG149 [MERCHANT]
+191.
+Original (2022) graphic designer: "Burton rider Niels Schack hand-painted butterflies to symbolize new life and natural beauty"
+192.
+2025 graphic: "Inspired by the look of an old eroded rock with a crystal inside, team rider Niels Schack brings his creative spin"
+193. Construction: Sandwich construction (implied by sidewall, core, and laminate layup described across sources)
+194.
+Core specification detail: "dual-species wood core that is loaded with pop and reduces overall weight"
+195.
+Transfer Magazine on Squeezebox: "create softer flexing sections underfoot and stiffer sections outside of the foot which distribute energy for stability and that ever so exquisite pop"
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.rhythmsnowsports.com.au/products/2027-blossom-snowboard</url>
+  <quote>The Blossom is Burton's park-first snowboard built for riders who treat the entire mountain as their playground</quote>
+  <quote>A Super Fly II 700G Core pairs Dualzone EGD edge reinforcement with Squeezebox profiling</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rhythmsnowsports.com.au/products/2027-blossom-snowboard#:~:text=The%20Blossom%20is%20Burton%E2%80%99s%20park-first%20snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Rhythm Snowsports is a major Australian snowboard retailer listing the 2027 model. Directly confirms product identity, specs, and Australian availability.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-blossom-camber-snowboard/W26-229431.html</url>
+  <quote>Shop the Blossom Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-blossom-camber-snowboard/W26-229431.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer page. Unfortunately rendered mostly as template code, but confirms the model exists as Park & Freestyle category on Burton.com. Highest authority for product identity.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.snowboard-asylum.com/burton-mens-blossom-snowboard-820515900</url>
+  <quote>The Burton Blossom is a true twin weapon built for park rats and creative riders</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard-asylum.com/burton-mens-blossom-snowboard-820515900</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>UK retailer confirming product positioning as park/freestyle twin.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://basenz.com/products/burton-blossom-snowboard-2027-seahorse</url>
+  <quote>The Burton Blossom Snowboard 2027 Seahorse is a freestyle-focused true twin with camber pop and carbon reinforcement</quote>
+  </quotelist>
+  <url_with_text_link>https://basenz.com/products/burton-blossom-snowboard-2027-seahorse</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>NZ retailer listing for the specific 2027 Seahorse colourway. Confirms 2027 model year availability and NZ pricing territory.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://basenz.com/products/burton-blossom-snowboard-2027-dragon</url>
+  <quote>Rider Type Freestyle, park Shape True twin Flex Medium-stiff (6/10), twin Rocker Camber Ability Intermediate–advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://basenz.com/products/burton-blossom-snowboard-2027-dragon</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>NZ retailer listing for the 2027 Dragon variant with concise specs. Flex rated as 6/10, which disagrees with merchant figure of 7.5/10.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://peterglenn.com/burton-blossom-snowboard-adults-cherry-blossom-2026-winter/</url>
+  <quote>The Burton Blossom Snowboard is a gender neutral, stiff, and aggressive board that is perfect for riding in the terrain park.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-blossom-snowboard-adults-cherry-blossom-2026-winter/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Peter Glenn is a reputable US ski/board retailer. Their video breakdown by a Burton rep provides authoritative construction details.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://peterglenn.com/burton-blossom-snowboard-adults-cherry-blossom-2026-winter/</url>
+  <quote>Burton sandwiched a Carbon I-Beam into the middle of the deck to add to the board's explosiveness and stability.</quote>
+  <quote>the Blossoms boasts Burton's highest-quality Sintered WFO Base, which is extra-absorbent (of wax), ultradurable, and super fast.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-blossom-snowboard-adults-cherry-blossom-2026-winter/#:~:text=Burton%20sandwiched%20a%20Carbon%20I-Beam</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Same source as [6], different quotes supporting construction details and base quality.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/burton-blossom-snowboard-review</url>
+  <quote>Rating Score: 87.2/100</quote>
+  <quote>Flex Feel on Snow: Medium (6.5/10)</quote>
+  <quote>Board Weight: 2900g</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/burton-blossom-snowboard-review#:~:text=Rating%20Score</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles is a specialist independent review site with standardised scoring across 300+ boards. The reviewer (Nate) physically weighed the board and tested on-snow. Very thorough methodology for an independent site. Review is of the 2026 model but specs are unchanged for 2027.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://shop.thebombhole.com/blogs/product-tests/burton-blossom-snowboard-review-by-the-bomb-hole</url>
+  <quote>Shape - Twin Shape is perfectly symmetrical for a balanced ride so you can spin and stomp with outstanding stability</quote>
+  </quotelist>
+  <url_with_text_link>https://shop.thebombhole.com/blogs/product-tests/burton-blossom-snowboard-review-by-the-bomb-hole</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>The Bomb Hole tested at Woodward Park City. Uses standard Burton spec descriptions but confirms shape and flex details independently.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/burton-blossom-snowboard-review/</url>
+  <quote>I would compare its pop to the Capita DOA.</quote>
+  <quote>Ranks 2nd out of the 36 boards reviewed in the park category.</quote>
+  <quote>the Blossom is a few dollars more expensive than the average park snowboard by around $80 – $100.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/burton-blossom-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World provides detailed independent reviews with on-snow testing at Big Snow NJ. East Coast perspective. Rating comparison and competitor comparisons are valuable for purchase decisions.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-blossom-2025-unisex</url>
+  <quote>FLEX Personality – 3-6/10 (1=Soft,10=Stiff)</quote>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  <quote>Pro-Tip – A tapered tip and tail thickness reduces swing weight for easier mobility.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-blossom-2025-unisex</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>US retailer listing with Burton's official spec descriptions. Flex personality rating of 3-6/10 is a key disagreement with merchant's 7.5/10.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://buckmans.com/product/51146/burton-blossom-snowboard-unisex</url>
+  <quote>All 2014 and newer Burton snowboards with The Channel mounting system... are backed by a three-year warranty from date of purchase.</quote>
+  <quote>The Channel replaced Burton's 3D mounting pattern in 2014.</quote>
+  <quote>The Channel consists of 2 slots running parallel to the edges of the board</quote>
+  </quotelist>
+  <url_with_text_link>https://buckmans.com/product/51146/burton-blossom-snowboard-unisex</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Buckmans is a reputable US ski/snowboard retailer with detailed product descriptions. Warranty and mounting system details are particularly useful.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://skiisandbiikes.com/products/burton-blossom-snowboard-2026</url>
+  <quote>The Channel™ Board Mount is compatible with all major bindings</quote>
+  </quotelist>
+  <url_with_text_link>https://skiisandbiikes.com/products/burton-blossom-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Canadian retailer listing. Confirms Canadian availability and Channel compatibility.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="14b">
+  <quotelist>
+  <url>https://www.boardertown.co.nz/burton-blossom-snowboard-2027-bu-2294314fenrg-dragon</url>
+  <quote>SUMMER SALE</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardertown.co.nz/burton-blossom-snowboard-2027-bu-2294314fenrg-dragon</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>NZ retailer listing. Minimal content but confirms NZ availability and SKU matching.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.elevation107.com.au/products/burton-blossom-snowboard-2027-sea-horse</url>
+  <quote>Expected delivery: April/May 2026</quote>
+  <quote>these boards are landing exclusively in Australia before the rest of the world</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/burton-blossom-snowboard-2027-sea-horse</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Australian retailer with specific delivery timeline for the 2027 model. Confirms Australia-first availability.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/burton-blossom</url>
+  <quote>Flex: 4.5/10 (1 = soft, 10 = stiff)</quote>
+  <quote>Frostbite Edges - Edges that extend out slightly underneath your bindings for enhanced edge hold on hardpack and ice.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-blossom</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>AU retailer with detailed spec descriptions. Flex rating of 4.5/10 significantly disagrees with merchant and other sources — may apply to a specific size or be an error.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.whiteroomsnow.com.au/products/burton-blossom-seahorse-snowboard-2027</url>
+  <quote>Team rider Niels Schack brings his creative spin to the Blossom board with a weathered topsheet graphic that shifts colors in cold temperatures</quote>
+  </quotelist>
+  <url_with_text_link>https://www.whiteroomsnow.com.au/products/burton-blossom-seahorse-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>AU retailer listing for 2027 Seahorse. Confirms thermochromic topsheet graphic feature.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/2022-burton-snowboards-overview</url>
+  <quote>Burton Blossom - New camber freestyle board. It's not an exact replacement for the Paramount, but it looks pretty close.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/2022-burton-snowboards-overview#:~:text=Burton%20Blossom%20-%20New%20camber%20freestyle%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-09</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles 2022 lineup overview explicitly identifies the Blossom as new for the 2022 model year. Primary source for first-year determination.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-blossom-camber-snowboard/W22-229431.html</url>
+  <quote>Shop the Burton Blossom Camber Snowboard with more all mountain, park and powder snowboards from Winter 2022 at Burton.com</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-blossom-camber-snowboard/W22-229431.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-09</date_of_last_relevance>
+  <reasoning>Official Burton.com page for the Winter 2022 Blossom. URL structure (W22) confirms 2022 model year. Highest authority for first year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/burton-blossom-dragon-2027-snowboards</url>
+  <quote>Warranty 3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/burton-blossom-dragon-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>NZ retailer confirming 2027 model availability in New Zealand and warranty terms.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://skipro.com/products/blossom-56w</url>
+  <quote>$599.95</quote>
+  <quote>Founded by Jake Burton Carpenter in 1977</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/blossom-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>US retailer confirming 2026 model pricing at $599.95 and Burton brand history.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.rhythmsnowsports.com.au/products/2027-blossom-snowboard</url>
+  <quote>Burton is a purpose-led brand riding together positively impacting the future of people, planet, and the sport</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rhythmsnowsports.com.au/products/2027-blossom-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Brand description from official Burton text on retailer page.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-blossom-snowboard</url>
+  <quote>Burton Blossom Snowboard 2025 $619.95 $399.99 Sale</quote>
+  <quote>Carbon I-Beam™ – This ultra-light carbon backbone increases pop and longitudinal snap.</quote>
+  <quote>Dualzone™ EGD™ – The wood grain is positioned along the toe and heel edges on two continuous zones</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-blossom-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>evo.com is one of the largest and most reputable US online snowboard retailers. Provides comprehensive specs using Burton's official descriptions. Pricing data for both current and prior season.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.aspenskiandboard.com/products/burton-blossom-mens-snowboard-2026</url>
+  <quote>Retail: $559.99 is backordered</quote>
+  </quotelist>
+  <url_with_text_link>https://www.aspenskiandboard.com/products/burton-blossom-mens-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>US retailer showing a lower price of $559.99 for the 2026 model, suggesting possible regional pricing or error. Backordered status.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/burton-good-company-review-and-comparison/</url>
+  <quote>The Blossom just felt like the higher-end, more impressive board under my feet.</quote>
+  <quote>if you can afford the additional $180, you'd get more snowboard for your money</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/burton-good-company-review-and-comparison/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Comparison review helps buyers decide between Blossom and cheaper Good Company. Directly addresses value proposition.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-blossom-cherry-blossom-snowboard-2026</url>
+  <quote>Flex 6–9/10 (Medium–Stiff)</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-blossom-cherry-blossom-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Blauer Board Shop 2026 listing provides a flex range rather than single number, suggesting size-dependent flex which helps explain the disagreement across sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.backcountry.com/burton-blossom-snowboard-2026</url>
+  <quote>Classic camber delivers powerful edge hold and pop that turns side hits into launch ramps.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.backcountry.com/burton-blossom-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Backcountry.com is a major US outdoor retailer. Confirms product availability in the US market.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-blossom-camber-snowboard-cherry-blossom-2026</url>
+  <quote>Core: Super Fly ll® 700G Core with Dualzone™ EGD™ - This is a dual-species wood core</quote>
+  <quote>Warranty - 3-YEAR WARRANTY</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-blossom-camber-snowboard-cherry-blossom-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>The Source Snowboard & Skate confirms dual-species wood core detail and warranty. The "dual-species" detail is not available from all sources.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/burton-blossom-snowboard-2022</url>
+  <quote>PurePop Camber – An evolution of a traditional camber shape, PurePop Camber profile features subtle flat zones just outside your feet</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/burton-blossom-snowboard-2022</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-09</date_of_last_relevance>
+  <reasoning>The 2022 original Blossom used PurePop Camber, not traditional camber. This is important context — the board's camber profile changed between model years.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.snowleader.nl/en/blossom-2022-BURT01855.html</url>
+  <quote>Weight (g) 2925</quote>
+  <quote>Core - FSC® Certified Super Fly II® 700G Core</quote>
+  <quote>Flex - 7/10 - Twin</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowleader.nl/en/blossom-2022-BURT01855.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-09</date_of_last_relevance>
+  <reasoning>European retailer with weight data for the 155cm 2022 model (2925g). FSC certification of the wood core is a notable sustainability attribute. Flex listed as 7/10.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/past-season-reviews-for-burton-blossom-archives</url>
+  <quote>the Blossom was a little heavier than normal and felt a little heavier on snow too.</quote>
+  <quote>it's not going to be a great powder floater.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/past-season-reviews-for-burton-blossom-archives</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-10</date_of_last_relevance>
+  <reasoning>Past season review archives provide context on how the board has evolved. Weight and powder performance issues noted across multiple seasons.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://transfermag.com/gear/on-the-ground-gear-review-burton-blossom-snowboard/</url>
+  <quote>The Blossom still has amazing edge control and as much as it's based towards park, it's still immensely suited to all mountain freestyle riding.</quote>
+  <quote>Feeling like the bigger juiced up jock brother to the now discontinued Killroy twin</quote>
+  </quotelist>
+  <url_with_text_link>https://transfermag.com/gear/on-the-ground-gear-review-burton-blossom-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-08</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Transfer Snowboarding Magazine is a respected specialist publication, particularly in Australia. On-the-ground review with genuine enthusiasm for the board.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-blossom-comparable-boards.280140/</url>
+  <quote>capita outsiders/ indoor survival, yes dicey, maybe the huck knife, k2 afterblack, rome agent</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-blossom-comparable-boards.280140/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum discussion about comparable boards. Community suggestions for non-Burton alternatives are useful for competitor comparison.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/burton-blossom-snowboard-2025</url>
+  <quote>suited for more advanced and expert-level riders who love park riding and all-mountain performance</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/burton-blossom-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>King Snow blog provides rider level context. Aligns with other sources on intermediate-advanced to expert target.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/2024-burton-blossom-review-with-board-archive</url>
+  <quote>the tool of choice for Zeb Powell and Luke Winkelmann</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/2024-burton-blossom-review-with-board-archive</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-10</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is a major industry publication. Confirms team rider association with the Blossom (pro model connection).</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/best-snowboards/</url>
+  <quote>Typically, boards in this price range ($580 at the time of publishing) don't feature so much performance.</quote>
+  <quote>established snowboard brands exist, including Burton, Lib Tech, Jones, Arbor, and CAPiTA</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/best-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Inertia is a reputable outdoor/surf/snow publication with tested gear reviews. Capita DOA pricing provides competitor context.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/top-5-aggressive-all-mountain-freestyle-snowboards</url>
+  <quote>Burton Freethinker (no like for like replacement, but the Blossom did take on some of its qualities)</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/top-5-aggressive-all-mountain-freestyle-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Confirms lineage from Free Thinker to Blossom. Important context for riders who owned the predecessor.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/is-burton-really-that-bad.42896/</url>
+  <quote>Overpriced and overhyped. Their stuff isn't horrible, but on a scale of 1-10, everything is hyped and priced like it's 2-3 points higher than it really is.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/is-burton-really-that-bad.42896/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2009</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Forum discussion on Burton brand perception. Older thread but recurring sentiment. Useful for brand reputation context but low individual credibility.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.3</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://www.themanual.com/outdoors/snowboard-gift-guide/</url>
+  <quote>Burton, Jones, CAPiTA, and Arbor always feature highly on our lists</quote>
+  </quotelist>
+  <url_with_text_link>https://www.themanual.com/outdoors/snowboard-gift-guide/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-12</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>The Manual is a reputable lifestyle/outdoor publication. Confirms Burton's strong brand positioning.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.undergroundsnowboards.com/men/snow/snowboards/burton-snowboards/blossom-2022-pid-32248?PID=32248</url>
+  <quote>Burton rider Niels Schack hand-painted butterflies to symbolize new life and natural beauty.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.undergroundsnowboards.com/men/snow/snowboards/burton-snowboards/blossom-2022-pid-32248?PID=32248</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-09</date_of_last_relevance>
+  <reasoning>Confirms original 2022 graphic artist (Niels Schack) and design philosophy. Historical context.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.getboards.com/burton-blossom-snowboard-2025/</url>
+  <quote>Inspired by the look of an old eroded rock with a crystal inside, team rider Niels Schack brings his creative spin</quote>
+  </quotelist>
+  <url_with_text_link>https://www.getboards.com/burton-blossom-snowboard-2025/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Confirms 2025 graphic design and ongoing involvement of Niels Schack.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.2</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-blossom</url>
+    <quote>brand: Burton; model name: Blossom; model year: 2027; AUD price: $879.99; colour: Dragon</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-blossom</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

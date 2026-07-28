@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MCAA Playground — Joint MC over 2 music tracks × 2 attributes</title>
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+    <body>
+        <header class="app-header">
+            <div class="brand">
+                <h1>MCAA Playground</h1>
+                <span class="subtitle">
+                    2 music tracks × 2 taste spectra (instrumentation:
+                    acoustic → electronic, tempo: ambient → driving beat) —
+                    the engine's joint Monte Carlo over <em>epistemic</em>
+                    (attribute) and <em>preference</em> (weight) uncertainty,
+                    ranked by HAI (Holistic Acceptability Index)
+                </span>
+            </div>
+            <div class="run-cluster">
+                <label class="sims-label">
+                    sims
+                    <input id="n-sims" type="number" min="100" max="50000" step="100" value="2000" />
+                </label>
+                <button id="btn-simulate" class="btn-run">Simulate</button>
+            </div>
+        </header>
+
+        <main class="layout">
+            <!-- ── Controls ──────────────────────────────────────── -->
+            <section class="controls" id="controls">
+                <div class="panel">
+                    <div class="panel-head">
+                        <h2>
+                            Your preferences
+                            <button class="info-btn" type="button" data-target="info-prefs"
+                                title="How preference uncertainty is sampled">i</button>
+                        </h2>
+                    </div>
+                    <div id="info-prefs" class="info-box" hidden>
+                        <p>
+                            Both attributes are 0–100 positions on a
+                            <strong>taste spectrum</strong>: instrumentation
+                            (acoustic ↔ electronic) and tempo (ambient ↔ driving
+                            beat). A preference has two independent parts:
+                        </p>
+                        <ul>
+                            <li><strong>the spectrum slider</strong> — where on the
+                                continuum you want to be (amber line in the sample
+                                strips). The engine scores each track by how close
+                                its sampled value lands to this spot, falling off
+                                towards both poles (<code>set_target</code> in
+                                production).</li>
+                            <li><strong>the importance slider</strong> — how much the
+                                attribute matters. Weights are normalized shares
+                                across active attributes, so only their ratio counts
+                                (with a single active attribute the share is pinned
+                                at 100% and the slider goes inert).</li>
+                        </ul>
+                        <p>Each attribute has a lifecycle state:</p>
+                        <ul>
+                            <li><span class="state-badge s-active">active</span>
+                                spectrum position as set; the weight centers a
+                                Dirichlet whose spread is <em>weight
+                                perturbation</em> (the curve above the importance
+                                slider).</li>
+                            <li><span class="state-badge s-dormant">dormant</span>
+                                spectrum position unknown — every simulation draws a
+                                latent one from Uniform(0, 100), integrating over
+                                every possible taste; the weight share is drawn
+                                Uniform(0, <em>dormant budget</em>).</li>
+                            <li><span class="state-badge s-excluded">excluded</span>
+                                don't care — dropped from sampling and ranking
+                                entirely.</li>
+                        </ul>
+                        <p class="muted">
+                            This is <em>preference uncertainty</em>: every simulation
+                            draws a different plausible weight vector (and, for
+                            dormant attributes, a different plausible taste) around
+                            what you stated.
+                        </p>
+                    </div>
+                    <div id="pref-controls" class="slider-group"></div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-head">
+                        <h2>
+                            Track attributes
+                            <button class="info-btn" type="button" data-target="info-products"
+                                title="How epistemic uncertainty is sampled">i</button>
+                        </h2>
+                    </div>
+                    <div id="info-products" class="info-box" hidden>
+                        <p>
+                            Per product × attribute you set a <strong>mean</strong> and a
+                            <strong>confidence</strong>. Confidence maps to a sampling
+                            std with the pipeline's calibrated formula
+                            <code>std = max(5, 22·√(1−conf))</code> on the 0–100 scale,
+                            and each simulation draws the value from
+                            Normal(mean, std) — the curve shows exactly that
+                            distribution.
+                        </p>
+                        <p class="muted">
+                            This is <em>epistemic uncertainty</em>: how sure we are
+                            about where the track actually sits on each spectrum
+                            (think: inferred from audio analysis or reviews).
+                        </p>
+                    </div>
+                    <div id="product-controls"></div>
+                </div>
+
+                <div class="panel">
+                    <h2>Monte Carlo engine</h2>
+                    <div id="mc-controls" class="mc-group"></div>
+                </div>
+            </section>
+
+            <!-- ── Results ───────────────────────────────────────── -->
+            <section class="results" id="results">
+                <div class="placeholder" id="placeholder">
+                    Shape the tracks and your preferences, then press
+                    <strong>Simulate</strong>.
+                </div>
+                <div id="result-body" hidden>
+                    <div class="card">
+                        <h3>
+                            Final ranking — as the recommendation engine decides it
+                            <button class="info-btn" type="button" data-target="info-decision"
+                                title="How the engine picks a winner">i</button>
+                        </h3>
+                        <div id="info-decision" class="info-box" hidden>
+                            <p>
+                                This panel runs the exact production path
+                                (<code>assemble_decision</code>): products are ordered
+                                by HAI, but an HAI gap within Monte Carlo noise
+                                (2·SE) is not trusted — the tie-break cascade then
+                                compares P(1st), expected rank, and the head-to-head
+                                margin, and if none separates them the result is a
+                                <em>declared tie</em>. The confidence score blends the
+                                winner's normalized HAI, its separation from the
+                                runner-up, and a penalty for dormant attributes.
+                            </p>
+                        </div>
+                        <div id="decision-panel"></div>
+                    </div>
+
+                    <div class="samples-row">
+                        <div class="card">
+                            <h3>
+                                Sampled attribute values — one dot per simulation
+                                <button class="info-btn" type="button" data-target="info-scatter"
+                                    title="What am I looking at?">i</button>
+                            </h3>
+                            <div id="info-scatter" class="info-box" hidden>
+                                <p>
+                                    One strip per track × attribute. Each dot is one Monte
+                                    Carlo draw of that attribute (epistemic uncertainty
+                                    made visible); its horizontal position is the sampled
+                                    spot on the taste spectrum, the vertical position is
+                                    just jitter so the density is readable. The two
+                                    attributes are drawn independently, which is why they
+                                    get separate axes. Colour = the rank the track achieved
+                                    in <em>that</em> simulation, which folds in the weight
+                                    draw too: <span class="rank-chip r1">1st</span>
+                                    <span class="rank-chip r2">2nd</span>.
+                                    The white dashed line marks the track's stated mean;
+                                    the amber line is <em>your</em> chosen spot on the
+                                    spectrum (tracks score higher the closer their
+                                    samples land to it). A wide strip = low confidence,
+                                    and a strip whose colour flips along the spectrum is
+                                    a track whose rank genuinely depends on where it
+                                    really sits.
+                                </p>
+                            </div>
+                            <div id="scatter-row" class="scatter-row"></div>
+                        </div>
+
+                        <div class="card">
+                            <h3>
+                                Sampled preference weights
+                                <button class="info-btn" type="button" data-target="info-wscatter"
+                                    title="What am I looking at?">i</button>
+                            </h3>
+                            <div id="info-wscatter" class="info-box" hidden>
+                                <p>
+                                    One strip per attribute weight; each dot is that
+                                    attribute's share in one draw of the weight vector
+                                    (preference uncertainty), vertical position is just
+                                    jitter. Wider strip = higher weight perturbation;
+                                    the dashed line marks the mean sampled share. With
+                                    two active attributes the weights sum to 1, so the
+                                    two strips mirror each other around 0.5; a dormant
+                                    attribute instead shows its Uniform(0, budget)
+                                    share.
+                                </p>
+                            </div>
+                            <div id="weights-strips" class="scatter-row"></div>
+                        </div>
+
+                        <div class="stack-col">
+                            <div class="card">
+                                <h3>
+                                    HAI per track
+                                    <button class="info-btn" type="button" data-target="info-hai"
+                                        title="How to read the HAI panel">i</button>
+                                </h3>
+                                <p class="hint">
+                                    <strong>HAI</strong> = <strong>Holistic
+                                    Acceptability Index</strong>: the track's average
+                                    rank-payoff across simulations (β₁ for 1st &gt; β₂
+                                    for 2nd), rewarding <em>consistently</em> good over
+                                    winning big in some draws and losing the rest.
+                                </p>
+                                <div id="info-hai" class="info-box" hidden>
+                                    <p>
+                                        HAI is the mean over simulations of the ROC
+                                        (rank-order-centroid) metaweight β<sub>rank</sub>
+                                        earned in each simulation (β₁ &gt; β₂, shown
+                                        under the bars). Its variance is therefore fully
+                                        described by the <strong>rank-acceptability</strong>
+                                        split — how often the product landed 1st / 2nd —
+                                        shown as the stacked bar. The whiskers are ±2 Monte
+                                        Carlo standard errors of the HAI estimate (the same
+                                        noise band the engine's tie test uses); “per-sample σ”
+                                        is the std of the β<sub>rank</sub> draws themselves.
+                                    </p>
+                                </div>
+                                <div id="hai-panel"></div>
+                            </div>
+
+                            <div class="card">
+                                <h3>
+                                    Head-to-head win probability
+                                    <button class="info-btn" type="button" data-target="info-duel"
+                                        title="What the bar shows">i</button>
+                                </h3>
+                                <div id="info-duel" class="info-box" hidden>
+                                    <p>
+                                        Across all simulations: how often did each product
+                                        achieve the strictly better compromise score (Q) than
+                                        the other? This is the engine's
+                                        <code>pairwise_win_prob</code> — the same quantity its
+                                        tie-break cascade consults when the HAI gap is within
+                                        noise. A bar near 50/50 means the two products are
+                                        genuinely interchangeable given current uncertainty;
+                                        push a confidence slider up (or weight perturbation
+                                        down) and watch it polarize.
+                                    </p>
+                                </div>
+                                <div id="duel-panel"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Run parameters</h3>
+                        <div id="params-echo" class="params-echo"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="/static/app.js"></script>
+    </body>
+</html>

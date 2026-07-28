@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Decision Model — Debug & Illustration</title>
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+    <body>
+        <header class="app-header">
+            <div class="brand">
+                <h1>Decision Model Debugger</h1>
+                <span class="subtitle">
+                    Adjust criterion weights &amp; Monte Carlo knobs, then run the
+                    VIKOR-SMAA model — <span id="alt-count"></span>
+                </span>
+            </div>
+            <button id="btn-run" class="btn-run">Run Model</button>
+        </header>
+
+        <main class="layout">
+            <!-- ── Controls ──────────────────────────────────────── -->
+            <section class="controls" id="controls">
+                <div class="panel">
+                    <div class="panel-head">
+                        <h2>
+                            Criteria weights
+                            <button
+                                class="info-btn"
+                                type="button"
+                                data-target="info-states"
+                                title="What do active / dormant / excluded mean?"
+                            >
+                                i
+                            </button>
+                        </h2>
+                        <button id="btn-reset" class="btn-link" type="button">
+                            Reset all
+                        </button>
+                    </div>
+                    <p class="hint">
+                        Weights are normalised by the engine. Live % shows each
+                        criterion's share of the total. The curve above each slider
+                        is that weight's sampling spread — it widens as
+                        <em>weight perturbation</em> increases.
+                    </p>
+                    <div id="info-states" class="info-box" hidden>
+                        <p>
+                            Each criterion carries an explicit
+                            <code>state</code> field, shown by the badge next to
+                            its name:
+                        </p>
+                        <ul>
+                            <li>
+                                <span class="state-badge s-active">active</span>
+                                participates directly in the ranking with its
+                                (positive) weight.
+                            </li>
+                            <li>
+                                <span class="state-badge s-dormant">dormant</span>
+                                no preference expressed yet. The engine only gives
+                                it weight via the <em>dormant budget</em> (sampled
+                                0…budget per iteration), and it generates discovery
+                                questions. Dragging a slider to 0 returns a
+                                criterion to this state.
+                            </li>
+                            <li>
+                                <span class="state-badge s-excluded">excluded</span>
+                                DON'T CARE — explicitly excluded via the
+                                <em>don't care</em> toggle. Dropped from the
+                                ranking, dormant exploration, and discovery
+                                questions. Toggle again to bring it back.
+                            </li>
+                        </ul>
+                        <p class="muted">
+                            State is explicit, not encoded in the weight: a slider
+                            &gt; 0 emits <code>set_weight</code> (active), a slider
+                            at 0 emits <code>set_state: dormant</code>, and the
+                            <em>don't care</em> toggle emits
+                            <code>set_state: excluded</code>.
+                        </p>
+                    </div>
+                    <div id="active-sliders" class="slider-group"></div>
+
+                    <details id="dormant-wrap" class="dormant">
+                        <summary>
+                            Dormant / advanced criteria
+                            <span id="dormant-count" class="muted"></span>
+                        </summary>
+                        <p class="hint">
+                            Left at 0 these stay <strong>dormant</strong> (explored
+                            via the dormant budget). Raise a slider above 0 to
+                            activate the criterion.
+                            <br />
+                            <span class="dir">target</span> = scored by closeness to
+                            an ideal value (not highest/lowest). Set a target value
+                            to activate the criterion (defaults to weight 0.05).
+                        </p>
+                        <div id="dormant-sliders" class="slider-group"></div>
+                    </details>
+                </div>
+
+                <div class="panel">
+                    <h2>Monte Carlo engine</h2>
+                    <div id="mc-controls" class="mc-group"></div>
+                </div>
+            </section>
+
+            <!-- ── Results ───────────────────────────────────────── -->
+            <section class="results" id="results">
+                <div class="placeholder" id="placeholder">
+                    Set your weights and press <strong>Run Model</strong>.
+                </div>
+                <div id="result-body" hidden></div>
+            </section>
+        </main>
+
+        <script src="/static/app.js"></script>
+    </body>
+</html>

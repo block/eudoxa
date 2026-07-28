@@ -1,0 +1,1154 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="19" category="availability" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="10" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="9" category="comparable" />
+  <duplicate_canonical name="sidecut_radius_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="7" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="terrain_suitability" count="5" category="recommendation" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="core_material" count="4" category="construction" />
+  <duplicate_canonical name="laminate" count="4" category="unknown" />
+  <duplicate_canonical name="base_glide_performance" count="4" category="performance" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="skill_level_recommendation" count="3" category="recommendation" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="negative_aspect" count="3" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="2" category="sustainability" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="taper" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="flex_direction" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="switch_riding" count="2" category="unknown" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1]
+2. model_name: Cartographer [1]
+3. model_year: 2026 (Winter 2025/2026 season) [1]
+4. product_type: Snowboard [1]
+5. model_first_available_year: 2022 — the Cartographer was a new model in the 2021/2022 Burton lineup [2]
+6. manufacturer: Burton Snowboards, founded in 1977 by Jake Burton Carpenter, headquartered in Burlington, Vermont, USA [3]
+7. Manufacturer corporate structure: Privately owned, currently by Donna Carpenter [3]
+8. sustainability_certification: Burton is a certified B Corporation [1]
+9. manufacturing_location_current: China (majority of Burton boards manufactured in China; higher-end models in Austria; prototype facility in Vermont) [4][5]
+10. manufacturing_location_current: Manufactured in China [6]
+11. board_category: All Mountain / Freeride [7]
+12. board_category: All Mountain-Freeride [MV]
+13. gender: Unisex [8]
+14. terrain_suitability: Powder and all-mountain riding [8]
+15. terrain_suitability: 3/10 [MV]
+16. terrain_suitability: 7/10 [MV][9]
+17. terrain_suitability: 8/10 [MV][9]
+18. Personality descriptor: "Happy Medium" [9]
+19. terrain_suitability: Blends big-mountain stability and all-mountain maneuverability for mixed terrain [10]
+20. skill_level_recommendation: Intermediate [MV][9]
+21. skill_level_recommendation: Intermediate-Advanced [11]
+22. skill_level_recommendation: Advanced to Expert — "suitable for advanced to expert riders, but a committed intermediate willing to take some lumps can give this a go" [12]
+Comment: Burton officially rates this board as "Intermediate" but expert reviewers consider it better suited to advanced riders due to its directional camber and semi-locked-in feel. This is a significant disagreement worth noting for the purchaser.
+23. shape: Directional [9]
+24. shape: Freeride Directional — slightly longer nose than tail [7]
+25. camber_type: Directional Camber [13]
+26. camber_description: Entry rocker causes the nose to lift while camber under both feet maintains momentum and stability [13]
+27. camber_description: Rocker in nose, traditional camber underfoot extending to the back foot [14]
+28. taper: 5mm [9]
+29. taper: 15mm taper in the nose [15]
+Comment: The vast majority of sources including Burton's own spec sheets state 5mm taper. Peter Glenn's "15mm taper in the nose" appears to be an error or describes something different (possibly the nose length extension, not shape taper). The 5mm figure should be trusted.
+30. flex_rating_10: 5.5/10 (mid-flex) [MV]
+31. flex_rating_10: 4-7/10, "Medium-Aggressive" personality [16]
+32. flex_direction: Directional Flex (more pop in the tail, stiffer/more resilient nose) [MV][13]
+33. flex_direction: Directional [9]
+34. flex_feel: Medium-stiff between the feet, medium in the nose, and medium-stiff in the tail [17]
+35. flex_feel: "Definitely less stiff than the Burton Flight Attendant" [18]
+36. core_material: FSC™ Certified Super Fly 800G Core [9][19]
+37. core_material: Dual-density vertical laminations of alternating softwood and hardwood [MV][19]
+38. core_material: Squeezebox — thicker powerful core sections combined with thinner flexible sections profiled throughout core [20]
+39. core_material: Dualzone™ EGD™ — wood grain positioned along toe and heel edges in two continuous zones perpendicular to rest of core [20]
+40. sustainability_certification: FSC™ Certified core wood [9]
+41. laminate: Triax™ Fiberglass [9][13]
+42. laminate: "Mystery Glass — a custom blend of fiberglass and carbon fiber specifically designed to optimize strength-to-weight" [21]
+Comment: The vast majority of sources including Burton's official spec sheets list Triax™ Fiberglass. The Source Snowboard lists "Mystery Glass" which is Burton's premium glass used on Family Tree and higher-end boards. This is likely an error by The Source — the Cartographer uses Triax, not Mystery Glass. Mystery Glass is used on boards like the Mystery Deep Thinker.
+43. laminate: Triax fiberglass layered above and below the core [MV]
+44. laminate: Top Glass +/- 45° & 0° Stitched; Bottom Glass 0° & +/- 45° Stitched [22]
+45. base_material: Sintered WFO [MV]
+46. base_material: Extra absorbent, high density sintered material infused with specially formulated wax [23]
+47. base_type: Sintered [9]
+48. base_glide_performance: "Durable and highly porous, get added durability and superior wax absorption for greater overall glide" [24]
+49. base_glide_performance: Base used to feel chalky after wax; improved for 2025; "not super fast, it's good enough for this price point" [25]
+50. base_glide_performance: "Will need consistent waxing to maintain optimal glide" [26]
+51. resin: Super Sap® Epoxy — bio-based resin reduces carbon footprint by 50% over petroleum-based epoxies [MV][27]
+52. mounting_pattern: The Channel® [9]
+53. binding_compatibility: Compatible with all major binding brands; works best with Burton EST bindings [MV][28]
+54. Durability technology: Infinite Ride™ — board is overbuilt in factory then broken down by machinery for consistent ride from day one [29]
+55. Tip/tail technology: Pro-Tip™ — tip and tail taper out at points, reducing swing weight and promoting mobility [MV][30]
+56. Geometry: Balanced Freeride Geometry — setback camber and stance-centred sidecut [MV][31]
+57. warranty: 3-year warranty from date of purchase (all 2014 and newer Burton snowboards with The Channel) [32]
+58. available_sizes: 144cm, 149cm, 154cm, 159cm, 162cm, 154cm Wide, 159cm Wide [MV]
+59. width_options: Standard and Wide [MV]
+60. Effective edge 144cm: 1062mm [MV][33]
+61. Effective edge 149cm: 1092mm [MV][33]
+62. Effective edge 154cm: 1142mm [MV][33]
+63. Effective edge 159cm: 1192mm [MV][33]
+64. Effective edge 162cm: 1222mm [MV][33]
+65. Effective edge 154cm Wide: 1142mm [MV][33]
+66. Effective edge 159cm Wide: 1192mm [MV][33]
+67. sidecut_radius_size: 6.5m [MV]
+68. sidecut_radius_size: 6.7m [MV]
+69. sidecut_radius_size: 7.0m [MV]
+70. sidecut_radius_size: 7.3m [MV]
+71. sidecut_radius_size: 7.5m [MV]
+72. sidecut_radius_size: 7.0m [MV]
+73. sidecut_radius_size: 7.3m [MV]
+74. Waist width 144cm: 24.5cm [MV]
+75. Waist width 149cm: 25.0cm [MV]
+76. Waist width 154cm: 25.5cm [MV]
+77. Waist width 159cm: 25.8cm [MV]
+78. Waist width 162cm: 26.0cm [MV]
+79. Waist width 154cm Wide: 26.3cm [MV]
+80. Waist width 159cm Wide: 26.6cm [MV]
+81. tip_tail_width_size: 28.7/28.2cm [MV]
+82. tip_tail_width_size: 29.3/28.8cm [MV]
+83. tip_tail_width_size: 30.0/29.5cm [MV]
+84. tip_tail_width_size: 30.5/30.0cm [MV]
+85. tip_tail_width_size: 30.8/30.3cm [MV]
+86. tip_tail_width_size: 30.8/30.3cm [MV]
+87. tip_tail_width_size: 31.3/30.8cm [MV]
+88. stance_width_range_size: 50.5cm [MV]
+89. stance_width_range_size: 53.0cm [MV]
+90. stance_width_range_size: 56.0cm [MV]
+91. setback: -2.5cm (all sizes) [MV]
+92. recommended_weight_range_size: 45-68kg (100-150lbs) [MV]
+93. recommended_weight_range_size: 45-68kg (100-150lbs) [MV]
+94. recommended_weight_range_size: 54-82kg (120-180lbs) [MV]
+95. recommended_weight_range_size: 68-91kg (150-200lbs) [MV]
+96. recommended_weight_range_size: 82-118kg (180-260lbs) [MV]
+97. recommended_weight_range_size: 54-82kg (120-180lbs) [MV]
+98. recommended_weight_range_size: 68-91kg (150-200lbs) [MV]
+99. Ideal boot size 149cm: US 8-9 [34]
+100. Ideal boot size 154cm: US 8.5-9.5 [34]
+101. Ideal boot size 159cm: US 9.5-10.5 [34]
+102. Ideal boot size 162cm: US 10-11 [34]
+103. Ideal boot size 154W: US 10-11 [34]
+104. Ideal boot size 159W: US 11-12 [34]
+105. price_usd_msrp: $529.95 USD (Burton US) [35]
+106. price_usd_evo: $370.96 USD [35]
+107. price_usd_evo: $529.95 USD [35]
+108. Price at Burton Canada: $649.99 CAD [36]
+109. Price at SnowCountry (EU): €412.46 [35]
+110. Sale price at The Source Snowboard & Skate: $462.00 USD [37]
+111. Price at Montaz (EU): €539.89 [38]
+112. SKU: 22942102000-144 (size-specific; varies by size) [MV]
+113. availability_status: Available — Winter 2026 [1]
+114. availability_status: Available (some sizes on clearance) [35]
+115. availability_status: Available as Burton Cartographer Snowboard - 2026 [33]
+116. availability_status: Listed (2024/2025 model; 2026 model availability may vary) [39]
+117. availability_status: Available — 2026 Winter [8]
+118. availability_status: 154 backordered as of retrieval [40]
+119. availability_status: Listed as closeout item [41]
+120. availability_status: Sale, most sizes sold out [37]
+121. availability_status: Available [16]
+122. availability_status: Available [42]
+123. availability_status: Available [43]
+124. availability_status: Available [44]
+125. availability_status: Available [9]
+126. availability_status: Available [35]
+127. availability_status: Available in 154, 159, 162 [38]
+128. availability_status: Available [23]
+129. availability_status: Available [45]
+130. availability_status: Available [46]
+131. availability_status: Sold out; 20% discount; Australia only shipping [MV]
+132. Burton.com: Official manufacturer direct store; highest reliability for product authenticity [1]
+133. evo.com: Major specialty outdoor retailer; well-established, price match policy (beats by 5%); up to 1-year return policy [47]
+134. REI: Major outdoor co-op retailer; highly reputable; historically carries Burton boards [39]
+135. Backcountry.com: Major US outdoor retailer; good selection of snowboard gear [33]
+136. Peter Glenn: Established US ski & sports retailer [8]
+137. Focus Boardshop: Rider-owned and operated independent shop [40]
+138. Erik's Bike Board & Ski: Regional chain (Midwest US); offers price matching within 10 days [41]
+139. graphic_designer_artist: Vermont artist Julio Desmont [48]
+140. topsheet_appearance_description: Ranges from Picasso to O'Keeffe; mix of deep lines and abstract imagery [48]
+141. carving_rating_tgr: Great [6]
+142. jumps_rating_tgr: Great [6]
+143. reviewer_opinion_the_good_ride: Great [6]
+144. powder_rating_tgr: Good [6]
+145. speed_rating_tgr: Good [6]
+146. base_glide_performance: Good [6]
+147. switch_riding: Good [6]
+148. jibbing_rating_tgr: Average [6]
+149. pipe_rating_tgr: Good [6]
+150. on_snow_feel_tgr: Semi-Locked In [6]
+151. turn_initiation_performance: Medium/Fast [6]
+152. reviewer_opinion_the_good_ride: Moderate [6]
+153. flex_feel: Medium [6]
+154. reviewer_opinion_the_good_ride: Moderate [6]
+155. edge_hold: Medium Snow [6]
+156. reviewer_opinion_the_good_ride: "Feels Normal" — right in the middle for its size [6]
+157. stance_width_range_size: Setback over 20mm [6]
+158. positive_aspect: Great pop, fun turning experience, rides switch well for this shape, very versatile one-board quiver in good conditions [6]
+159. negative_aspect: Edge hold behind some peers [6]
+160. reviewer_opinion_the_good_ride: "A really fun tapered directional do-anything daily driver to turn and get air with" [6]
+161. negative_aspect: "I just find the Burton Cartographer to let go a little too easily in harder snow" [49]
+162. negative_aspect: "Didn't have the best edge hold. It felt a little washy in deeper carves. Not ideal for harder snow." [26]
+163. reviewer_opinion_the_good_ride: Turns quickly for its waist width; the spring out of the turn has good pop; can spring well out of a hard carve in good conditions [49]
+164. reviewer_opinion_the_good_ride: "Poppy but still damp so that it can handle all kinds of uneven snow incredibly well" [50]
+165. reviewer_opinion_the_good_ride: "Pretty damp, and while not a board you get if you straight-line everything, it can definitely hang on the occasional straight line" [50]
+166. pop: "Good pop on an ollie. A little hard to engage but rewards you well." [26]
+167. reviewer_opinion_the_good_ride: "This board felt stable and was enjoyable at high speeds" [26]
+168. reviewer_opinion_the_good_ride: "Damp and shock absorbent and comfortably maintained speed" transferring from hard pack to off-piste [51]
+169. switch_riding: Rides switch well for a directional board due to Balanced Freeride Geometry [6]
+170. Curated overall impression (Arielle): "A do-it-all board with power behind its directional camber and a very playful flex" [18]
+171. Curated overall impression (Yuri): "A very fun snowboard... a party board option" [18]
+172. Curated who should avoid: "Definitely not a park option for those types of riders" [52]
+173. comparable_board_same_brand: Less stiff, considered a positive for playful riding [18]
+174. user_review_forum: "A good board for someone who can turn and wants to move away from rental or beginner boards" [53]
+175. user_review_forum: Setup with Cartel bindings felt significantly lighter than rental boards [53]
+176. user_review_forum: Transitioning from flat/rocker to Cartographer's directional camber was easy; turns initiated easily [53]
+177. user_review_forum: Cartographer recommended as a better bet than Skeleton Key or Hometown Hero for intermediate progression [54]
+178. Factory wax note: Burton boards are factory waxed; experienced users recommend additional wax before first use [55]
+179. comparable_board_cross_brand: Jones Frontier — "more of a quiver-of-one board" with 6/10 flex, directional; comparison notes both boards similar terrain focus [56]
+180. comparable_board_same_brand: Burton Flight Attendant — stiffer, more aggressive freeride board within Burton's own lineup; more taper (10mm) [57]
+181. comparable_board_cross_brand: Ride Algorythm — similar all-mountain tapered directional [6]
+182. comparable_board_cross_brand: Salomon Highpath — similar category [6]
+183. comparable_board_cross_brand: Yes Typo — similar tapered directional all-mountain [6]
+184. comparable_board_cross_brand: Korua Otto — similar directional shape [6]
+185. comparable_board_cross_brand: K2 Manifest — similar directional all-mountain [6]
+186. comparable_board_cross_brand: Nitro Alternator — similar category [6]
+187. comparable_board_cross_brand: Cardiff Crane / Cardiff Lynx [6]
+188. comparable_board_cross_brand: Jones Rally Cat [6]
+189. Design continuity: "Other than a slightly improved base, the Burton Cartographer has remained unchanged since 2022" (as of 2025 update) [58]
+190. Seasons in the Burton line (as of 2025 article): "Now in its third season in the Burton line" [59]
+191. Splitboard variant: No [6]
+192. construction_material_innovation: None standard (Triax glass only; no carbon stringers — distinguishes from higher-end Burton boards that have Carbon-45 or I-Beam) [57]
+193. Board width description for narrows: Burton boards in this range can run slightly narrow; riders with US 10+ boots should consider Wide version [60]
+194. mounting_pattern: Included with board — required to mount bindings [24]
+195. stance_width_range_size: With 22" reference stance, can get 2" back from center of board and 3.5" set all the way back at 23" wide [6]
+[MV] = Merchant Verified Fact (from the supplied merchant listing)
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+    <url>https://www.burton.com/us/en/p/burton-cartographer-camber-snowboard/W26-229421.html</url>
+    <quote>Burton Cartographer Camber Snowboard | Burton.com Winter 2026 US</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-cartographer-camber-snowboard/W26-229421.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer product page for the 2026 Cartographer. This is the authoritative primary source for product existence and season designation.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+    <url>https://snowboardingprofiles.com/2022-burton-snowboards-overview</url>
+    <quote>Burton Cartographer - New camber dominant directional freeride board</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/2022-burton-snowboards-overview#:~:text=Burton%20Cartographer%20-%20New%20camber%20dominant%20directional%20freeride%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2023-12</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles 2022 lineup overview confirms the Cartographer was new for the 2022 season, establishing first year of availability.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+    <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+    <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+    <quote>The company, whose flagship store is in Burlington, Vermont</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards#:~:text=Burton%20Snowboards%20is%20a%20privately%20owned</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Wikipedia article on Burton Snowboards provides background on the manufacturer's history, headquarters, and ownership.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+    <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+    <quote>Burton still run their prototyping facility in Vermont, but production takes place mostly in China and Austria.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands#:~:text=Burton%20still%20run%20their%20prototyping%20facility</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Detailed article on snowboard manufacturing locations. Confirms Burton's production split between China, Austria, and Vermont prototyping.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+    <url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+    <quote>Burton primarily manufactures its snowboards in China, but it also has production facilities in Austria and Vermont, USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/#:~:text=Burton%20primarily%20manufactures%20its%20snowboards%20in%20China</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2024-03</date_of_last_relevance>
+  <reasoning>Corroborates manufacturing location information from another independent snowboard journalism source.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>The Burton Cartographer doesn't have the best edge hold, but it is a really fun tapered directional do-anything daily driver</quote>
+    <quote>Manufactured in: China</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=The%20Burton%20Cartographer%20doesn%E2%80%99t%20have%20the%20best%20edge%20hold</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is a highly respected independent snowboard review site. The reviewer tested 800+ boards and provides detailed performance ratings. The review was updated for 2025 and covers 2022-2025 models.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+    <url>https://www.theskibum.com/2025-burton-cartographer-mens-snowboard-22942102.html</url>
+    <quote>Terrain: All Mountain/Freeride · Flex Rating: Medium · Waist Width: Regular · Shape: Freeride Directional</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theskibum.com/2025-burton-cartographer-mens-snowboard-22942102.html#:~:text=Terrain%3A%20All%20Mountain%2FFreeride</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Ski Bum retailer listing with summary specs confirming terrain and shape category.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+    <url>https://peterglenn.com/burton-cartographer-snowboard-adults-2026-winter/</url>
+    <quote>The Burton Cartographer is a unisex snowboard designed for powder and all-mountain riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-cartographer-snowboard-adults-2026-winter/#:~:text=The%20Burton%20Cartographer%20is%20a%20unisex%20snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Peter Glenn retailer listing confirming unisex designation and terrain focus for the 2026 model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+    <url>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html</url>
+    <quote>Core · FSC™ Certified Super Fly® 800G Core with Dualzone™ EGD™ · Fiberglass · Triax™ · Base · Sintered</quote>
+    <quote>Riding Level · Intermediate</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html#:~:text=Core%20%C2%B7%20FSC%E2%84%A2%20Certified%20Super%20Fly</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>TusTablas EU retailer reproducing the full Burton spec sheet for 2026 Cartographer including official riding level, core, fiberglass, and base specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+    <url>https://www.focusmadison.com/products/burton-catographer-snowboard-2023</url>
+    <quote>The Burton Cartographer Snowboard blends big-mountain stability and all-mountain maneuverability</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/burton-catographer-snowboard-2023#:~:text=The%20Burton%20Cartographer%20Snowboard%20blends</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Focus Boardshop listing reproducing Burton's official product description for 2026.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>Intermediate-Advanced Whether you're a progressing intermediate exploring new runs and terrain</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=Intermediate-Advanced</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com classifies the Cartographer as Intermediate-Advanced, which differs from Burton's official "Intermediate" rating. Evo is a reputable specialty retailer.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>It's suitable for advanced to expert riders, but a committed intermediate willing to take some lumps can give this a go.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=It%E2%80%99s%20suitable%20for%20advanced%20to%20expert%20riders</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride reviewer classifies the board as Advanced-Expert, significantly higher than Burton's official Intermediate rating. This is important for purchaser expectations.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>Directional Camber – Entry rocker causes the nose to lift while camber under both feet maintains momentum</quote>
+    <quote>Directional Flex – This flex features increased pop in the tail and a more resilient nose</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=Directional%20Camber%20%E2%80%93%20Entry%20rocker</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com product description reproducing official Burton technology descriptions for camber and flex profiles.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/burton-cartographer-2026-unisex</url>
+    <quote>Directional Camber – A blend of rocker and camber in the nose combines float and control while camber under the back foot drives with power</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-cartographer-2026-unisex#:~:text=Directional%20Camber%20%E2%80%93%20A%20blend%20of%20rocker</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides expanded camber profile description from the Burton product data.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+    <url>https://peterglenn.com/burton-cartographer-snowboard-adults-2026-winter/</url>
+    <quote>Plus, the 15mm taper in the nose helps it float in powder and bash through crud.</quote>
+  </quotelist>
+  <url_with_text_link>https://peterglenn.com/burton-cartographer-snowboard-adults-2026-winter/#:~:text=15mm%20taper%20in%20the%20nose</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Peter Glenn claims 15mm taper which contradicts the official 5mm spec. Likely a retailer error or confusion between nose extension and taper measurement. Low credibility for this specific claim.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/burton-cartographer-2026-unisex</url>
+    <quote>FLEX 4-7/10 Personality - Medium-Aggressive</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-cartographer-2026-unisex#:~:text=FLEX%204-7%2F10%20Personality%20-%20Medium-Aggressive</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides a flex range of 4-7/10 and "Medium-Aggressive" personality label. This is more specific than the merchant's 5.5/10 and adds context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>It is medium-stiff between the feet, medium in the nose, and medium-stiff in the tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=medium-stiff%20between%20the%20feet</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Detailed flex breakdown by zone from The Good Ride review — gives prospective buyers much more info than a single number.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+    <url>https://www.curated.com/journal/1159001/expert-review-2023-burton-cartographer</url>
+    <quote>This board is kind of a do-it-all board, but it has the power behind its directional camber, and it is a very playful flex.</quote>
+    <quote>It is definitely less stiff than the Burton Flight Attendant</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/1159001/expert-review-2023-burton-cartographer#:~:text=This%20board%20is%20kind%20of%20a%20do-it-all%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-09</date_of_last_relevance>
+  <reasoning>Curated expert review by unbiased snowboard experts Arielle Busch and Yuri Czmola tested at Powder Mountain, Utah. Provides comparison to Flight Attendant.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/burton-cartographer-2026-unisex</url>
+    <quote>FSC™ Certified Super Fly 800G – Lightened up and loaded with pop, Burton's dual-species wood core utilizes dual-density vertical laminations</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-cartographer-2026-unisex#:~:text=FSC%E2%84%A2%20Certified%20Super%20Fly%20800G</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Detailed core construction description from Blauer Board Shop, reproducing official Burton technology information.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/burton-cartographer-2026-unisex</url>
+    <quote>Dualzone™ EGD™ – The wood grain is positioned along the toe and heel edges on two continuous zones, perpendicular to the rest of the wood core</quote>
+    <quote>Squeezebox - Burton's most versatile Squeezebox profile improves pop and performance</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-cartographer-2026-unisex#:~:text=Dualzone%E2%84%A2%20EGD%E2%84%A2</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Core technology details from retailer listing, reproducing official Burton tech descriptions.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+    <url>https://www.sourceboards.com/en-us/products/burton-cartographer-snowboard-2025</url>
+    <quote>Mystery Glass - This construction features a custom blend of fiberglass and carbon fiber specifically designed to optimize strength-to-weight</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-cartographer-snowboard-2025#:~:text=Mystery%20Glass%20-%20This%20construction%20features</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Source lists "Mystery Glass" for the Cartographer, which contradicts all other sources listing Triax. Likely an error — Mystery Glass is a different, higher-end Burton technology. Low credibility for this claim.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+    <url>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html</url>
+    <quote>Top Glass +/- 45° & 0° Stitched... Bottom Glass 0° & +/- 45° Stitched</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html#:~:text=Top%20Glass%20%2B%2F-%2045</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>TusTablas provides the laminate layup orientation detail for Triax fiberglass configuration.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-cartographer</url>
+    <quote>Standing for Wide F!#@ing Open, this base made from an extra absorbent, high density sintered material that is infused with a specially formulated wax</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-cartographer#:~:text=Standing%20for%20Wide%20F</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre provides the expanded WFO base description used in the merchant data.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>Sintered Base – Durable and highly porous, get added durability and superior wax absorption for greater overall glide.</quote>
+    <quote>Channel Inserts Included – Channel Inserts are required to mount your bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=Sintered%20Base%20%E2%80%93%20Durable%20and%20highly%20porous</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com product specs confirming sintered base properties and Channel insert inclusion.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>The 2025 feels much better, and while not super fast, it's good enough for this price point.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=The%202025%20feels%20much%20better</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride notes the base improvement in 2025 model and gives honest assessment of base glide performance.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-womens-snowboard-review-by-jordan/</url>
+    <quote>The Burton Women's Cartographer didn't have the best edge hold. It felt a little washy in deeper carves.</quote>
+    <quote>The cartographer has good pop on an ollie. A little hard to engage but rewards you well.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-womens-snowboard-review-by-jordan/#:~:text=The%20Burton%20Women%E2%80%99s%20Cartographer%20didn%E2%80%99t%20have%20the%20best%20edge%20hold</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride women's review provides independent performance assessment and corroborates the edge hold weakness identified in the main review.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=Super%20Sap%C2%AE%20Epoxy</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com confirming the Super Sap sustainability resin technology.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>The Channel® Mounting System – Stronger, faster, easier, and more adjustable -- The Channel™ gives you ultimate control... compatible with all major bindings (not just Burton's).</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=The%20Channel%C2%AE%20Mounting%20System</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official technology description of The Channel mounting system and its compatibility.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/burton-cartographer-2026-unisex</url>
+    <quote>Infinite Ride™ – This Burton-exclusive technology allows maximized pop and strength by overbuilding the board, then putting it in a machine that breaks in the board for you.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-cartographer-2026-unisex#:~:text=Infinite%20Ride%E2%84%A2</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Infinite Ride technology description from retailer listing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-cartographer</url>
+    <quote>The tip and tail of this board taper out at the points, reducing swing weight and promoting mobility.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-cartographer#:~:text=The%20tip%20and%20tail%20of%20this%20board%20taper%20out</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre describing Pro-Tip technology.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-cartographer</url>
+    <quote>A setback camber and stance-centred sidecut makes this board feel like a twin when riding flat based</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-cartographer#:~:text=A%20setback%20camber%20and%20stance-centred%20sidecut</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre describing Balanced Freeride Geometry and its effect on ride feel.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+    <url>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html</url>
+    <quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system... are backed by a three-year warranty from date of purchase.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tustablas.com/en/snowboard/men/boards-burton-cartographer-camber-2026-p-13040.html#:~:text=3-YEAR%20WARRANTY</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Warranty information reproduced from Burton's official product data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+    <url>https://www.backcountry.com/burton-cartographer-snowboard-2023</url>
+    <quote>[144cm] 1062mm, [149cm] 1092mm, [154cm, 154cm wide] 1142mm, [159cm, 159cm wide] 1192mm, [162cm] 1222mm</quote>
+  </quotelist>
+  <url_with_text_link>https://www.backcountry.com/burton-cartographer-snowboard-2023#:~:text=%5B144cm%5D%201062mm</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Backcountry.com listing with effective edge measurements for all sizes, confirming the merchant data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>149: 8-9 154: 8.5-9.5 159: 9.5-10.5 162: 10-11 154w: 10-11 159w: 11-12</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=149%3A%208-9</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Boot size recommendations from an experienced reviewer who has tested 800+ boards. Practical sizing guidance for purchasers.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>$529.95 Buy it Now Buy Burton Cartographer from Burton US</quote>
+    <quote>$370.96 Buy it Now Buy Burton Cartographer from evo</quote>
+    <quote>€412.46 Buy it Now Buy Burton Cartographer from SnowCountry</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=%24529.95%20Buy%20it%20Now</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Good Ride price comparison aggregation showing current prices from multiple retailers. Prices are subject to change.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>$649.99 Buy it Now Buy Burton Cartographer from Burton Snowboards Canada</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=%24649.99%20Buy%20it%20Now%20Buy%20Burton%20Cartographer%20from%20Burton%20Snowboards%20Canada</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Canadian retail price from The Good Ride price comparison.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+    <url>https://www.sourceboards.com/en-us/products/burton-cartographer-snowboard-2025</url>
+    <quote>Sale price $462.00 USD</quote>
+    <quote>Only 1 Left in Stock!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-cartographer-snowboard-2025#:~:text=Sale%20price%20%24462.00%20USD</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Source Snowboard & Skate sale price and low stock status.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+    <url>https://www.montaz.com/en/burton-cartographer-p249216.html</url>
+    <quote>539,89 € · Size · 154 · 159 · 162</quote>
+  </quotelist>
+  <url_with_text_link>https://www.montaz.com/en/burton-cartographer-p249216.html#:~:text=539%2C89</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Montaz France pricing and size availability.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+    <url>https://www.rei.com/product/240876/burton-cartographer-camber-snowboard-20242025</url>
+    <quote>All 2014 and newer Burton snowboards with The Channel mounting system are backed by a 3-year warranty from the manufacturer</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/240876/burton-cartographer-camber-snowboard-20242025#:~:text=All%202014%20and%20newer%20Burton%20snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>REI listing for the 2024/2025 model confirming warranty and retailer availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+    <url>https://www.focusmadison.com/products/burton-catographer-snowboard-2023</url>
+    <quote>Burton Cartographer Camber Snowboard 2026 - 154 is backordered and will ship as soon as it is back in stock.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/burton-catographer-snowboard-2023#:~:text=Burton%20Cartographer%20Camber%20Snowboard%202026%20-%20154%20is%20backordered</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Focus Boardshop listing showing 154 backordered status. Notes rider-owned independent shop.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+    <url>https://www.eriksbikeshop.com/products/burton-cartographer-snowboard-2026-pr5a22053</url>
+    <quote>CLOSEOUT ITEM!! (May not be available at all locations, while supplies last)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/burton-cartographer-snowboard-2026-pr5a22053#:~:text=CLOSEOUT%20ITEM</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Erik's listing the board as a closeout item, suggesting end-of-season discounting.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+    <url>https://www.corbetts.com/burton-cartographer-snowboard-2026/</url>
+    <quote>Shop the Burton Cartographer Snowboard 2026. Corbetts.com offers you the best selection of mens snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-cartographer-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Corbetts retailer availability confirmation.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+    <url>https://www.the-house.com/1146822.html</url>
+    <quote>Burton Cartographer Camber Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1146822.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The House retailer availability confirmation.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+    <url>https://www.theskibum.com/2025-burton-cartographer-mens-snowboard-22942102.html</url>
+    <quote>2026 Burton Cartographer Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theskibum.com/2025-burton-cartographer-mens-snowboard-22942102.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Ski Bum retailer availability confirmation.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+    <url>https://comorsports.com/products/burton-cartographer-snowboard-2025</url>
+    <quote>Built with an FSC™ Certified Super Fly® 800G Core, Triax™ fiberglass, and a sintered base</quote>
+  </quotelist>
+  <url_with_text_link>https://comorsports.com/products/burton-cartographer-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Comor Sports Canadian retailer listing confirming Triax fiberglass (corroborating against the Source's Mystery Glass claim).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+    <url>https://www.pathfinderwv.com/burton-cartographer-camber-snowboard-2026.html</url>
+    <quote>The Burton Cartographer Snowboard blends big-mountain stability and all-mountain maneuverability</quote>
+  </quotelist>
+  <url_with_text_link>https://www.pathfinderwv.com/burton-cartographer-camber-snowboard-2026.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Pathfinder of WV retailer listing confirming availability.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/burton-cartographer-snowboard</url>
+    <quote>Find a better price? We'll beat it by 5%. See our Price Match Policy.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-cartographer-snowboard#:~:text=Find%20a%20better%20price</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com price match policy noted — relevant to seller reputation and purchasing decision.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+    <url>https://www.focusmadison.com/products/burton-catographer-snowboard-2023</url>
+    <quote>With inspiration ranging from Picasso to O'Keeffe, Vermont artist Julio Desmont brings a mix of deep lines and abstract imagery</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/burton-catographer-snowboard-2023#:~:text=inspiration%20ranging%20from%20Picasso%20to%20O%E2%80%99Keeffe</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Graphic artist and design inspiration details from Focus Boardshop (reproducing Burton's product data).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>I just find the Burton Cartographer to let go a little too easily in harder snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=I%20just%20find%20the%20Burton%20Cartographer%20to%20let%20go</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Direct quote about edge hold weakness from The Good Ride — a primary negative identified by the reviewer.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>Burton has an evolved flex personality that is poppy but still damp so that it can handle all kinds of uneven snow incredibly well.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=poppy%20but%20still%20damp</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Assessment of damping and uneven snow performance from The Good Ride.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-womens-snowboard-review-by-jordan/</url>
+    <quote>I was pleasantly surprised by this board's ability to transfer from hard pack groom to softer bumpy off-piste conditions.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-womens-snowboard-review-by-jordan/#:~:text=pleasantly%20surprised%20by%20this%20board%E2%80%99s%20ability</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Positive assessment of condition-transition capability from The Good Ride women's review.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="52">
+  <quotelist>
+    <url>https://www.curated.com/journal/1159001/expert-review-2023-burton-cartographer</url>
+    <quote>This is definitely not a park option for those types of riders, but that's not what Burton has designed it for.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/1159001/expert-review-2023-burton-cartographer#:~:text=This%20is%20definitely%20not%20a%20park%20option</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-09</date_of_last_relevance>
+  <reasoning>Curated expert review identifies park riders as those who should avoid this board.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/burton-cartographer.276103/</url>
+    <quote>I would say this is a good board for someone who can turn and wants to move away from rental or beginner boards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-cartographer.276103/#:~:text=good%20board%20for%20someone%20who%20can%20turn</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-11</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Forum user review from SnowboardingForum.com — real-world user experience from a self-described intermediate rider.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/burton-cartographer.276103/</url>
+    <quote>The Cartographer looks a better bet to me than the SK or the HH for that reason.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-cartographer.276103/#:~:text=The%20Cartographer%20looks%20a%20better%20bet</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-09</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Forum user recommending the Cartographer over Burton Skeleton Key and Hometown Hero for intermediate progression. Valuable for comparison context.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/burton-cartographer.276103/</url>
+    <quote>Burton boards are "factory waxed", but me and my mates would all wax them before first use.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-cartographer.276103/#:~:text=Burton%20boards%20are%20%22factory%20waxed%22</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-09</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Practical user advice about factory wax on Burton boards from experienced forum member.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+    <url>https://www.curated.com/journal/3691173/expert-comparison-jones-frontier-snowboard-2024-vs-burton-cartographer-snowboard-2024</url>
+    <quote>The Jones Frontier is more of a quiver-of-one board, while the Burton Cartographer is more of a playful, all-mountain board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/3691173/expert-comparison-jones-frontier-snowboard-2024-vs-burton-cartographer-snowboard-2024#:~:text=The%20Jones%20Frontier%20is%20more%20of%20a%20quiver-of-one</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-02</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Curated expert head-to-head comparison between Jones Frontier and Burton Cartographer — directly relevant competitive comparison.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="57">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/help-with-burton-board-choice.281893/page-2</url>
+    <quote>The cartographer doesn't have it, but it's a cheaper/heavier 800g core and still has the triax glass (but still an overall softer flex).</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/help-with-burton-board-choice.281893/page-2#:~:text=The%20cartographer%20doesn%E2%80%99t%20have%20it</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-01</date_of_last_relevance>
+  <reasoning>Forum discussion comparing Cartographer construction to higher-end Burton boards — confirms no carbon reinforcement and Triax glass.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="58">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/</url>
+    <quote>Update 2025: Other than a slightly improved base, the Burton Cartographer has remained unchanged since 2022</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-cartographer-snowboard-review/#:~:text=Other%20than%20a%20slightly%20improved%20base</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Key information that the board design has remained stable since launch — relevant to understanding that reviews from 2022 onwards are still applicable to the 2026 model.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="59">
+  <quotelist>
+    <url>https://snowboards.eu/burton-cartographer-2025/</url>
+    <quote>The Burton Cartographer Snowboard, now in its third season in the Burton line</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/burton-cartographer-2025/#:~:text=now%20in%20its%20third%20season</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>snowboards.eu article from the 2025 season confirming this was the board's third season (2022, 2023, 2024=third), consistent with 2022 launch.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="60">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/help-with-burton-board-choice.281893/</url>
+    <quote>Many of the Burton boards that interest me are built a bit on the narrow side.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/help-with-burton-board-choice.281893/#:~:text=Many%20of%20the%20Burton%20boards%20that%20interest%20me%20are%20built%20a%20bit%20on%20the%20narrow%20side</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-01</date_of_last_relevance>
+  <reasoning>Forum user noting Burton boards including Cartographer run narrow, requiring upsizing or wide version for larger boot sizes.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+</citations>
+</response>

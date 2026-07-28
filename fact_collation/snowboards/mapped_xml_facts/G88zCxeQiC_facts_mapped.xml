@@ -1,0 +1,816 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="sustainability_certification" count="10" category="sustainability" />
+  <duplicate_canonical name="negative_aspect" count="10" category="review" />
+  <duplicate_canonical name="availability_status" count="9" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="9" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="7" category="comparable" />
+  <duplicate_canonical name="core_material" count="6" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="price_usd_evo" count="3" category="pricing" />
+  <duplicate_canonical name="flex_rating_10" count="3" category="performance" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="model_first_available_year" count="2" category="identity" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="2" category="performance" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="weight_per_cm" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="chatter_performance" count="2" category="performance" />
+  <duplicate_canonical name="overall_rating_snowboardingprofiles" count="2" category="review" />
+  <duplicate_canonical name="return_policy_terms" count="2" category="warranty" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+</canonical_schema>
+
+<answer>
+1. brand: GNU (GNU Snowboards) [1]
+2. model_name: C Money [1]
+3. model_year: 2025 (marketed as 2025-2026 season) [1]
+4. product_type: Snowboard [1]
+5. board_category: Freestyle / Park [1]
+6. comparable_board_same_brand: GNU Money (C2E camber version) — same shape, different camber profile [4]
+7. graphic_designer_artist: Jay Howell (@punksgitcut) [2]
+8. manufacturer: Mervin Manufacturing [3]
+9. Parent company: Altamont Capital (purchased from Quiksilver in 2013) [5]
+10. manufacturing_location: Carlsborg/Sequim, Washington, USA [3][6]
+11. Manufacturing method: Handbuilt in the USA [7]
+12. Manufacturer founding year: 1977 (founded by Mike Olson and Pete Saari) [3]
+13. sustainability_certification: Zero hazardous waste production [3]
+14. sustainability_certification: Water-based solvents used, FSC-certified woods, hydroelectric powered [8][9]
+15. GNU brand established: 1977 [10]
+16. GNU sister brands (under Mervin): Lib Tech, Roxy, Bent Metal Binding Works [6]
+17. model_first_available_year: 2017-2018 season (Money shape with Jay Howell art) [11]
+18. model_first_available_year: 2024-2025 season [12]
+19. Current model release: 2025-2026 (continuing model) [1]
+20. price_usd_msrp: $449.99 [1]
+21. price_usd_evo: $314.99 [13]
+22. price_usd_evo: $314.99 [13]
+23. price_usd_evo: $269.99 [14]
+24. price_usd_tactics: $449.99 [15]
+25. price_usd_msrp: MSRP $449.99 [1]
+26. Price at gnu.com (30% off sale noted on some dates): varies [16]
+27. price_aud_merchant: $524.99 AUD (RRP $749.99 AUD, 30% discount) [MERCHANT]
+28. price_eur_blue_tomato: €459.99 (for Money); C Money pricing similar [17]
+29. Price comparison: Costs significantly less than average snowboard price of $468.01 [18]
+30. availability_status: In stock (2025 and 2026 models) [13]
+31. availability_status: In stock (2026 model) [15]
+32. availability_status: In stock (2025 model) [19]
+33. availability_status: Available [20]
+34. availability_status: Available (2025 model) [21]
+35. availability_status: Available [22]
+36. availability_status: Multiple sizes sold out (2026) [23]
+37. availability_status: Available [24]
+38. availability_status: Available (2026 model) [25]
+39. shape: True Twin (same tip to tail, performs equally in switch and regular) [1][MERCHANT]
+40. camber_type: C3 Camber (aggressive dominant camber zones out to contacts with mild rocker between feet) [1]
+41. flex_rating_10_manufacturer: 5.5–6/10 depending on size (144cm = 5.5, all others = 6) [1]
+42. flex_rating_10: 5/10 [MERCHANT] — DISAGREEMENT: The manufacturer's 2025-2026 spec table shows flex of 6/10 for most sizes, while the merchant lists 5/10. This may reflect a model-year change or different measurement methods.
+43. flex_feel: Mid-Soft 3.5/10 [26]
+44. flex_rating_10_evo: Medium [27]
+45. flex_feel: Medium-firm [20]
+46. available_sizes: 144cm, 148cm, 150W, 152cm, 154cm, 154W, 156cm, 158W, 159cm [1]
+47. available_sizes: 152cm, 154cm, 156cm, 159cm, 150cm Wide, 154cm Wide, 158cm Wide [MERCHANT]
+48. mounting_pattern: 2x4 inserts [1][28]
+49. setback: 0 (all sizes, centered stance) [1][MERCHANT]
+50. stance_width_range_size: 20.25"–25.0" [1]
+51. stance_width_range_size: 19"–24" [1]
+52. Contact length 144cm: 1100mm; sidecut: 7.9m; nose/tail width: 279mm; waist: 242mm; rec weight: 90+lbs/35+kg [1]
+53. Contact length 148cm: 1130mm; sidecut: 8.0m; nose/tail width: 286mm; waist: 247mm; rec weight: 100+lbs/35+kg [1]
+54. Contact length 150W: 1130mm; sidecut: 8.0m; nose/tail width: 299mm; waist: 260mm; rec weight: 100+lbs/45+kg [1]
+55. Contact length 152cm: 1150mm; sidecut: 8.1m; nose/tail width: 293mm; waist: 253mm; rec weight: 110+lbs/40+kg [1]
+56. Contact length 154cm: 1160mm; sidecut: 8.1m; nose/tail width: 295mm; waist: 254mm; rec weight: 110+lbs/45+kg [1]
+57. Contact length 154W: 1160mm; sidecut: 8.1m; nose/tail width: 303mm; waist: 262mm; rec weight: 110+lbs/45+kg [1]
+58. Contact length 156cm: 1170mm; sidecut: 8.2m; nose/tail width: 296mm; waist: 255mm; rec weight: 110+lbs/45+kg [1]
+59. Contact length 158W: 1190mm; sidecut: 8.2m; nose/tail width: 309mm; waist: 266mm; rec weight: 110+lbs/55+kg [1]
+60. Contact length 159cm: 1190mm; sidecut: 8.2m; nose/tail width: 298mm; waist: 256mm; rec weight: 120+lbs/60+kg [1]
+61. core_material: G Lite 1 — FSC-certified Aspen and Paulownia wood blend [1][29]
+62. core_material: "G1 Eco Core | Aspen / Paulownia I" [19]
+63. core_material: "G Lite 1 FCS Certified Aspen + Paulownia Core" [21]
+64. core_material: Manufacturer page says "Aspen and Paulownia"; evo 2025 page says "Poplar and Paulownia" [1][13] — DISAGREEMENT: Some retailers list "Poplar" where the manufacturer says "Aspen." Poplar and Aspen are related wood species and may be used interchangeably in marketing.
+65. sustainability_certification: FSC Certified [29][21]
+66. laminate: Tri-Ax / Bi-Ax glass [19][30]
+67. base_material: Eco-Sublimated Co-Ex (co-extruded) [1]
+68. base_type: Knife Cut Co-Ex Base [19]
+69. Base description: Fast, tough, holds wax / easy to maintain [1][19]
+70. available_colors: Random colorways [MERCHANT][24]
+71. topsheet: Eco Sublimated Poly Top [1][28]
+72. sidewall_material: UHMW (Ultra High Molecular Weight polyethylene) [19][MERCHANT]
+73. sidewall_material: UHMW exterior sidewalls; noted as super tough and environmentally friendly [19]
+74. UHMW sidewall impact resistance: Allows board to absorb impacts from rail contacts without denting core [31]
+75. edge_technology: Magne-Traction — 7 strategically located serrations along edges [1][MERCHANT]
+76. laminate: Triaxial and Biaxial Fiberglass with Rubber Dampening Inserts [32]
+77. camber_height_mm: 7mm [26]
+78. board_weight_grams: 2780g (6 lbs 2 oz) [26]
+79. weight_per_cm: 18.05 g/cm [26]
+80. weight_per_cm: Lighter than average (avg = 18.64 g/cm based on 300+ models weighed) [26]
+81. Reviewer impression of weight: "Felt a little lighter than normal" [26]
+82. rider_level: Intermediate to Advanced [27][22]
+83. skill_level_recommendation: Intermediate [20]
+84. gender: Men's [22]
+85. skill_level_recommendation: Park-focused freestyle riders who also want resort versatility [33]
+86. terrain_suitability: Freestyle, Park, also capable on groomers [1]
+87. terrain_suitability: Riders spending lots of time in park or doing ground tricks and side-hits [26]
+88. negative_aspect: Not super versatile for most riders [26]
+89. terrain_suitability: Park / Freestyle [1]
+90. riding_style: Freestyle — rails, jumps, jibs, switch riding [1]
+91. Park rating (Snowboarding Profiles): Jumps 4/5, Jibbing 4/5, Spins 4.5/5 [26]
+92. switch_riding: Easy transitions, felt good riding either direction [26]
+93. Buttering: Super easy to press nose and tail; risk of over-flexing [26]
+94. pop: Nice and easy to access pop, good but not endless [26]
+95. edge_hold: Strong, aided by Magne-Traction [31]
+96. carving_rating_tgr: Not great — reviewer surprised it wasn't better for slower speed carves [26]
+97. Speed stability: Gets shaky at speed; not for bombing [26]
+98. chatter_performance: Easily tossed around, feels lots of chatter [26]
+99. powder_score_snowboardingprofiles: Poor — would struggle in deep snow, true twin with no setback [26]
+100. chatter_performance: Chattery, not damp (approximately 3/10 on dampness scale) [26]
+101. overall_rating_snowboardingprofiles: 83.2/100 [26]
+102. overall_rating_snowboardingprofiles: 19th out of 28 freestyle boards tested [26]
+103. Average freestyle board score (SP comparison): 83.8/100 [26]
+104. Board of the World rating (GNU Money C2E): 82.255/100 or 4.46/5 stars [18]
+105. Board of the World ranking (Money): 36th out of 38 all-mountain boards [18]
+106. gnu.com customer rating: 100% (1 review) [1]
+107. Merchant customer rating: 5.0 out of 5 (1 review), 100% recommendation rate [MERCHANT]
+108. positive_aspect: Easy turn initiation and easy tail-release slashing [26]
+109. positive_aspect: Quick edge-to-edge transitions at slow speeds, above average agility [26]
+110. positive_aspect: Light swing weight, easy to spin [26]
+111. positive_aspect: Forgiving on skewed/off-axis landings [26]
+112. positive_aspect: Very good for jibbing — feels most at home hitting park features [26]
+113. positive_aspect: Excellent value for money — USA-made board at budget price point [18][31]
+114. positive_aspect: Magne-Traction gives exceptional edge hold for price range, great for East Coast icy conditions [31]
+115. positive_aspect: Durable UHMW sidewalls ideal for learning jib/rail tricks [31]
+116. positive_aspect: Eco-friendly construction appeals to sustainability-conscious buyers [8]
+117. negative_aspect: A little bit of catch in the tail [26]
+118. negative_aspect: Not stable at higher speeds — gets shaky [26]
+119. negative_aspect: Poor in crud/chunder — easily tossed around with lots of chatter [26]
+120. negative_aspect: Not great for carving, even at slow speeds [26]
+121. negative_aspect: Would sink in deep powder [26]
+122. negative_aspect: Risk of over-flexing nose/tail on bigger jump landings [26]
+123. negative_aspect: Not a one-board quiver for most riders [26]
+124. negative_aspect: Extruded base not the fastest [18]
+125. negative_aspect: Reviewer cautions weight recommendations are too liberal [26]
+126. warranty_period_years: 1 year from time of purchase [15]
+127. warranty: Structural defects only; does NOT cover impact damage, abuse, misuse, or normal wear [15]
+128. GNU customer service: orders@mervin.com [1]
+129. return_policy_terms: Up to 1 year returns [34]
+130. return_policy_terms: 90 days for unused items [20]
+131. comparable_board_same_brand: GNU Money (C2E camber, same shape) — $449.99 MSRP [4]
+132. comparable_board_same_brand: GNU FB Head Space C3 — $579.99 [35]
+133. comparable_board_same_brand: GNU Finest (Asym C2X) — $549.99 [35]
+134. comparable_board_cross_brand: Lib Tech Off Ramp — C3 camber, Magne-Traction, similar park focus [36]
+135. comparable_board_cross_brand: CAPiTA Defenders of Awesome (DOA) — hybrid camber twin, ~$580 [37]
+136. comparable_board_cross_brand: Bataleon Disaster+ — 3D spooned nose/tail, 4/10 flex [37]
+137. comparable_board_cross_brand: CAPiTA Super DOA — higher-end all-mountain twin [38]
+138. comparable_board_cross_brand: CAPiTA Dark Horse / Spring Break Stairmaster [35]
+139. comparable_board_cross_brand: Burton Good Company Camber [35]
+140. comparable_board_cross_brand: Ride Benchwarmer — full camber asym twin, $599.95, stiffer and damper [39]
+141. flex_rating_10_manufacturer: 6/10 [1]
+142. flex_rating_10: 5/10 [MERCHANT]
+143. flex_rating_10: 5/10 [25]
+144. flex_feel: 3.5/10 — significantly softer than ratings suggest [26] — DISAGREEMENT: There is notable disagreement between the stated flex rating (5-6/10) and on-snow feel (3.5/10 per reviewer). The reviewer noted it "feels like a park jib board" in stiffness rather than a medium-flex all-mountain stick.
+145. camber_description: C3 — "very mild rocker between feet with powerful camber to tip and tail" [1]
+146. camber_description: "Really looks and feels like full camber" — couldn't detect the mild rocker [26] — DISAGREEMENT: The spec says hybrid C3, but the reviewer found it rides closer to traditional full camber.
+147. core_material: Aspen + Paulownia [1][19][21]
+148. core_material: Poplar + Paulownia [13][22][29] — DISAGREEMENT: Aspen vs. Poplar. These are closely related species in the Populus genus and are sometimes used interchangeably in the wood industry, but the terminology differs between sources.
+149. sustainability_certification: Zero hazardous waste [3]
+150. sustainability_certification: 89.6% hydroelectric in Washington State [8]
+151. sustainability_certification: Renewable biodiesel [8]
+152. sustainability_certification: FSC (Forest Stewardship Council) certified [29]
+153. sustainability_certification: Fast-growing renewable forest products [9]
+154. sustainability_certification: Water-based solvents instead of petrochemical-based [9]
+155. sustainability_certification: Eco sublimation process [1]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.gnu.com/c-money</url>
+  <quote>A perfect cambered twin park preferring board that shreds the whole mountain.</quote>
+  <quote>$449.99 FREESTYLE / PARK / TWIN SHAPE</quote>
+  <quote>Rating: 100 % of 100 1 Review</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gnu.com/c-money#:~:text=A%20perfect%20cambered%20twin,PARK%20%2F%20TWIN%20SHAPE</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page — the primary authority for all specs, pricing, and product identity. The spec table with all sizes was extracted from this page via web_fetch. MSRP, shape, camber, and category are directly stated.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.gnu.com/c-money</url>
+  <quote>Art: JAY HOWELL @punksgitcut</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gnu.com/c-money#:~:text=Art%3A%20JAY%20HOWELL%20%40punksgitcut</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer page confirming the artist credit for the board's graphics. Jay Howell has done Money graphics for GNU since the model's inception.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.mervin.com/about/</url>
+  <quote>Mervin Manufacturing was founded by snowboarders Mike Olson and Pete Saari in 1977.</quote>
+  <quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/#:~:text=Mervin%20Manufacturing%20was%20founded,factory%20in%20the%20USA</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing about page — primary source for manufacturer identity, founding, and factory location. Directly supports claims about who makes GNU boards and where.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.gnu.com/money</url>
+  <quote>Featuring a snappy C2 rocker camber hybrid contour, sustainable fast growing wood core</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gnu.com/money#:~:text=Featuring%20a%20snappy%20C2%20rocker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official GNU Money (C2E) product page — confirms the Money is a related but distinct variant with C2 contour vs the C Money's C3 contour. Same shape, different camber.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url>
+  <quote>Mervin was purchased by Quiksilver in 1997 and later sold to Altamont Capital in 2013.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Mervin_Manufacturing#:~:text=Mervin%20was%20purchased%20by%20Quiksilver</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia page for Mervin Manufacturing confirms corporate ownership history. Reliable for historical corporate facts but subject to editing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.mervin.com/about/</url>
+  <quote>Based out of Carlsborg, Washington, between the rugged Olympic and Cascade Mountain Ranges</quote>
+  <quote>Mervin Manufacturing home of Lib Tech, GNU, Roxy and Bent Metal Binding Works</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/#:~:text=Based%20out%20of%20Carlsborg,Bent%20Metal%20Binding%20Works</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin about page confirms factory location and brand portfolio. Primary source for manufacturing location.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.tactics.com/gnu/c-money-c3-snowboard</url>
+  <quote>Handbuilt in the USA - Every Gnu snowboard is handmade by snowboarders with jobs in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/gnu/c-money-c3-snowboard#:~:text=Handbuilt%20in%20the%20USA</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a major authorized retailer. This claim about US handbuilding is consistent with manufacturer claims and widely verified.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>In Washington State our electricity is 89.6% hydro electric</quote>
+  <quote>our factory heating system runs on a renewable based biodiesel</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/#:~:text=89.6%25%20hydro%20electric</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Made sustainability page — primary source for environmental manufacturing claims. Marketing-oriented but factual claims about power sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.tactics.com/gnu/c-money-c3-snowboard</url>
+  <quote>Core materials are sources from fast-growing, renewable forest products. Water-based solvents used for cleansing instead of petrochemical-based solvents.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/gnu/c-money-c3-snowboard#:~:text=Core%20materials%20are%20sources</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics product page repeating Mervin's sustainability claims. Consistent across multiple authorized retailer listings.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.gnu.com/about-us</url>
+  <quote>GNU Snowboards have been handbuilt in the U.S.A. since 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gnu.com/about-us#:~:text=GNU%20Snowboards%20have%20been%20handbuilt</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official GNU about page confirming brand founding year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://vimeo.com/230862284</url>
+  <quote>Money Snowboard 2017-2018 | GNU</quote>
+  </quotelist>
+  <url_with_text_link>https://vimeo.com/230862284#:~:text=Money%20Snowboard%202017-2018</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2018</date_of_last_relevance>
+  <reasoning>Official GNU Vimeo video titled "Money Snowboard 2017-2018" confirms the Money shape debuted for the 2017-2018 season. The C Money (C3 variant) came later.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.youtube.com/watch?v=aflHqb0_PGI</url>
+  <quote>The 2025 Gnu C Money Snowboard Review</quote>
+  </quotelist>
+  <url_with_text_link>https://www.youtube.com/watch?v=aflHqb0_PGI#:~:text=The%202025%20Gnu%20C%20Money</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-01</date_of_last_relevance>
+  <reasoning>YouTube review published January 2025 confirms the C Money as a 2025 model, indicating its debut for the 2024-2025 season. The Money (C2E) was already established.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard-2025</url>
+  <quote>GNU C-Money C3 Snowboard 2025 $449.99 $314.99 Sale</quote>
+  <quote>A lightweight Poplar and Paulownia wood core and Mervin's trademark combination of Tri-Ax and Bi-Ax fiberglass</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard-2025#:~:text=%24449.99%20%24314.99%20Sale</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is a top-tier authorized retailer. Sale price of $314.99 on the 2025 model and product description are reliable for pricing and feature claims. Note evo uses "Poplar" where GNU uses "Aspen."</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard-2025</url>
+  <quote>GNU C-Money C3 Snowboard - Blem 2026 $449.99 $269.99 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard-2025#:~:text=Blem%202026%20%24449.99%20%24269.99</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blem (cosmetic defect) pricing from evo — shows the lowest available new-board price for budget-conscious buyers. Blems are fully functional.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.tactics.com/gnu/c-money-c3-snowboard</url>
+  <quote>1 Year Warranty - Covered under manufacturer warranty for 1 year from the time of purchase.</quote>
+  <quote>Warranty includes structural defects only and DOES NOT cover impact damage, abuse, misuse or normal wear and tear</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/gnu/c-money-c3-snowboard#:~:text=1%20Year%20Warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a major authorized retailer that clearly states warranty terms. Warranty is a key purchase consideration.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.gnu.com/c-money</url>
+  <quote>SHOP SALE - 30% Off 25/26 SNOWBOARDS &amp; APPAREL</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gnu.com/c-money#:~:text=SHOP%20SALE%20-%2030%25%20Off</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>GNU manufacturer direct sale — the 30% off was visible on some page loads but 20% on others, indicating the sale varies over time. Snapshot pricing.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://eur.gnu.com/fr/c-money</url>
+  <quote>Money · 459,99 €</quote>
+  </quotelist>
+  <url_with_text_link>https://eur.gnu.com/fr/c-money#:~:text=Money%20%C2%B7%20459%2C99</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official GNU European store pricing. Confirms EU availability and price point in euros.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/gnu-money-snowboard-review/</url>
+  <quote>The Gnu Money costs -$108.02 less than the average snowboard price of $468.01.</quote>
+  <quote>Our Rating: my rating for the GNU Money earned a 82.255 out of a possible 100</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/gnu-money-snowboard-review/#:~:text=The%20Gnu%20Money%20costs</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World review of the GNU Money (C2E variant) — provides price comparison data and quantitative review score. Note this reviews the Money (C2E), not the C Money (C3), but the price/value points apply to the entire Money family. Reviewer has 27 years experience riding East Coast.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/gnu-c-money-2025</url>
+  <quote>G1 Eco Core | Aspen / Paulownia I – Sustainably harvested, light, strong and poppy.</quote>
+  <quote>Tri-Ax / Bi-Ax – Fiberglass reinforcement for strength and pop.</quote>
+  <quote>UHMW – UHMW sidewalls are super tough and environmentally friendly.</quote>
+  <quote>Knife Cut Co-Ex Base – Fast, tough and easy to maintain</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/gnu-c-money-2025#:~:text=G1%20Eco%20Core</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop — authorized retailer listing with detailed construction specs. Uses "Aspen" matching the manufacturer terminology. Provides the most detailed materials breakdown of the 2025 model.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.the-house.com/1158864.html</url>
+  <quote>The medium-firm flex provides stable platform for quicker transitions</quote>
+  <quote>Designed for intermediate riders who want to practice &amp; show off their skills.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1158864.html#:~:text=medium-firm%20flex</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House is a major online retailer. Describes flex as "medium-firm" which differs from manufacturer's 5-6/10 rating and the reviewer's 3.5/10 on-snow feel. Shows the inconsistency in flex descriptions across sources.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://gorgeperformance.com/products/c-money</url>
+  <quote>G Lite 1 FCS Certified Aspen + Paulownia Core – Light, strong, and poppy.</quote>
+  </quotelist>
+  <url_with_text_link>https://gorgeperformance.com/products/c-money#:~:text=G%20Lite%201%20FCS%20Certified</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Gorge Performance — independent retailer listing confirming FSC certification and core wood species as Aspen + Paulownia.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://pacificboarder.com/products/gnu-mens-c-money-snowboard-2025</url>
+  <quote>The FSC Certified Poplar and Paulownia core enhances strength and responsiveness</quote>
+  <quote>Tri-Ax/Bi-Ax Glass with carbon power bands adds extra energy and durability.</quote>
+  </quotelist>
+  <url_with_text_link>https://pacificboarder.com/products/gnu-mens-c-money-snowboard-2025#:~:text=FSC%20Certified%20Poplar</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Pacific Boarder is a Vancouver retailer. Uses "Poplar" instead of "Aspen" for the core wood. Also mentions "carbon power bands" which is not mentioned by most other sources — may be specific to a different model or an error.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://skipro.com/products/c-money-56w</url>
+  <quote>152 Variant sold out or unavailable 154 Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/c-money-56w#:~:text=152%20Variant%20sold%20out</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Pro AZ listing showing sold-out status for multiple sizes of the 2026 model. Indicates demand/popularity.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.glisshop.co.uk/snowboards/gnu/c-money58443221</url>
+  <quote>Note: The colour of the bases may be different from the picture displayed on the website, manufacturers combine colours randomly.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.glisshop.co.uk/snowboards/gnu/c-money58443221#:~:text=colour%20of%20the%20bases%20may%20be%20different</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Glisshop is a major European ski/snowboard retailer. Confirms random base color allocation and EU availability.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/gnu-c-money</url>
+  <quote>Flex: 5/10 (1=soft, 10=stiff)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/gnu-c-money#:~:text=Flex%3A%205%2F10</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer listing the 2026 C Money with flex rated 5/10, which differs from the manufacturer's current spec of 6/10. May reflect different model year spec or regional listing discrepancy.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/gnu-c-money-snowboard-review</url>
+  <quote>Flex Feel on Snow: Mid-Soft (3.5/10) Rating Score: 83.2/100</quote>
+  <quote>Board Weight 2780g 6lbs 2ozs Weight per CM 18.05g/cm</quote>
+  <quote>Camber Height: 7mm</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/gnu-c-money-snowboard-review#:~:text=Flex%20Feel%20on%20Snow</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles — the most detailed independent review found. Provides measured weight, on-snow flex feel, camber height, and detailed performance scores across multiple categories. Reviewer tested the 154cm at a demo event. Highly valuable for on-snow performance data. The reviewer tested 300+ models for weight comparison baseline.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard</url>
+  <quote>Medium The amount a snowboard flexes varies significantly between boards.</quote>
+  <quote>Ability Level: Intermediate-Advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard#:~:text=Medium%20The%20amount</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo's 2026 model page classifying the flex as "Medium" and ability level as "Intermediate-Advanced." Evo standardizes flex feel ratings across brands.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard</url>
+  <quote>2 x 4 Inserts</quote>
+  <quote>Eco Sublimated Poly Top – Tough and environmentally nice.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard#:~:text=2%20x%204%20Inserts</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo product listing confirming mounting pattern and topsheet material.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.the-house.com/1158864.html</url>
+  <quote>a sustainable FSC-certified Poplar and Paulownia wood core</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1158864.html#:~:text=FSC-certified%20Poplar%20and%20Paulownia</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House listing uses "Poplar" for the core, creating the Aspen vs Poplar disagreement with Blauer and the manufacturer. FSC certification is confirmed by both.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/gnu-c-money-2025</url>
+  <quote>Tri-Ax / Bi-Ax – Fiberglass reinforcement for strength and pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/gnu-c-money-2025#:~:text=Tri-Ax%20%2F%20Bi-Ax</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop listing confirming fiberglass type. Consistent with manufacturer and evo descriptions.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/gnu-money-snowboard-review/</url>
+  <quote>UHMW (Ultra High Molecular Weight) polyethylene, built into its sidewalls. This allows the board to take accidental impacts</quote>
+  <quote>The Magne Traction built into this board gives it a level of edge hold/grip while carving that you can't find in a snowboard priced under $500.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/gnu-money-snowboard-review/#:~:text=UHMW%20(Ultra%20High%20Molecular%20Weight)</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World independent review — provides practical explanation of UHMW sidewall benefits and Magne-Traction edge hold from first-hand testing. Reviewer is an experienced East Coast rider who specifically tests for icy conditions. Reviews the Money (C2E) but UHMW and Magne-Traction are shared with the C Money.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.sunandski.com/p/34260080430002606/gnu-men-s-c-money-wide-snowboard-26</url>
+  <quote>Construction: Triaxial and Biaxial Fiberglass with Rubber Dampening Inserts Bolt Pattern: 2x4 Flex: Medium Gender: Men</quote>
+  <quote>Manufacturer Warranty: 1 Year</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sunandski.com/p/34260080430002606/gnu-men-s-c-money-wide-snowboard-26#:~:text=Triaxial%20and%20Biaxial%20Fiberglass</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Sun & Ski Sports listing of the 2026 C Money Wide — provides a unique detail about "Rubber Dampening Inserts" and "Royal Rubber Dampening" in the construction, which is not mentioned by most other sources. This is a notable construction detail.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/gnu-c-money-snowboard-review</url>
+  <quote>The GNU C Money is best suited for those who spend a lot of time in the park or doing ground tricks and side-hits</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/gnu-c-money-snowboard-review#:~:text=best%20suited%20for%20those</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Reviewer's assessment of ideal rider profile, based on on-snow testing. A key purchase consideration.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard</url>
+  <quote>Take up to a full year to return your item!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/gnu-c-money-c3-snowboard#:~:text=Take%20up%20to%20a%20full%20year</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo's return policy — a significant buyer confidence factor. 1-year return window is industry-leading for a retailer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.tactics.com/gnu/snowboard</url>
+  <quote>Gnu C Money C3 Snowboard 2026 $449.99 … Gnu Forest Bailey Head Space C3 Snowboard 2026 $579.99 … Gnu Max Warbington Finest Asym C2X Snowboard 2026 $549.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/gnu/snowboard#:~:text=C%20Money%20C3</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics GNU lineup page showing all 2026 GNU snowboards with prices. Useful for comparing the C Money's price position within the GNU range.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/best-park-snowboards</url>
+  <quote>Powerful C3 Camber pairs with a true twin shape, Magne-Traction edges, and a poppy Aspen and Paulownia core</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/best-park-snowboards#:~:text=Powerful%20C3%20Camber%20pairs</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Evo's best park snowboards editorial list — mentions the Lib Tech Off Ramp (sister brand to GNU using same C3 + Magne-Traction tech) as a comparable park board. Provides competitive context within Mervin's own lineup.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/best-snowboards/</url>
+  <quote>Best Jib Board: Bataleon Disaster+ Best Beginner Snowboard: Burton Process Flying V Best All-Mountain Freestyle: K2 Antidote</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/best-snowboards/#:~:text=Best%20Jib%20Board</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>The Inertia's 2026 snowboard rankings — provides competitor context. The GNU C Money is not featured in their top picks, but their jib and freestyle picks (Bataleon Disaster+, K2 Antidote) are comparable alternatives. CAPiTA DOA is mentioned as a strong all-mountain freestyle option.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/</url>
+  <quote>The GNU Money earned a score that was -4.2% (-3.61 points) below the average.</quote>
+  <quote>this board is also $208 cheaper than average, so it offers a great value for its price.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/#:~:text=-4.2%25%20(-3.61%20points)</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>Board of the World comparison article ranking the GNU Money against other all-mountain freestyle twins. Shows it scores below average in performance but stands out on value. Provides important context about where this board sits competitively.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-benchwarmer-snowboard-review/</url>
+  <quote>The Ride Benchwarmer is a damp but poppy full camber, unforgiving asym twin</quote>
+  <quote>$599.95 Buy it Now</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-benchwarmer-snowboard-review/#:~:text=damp%20but%20poppy%20full%20camber</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride independent review of the Ride Benchwarmer — a higher-end competitor. At $599.95, it's $150 more than the C Money but offers more dampness and pop. Useful for buyers considering upgrading their park board.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/gnu-c-money-2025</url>
+    <quote>brand: Gnu; model name: C Money; model year: 2025; AUD price: $524.99; RRP price: $749.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/gnu-c-money-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

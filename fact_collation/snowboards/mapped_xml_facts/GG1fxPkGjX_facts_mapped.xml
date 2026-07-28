@@ -1,0 +1,1328 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="available_sizes" count="10" category="availability" />
+  <duplicate_canonical name="construction_material_innovation" count="7" category="construction" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="7" category="comparable" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="6" category="unknown" />
+  <duplicate_canonical name="comparable_board_same_brand" count="5" category="comparable" />
+  <duplicate_canonical name="sidecut_type" count="4" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="4" category="unknown" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="stance_width_range_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="3" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="price_aud_merchant" count="3" category="pricing" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="terrain_suitability" count="2" category="recommendation" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="estimated_availability_date" count="2" category="availability" />
+  <duplicate_canonical name="availability_status" count="2" category="availability" />
+</canonical_schema>
+
+<answer>
+1. brand: RIDE Snowboards [1]
+2. model_name: Vantum [2]
+3. model_year: 2027 [2]
+4. product_type: Snowboard [2]
+5. Model status: New addition to the RIDE lineup for 2027 [3]
+6. Heritage: Evolves from the Pig series into a more traditionally sized all-mountain shape [4]
+7. Design philosophy: Created to follow the trend toward a more traditionally sized board while maintaining Pig-inspired character [5]
+8. board_category: Freeride / All-Mountain [6]
+9. board_category: Directional all-mountain freeride snowboard [7]
+10. gender: Men's [8]
+11. manufacturer: RIDE Snowboards (ridesnowboards.com) [9]
+12. manufacturing_location_current: Seattle, WA (relocated from founding location in Redmond, WA) [10]
+13. Parent company: Elevate Outdoor Collective (formerly K2-MDV Holdings) [11]
+14. Parent company headquarters: Seattle, WA [12]
+15. Sister brands under Elevate: K2 Skis, K2 Snowboarding, Marker, Dalbello, Völkl, LINE Skis, Backcountry Access, Atlas, Tubbs, Madshus [13]
+16. Brand founding: September 1992, by Roger Madison, Tim Pogue and James Salter [14]
+17. Brand experience: Over 30 years of experience in building high-quality snowboard products [15]
+18. Brand reputation: Known for durable construction and practical engineering, developing technologies that improve strength, response and stability [16]
+19. Current CEO of Elevate: Josee Larocque (replaced John Colonna in Oct 2024) [17]
+20. rider_level: Intermediate-Advanced (merchant verified) [18]
+21. skill_level_recommendation: Aimed at intermediate riders looking to explore more of the mountain [3]
+22. skill_level_recommendation: Riders who want a directional board that still feels balanced and easy to control [3]
+23. Use case: Versatile daily driver — groomer laps to natural terrain [3]
+24. terrain_suitability: All-Mountain / Freeride-Powder [6]
+25. terrain_suitability: Designed for freeride and powder [7]
+26. riding_style: Freeride mindset with all-mountain versatility [4]
+27. Sizing recommendation: Rides true to size for freeride performance; size up slightly for high-speed and deep snow [19]
+28. shape: Tapered Directional (tail narrower than nose) [20]
+29. shape: Wider nose and narrower tail for improved float and powerful turns [20]
+30. camber_type: Directional Standard Camber [21]
+31. camber_description: Camber between the feet provides snap and edge hold while subtle rocker in the nose and tail improves forgiveness and float [21]
+32. camber_type: Hybrid Positive — camber between the feet with early rise in nose and tail [22]
+33. flex_rating_10: Mid-Stiff [18]
+34. flex_rating_10: Mid — a moderate flex gives the board a balanced personality [23] — DISAGREEMENT: The merchant lists "Mid-Stiff" while Ballistyx lists "Mid". This may reflect different flex scale interpretations.
+35. flex_feel: Stays supportive without becoming overly demanding [23]
+36. flex_feel: Accessible for riders still progressing their technique [3]
+37. sidecut_type: Linear Quadratic Sidecut [24]
+38. sidecut_type: Quadratic curvature from tip to rear insert pack, linear section toward tail [18]
+39. sidecut_type: A blended multi-radius sidecut that improves turn initiation and exit while maintaining strong grip throughout the carve [24]
+40. sidecut_type: Reducing tri radial sidecut using three radii for smooth, versatile turn initiation [5] — DISAGREEMENT: Cherri Pow describes the sidecut as "tri radial" while the merchant and Ballistyx describe it as "Linear Quadratic". This may be a retailer approximation vs. official naming.
+41. core_material: Performance™ Core — blend of high-strength Aspen, Bamboo, and Paulownia wood [25]
+42. core_material: A balanced wood core creating a strong yet responsive platform [26]
+43. resin: Bio-Resin — a plant-based epoxy that reduces environmental impact while maintaining strong bonding performance [27]
+44. construction_material_innovation: Roll-In Construction — 3D structure surrounds Slimewall sidewalls, enhances board strength, prevents topsheet chipping, reduces weight [28]
+45. laminate: Hybrid Glass — triaxial fiberglass on top, biaxial on base [29]
+46. laminate: Balanced torsional flex and stability [29]
+47. construction_material_innovation: Zonal Carbon Rails — carbon strips along edges from insert pack toward contact points [30]
+48. construction_material_innovation: Increases response and drive through turns; applies extra force directly under inserts [18][30]
+49. construction_material_innovation: Single Impact Plates — reinforced zones beneath bindings improve compressive strength and durability [31]
+50. construction_material_innovation: Urethane-filled channels in the nose reduce vibration and help the board remain stable in choppy snow [32]
+51. sidewall_material: Slimewalls® — urethane sidewalls [33]
+52. sidewall_material: Forgiving and ductile, absorbing impacts rather than defending against them; smoothes interaction with snow, wood or metal surfaces [34]
+53. sidewall_material: "Virtually indestructible, the most durable sidewalls in snowboarding" (manufacturer marketing claim) [34]
+54. construction_material_innovation: Roll-In Construction integrates topsheet into sidewall [28]
+55. base_material: Sintered 4000 PTEX [35]
+56. base_type: Stone Ground [36]
+57. base_material: Porous structure absorbs wax efficiently; fast, durable, and highly wax absorbent [35]
+58. edge_technology: Standard Steel Edge [18]
+59. sustainability_certification: RIDE edges contain 30% recycled materials [37]
+60. topsheet: Topless Construction — graphics transferred directly to fiberglass [38]
+61. topsheet: Enhances durability, reduces weight, and minimises raw material usage [38]
+62. construction_material_innovation: Thin Con — tapered tips and tails reduce swing weight, improve tip flex, boost durability [39]
+63. mounting_pattern: 2x4 Inserts [18]
+64. width_options: Standard [18]
+65. sustainability_certification: Meadowfoam® wax by WEND — made from wildflower seeds, non-toxic and completely biodegradable [40]
+66. sustainability_certification: 44% solar energy used in factory production [41]
+67. FSC® Certified Paper Packaging [42]
+68. available_sizes: 155cm [18]
+69. Effective edge (155cm): 116.8cm [18]
+70. Waist width (155cm): 25.7cm [18]
+71. sidecut_radius_size: 8.8/7.3/5.5m [18]
+72. tip_tail_width_size: 30.5/29.8cm [18]
+73. setback: -1.9cm [18]
+74. stance_width_range_size: 53.3cm [18]
+75. recommended_weight_range_size: 52-88 kg [18]
+76. available_sizes: 157cm [18]
+77. SKU (157cm): 27 SBVANTUM 157 [18]
+78. Effective edge (157cm): 118.1cm [18]
+79. Waist width (157cm): 25.9cm [18]
+80. sidecut_radius_size: 9.0/7.4/5.7m [18]
+81. tip_tail_width_size: 30.7/30.0cm [18]
+82. setback: -1.9cm [18]
+83. stance_width_range_size: 54.6cm [18]
+84. recommended_weight_range_size: 55-91 kg [18]
+85. available_sizes: 159cm [18]
+86. Effective edge (159cm): 119.4cm [18]
+87. Waist width (159cm): 26.1cm [18]
+88. sidecut_radius_size: 9.3/7.5/6.0m [18]
+89. tip_tail_width_size: 30.9/30.2cm [18]
+90. setback: -1.9cm [18]
+91. stance_width_range_size: 55.9cm [18]
+92. recommended_weight_range_size: 57-93 kg [18]
+93. available_sizes: 154cm [43]
+94. Effective edge (154cm): 1156mm [43]
+95. Waist width (154cm): 254mm [43]
+96. sidecut_radius_size: 8.5/7.0/5.3m [43]
+97. tip_tail_width_size: 303/296mm [43]
+98. setback: -19mm [43]
+99. available_sizes: 156cm [43]
+100. Effective edge (156cm): 1168mm [43]
+101. Waist width (156cm): 257mm [43]
+102. sidecut_radius_size: 8.8/7.3/5.5m [43]
+103. tip_tail_width_size: 307/298mm [43]
+104. setback: -19mm [43]
+105. available_sizes: 158cm [43]
+106. Effective edge (158cm): 1181mm [43]
+107. Waist width (158cm): 259mm [43]
+108. sidecut_radius_size: 9.0/7.4/5.7m [43]
+109. tip_tail_width_size: 309/300mm [43]
+110. setback: -19mm [43]
+111. available_sizes: 155cm, 157cm, 159cm [18]
+112. available_sizes: 154, 156, 158 [43] — Note: Ballistyx lists different sizes than the merchant. This may reflect regional size allocation differences (AU vs other markets).
+113. available_sizes: 145, 148, 151, 153, 155, 157, 159, 162, 166 [44] — Note: Cherri Pow lists the broadest size run of any source, suggesting this is the full global range.
+114. available_sizes: 153, 155, 157, 159, 162 [45]
+115. price_aud_merchant: $999.99 AUD [18]
+116. price_aud_merchant: $999.99 AUD [43]
+117. Price NZD (BaseNZ, regular): $1,199.99 NZD [46]
+118. Price NZD (BaseNZ, sale): $1,079.99 NZD (saving $120) [46]
+119. price_aud_merchant: $1,005.00 AUD [47]
+120. price_usd_msrp: Not yet listed on ridesnowboards.com (2027 model not yet on US site as of April 2026) [48]
+121. estimated_availability_date: Pre-order, estimated May 2026 delivery [49]
+122. estimated_availability_date: Pre-order item — estimated May 2026 delivery [43]
+123. availability_status: Listed as "Coming Soon!" [50]
+124. availability_status: Some sizes in stock/ready to ship, others pre-order [45]
+125. Retailer: Ballistyx (Melbourne, AU) — trusted Melbourne snowboard store since 1991 [51]
+126. Retailer: BaseNZ (New Zealand) — specialist snowboard retailer with free NZ shipping over $75 [52]
+127. Retailer: Twelve Board Store (Melbourne, AU) — authorised dealer with free Australia-wide shipping over $90 [53]
+128. Retailer: Cherri Cherri Pow Pow (Australia) — established since 1987, free shipping over $150 [54]
+129. Retailer: Balmoral Boards (Narrabeen, AU) — full manufacturer warranty, 30-day returns, $10 flat rate AU shipping [50]
+130. Retailer: The Ski Monster (US) — listed Vantum in 2026/2027 sneak peek [55]
+131. Retailer: Blauer Board Shop (US) — listed in 2027 snowboard collection [56]
+132. Ride feel: Confident, responsive when carving; smooth and predictable [3]
+133. Float: Effortless float in soft snow [7]
+134. edge_hold: Strong edge hold at speed [7]
+135. Stability: Stable and damp underfoot [57]
+136. Damping: Urethane sidewall materials and carbon reinforcement reduce chatter and improve power transfer [57]
+137. Forgiveness: Slight rocker rise in nose and tail keeps the board forgiving and manoeuvrable [3]
+138. turn_initiation_performance: Smooth, predictable turn initiation from reducing tri-radial sidecut [7]
+139. user_review_forum: "Looks like it will be an absolute charger" (early purchaser, snowboardingforum.com) [58]
+140. user_review_forum: "Interesting there's no carbon stringers like most of their other boards" [59] — Note: The Vantum uses Zonal Carbon Rails rather than Carbon Array stringers found on higher-end Ride boards.
+141. user_review_forum: Related Ride Shadowban board well regarded ("I have a shadowban and love it") [60]
+142. Preview video: Tested at Jackson Hole Mountain Resort, described as "ultimate top-to-bottom crusher" [61]
+143. sidewall_material: Skate-inspired urethane sidewalls, offered in 85A and 90A durameter [62]
+144. user_review_forum: Mixed — some consider them impact-absorbing and durable; some forum users call them "a gimmick"; others say they change edge behavior [63]
+145. edge_technology: Austrian-made edges wrap the entire perimeter for delam protection [15]
+146. RIDE experience claim: "Engineered by snowboarders, for the most demanding riders on the planet" [15]
+147. comparable_board_same_brand: Volume-shifted short/wide all-mountain board; flat-to-rocker profile; playful flex; AUD $975 at Twelve Board Store [47][64]
+148. comparable_board_same_brand: Vantum is traditionally sized with camber; Warpig is shorter/wider with flat-to-rocker profile [64]
+149. comparable_board_same_brand: Stiffer, camber-dominant version of Warpig with added carbon [65]
+150. comparable_board_same_brand: Directional, medium flex, camber, sintered base; USD $649.95 MSRP; all-mountain with freeride skew [66]
+151. comparable_board_same_brand: More aggressive freeride weapon with split tail tech; USD $699.95 MSRP [67]
+152. comparable_board_cross_brand: Jones Flagship — #1 rated freeride snowboard; directional, stiff, strong edge hold; for expert riders [68]
+153. comparable_board_cross_brand: Burton Flight Attendant — Camber-driven power for aggressive riders (~$680 USD) [69]
+154. comparable_board_cross_brand: Capita Mercury — Legendary versatility from park to powder (~$600 USD) [69]
+155. comparable_board_cross_brand: Jones Mountain Twin — Versatile all-mountain directional twin; great for intermediate+ [70]
+156. comparable_board_cross_brand: Rome Ravine Pro — Aggressive freeride flagship (~$669.95 USD) [71]
+157. comparable_board_cross_brand: YES Typo — All-mountain freestyle with Underbite edge-tech [72]
+158. comparable_board_cross_brand: Lib Tech T.Rice Orca — Short fat directional with Magne-Traction for ice grip [73]
+159. General category: Freeride snowboards tend to come at a higher price point than park or all-mountain decks [74]
+160. warranty: Full Manufacturers Warranty (confirmed by multiple retailers) [50]
+</answer>
+
+<citations>
+
+    <citation id="1">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/</url>
+        <quote>Committed to manufacturing the best Snowboards, Boots, and Bindings on the market, we live and breathe snowboarding. We are RIDE Snowboards.</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/#:~:text=Committed%20to%20manufacturing,RIDE%20Snowboards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1992</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer home page confirming the brand name RIDE Snowboards. Primary authority for brand identity.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="2">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Ride Vantum Snowboard | 2027 Freeride Precision. All-Mountain Freedom.</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Ride%20Vantum%20Snowboard,Mountain%20Freedom</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Authorised Australian retailer listing confirms model name, year, and positioning as freeride/all-mountain.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="3">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>The 2027 RIDE Vantum is a new addition to the lineup designed to bring the playful, approachable feel of RIDE's Pig Series into a more traditional all-mountain shape.</quote>
+        <quote>With a shape and flex aimed at intermediate riders looking to explore more of the mountain, the Vantum sits comfortably as a versatile daily driver.</quote>
+        <quote>A slight rocker rise in the nose and tail helps keep the board forgiving and manoeuvrable, while the moderate flex makes it accessible for riders who are still progressing their technique.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=The%202027%20RIDE%20Vantum,traditional%20all-mountain%20shape</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Ballistyx is a well-established Melbourne snowboard retailer since 1991 providing a detailed product description. Reliable for product positioning and feature descriptions.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="4">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>The Ride Vantum Snowboard 2027 takes inspiration from the legendary Pig series and evolves it into a more traditionally sized all-mountain freeride snowboard.</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=takes%20inspiration%20from,freeride%20snowboard</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Authorised dealer description confirming heritage from Pig series. Consistent with multiple other sources.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="5">
+      <quotelist>
+        <url>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027</url>
+        <quote>The Ride Vantum evolves from the Pig series and was created to follow the trend toward a more traditionally sized board while maintaining its Pig inspired character.</quote>
+      </quotelist>
+      <url_with_text_link>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027#:~:text=evolves%20from%20the%20Pig,Pig%20inspired%20character</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Cherri Pow description provides heritage context consistent with other sources. Also notes tri-radial sidecut vs Linear Quadratic naming.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="6">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Tech Specs Terrain: Freeride</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Tech%20Specs%20Terrain%3A%20Freeride</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Confirms terrain classification from retailer specs section.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="7">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Designed for freeride and powder, the Vantum features a tapered directional shape and directional camber profile, delivering strong edge hold, stability at speed, and effortless float in soft snow.</quote>
+        <quote>The reducing tri-radial sidecut ensures smooth, predictable turn initiation, while the Performance™ Core and Hybrid Glass construction provide a responsive yet damp ride.</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Designed%20for%20freeride,damp%20ride</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Detailed product description from authorised dealer covering key performance attributes.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="8">
+      <quotelist>
+        <url>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027</url>
+        <quote>Ride Vantum Men's Snowboard 2027</quote>
+      </quotelist>
+      <url_with_text_link>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027#:~:text=Ride%20Vantum%20Men%27s%20Snowboard%202027</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Title confirms it is marketed as a men's snowboard.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="9">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/</url>
+        <quote>We are RIDE Snowboards.</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/#:~:text=We%20are%20RIDE%20Snowboards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1992</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official website confirmation of manufacturer identity.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="10">
+      <quotelist>
+        <url>https://www.amazon.com/RIDE-R2202002W-MTNpig-Snowboard-2023-160W/dp/B0C69ZM9TY</url>
+        <quote>Founded in Redmond, WA. in late 1992, RIDE hit the market with only four board models</quote>
+        <quote>Recently relocating to Seattle, WA., RIDE has never strayed from our original goal</quote>
+      </quotelist>
+      <url_with_text_link>https://www.amazon.com/RIDE-R2202002W-MTNpig-Snowboard-2023-160W/dp/B0C69ZM9TY#:~:text=Founded%20in%20Redmond%2C%20WA</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1992</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Amazon product description (authored by RIDE) confirming founding location and relocation to Seattle.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="11">
+      <quotelist>
+        <url>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url>
+        <quote>Elevate Outdoor Collective is the new name for the parent company of all K2 Sports and MDV brands, including: K2 Skis, K2 Snowboards, Marker, Dalbello, Völkl, RIDE Snowboards, LINE</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/#:~:text=Elevate%20Outdoor%20Collective,RIDE%20Snowboards</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-02-08</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Industry trade publication confirming RIDE is owned by Elevate Outdoor Collective.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="12">
+      <quotelist>
+        <url>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url>
+        <quote>With global headquarters in Seattle, WA, Elevate Outdoor Collective will be overseen by President &amp; CEO, John Colonna.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/#:~:text=global%20headquarters%20in%20Seattle</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022-02-08</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Confirms Seattle HQ for parent company.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.82</source_credibility>
+      <attribute_importance>0.3</attribute_importance>
+    </citation>
+
+    <citation id="13">
+      <quotelist>
+        <url>https://www.linkedin.com/company/elevateoutdoorcollective</url>
+        <quote>Our brands include K2 Skis, K2 Snowboarding, Marker, Dalbello, Völkl, RIDE Snowboards, LINE Skis, Backcountry Access, Atlas Snow Shoe Co., Tubbs Snowshoes, Madshus and K2 Skates.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.linkedin.com/company/elevateoutdoorcollective#:~:text=Our%20brands%20include</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2022</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official LinkedIn profile listing all brands under the Elevate umbrella.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.85</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="14">
+      <quotelist>
+        <url>https://www.the-house.com/portal/ride-inc-history/</url>
+        <quote>In September of 1992 Roger Madison, Tim Pogue and James Salter had come together to establish Ride Snowboards.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.the-house.com/portal/ride-inc-history/#:~:text=September%20of%201992</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1992</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>The House is a well-known snowboard retailer with a detailed brand history article. Confirms founding details.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.35</attribute_importance>
+    </citation>
+
+    <citation id="15">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/board-tech</url>
+        <quote>RIDE SNOWBOARDS: ENGINEERED BY SNOWBOARDERS, FOR THE MOST DEMANDING RIDERS ON THE PLANET. WITH OVER 30 YEARS OF EXPERIENCE IN BUILDING HIGH-QUALITY PRODUCTS.</quote>
+        <quote>RIDE's Austrian-made edges wrap the entire perimeter of your board for the best delam protection around.</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/board-tech#:~:text=ENGINEERED%20BY%20SNOWBOARDERS</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer technology page. Primary source for tech claims. Marketing language around "most demanding riders" should be treated with moderate confidence.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="16">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Known for durable construction and practical engineering, the brand has consistently focused on developing technologies that improve strength, response and stability on snow.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Known%20for%20durable,stability%20on%20snow</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Retailer's assessment of brand reputation. Consistent with broader industry perception.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="17">
+      <quotelist>
+        <url>https://shop-eat-surf-outdoor.com/news/elevate-outdoor-collective-makes-ceo-switch-john-colonna-to-depart-josee-larocque-named-ceo-2/551795/</url>
+        <quote>Former Elevate Outdoor Collective COO Josee Larocque is now CEO of the company.</quote>
+      </quotelist>
+      <url_with_text_link>https://shop-eat-surf-outdoor.com/news/elevate-outdoor-collective-makes-ceo-switch-john-colonna-to-depart-josee-larocque-named-ceo-2/551795/#:~:text=Josee%20Larocque%20is%20now%20CEO</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024-10-02</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Industry news source confirming current leadership of RIDE's parent company.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.2</attribute_importance>
+    </citation>
+
+    <citation id="18">
+      <quotelist>
+        <url>https://merchant-provided-data</url>
+        <quote>Merchant-verified product attributes as provided in the product listing.</quote>
+      </quotelist>
+      <url_with_text_link>https://merchant-provided-data</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Merchant-provided specifications are treated as verified primary data for this product. These include size chart, SKU, pricing, and technical specifications provided directly by an authorised seller.</reasoning>
+      <evidentiary_alignment>0.98</evidentiary_alignment>
+      <source_credibility>0.88</source_credibility>
+      <attribute_importance>1.0</attribute_importance>
+    </citation>
+
+    <citation id="19">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>The Ride Vantum 2027 rides true to size for freeride performance. Choose your standard all-mountain length for stability and control, or size up slightly if you're focused on high-speed riding and deeper snow.</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=rides%20true%20to%20size</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Retailer sizing advice — important for purchase decisions.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="20">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Tapered Directional Shape – Wider nose and narrower tail for improved float and powerful turns</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Tapered%20Directional%20Shape</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Feature description from authorised dealer matching merchant data.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="21">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Directional Standard Camber – Camber between the feet provides snap and edge hold while subtle rocker in the nose and tail improves forgiveness and float.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Directional%20Standard%20Camber</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Detailed camber profile description from authorised retailer.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="22">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Profile – Hybrid Positive Camber between the feet provides energy and edge hold while early rise in the nose and tail helps keep the ride forgiving and manoeuvrable.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Profile%20%E2%80%93%20Hybrid%20Positive</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Confirms hybrid positive camber profile classification.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="23">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Flex – Mid A moderate flex gives the board a balanced personality that stays supportive without becoming overly demanding.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Flex%20%E2%80%93%20Mid</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Ballistyx lists flex as "Mid" while the merchant data says "Mid-Stiff". This is a notable disagreement that may reflect different interpretative scales.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="24">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Linear Quadratic Sidecut – A blended multi-radius sidecut that improves turn initiation and exit while maintaining strong grip throughout the carve.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Linear%20Quadratic%20Sidecut</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Consistent with merchant data on sidecut type and RIDE's official technology naming.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="25">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Performance™ Core – Aspen, Bamboo, and Paulownia blend for strength, pop, and reduced weight</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Performance%E2%84%A2%20Core</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Core specification from authorised dealer matching merchant data.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="26">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Performance™ Core – A balanced wood core combining Aspen, Bamboo and lightweight Paulownia to create a strong yet responsive platform.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Performance%E2%84%A2%20Core%20%E2%80%93%20A%20balanced</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>More detailed core description from Ballistyx product page.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="27">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Bio-Resin – A plant-based epoxy that reduces environmental impact while maintaining strong bonding performance in the board's construction.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Bio-Resin</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Confirms bio-resin as a sustainability feature and construction component.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="28">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Roll-In Construction – A structural build method that integrates the topsheet into the sidewall to improve durability and reduce weight.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Roll-In%20Construction</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Construction method description consistent with RIDE technology pages.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="29">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Hybrid Glass – A triaxial top layer combined with biaxial fiberglass underneath for balanced torsional flex and stability.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Hybrid%20Glass</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Fiberglass specification from retailer.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="30">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Zonal Carbon Rails – Carbon strips placed along the edges from the insert pack toward the contact points to improve power transfer and edge response.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Zonal%20Carbon%20Rails</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Carbon reinforcement detail from authorised retailer.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="31">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Single Impact Plates – Reinforced zones beneath the bindings improve compressive strength and durability in high-stress areas.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Single%20Impact%20Plates</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Construction detail for binding area reinforcement.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="32">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Urethane Channels – Urethane-filled channels in the nose reduce vibration and help the board remain stable in choppy snow.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Urethane%20Channels</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Damping technology description from retailer.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="33">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Slimewalls® – Urethane sidewalls designed to absorb vibration and impacts, creating a smoother and more damp ride.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Slimewalls%C2%AE</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Sidewall tech description from product page.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.75</attribute_importance>
+    </citation>
+
+    <citation id="34">
+      <quotelist>
+        <url>https://jackssurfboards.com/products/magic-stick-snowboard-26</url>
+        <quote>RIDE's exclusive Slimewalls™ are forgiving and ductile, absorbing impacts rather than defending against them.</quote>
+        <quote>On top of all that, these babies are virtually indestructible, the most durable sidewalls in snowboarding.</quote>
+      </quotelist>
+      <url_with_text_link>https://jackssurfboards.com/products/magic-stick-snowboard-26#:~:text=RIDE%27s%20exclusive%20Slimewalls</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>RIDE's official Slimewall description as reproduced by an authorised dealer. The "most durable" claim is manufacturer marketing.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="35">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Sintered 4000 Base – Fast, durable, and highly wax absorbent for consistent speed</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Sintered%204000%20Base</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Base material specification from authorised dealer.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="36">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Sintered, Stone Ground Base – A durable sintered base finished with a stone grind for increased glide and speed across changing snow conditions.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Sintered%2C%20Stone%20Ground%20Base</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Confirms stone ground finishing on sintered base.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.7</attribute_importance>
+    </citation>
+
+    <citation id="37">
+      <quotelist>
+        <url>https://gorgeperformance.com/products/agenda</url>
+        <quote>Edges on RIDE Snowboards contain 30% recycled materials.</quote>
+      </quotelist>
+      <url_with_text_link>https://gorgeperformance.com/products/agenda#:~:text=30%25%20recycled%20materials</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>RIDE brand-wide sustainability fact from authorised dealer page for another RIDE board. Applicable to all RIDE boards including Vantum.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.35</attribute_importance>
+    </citation>
+
+    <citation id="38">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/board-tech</url>
+        <quote>By transferring graphics directly to the fiberglass, Topless Construction removes the need to have any topsheet material. This process improves overall durability, reduces weight, and uses less raw materials.</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/board-tech#:~:text=Topless%20Construction</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer technology page. Primary source for Topless Construction details.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="39">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/board-tech</url>
+        <quote>All RIDE boards feature Thin Construction with tapered tips and tails. This reduces swing weight, enhances tip flex, and improves overall durability.</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/board-tech#:~:text=Thin%20Construction</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Official manufacturer page confirming Thin Con as a brand-wide feature.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="40">
+      <quotelist>
+        <url>https://jackssurfboards.com/products/magic-stick-snowboard-26</url>
+        <quote>The Meadowfoam® factory wax we use is made from wildflower seeds native to California and Oregon. All WEND® Meadowfoam® snow wax blends are non-toxic and completely biodegradable.</quote>
+      </quotelist>
+      <url_with_text_link>https://jackssurfboards.com/products/magic-stick-snowboard-26#:~:text=Meadowfoam</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>RIDE brand-wide factory wax info from authorised dealer. Applies to all RIDE boards.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.3</attribute_importance>
+    </citation>
+
+    <citation id="41">
+      <quotelist>
+        <url>https://gorgeperformance.com/products/agenda</url>
+        <quote>44% Solar Production Energy: 44% and rising! We're working with our factories to utilize solar energy when producing RIDE products.</quote>
+      </quotelist>
+      <url_with_text_link>https://gorgeperformance.com/products/agenda#:~:text=44%25%20Solar</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Brand-wide sustainability claim from RIDE as published by authorised dealer.</reasoning>
+      <evidentiary_alignment>0.78</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.25</attribute_importance>
+    </citation>
+
+    <citation id="42">
+      <quotelist>
+        <url>https://gorgeperformance.com/products/agenda</url>
+        <quote>FSC® Certified Paper Packaging</quote>
+      </quotelist>
+      <url_with_text_link>https://gorgeperformance.com/products/agenda#:~:text=FSC%C2%AE%20Certified</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>FSC certification claim from brand description on dealer site.</reasoning>
+      <evidentiary_alignment>0.78</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.2</attribute_importance>
+    </citation>
+
+    <citation id="43">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Size (cm) 154: Effective Edge 1156mm, Waist Width 254mm, Sidecut 8.5/7.0/5.3, Tip/Tail 303/296, Setback -19</quote>
+        <quote>Size (cm) 156: Effective Edge 1168mm, Waist Width 257mm, Sidecut 8.8/7.3/5.5, Tip/Tail 307/298, Setback -19</quote>
+        <quote>Size (cm) 158: Effective Edge 1181mm, Waist Width 259mm, Sidecut 9.0/7.4/5.7, Tip/Tail 309/300, Setback -19</quote>
+        <quote>Size 154 Variant sold out or unavailable 156 Variant sold out or unavailable 158 Variant sold out or unavailable</quote>
+        <quote>$999.99 AUD</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=Size%20(cm)</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Full size chart from Ballistyx product page with detailed measurements. Note sizes differ from merchant data (154/156/158 vs 155/157/159), suggesting regional allocation differences.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.95</attribute_importance>
+    </citation>
+
+    <citation id="44">
+      <quotelist>
+        <url>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027</url>
+        <quote>Size 145 Variant sold out or unavailable 148 Variant sold out or unavailable 151 Variant sold out or unavailable 153 Variant sold out or unavailable 155 Variant sold out or unavailable 157 Variant sold out or unavailable 159 Variant sold out or unavailable 162 Variant sold out or unavailable 166 Variant sold out or unavailable</quote>
+      </quotelist>
+      <url_with_text_link>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027#:~:text=Size%20145</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Cherri Pow lists the broadest size range (145-166cm), suggesting this is the full global available size run. All sizes shown as sold out (pre-order status).</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="45">
+      <quotelist>
+        <url>https://basenz.com/products/ride-vantum-snowboard-2027</url>
+        <quote>Length · 153 · 155 · 157 · 159 · 162 · Free NZ shipping on all orders over $75 · In stock, ready to ship · Pre-order, shipping soon</quote>
+      </quotelist>
+      <url_with_text_link>https://basenz.com/products/ride-vantum-snowboard-2027#:~:text=153%20%C2%B7%20155%20%C2%B7%20157%20%C2%B7%20159%20%C2%B7%20162</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>NZ retailer listing sizes 153-162 with mixed availability (some in stock, some pre-order).</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="46">
+      <quotelist>
+        <url>https://basenz.com/products/ride-vantum-snowboard-2027</url>
+        <quote>Regular price $1,199.99 Sale price$1,079.99 Save $120.00 ... Tax included.</quote>
+      </quotelist>
+      <url_with_text_link>https://basenz.com/products/ride-vantum-snowboard-2027#:~:text=Regular%20price%20%241%2C199.99</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>NZD pricing from New Zealand retailer. Prices are tax-inclusive.</reasoning>
+      <evidentiary_alignment>0.95</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="47">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/collections/2027-model-snowboards</url>
+        <quote>Sale price$1,005.00 Ride Vantum Snowboard | 2027</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/collections/2027-model-snowboards#:~:text=%241%2C005.00%20Ride%20Vantum</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Australian retailer pricing in AUD. Listed alongside Warpig at $975 for comparison.</reasoning>
+      <evidentiary_alignment>0.92</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.9</attribute_importance>
+    </citation>
+
+    <citation id="48">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/c/snowboards/mens-snowboards/</url>
+        <quote>[No Vantum listed in the current 2026 men's snowboard lineup]</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/c/snowboards/mens-snowboards/</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>The official RIDE US website currently shows only 2026 model year boards. The Vantum (2027) is not yet listed, confirming it is a new upcoming model for the 26/27 season.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.95</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="49">
+      <quotelist>
+        <url>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027</url>
+        <quote>*PRE-ORDER* Order now for 2026 and be amongst the first in the world to ride the newest lineup of snowboards from your favourite brands. Estimated Availability: May</quote>
+      </quotelist>
+      <url_with_text_link>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027#:~:text=PRE-ORDER</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Confirms pre-order status with estimated May 2026 delivery for the Southern Hemisphere season.</reasoning>
+      <evidentiary_alignment>0.93</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.85</attribute_importance>
+    </citation>
+
+    <citation id="50">
+      <quotelist>
+        <url>https://www.balmoralboards.com.au/products/ride-2027-vantum</url>
+        <quote>Coming Soon!</quote>
+        <quote>All products come with full Manufacturers Warranty.</quote>
+        <quote>$10 flat rate shipping Australia wide.</quote>
+        <quote>We offer hassle-free returns for 30 days from the date of purchase.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.balmoralboards.com.au/products/ride-2027-vantum#:~:text=Coming%20Soon</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Balmoral Boards listing confirming Coming Soon status, warranty, shipping and returns policy.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.7</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="51">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>Trusted Melbourne snowboard store since 1991.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=since%201991</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1991</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Retailer self-description of credibility.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.3</attribute_importance>
+    </citation>
+
+    <citation id="52">
+      <quotelist>
+        <url>https://basenz.com/products/ride-vantum-snowboard-2027</url>
+        <quote>Get deals, rewards, expert advice &amp; fast free NZ shipping from BaseNZ.</quote>
+      </quotelist>
+      <url_with_text_link>https://basenz.com/products/ride-vantum-snowboard-2027#:~:text=expert%20advice</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>NZ retailer listing confirming availability and shipping.</reasoning>
+      <evidentiary_alignment>0.8</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="53">
+      <quotelist>
+        <url>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027</url>
+        <quote>Free shipping Australia-wide on orders over $90 ✔️ Melbourne showroom with expert snow staff ✔️ Authorised dealer — full warranty backed</quote>
+      </quotelist>
+      <url_with_text_link>https://twelveboardstore.com.au/en-us/products/ride-vantum-snowboard-2027#:~:text=Free%20shipping%20Australia</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Authorised dealer confirms warranty backing and free shipping policy.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.75</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="54">
+      <quotelist>
+        <url>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027</url>
+        <quote>Check out our history and see why riders have trusted us since 1987.</quote>
+      </quotelist>
+      <url_with_text_link>https://cherripow.com.au/products/ride-vantum-mens-snowboard-2027#:~:text=since%201987</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>1987</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Retailer established since 1987 — long-standing retailer credibility.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.3</attribute_importance>
+    </citation>
+
+    <citation id="55">
+      <quotelist>
+        <url>https://theskimonster.com/blogs/posts/2026-2027-snowboard-sneak-peak</url>
+        <quote>Ride Twin Pig, Warpig, Vantum, Psychocandy</quote>
+      </quotelist>
+      <url_with_text_link>https://theskimonster.com/blogs/posts/2026-2027-snowboard-sneak-peak#:~:text=Ride%20Twin%20Pig%2C%20Warpig%2C%20Vantum</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-01-21</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>US-based specialty retailer sneak peek confirming Vantum as part of the 2026/2027 RIDE lineup alongside Twin Pig, Warpig, and Psychocandy.</reasoning>
+      <evidentiary_alignment>0.85</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="56">
+      <quotelist>
+        <url>https://blauerboardshop.com/collections/2027-snowboard</url>
+        <quote>Welcome to the 2027 Snowboards Collection, featuring the most highly anticipated decks for the upcoming 26/27 winter season.</quote>
+      </quotelist>
+      <url_with_text_link>https://blauerboardshop.com/collections/2027-snowboard#:~:text=2027%20Snowboards%20Collection</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>US retailer listing 2027 boards for the 26/27 season.</reasoning>
+      <evidentiary_alignment>0.7</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.4</attribute_importance>
+    </citation>
+
+    <citation id="57">
+      <quotelist>
+        <url>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027</url>
+        <quote>RIDE's construction focuses on keeping the board stable and damp underfoot, with urethane sidewall materials and carbon reinforcement working together to reduce chatter and improve power transfer.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.ballistyx.com.au/products/ride-vantum-snowboard-2027#:~:text=stable%20and%20damp%20underfoot</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Retailer description of ride characteristics specific to the Vantum.</reasoning>
+      <evidentiary_alignment>0.9</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.8</attribute_importance>
+    </citation>
+
+    <citation id="58">
+      <quotelist>
+        <url>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/</url>
+        <quote>Just picked up this beast. Early release for 2027. Looks like it will be an absolute charger.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/#:~:text=absolute%20charger</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Early adopter first impression from snowboarding enthusiast forum. Limited reliability (single user, no ride report yet), but provides real-world purchase context.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.35</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="59">
+      <quotelist>
+        <url>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/</url>
+        <quote>Interesting there's no carbon stringers like most of their other boards.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/#:~:text=no%20carbon%20stringers</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Forum user observation noting the Vantum uses Zonal Carbon Rails instead of full carbon stringers (Carbon Array). Relevant to understanding tech tier within the RIDE lineup.</reasoning>
+      <evidentiary_alignment>0.82</evidentiary_alignment>
+      <source_credibility>0.35</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="60">
+      <quotelist>
+        <url>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/</url>
+        <quote>I have a shadowban and love it.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowboardingforum.com/threads/ride-vantum-2027.284309/#:~:text=shadowban%20and%20love%20it</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>Forum user indicates positive experience with a related RIDE model (Shadowban), providing context for brand satisfaction.</reasoning>
+      <evidentiary_alignment>0.5</evidentiary_alignment>
+      <source_credibility>0.3</source_credibility>
+      <attribute_importance>0.3</attribute_importance>
+    </citation>
+
+    <citation id="61">
+      <quotelist>
+        <url>https://www.youtube.com/shorts/F1wIX7bXHfI</url>
+        <quote>Is the 2027 Ride Vantum the ultimate top-to-bottom crusher? Taking this beast through the legendary terrain at Jackson Hole Mountain Resort</quote>
+      </quotelist>
+      <url_with_text_link>https://www.youtube.com/shorts/F1wIX7bXHfI#:~:text=ultimate%20top-to-bottom%20crusher</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2026-03</date_of_first_relevance>
+      <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+      <reasoning>YouTube Shorts preview of the board tested at Jackson Hole. Provides visual evidence of the board in action and suggests positive early impressions.</reasoning>
+      <evidentiary_alignment>0.7</evidentiary_alignment>
+      <source_credibility>0.45</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="62">
+      <quotelist>
+        <url>https://www.snowdb.com/technologies/ride/2011/85a-slimewalls</url>
+        <quote>These skate inspired urethane sidewalls are forgiving and ductile, absorbing impacts rather than defending against them. Offered in an 85A and 90A durameter urethane.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowdb.com/technologies/ride/2011/85a-slimewalls#:~:text=skate%20inspired%20urethane</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2010</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>SnowDB technology archive providing independent documentation of Slimewalls technology history.</reasoning>
+      <evidentiary_alignment>0.88</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="63">
+      <quotelist>
+        <url>https://www.snowboardingforum.com/threads/slimewalls.15776/</url>
+        <quote>Either they are the most forgiving thing for park riding or they aren't durable enough to stand up to jibbing</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowboardingforum.com/threads/slimewalls.15776/#:~:text=most%20forgiving%20thing</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2011</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Forum discussion showing mixed opinions on Slimewalls. Some find them gimmicky, others appreciate their impact absorption. Provides real-world perspective on the technology used in the Vantum.</reasoning>
+      <evidentiary_alignment>0.72</evidentiary_alignment>
+      <source_credibility>0.3</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="64">
+      <quotelist>
+        <url>https://www.melbournesnowboard.com.au/products/ride-warpig</url>
+        <quote>The Ride Warpig has quickly become one of the most popular and searched for snowboards every year.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.melbournesnowboard.com.au/products/ride-warpig#:~:text=most%20popular%20and%20searched</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2017</date_of_first_relevance>
+      <date_of_last_relevance>2027</date_of_last_relevance>
+      <reasoning>Melbourne Snowboard retailer confirming Warpig as RIDE's most popular board and relevant comparison to the Vantum.</reasoning>
+      <evidentiary_alignment>0.7</evidentiary_alignment>
+      <source_credibility>0.68</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="65">
+      <quotelist>
+        <url>https://www.evo.com/snowboards/ride-superpig-snowboard</url>
+        <quote>If you love the Warpig but crave more muscle for charging harder, the Ride Superpig Snowboard is your next-level beast.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.evo.com/snowboards/ride-superpig-snowboard#:~:text=crave%20more%20muscle</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>evo is a major US snowboard retailer. Confirms Superpig as stiffer Warpig alternative, relevant for comparison.</reasoning>
+      <evidentiary_alignment>0.78</evidentiary_alignment>
+      <source_credibility>0.78</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="66">
+      <quotelist>
+        <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-all-mountain-snowboards.html</url>
+        <quote>PRICE: £475 / €570 / $649 SIZES: 144, 148, 151, 155, 157, 157W, 159, 161W, 162, 165W FLEX: 7 SHAPE: Directional PROFILE: Camber</quote>
+      </quotelist>
+      <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-all-mountain-snowboards.html#:~:text=Ride%20Moderator</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Whitelines is a respected snowboard publication. The Ride Moderator is a comparable RIDE board in the all-mountain freeride space at a lower price point.</reasoning>
+      <evidentiary_alignment>0.82</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.65</attribute_importance>
+    </citation>
+
+    <citation id="67">
+      <quotelist>
+        <url>https://ridesnowboards.com/en-us/c/snowboards/mens-snowboards/</url>
+        <quote>RIDE Mtnpig Snowboard 2026 $699.95</quote>
+      </quotelist>
+      <url_with_text_link>https://ridesnowboards.com/en-us/c/snowboards/mens-snowboards/#:~:text=Mtnpig%20Snowboard%202026</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Official RIDE website pricing for the MTNpig 2026 as a comparable model.</reasoning>
+      <evidentiary_alignment>0.82</evidentiary_alignment>
+      <source_credibility>0.9</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="68">
+      <quotelist>
+        <url>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5</url>
+        <quote>Finally, again retaining the #1 position, we have Jones' Flagship snowboard.</quote>
+      </quotelist>
+      <url_with_text_link>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5#:~:text=Jones%27%20Flagship</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Well-known snowboard review site ranking Jones Flagship as top freeride board — relevant competitor comparison.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.65</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="69">
+      <quotelist>
+        <url>https://gemyseshop.com/blogs/gemyse-news/freeride-vs-all-mountain-snowboard-the-ultimate-comparison-guide-2024</url>
+        <quote>Burton Flight Attendant ($680): Camber-driven power for aggressive riders.</quote>
+        <quote>Capita Mercury ($600): Legendary adaptability from park to powder.</quote>
+      </quotelist>
+      <url_with_text_link>https://gemyseshop.com/blogs/gemyse-news/freeride-vs-all-mountain-snowboard-the-ultimate-comparison-guide-2024#:~:text=Burton%20Flight%20Attendant</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2024</date_of_first_relevance>
+      <date_of_last_relevance>2025</date_of_last_relevance>
+      <reasoning>Comparison guide listing competitor boards and prices. USD pricing may be slightly dated but provides useful relative comparison.</reasoning>
+      <evidentiary_alignment>0.72</evidentiary_alignment>
+      <source_credibility>0.55</source_credibility>
+      <attribute_importance>0.6</attribute_importance>
+    </citation>
+
+    <citation id="70">
+      <quotelist>
+        <url>https://www.slashboardshop.com/top-10s/best-all-mountain-freestyle-snowboards-top-10</url>
+        <quote>Overall, you really can't go wrong with the Mountain Twin. It's a great choice for intermediate riders and up.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.slashboardshop.com/top-10s/best-all-mountain-freestyle-snowboards-top-10#:~:text=Mountain%20Twin</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Specialist retailer review listing Jones Mountain Twin as a comparable all-mountain board for intermediate+ riders.</reasoning>
+      <evidentiary_alignment>0.72</evidentiary_alignment>
+      <source_credibility>0.62</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="71">
+      <quotelist>
+        <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-freeride-snowboards.html</url>
+        <quote>PRICE: $669.95 / €629.95 SIZES: 152, 155, 158, 161, 159W, 162W, 165W FLEX: 8 SHAPE: Directional</quote>
+      </quotelist>
+      <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-freeride-snowboards.html#:~:text=Rome%20Ravine%20Pro</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Whitelines review of comparable freeride boards. Rome Ravine Pro is a relevant directional freeride competitor.</reasoning>
+      <evidentiary_alignment>0.72</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+
+    <citation id="72">
+      <quotelist>
+        <url>https://www.slashboardshop.com/top-10s/best-all-mountain-freestyle-snowboards-top-10</url>
+        <quote>The YES Typo is a top-tier all-mountain freestyle snowboard.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.slashboardshop.com/top-10s/best-all-mountain-freestyle-snowboards-top-10#:~:text=YES%20Typo</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Relevant competitor in the all-mountain space.</reasoning>
+      <evidentiary_alignment>0.68</evidentiary_alignment>
+      <source_credibility>0.62</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="73">
+      <quotelist>
+        <url>https://www.snowmagazine.com/features/top-tens/5-best-freeride-snowboards</url>
+        <quote>The T.Rice Orca is basically a Fish board - a short, fat model with a wide nose built for quick turns in powder.</quote>
+      </quotelist>
+      <url_with_text_link>https://www.snowmagazine.com/features/top-tens/5-best-freeride-snowboards#:~:text=T.Rice%20Orca</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2019</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Snow Magazine's freeride board roundup. Lib Tech Orca is a relevant competitor in the directional freeride space.</reasoning>
+      <evidentiary_alignment>0.68</evidentiary_alignment>
+      <source_credibility>0.72</source_credibility>
+      <attribute_importance>0.5</attribute_importance>
+    </citation>
+
+    <citation id="74">
+      <quotelist>
+        <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-freeride-snowboards.html</url>
+        <quote>Construction Freeride snowboards tend to come in at a higher price point than your run-of-the-mill park or all-mountain deck.</quote>
+      </quotelist>
+      <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-freeride-snowboards.html#:~:text=higher%20price%20point</url_with_text_link>
+      <date_url_retrieved>2026-04-28</date_url_retrieved>
+      <date_of_first_relevance>2025</date_of_first_relevance>
+      <date_of_last_relevance>2026</date_of_last_relevance>
+      <reasoning>Whitelines editorial context about freeride board pricing — the Vantum's AUD ~$1000 price is consistent with this category positioning.</reasoning>
+      <evidentiary_alignment>0.75</evidentiary_alignment>
+      <source_credibility>0.8</source_credibility>
+      <attribute_importance>0.55</attribute_importance>
+    </citation>
+  </citations>
+</response>

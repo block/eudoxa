@@ -1,0 +1,963 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="12" category="availability" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="10" category="performance" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="9" category="comparable" />
+  <duplicate_canonical name="sustainability_certification" count="6" category="sustainability" />
+  <duplicate_canonical name="construction_material_innovation" count="6" category="construction" />
+  <duplicate_canonical name="contact_length_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="6" category="review" />
+  <duplicate_canonical name="shape" count="4" category="geometry" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="pro_rider_name" count="3" category="brand_info" />
+  <duplicate_canonical name="camber_description" count="3" category="performance" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="3" category="review" />
+  <duplicate_canonical name="model_name" count="2" category="identity" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="edge_hold" count="2" category="unknown" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1]
+2. model_name: TRS (Total Ripper Series) [1][2]
+3. manufacturer: Mervin Manufacturing [1][6]
+4. model_year: 2024-2025 (listed as "Lib Tech 2024-2025") [1]
+5. product_type: Snowboard [1]
+6. board_category: Freestyle / All Mountain [1]
+7. model_name: TRS HP (Horsepower Pop) [1]
+8. SKU (manufacturer): trs-hp [1]
+9. model_first_available_year: 2006 (as TRS MTX with camber) [3]
+10. TRS model history: originally a park/slopestyle stick, progressed to all-terrain use [2]
+11. comparable_board_same_brand: Lib Tech No.43 [4]
+12. pro_rider_name: Phil Hansen [5]
+13. pro_rider_name: Joey Okesson and Liam Gill [6]
+14. pro_rider_name: EJack, Jamie Lynn, and Fredi K [7]
+15. graphic_designer_artist: Phil Hansen (@phliphansen) [1]
+16. shape: Twin (same tip to tail, performs equally in switch and regular) [8]
+17. shape: Directional Twin [9]
+18. shape: True Twin – perfectly symmetrical for a balanced ride [10]
+19. shape: Merchant data and Stoked Boardshop list it as "Directional Twin" [9], while the manufacturer page calls it "Twin" [1] and Blue Tomato calls it "True Twin" [10], and evo says "Directional Twin" [11]. The small 0.5" setback explains the twin/directional-twin confusion. The Good Ride notes "almost a true twin thing happening here, except for the .5" setback on sidecut" [12].
+20. camber_type: C3 Camber [1]
+21. camber_description: Aggressive dominant camber zones out to the contacts combined with mild rocker between your feet [7]
+22. camber_description: Subtle Banana rocker gives freestyle freedom with maximum end-to-end stability for big, high-speed lines [7]
+23. camber_description: Mellow C3 camber; less high camber than the Dynamo, Antigravity, and many other C3 boards [13]
+24. setback: 0.5 inches (all sizes) [1]
+25. flex_rating_10_manufacturer: 6/10 [1]
+26. flex_rating_10_manufacturer: 5/10 [1]
+27. flex_rating_10_manufacturer: 7/10 [1]
+28. flex_rating_10_evo: Medium - Stiff – stout enough to charge without excessive harshness [7]
+29. flex_feel: Medium-stiff flex delivers smoothness and stability at high speeds [10]
+30. flex_rating_10: Lists flex as 7 [14]. Manufacturer lists 6 for the 157. This may be a retailer estimation difference.
+31. flex_feel: Feels about 5/10 despite being labelled "mid-stiff" [15]. Multiple forum users also describe it as riding stiffer than rated [16].
+32. flex_feel: Decent medium-ish flex; not super easy or hard to butter, right down the middle [13]
+33. flex_rating_10_manufacturer: Smallest (154) = 5, Mid (157/159) = 6, Largest (162) = 7 [1]
+34. core_material: HPP - Horsepower Pop: 60% Aspen, 40% Paulownia [1][17]
+35. sustainability_certification: FSC certified [1]
+36. laminate: Triaxial/Biaxial Fiberglass with Magnesium Techno Fiber Bands and Carbon [17]
+37. construction_material_innovation: High magnesium content glass fiber with high tensile strength and high elastic modulus [17]
+38. construction_material_innovation: Carbon included in construction [1][17]
+39. construction_material_innovation: Org-Throttle – transverse oriented grain maple energy transfer platforms [1]
+40. construction_material_innovation: Manufacturer/most retailers describe Org-Throttles as maple [1]. Empire boardshop describes them as bamboo [6]. Blauer Boardshop also says bamboo [18]. This is inconsistent across retailers.
+41. sidewall_material: Birch Internal Sidewalls – extremely rugged high impact 6 ply sidewall reinforcement [17]
+42. sidewall_material: UHMW Sintered Sidewalls – strong high impact ultra-high molecular weight polyethylene [17]
+43. construction_material_innovation: UHMW Tip/Tail Impact Deflection [17]
+44. topsheet: Eco Sublimated Poly Top – high strength, impact resistant, UV and temperature resistant [17]
+45. base_material: Sintered Knife Cut Base – double layer ultra-high molecular weight polyethylene [9]
+46. base maintenance: Regular waxing and professional repairs required [9]
+47. available_colors: Random [8]
+48. edge_technology: Magne-Traction – 7 strategically placed edge serrations [9]
+49. mounting_pattern: 2x4 inserts [9]
+50. manufacturing_location: Hand made at the Mervin Factory in Washington, USA [17]
+51. sustainability_certification: Zero hazardous waste [17][19]
+52. available_sizes: 154cm, 157cm, 159cm, 162cm [1]
+53. available_sizes: 157W, 159W [1]
+54. contact_length_size: 115cm [1]
+55. sidecut_radius_size: 8.2m [1]
+56. tip_tail_width_size: 29.2cm [1]
+57. waist width (154): 25.3cm [1]
+58. stance_width_range_size: 20.25"–25" / 0.5" increments [1]
+59. flex_rating_10_manufacturer: 5 [1]
+60. recommended_weight_range_size: 120+ lbs / 54+ kg [1]
+61. contact_length_size: 117cm [1]
+62. sidecut_radius_size: 8.3m [1]
+63. tip_tail_width_size: 29.3cm [1]
+64. waist width (157): 25.3cm [1]
+65. flex_rating_10_manufacturer: 6 [1]
+66. recommended_weight_range_size: 130+ lbs / 59+ kg [1]
+67. contact_length_size: 117cm [1]
+68. sidecut_radius_size: 8.3m [1]
+69. tip_tail_width_size: 30.1cm [1]
+70. waist width (157W): 26.0cm [1]
+71. flex_rating_10_manufacturer: 6 [1]
+72. recommended_weight_range_size: 130+ lbs / 59+ kg [1]
+73. contact_length_size: 119cm [1]
+74. sidecut_radius_size: 8.32m [1]
+75. tip_tail_width_size: 29.4cm [1]
+76. waist width (159): 25.3cm [1]
+77. flex_rating_10_manufacturer: 6 [1]
+78. recommended_weight_range_size: 140+ lbs / 65+ kg [1]
+79. contact_length_size: 119cm [1]
+80. sidecut_radius_size: 8.32m [1]
+81. tip_tail_width_size: 30.2cm [1]
+82. waist width (159W): 26.0cm [1]
+83. flex_rating_10_manufacturer: 6 [1]
+84. recommended_weight_range_size: 140+ lbs / 65+ kg [1]
+85. contact_length_size: 122cm [1]
+86. sidecut_radius_size: 8.45m [1]
+87. tip_tail_width_size: 29.8cm [1]
+88. waist width (162): 25.6cm [1]
+89. flex_rating_10_manufacturer: 7 [1]
+90. recommended_weight_range_size: 150+ lbs / 70+ kg [1]
+91. recommended boot sizes (The Good Ride): 154: 8-9, 157: 8.5-9.5, 159: 8.5-9.5, 162: 9.5-10.5, 157W: 10-11, 159W: 10-11 [12]
+92. price_usd_msrp: $699.99 [1]
+93. price_usd_evo: $559.99 (from $699.99) [20]
+94. price_usd_evo: $489.99 (from $699.99) [21]
+95. sale price (The House): $454.99–$489.99 [22]
+96. price_eur_blue_tomato: €489.95 [22]
+97. price_aud_merchant: $818.99 (RRP $1,169.99, 30% off) [8] — merchant verified
+98. manufacturer review rating: 95% of 100, 24 reviews [1]
+99. availability_status: evo.com (major US online retailer, lowest price guarantee, free shipping >$50, 1-year return policy) [20]
+100. availability_status: The House (thehouse.com, US retailer, up to 50% off sales) [22]
+101. availability_status: Stoked Board Shop (EU, best price guarantee, 100-day free returns) [22]
+102. availability_status: Blauer Board Shop (US specialty retailer) [17]
+103. availability_status: Rude Boys (Banff, Alberta, Canada) [23]
+104. availability_status: Melbourne Snowboard Centre (Australia) [8]
+105. availability_status: Empire (thinkempire.com, Canadian retailer, 30-day easy returns) [6]
+106. availability_status: Blue Tomato (EU retailer) [10]
+107. availability_status: Shoreline of Tahoe [24]
+108. availability_status: lib-tech.com (direct, manufacturer-run store) [1]
+109. availability_status: Salty Peaks Board Shop [25]
+110. availability_status: The Source Snowboard & Skate [14]
+111. warranty: 1 year against manufacturer defects from date of purchase from authorized dealer [26]
+112. warranty: Covers defects in materials and workmanship only; does NOT cover impact damage, abuse, misuse, or normal wear [26]
+113. comparable_board_cross_brand: 2 year warranty [27]
+114. user_review_forum: Lib Tech/Mervin warranty department praised as "top notch"; replaced boards even without receipt [28]
+115. sustainability_certification: Zero hazardous waste manufacturing [19]
+116. sustainability_certification: 89% of factory power is generated through wind or water [29]
+117. manufacturing_location_current: Carlsborg (Sequim), Washington, USA [30]
+118. sustainability_certification: Non-petroleum based bio-plastics (from castor beans), soy-based elastomer sidewalls, low VOC epoxy resin, additive-free basalt fibers, FSC Pure certified wood cores [31]
+119. sustainability_certification: Eco sublimation (not silkscreen), zero hazardous waste in printing [32]
+120. Mervin recent acquisition: Acquired by Spring Capital Group (2026), continuing environMENTAL practices [33]
+121. awards: Multiple Transworld Good Wood awards [5]
+122. Good Wood streak: As of 2014, had made the Good Wood list for 10 years in a row (between TRS regular and narrow) [34]
+123. competitive wins referenced: Olympic medals, World Freeride Tour gold, slopestyle championships [1]
+124. reviewer_opinion_the_good_ride: Great for hard/icy snow; not recommended for powder [12]
+125. edge_hold: Aggressive sidecut disruption grips extremely well; standout quality [13]
+126. carving_rating_tgr: Initiated turns quickly, balanced turning, carved well for a twin [13]
+127. base_glide_performance: Doesn't have the base glide that most rides at this price point do [35]
+128. powder_rating_tgr: Every past TRS model never floated well compared to peers; not for setback powder riding [35]
+129. pop: Pops pretty well for having such a mellow camber [13]
+130. reviewer_opinion_the_good_ride: Dampen the ride better in uneven snow vs previous model without the plates [13]
+131. turn_initiation_performance: Super-fast from edge-to-edge for short tight turns [36]
+132. edge_hold: Particularly good for icy-ish snow; could really feel the edges dig in [36]
+133. powder_score_snowboardingprofiles: Not a powder machine; virtually no rocker, true twin shape and centered reference stance [37]
+134. reviewer_opinion_snowboardingprofiles: Bang on average weight; not overly damp, not overly chattery [37]
+135. chatter_performance: More snappy than smooth, just to the snappy side of middle [37]
+136. reviewer_opinion_snowboardingprofiles: Best suited for riders who want to take the whole mountain and treat it like a park, on the aggressive side [37]
+137. reviewer_opinion_the_good_ride: Great mountain freestyle twin for hard/icy snow; might want something else for powder [12]
+138. pipe_rating_tgr: One of the best boards around for pipe riding [38]
+139. rider_level: Intermediate - Advanced [8]
+140. skill_level_recommendation: Advanced-Expert [7]
+141. skill_level_recommendation: Intermediate to pro riders [10]
+142. reviewer_opinion_the_good_ride: On border between stable/forgiving and semi-catchy like full-on camber; can feel catchy, not easiest to skid a turn [13]
+143. riding_style: Aggressive freestyle shredding all over the mountain from park to backcountry [1]
+144. switch_riding: Very centered feel due to near-true-twin shape with 0.5" setback [12]
+145. reviewer_opinion_the_good_ride: Decent medium-ish flex; not super easy or hard to butter [13]
+146. user_review_forum: Not a great jib/rail board due to stiffness; decent for boxes/rails if skilled, better for pipe and bigger jumps [39]
+147. negative_aspect: Some concern about Mervin boards' durability; topsheet delamination issues reported; lack of fully wrapped edges [40]
+148. terrain_suitability: Performed great in wet powder; recommended for PNW or wet coastal snowpack [40]
+149. comparable_board_cross_brand: Capita Defenders of Awesome (DOA) – MSRP $579 for 2026 at evo [41]; more freestyle-focused, similar price tier but cheaper
+150. comparable_board_cross_brand: Jones Mountain Twin – MSRP $579.95 [42]; better for powder, serrated Traction Tech edges
+151. comparable_board_cross_brand: GNU Rider's Choice – sister board from Mervin, same C3 profile but asymmetric [13]
+152. comparable_board_cross_brand: Burton Custom Twin – all-mountain freestyle competitor [43]
+153. comparable_board_cross_brand: Salomon Assassin – all-mountain freestyle with softer buttery feel [43]
+154. comparable_board_cross_brand: Ride TwinPig – similar board listed by The Good Ride [38]
+155. user_review_forum: TRS considered more playful; DOA has more Good Wood awards; TRS superior edge hold from Magne-Traction [44]
+156. reviewer_opinion_snowboardingprofiles: TRS slightly better for jumps/switch/spins; MT better for speed and powder [45]
+157. user_review_forum: TRS is more all-mountain while Box Knife leans more freestyle [46]
+158. comparable_board_cross_brand: Capita DOA listed at $463.96 on sale vs TRS at $559.99 on sale; DOA is typically cheaper [41][20]
+159. comparable_board_cross_brand: Capita offers 2-year warranty vs Lib Tech's 1-year [27][26]
+160. reviewer_opinion_the_good_ride: Camber to MTX with Camber (2006-07), to BTX (2008-10), to C2 Power BTX (2011), to XC2 BTX (2014), to C3 (2021+) [3]
+161. redesign_year: Changes from 2024 weren't super significant [47]
+162. construction_material_innovation: Horsepower POP (HPP) – NEW designation with Magnesium Techno Fiber Bands [17]
+163. predecessor flex evolution (Melbourne Snowboard): Evolved from primarily park-focused softer flexing board to all-mountain powerhouse [8]
+164. Lib Tech brand history: Co-founded by Mike Olson and Pete Saari; Lib Tech brand born from "Liberace Technologies" joke [48]
+165. Mervin founding: Roots traceable to 1977; Mervin Mfg officially formed 1988 [30]
+166. Mervin factory opened: 1995 in current location [30]
+167. Mervin brands: Lib Tech, GNU, Bent Metal, Roxy [30]
+168. brand reputation: One of few snowboard companies designing and manufacturing in same place (USA) [30]
+169. Mervin founder background: 40+ years of board building and technology innovation [48]
+170. Magne-Traction invention: Lib Tech pioneered Magne-Traction serrated edge technology [48]
+171. Banana Tech invention: Lib Tech launched revolutionary Skate Banana (2007), ushering in reversed camber industry-wide [48]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.lib-tech.com/trs-hp</url>
+  <quote>SKU trs-hp Rating: 95% of 100 24 Reviews $699.99 FREESTYLE / ALL MOUNTAIN - TWIN</quote>
+  <quote>Size specs table showing 154-162 and Wide variants with contact, sidecut, waist, stance, flex, weight values</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/trs-hp#:~:text=SKU,trs-hp</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Official manufacturer product page. This is the authoritative source for specifications, pricing, and product classification. All measurement data from this source should be treated as highest confidence.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.lib-tech.com/trs-hp</url>
+  <quote>The Lib Tech TRS Total Ripper Series Snowboard was originally designed as a park and slopestyle stick, but has progressed to being used in every terrain and discipline imaginable.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/trs-hp#:~:text=originally%20designed%20as%20a%20park</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Official manufacturer description of the product's heritage and evolution. Marketing language but factually describes the product history accurately.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>2008-2010 Lib Tech TRS BTX- Continuous Rocker Twin Like Directional centered stance 2006-2007 Lib Tech TRS MTX- Camber Twin Like Directional centered stance.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=2006-2007%20Lib%20Tech%20TRS%20MTX</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2006</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-known independent snowboard review site. This provides the model history timeline. They've reviewed TRS boards since 2010 with 60+ days of riding across models.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-review</url>
+  <quote>The Lib Tech No.43 is the women's equivalent of the TRS and comes in a 146, 149 & 152.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-review#:~:text=The%20Lib%20Tech%20No.43%20is%20the%20women%27s%20equivalent</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles is an established review site. Identifies the women's equivalent model for buyers considering this board in a different gender-specific option.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/lib-tech-trs</url>
+  <quote>check out Lib-Tech pro Phil Hansen and you will understand exactly what we mean.</quote>
+  <quote>multiple Transworld Good Wood awards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-trs#:~:text=Phil%20Hansen</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Australian authorized retailer. Merchant-verified data about pro rider association and awards. Melbourne Snowboard Centre is a reputable specialist store.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://thinkempire.com/products/libtech-trs-snowboard-wt25</url>
+  <quote>A Phil Hansen, Joey Okesson and Liam Gill favorite.</quote>
+  </quotelist>
+  <url_with_text_link>https://thinkempire.com/products/libtech-trs-snowboard-wt25#:~:text=Phil%20Hansen%2C%20Joey%20Okesson</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Empire is a Canadian retailer. Lists additional pro riders associated with the TRS. Also uses "bamboo" for Org-Throttles instead of "maple".</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard</url>
+  <quote>C3 Camber – Aggressive dominant camber zones out to the contacts combined with mild rocker between your feet.</quote>
+  <quote>Medium - Stiff – Stout enough to charge your hardest but without excessive harshness.</quote>
+  <quote>EJack, Jamie Lynn, and Fredi K's favorite.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard#:~:text=C3%20Camber</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>evo.com is one of the largest and most reputable snowboard retailers in the US. Their product descriptions are derived from manufacturer data and should be considered highly reliable.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/lib-tech-trs</url>
+  <quote>Rider Level: Intermediate - Advanced Board Type: All Mountain Freestyle Camber Type: C3</quote>
+  <quote>Base colours are random.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-trs#:~:text=Rider%20Level%3A%20Intermediate</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is a merchant-verified source providing standardized product attributes. AUD pricing is included in merchant-provided data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.stokedboardshop.com/products/trs-2025-snowboard</url>
+  <quote>Shape Directional Twin</quote>
+  <quote>Sintered Knife Cut Base - The base was made with a double layer of ultra-high molecular weight polyethylene.</quote>
+  <quote>Magne-Traction® – 7 stategically placed edge serrations.</quote>
+  <quote>2x4 - This system is the most common pattern for snowboards today.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.stokedboardshop.com/products/trs-2025-snowboard#:~:text=Shape%20Directional%20Twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Stoked Boardshop is an EU-based specialty retailer. Provides detailed technical specifications. Lists shape as "Directional Twin" which conflicts with manufacturer's "Twin".</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.blue-tomato.com/en-GB/product/Lib+Tech-TRS+2025+Snowboard-729926/</url>
+  <quote>The True Twin shape is perfectly symmetrical for a balanced ride that's equally versatile when ridden forward or switch.</quote>
+  <quote>The medium-stiff flex delivers smoothness and stability at high speeds</quote>
+  </quotelist>
+  <url_with_text_link>https://www.blue-tomato.com/en-GB/product/Lib+Tech-TRS+2025+Snowboard-729926/#:~:text=True%20Twin%20shape</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Blue Tomato is a major European snowboard/action sports retailer. Their description calls it "True Twin" which is a third variation on the shape classification across retailers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/lib-tech-trs-c3-snowboard-2023</url>
+  <quote>This directional twin is built to trick it's way across the mountain</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/lib-tech-trs-c3-snowboard-2023#:~:text=directional%20twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Evo refers to the TRS as a "directional twin" in their product copy, which supports the Stoked Boardshop classification.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>The Lib Tech TRS is a great mtn freestyle twin for those who see a lot of hard to icy snow but you might want something else for powder.</quote>
+  <quote>You have almost a true twin thing happening here, except for the .5″ setback on sidecut so it felt really centered.</quote>
+  <quote>154: 8-9 157: 8.5-9.5 159: 8.5-9.5 162: 9.5-10.5 157w: 10-11 159w: 10-11</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=great%20mtn%20freestyle%20twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>The Good Ride is one of the most comprehensive and trusted independent snowboard review sites. Their boot size recommendations and terrain assessments are based on extensive real-world testing.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>There is a mellow C3 camber happening here. In comparison to the Dynamo, Antigravity, and many other boards out there with C3, it has a less high camber.</quote>
+  <quote>There is a decent medium-ish flex happening with the Lib Tech TRS that isn't super easy or hard to butter.</quote>
+  <quote>It pops pretty well for having such a mellow camber.</quote>
+  <quote>I like the addition of the ORG Throttle Platforms in the Lib Tech TRS because they dampen the ride a little better in uneven snow</quote>
+  <quote>There is a pretty aggressive disruption in the Lib Tech TRS's sidecut, and this grips like a champ.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=mellow%20C3%20camber</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Detailed riding impressions from The Good Ride's 2025 model review. Provides comparative context to other C3 boards and specific performance attributes based on hands-on testing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/lib-tech-mens-trs-snowboard-2025</url>
+  <quote>Flex: 7</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/lib-tech-mens-trs-snowboard-2025#:~:text=Flex%3A%207</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>The Source boards lists flex as 7, conflicting with manufacturer's 5-6-7 size-dependent rating. May be an error or simplification by the retailer.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-review</url>
+  <quote>it feels about a 5/10 for flex (rather than the "mid-stiff" that it's labelled as).</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-review#:~:text=feels%20about%20a%205%2F10%20for%20flex</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles' on-snow flex assessment differs from other reviewers who call it stiff. This is the C2X model review, not the C3 2025, so there may be a flex change. Important context for flex disagreements.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-tech-trs-flex-question.279098/</url>
+  <quote>So I've since bought this board 2024 TRS and can agree that it is stiff. Maybe too stiff for me.</quote>
+  <quote>Even the mervin rep I emailed said it's stiff and stiffer than the rider's choice</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-trs-flex-question.279098/#:~:text=stiff.%20Maybe%20too%20stiff</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-04</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum discussion directly addressing the flex confusion. A Mervin rep confirmed stiffness exceeding what the website number suggests. Multiple users corroborate the board feels stiffer than its listed rating.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/lib-tech-trs-2025</url>
+  <quote>NEW Horsepower POP (HPP) Construction – Combines 60% Aspen and 40% Paulownia woods with Triax, Magnesium Techno Fiber Bands and Carbon</quote>
+  <quote>Birch Internal Sidewalls - Extremely rugged high impact 6 ply sidewall reinforcement.</quote>
+  <quote>UHMW Sintered Sidewalls - Strong high impact ultra-high molecular weight polyethylene.</quote>
+  <quote>UHMW Tip/Tail Impact Deflection</quote>
+  <quote>Eco Sublimated Poly Top</quote>
+  <quote>Mervin Made – Hand made at the Mervin Factory in Washington, USA with zero hazardous waste.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/lib-tech-trs-2025#:~:text=Horsepower%20POP</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides the most detailed construction breakdown of any retailer, listing each technology layer. This is consistent with manufacturer data and provides construction specifics important to informed buyers.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/lib-tech-trs-2025</url>
+  <quote>Org-Throttles – Bamboo energy transfer platforms which allow more powerful turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/lib-tech-trs-2025#:~:text=Org-Throttles%20%E2%80%93%20Bamboo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Blauer lists Org-Throttles as "bamboo" while the manufacturer page says "maple." This is a material disagreement across sources. May reflect updated specs or retailer error.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>Our zero hazardous waste producing gravity toys come in the shape of snowboards, surfboards, skis and skateboards, and we make them right here in Sequim, WA</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/#:~:text=zero%20hazardous%20waste</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1995</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing website. Primary source for the company's environmental and manufacturing claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard</url>
+  <quote>Lib Tech TRS C3 Snowboard 2025 $699.99 $559.99 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard#:~:text=%24699.99%20%24559.99</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo.com current sale listing. Prices fluctuate but shows the 2025 model at 20% off MSRP. evo is a top-tier US retailer with price-match guarantees.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard-2024</url>
+  <quote>Lib Tech TRS C3 Snowboard 2025 · $699.99 $489.99 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-trs-c3-snowboard-2024#:~:text=%24699.99%20%24489.99</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Prior year TRS available at deeper discount. Shows the price advantage of buying last year's model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>$489.99 Buy it Now Buy Lib Tech TRS from The House $454.99 Buy it Now Buy Lib Tech TRS from The House</quote>
+  <quote>€489.95 Buy it Now Buy Lib Tech TRS from Stoked Board Shop</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=%24454.99%20Buy%20it%20Now</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride aggregates pricing from multiple affiliate retailers. Prices are snapshot values and may have changed. Shows availability at The House and Stoked Board Shop.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://rudeboys.com/products/lib-tech-trs-snowboard-w25</url>
+  <quote>2025 LIB TECH TRS SNOWBOARD · 159</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/lib-tech-trs-snowboard-w25#:~:text=2025%20LIB%20TECH%20TRS</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Rude Boys is a Banff, Alberta specialty retailer. Confirms Canadian availability of the 2025 TRS.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://shorelineoftahoe.com/products/trs-snowboard-25</url>
+  <quote>Lib Tech TRS Snowboard 2025</quote>
+  </quotelist>
+  <url_with_text_link>https://shorelineoftahoe.com/products/trs-snowboard-25#:~:text=Lib%20Tech%20TRS%20Snowboard%202025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Shoreline of Tahoe is a Lake Tahoe specialist retailer stocking the 2025 TRS.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/trs-snowboard-1702082879/</url>
+  <quote>The TRS series has stood the test of time. Originally created as a park board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/trs-snowboard-1702082879/#:~:text=TRS%20series%20has%20stood</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>Salty Peaks is a well-known Utah-based specialty retailer. Provides context on the TRS's history from a dealer perspective.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.lib-tech.com/support</url>
+  <quote>All products made by Lib Tech have a one year warranty against manufacturer's defects from the date of purchase from a Lib Tech Authorized Dealer.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/support#:~:text=one%20year%20warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Lib Tech support page. Authoritative source for warranty terms. The 1-year warranty is notable as some competitors offer 2-3 years.</reasoning>
+  <evidentiary_alignment>0.98</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.tactics.com/capita/doa-defenders-of-awesome-snowboard</url>
+  <quote>2 Year Warranty - Covered under manufacturer warranty for 2 years from the time of purchase.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/capita/doa-defenders-of-awesome-snowboard#:~:text=2%20Year%20Warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics.com is a major US retailer. The DOA's 2-year warranty vs TRS's 1-year is a meaningful purchase consideration.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-techs-warranty-policy.37972/</url>
+  <quote>The guys at Mervin totally exceeded my expectations.</quote>
+  <quote>their warranty department shouldn't ever be one of your gripes- they're absolutely top notch</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-techs-warranty-policy.37972/#:~:text=exceeded%20my%20expectations</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2011</date_of_first_relevance>
+  <date_of_last_relevance>2015</date_of_last_relevance>
+  <reasoning>Forum anecdotes about warranty service. Multiple users report positive warranty experiences. While anecdotal, the consistency of praise across users increases confidence. Older data but pattern appears ongoing.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.the-house.com/portal/mervin-manufacturing-sustainability/</url>
+  <quote>Of the power that Mervin uses, 89% of it is generated through wind or water.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/portal/mervin-manufacturing-sustainability/#:~:text=89%25%20of%20it%20is%20generated</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>The House is a reputable US snowboard retailer. Their sustainability article provides the specific 89% renewable energy figure which aligns with Mervin's own claims.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/mervin-manufacturing-environmental-snowboard-factory</url>
+  <quote>Mervin Manufacturing's roots can be traced back to 1977 but it was 1988 when Mervin Manufacturing was officially a thing</quote>
+  <quote>The factory that Mervin now operates from was opened in 1995.</quote>
+  <quote>Mervin Manufacturing operates out of Carlsborg, Washington</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/mervin-manufacturing-environmental-snowboard-factory#:~:text=roots%20can%20be%20traced%20back%20to%201977</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles provides a detailed history of Mervin Manufacturing. Well-researched article that cross-references other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>Eco Materials like Non-petroleum based bio-plastics, soy based elastomer sidewalls, low VOC epoxy, additive free basalt fibers and FSC "pure" certified wood cores.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/#:~:text=Eco%20Materials%20like%20Non-petroleum</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Mervin Made website lists their eco-materials. Authoritative source for environmental material claims.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url>
+  <quote>Mervin sublimates rather than silkscreens its graphics. Our sublimation process eliminates the need for the super toxic automotive lacquer gloss coats</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/#:~:text=sublimates%20rather%20than%20silkscreens</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2008</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Lib Tech blog post about manufacturing processes. Sublimation printing is a core differentiator for Mervin's eco approach.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.snowsportsnews.com/newsrepository/2026/april/mervin-manufacturing-acquired-by-spring-capital-group-a-new-chapter-for-us-board-building/</url>
+  <quote>Sustainability: The partnership will continue to prioritize Mervin's "environMENTAL" manufacturing processes, which utilize eco-friendly materials and zero hazardous waste.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowsportsnews.com/newsrepository/2026/april/mervin-manufacturing-acquired-by-spring-capital-group-a-new-chapter-for-us-board-building/#:~:text=continue%20to%20prioritize</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Recent news about Mervin's acquisition. Relevant to long-term brand stability and continued manufacturing practices. Spring Capital commits to US factory investment.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.lib-tech.com/blog/2014/10/13/2015-lib-tech-trs-narrow-earns-good-wood-status/</url>
+  <quote>the Lib Tech TRS has made the Good Wood list for 10 years in a row.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/blog/2014/10/13/2015-lib-tech-trs-narrow-earns-good-wood-status/#:~:text=10%20years%20in%20a%20row</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2015</date_of_last_relevance>
+  <reasoning>Official Lib Tech blog confirming 10-year Good Wood streak as of 2014. This is a strong credibility marker for the model's longevity and recognition.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>The Lib Tech TRS doesn't have the base glide that most rides at this price point do.</quote>
+  <quote>every past model TRS I've tried never floated well compared to its peers.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=doesn%27t%20have%20the%20base%20glide</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>The Good Ride's negative observations about base glide and powder performance are important purchase considerations. These are consistent findings across model years.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-review</url>
+  <quote>Super-fast from edge-to-edge for those short tight turns</quote>
+  <quote>It's got particularly good edge-hold for when your on hard or icy-ish snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-review#:~:text=Super-fast%20from%20edge-to-edge</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles tested an earlier C2X model but the fundamental Magne-Traction edge hold and twin characteristics carry over to the C3. Provides on-snow rider perspective.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-c3-review-all-mtn-freestyle-snowboard</url>
+  <quote>More snappy than it is smooth, but just to the snappy side of middle.</quote>
+  <quote>based on specs and feel, it wouldn't be a great board in powder.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-c3-review-all-mtn-freestyle-snowboard#:~:text=More%20snappy%20than%20it%20is%20smooth</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles C3 model-specific review. Tested 2021 model; notes 2025 changes weren't "super significant." Provides on-snow assessments for dampness and powder limitations.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/</url>
+  <quote>The Lib Tech TRS is one of the best boards around for pipe riding.</quote>
+  <quote>The Lib Tech TRS has more awards than some companies have in their entire lineup.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-trs-snowboard-review/#:~:text=best%20boards%20around%20for%20pipe</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>The Good Ride's highlight of pipe riding as a standout use case, and awards recognition. Important for riders considering pipe use.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-tech-trs.191554/</url>
+  <quote>doesn't seem like a good jib/rail board, its pretty damn stiff, great for jumps tho and all mountain charging.</quote>
+  <quote>The TRS has is easy to butter on since its softer than like a travis rice.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-trs.191554/#:~:text=doesn%27t%20seem%20like%20a%20good%20jib</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2015</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>User forum perspectives on the TRS's jibbing limitations. Older model versions but the core flex personality has been consistent. Multiple users confirm it's better for jumps/pipe than rails.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://mtnweekly.com/reviews/snowboards/lib-tech-trs-snowboard/</url>
+  <quote>I've always had an issue with the durability of Mervin boards</quote>
+  <quote>I've had to epoxy dozens of de-laminated top sheets including 2 of my own.</quote>
+  <quote>The TRS performed great in the wet powder offering tons of float and minimal effort.</quote>
+  </quotelist>
+  <url_with_text_link>https://mtnweekly.com/reviews/snowboards/lib-tech-trs-snowboard/#:~:text=durability%20of%20Mervin%20boards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Mountain Weekly News provides a detailed professional review including a durability concern specific to Mervin manufacturing. The topsheet delamination issue is a known concern from an experienced tuner's perspective. Balances this with positive wet powder performance.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/capita-defenders-of-awesome-snowboard-review/</url>
+  <quote>$463.96 Buy it Now Buy Capita Defenders Of Awesome from evo</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/capita-defenders-of-awesome-snowboard-review/#:~:text=%24463.96</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride's affiliate pricing for the DOA. Shows the DOA as significantly cheaper than the TRS at current sale prices.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/best-all-mountain-snowboards/</url>
+  <quote>At $579.95, the Jones Mountain Twin can handle every single type of condition</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/best-all-mountain-snowboards/#:~:text=%24579.95%2C%20the%20Jones%20Mountain%20Twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World is a snowboard review site. Provides the Jones Mountain Twin pricing for competitor comparison.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.ourextremesports.com/archives/7988</url>
+  <quote>The Burton Custom Twin, Capita DOA, GNU Riders Choice, Lib Tech TRS, Salomon Assassin, Jones Mountain Twin, and Ride Twinpig each bring unique advantages</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ourextremesports.com/archives/7988#:~:text=Burton%20Custom%20Twin%2C%20Capita%20DOA</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Our Extreme Sports article listing the TRS among the top 7 all-mountain freestyle boards, providing the competitive landscape context for the category.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/libtech-trs-hp-or-capita-doa.258743/</url>
+  <quote>Both are fun but I would say trs is more playful. Doa has won a good wood award almost every year tho.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/libtech-trs-hp-or-capita-doa.258743/#:~:text=trs%20is%20more%20playful</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018-11</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Forum comparison of TRS vs DOA from user perspectives. While individual opinions, the consensus view about TRS being more playful is useful context.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-review</url>
+  <quote>I would favor the TRS C2X slightly for jumps, switch and spins, but the MT for speed and powder more so.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-review#:~:text=favor%20the%20TRS%20C2X%20slightly%20for%20jumps</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Expert comparison between TRS and Jones Mountain Twin. Provides specific use-case trade-offs that help buyers decide between these common alternatives.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/libtech-box-knife-vs-trs.272267/</url>
+  <quote>TRS is more all mountain while Box Knife leans more toward freestyle.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/libtech-box-knife-vs-trs.272267/#:~:text=TRS%20is%20more%20all%20mountain</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-01</date_of_first_relevance>
+  <date_of_last_relevance>2023</date_of_last_relevance>
+  <reasoning>Forum discussion comparing TRS with Box Knife (another Lib Tech twin). Helps categorize TRS within the Lib Tech lineup for buyers considering the brand.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-trs-c3-review-all-mtn-freestyle-snowboard</url>
+  <quote>The changes to the 2025 model weren't super significant</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-trs-c3-review-all-mtn-freestyle-snowboard#:~:text=changes%20to%20the%202025%20model%20weren%27t%20super%20significant</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles' note on the 2025 model update scope. Useful for buyers deciding between a discounted 2024 and full-price 2025 model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.lib-tech.com/about-lib-tech/history</url>
+  <quote>Lib Tech co-founders Mike Olson and Pete Saari have been building dream boards and innovating technologies for forty + years.</quote>
+  <quote>from the ground breaking discoveries of Magne-Traction® serrated edge technology and shortly thereafter the revolutionary Skate Banana model which ushered in a "Banana Age" of reversed cambers</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/about-lib-tech/history#:~:text=Mike%20Olson%20and%20Pete%20Saari</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>Official Lib Tech history page. Authoritative source for brand history and innovation claims. Provides context for the Magne-Traction technology found on the TRS.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+</citations>
+</response>

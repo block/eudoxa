@@ -1,0 +1,887 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="15" category="availability" />
+  <duplicate_canonical name="comparable_board_same_brand" count="8" category="comparable" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="6" category="sustainability" />
+  <duplicate_canonical name="redesign_year" count="5" category="identity" />
+  <duplicate_canonical name="terrain_suitability" count="5" category="recommendation" />
+  <duplicate_canonical name="price_aud_merchant" count="4" category="pricing" />
+  <duplicate_canonical name="flex_feel" count="4" category="performance" />
+  <duplicate_canonical name="sidecut_type" count="4" category="unknown" />
+  <duplicate_canonical name="positive_aspect" count="4" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="skill_level_recommendation" count="3" category="recommendation" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="manufacturer" count="2" category="brand_info" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+  <duplicate_canonical name="pro_rider_name" count="2" category="brand_info" />
+  <duplicate_canonical name="model_first_available_year" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_5" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_10_evo" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="2" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="edge_hold" count="2" category="unknown" />
+  <duplicate_canonical name="chatter_performance" count="2" category="performance" />
+  <duplicate_canonical name="user_review_forum" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][22]
+2. model_name: Assassin [1][22]
+3. model_year: 2027 [104]
+4. product_type: Snowboard [22]
+5. board_category: All-Mountain / All-Mountain Freestyle [24][29]
+6. board_category: All-Mountain Freestyle quiver killer [1][9]
+7. gender: Men's [22][110]
+8. manufacturer: Annecy, France (design center) [86]
+9. manufacturer: Amer Sports [82]
+10. manufacturing_location_current: AMER factory in Altenmarkt, Austria (for skis; snowboard production may differ — some Salomon boards historically produced in China or via OEM) [86][87]
+11. manufacturing_location_current: Some Salomon snowboards labeled "Made in China" [87]
+12. pro_rider_name: Victor Daviet (Salomon team rider associated with the Assassin) [113][115][120]
+13. pro_rider_name: Louif Paradis, Harrison Gordon, Victor Daviet [113]
+14. model_first_available_year: ~2014 (The Good Ride review title says "Salomon Assassin 2014-2025") [5]
+15. redesign_year: 2019 — changed from True Twin to Directional Twin, new Quadratic sidecut [42]
+16. redesign_year: 2025 model — "underwent a significant re-tool" [42]
+17. warranty: 2 years (Salomon limited warranty for snowboards) [94][95][96][100][120]
+18. price_aud_merchant: $989.99 AUD [MERCHANT]
+19. price_aud_merchant: $989.99 AUD [104]
+20. availability_status: Preorder [MERCHANT][104]
+21. estimated_availability_date: April/May 2026 [104]
+22. price_aud_merchant: $899.99 AUD [110]
+23. price_aud_merchant: $659.99 AUD (was $879.99 AUD, -25%) [111]
+24. price_usd_msrp: $649.95 USD [62][REI data]
+25. price_usd_rei: $649.95 USD, on pre-order [REI]
+26. Price at Aspen Ski and Board (2026): $649.95 USD, backordered [62]
+27. comparable_board_same_brand: $699.95 USD [70]
+28. price_usd_msrp: ~$489.97–$559.96 USD depending on retailer [36]
+29. availability_status: REI Co-op (US) — pre-order; reputable major outdoor retailer [REI]
+30. availability_status: evo.com (US) — in stock (2026 model); reputable snowboard specialist [21]
+31. availability_status: Tactics (US) — available; reputable board shop [15]
+32. availability_status: Backcountry (US) — available [36]
+33. availability_status: Sun & Ski Sports (US) — available [36]
+34. availability_status: Christy Sports (US) — available [36]
+35. availability_status: The House (US) — available [24]
+36. availability_status: Absolute-Snow (UK) — available [37]
+37. availability_status: Snow+Rock (UK) — available; 3-Year warranty at retailer [92]
+38. availability_status: Balmoral Boards (AU) — 2027 preorder, $989.99 AUD [104]
+39. availability_status: Cherri Cherri Pow Pow (AU) — 2027 preorder [103]
+40. availability_status: Melbourne Snowboard Centre (AU) — 2027 preorder [109]
+41. availability_status: Salomon Australia official store — sold out of 2025/2026 model [110]
+42. price_usd_msrp: Gravity Coalition (US) — $489.97 [36]
+43. price_eur_blue_tomato: SnowCountry (EU) — €419.97–€569.00 [36]
+44. availability_status: Rude Boys (Banff, Canada) — available [94]
+45. shape: Directional Twin [22][24][MERCHANT]
+46. shape: A twin shape for freestyle moves with a directional flex for power at high speed [1]
+47. camber_type: Rock Out Camber [22][MERCHANT]
+48. camber_description: Flat between bindings for stability, camber near the feet for response, rocker on tip/tail for pressability [22][1]
+49. flex_rating_10: 6/10 [MERCHANT]
+50. flex_rating_5: 4/5 [1]
+51. flex_rating_10_evo: "Stiff" (evo standardizes 6-8/10 as stiff) [21]
+52. flex_feel: Snowboard Robot reviewer felt the Assassin was "quite soft" and softer than rated [50] — Comment: The merchant and manufacturer rate it as medium (6/10), while multiple reviewers felt it rode softer than advertised. This is a subjective measure.
+53. flex_direction: Directional flex (stiffer toward nose for freeride power) [1]
+54. sidecut_type: Quadralizer Sidecut [22][MERCHANT]
+55. sidecut_type: Combining Equalizer and Quadratic sidecuts, multiple radii for high-speed carving and edge control [22]
+56. core_material: Aspen SLCT Core (hand-selected Aspen wood strips) [22][MERCHANT]
+57. core_material: Aspen [22]
+58. sustainability_certification: FSC certified wood (noted on earlier models; "FSC certified wood strip" referenced) [1]
+59. laminate: BA MD Fiberglass (medium density) [24][MERCHANT]
+60. construction_material_innovation: Carbon stringers in nose/tail (part of Popster Eco Booster) [22][MERCHANT]
+61. construction_material_innovation: Yes, bamboo rods for pop [22][MERCHANT]
+62. resin: 30% Bio-Based Resin [24][MERCHANT]
+63. construction_material_innovation: Popster Eco Booster — milled core inside inserts for natural flex, carbon stringers in nose/tail, bamboo rods for pop [22][MERCHANT]
+64. sidewall_material: Royal Rubber Rails — full-length rubber sidewalls for maximum dampening and protection [MERCHANT]
+65. topsheet: ABC Wrapper Topsheet (wood veneer instead of plastic, reduces weight) [24][MERCHANT]
+66. topsheet_appearance_description: Bamboo veneers to reduce fibreglass and resin content [115]
+67. base_material: Sintered EG Base (Gallium for impact resistance, Electra finish for speed) [22][MERCHANT]
+68. base_type: Sintered [22]
+69. base_material: Fine Stone Finish [22][MERCHANT]
+70. sustainability_certification: Natural Wax (paraffin-free, made from natural ingredients) [22][MERCHANT]
+71. edge_bevel_spec: All Mountain Edge Bevel — 1.5 degree base and side edge bevel [MERCHANT]
+72. mounting_pattern: 2x4 inserts [24][MERCHANT]
+73. mounting_pattern: 5x2 (The Good Ride noted Assassin has 5x2 vs Pro's 6x2) [52]
+74. available_colors: Random [MERCHANT][109]
+75. available_sizes: 150cm, 153cm, 156cm, 159cm, 162cm [MERCHANT]
+76. available_sizes: 158cm Wide, 163cm Wide [MERCHANT]
+77. width_options: Standard and Wide [MERCHANT]
+78. Effective edge 156cm: 116.0cm [MERCHANT]
+79. tip_tail_width_size: 29.3cm [MERCHANT]
+80. Waist width 156cm: 25.3cm [MERCHANT]
+81. sidecut_radius_size: 7.5m [MERCHANT]
+82. stance_width_range_size: 56.0cm [MERCHANT]
+83. recommended_weight_range_size: 55-85kg [MERCHANT]
+84. recommended_weight_range_size: 143-198 lbs (65-90 kg) [REI]
+85. REI effective edge 159cm: 118.8cm [REI]
+86. REI waist width 159cm: 25.5cm [REI]
+87. sidecut_radius_size: 7.7m [REI]
+88. rider_level: Intermediate [MERCHANT]
+89. skill_level_recommendation: Intermediate-Advanced [REI]
+90. skill_level_recommendation: Intermediate-Advanced [20]
+91. skill_level_recommendation: Intermediate to Advanced [37]
+92. terrain_suitability: All-Mountain, Park & Freestyle, Freeride [24][29]
+93. terrain_suitability: Powder, All-Mountain, Park & Freestyle [110]
+94. riding_style: Freestyle-forward all-mountain [9][42]
+95. terrain_suitability: "One-board quiver" — designed for riders who want a single board for all conditions [22][1]
+96. terrain_suitability: Groomers, park, powder, side hits, backcountry [9]
+97. terrain_suitability: Versatile across all conditions [12][44]
+98. setback: Centered (REI) [REI]
+99. edge_hold: "Very good edge grip" — praised by multiple reviewers [15][44]
+100. pop: "Skate-like feel pop, good height" and praised across reviews [15][44]
+101. base_glide_performance: Sintered EG base described as fast by multiple sources [19][50]
+102. positive_aspect: Universally praised as excellent all-rounder; "Swiss army knife of snowboards" [44]
+103. powder_rating_tgr: Better than expected for a twin — elongated nose and rocker help [50][44]
+104. positive_aspect: Locks into rails well, good tail snap for kickers [44]
+105. switch_riding: Great for riding switch due to directional twin shape [42]
+106. chatter_performance: Royal Rubber Rails provide good vibration absorption; standard Assassin more damp than the Pro [52]
+107. positive_aspect: "Just a little lighter than average" — lighter feel on snow [53]
+108. positive_aspect: Super snappy, responsive and stable on groomers [44]
+109. edge_hold: "Bites through the snow" in chopped-up icy conditions [44]
+110. turn_initiation_performance: Forgiving torsional flex helps maneuverability [44]
+111. negative_aspect: "Stiffness might make it difficult for novice riders to handle" [44]
+112. negative_aspect: Tester noted wash-out during turns when slightly undersized for weight [58]
+113. chatter_performance: "Tips get a bit chattery due to the rocker in tips" at very high speed [71]
+114. negative_aspect: "Isn't a carving machine, but still does decent" [13]
+115. negative_aspect: "Might not meet all expectations in terms of precision and response in very technical scenarios" [13]
+116. negative_aspect: "Sidecut grips really well up to hard snow. Sheet ice not so much" [71]
+117. negative_aspect: "Powder probably the weakest point" (on 2018 twin model — improved since 2019 directional twin) [53]
+118. jibbing_rating_tgr: "Not the king of jibs but above average" [42]
+119. One REI reviewer noted topsheet chips/scrapes easily on first ride [REI user review]
+120. Assassin Pro has same shape but stiffer flex (5/5 on Salomon scale) [10]
+121. Assassin Pro has Ghost Green Core (lighter construction) [25]
+122. Assassin Pro has 6x2 inserts per foot vs Assassin's 5x2 [57]
+123. Assassin Pro had chatter issues in uneven snow (improved with ABS sidewalls in 2025) [57]
+124. Assassin (standard) is more damp/chatter-resistant than the Pro [52]
+125. comparable_board_same_brand: Assassin Pro MSRP $699.95 USD vs Assassin $649.95 USD (2026) [70][62]
+126. comparable_board_same_brand: $1,089.99 AUD [105]
+127. comparable_board_cross_brand: Never Summer Photosynthesis, Yes Greats, Ride TwinPig, Burton Good Company, Yes Typo [52]
+128. comparable_board_cross_brand: Korua Otto, Ride Algorythm, Ride Shadowban, Salomon Highpath, Jones Rally Cat [52]
+129. comparable_board_cross_brand: Capita Mercury as alternative to Pro [80]
+130. comparable_board_cross_brand: Capita Super DOA — similar profile/flex to Pro but lighter/more premium [80]
+131. 30% Bio-based resin [24][MERCHANT]
+132. Bamboo veneers on topsheet reduce fibreglass/resin content [115]
+133. Natural wax (paraffin-free) [22]
+134. Popster Eco Booster uses bamboo rods for eco performance [2]
+135. reviewer_opinion_the_good_ride: 4.8/5.0 (from 9 reviews) [36]
+136. user_review_forum: 4.5/5.0 (from 2 reviews) [REI]
+137. user_review_forum: Positive consensus — "great all-mountain board" [15]
+138. The Assassin has been in the Salomon lineup since approximately 2014 [5]
+139. Model underwent major overhaul in 2019 (changed from True Twin to Directional Twin, new Quadratic sidecut) [42]
+140. Model underwent significant re-tool for the 2025 model year [42]
+141. redesign_year: Assassin added Royal Rubber Rails (rubber sidewalls) and updated construction [MERCHANT]
+142. flex_rating_10: 6/10 [MERCHANT]
+143. flex_rating_5: 4/5 [1]
+144. flex_rating_10_evo: "Stiff" [21]
+145. flex_feel: "Medium" [REI]
+146. flex_feel: "Quite soft" — felt softer than rated [50]
+147. flex_feel: "About a 4.5" (just under medium) [15]
+Comment: There is significant disagreement about perceived flex. The manufacturer rates it 6/10 (medium-stiff). REI categorizes it as "Medium." evo categorizes it as "Stiff." Independent reviewers have felt it ride softer than rated. Flex is inherently subjective and varies with rider weight/style.
+148. sidecut_type: "Quadralizer" [22][MERCHANT]
+149. sidecut_type: "Quadrilizer" [21]
+Comment: Appears to be a spelling inconsistency between retailers; same technology described identically.
+</answer>
+
+<citations>
+
+
+<citation id="1">
+<quotelist>
+<url>https://blauerboardshop.com/products/salomon-assassin-2025</url>
+<quote>Flex Rating – 4/5 (1=Soft, 5=Stiff) Shape Directional Twin – A twin shape for freestyle moves with a directional flex for power at high-speed.</quote>
+<quote>Quadralizer Sidecut – Explosive combination of Equalizer and Quadratic sidecuts allows high speed carving</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/salomon-assassin-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Authorized retailer listing with consistent Salomon specifications. Reliable for model specs as they come from manufacturer feed.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://rudeboys.com/products/salomon-assassin-snowboard-w25</url>
+<quote>Popster Eco Booster – Popster Booster plus bamboo and carbon rods to provide the best in eco pop and performance.</quote>
+</quotelist>
+<url_with_text_link>https://rudeboys.com/products/salomon-assassin-snowboard-w25</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Authorized Canadian retailer with Salomon-sourced product descriptions. Confirms Popster Eco Booster technology details.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url>
+<quote>Salomon Assassin 2014-2025 Snowboard Review</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride is a respected independent snowboard review site. The title indicates they have tracked the Assassin since 2014, establishing when the model was first released.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://www.evo.com/reviews/snowboard/salomon-assassin</url>
+<quote>The 2025 Salomon Assassin is best suited for snowboarders who want one board to do it all</quote>
+<quote>While the board is great for advancing intermediates, its stiffer nature means it might not be the best fit for beginners</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/reviews/snowboard/salomon-assassin</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-05</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo's Field Tested Reviews are conducted by experienced evo employees across multiple locations. Provides direct rider experience insights. Credible as a major specialty retailer review program.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://blauerboardshop.com/products/salomon-assassin-pro-2025</url>
+<quote>Flex Rating – 5/5 (1=Soft, 5=Stiff)</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/salomon-assassin-pro-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Pro model specs from same authorized retailer. Confirms the Pro has a stiffer flex rating for comparison purposes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://www.evo.com/reviews/snowboard/salomon-assassin</url>
+<quote>It isn't a carving machine, but still does decent.</quote>
+<quote>For the most advanced/aggressive riders desiring absolute edge control on high-speed descents, this board might not meet all expectations</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/reviews/snowboard/salomon-assassin</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-05</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo field test review provides honest assessment of limitations. These are important negative factors for potential buyers.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://www.tactics.com/salomon/assassin-snowboard</url>
+<quote>I'd say it's about a 4.5. It has very good edge grip, and a very fast base.</quote>
+<quote>The pop has a skate-like feel and you can get some good height on it.</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/salomon/assassin-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Tactics is a reputable board shop. Verified buyer reviews provide real-world rider feedback on flex, edge grip, and base speed.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-assassin-snowboard</url>
+<quote>Intermediate-Advanced</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-assassin-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo is a major online retailer. Their categorization of rider level helps establish the target market for the board.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-assassin-snowboard</url>
+<quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-assassin-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo classifies the Assassin as "Stiff" per their standardized rating. Since the Assassin is 6/10, it falls into evo's stiff category per their stated bands.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://www.salomon.com/en-us/product/assassin-li8535</url>
+<quote>Rock Out Camber: Flat between your bindings for stability, Camber near the feet for response and a rocker on the tip/tail for pressability.</quote>
+<quote>Natural wax: A paraffin-free wax compound made from natural ingredients.</quote>
+<quote>Sintered EG: Engineered for fast glide speed and maximum wax retention in all conditions.</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-us/product/assassin-li8535</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Official Salomon manufacturer product page — the primary authority for all technical specifications. Highest credibility for objective spec claims.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://www.the-house.com/1149262.html</url>
+<quote>Profile: Rock Out Camber • Shape: Directional twin • Sidecut: Quadralizer • Fiber & Resin: BA MD fiberglass, 30% Bio-based resin</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/1149262.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>The House is a well-known US ski/snowboard retailer. Their spec list is sourced from Salomon. Provides a clean summary of all key specifications.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-assassin-pro-snowboard</url>
+<quote>The Ghost Green Core keeps things lightweight without sacrificing power, and the upgraded sidewalls add extra durability</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-assassin-pro-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo listing for the Assassin Pro provides comparison points — Ghost Green Core and carbon reinforcement differences from the standard Assassin.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://www.skihut.com/product/salomon-assassin-917512-1.htm</url>
+<quote>Best for Park & Freestyle, All-Mountain, Freeride, Intermediate, Advanced, Flex - Medium</quote>
+</quotelist>
+<url_with_text_link>https://www.skihut.com/product/salomon-assassin-917512-1.htm</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Ski Hut provides a Salomon-sourced spec summary categorizing the board's terrain and rider level.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url>
+<quote>$519.93 Buy it Now Buy Salomon Assassin from Sun & Ski Sports</quote>
+<quote>$519.96 Buy it Now Buy Salomon Assassin from Backcountry</quote>
+<quote>4.8 5.0 9 9</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride is an independent review site. Prices are affiliate prices for the 2025 model showing real-world discount pricing. The 4.8/5.0 user rating from 9 reviews establishes community reception.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-assassin-snowboards-men-2026</url>
+<quote>This board is for intermediate to advanced riders who want one board to tackle all aspects of snowboarding.</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-assassin-snowboards-men-2026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>UK retailer providing additional confirmation of target rider level and positioning the board as a one-board quiver for intermediate-advanced riders.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://snowboardingprofiles.com/salomon-assassin-review-all-mountain-freestyle-snowboard-reviews</url>
+<quote>The Assassin underwent a significant re-tool for the 2025 model</quote>
+<quote>The 2019 model got a major overhaul. The major changes include: A change from a True Twin shape (2018 model) to a Directional Twin shape (2019 model)</quote>
+<quote>The Assassin is great for riding switch</quote>
+<quote>Not the king of jibs but above average.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/salomon-assassin-review-all-mountain-freestyle-snowboard-reviews</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>SnowboardingProfiles is a dedicated snowboard review site that provides detailed testing results and historical context for the model's evolution. Valuable for understanding redesign history.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://kingsnowboard.com/blogs/gear/salomon-assassin-snowboard-review-2025-what-s-good</url>
+<quote>I rode it in chopped-up, icy hard-pack conditions, and it really bites through the snow when it's like that.</quote>
+<quote>This board is what I recommend as your daily driver.</quote>
+<quote>Not ideal for beginners—stiffness might make it difficult for novice riders to handle.</quote>
+</quotelist>
+<url_with_text_link>https://kingsnowboard.com/blogs/gear/salomon-assassin-snowboard-review-2025-what-s-good</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>King Snowboard Magazine review by a Whistler coach with 17 years' experience. Independent review provides balanced assessment including both positives and limitations. High credibility for rider experience claims.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="50">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/salomon-assassin/</url>
+<quote>According to Salomon the Assassin has a medium flex rating, though it did feel softer than that to me.</quote>
+<quote>Surprisingly for a twin board, it does do quite well in powder</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-assassin/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-04</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Snowboard Robot is an Australian independent review site. Provides dissenting view on flex feel — important for the flex disagreement. Also confirms powder capability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="52">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url>
+<quote>The Salomon Assasin only has 5x2 inserts per foot and doesn't float as well as the Assasin Pro, but it's a more damp/chatter-resistant ride.</quote>
+<quote>More Mtn Freestyle (Most Alike) Never Summer Photosynthesis, Yes Greats, Stone Message, Yes Basic, Ride TwinPig, Burton Good Company, Yes Typo</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-assassin-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride provides competitor comparison list and key differentiators between the Assassin and Assassin Pro. Critical for competitive analysis and insert count specification.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="53">
+<quotelist>
+<url>https://snowboardingprofiles.com/salomon-assassin-review-all-mountain-freestyle-snowboard-reviews</url>
+<quote>The Assassin is just a little lighter than average and it felt a little lighter than average on snow too.</quote>
+<quote>Powder probably the weakest point of this board</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/salomon-assassin-review-all-mountain-freestyle-snowboard-reviews</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>SnowboardingProfiles tested the 2020 model and found it lighter than average. The powder comment applies to the pre-2019 true twin version; later directional twin models improved this. Context matters for interpreting the powder limitation.</reasoning>
+<evidentiary_alignment>0.78</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="57">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-assassin-pro-snowboard-review/</url>
+<quote>The Salomon Assassin Pro has the same shape as the Assassin, but it's got a poppier/lighter construction and 6×2 inserts per foot instead of 5×2.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-assassin-pro-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride's Assassin Pro review directly compares Pro to standard Assassin, confirming shared shape and key construction differences. Essential for understanding the model lineup.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="58">
+<quotelist>
+<url>https://www.evo.com/reviews/snowboard/salomon-assassin</url>
+<quote>he noted that the board occasionally wanted to wash out during turns, likely due to it being slightly undersized for his weight.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/reviews/snowboard/salomon-assassin</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-05</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo field tester notes a wash-out issue when undersized. Important negative finding for sizing guidance, though attributed to incorrect sizing rather than board defect.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="62">
+<quotelist>
+<url>https://www.aspenskiandboard.com/products/salomonassassinmenssnowboard2026</url>
+<quote>Salomon Assassin Mens Snowboard 2026 - Multicolor / 150cm / Retail: $649.95 is backordered</quote>
+</quotelist>
+<url_with_text_link>https://www.aspenskiandboard.com/products/salomonassassinmenssnowboard2026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Aspen Ski and Board confirms the $649.95 USD retail price for the 2026 model. This matches REI and other US retailers, confirming MSRP.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="70">
+<quotelist>
+<url>https://skihaus.com/2026-assassin-pro-men-s-snowboard/</url>
+<quote>MSRP: 699.9500</quote>
+</quotelist>
+<url_with_text_link>https://skihaus.com/2026-assassin-pro-men-s-snowboard/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Ski Haus listing confirms the Assassin Pro MSRP at $699.95 USD for comparison with the standard Assassin's $649.95 price point.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="71">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/opinions-on-the-salomon-assassin.162354/</url>
+<quote>tips get a bit chattery due to the rocker in tips but board absorbs most of this</quote>
+<quote>Sidecut grips really well up to hard snow.. sheet ice not so much</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/opinions-on-the-salomon-assassin.162354/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2015-01</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Snowboarding forum discussion with multiple real-world user opinions. Forum reports are anecdotal but the chatter and ice grip comments recur across multiple users. Lower credibility but patterns increase confidence.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="80">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/salomon-assassin-pro/</url>
+<quote>The Super DOA has a similar profile, similar flex to the Assassin Pro, but with a much lighter weight.</quote>
+<quote>I think that the Mercury is a good alternative to the Assassin Pro</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-assassin-pro/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-11</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Snowboard Robot provides competitor alternatives for the Assassin lineup. Helps buyers evaluate the competitive landscape with specific comparable models.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="86">
+<quotelist>
+<url>https://www.powder.com/gear/salomon-annecy-factory-tour</url>
+<quote>Salomon's Annecy Design Center is the brand's global headquarters.</quote>
+<quote>Commercial skis like the QST line are designed here, but built at the much larger and more efficient AMER factory in Altenmarkt, Austria.</quote>
+</quotelist>
+<url_with_text_link>https://www.powder.com/gear/salomon-annecy-factory-tour</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-01</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>POWDER magazine factory tour confirms Salomon HQ in Annecy and Austrian production (for skis). Snowboard production may differ but the corporate structure is confirmed. Reputable outdoor sports publication.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="87">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url>
+<quote>My Salomon is made in China.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Forum reports from snowboard owners confirm some Salomon snowboards are produced in China. Anecdotal but corroborated by multiple forum users. Manufacturing location varies by model and year.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="92">
+<quotelist>
+<url>https://www.snowandrock.com/p/salomon-assassin-snowboard-E5BB3A0157.html</url>
+<quote>Order the Salomon Assassin Snowboard today from Snow+Rock ✓ Price Match Promise ✓ 3-Year Product Warranty</quote>
+</quotelist>
+<url_with_text_link>https://www.snowandrock.com/p/salomon-assassin-snowboard-E5BB3A0157.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Snow+Rock UK retailer offers their own 3-year warranty (on top of Salomon's 2-year). Confirms board availability in the UK market.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="94">
+<quotelist>
+<url>https://rudeboys.com/products/salomon-assassin-snowboard-w25</url>
+<quote>Warranty:2 Years</quote>
+</quotelist>
+<url_with_text_link>https://rudeboys.com/products/salomon-assassin-snowboard-w25</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Canadian retailer confirms the 2-year warranty for Salomon snowboards. Corroborates Salomon's official warranty policy.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="95">
+<quotelist>
+<url>https://eco-lounge.com/shop/winter/snowboarding/snowboards/all-mountain-snowboards/salomon-assassin-snowboard-2023/</url>
+<quote>Warranty:2 Years</quote>
+</quotelist>
+<url_with_text_link>https://eco-lounge.com/shop/winter/snowboarding/snowboards/all-mountain-snowboards/salomon-assassin-snowboard-2023/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2022-09</date_of_first_relevance>
+<date_of_last_relevance>2023-09</date_of_last_relevance>
+<reasoning>Additional retailer confirming 2-year warranty for Salomon Assassin, from the 2023 model year listing. Consistent with other sources.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="96">
+<quotelist>
+<url>https://www.salomon.com/en-us/b/warranty</url>
+<quote>Two (2) years for other products</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-us/b/warranty</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon warranty page confirms 2-year warranty for "other products" (which includes snowboards). This is the most authoritative source for warranty information.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="100">
+<quotelist>
+<url>https://www.wintermen.com/salomon-snowboards-mens-assassin-snowboard</url>
+<quote>Snowboards made by Salomon have a two year warranty against manufacturer's defects from the date of purchase from a Authorized Dealer.</quote>
+</quotelist>
+<url_with_text_link>https://www.wintermen.com/salomon-snowboards-mens-assassin-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>WinterMen retailer explicitly states the 2-year warranty for Salomon snowboards, specifically applicable to the Assassin. Confirms warranty must be through authorized dealer.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="104">
+<quotelist>
+<url>https://www.balmoralboards.com.au/products/salomon-2027-assassin</url>
+<quote>Salomon · $989.99</quote>
+<quote>Expected delivery: April/May 2026</quote>
+<quote>Featuring fresh models, updated tech and eye-catching new graphics, these boards are landing exclusively in Australia and New Zealand before the rest of the world.</quote>
+</quotelist>
+<url_with_text_link>https://www.balmoralboards.com.au/products/salomon-2027-assassin</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-09</date_of_last_relevance>
+<reasoning>Australian retailer confirms 2027 model year pricing at $989.99 AUD and expected delivery April/May 2026. Key source for the specific model year being researched.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="105">
+<quotelist>
+<url>https://www.balmoralboards.com.au/products/salomon-2027-assassin-pro</url>
+<quote>Salomon · $1,089.99</quote>
+</quotelist>
+<url_with_text_link>https://www.balmoralboards.com.au/products/salomon-2027-assassin-pro</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-09</date_of_last_relevance>
+<reasoning>Balmoral Boards pricing for the 2027 Assassin Pro at $1,089.99 AUD for price comparison with the standard model.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="109">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/salomon-assassin-pro</url>
+<quote>Base graphics are random.</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-assassin-pro</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-09</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre confirms the 2027 preorder availability and random base graphics, consistent with merchant-provided data.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="110">
+<quotelist>
+<url>https://salomon.com.au/products/assassin</url>
+<quote>$899.99 AUD</quote>
+<quote>Level of practice · Advanced|intermediate · Snowboard terrain · Powder|all-mountain|park & freestyle</quote>
+</quotelist>
+<url_with_text_link>https://salomon.com.au/products/assassin</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon Australia website listing. Highest authority for Australian pricing of the prior model year and Salomon's own terrain/level categorization.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="111">
+<quotelist>
+<url>https://salomon.com.au/products/assassin-snowboard-mens</url>
+<quote>$659.99 AUD · $879.99 -25%</quote>
+</quotelist>
+<url_with_text_link>https://salomon.com.au/products/assassin-snowboard-mens</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon Australia clearance pricing for the outgoing model — shows the previous MSRP of $879.99 AUD discounted to $659.99 AUD. Useful for price history context.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="113">
+<quotelist>
+<url>https://www.snowboarder.com/snowboarders/assassin-salomon-snowboards</url>
+<quote>Last winter Salomon team riders Louif Paradis, Harrison Gordon, and Victor Daviet put them</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboarder.com/snowboarders/assassin-salomon-snowboards</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2018-11</date_of_first_relevance>
+<date_of_last_relevance>2019-09</date_of_last_relevance>
+<reasoning>Snowboarder Magazine confirms which Salomon team riders are associated with the Assassin line. Establishes the pro rider connection to the product.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="115">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-assassin-2020-2021.html</url>
+<quote>the Annecy-based brand using bamboo veneers on the Assassin's topsheet to reduce fibreglass and resin content</quote>
+<quote>Ridden by backcountry booter badass Victor Daviet</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-assassin-2020-2021.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020-09</date_of_first_relevance>
+<date_of_last_relevance>2021-09</date_of_last_relevance>
+<reasoning>Whitelines is a respected specialist snowboard magazine. Confirms sustainability features and the Victor Daviet association. Reliable source for construction and rider details.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="120">
+<quotelist>
+<url>https://www.evo.com/outlet/snowboards/salomon-assassin-snowboard-2021</url>
+<quote>Athletes: Victor Daviet · Warranty: 2 Years</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/outlet/snowboards/salomon-assassin-snowboard-2021</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020-09</date_of_first_relevance>
+<date_of_last_relevance>2021-09</date_of_last_relevance>
+<reasoning>evo outlet listing for 2021 model confirms Victor Daviet as the associated athlete and the 2-year warranty. Consistent across model years.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="REI">
+<quotelist>
+<url>https://www.rei.com/product/252760/salomon-assassin-snowboard-20252026</url>
+<quote>$649.95</quote>
+<quote>Snowboard Profile: Camber/Rocker</quote>
+<quote>Flex: Medium</quote>
+<quote>Stance Setback: Centered</quote>
+</quotelist>
+<url_with_text_link>https://www.rei.com/product/252760/salomon-assassin-snowboard-20252026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>REI is a major, highly reputable US outdoor retailer. Product listing confirms MSRP, flex classification (Medium), stance setback (Centered), and size-specific dimensions. REI classifies flex as Medium, which conflicts with evo's Stiff classification for the same 6/10 rating.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.88</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="82">
+<quotelist>
+<url>http://www.illicitsnowboarding.com/2014/11/where-are-snowboards-really-made.html</url>
+<quote>Amer Sports The corporation that owns Salomon along with a number of other companies, has a number of factories around Europe and Asia.</quote>
+</quotelist>
+<url_with_text_link>http://www.illicitsnowboarding.com/2014/11/where-are-snowboards-really-made.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014-11</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Illicit Snowboarding investigation into snowboard manufacturing. Confirms Salomon is owned by Amer Sports and uses multiple production facilities. Industry investigation piece, somewhat dated but structurally still accurate.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-assassin</url>
+    <quote>brand: Salomon; model name: Assassin; model year: 2027; AUD price: $989.99; status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-assassin</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

@@ -1,0 +1,712 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="tip_tail_width_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="7" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="availability_status" count="6" category="availability" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="available_sizes" count="3" category="availability" />
+  <duplicate_canonical name="user_review_forum" count="3" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+</canonical_schema>
+
+<answer>
+1. brand: 5th Element [1]
+2. model_name: Grid [2]
+3. manufacturer: 5th Element Gear (independently owned) [3]
+4. Brand founded: 2012 (originally created under another company) [3]
+5. Current ownership since: 2022 (bought by current owners Jenna and Greg) [3]
+6. Manufacturer mission: "to make affordable quality products for the outdoors" [4]
+7. Brand category: Budget snowboard brand [5]
+8. Brand reputation (expert opinion): "not one of the top names in the snowboarding industry" — budget brand suitable for beginners [5]
+9. Manufacturing quality note: "we make our products in a lot of the same factories that our friends from other brands do" [6]
+10. Brand design philosophy: "we don't want to be your forever board" — intended as first/entry board [6]
+11. warranty: 2-year warranty against manufacturer defects [7]
+12. Free shipping threshold (manufacturer direct): Free shipping over $99 USD [8]
+13. product_type: Snowboard [2]
+14. board_category: Beginner [9]
+15. rider_level: Beginner to intermediate [10]
+16. gender: Men's / Unisex Adult [11]
+17. riding_style: All mountain — ride it anywhere on the mountain [10]
+18. terrain_suitability: All mountain [10]
+19. camber_type: Flat Rocker (a.k.a. EZ Rocker) — flat between your feet with rocker in the tip and tail [10]
+20. camber_description: "A long flat middle section with early rise in the nose and tail makes for a stable catch free ride" [10]
+21. shape: Directional Twin [10]
+22. Shape description (manufacturer site): "A slightly longer tail than nose helps you initiate turns but also allows you to ride switch" [10]
+23. DISAGREEMENT — Shape description (merchant site): Merchant describes shape as "A longer nose than tail that helps ride forwards but also allows switch riding" [9]. Comment: The manufacturer's own page says "slightly longer tail than nose" while the merchant says "longer nose than tail." The merchant description is the conventional definition of directional twin; the manufacturer wording appears to be an error on their own page. Directional twins universally have a longer nose, not tail. The merchant's description aligns with standard snowboard terminology.
+24. shape: One SidelineSwap listing for the Grid describes it as "True Twin — symmetrical and will feel the same ridden in either direction" [12], while the manufacturer and merchant describe it as Directional Twin [10][9]. Comment: the True Twin description is likely from an older or alternative model description; the current official spec is Directional Twin.
+25. flex_feel: Soft [10]
+26. flex_feel: "A forgiving flex that makes learning a breeze" [10]
+27. core_material: Poplar wood [10]
+28. core_material: "A durable wood core that won't deteriorate over time" [9]
+29. base_type: Extruded [10]
+30. base_material: "A strong base that's easy to care for" [9]
+31. mounting_pattern: 4x4 [13]
+32. setback: Centered stance [14]
+33. available_sizes: 148cm, 151cm, 154cm, 157cm, 158cm Wide, 161cm, 164cm Wide, 166cm Wide [9]
+34. available_sizes: 160cm (listed as available on manufacturer page, not on merchant) [15]
+35. Waist width 148cm: 244mm [9]
+36. Waist width 151cm: 246mm [9]
+37. Waist width 154cm: 248mm [9]
+38. Waist width 157cm: 250mm [9]
+39. Waist width 158cm Wide: 264mm [9]
+40. Waist width 161cm: 258mm [9]
+41. Waist width 164cm Wide: 266mm [9]
+42. Waist width 166cm Wide: 268mm [9]
+43. sidecut_radius_size: 8.1m [9]
+44. sidecut_radius_size: 8.2m [9]
+45. sidecut_radius_size: 8.3m [9]
+46. sidecut_radius_size: 8.4m [9]
+47. sidecut_radius_size: 8.5m [9]
+48. sidecut_radius_size: 8.5m [9]
+49. sidecut_radius_size: 8.6m [9]
+50. sidecut_radius_165: 8.7m [9]
+51. Effective edge 148cm: 1124mm [9]
+52. Effective edge 151cm: 1152mm [9]
+53. Effective edge 154cm: 1180mm [9]
+54. Effective edge 157cm: 1208mm [9]
+55. Effective edge 158cm Wide: 1226mm [9]
+56. Effective edge 161cm: 1245mm [9]
+57. Effective edge 164cm Wide: 1264mm [9]
+58. Effective edge 166cm Wide: 1302mm [9]
+59. tip_tail_width_size: 206mm / 198mm [9]
+60. tip_tail_width_size: 207mm / 199mm [9]
+61. tip_tail_width_size: 208mm / 200mm [9]
+62. tip_tail_width_size: 209mm / 201mm [9]
+63. tip_tail_width_size: 210mm / 202mm [9]
+64. tip_tail_width_size: 210mm / 202mm [9]
+65. tip_tail_width_size: 211mm / 203mm [9]
+66. tip_tail_width_size: 212mm / 204mm [9]
+67. recommended_weight_range_size: 55-75kg [9]
+68. recommended_weight_range_size: 60-80kg [9]
+69. recommended_weight_range_size: 65-85kg [9]
+70. recommended_weight_range_size: 70-100kg [9]
+71. recommended_weight_range_size: 70-100kg [9]
+72. recommended_weight_range_size: 80-110kg [9]
+73. recommended_weight_range_size: 90-120kg [9]
+74. recommended_weight_165: 100+kg [9]
+75. price_aud_merchant: $399.99 AUD (all sizes) [9]
+76. price_usd_msrp: $249.99 USD [15]
+77. Price (USD) at Clark's Snow Sports: $229.00 USD [16]
+78. Price (USD) board+binding combo at The Extra Mile Outdoor Gear: $350 USD (board + Matrix 03 bindings, out of stock) [17]
+79. availability_status: Listed but availability varies [13]
+80. availability_status: Listed by various sellers [12]
+81. availability_status: Listed by third-party sellers (Loveland, CO) [18]
+82. availability_status: Listed as combo package [19]
+83. availability_status: 5th Element products available; specific Grid board listing via third-party sellers [20]
+84. availability_status: 5th Element brand carried [21]
+85. Customer rating at Melbourne Snowboard Centre: 5.0 out of 5, based on 5 reviews [9]
+86. user_review_forum: "Does everything you need it to with a great price. Kept up with more expensive boards" [22]
+87. user_review_forum: "Would recommend for people on a budget" [22]
+88. user_review_forum: "Great product and looks great" [22]
+89. Review count at Clark's Snow Sports: 0 reviews [16]
+90. No reviews found on Amazon for Grid model specifically [13]
+91. Expert opinion (SnowboardHow.com, certified instructor): "5th Element will not give you outstanding performance or durability" [23]
+92. Expert opinion (SnowboardHow.com): "boards will work well for the average beginner, but I don't think experienced riders will want to use them" [23]
+93. Expert opinion (SnowboardHow.com): Bindings are "actually pretty good for their cost" and "a good value" [24]
+94. Expert opinion (SnowboardHow.com): "If you are an intermediate rider pushing the boundaries of becoming advanced, I don't recommend getting a 5th Element board" [25]
+95. Expert opinion (Snowboard Nerd) on 5th Element Stealth 3 bindings: "best price-to-value model" but notes "overall material quality and buckle durability" as drawbacks [26]
+96. Brand self-assessment: "Our snowboards...are soft flexing and forgiving, which is exactly what you need to learn. While they might lack the bells and whistles a $500+ board has, a beginner doesn't need and won't appreciate those features" [6]
+97. Edge catch prevention: Flat Rocker profile lifts contact points to reduce edge catches [10]
+98. turn_initiation_performance: EZ Rocker eases turn initiation and creates a catch-free ride [14]
+99. Forgiveness: Soft flex allows room for error without punishing mistakes [14]
+100. switch_riding: Directional twin allows riding with either foot forward [10]
+101. Stability: Board described as "stable yet forgiving" [10]
+102. Responsiveness: Low — suited to learn, not high-performance carving (inferred from soft flex rating) [23]
+103. edge_hold: Not specifically marketed; extruded base and flat rocker generally provide moderate edge hold — unverified specific rating
+104. Durability: Poplar wood core described as durable; extruded base is easy to maintain [9]
+105. comparable_board_cross_brand: Nitro Prime Raw 2026 — beginner directional twin, Cam-Out Camber, poplar core, extruded base, $349.95 USD [27]
+106. comparable_board_cross_brand: Nidecker Play 2026 — beginner, FlatRock profile, poplar/beech core, extruded base, $369.95 USD [28]
+107. comparable_board_cross_brand: Rossignol Evader 2026 — beginner, Amptek camber, $449.95 USD [29]
+108. comparable_board_cross_brand: K2 Standard — beginner, hybrid profile, extruded base, widely recommended [30]
+109. comparable_board_cross_brand: Burton Cultivator 2026 — #1 beginner board per SnowboardingProfiles.com for 2026 [31]
+110. Best beginner brands (industry consensus): Nitro, Salomon, Burton, Rossignol, K2 [30]
+111. 5th Element Grid is significantly cheaper ($229-$250 USD) than mainstream beginner competitors ($350-$450 USD) [15][16][27][28]
+112. comparable_board_same_brand: Nightfall (True Twin, beginner, soft, Embossed topsheet) [32]
+113. comparable_board_same_brand: 5th Element Shock (True Twin, beginner-intermediate, liquid sidewalls, textured topsheet) [33]
+114. comparable_board_same_brand: 5th Element Dart (Hybrid Rocker, textured topsheet, liquid sidewalls) [34]
+115. Stealth 3 bindings country of manufacture: Taiwan [35]
+116. 5th Element bindings mounting pattern: 4x4, also offer channel-compatible replacement discs [36]
+117. Value positioning: Priced well below major brand beginner boards ($229-$250 vs $350-$450) [15][16][27][28]
+118. Cost saving vs rental: Positioned as upgrade from rental gear at a price point affordable for first-time buyers [12]
+119. Package availability: Available as board+bindings or board+bindings+boots packages from various retailers [17][9]
+120. Resale value: Low — budget brand with limited secondary market presence; not commonly stocked at premium retailers [5]
+121. model_year: Not specified by merchant; board has been available since at least 2022-2023 season based on SKU naming convention at Clark's Snow Sports ("board23") [16]
+122. Brand has been around since 2012, current ownership since 2022 [3]
+123. Manufacturer site sizes include 160cm and additional wide variants (158W, 161W, 164W, 166W) suggesting ongoing updates [15]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.5thelementgear.com/</url>
+  <quote>Affordable snowboards, snowboard boots, snowboard bindings, snowboard packages</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/#:~:text=Affordable%20snowboards%2C%20snowboard%20boots</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official brand homepage confirms brand name, product categories. Primary authority for brand identity.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.5thelementgear.com/products/5th-element-grid-snowboard</url>
+  <quote>5th Element Grid Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/products/5th-element-grid-snowboard#:~:text=5th%20Element%20Grid%20Snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page confirms the model name "Grid".</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.5thelementgear.com/pages/about-us</url>
+  <quote>Despite our buying the brand in 2022, 5th Element has actually been around since 2012!</quote>
+  <quote>In fact, we're the ones who created it under another company, developed it over the years and now had the chance to buy and operate it ourselves.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/pages/about-us#:~:text=Despite%20our%20buying%20the%20brand,buy%20and%20operate%20it%20ourselves</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2012</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official "About Us" page provides authoritative history of brand founding (2012) and current ownership transition (2022). First-hand account from founders.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.5thelementgear.com/</url>
+  <quote>Our mission is to make affordable quality products for the outdoors so you can do it all.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/#:~:text=Our%20mission%20is%20to%20make,so%20you%20can%20do%20it%20all</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official site mission statement. Marketing language but confirms brand positioning as affordable/quality-focused.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/</url>
+  <quote>5th Element is not one of the top names in the snowboarding industry.</quote>
+  <quote>5th Element is more of a budget snowboard brand than anything else.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/#:~:text=5th%20Element%20is%20not%20one,budget%20snowboard%20brand%20than%20anything</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01-16</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Written by Lorraine, a certified CASI snowboard instructor. Provides expert but subjective assessment of brand positioning. Credible for opinion on brand reputation.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.5thelementgear.com/blogs/learn/cheap-snowboard-packages-are-they-worth-it</url>
+  <quote>we make our products in a lot of the same factories that our friends from other brands do.</quote>
+  <quote>At 5th Element we like to say "we don't want to be your forever board".</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/blogs/learn/cheap-snowboard-packages-are-they-worth-it#:~:text=we%20make%20our%20products,your%20forever%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official blog post from 5th Element providing transparency about manufacturing and positioning. Self-reported so bias expected but factory claim is notable.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.5thelementgear.com/pages/warranty</url>
+  <quote>All 5th Element products have a 2 year warranty against manufacturers defects.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/pages/warranty#:~:text=All%205th%20Element%20products%20have%20a%202%20year%20warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official warranty page — definitive source for warranty terms.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.5thelementgear.com/</url>
+  <quote>Free Shipping over $99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/#:~:text=Free%20Shipping%20over%20%2499</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official homepage banner confirms shipping policy. May change over time but current as of retrieval.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/5th-element-grid</url>
+  <quote>Board Type: Beginner Camber: Flat Rocker</quote>
+  <quote>Flex: Soft Shape: Directional Twin - A longer nose than tail</quote>
+  <quote>Core: Poplar wood - A durable wood core that won't deteriorate over time.</quote>
+  <quote>Base: Extruded - A strong base that's easy to care for.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/5th-element-grid#:~:text=Board%20Type%3A%20Beginner,easy%20to%20care%20for</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an authorized Australian retailer with full specs and size chart. Provides the complete size table data as merchant-verified. Highly reliable for specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.5thelementgear.com/products/5th-element-grid-snowboard</url>
+  <quote>Profile: Flat Rocker - A long flat middle section with early rise in the nose and tail</quote>
+  <quote>Shape: Directional Twin - A slightly longer tail than nose helps you initiate turns</quote>
+  <quote>Flex: Soft - A forgiving flex that makes learning a breeze</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/products/5th-element-grid-snowboard#:~:text=Profile%3A%20Flat%20Rocker,learning%20a%20breeze</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page. Highest authority for specifications. Note: the phrasing "slightly longer tail than nose" appears to be a copy error on the manufacturer's own page — directional twin boards universally have a longer nose.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://sidelineswap.com/gear/snowboarding/snowboards/5952756-600-5th-element-grid-snowboard-and-binding-combo-various-sizes-easy-rocker</url>
+  <quote>Brand: 5th Element Department: Unisex Adult Type: All-Mountain</quote>
+  </quotelist>
+  <url_with_text_link>https://sidelineswap.com/gear/snowboarding/snowboards/5952756-600-5th-element-grid-snowboard-and-binding-combo-various-sizes-easy-rocker#:~:text=Brand%3A%205th%20Element%20Department%3A%20Unisex%20Adult</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SidelineSwap listing identifies the board as Unisex Adult. Low authority (reseller listing) but consistent across multiple listings.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://sidelineswap.com/gear/snowboarding/snowboards/7552884-new-5th-element-grid-snowboard-size-154</url>
+  <quote>Board Shape: True Twin - This board is symmetrical and will feel the same ridden in either direction.</quote>
+  </quotelist>
+  <url_with_text_link>https://sidelineswap.com/gear/snowboarding/snowboards/7552884-new-5th-element-grid-snowboard-size-154#:~:text=Board%20Shape%3A%20True%20Twin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SidelineSwap listing describes shape as True Twin, conflicting with manufacturer spec of Directional Twin. Likely an error or older description. Secondary market listing has lower authority.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.amazon.com/Beginner-Intermediate-Freeride-All-Mountain-Snowboard-Rocker-Design/dp/B0BGM312JM</url>
+  <quote>4x4 Binding Hole Pattern-Easily accommodates any binding with a 4x4 disc</quote>
+  <quote>Extruded Base-Durable and fast while being able to absorb wax for faster riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.amazon.com/Beginner-Intermediate-Freeride-All-Mountain-Snowboard-Rocker-Design/dp/B0BGM312JM#:~:text=4x4%20Binding%20Hole%20Pattern,absorb%20wax%20for%20faster%20riding</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing for the Grid confirms 4x4 binding pattern and extruded base specs. Amazon is a major retailer; product specs generally match manufacturer listings.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://sidelineswap.com/gear/snowboarding/snowboards/5952756-600-5th-element-grid-snowboard-and-binding-combo-various-sizes-easy-rocker</url>
+  <quote>The Grid uses the EZ Rocker, a rocker/flat/rocker profile that eases turn initiation</quote>
+  <quote>The board's soft flex allows room for error without punishing you for making the occasional mistake.</quote>
+  <quote>Centered Stance</quote>
+  </quotelist>
+  <url_with_text_link>https://sidelineswap.com/gear/snowboarding/snowboards/5952756-600-5th-element-grid-snowboard-and-binding-combo-various-sizes-easy-rocker#:~:text=The%20Grid%20uses%20the%20EZ,Centered%20Stance</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SidelineSwap listing quotes manufacturer description with additional details (EZ Rocker name, centered stance) not on the current product page. Likely sourced from manufacturer spec sheet.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.5thelementgear.com/products/5th-element-grid-snowboard</url>
+  <quote>Sale price $249.99 USD</quote>
+  <quote>Size · 148 · 151 · 154 · 157 · 160 · 158W · 161W · 164W · 166W</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/products/5th-element-grid-snowboard#:~:text=Sale%20price%20%24249.99,166W</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer direct price of $249.99 USD. Also shows size "160" which is not in the merchant's listing, suggesting either a newer addition or a variant. Prices may change.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.clarkssnowsports.com/index.php?main_page=product_reviews&cPath=17_23&products_id=4163</url>
+  <quote>5th element mens grid snowboard [5thelement grid board23] - $229.00</quote>
+  </quotelist>
+  <url_with_text_link>https://www.clarkssnowsports.com/index.php?main_page=product_reviews&cPath=17_23&products_id=4163#:~:text=5th%20element%20mens%20grid%20snowboard,%24229.00</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Clark's Snow Sports retailer listing. Price of $229 USD and SKU "board23" suggest 2023 model year. No customer reviews at this retailer. Price is lower than manufacturer direct.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://theextramileoutdoorgear.com/products/5th-element-grid-snowboard-with-matrix-03-bindings</url>
+  <quote>$350 Package Includes: 151cm 5th Element Snowboard, Matrix 03 Bindings</quote>
+  <quote>Availability Out of stock</quote>
+  </quotelist>
+  <url_with_text_link>https://theextramileoutdoorgear.com/products/5th-element-grid-snowboard-with-matrix-03-bindings#:~:text=%24350%20Package,Out%20of%20stock</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Extra Mile Outdoor Gear retailer listing shows board+bindings combo at $350 but currently out of stock. Small independent retailer.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.ebay.com/itm/385502834827</url>
+  <quote>5th Element Grid Snowboard with Matrix 03 Bindings, 151cm</quote>
+  <quote>New board packaged with bindings</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/itm/385502834827#:~:text=5th%20Element%20Grid,packaged%20with%20bindings</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>eBay listing confirms availability through third-party sellers. Seller based in Loveland, Colorado. Individual seller listing — availability may be intermittent.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://playitagainsports.com/locations/huntington-beach-ca/product/SSIGRID-CO/5th-Element-Grid-Combo</url>
+  <quote>New 5th Element Grid Combo Men's Snowboard Combo Huntington Beach CA</quote>
+  </quotelist>
+  <url_with_text_link>https://playitagainsports.com/locations/huntington-beach-ca/product/SSIGRID-CO/5th-Element-Grid-Combo#:~:text=New%205th%20Element%20Grid%20Combo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Play It Again Sports franchise retailer listing. Confirms physical retail availability. Limited detail.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.walmart.com/browse/sports-outdoors/snowboard-equipment/5th-element/4125_546956_3327620_7603363/YnJhbmQ6NXRoIEVsZW1lbnQie</url>
+  <quote>Shop for 5th Element Snowboarding in Snowsports at Walmart and save.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.walmart.com/browse/sports-outdoors/snowboard-equipment/5th-element/4125_546956_3327620_7603363/YnJhbmQ6NXRoIEVsZW1lbnQie#:~:text=Shop%20for%205th%20Element</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Walmart carries 5th Element products through third-party sellers. Confirms channel availability at a major US retailer.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.snsboards.com/brands/5th-Element.html</url>
+  <quote>FREE SHIPPING ON ORDERS OVER 99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snsboards.com/brands/5th-Element.html#:~:text=FREE%20SHIPPING</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SNS Boards (Snowboards N Stuff) has a 5th Element brand page, confirming they carry the brand. Limited detail available from search snippet.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/5th-element-grid</url>
+  <quote>Does everything you need it to with a great price.</quote>
+  <quote>Kept up with more expensive boards and had plenty of life in it.</quote>
+  <quote>Would recommend for people on a budget</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/5th-element-grid#:~:text=Does%20everything%20you%20need,people%20on%20a%20budget</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Verified buyer reviews at Melbourne Snowboard Centre. Small sample (5 reviews, all 5 stars) but provides genuine user feedback. Three of five are verified purchases.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/</url>
+  <quote>5th Element will not give you outstanding performance or durability.</quote>
+  <quote>These boards will work well for the average beginner, but I don't think experienced riders will want to use them.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/#:~:text=5th%20Element%20will%20not,experienced%20riders%20will%20want%20to%20use%20them</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01-16</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Expert opinion from CASI-certified snowboard instructor with decades of experience. Subjective but informed. The critique of durability and performance limits is important context for purchasers.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.62</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/</url>
+  <quote>5th Element snowboard bindings are actually pretty good for their cost.</quote>
+  <quote>they do offer very affordable snowboards and bindings that can work well for any rider on a budget.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/#:~:text=5th%20Element%20snowboard%20bindings,rider%20on%20a%20budget</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01-16</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Same expert source. Provides a more nuanced view — bindings rated better than boards. Useful for package purchasing decisions.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.62</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/</url>
+  <quote>If you are an intermediate rider pushing the boundaries of becoming advanced, I don't recommend getting a 5th Element board.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardhow.com/is-5th-element-good-snowboarding-brand/#:~:text=If%20you%20are%20an%20intermediate</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01-16</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Expert guidance on skill-level ceiling for this brand. Important purchase factor for buyers who may progress quickly.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.62</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://snowboardnerd.com/5th-element-stealth-3-snowboard-bindings-review/</url>
+  <quote>the best price-to-value model you can get this winter.</quote>
+  <quote>drawbacks such as the overall material quality and buckle durability</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardnerd.com/5th-element-stealth-3-snowboard-bindings-review/#:~:text=the%20best%20price-to-value,buckle%20durability</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SnowboardNerd review of companion bindings. Establishes quality/value trade-off pattern consistent with the brand's positioning. Blog source, moderate credibility.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.milosport.com/products/nitro-prime-raw-snowboard-2026</url>
+  <quote>Nitro Prime Raw Snowboard 2026 $349.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosport.com/products/nitro-prime-raw-snowboard-2026#:~:text=Nitro%20Prime%20Raw%20Snowboard%202026%20%24349.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Milosport retailer listing establishes Nitro Prime Raw price at $349.95 — a direct competitor in the beginner category. Reputable specialty retailer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.nidecker.com/products/play-2025</url>
+  <quote>Sale price $ 369.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/play-2025#:~:text=Sale%20price%20%24%20369.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker page for the Play 2026 at $369.95. Direct manufacturer pricing for a key competitor board in the beginner segment.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/rossignol</url>
+  <quote>Rossignol Evader Snowboard 2026 $449.95 $292.47 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/rossignol#:~:text=Rossignol%20Evader%20Snowboard%202026%20%24449.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo.com (major retailer) pricing for Rossignol Evader 2026. MSRP $449.95, often on sale at $292.47. Provides pricing context for a well-regarded beginner competitor.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/best-snowboards-for-beginners/</url>
+  <quote>The best snowboard brands for beginners include Nitro, Salomon, Burton, Rossignol and K2.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/best-snowboards-for-beginners/#:~:text=The%20best%20snowboard%20brands%20for%20beginners</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10-19</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SnowboardingDays.com expert list of best beginner brands. Written by a qualified snowboard instructor. Notably does NOT include 5th Element, which contextualizes the brand's positioning.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/the-top-5-snowboards-for-beginners-mens</url>
+  <quote>pinching the #1 spot this year is the new for 2026 Burton Cultivator.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/the-top-5-snowboards-for-beginners-mens#:~:text=pinching%20the%20%231%20spot</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01-24</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles.com rates the Burton Cultivator as the #1 beginner board for 2026. Provides competitive context. Independent specialist site.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.5thelementgear.com/products/5th-element-nightfall-snowboard</url>
+  <quote>Shape: True Twin - This board is symmetrical and will feel the same ridden in either direction.</quote>
+  <quote>Topsheet: Embossed - An extra durable topsheet that's built to last</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/products/5th-element-nightfall-snowboard#:~:text=Shape%3A%20True%20Twin,built%20to%20last</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer page for the Nightfall — a sister model to the Grid. Shows the 5th Element range and differentiating features (True Twin vs Grid's Directional Twin, Embossed topsheet).</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.amazon.com/5th-Element-Men-Freeride-All-Intermediate-Rocker-Regular/dp/B0CHZ3RMTM</url>
+  <quote>Liquid Sidewalls-Deliver a strong edge hold</quote>
+  <quote>Textured Topsheet-Improves durability to help hide and prevent knicks</quote>
+  </quotelist>
+  <url_with_text_link>https://www.amazon.com/5th-Element-Men-Freeride-All-Intermediate-Rocker-Regular/dp/B0CHZ3RMTM#:~:text=Liquid%20Sidewalls,prevent%20knicks</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing for 5th Element Shock. Shows upgraded features (liquid sidewalls, textured topsheet) compared to Grid. Useful for comparison within the brand's own range.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.clarkssnowsports.com/index.php?main_page=product_info&products_id=4255</url>
+  <quote>5th element dart snowboard [5thelement dart snowboard 25] - $239.00</quote>
+  </quotelist>
+  <url_with_text_link>https://www.clarkssnowsports.com/index.php?main_page=product_info&products_id=4255#:~:text=5th%20element%20dart%20snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Clark's Snow Sports listing for the Dart model — a newer 5th Element board with Hybrid Rocker. Priced at $239, showing it's a step up from the Grid within the same brand.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.ebay.com/itm/156619118907</url>
+  <quote>Country/Region of Manufacture · Taiwan</quote>
+  <quote>Binding Mount Pattern · 4x4</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/itm/156619118907#:~:text=Country%2FRegion%20of%20Manufacture,4x4</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>eBay listing for 5th Element Stealth 3 bindings specifies Taiwan manufacture and 4x4 mount. Applicable to bindings, may indicate broader manufacturing geography for the brand.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.5thelementgear.com/products/5th-element-channel-compatable-replacement-discs</url>
+  <quote>compatible with both 4-hole pattern and channel boards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.5thelementgear.com/products/5th-element-channel-compatable-replacement-discs#:~:text=compatible%20with%20both%204-hole%20pattern%20and%20channel</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official 5th Element replacement disc page confirms 4-hole and channel compatibility for their bindings. The Grid board itself uses 4x4 pattern.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+</citations>
+</response>

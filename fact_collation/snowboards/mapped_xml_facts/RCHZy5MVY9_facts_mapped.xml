@@ -1,0 +1,805 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="17" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="11" category="review" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="6" category="review" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="core_material" count="5" category="construction" />
+  <duplicate_canonical name="edge_technology" count="4" category="unknown" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="width_options" count="3" category="unknown" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="3" category="comparable" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+</canonical_schema>
+
+<answer>
+1. brand: K2 [1][2]
+2. model_name: Sky Pilot [1][2]
+3. model_year: 2027 [3][4]
+4. model_first_available_year: 2026 (25/26 season) — new model introduced for the 2025/26 season [5][6]
+5. redesign_year: Returns unchanged for 26/27 apart from graphics/colors [7]
+6. product_type: Snowboard [1][2]
+7. board_category: All Mountain - Freeride [3][8]
+8. board_category: Snowsurf [9]
+9. Snowboard collection: Dopamine [2]
+10. gender: Unisex / All-gender approach with scaled sizing [2][10]
+11. pro_rider_name: Sage Kotsenburg [1][2]
+12. Sage Kotsenburg credential: Won first-ever Olympic gold medal in men's snowboard slopestyle at 2014 Sochi Olympics [11]
+13. Sage Kotsenburg post-Olympic focus: Left competitive snowboarding in favor of backcountry freestyle riding [12][13]
+14. Design intent: Designed to ride pillowy, forested, technical terrain [2]
+15. Design concept: Ability to "pivot" and "release" the tail freely to ride natural terrain contours [2]
+16. comparable_board_same_brand: K2 Antidote (stiffer, more carbon-laden) [7]
+17. predecessor_model_name: K2 Instrument (discontinued) [14][15]
+18. manufacturer: K2 Sports, LLC (K2 Snowboarding division) [16]
+19. Parent company: Elevate Outdoor Collective (formerly K2-MDV Holdings, renamed February 2022) [17]
+20. Corporate ownership: Kohlberg & Company (private equity, acquired 2017) [18]
+21. Headquarters: Seattle, Washington, USA [16][17]
+22. K2 founded: 1962 on Vashon Island, Washington, by brothers Bill and Don Kirschner [16]
+23. K2 Snowboarding division founded: 1987 (some sources say 1988) [19][20]
+24. manufacturing_location_current: China [9][21]
+25. manufacturing_location_prior: 2001 [21][22]
+26. Design engineer (K2 Snowboards): Justin Clark [7]
+27. price_usd_msrp: $629.95 (on sale $440.97 at time of review) [2]
+28. price_usd_evo: $629.95 [23]
+29. price_usd_tactics: $629.95 [24]
+30. Price at Blauer Board Shop (USD): $629.95 [25]
+31. Price at Christy Sports (USD, discounted): $440.97 [9]
+32. Price at SnowCountry (EUR): €437.96 [9]
+33. price_cad_prfo: $454.99–$649.99 [9]
+34. price_aud_merchant: $949.99 (preorder) [3]
+35. estimated_availability_date: Preorder, estimated availability May 1, 2026 [3]
+36. availability_status: Yes (k2snow.com) [2]
+37. availability_status: In stock [23]
+38. availability_status: In stock [24]
+39. availability_status: In stock [25]
+40. availability_status: Available [9]
+41. availability_status: Available [9]
+42. availability_status: Available [9]
+43. availability_status: Available [9]
+44. availability_status: Available (2027 model) [26]
+45. availability_status: Available (2027 model) [4]
+46. availability_status: Available (2027 model) [19]
+47. availability_status: Available [10]
+48. availability_status: Available [27]
+49. availability_status: Available [28]
+50. availability_status: Available [29]
+51. availability_status: Available [30]
+52. availability_status: Available (154cm backordered) [31]
+53. shape: Directional [2][3]
+54. shape: Tapered directional with longer nose and shorter tail [9][32]
+55. taper: 10mm [7][32]
+56. setback: -1.9cm / 0.75" / -20mm [2][3][9]
+57. width_options: Standard / Volume Shifted (mid-wide) [2][3]
+58. width_options: Slightly wider than normal footprint [2]
+59. width_options: Confirmed by Blister reviewer [7]
+60. available_sizes: 148, 151, 154, 157, 160, 163 cm [2]
+61. available_sizes: 154, 157, 160 cm [3]
+62. Volume shift: Yes — Volume Shift™ technology [2][3]
+63. Volume shift sizing recommendation (K2 official): Downsize 3–5cm from normal length [2]
+64. Volume shift sizing recommendation (alternate, also from K2): Downsize 4–10cm from usual length [2][3] — DISAGREEMENT: K2's own page states both "3-5cm" and "4-10cm" in different sections; the 3–5cm appears in prose and the 4–10cm in the technical Volume Shift™ definition.
+65. Effective edge 148cm: 112.0cm [2][3]
+66. Tip/waist/tail 148cm: 29.5/24.9/28.5cm [2][3]
+67. sidecut_radius_size: 6.9m [2][3]
+68. stance_width_range_size: 48.3cm (19") [2][3]
+69. setback: -1.9cm (0.75") [2][3]
+70. recommended_weight_range_size: 41–73kg (90–160+ lbs) [2][3]
+71. Effective edge 151cm: 114.0cm [2][3]
+72. tip_tail_width_size: 30.0/25.3/29.0cm [2][3]
+73. sidecut_radius_size: 7.1m [2][3]
+74. stance_width_range_size: 50.8cm (20") [2][3]
+75. recommended_weight_range_size: 45–77kg (100–170+ lbs) [2][3]
+76. Effective edge 154cm: 117.0cm [2][3]
+77. tip_tail_width_size: 30.4/25.6/29.4cm [2][3]
+78. sidecut_radius_size: 7.3m [2][3]
+79. stance_width_range_size: 53.3cm (21") [2][3]
+80. recommended_weight_range_size: 50–82kg (110–180+ lbs) [2][3]
+81. Effective edge 157cm: 119.0cm [2][3]
+82. tip_tail_width_size: 30.8/25.9/29.8cm [2][3]
+83. sidecut_radius_size: 7.5m [2][3]
+84. stance_width_range_size: 53.3cm (21") [2][3]
+85. recommended_weight_range_size: 54–86kg (120–190+ lbs) [2][3]
+86. Effective edge 160cm: 122.0cm [2][3]
+87. tip_tail_width_size: 31.2/26.2/30.2cm [2][3]
+88. sidecut_radius_size: 7.7m [2][3]
+89. stance_width_range_size: 55.9cm (22") [2][3]
+90. recommended_weight_range_size: 59–91kg (130–200+ lbs) [2][3]
+91. Effective edge 163cm: 124.0cm [2][3]
+92. tip_tail_width_size: 31.6/26.5/30.6cm [2][3]
+93. sidecut_radius_size: 7.9m [2][3]
+94. stance_width_range_size: 58.4cm (23") [2][3]
+95. recommended_weight_range_size: 59–91kg (130–200+ lbs) [2][3]
+96. camber_type: Directional Combination Camber [2][3]
+97. camber_description: Camber underfoot, small amount of rocker in the tail, subtle early rise starting just ahead of front binding [7]
+98. camber_description: Combining traditional camber and rocker profiles for pop/precision of camber + float/predictability of rocker [2][3]
+99. flex_rating_10: 6/10 (Medium) [3][33]
+100. flex_feel: "Right in the middle" medium flex [2]
+101. flex_feel: Medium, bordering on medium-stiff; stiffer in tail, softer nose [9]
+102. flex_direction: Directional — stiffer tail, softer nose [7][9]
+103. flex_feel: Balanced mid-flex for freeride and freestyle [33]
+104. sidewall_material: Hybritech™ sidewall construction (sidewall along running surface, capped in tip/tail) [34][35]
+105. sidewall_material: Hybritech™ — removes excess plastic in tip/tail, adds 3D capped edge [34][35]
+106. core_material: S1 Core (Bamboo, Aspen, Paulownia) [2][3]
+107. core_material: Bamboo (tip-to-tail stringers), Aspen (underfoot at 30° angles), Paulownia (midbody/tip/tail for weight reduction) [2]
+108. core_material: Damp underfoot and strong; smooth-flexing cousin to A1 core [2][23]
+109. core_material: Tip-to-tail for snap, durability, and damping [2]
+110. core_material: Aspen and Bamboo placed at 30° angles underfoot to increase strength, edge-to-edge response, and pressure distribution [2]
+111. laminate: Triax (Triaxial) [2][3]
+112. laminate: Three-axis weave at 45°, 45°, and 0° [2]
+113. laminate: Adds torsional stiffness and overall strength [2][26]
+114. construction_material_innovation: Carbon Y Beam™ [2][3]
+115. construction_material_innovation: Pair of carbon stringers running length of board, parallel from tail through forward inserts, forking out to edges around front contact points [7]
+116. construction_material_innovation: Enhancing snap and stability in tail, channeling energy to nose contact points; stability and edge pressure without unnecessary torsional rigidity [2][3]
+117. resin: Bio Resin (plant-based epoxy resin) [2][19]
+118. base_material: Wax Infused Sintered 4001 [2][3]
+119. base_material: Hardest and fastest sintered base material from Crown; retains wax longer [2][10]
+120. base_type: Stone Ground [2][19]
+121. edge_technology: 3D Base Contour — 3mm spoon contour at tip and tail [2][27]
+122. edge_technology: Deflects soft snow, eases turn initiation, remains predictable on hardpack [2][27]
+123. edge_technology: Raises contact points 3mm off the snow [7]
+124. edge_technology: Abrupt spoon starting ~5cm from edge, more akin to Bataleon Triple Base Technology than other K2 boards [7]
+125. mounting_pattern: 2x4 [2][3]
+126. mounting_pattern: Tighter hole pattern allowing for more precise stance adjustments; compatible with standard or mini disk bindings [26]
+127. rider_level: Intermediate, Advanced, Expert [2]
+128. skill_level_recommendation: Intermediate – Advanced [3]
+129. terrain_suitability: Freeride, Big Mountain, Freestyle, Powder, Piste, Speed [2]
+130. terrain_suitability: Pillowy terrain, forested terrain, technical terrain, steep chutes, tight tree lines [2][23]
+131. riding_style: Freeride with freestyle versatility [23]
+132. terrain_suitability: One-board quiver for freestyle-minded rider wanting playful, medium-flexing board [7]
+133. warranty: 5-year warranty against defects in material or craftsmanship [24][33]
+134. powder_rating_tgr: Good [9]
+135. base_glide_performance: Good [9]
+136. carving_rating_tgr: Great [9]
+137. speed_rating_tgr: Great [9]
+138. Uneven snow: Great [9]
+139. switch_riding: Average [9]
+140. jumps_rating_tgr: Good [9]
+141. jibbing_rating_tgr: Average [9]
+142. pipe_rating_tgr: Good [9]
+143. on_snow_feel_tgr: Stable [9]
+144. turn_initiation_performance: Medium/Fast [9]
+145. Skidded turns: Moderate [9]
+146. flex_rating_10_the_good_ride: Medium/Stiff [9]
+147. Buttering: Moderate [9]
+148. edge_hold: Hard Snow (competent grip, not best on icy conditions) [9]
+149. Approx. weight feel: Feels Normal [9]
+150. positive_aspect: Very damp / chatter-resistant ride [9]
+151. positive_aspect: Very versatile ride [9]
+152. positive_aspect: Great all-day ride [9]
+153. positive_aspect: Fun to turn [9]
+154. positive_aspect: Pretty competent at speed [9]
+155. positive_aspect: Playful when buttering, stable at higher speeds [36]
+156. positive_aspect: Nose and tail flares add a surfy feel [36]
+157. positive_aspect: Fun, easy to ride, and quite versatile across conditions [7]
+158. positive_aspect: Outperforms many competitors on firm snow due to versatile design [7]
+159. positive_aspect: Balanced mid flex with predictable high-speed control [37]
+160. positive_aspect: Easy-to-release tail for creative lines [37]
+161. negative_aspect: Base is slow for the price point [9]
+162. negative_aspect: Middle ground pop — not as poppy/springy as K2 Commonwealth or other high-end boards [9]
+163. negative_aspect: Not the board for hard-to-icy snow; better boards exist for that [9]
+164. negative_aspect: Folds relatively quickly at high speeds (not a stiff charger like K2 Antidote) [7]
+165. negative_aspect: Softer flex suits slower, freestyle-focused riders more; may not satisfy aggressive high-speed riders [36]
+166. negative_aspect: K2 doesn't post boot size recommendations; riders must figure it from waist width specs [9]
+167. Boot size fit 148cm: US 7–8 [9]
+168. Boot size fit 151cm: US 8.5–9.5 [9]
+169. Boot size fit 154cm: US 9–10 [9]
+170. Boot size fit 157cm: US 9.5–10.5 [9]
+171. Boot size fit 160cm: US 10–11 [9]
+172. Boot size fit 163cm: US 11–12 [9]
+173. comparable_board_same_brand: Sky Pilot is more playful, softer flex; Antidote is very stiff, more of a leg-burner; both in Sage's Dopamine series [7]
+174. comparable_board_same_brand: Commonwealth has better pop, easier ollie, better spring out of turns; Sky Pilot is damper, better in uneven snow and at sustained high speed [9]
+175. comparable_board_cross_brand: Sky Pilot's tail is longer, more substantial, and softer flex than these volume-shifted boards [7]
+176. comparable_board_cross_brand: Stratos is narrower with more 3D contouring, surfier and more accessible for intermediates; Sky Pilot is mid-wide, stiffer tail, more stable, energetic, and freestyle-capable [7]
+177. comparable_board_cross_brand: Nidecker Megalight, Burton Counterbalance, Amplid Souly Grail, K2 Alchemist, United Shapes Cadet, Jones Flagship Pro, YES Pick Your Line, Weston Gnarnia [9]
+178. user_review_forum: Reminds some forum users of K2 Excavator but "a more playful version" [15]
+179. Award consideration: Listed as contender in Angrysnowboarder Top 5 lists for 2026 season [38]
+180. Snowboard International test location: Åre, Sweden [37]
+181. reviewer_opinion_the_good_ride: James, size 9 boot, 5'10", 185–195 lbs, tested 157cm size [9]
+182. Blister reviewer tested: 157cm extensively across varied conditions [7]
+183. Sage Kotsenburg film project: "Eternal Descent" — rides Sky Pilot in Japanese pillows and steep Alaskan spines [7]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://k2snow.com/en-us/p/sky-pilot-unisex-snowboard-2526</url>
+  <quote>K2 Sky Pilot Unisex Snowboard 2026 | K2 Skis and K2 Snowboarding</quote>
+  </quotelist>
+  <url_with_text_link>https://k2snow.com/en-us/p/sky-pilot-unisex-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official K2 manufacturer product page — the primary authority for all specifications and features. Carries highest credibility for measurements and technical details.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://k2snow.com/en-us/p/sky-pilot-unisex-snowboard-2526</url>
+  <quote>Size: 148, 151, 154, 157, 160, 163. Ability: Intermediate, Advanced, Expert.</quote>
+  <quote>Snowboard Collection: Dopamine. Snowboard Shape: Directional. Snowboard Width: Volume Shift.</quote>
+  <quote>$440.97 $629.95</quote>
+  </quotelist>
+  <url_with_text_link>https://k2snow.com/en-us/p/sky-pilot-unisex-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official K2 product page with complete size chart, MSRP, sale pricing, technologies, and specifications. Highest authority for product specs and pricing.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.wildernesssafeco.com/products/k2-sky-pilot-2027/</url>
+  <quote>The K2 Sky Pilot is an all new freeride snowboard in the K2 range, co-developed with Sage Kotsenburg</quote>
+  </quotelist>
+  <url_with_text_link>https://www.wildernesssafeco.com/products/k2-sky-pilot-2027/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Merchant listing providing 2027 model year designation, pricing in AUD, and size-specific data matching the merchant-provided data. Serves as the primary merchant source.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.milosport.com/products/k2-sky-pilot-snowboard-2027</url>
+  <quote>The new K2 Sky Pilot Snowboard 2027</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosport.com/products/k2-sky-pilot-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Milosport is a well-known specialty snowboard retailer based in Salt Lake City; confirms 2027 model year listing.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url>
+  <quote>A new board for 2026 that seems to be replacing the instrument</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride is one of the most comprehensive snowboard review sites; confirms 2026 as first model year and identifies the Instrument as likely predecessor.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/k2-sky-pilot-snowboard-review-2026-whats-good</url>
+  <quote>Sizes (cm) 148, 151, 154, 157, 160, 163 (downsizing 3–5 cm recommended thanks to Volume Shift™)</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/k2-sky-pilot-snowboard-review-2026-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>King Snow review confirms size range, flex rating, and shape details. Independent reviewer with 20+ years experience.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://blisterreview.com/gear-reviews/2026-2027-k2-sky-pilot</url>
+  <quote>[Note: our review was conducted on the 25/26 Sky Pilot, which returns unchanged for 26/27, apart from the graphics / colors.]</quote>
+  <quote>The Sky Pilot could be categorized as a mid-wide — my 157 cm comes with a waist width of 25.9 cm — and features 10 mm of taper</quote>
+  </quotelist>
+  <url_with_text_link>https://blisterreview.com/gear-reviews/2026-2027-k2-sky-pilot</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blister is a highly respected, in-depth gear review publication. Their review confirms 2027 model is unchanged from 2026 except graphics, and provides extensive on-snow performance testing details. Very high credibility.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url>
+  <quote>Intermediate to expert freeriders who want a directional board with a mid flex</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is The Good Ride's recommended retailer. Their listing provides detailed specs and rider-level information.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url>
+  <quote>Very Damp / Chatter Resistant. Very Versatile Ride. Great All Day Ride. Fun to Turn. Pretty Competent At Speed.</quote>
+  <quote>Base Is Slow For The Price Point. Middle Ground Pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent snowboard review site run by an extremely experienced tester (800+ boards). Provides comprehensive performance ratings, positives/negatives, and comparative analysis. The performance ratings, boot size recs, and manufacturing info are from this source.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.ridebackwoods.com/products/k2-sky-pilot-snowboard-2026</url>
+  <quote>the Sky Pilot was designed with an all-gender approach - with scaled sizing, flex profiles, and waist widths to accommodate a smaller foot.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ridebackwoods.com/products/k2-sky-pilot-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Backwoods retailer listing confirms unisex design approach and contains base material details.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Sage_Kotsenburg</url>
+  <quote>He won the first-ever Olympic gold medal in men's snowboard slopestyle at the 2014 Winter Olympic Games in Sochi, Russia</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Sage_Kotsenburg</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia biography of Sage Kotsenburg, well-sourced and verified. Establishes his credibility as a pro-model collaborator.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Sage_Kotsenburg</url>
+  <quote>Soon after his success at the 2014 Olympics, he elected to leave competitive snowboarding in favor of exploring backcountry snowboarding.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Sage_Kotsenburg</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms Sage's transition to backcountry riding — directly relevant to understanding the Sky Pilot's design philosophy.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.boafit.com/en-us/athletes/sage-kotsenburg</url>
+  <quote>Pivoting from the park to the backcountry post-Olympics, Kotsenburg has since become one of the most respected all-terrain riders</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boafit.com/en-us/athletes/sage-kotsenburg</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>BOA athlete profile adds context about Sage's riding style and awards (2020 Snowboarder of the Year).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url>
+  <quote>A new board for 2026 that seems to be replacing the instrument, but with many new design elements like lifted sides in the nose/tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride reviewer identifies the K2 Instrument as the likely predecessor model.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/k2-sky-pilot.283999/</url>
+  <quote>I noticed the instrument has been discontinued. Might this be the successor?</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/k2-sky-pilot.283999/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboarding forum discussion where riders compare Sky Pilot to the discontinued Instrument and discuss its positioning. Confirms user interest and competitor comparisons (Excavator, K2 Aeronaut).</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/K2_Sports</url>
+  <quote>K2 Sports, LLC, known simply as K2, is an American sporting goods company headquartered in Seattle, Washington</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/K2_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1962</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on K2 Sports provides corporate history, founding details, and manufacturing location changes.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url>
+  <quote>All brands under the K2 Sports and MDV umbrellas are to be united under the parent company "Elevate Outdoor Collective"</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Industry trade publication confirms the corporate structure and parent company name change from K2-MDV Holdings to Elevate Outdoor Collective in 2022.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://shop-eat-surf-outdoor.com/news/elevate-outdoor-collective-makes-ceo-switch-john-colonna-to-depart-josee-larocque-named-ceo/137151/</url>
+  <quote>Elevate is owned by private equity firm Kohlberg & Company, which first invested in the company in 2017.</quote>
+  </quotelist>
+  <url_with_text_link>https://shop-eat-surf-outdoor.com/news/elevate-outdoor-collective-makes-ceo-switch-john-colonna-to-depart-josee-larocque-named-ceo/137151/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Industry news source confirms Kohlberg & Company as the private equity owner since 2017.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/k2-sky-pilot-2027</url>
+  <quote>K2 Snowboarding was launched in 1987</quote>
+  <quote>Bio Resin Plant-based epoxy resin used in the layup to reduce petroleum content</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/k2-sky-pilot-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian specialty retailer (established 1991) provides detailed product descriptions including bio resin mention and K2 snowboarding founding year.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.the-house.com/portal/history-of-k2/</url>
+  <quote>Started in 1988, snowboarding is a strong, more recent growth category for K2.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/portal/history-of-k2/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House is a major online snowboard retailer. Notes K2 snowboarding started in 1988, which slightly conflicts with Ballistyx's 1987 date — minor discrepancy likely due to development vs. launch timing.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/K2_Sports</url>
+  <quote>K2 moved its manufacturing from Vashon Island to Guangdong, China in 2001.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/K2_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced information about K2's manufacturing relocation to China in 2001.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.the-house.com/portal/history-of-k2/</url>
+  <quote>K2 moved its manufacturing from Vashon Island to China in 2001.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/portal/history-of-k2/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms China manufacturing move from a second source.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/k2-sky-pilot-snowboard</url>
+  <quote>The K2 Sky Pilot Snowboard 2026 is in stock now.</quote>
+  <quote>S1 Core – The smooth-flexing cousin to the A1 core, K2's new S1 core in designed to be damp underfoot</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/k2-sky-pilot-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is one of the largest and most reputable online outdoor retailers. Confirms in-stock status and provides comprehensive product description matching K2 official specs.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.tactics.com/k2/sky-pilot-snowboard</url>
+  <quote>K2 Sky Pilot Snowboard 2026 in stock at Tactics.</quote>
+  <quote>5 Year Warranty - This K2 Snowboard comes with a five (5) year warranty guaranteeing that they are free of defects in regards to material or craftsmanship.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/k2/sky-pilot-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a highly reputable specialty snowboard shop. Confirms warranty details and stock availability.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url>
+  <quote>5-Year Warranty – Built to last and backed by K2's most advanced construction.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is The Good Ride's recommended specialty retailer with in-depth product descriptions.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.wildernesssafeco.com/products/k2-sky-pilot-2027/</url>
+  <quote>These offer a tighter hole pattern, allowing for more precise stance adjustments.</quote>
+  <quote>A fiberglass weave intersecting at three angles enhances torsional stiffness and overall strength.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.wildernesssafeco.com/products/k2-sky-pilot-2027/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Merchant listing for the 2027 model with detailed technology explanations.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.corbetts.com/k2-sky-pilot-snowboard-2026/</url>
+  <quote>3mm of 3D contour (spoon) that gradually blends from the running surface deflects soft snow, eases turn initiation, and remains predictable on hardpack.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/k2-sky-pilot-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Corbetts is a specialty snowboard retailer. Confirms 3D contour specification and size range.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.sportsbasement.com/products/skypilot</url>
+  <quote>The Sky Pilot is built around a slightly-wider than normal footprint, and features a "right in the middle" medium flex.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sportsbasement.com/products/skypilot</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Sports Basement is a California-based outdoor retailer. Confirms availability and product description.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.gearwest.com/products/k2-w26-sky-pilot</url>
+  <quote>The K2 Sky Pilot snowboard is built around a slightly-wider than normal footprint</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gearwest.com/products/k2-w26-sky-pilot</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Gear West is a specialty outdoor retailer confirming availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.powder7.com/K2-Sky-Pilot-Snowboard-148cm-New-Flat-2026/for-sale</url>
+  <quote>2026 K2 Sky Pilot 148cm Skis are now on sale with fast shipping from our Golden, CO ski shop.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.powder7.com/K2-Sky-Pilot-Snowboard-148cm-New-Flat-2026/for-sale</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Powder7 is a Colorado-based specialist shop confirming availability of the 148cm size.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://proctorski.com/products/k2-sky-pilot-snowboard-2026</url>
+  <quote>K2 Sky Pilot Snowboard 2026 - Multi / 154 is backordered and will ship as soon as it is back in stock.</quote>
+  </quotelist>
+  <url_with_text_link>https://proctorski.com/products/k2-sky-pilot-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Proctor Ski confirms availability (with some sizes backordered) and offers a product guarantee trial period.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url>
+  <quote>The K2 Sky Pilot is tapered and directional. You have a much longer nose than you do tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/k2-sky-pilot-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride confirms the tapered directional shape from on-snow testing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url>
+  <quote>Flex Rating: 6/10 – A balanced flex tuned for freeriding and freestyle, responsive enough to charge, but playful enough to tweak.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/k2-sky-pilot-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides the 6/10 flex rating breakdown and warranty confirmation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://snowboards.com/product/51241/k2-snowboarding-k2-mens-sky-pilot-snowboard</url>
+  <quote>Backed by years of rigorous testing, Hybritech is the most eco-friendly, lightest, and most durable snowboard construction on the market.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/51241/k2-snowboarding-k2-mens-sky-pilot-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboards.com confirms Hybritech construction for the Sky Pilot. This is a marketing claim about "most durable" which should be treated with moderate confidence.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://k2snow.com/en-us/p/special-effects-unisex-snowboard-2025</url>
+  <quote>our Hybritech™ Sidewalls are the most durable sidewall construction on the market</quote>
+  <quote>Removing all excess sidewall material in the tip and tail and adding a 3D capped edge</quote>
+  </quotelist>
+  <url_with_text_link>https://k2snow.com/en-us/p/special-effects-unisex-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official K2 product page for another model that uses the same Hybritech construction, explaining the technology in detail. Applies to all K2 boards including Sky Pilot.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/k2-sky-pilot-snowboard-review-2026-whats-good</url>
+  <quote>It felt playful when I wanted to butter, and stable at higher speeds.</quote>
+  <quote>Softer flex suits slower, freestyle-focused riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/k2-sky-pilot-snowboard-review-2026-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>King Snow's video review provides independent rider impressions from an experienced tester (Aari, 20+ years experience, 100+ days/year). Independently confirms playful/stable duality and identifies softer flex as a potential limitation.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.snowboard.international/tested/k2-sky-pilot-25-26-first-thoughts/?v=0b3b97fa6688</url>
+  <quote>Riders also noted its balanced mid flex, predictable high-speed control, and easy-to-release tail for creative lines.</quote>
+  <quote>It's purpose-built for freeriders who like to mix pow slashes with natural features — not stiff-boot park specialists.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard.international/tested/k2-sky-pilot-25-26-first-thoughts/?v=0b3b97fa6688</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard International is a specialist snowboard publication. Their multi-rider test team (5 riders over 2 weeks in Åre, Sweden) provides reliable first impressions. Confirms mid flex, high-speed control, and target rider profile.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.82</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.patreon.com/posts/top-5-lists-have-130611726</url>
+  <quote>K2 Sky Pilot</quote>
+  </quotelist>
+  <url_with_text_link>https://www.patreon.com/posts/top-5-lists-have-130611726</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2025-08</date_of_last_relevance>
+  <reasoning>Angrysnowboarder is a prominent independent reviewer. The Sky Pilot was listed as a contender for their 2026 Top 5 awards lists, suggesting industry recognition.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+</citations>
+</response>

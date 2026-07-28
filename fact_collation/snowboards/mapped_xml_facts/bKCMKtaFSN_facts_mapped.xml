@@ -1,0 +1,784 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="terrain_suitability" count="9" category="recommendation" />
+  <duplicate_canonical name="availability_status" count="7" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="7" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="core_material" count="6" category="construction" />
+  <duplicate_canonical name="sustainability_certification" count="5" category="sustainability" />
+  <duplicate_canonical name="construction_material_innovation" count="5" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="3" category="review" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="3" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="3" category="comparable" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="riding_style" count="2" category="identity" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton (The Burton Corporation) [1][2]
+2. model_name: Rewind [1][2]
+3. Full product name: Burton Rewind Camber Snowboard [1]
+4. model_year: 2026 (Winter 2025/2026 season) [1][4]
+5. manufacturer: The Burton Corporation, founded 1977 by Jake Burton Carpenter [16]
+6. Manufacturer headquarters: Burlington, Vermont, USA [17]
+7. Manufacturer ownership: Privately held and owned by Donna Carpenter [17]
+8. sustainability_certification: Burton is the world's first snowboard company to become a certified B Corporation [18]
+9. manufacturing_location: Most snowboards manufactured at the Keil factory in Austria; R&D and prototyping in Burlington, VT [19]
+10. available_colors: Spray Paint [5]
+11. topsheet_appearance_description: Spray paint on cardboard theme balancing a "punk graffiti attitude with the pure fun of creating" [5]
+12. 2026 model change vs prior year: Graphics only (no spec changes) [6]
+13. SKU: 1985418EZMRG145 (merchant-provided)
+14. predecessor_model_name: Previously sold as women's-specific board (through 2024/2025); for 2026, marketed as unisex [7][8]
+15. product_type: Snowboard [1]
+16. board_category: All Mountain / Park [9]
+17. Board subtype: Freestyle [4]
+18. price_usd_msrp: $529.95 [10][11]
+19. price_usd_rei: $317.83 (40% off clearance/discontinued price) [10]
+20. price_usd_evo: $529.95 retail / $397.46 sale (available in-store only for 2026 model) [11]
+21. Price at 701 Cycle and Sport (USD): $499.95 excl. tax [12]
+22. Price at eBay (GBP): Available via surfsnowstyle.com eBay shop (UK independent retailer) [13]
+23. price_aud_merchant: $639.99 AUD
+24. price_aud_merchant: $799.99 AUD
+25. Merchant discount (AUD): 20%
+26. Snowboard Magazine 2022 pricing reference: $499.95 (for 2022 model year with sizes 141, 146, 149, 152) [14]
+27. availability_status: Discontinued/clearance; limited sizes remaining [10]
+28. availability_status: In-stock (2026 model) [11]
+29. availability_status: In stock [12]
+30. availability_status: Available online [7]
+31. availability_status: Available [6]
+32. availability_status: Available [15]
+33. availability_status: Currently unavailable [20]
+34. Shipping restriction (AU merchant): Only available for shipping within Australia (merchant-provided)
+35. shape: True Twin (symmetrical tip and tail, twin flex) [2][3]
+36. camber_type: PurePop Camber [2][3]
+37. camber_description: Evolution of traditional camber with subtle flat zones just outside feet for amplified pop and playfulness; early rise tip and tail sections for catch-free feel [2]
+38. flex_rating_10: 2.5/10 (Soft)
+39. flex_rating_10: 1–4/10 (Soft) [6] — NOTE: Disagreement. Merchant lists 2.5/10; Blauer lists flex range 1–4/10. Both describe "soft" category but the merchant is more specific.
+40. flex_direction: Twin Flex — balanced from tip to tail [6]
+41. camber_description: Flat, ultra-thin, and skate-like [2]
+42. setback: 0mm (all sizes) (merchant-provided — centered stance) [21]
+43. width_options: Standard (merchant-provided)
+44. available_sizes: 140cm, 145cm, 148cm, 151cm, 155cm, 158cm (merchant-provided)
+45. Effective edge 140cm: 1045mm (merchant-provided)
+46. sidecut_radius_size: 6.6m (merchant-provided)
+47. tip_tail_width_size: 274.9mm (merchant-provided)
+48. Waist width 140cm: 237mm (merchant-provided)
+49. stance_width_range_size: 505mm (merchant-provided)
+50. recommended_weight_range_size: 36–54kg (merchant-provided)
+51. Effective edge 145cm: 1095mm (merchant-provided)
+52. sidecut_radius_size: 6.9m (merchant-provided)
+53. tip_tail_width_size: 279.8mm (merchant-provided)
+54. Waist width 145cm: 240mm (merchant-provided)
+55. stance_width_range_size: 505mm (merchant-provided)
+56. recommended_weight_range_size: 45–68kg (merchant-provided)
+57. Effective edge 148cm: 1123mm (merchant-provided)
+58. sidecut_radius_size: 7.1m (merchant-provided)
+59. tip_tail_width_size: 284.9mm (merchant-provided)
+60. Waist width 148cm: 244mm (merchant-provided)
+61. stance_width_range_size: 530mm (merchant-provided)
+62. recommended_weight_range_size: 45–68kg (merchant-provided)
+63. Effective edge 151cm: 1149mm (merchant-provided)
+64. sidecut_radius_size: 7.3m (merchant-provided)
+65. tip_tail_width_size: 289.9mm (merchant-provided)
+66. Waist width 151cm: 248mm (merchant-provided)
+67. stance_width_range_size: 530mm (merchant-provided)
+68. recommended_weight_range_size: 54–82kg (merchant-provided)
+69. tip_tail_width_size: 28.9 / 248 / 28.9 centimeters (nose/waist/tail) [21]
+70. REI effective edge 151cm: 114.9 centimeters [21]
+71. sidecut_radius_size: 7.3 meters [21]
+72. Effective edge 155cm: 1185mm (merchant-provided)
+73. sidecut_radius_size: 7.5m (merchant-provided)
+74. tip_tail_width_size: 294.2mm (merchant-provided)
+75. Waist width 155cm: 251mm (merchant-provided)
+76. stance_width_range_size: 560mm (merchant-provided)
+77. recommended_weight_range_size: 54–82kg (merchant-provided)
+78. Effective edge 158cm: 1211mm (merchant-provided)
+79. sidecut_radius_size: 7.7m (merchant-provided)
+80. tip_tail_width_size: 297.2mm (merchant-provided)
+81. Waist width 158cm: 253mm (merchant-provided)
+82. stance_width_range_size: 560mm (merchant-provided)
+83. recommended_weight_range_size: 68–91kg (merchant-provided)
+84. recommended_weight_range_size: 120–180 pounds [21]
+85. core_material: Super Fly 800G Core — dual-species wood core with dual-density vertical laminations of alternating softwood and hardwood [22]
+86. core_material: Dualzone EGD — wood grain positioned along toe and heel edges in two continuous zones perpendicular to rest of core for consistent edge-hold and added strength [23]
+87. core_material: Off-Axis Squeezebox Low — stiffer zones just outside feet create more direct energy transfer to tip and tail; softer, smoother flex between bindings [23]
+88. laminate: Women's Specific Triax Fiberglass — torsionally softer than Burton's regular Triax for lighter bodies [2]
+89. construction_material_innovation: Carbon I-Beam — ultralight backbone added to bottom layer of Triax fiberglass (merchant-provided)
+90. base_material: Sintered — durable and highly porous for superior wax absorption and greater overall glide [2]
+91. resin: Super Sap Epoxy — bio-based resin that reduces carbon footprint by 50% versus conventional all-petroleum-based epoxies [22]
+92. edge_technology: Off-Axis Frostbite Edges — edges extend slightly from sidewall under bindings for added bite; Off-Axis profiling enhances ride for typical park angles [2]
+93. mounting_pattern: The Channel — compatible with all major binding brands, works best with Burton EST bindings [2]
+94. construction_material_innovation: Off-Axis Filet-O-Flex — soft, ultra-thin core profiling mapped to stance for buttery board feel with maintained grip and stability [6]
+95. construction_material_innovation: Board overbuilt in factory then broken down by machinery for consistent flex, pop, and feel from day 1 to day 100+ [2]
+96. construction_material_innovation: Tip and tail taper reduces swing weight and promotes mobility (merchant-provided)
+97. construction_material_innovation: Creates a traditional stance better suited to park riders; anatomical alignment for better toe/heel edge grip [24]
+98. core_material: Ultra thin core construction with soft EVA padding for vibration absorption (merchant-provided)
+99. terrain_suitability: 7/10 (merchant-provided)
+100. terrain_suitability: 7/10 (merchant-provided)
+101. terrain_suitability: 4/10 (merchant-provided)
+102. terrain_suitability: 4/10 [25] — NOTE: Disagreement with merchant 2026 rating of 7/10. The 2023 women's model had different ratings; 2026 unisex model changed these ratings.
+103. terrain_suitability: 7/10 [25]
+104. terrain_suitability: 4/10 [25]
+105. rider_level: Intermediate (merchant-provided)
+106. skill_level_recommendation: Intermediate to Expert [6]
+107. skill_level_recommendation: Between beginner and intermediate [20] — NOTE: Disagreement. Berg's places it more beginner-friendly; Blauer says intermediate to expert; merchant says intermediate. The board's soft flex suits beginners but camber profile and Frostbite edges reward experience.
+108. terrain_suitability: Park / Freestyle [1][4]
+109. terrain_suitability: All Mountain [9]
+110. riding_style: Freestyle — spinning, stomping, jibbing, switch riding [2]
+111. terrain_suitability: Groomers, park, harder snow [26]
+112. warranty: 3-year warranty from date of purchase (all 2014+ Burton snowboards with The Channel) [3]
+113. sustainability_certification: Reduces carbon footprint by 50% over conventional petroleum-based epoxies [22]
+114. sustainability_certification: First snowboard company to achieve certified B Corp status; recertified 2024 [18]
+115. sustainability_certification: Accredited member of the Fair Labor Association since 2019 [27]
+116. sustainability_certification: $2M of profits committed annually to values-aligned organizations [27]
+117. reviewer_opinion_the_good_ride: Good for high intermediate to advanced rider who wants a twin board that likes to ride fast with freestyle personality [26]
+118. on_snow_feel_tgr: "Feels semi-locked in on snow" — more aggressive despite softer flex [26]
+119. speed_rating_tgr: Board wants to ride faster; feels best and most playful at speed [26]
+120. edge_hold: Great connection to snow; holds edge very well up to hard and semi-icy snow [26]
+121. flex_feel: Hand flex seems soft, but on feet it stiffens up and feels medium to stiff [26]
+122. switch_riding: Rides great switch; true twin feels the same as regular [26]
+123. jibbing_rating_tgr: Not for beginner jibbers; better for riders with previous jibbing experience [26]
+124. powder_rating_tgr: Slowed down significantly in powder; prefers groomed terrain or harder snow [26]
+125. reviewer_opinion_the_good_ride: Possible but requires effort [26]
+126. jumps_rating_tgr: Super stable on jumps and spins; not for learning or beginners [28]
+127. reviewer_opinion_the_good_ride: Medium damp — can still feel a lot of information from the snow [26]
+128. Snowboard Magazine Platinum Picks 2022: Won Platinum Pick award — "endless fun when ripping the resort" [14]
+129. Snowboard Magazine on duality: Board has soft flex that charges; holds edge on hardpack while remaining playful and forgiving [14]
+130. Snowboarder Magazine staff description: "The perfect soft-but-charging women's freestyle board" [29]
+131. reviewer_opinion_whitelines: Effortless turning; ideal for side hits; perfect for mellow laps in park or on piste [30]
+132. reviewer_opinion_whitelines: "Playful is an understatement; this is a jibber's dream... holding presses with zero effort" [30]
+133. reviewer_opinion_whitelines: Not as comfortable at high speeds but still holds an edge well [30]
+134. comparable_board_same_brand: Compared to Burton Talent Scout — Rewind lacks stability/aggression but is a livelier ride [30]
+135. Berg's Ski Shop expert opinion: "One of the coolest unisex boards in Burton's line and one of the best boards to explore different riding styles" [20]
+136. Berg's on weight: "Feels normal but very sturdy" [28]
+137. Berg's on Channel weight reduction: Channel construction helps make it one of the lightest boards [20]
+138. comparable_board_same_brand: Burton Blossom — $559.95 MSRP, freestyle, camber, stiffness 5 (stiffer) [31]
+139. comparable_board_same_brand: Burton Process — Mark McMorris signature, soft twin park board [32]
+140. comparable_board_same_brand: Burton Talent Scout — more stable/aggressive vs Rewind's livelier ride [30]
+141. comparable_board_cross_brand: Capita Ultrafear 2026 — $549.95, in stock [12]
+142. comparable_board_cross_brand: Capita Spring Break Resort Twin — $549.95 [12]
+143. comparable_board_cross_brand: Capita Spring Break Stairmaster — $479.95 [12]
+144. REI Co-op: Major US outdoor retailer; membership-based cooperative; 1-year return policy; price match available [10]
+145. evo: Established online snow/ski/outdoor retailer; 5% price beat guarantee; up to 1 year returns; 10% back rewards for members [11]
+146. 701 Cycle and Sport: Employee-owned independent shop; $100 oversized packaging fee; free ground shipping over $100 [12]
+147. Blauer Board Shop: Independent specialty board shop; decades of expertise; helpful expert staff [6]
+148. Berg's Ski Shop: Family-owned since 1955; positive customer reviews [20]
+149. Shred Shop: Independent specialty snowboard shop; online purchasing available [7]
+150. Corbetts Ski + Snowboard: Free shipping over $100; described as "best selection at unbeatable prices" [15]
+151. The House: Established online action sports retailer; currently listing 2025 women's Rewind on sale at $370.97 (29% off $529.95) [33]
+152. surfsnowstyle.com (eBay UK): Independent UK retailer in Bury St Edmunds; positive eBay feedback; current season and past season gear [13]
+153. model_first_available_year: Listed in Burton's 2020 lineup alongside other women's freestyle boards [34]
+154. Burton founded: 1977 in Londonderry, Vermont by Jake Burton Carpenter [16]
+155. Jake Burton Carpenter passed: November 2019 at age 65 [35]
+156. Burton market share estimate (2013): 40–45% of global snowboarding market ($236M total) [35]
+157. Burton Channel system introduced: Late-season release 2007 on Jeremy Jones model [36]
+158. Burton Channel replaced 3D mounting: 2014 [37]
+159. riding_style: Freestyle [21]
+160. shape: True Twin [21]
+161. camber_type: Camber/Rocker [21]
+162. core_material: Wood [21]
+163. core_material: Super Fly 800G core with Dualzone EGD [21]
+164. mounting_pattern: Channel [21]
+165. flex_feel: Soft [21]
+166. gender: Unisex [21]
+167. setback: Centered [21]
+168. sidecut_type: Single radius per size (varies by size from 6.6m to 7.7m) (merchant-provided)
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-rewind-camber-snowboard/W26-198541.html</url>
+  <quote>Shop the Rewind Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-rewind-camber-snowboard/W26-198541.html#:~:text=Shop%20the%20Rewind%20Camber%20Snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer page for the 2026 Rewind. Primary authority for product identity and official naming. Page title confirms "Park & Freestyle" and "Winter 2026 US".</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-rewind-snowboard</url>
+  <quote>PurePop Camber – An evolution of a traditional camber shape, PurePop Camber profile features subtle flat zones just outside your feet to amplify pop and add playfulness</quote>
+  <quote>Women's Specific Triax™ Fiberglass – Torsionally softer than Burton's regular Triax™ for lighter women's bodies</quote>
+  <quote>Off-Axis Frostbite Edges – Frostbite edges extend out slightly from the sidewall of the board for added bite</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-rewind-snowboard#:~:text=PurePop%20Camber,women%E2%80%99s%20bodies</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo is a major authorized Burton retailer with detailed technical specs pulled from Burton's official product data. Highly reliable for specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026</url>
+  <quote>All 2014 and newer Burton snowboards with The Channel™ mounting system are backed by a 3-year warranty from Burton from date of purchase</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026#:~:text=All%202014%20and%20newer%20Burton</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>REI is one of the largest authorized outdoor retailers in the US. Warranty information is directly from Burton's specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026</url>
+  <quote>Snowboard Style: Freestyle</quote>
+  <quote>Snowboard Shape: True Twin</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026#:~:text=Snowboard%20Style,True%20Twin</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>REI's technical spec table is derived from manufacturer data. Confirms freestyle categorization and true twin shape.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.701cycleandsport.com/rewind-spraypaint-camber.html</url>
+  <quote>ABOUT THE GRAPHIC: There's something about spray paint on cardboard that balances a punk graffiti attitude with the pure fun of creating.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.701cycleandsport.com/rewind-spraypaint-camber.html#:~:text=ABOUT%20THE%20GRAPHIC</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Authorized Burton retailer listing the Spray Paint colourway with graphic description. Directly from Burton marketing copy.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-rewind-2026-unisex</url>
+  <quote>What is new on the 2026 model? Graphics.</quote>
+  <quote>Ability Intermediate – Expert Rider Type Park Camber Profile PurePop Camber Flex 1–4/10 (Soft), Twin Flex Shape True Twin</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-rewind-2026-unisex#:~:text=What%20is%20new,True%20Twin</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides a well-organized summary of 2026 model specs, confirming that only graphics changed for 2026. Flex rating listed as 1-4/10 range which differs from merchant's specific 2.5/10.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.shredshop.com/products/burton-rewind-snowboard-2026-pr5a22052</url>
+  <quote>The 2026 Burton Unisex Rewind Board is available as one of our many Snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/products/burton-rewind-snowboard-2026-pr5a22052#:~:text=The%202026%20Burton%20Unisex%20Rewind</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Shred Shop listing confirms 2026 model is marketed as Unisex, departing from the prior women's-specific designation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-rewind-snowboard-womens</url>
+  <quote>Unleash your inner shredder with the women's Burton Rewind Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-rewind-snowboard-womens#:~:text=women%E2%80%99s%20Burton%20Rewind</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-07</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>evo's 2024 women's-specific Rewind listing confirms that the prior model year was marketed specifically for women, contrasting with the 2026 unisex designation.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.totalsportgear.com/product/burton-rewind-camber-snowboard-2026/</url>
+  <quote>All Mountain / Park Snowboard. A true twin snowboard with plenty of pop for powerful freestyle riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.totalsportgear.com/product/burton-rewind-camber-snowboard-2026/#:~:text=All%20Mountain%20/%20Park</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Total Sport Gear categorizes the board as All Mountain / Park, consistent with Burton's own categorization.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026</url>
+  <quote>$317.83 Compared to $529.95 Save 40%</quote>
+  <quote>HURRY! This item is discontinued.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026#:~:text=$317.83,discontinued</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>REI page shows current clearance pricing and discontinued status. Price is volatile at clearance; confirms $529.95 original MSRP. This is a snapshot price that may change.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-rewind-snowboard-2025</url>
+  <quote>Burton Rewind Snowboard 2026 $529.95 $397.46 Sale Available In-Store Only</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-rewind-snowboard-2025#:~:text=Burton%20Rewind%20Snowboard%202026%20$529.95%20$397.46</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo shows both original and sale pricing for the 2026 model. Available in-store only for 2026 model suggests limited remaining stock. Confirms $529.95 MSRP.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.701cycleandsport.com/rewind-spraypaint-camber.html</url>
+  <quote>Burton 2026 Rewind Camber Snowboard · $499.95 Excl. tax · In stock</quote>
+  </quotelist>
+  <url_with_text_link>https://www.701cycleandsport.com/rewind-spraypaint-camber.html#:~:text=Burton%202026%20Rewind%20Camber%20Snowboard%20%C2%B7%20$499.95</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>701 Cycle and Sport is an employee-owned independent retailer offering the board at $499.95 before tax, which is $30 below MSRP. In stock confirms availability.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.ebay.com/itm/326746361299</url>
+  <quote>We are an independent UK Snowboard, Ski and Surf store, located in Bury St Edmunds, Suffolk.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/itm/326746361299#:~:text=independent%20UK%20Snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>eBay listing from UK-based independent retailer surfsnowstyle.com confirms international availability of the Burton Rewind 2026.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-picks-2022-burton-rewind-snowboard</url>
+  <quote>TL;DR: the Rewind is endless fun when you're ripping the resort, which is why it's landed squarely in our 2022 Platinum Picks.</quote>
+  <quote>Burton Rewind – $499.95 sizes: 141, 146, 149, 152</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-picks-2022-burton-rewind-snowboard#:~:text=TL%3BDR,152</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-04</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is a highly respected specialist publication. Their Platinum Picks are a major industry award. The 2022 review provides pricing context ($499.95 for prior model year) and expert editorial praise. Note the 2022 model had sizes 141-152 vs the 2026 model's 140-158.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.corbetts.com/burton-rewind-snowboard-2026/</url>
+  <quote>Shop the Burton Rewind Snowboard 2026. Corbetts.com offers you the best selection of adults snowboards at unbeatable prices.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-rewind-snowboard-2026/#:~:text=Shop%20the%20Burton%20Rewind</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Corbetts is an authorized retailer confirming availability of the 2026 model.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards was founded by Jake Burton in 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards#:~:text=Burton%20Snowboards%20was%20founded</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced background on Burton's founding. Widely verified information.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/</url>
+  <quote>Privately held and owned by Donna Carpenter, Burton's headquarters are in Burlington, Vermont with offices in Austria, Japan, Australia, Canada and China.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/#:~:text=Privately%20held%20and%20owned</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>B Corp's official directory is an authoritative source for corporate structure and certification status.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/</url>
+  <quote>As a sustainability leader within the outdoor and winter sports industries, Burton is the world's first snowboard company to become a certified B Corporation.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/#:~:text=world%E2%80%99s%20first%20snowboard%20company</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official B Corp directory confirms Burton's sustainability certification. Relevant for environmentally-conscious buyers.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url>
+  <quote>Most of its snowboards are made at the Keil factory with 80 workers in Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/#:~:text=Keil%20factory%20with%2080%20workers%20in%20Austria</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2019-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>VTDigger is a reputable Vermont journalism outlet. 2019 article detailing manufacturing location. This may have evolved since then but Austria manufacturing is widely confirmed.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.bergsskishop.com/shop/p97857/rewind-snowboard-unisex</url>
+  <quote>This is one of the coolest unisex boards in Burton's line and one of the best boards to explore different riding styles.</quote>
+  <quote>We place the skill level right between beginner and intermediate.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bergsskishop.com/shop/p97857/rewind-snowboard-unisex#:~:text=coolest%20unisex,intermediate</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Berg's Ski Shop provides independent expert assessment of the board. Their beginner-to-intermediate skill level placement differs from other sources. A family-owned shop since 1955 with a long reputation.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026</url>
+  <quote>Snowboard Style: Freestyle, Snowboard Shape: True Twin, Snowboard Profile: Camber/Rocker</quote>
+  <quote>Recommended Rider Weight: 151 CM: 120-180 pounds</quote>
+  <quote>Board Dimensions: 151 CM: 28.9 / 248 / 28.9 centimeters</quote>
+  <quote>Effective Edge: 151 CM: 114.9 centimeters</quote>
+  <quote>Sidecut Radius: 151 CM: 7.3 meters</quote>
+  <quote>Stance Setback: Centered</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253112/burton-rewind-snowboard-20252026#:~:text=Snowboard%20Style,Centered</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>REI's technical specification table for the 151cm size. Manufacturer-supplied data through authorized retailer. Cross-references well with merchant-provided specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-rewind-snowboard</url>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  <quote>Super Fly® 800G Core – Lightened up and loaded with pop, this dual-species wood core utilizes dual-density vertical laminations</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-rewind-snowboard#:~:text=Super%20Sap,laminations</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo provides detailed technical descriptions sourced from Burton's official spec sheets. Super Sap and Super Fly 800G are well-documented Burton technologies.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-rewind-snowboard</url>
+  <quote>Dualzone™ EGD™ – The wood grain is positioned along the toe and heel edges on two continuous zones, perpendicular to the rest of the wood core</quote>
+  <quote>Off-Axis Squeezebox Low – With an overall easier feel, Squeezebox Low brings high-end core profiling technology to the progressing rider.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-rewind-snowboard#:~:text=Dualzone,progressing%20rider</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Detailed core technology descriptions from evo's product page. Directly from Burton's spec documentation.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.bergsskishop.com/shop/p97857/rewind-snowboard-unisex</url>
+  <quote>Off-Axis tweaks this technologies to match the angles of you typical park stance by having a defined heel edge on the board</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bergsskishop.com/shop/p97857/rewind-snowboard-unisex#:~:text=Off-Axis%20tweaks</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Berg's provides a clear explanation of the Off-Axis technology's purpose in park riding context.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.zombieboardshop.com/shop/SNOW/p/Burton-Womens-Rewind-Snowboard-2023.htm</url>
+  <quote>PARK: 4/10 ALL MOUNTAIN: 7/10 POWDER: 4/10</quote>
+  </quotelist>
+  <url_with_text_link>https://www.zombieboardshop.com/shop/SNOW/p/Burton-Womens-Rewind-Snowboard-2023.htm#:~:text=PARK%3A%204/10</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-07</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Zombie Board Shop listed the 2023 women's Rewind with Park 4/10 rating, which differs from the 2026 merchant-provided Park 7/10. This indicates Burton may have revised ratings when the board went unisex, or the merchant data is an updated assessment.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-rewind-2020-2023-snowboard-review-by-steph-w/</url>
+  <quote>The Burton Rewind feels semi-locked in on snow. It is a more aggressive board even though it has somewhat of a softer flex.</quote>
+  <quote>This board wants to ride faster and when it is at speed it feels the best and most playful.</quote>
+  <quote>Has a great connection to the snow and holds its edge very well.</quote>
+  <quote>The Rewind prefers to be on groomed terrain or harder snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-rewind-2020-2023-snowboard-review-by-steph-w/#:~:text=semi-locked,harder%20snow</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent snowboard review site that purchased the board with its own money. The 2020-2023 model review applies to the 2026 model since only graphics changed. Their reviews are widely respected for honesty and real-world testing.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://vermontbiz.com/news/2024/january/24/burton-snowboards-recertified-b-corp</url>
+  <quote>In 2019, Burton became an accredited member of the Fair Labor Association.</quote>
+  <quote>Burton commits $2M of profits annually to support values-aligned organizations</quote>
+  </quotelist>
+  <url_with_text_link>https://vermontbiz.com/news/2024/january/24/burton-snowboards-recertified-b-corp#:~:text=Fair%20Labor%20Association,$2M</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Vermont Business Magazine is a reputable regional publication covering Burton's B Corp recertification with details on labor and giving practices.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-rewind-snowboard-review/</url>
+  <quote>Jumps: Feels super stable on jumps and spins, but not for learning or beginners.</quote>
+  <quote>Approximate Weight: Feels normal but very sturdy.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-rewind-snowboard-review/#:~:text=Feels%20super%20stable,very%20sturdy</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Good Ride's main review page provides additional performance assessment on jumps and subjective weight feel. Independent review with declared ethics statement.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowboarder.com/news/first-release-2025-burton-snowboards-available-online</url>
+  <quote>the perfect soft-but-charging women's freestyle board, the Burton Rewind</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboarder.com/news/first-release-2025-burton-snowboards-available-online#:~:text=perfect%20soft-but-charging</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-07</date_of_last_relevance>
+  <reasoning>Snowboarder Magazine is a major industry publication. Their staff favorite designation provides editorial credibility for the Rewind's reputation. Note this describes the 2025 model as women's, before the unisex 2026 change.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-rewind-2019-2020.html</url>
+  <quote>Playful is an understatement; this is a jibber's dream. I had so much fun on this butter machine, holding presses with zero effort.</quote>
+  <quote>It's not as comfortable at high speeds but still holds an edge well when put through its paces.</quote>
+  <quote>In comparison to Burton's other female favourite, The Talent Scout, the Rewind lacks something in the stability and aggression stakes but makes up for it by being a livelier ride instead.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-rewind-2019-2020.html#:~:text=jibber%E2%80%99s%20dream,livelier%20ride</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2019-09</date_of_first_relevance>
+  <date_of_last_relevance>2020-04</date_of_last_relevance>
+  <reasoning>Whitelines is one of Europe's most respected snowboard publications. Their multi-reviewer assessment provides detailed on-snow performance data. While the 2020 model review, the core design characteristics have remained consistent through 2026.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://e-catalog.com/BURTON-REWIND-CAMBER-148--2025-2026-.htm</url>
+  <quote>Burton Blossom 152 (2025/2026) from $559.95 · 152 cm, freestyle, deflection: hybrid, stiffness 5</quote>
+  </quotelist>
+  <url_with_text_link>https://e-catalog.com/BURTON-REWIND-CAMBER-148--2025-2026-.htm#:~:text=Burton%20Blossom</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-05</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>E-catalog provides comparison pricing data between Burton models in the same generation. The Blossom at $559.95 and stiffness 5 vs the Rewind's softer flex provides useful comparison context.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.corbetts.com/burton-rewind-snowboard-2026/</url>
+  <quote>The men's Burton Process Snowboard is Mark McMorris' pick for its...</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-rewind-snowboard-2026/#:~:text=Burton%20Process%20Snowboard%20is%20Mark%20McMorris</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Corbetts lists the Burton Process as a comparable product alongside the Rewind. The Process is Burton's other main freestyle twin board, with a pro-rider (Mark McMorris) association.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.the-house.com/1141192.html</url>
+  <quote>$370.97 $529.95 · Save $158.98 29% Off</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1141192.html#:~:text=$370.97%20$529.95</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The House is a well-known online action sports retailer. Their pricing of $370.97 (29% off $529.95) for the women's Rewind confirms the $529.95 MSRP and shows end-of-season discounting.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/2020-burton-snowboards-overview</url>
+  <quote>Burton Rewind</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/2020-burton-snowboards-overview#:~:text=Burton%20Rewind</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2019-07</date_of_first_relevance>
+  <date_of_last_relevance>2020-06</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles.com's 2020 Burton lineup overview lists the Rewind as present in the freestyle category, confirming it was in Burton's lineup by 2020 (2019/2020 season). The Rewind first appeared around the 2019 or 2020 model year.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>The company, whose flagship store is in Burlington, Vermont, was privately owned by Jake Burton Carpenter until his death in 2019</quote>
+  <quote>In 2013, Donna Carpenter estimated that the company had 40 to 45% of the snowboarding market, which totaled $236 million.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards#:~:text=privately%20owned,236%20million</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Wikipedia provides corporate context including market share data, though the 2013 estimate is older. Useful for understanding Burton's market dominance.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.michigansnowboardmuseum.com/burton---firsts--unique-decks.html</url>
+  <quote>1st year Burton Channel System Board - Jeremy Jones (late season release 2007)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.michigansnowboardmuseum.com/burton---firsts--unique-decks.html#:~:text=Channel%20System%20Board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2007</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Michigan Snowboard Museum provides historical context for the Channel mounting system first introduced in 2007. Niche but authoritative source for snowboard history.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.winterwomen.com/burton-rewind-snowboard-womens</url>
+  <quote>Channel The Channel replaced Burton's 3D mounting pattern in 2014</quote>
+  </quotelist>
+  <url_with_text_link>https://www.winterwomen.com/burton-rewind-snowboard-womens#:~:text=Channel%20replaced%20Burton%E2%80%99s%203D</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>WinterWomen provides historical context that The Channel became standard across all Burton boards in 2014, replacing the 3D pattern.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+</citations>
+</response>

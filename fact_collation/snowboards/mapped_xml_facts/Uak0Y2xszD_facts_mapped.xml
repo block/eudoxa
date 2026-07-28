@@ -1,0 +1,1136 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="7" category="availability" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="5" category="review" />
+  <duplicate_canonical name="positive_aspect" count="5" category="review" />
+  <duplicate_canonical name="available_sizes" count="4" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="3" category="comparable" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="construction_material_innovation" count="2" category="construction" />
+  <duplicate_canonical name="return_policy_terms" count="2" category="warranty" />
+</canonical_schema>
+
+<answer>
+1. brand: Bataleon [1]
+2. model_name: Cameleon [1]
+3. model_year: 2027 (merchant listing) [MERCHANT]
+4. product_type: Snowboard [1]
+5. board_category: Freeride-Powder [MERCHANT]
+6. board_category: All-Mountain / Directional Freeride [2]
+7. gender: Men's (listed as unisex by Whitelines) [3][4] — DISAGREEMENT: Bataleon official site lists it as "Men's Snowboard" [1], while Whitelines describes it as "unisex" [4]. Melbourne Snowboard Centre also lists it as "Unisex" [5].
+8. manufacturer: Bataleon Snowboards (Low Pressure Studio), headquartered in Amsterdam, The Netherlands [6][7]
+9. Manufacturer founded: 2000, by biophysicist Jørgen Karlsen [8][9]
+10. Parent company: Nidecker Group (NDK Group), a Swiss-based family-owned company [10]
+11. Parent company acquired Bataleon: 2018, via acquisition of Low Pressure Studio [10]
+12. manufacturing_location_current: Austria (CAPiTA Mothership factory) [11][12] — DISAGREEMENT: Some later sources suggest manufacturing may have moved to SWS in Saudi Arabia/Dubai [13]. Whitelines states "All Bataleon boards are hand-built in Austria at the Mothership" [14].
+13. Design studio location: Low Pressure Studio, Amsterdam, The Netherlands [15]
+14. predecessor_model_name: Camel Two (itself evolved from the Camel Toe) [5][16]
+15. model_first_available_year: The Cameleon was new for the 2024/2025 season (winter 2024-2025) [17][18]
+16. estimated_availability_date: Pre-order for Australian/NZ market, expected delivery April/May 2026 [19]
+17. 2026 model change from 2025: Graphics only (specs carry forward) [20][21]
+18. price_aud_merchant: $1,149.99 AUD [MERCHANT]
+19. availability_status: Preorder, estimated May 1, 2026 [MERCHANT]
+20. price_usd_msrp: $689.95 [22]
+21. price_usd_evo: $482.96 (30% off) [22]
+22. USD sale price at Bataleon direct (2025/26 model): $482.95 (30% off, was $689.95) [1]
+23. price_usd_rei: $482.83 (30% off $689.95) [23]
+24. price_usd_backcountry: $482.97 [24]
+25. USD price at Freeride Boardshop: $482.00 USD (was $602.00) [25]
+26. price_eur_blue_tomato: €660 [26]
+27. availability_status: In stock (2026 model) [22]
+28. availability_status: In stock (2025/2026) [23]
+29. availability_status: Low stock (4 left as of fetch) [1]
+30. availability_status: Listed [27]
+31. availability_status: Pre-order, expected April/May 2026 [19]
+32. availability_status: Listed [5]
+33. Shipping restriction (merchant): Only available for shipping within Australia [MERCHANT]
+34. flex_rating_10: 5/10 (medium) [1][MERCHANT]
+35. shape: Tapered Directional [1][MERCHANT]
+36. camber_type: Medium Camber with 3BT and SideKick [1][MERCHANT]
+37. camber_description: Triple Base Technology (3BT) — reduces edge-catch, maintains ollie power and carving control [1][MERCHANT]
+38. edge_technology: SideKick — amplifies sidebase uplift beyond widest points of nose/tail, hull-like shape for float [1][28]
+39. width_options: Standard [MERCHANT]
+40. mounting_pattern: 2x4 Inserts [MERCHANT]
+41. Insert count: 24 (A-grade German stainless steel) [1]
+42. Nose sidebase uplift: Medium [1][MERCHANT] — DISAGREEMENT: The 2025 Blauer Board Shop listing states "High Nose, Medium Tail" for the Cameleon [29], while the official Bataleon 2025/26 page shows Medium for both nose and tail [1]. The Balmoral Boards 2027 listing states "Nose Sidebase Uplift - High" [19]. The merchant data provided says "Medium" for nose.
+43. Tail sidebase uplift: Medium [1][MERCHANT]
+44. base_material: Ultra Glide S — premium 7000-grade sintered P-tex [1][30]
+45. core_material: Ultra Light Core — 70/30 blend of Paulownia and Poplar [1][31] — DISAGREEMENT on wood ratio: Whitelines states "70/30 mix" of poplar and paulownia [31], some Bataleon descriptions say "1:2 blend of Poplar and Paulownia" per merchant. The Good Ride says "70/30 Palonia/Poplar" [32]. Manufacturer official page says "A 70/30 Paulownia and poplar blend" [1].
+46. core_material: Swiss Paulownia and Poplar [29]
+47. laminate: Tri-Ax (three-way fiberglass weave) [1][30]
+48. construction_material_innovation: D.R.S.T. SuperTubes — six hollow carbon cylinders running along sidecut radius [1][33]
+49. construction_material_innovation: Yes, additional carbon stringers in the layup [1][34]
+50. sidewall_material: Flex Walls — Urethane poured sidewalls [1][30]
+51. Tail technology: Flex Tail — strip of urethane in wood core, mimics swallow tail, surf-like feel [1][MERCHANT]
+52. topsheet: Step Down Rails Top 3D — subtle taper along sidewall, reduces weight, enhances carve precision [1][30]
+53. taper: 15mm [32]
+54. Volume score: 79/100 [29]
+55. available_colors: Black [32]
+56. available_sizes: 149cm [1][MERCHANT]
+57. Effective edge (149cm): 111.5cm [1][MERCHANT]
+58. sidecut_radius_size: 6.58m [1][MERCHANT]
+59. tip_tail_width_size: 30.3/29.0cm [1][MERCHANT]
+60. Waist width (149cm): 25.2cm [1][MERCHANT]
+61. stance_width_range_size: 46.0–58.0cm [1][MERCHANT]
+62. recommended_weight_range_size: 56–76 kg (123–167 lbs) [1][MERCHANT]
+63. Boot size EU (149cm): 37–42 [1]
+64. Boot size US (149cm): 5–8 [1]
+65. available_sizes: 153cm [1][MERCHANT]
+66. Effective edge (153cm): 114.9cm [1][MERCHANT]
+67. sidecut_radius_size: 6.71m [1][MERCHANT]
+68. tip_tail_width_size: 30.9/29.5cm [1][MERCHANT]
+69. Waist width (153cm): 25.6cm [1][MERCHANT]
+70. stance_width_range_size: 49.0–61.0cm [1][MERCHANT]
+71. recommended_weight_range_size: 63–83 kg (139–183 lbs) [1][MERCHANT]
+72. Boot size EU (153cm): 39–44 [1]
+73. Boot size US (153cm): 7–10 [1]
+74. available_sizes: 157cm [1][MERCHANT]
+75. Effective edge (157cm): 118.3cm [1][MERCHANT]
+76. sidecut_radius_size: 6.83m [1][MERCHANT]
+77. tip_tail_width_size: 31.5/30.1cm [1][MERCHANT]
+78. Waist width (157cm): 26.0cm [1][MERCHANT]
+79. stance_width_range_size: 51.0–63.0cm [1][MERCHANT]
+80. recommended_weight_range_size: 71–91 kg (156–200 lbs) [1][MERCHANT]
+81. Boot size EU (157cm): 42–46 [1]
+82. Boot size US (157cm): 8–12 [1]
+83. available_sizes: 161cm [1][MERCHANT]
+84. Effective edge (161cm): 121.7cm [1][MERCHANT]
+85. sidecut_radius_size: 6.95m [1][MERCHANT]
+86. tip_tail_width_size: 32.1/30.7cm [1][MERCHANT]
+87. Waist width (161cm): 26.4cm [1][MERCHANT]
+88. stance_width_range_size: 52.0–64.0cm [1][MERCHANT]
+89. recommended_weight_range_size: 81–101 kg (178–222 lbs) [1][MERCHANT]
+90. Boot size EU (161cm): 42–47 [1]
+91. Boot size US (161cm): 9–12 [1]
+92. terrain_suitability: Freeride, Powder, All Mountain [MERCHANT][2]
+93. riding_style: Directional freeride, carving, powder [MERCHANT]
+94. terrain_suitability: Deep powder and soft snow [35][36]
+95. terrain_suitability: Park, Resort, Pow (all shown on Bataleon page) [1]
+96. rider_level: Intermediate-Advanced [MERCHANT]
+97. skill_level_recommendation: Advanced-Expert [37]
+98. reviewer_opinion_the_good_ride: Recommended as ideal one-quiver board by evo tester for Pacific Northwest varied terrains [38]
+99. switch_riding: Enough tail to ride or land switch, though directional [39]
+100. pop: Exceptional/super poppy — multiple reviewers highlight outstanding ollie and pop performance [35][40]
+101. positive_aspect: Excellent — wide hull-like nose and 3BT provide effortless surf-like float in deep snow [35][41]
+102. positive_aspect: Very forgiving, takes a lot of work to catch an edge [35][42]
+103. positive_aspect: Very playful and fun across terrain [43][44]
+104. positive_aspect: Great for buttering with loads of pop [44]
+105. turn_initiation_performance: Quick edge to edge, nimble in trees [44]
+106. chatter_performance: Urethane sidewalls and construction reduce chatter in micro bumps [45]
+107. base_glide_performance: Fast-gliding sintered base [46]
+108. board_weight_grams: Relatively light compared to Lib Tech and Never Summer boards per user review [47]
+109. positive_aspect: Board provides butter-smooth turns and surf-like feel [38][40]
+110. negative_aspect: Very limited, feels washy and edgeless in medium to hard snow [35][48]
+111. negative_aspect: Not recommended for aggressive high-speed carving [47][49]
+112. negative_aspect: Gets bounced around in choppy/uneven soft snow [35][47]
+113. negative_aspect: Takes half a day to several days to get used to if coming from other camber profiles [35]
+114. negative_aspect: Saps confidence in hard/icy conditions per The Good Ride review [48]
+115. negative_aspect: One evo tester noted slower edge-to-edge in slushy conditions [50]
+116. negative_aspect: "Not as burly of a build" compared to Lib Tech or Never Summer per user review [47]
+117. Bataleon.com user review rating: 5/5 stars based on 14 reviews, 100% 5-star [1]
+118. reviewer_opinion_whitelines: Selected for Whitelines 100 Best Snowboard Gear Awards (2024-2025) [17]
+119. reviewer_opinion_the_good_ride: "Hit or miss" — positives (pop, float, forgiveness) vs negatives (limited edge hold, buckiness) [35]
+120. evo Field Tested review summary: "Thoroughly impressed by its dynamic performance across a variety of conditions" [40]
+121. Snowboard International review (25/26): "Playful, surfy ride" with "easygoing personality" but "edge hold isn't the most aggressive on icy terrain" [51]
+122. warranty: 2-year limited warranty against manufacturing defects; extendable to 3 years (2+1) by registering product and subscribing to newsletter [52][53]
+123. return_policy_terms: 45-day return period [1]
+124. return_policy_terms: Up to a full year [54]
+125. Brand reputation: Innovative in 3D snowboard design; "one of the fastest growing snowboard brands in the world" per Whitelines [14]
+126. 3BT technology history: Patented, in use for over 20 years [55]
+127. Customer service reputation: Mixed — some praise quick and generous warranty handling [56], others report frustrating warranty experiences with slow response [57][58]
+128. user_review_forum: Generally positive; some users note base material scratches easily [59]
+129. comparable_board_same_brand: Bataleon Goliath — directional twin, all-mountain freestyle, medium-stiff flex, 6/10 flex, more versatile for park but similar 3BT tech; $629.95 MSRP [60]
+130. comparable_board_same_brand: Bataleon Whatever — directional twin, softer flex, all-mountain freestyle oriented; $579.95 MSRP [61]
+131. comparable_board_same_brand: Bataleon Thunderstorm — freeride/powder leaning, more aggressive; $589.95 MSRP [61]
+132. comparable_board_same_brand: Bataleon Surfer — premium powder-specific board; $1,099.95 MSRP [61]
+133. comparable_board_cross_brand: Capita Navigator — a user directly compared and preferred the Cameleon in powder [44]
+134. comparable_board_cross_brand: Lib Tech and Never Summer boards — described as "more burly" build [47]
+135. comparable_board_cross_brand: Jones Mountain Twin, YES Standard — referenced in forum discussions about 3BT alternatives [62]
+136. flex_feel: "Very rubbery but also super poppy medium flex" with lots of spring when popping [32]
+137. reviewer_opinion_the_good_ride: "Very turny for a 161" [32]
+138. camber_description: Described as having "a ton of camber" combined with medium TBT [32]
+139. reviewer_opinion_the_good_ride: Boot size is the priority, weight a close second, height a distant third [32]
+140. reviewer_opinion_the_good_ride: Bataleon is "very conservative on recommended weight and very liberal with recommended boot sizing" [32]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>Cameleon Men's Snowboard … Regular price $ 482.95 … Regular price $ 689.95 Sale price $ 482.95</quote>
+  <quote>Length (cm) 149 153 157 161 Effective Edge (cm) 111.5 114.9 118.3 121.7</quote> // sadscan:disable sq.pii.sin.ca
+  <quote>Ultra Light Core A 70/30 Paulownia and poplar blend that offers awesome strength to weight.</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page for the Cameleon 2025/2026 — the most authoritative source for specs, pricing, and construction details. Contains the complete spec table, review excerpts, and pricing info. The 2027 model carries forward the same specs per the design pattern observed.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url>
+  <quote>The Bataleon Cameleon Snowboard lives up to its name, built for riders who refuse to be limited by conditions or terrain.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is a major authorized retailer with detailed product listings. Categorizes the Cameleon under All-Mountain and Powder.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>Cameleon Men's Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer page explicitly names this a Men's Snowboard.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>the unisex Cameleon is a solid choice for any progressing intermediate rider</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines is a leading specialist snowboard media outlet. They describe the Cameleon as "unisex," which conflicts with Bataleon's own "Men's" designation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/bataleon-cameleon</url>
+  <quote>The 2026 Bataleon Cameleon is the evolution of the legendary Camel Two</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/bataleon-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an Australian retailer listing the Cameleon as "Unisex" and confirming predecessor model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://bataleon.com/blogs/journal/how-to-run-a-snowboard-brand</url>
+  <quote>Dennis Dusseldorp and Danny Kiebert have ran Bataleon from the Dutch capital</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/blogs/journal/how-to-run-a-snowboard-brand</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Bataleon blog post confirms Amsterdam headquarters.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://outlet.bataleon.com/</url>
+  <quote>Johan van Hasseltweg 8b, 1022 WV, Amsterdam, The Netherlands.</quote>
+  </quotelist>
+  <url_with_text_link>https://outlet.bataleon.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Low Pressure Studio outlet page confirms Amsterdam address.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://super-shop.com/bataleon</url>
+  <quote>Bataleon Snowboards was established in 2000 in the Netherlands by a 44-year-old biophysicist Jorgen Karlsen.</quote>
+  </quotelist>
+  <url_with_text_link>https://super-shop.com/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2000</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer brand page with founding details matching other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.skatepro.com/en-us/m577.htm</url>
+  <quote>The brand was founded in 2000 by Jorgen Karlson from the Netherlands.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.skatepro.com/en-us/m577.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2000</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Corroborates founding year and location.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Nidecker</url>
+  <quote>In 2018, the Nidecker Group acquired the Dutch-based company Low Pressure Studio, owners of Bataleon, Lobster, and Switchback</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on Nidecker confirms the 2018 acquisition of Bataleon/Low Pressure Studio. Wikipedia is generally reliable for corporate facts like this.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+  <quote>Bataleon snowboards are now manufactured in Austria. They now use the CAPiTA Mothership.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-03</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Blog article researching snowboard manufacturing locations, corroborates Austria/Mothership production.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.snowboarder.com/transworld-snowboarding-archive/snowboarding-uncategorized/bataleon-snowboards-moves-production-capita-mfg/</url>
+  <quote>It feels very good to have all our snowboards made in Austria again</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboarder.com/transworld-snowboarding-archive/snowboarding-uncategorized/bataleon-snowboards-moves-production-capita-mfg/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014-09</date_of_first_relevance>
+  <date_of_last_relevance>2018</date_of_last_relevance>
+  <reasoning>Snowboarder magazine article from 2014 confirming Bataleon's move to CAPiTA MFG in Austria. Older source but foundational fact.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Bataleon appear to have moved their manufacturing to Saudi Arabia</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Community-updated blog that tracks manufacturing changes. Notes possible move to SWS factory, contradicting Austrian manufacturing claim. Lower certainty.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://whitelines.com/brands/bataleon</url>
+  <quote>All Bataleon boards are hand-built in Austria at the Mothership with focus on craftsmanship and exceptional materials.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/brands/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Whitelines brand page states Austrian manufacturing. Whitelines is a specialist snowboard publication with generally reliable information.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Bataleon board's are designed at the Low Pressure Studio in Amsterdam.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Corroborates Amsterdam design studio location.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/bataleon-camel-two-snowboard</url>
+  <quote>The original Camel Toe was surfy in the pow and flowy on the groomers, and the new Bataleon Camel Two is even chargier.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/bataleon-camel-two-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Evo product page for the Camel Two, confirming the Camel Toe → Camel Two lineage that precedes the Cameleon.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>Bataleon has never been afraid to shake things up, and the all-new Cameleon is proof positive of that ethos.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines 2024-2025 review confirms the Cameleon as "all-new" for 2024/25 season. Selected for Whitelines 100 Best Gear Awards.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-snowboards-for-2024-2025.html</url>
+  <quote>New for the 24/25 season, Bataleon's Cameleon promises to shake up the all-mountain market.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-snowboards-for-2024-2025.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Whitelines best-of list explicitly states the Cameleon is "new for the 24/25 season."</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.balmoralboards.com.au/products/bataleon-2027-cameleon</url>
+  <quote>Pre-Order 2027 Snowboards Now … Expected delivery: April/May 2026</quote>
+  <quote>Nose Sidebase Uplift - High</quote>
+  </quotelist>
+  <url_with_text_link>https://www.balmoralboards.com.au/products/bataleon-2027-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Australian retailer listing the 2027 Cameleon for pre-order. Notes "Nose Sidebase Uplift - High" which may differ from 2025/26 model's "Medium" listing. Confirms delivery timeline and 2027 model year.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/bataleon-cameleon-snowboard-2026</url>
+  <quote>What is new on the 2026 model? Graphics.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/bataleon-cameleon-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop, a key Bataleon-supporting retailer, explicitly states only graphics changed on the 2026 model.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>This design seems to carry forward for 2026 as well.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride independent review confirms design continuity into 2026.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/bataleon</url>
+  <quote>Bataleon Cameleon Snowboard 2026 $689.95 $482.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is one of the largest online snowboard retailers in the US. Price is a snapshot and may change. MSRP of $689.95 and sale of $482.96 corroborated across multiple retailers.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.rei.com/b/bataleon/c/snowboards</url>
+  <quote>Bataleon Cameleon Snowboard - 2025/2026 · $482.83 · Save 30% compared to $689.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/b/bataleon/c/snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>REI is a major US outdoor retailer. Confirms MSRP and sale pricing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>$482.97 Buy it Now Buy Bataleon Cameleon from Backcountry</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride affiliate link confirms Backcountry pricing at $482.97.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.freerideboardshop.com/en-us/collections/bataleon</url>
+  <quote>BATALEON Cameleon Snowboard 2026 · $482.00 USD · $602.00</quote>
+  </quotelist>
+  <url_with_text_link>https://www.freerideboardshop.com/en-us/collections/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Canadian retailer pricing confirms approximate USD pricing. MSRP difference ($602 vs $689.95) may reflect CAD conversion or regional pricing.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-snowboards-for-2024-2025.html</url>
+  <quote>PRICE: €660 New for the 24/25 season</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-snowboards-for-2024-2025.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Whitelines review lists launch EUR price at €660.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/bataleon-cameleon-snowboard-2027</url>
+  <quote>Bataleon Cameleon Snowboard 2027 - Men's</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/bataleon-cameleon-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Blauer Board Shop has a 2027 model year listing, confirming the existence of the 2027 product, though page content was behind a login wall.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>SideKick™ builds on the concept of Triple Base by increasing the sidebase uplift just outside the widest points of the nose and tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer technology description.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/bataleon-cameleon-2025</url>
+  <quote>Sidebase Uplift – High Nose, Medium Tail</quote>
+  <quote>Ultra Light Core features a 70-30 Swiss paulownia and poplar wood blend</quote>
+  <quote>79/100 – Maximum volume for surfy vibes in the pow</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/bataleon-cameleon-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-06</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Blauer Board Shop 2025 model listing — notes "High Nose, Medium Tail" for sidebase uplift, which differs from the Bataleon official page (Medium/Medium). This may represent an earlier specification or a variant description. Provides volume score of 79/100 and Swiss wood sourcing detail.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url>
+  <quote>Flex Walls – Urethane Poured Sidewalls offer exceptional shock absorption</quote>
+  <quote>Ultra Glide S – A premium, 7000-grade sintered base reserved for our high-end models.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo's product page for the 2026 Cameleon, confirming construction details from an authorized retailer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>The Ultra Light Core blends poplar and paulownia in a 70/30 mix</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines review confirms core wood ratio. Note that some merchant descriptions say "1:2 Poplar and Paulownia" while Bataleon official and Whitelines say "70/30 Paulownia and poplar" — these are the same ratio stated differently (70% paulownia / 30% poplar).</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>The Bataleon Cameleon has 15mm of taper</quote>
+  <quote>The Sidecut radius of 6.95 is very turny for a 161</quote>
+  <quote>There is a very rubbery but also super poppy medium flex throughout most of the Bataleon Cameleon.</quote>
+  <quote>Most brands, including Bataleon, are very conservative on recommended weight</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride provides detailed, measurement-based independent review data including taper, flex feel, and sizing advice. Highly informative for purchase decision.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>Dual Radial Super Tubes (D.R.S.T) – a system of six hollow carbon cylinders inserted into the core.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines review describes the D.R.S.T. technology in detail.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>Additional carbon stringers within the layup boost pop further</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Confirms separate carbon stringers in addition to the D.R.S.T.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>It has very limited grip, can feel edgless and washy in medium to hard snow and is very bucky and bouncy in soft uneven snow.</quote>
+  <quote>it's very forgiving, super poppy, has easy float and is a fun good condition ride.</quote>
+  <quote>TBT also has a learning curve if you are used to just about any other camber profile from 1/2 a day to several days</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-known independent snowboard review site. This review is notably more critical than most, providing balanced assessment of pros and cons. The reviewer explicitly states he was not paid and has no brand oversight.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>it's in deep snow that this board truly comes alive</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines test team confirms powder as the board's strongest terrain.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url>
+  <quote>Advanced-Expert Whether you charge the steepest lines, hit the biggest jumps</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/bataleon-cameleon-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo categorizes the ability level as Advanced-Expert, which differs from the merchant listing of Intermediate-Advanced.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url>
+  <quote>He recommended the Cameleon as an ideal one-quiver board, especially for riders frequenting the Pacific Northwest's varied terrains</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Evo Field Tested review from employee testers. Provides credible multi-tester perspective on the board's versatility.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>it's no Hovercraft – there's enough tail to ride (or even land) switch when the occasion demands.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Confirms switch riding is possible despite directional shape.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url>
+  <quote>Our team had the chance to hit the slopes with the 2025 Bataleon Cameleon, and we were thoroughly impressed by its dynamic performance</quote>
+  <quote>Kyle Wood highlighted the board's smooth, surfy feel</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Evo multi-tester Field Tested review — four experienced employees tested the board across multiple resorts and conditions.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url>
+  <quote>The moment that nose gets into deep snow, it just roles away – it's an effortless turner.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/bataleon-cameleon-snowboard-review.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Whitelines tester quote confirming outstanding powder performance.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>It actually takes a lot of work to catch an edge.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride confirms the forgiving, catch-free nature of the 3BT technology.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>It is playful and pretty powerful.</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>User review on official Bataleon product page.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>It carves really well, feels quick edge to edge, and is great for buttering with loads of pop.</quote>
+  <quote>In deep powder, I honestly had more fun on the Cameleon.</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>User review from a rider who took the board to Hokkaido and compared it directly to a Capita Navigator 164. First-hand comparison data from an experienced rider.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>In micro bumps the Bataleon Cameleon did well and you can feel all that urethane in the construction reducing chatter.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms the vibration damping effectiveness of the urethane sidewalls.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>The Bataleon Cameleon has a pretty fast easy gliding, easy to repair black base.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Independent reviewer confirms base speed and repairability.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url>
+  <quote>It gets bounced around a bit in choppy snow, but is a good all around board.</quote>
+  <quote>If high speed carving is your thing, this may not be the best board for you.</quote>
+  <quote>It is relatively light and compared to most of my recent boards (Lib Tech, Never Summer) it is not as burly of a build</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/products/bataleon-2526-cameleon-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>User review on the official Bataleon page from an experienced rider (40+ days on the board). Provides balanced view of limitations alongside praise.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url>
+  <quote>the Cameleon was hands down the worst and really sketchy. This is one of the last boards I want to be on in hard to icy snow</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/bataleon-cameleon-snowboard-review-with-davey/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Strong negative assessment of hard/icy snow performance from The Good Ride — a critical data point for buyers in regions with variable snow conditions.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url>
+  <quote>it may not be the best fit for those who prioritize aggressive carving and precision on hard, icy conditions.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Evo review team also cautions about hard/icy conditions, corroborating The Good Ride's assessment.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url>
+  <quote>Slow on Transitions: One review noted the board was a bit slower edge-to-edge during his slushy day experience</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/bataleon-cameleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Minor concern noted by one evo tester regarding edge-to-edge speed in slush.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+  <url>https://www.snowboard.international/tested/bataleon-cameleon-25-26-first-thoughts/?v=0b3b97fa6688</url>
+  <quote>edge hold isn't the most aggressive on icy terrain</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard.international/tested/bataleon-cameleon-25-26-first-thoughts/?v=0b3b97fa6688</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard International first-thoughts review — tested by a crew in Åre, Sweden. Corroborates edge hold concern.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="52">
+  <quotelist>
+  <url>https://bataleon.com/pages/register</url>
+  <quote>We provide a 2 year limited register against manufacturing defects from the original date purchased</quote>
+  <quote>By filling out the details here and subscribing to our newsletter, we will add an extra year of warranty coverage</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/pages/register</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Bataleon product registration page explaining the 2+1 year warranty structure.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://bataleon.reamaze.com/kb/warranty/5-dot-1-what-is-your-warranty-policy-b3fa74de464d52d3</url>
+  <quote>We provide a 3 year limited guarantee against manufacturing defects</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.reamaze.com/kb/warranty/5-dot-1-what-is-your-warranty-policy-b3fa74de464d52d3</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Bataleon EU support page states 3-year warranty. The US page structures it as 2+1 but the end result is the same: 3 years when registered.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/bataleon-chameleon-snowboard</url>
+  <quote>Take up to a full year to return your item!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/bataleon-chameleon-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo's return policy — relevant for purchaser confidence.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+  <url>https://bataleon.com/</url>
+  <quote>For more than 20 years, we have led the industry in 3D snowboard tech with our patented Triple Base Technology</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2000</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Bataleon homepage marketing claim about 3BT longevity.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/bataleon-durability.276924/</url>
+  <quote>LPS has some of the quickest and most generous warranty teams out there.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/bataleon-durability.276924/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-12</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum user praising warranty team. Forum opinions are anecdotal but provide pattern insight.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="57">
+  <quotelist>
+  <url>https://bataleon.com/pages/reviews</url>
+  <quote>I can't recommend any of there softer boards, I've seen other reviews and they break often or cosmetically wear with time.</quote>
+  </quotelist>
+  <url_with_text_link>https://bataleon.com/pages/reviews</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Negative review on Bataleon's own review page about customer service and build quality of softer boards. Notable as it appears on the official site itself.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="58">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/bataleons-warranty-program-long-review-long-experience.71186/</url>
+  <quote>I'm going through a frustrating warranty process with a Bataleon board that's only been ridden for 3 days and now has a clear delamination.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/bataleons-warranty-program-long-review-long-experience.71186/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Long-running forum thread with multiple warranty experience reports spanning years. Shows both positive and negative experiences.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="59">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/bataleon-durability.276924/</url>
+  <quote>Only thing I noticed is the base seems a little soft.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/bataleon-durability.276924/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-12</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum user noting soft base material. Anecdotal but pattern-relevant.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="60">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/bataleon</url>
+  <quote>Bataleon Goliath Snowboard 2026 $629.95 $440.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo pricing for Bataleon Goliath, a key competitor within the brand lineup.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="61">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/bataleon</url>
+  <quote>Bataleon Whatever Snowboard 2026 $579.95 $405.96 Sale</quote>
+  <quote>Bataleon Thunderstorm Snowboard 2026 $589.95 $412.96 Sale</quote>
+  <quote>Bataleon Surfer Snowboard 2026 $1,099.95 $769.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/bataleon</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Pricing for other Bataleon models useful for cross-shopping within brand.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="62">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/bataleon-question.278784/</url>
+  <quote>I generally don't reach for Bataleon if the snow is hard or icy unless I'm riding park. But I do often reach for them when the snow is soft.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/bataleon-question.278784/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum user with extensive Bataleon experience summarizing when to and not to reach for a Bataleon board — useful buyer context.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/bataleon-cameleon-2027</url>
+    <quote>brand: Bataleon; model name: Cameleon; model year: 2027; AUD price: $1,149.99; availability status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/bataleon-cameleon-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

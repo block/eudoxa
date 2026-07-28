@@ -1,0 +1,755 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="12" category="availability" />
+  <duplicate_canonical name="board_weight_grams" count="10" category="geometry" note="size_variant" />
+  <duplicate_canonical name="positive_aspect" count="10" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="8" category="sustainability" />
+  <duplicate_canonical name="negative_aspect" count="8" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="7" category="comparable" />
+  <duplicate_canonical name="stance_width_range_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="warranty" count="3" category="warranty" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="3" category="review" />
+  <duplicate_canonical name="flex_rating_10" count="3" category="performance" />
+  <duplicate_canonical name="base_material" count="3" category="construction" />
+  <duplicate_canonical name="available_colors" count="3" category="identity" />
+  <duplicate_canonical name="sidecut_radius_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="estimated_availability_date" count="2" category="availability" />
+  <duplicate_canonical name="freestyle_park_rating" count="2" category="performance" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="flex_rating_5" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="resin" count="2" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="recommended_weight_range_size" count="2" category="recommendation" note="size_variant" />
+</canonical_schema>
+
+<answer>
+IMPORTANT NOTES ON MODEL YEAR / VERSIONING:
+The Jones Rally Cat was first introduced for the 2025 season (Northern Hemisphere winter 2024/25). The "2027" model year corresponds to the Southern Hemisphere season (2026 Australian/NZ winter) and the upcoming Northern Hemisphere 2026/27 season. The official Jones site currently lists the board under "2026" product URLs. The 2027 model year includes expanded size options (161, 166W, 170W added) compared to earlier model years. Some third-party retailers describe the board shape differently (see disagreements below).
+1. brand: Jones Snowboards [1]
+2. model_name: Rally Cat [1]
+3. model_year: 2027 [MERCHANT]
+4. manufacturer: Nidecker Group (NDK Group) — which also includes Nidecker, Flow, YES., and Now brands [2]
+5. Founder: Jeremy Jones, legendary big mountain snowboarder [3]
+6. Company founded: 2009 in Truckee, California (per official Jones "Our Story" page) [3]
+7. DISAGREEMENT — Company founding year: Wikipedia states Jones Snowboards was founded in 2010 [2]; Whitelines also says 2010 [4]; the official Jones "Our Story" page says 2009 [3]. The first product lineup debuted in 2010 [5]. Comment: The brand was likely conceived/incorporated in 2009 with first products shipping in 2010.
+8. Company headquarters: Truckee, California, USA [3]
+9. North American office address: Jones - Nidecker US Inc, 11253 Brockway Rd Suite E202, CA, Truckee, United States [6]
+10. manufacturing_location: Dubai, UAE — at the Solico Winter Sports (SWS) factory [7][8]
+11. sustainability_certification: 100% solar power since 2020 [2]
+12. pro_rider_name: Inaki Odriozola (listed as "board of choice for" on official site) [6]
+13. sustainability_certification: 1% For The Planet member [4]
+14. model_first_available_year: 2025 season (2024/25 Northern Hemisphere winter) [9]
+15. product_type: Snowboard [1]
+16. gender: Men's [MERCHANT]
+17. price_usd_msrp: $479.95 [6]
+18. price_aud_merchant: $849.99 [MERCHANT]
+19. availability_status: Preorder [MERCHANT]
+20. estimated_availability_date: June 8, 2026 [MERCHANT]
+21. estimated_availability_date: Early June 2026 [10]
+22. Discounted price (2025 model via Sun & Ski Sports / The Good Ride affiliate): $383.93 [11]
+23. Lowest priced Jones board: The Rally Cat is the lowest-priced board in the Jones lineup at $479.95 [9]
+24. Price comparison (Board of the World): $84.05 less than the average snowboard price of $468.01 reviewed [9]
+SELLERS / AVAILABILITY:
+25. availability_status: Jones Snowboards direct (jonessnowboards.com) — sold out all sizes for current 2026 model year [6]
+26. availability_status: evo (evo.com) — 2026 model listed [12]
+27. availability_status: The House (the-house.com) [13]
+28. availability_status: The Ski Monster (theskimonster.com) [14]
+29. availability_status: Rudeboys (rudeboys.com) — 2026 model [15]
+30. availability_status: Melbourne Snowboard Centre (melbournesnowboard.com.au) — 2027 preorder [16]
+31. availability_status: Balmoral Boards (balmoralboards.com.au) — 2027 preorder [10]
+32. availability_status: Ballistyx (ballistyx.com.au) — 2027 preorder, all sizes sold out [17]
+33. availability_status: Milosport — Women's 2027 version available for $499.95 [18]
+34. availability_status: Auski Australia (auski.com.au) — 2027 preorder [19]
+35. availability_status: Snowboards.eu (European Jones specialist) [20]
+36. warranty: 2+1 year warranty (2 years standard, +1 year on registration) [21]
+37. warranty: Must be registered at Jones to unlock the third year [21]
+38. warranty: Products purchased from Jones Authorized Dealers, non-transferable, original buyer only [21]
+39. return_policy_terms: New, unused items within 30 days for refund; buyer covers return shipping [6]
+40. user_review_forum: Mixed reviews — some users report slow warranty communication from Jones US, but Australian warranty service has been positive [22]
+41. board_category: All Mountain [MERCHANT]
+42. terrain_suitability: 10/10 [MERCHANT][6]
+43. terrain_suitability: 7/10 [MERCHANT][6]
+44. freestyle_park_rating: 8/10 [MERCHANT]
+45. freestyle_park_rating: 9/10 [6]. Comment: The official Jones site for the current 2026 model shows 9/10, while the merchant listing for the 2027 model shows 8/10. This may reflect a model year change or merchant error.
+46. terrain_suitability: All Mountain, Casual Cruising, Freestyle, Park [MERCHANT]
+47. rider_level: Beginner-Intermediate [MERCHANT]
+48. skill_level_recommendation: Beginner to Intermediate (progress rating 2 out of 5) [6]
+49. shape: Directional Twin [MERCHANT][6]
+50. shape: Ballistyx describes the 2027 Rally Cat as a "True Twin" with symmetrical shape [17]. Comment: Jones official, the merchant listing, and most other retailers describe it as "Directional Twin." Ballistyx appears to be using their own interpretation. The board has 0mm taper and symmetrical tip/tail widths but a 20mm stance setback, making "directional twin" the correct classification per the manufacturer.
+51. camber_type: True Camber (Jones True Camber) [MERCHANT][6]
+52. camber_description: Full camber providing highest levels of edge response, pop, and grip [6]
+53. reviewer_opinion_the_good_ride: Camber runs to just before the nose/tail with a little early rise before the spoon nose and tail; not as high as the Aviator 2.0 [23]
+54. 3D contour base: Low 3D Contour Base — 2mm spoon bevel in nose and 0 to 2mm in tail, starting just before contact points [MERCHANT][12]
+55. camber_description: True Camber with Low 3D Contour Base [6]
+56. taper: 0mm (no taper) [MERCHANT][6]
+57. setback: 20mm (2cm stance setback across all sizes) [MERCHANT][6]
+58. sidecut_type: Progressive Sidecut — radius incrementally increased at far ends as edge reaches contact point [12]
+59. flex_rating_10: 4/10 (1=soft, 10=stiff) [MERCHANT][16]
+60. flex_rating_5: Soft & playful, 2/5 [6]
+61. flex_rating_10: 6/10 [17]. Comment: Ballistyx's 2027 product description lists the flex as 6/10. Jones official and all other retailers consistently state 4/10. This is most likely an error in Ballistyx's listing.
+62. flex_rating_5: 3.5/5 — "more flexible than anything I've ridden from Jones" [9]
+63. flex_rating_10: Nose/tail about 4.5/10, center about 3/10, overall feels like 3/10 [24]
+64. flex_feel: Medium flex in nose/tail, pretty soft flex between the feet [23]
+65. Flex technology: Forever Flex — overbuilt then broken in at factory to mimic 20 days ridden [MERCHANT][12]
+66. flex_direction: Flex direction not specified as directional flex by manufacturer — biax fiberglass provides symmetrical flex pattern [6]
+67. core_material: Master Core — dual density wood core, 1:1 Poplar to Paulownia ratio in alternating stringers [MERCHANT][6]
+68. core_material: Responsibly harvested Paulownia and Poplar; Paulownia reduces weight while Poplar adds durability [6]
+69. laminate: Biaxial Fiberglass — dual-layer, dual-directional construction [MERCHANT][6]
+70. laminate: Delivers a forgiving yet snappy board feel with mid-soft torsional flex and quick energy transfer [6]
+71. resin: Bio Resin (plant-based) — 27% plant-based carbon, reduces CO₂ emissions by 33% vs. conventional epoxy [MERCHANT][6][12]
+72. resin: Super Sap Bio-Resin — sourced from co-products/waste products of plant-based industrial processes [12]
+73. sidewall_material: Recycled ABS with rounded finish [MERCHANT][6]
+74. sidewall_material: Rounded finish engineered to deflect impact, preventing topsheet chipping and cracks [6]
+75. Edge material: Recycled German steel [MERCHANT][6]
+76. edge_technology: Traction Tech — strategically placed contact points along running length for enhanced edge grip (described as "Medium Traction Tech") [MERCHANT][12]
+77. base_material: Sintered 8000 — Ultra High Molecular Weight Polyethylene (UHMW-PE) and carbon [MERCHANT][12]
+78. base_material: Ultra-fast, highly wax absorbent, easy to repair, one of the most durable base materials in the industry [6]
+79. base_material: Uses the same Sintered 8000 base as Jones' high-performance Airheart [25]
+80. topsheet: Premium Topsheet — durable and scratch resistant [MERCHANT][6]
+81. Factory wax: WEND Natural Wax — ready to ride out of the shop [MERCHANT][6]
+82. Factory tuning: Detuned in tip and tail, ready to ride [MERCHANT][6]
+83. mounting_pattern: 2x4 Inserts (Standard Pack) [MERCHANT][6]
+84. available_colors: Two or more base color options to minimize p-tex waste; order may be filled with either color [15]
+85. available_sizes: 151, 154, 155W, 156, 158, 159W, 161, 162W, 166W, 170W [6]
+86. available_sizes: 151cm, 154cm, 156cm, 158cm, 155cm Wide, 159cm Wide, 162cm Wide [MERCHANT]. Comment: Merchant listing appears to show 2025/26 size run; the official Jones 2026 site now shows 161, 166W, 170W as additional new sizes.
+87. width_options: Standard and Wide [MERCHANT][6]
+88. board_weight_grams: 2.4kg / 5.4lbs [6]
+89. board_weight_grams: 2.5kg / 5.6lbs [6]
+90. board_weight_grams: 2.7kg / 6.0lbs [6]
+91. board_weight_grams: 2.7kg / 5.8lbs [6]
+92. board_weight_grams: 2.8kg / 6.1lbs [6]
+93. board_weight_grams: 2.8kg / 6.2lbs [6]
+94. board_weight_grams: 2.8kg / 6.3lbs [6]
+95. board_weight_grams: 2.9kg / 6.5lbs [6]
+96. board_weight_grams: 3.1kg / 6.7lbs [6]
+97. board_weight_grams: 3.3kg / 7.2lbs [6]
+98. Effective edge 151cm: 1110mm (official Jones 2026 site shows 111cm) [6]; merchant listing says 1114mm [MERCHANT]. Comment: Minor discrepancy likely due to rounding — official rounds to nearest cm.
+99. Effective edge 156cm: 1150mm (official Jones) [6]; merchant listing shows 1154mm [MERCHANT]. Comment: Same rounding difference.
+100. Waist width 151cm: 247mm [MERCHANT][6]
+101. Waist width 156cm: 252mm [MERCHANT][6]
+102. Waist width 161cm: 257mm [6]
+103. Waist width 166W: 267mm [6]
+104. waist_width_165: 269mm [6]
+105. tip_tail_width_size: Equal across all sizes (e.g., 151cm: 288mm nose = 288mm tail) [6]
+106. sidecut_radius_size: 7.0m [MERCHANT][6]
+107. sidecut_radius_size: 8.0m [6]
+108. sidecut_radius_size: 8.9m [6]
+109. stance_width_range_size: 500mm / 19.7" [6]
+110. stance_width_range_size: 540mm / 21.3" [6]. Comment: Merchant listing shows 580mm for 156cm — this is a discrepancy; the Jones official site shows 540mm for 154cm, 540mm for 155W, 540mm for 156cm.
+111. stance_width_range_size: The merchant listing shows reference stance 151cm=540mm, 154cm=560mm, 156cm=580mm. The official Jones 2026 site shows 151cm=500mm, 154cm=520mm, 156cm=540mm. Comment: The official Jones site is the authoritative source. The merchant data appears to have systematically higher values by 40mm.
+112. contact_length_size: 106.4cm [6]
+113. Tip length 151cm: 22.8cm [6]
+114. Tail length 151cm: 21.8cm [6]
+115. Surface area 151cm: 39.0 dm² [6]
+116. stance_width_range_size: 52cm / 20.5" [6]
+117. recommended_weight_range_size: 49-73kg / 110-160 lbs [MERCHANT][6]
+118. recommended_weight_range_size: 77-100+ kg / 170-220+ lbs [6]
+119. Ideal boot size 151cm: US 7-9 / EU 39.5-41.5 [6]
+120. Big Horn Series threshold: US Men's 11.5+ should look for boards with minimum waist width 26.3cm [6]
+121. Binding recommended size 151cm: S/M [6]
+122. FASE recommended size 151cm: M [6]
+123. Jones official site user rating: 4.9/5 (19 reviews) [6]
+124. Board of the World rating (2025 model): 83.2/100 (4.12/5) [9]
+125. Board of the World all-mountain sub-score: 4.03/5 [26]
+126. Board of the World park ranking: 34th out of 36 boards reviewed in park category [9]
+127. reviewer_opinion_the_good_ride: "Very recommendable ride" — reviewer didn't want to return the demo [23]
+128. evo Field Tested verdict: "Reliable, fun, and adaptable snowboard" — top contender for single-board riders [27]
+POSITIVE EXPERIENCES:
+129. positive_aspect: "Easiest and most enjoyable turning experience I have had on a mid-soft board" (The Good Ride Women's review) [25]
+130. positive_aspect: Reviewer spinning 540s without trying hard at age 41 [9]
+131. positive_aspect: "Jones boards are notorious for having great base glide, and the Rally Cat is no exception" [25]
+132. positive_aspect: "One of the lightest boards that I've gotten to ride for the 2025 season" [9]
+133. positive_aspect: Nose presses and buttering felt "extremely simple" [24]
+134. positive_aspect: "Excellent value for its price because it offers all of the primary tech features that make a Jones board rip" [9]
+135. positive_aspect: "From bowls and trees to groomers and parks, the Rally Cat handles it all" [27]
+136. positive_aspect: Easy switch riding; "rides switch really well" [25]
+137. positive_aspect: Tracked very well one-footing and flat-basing in all conditions [23]
+138. positive_aspect: Despite full camber, very easy to skid a turn; not as unforgiving as it looks [23]
+NEGATIVE EXPERIENCES / LIMITATIONS:
+139. negative_aspect: Not the most stable at high speeds — "not for you if you like decent speed" [28]
+140. negative_aspect: Not an "elbows-to-the-ground" board; can't put power or speed into traditional euro-carve [25]
+141. negative_aspect: "Challenging on uneven snow and required a lot of on-the-fly adjustments" [25]
+142. negative_aspect: "The base of the Jones Rally Cat had too much die-cut for my taste, and I could feel it when running my fingers over it" [28]
+143. negative_aspect: Feels "a little heavier than the Aviator 2.0" [23]
+144. negative_aspect: Aggressive riders, racing, very steep/technical terrains [27]
+145. negative_aspect: Deep powder (board not designed for it; Mind Expander recommended instead) [29]
+146. negative_aspect: Relatively low park ranking (34th/36) suggests better all-mountain boards exist for pure park riders [9]
+147. comparable_board_same_brand: Jones Aviator 2.0 (with similar flex to the Jones Tweaker) [23]
+148. comparable_board_same_brand: The Good Ride reviewer liked the Rally Cat better than the Mountain Twin for all-mountain cruising [23]
+149. comparable_board_same_brand: Jones Frontier — more stability for carving, faster base [9]
+150. comparable_board_same_brand: Jones Tweaker ($529.95) or Tweaker Pro ($629.95) [6]
+151. comparable_board_same_brand: Jones Mountain Twin ($579.95) [6]
+152. comparable_board_same_brand: Frontier is more directional, stiffer, better in uneven snow; Rally Cat is more playful, better for buttering/pressing [28][30]
+153. Rally Cat feels less washy than Mountain Twin Pro in hard snow turns [31]
+154. comparable_board_cross_brand: Capita Space Metal Fantasy, Jones Airheart, K2 Coldshoulder, Gnu Velvet [25]
+155. reviewer_opinion_the_good_ride: Rally Cat made the list — "blew me away at this price point" [32]
+156. sustainability_certification: Since 2020, manufacturing with 100% solar power, resulting in 89% drop in production CO₂ emissions [2]
+157. sustainability_certification: 33% less greenhouse gas emissions vs. conventional epoxy [6][12]
+158. sustainability_certification: Recycled ABS sidewalls, recycled German steel edges [6]
+159. sustainability_certification: WEND Natural Wax (biodegradable) [6]
+160. sustainability_certification: Jones donates 1% of sales to sustainability-focused non-profits [4]
+161. sustainability_certification: Jones offers a program to recycle old snowboards and upcycle materials; send in dead board, get $50 toward a new one [6]
+162. available_colors: Orange [9]
+163. available_colors: Pinkish purple [9]
+164. topsheet_appearance_description: Not specified in detail; described as having "vibrant graphics" in evo women's review [33]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.jonessnowboards.com/products/men-rally-cat-snowboard-2026</url>
+  <quote>Men's Rally Cat Snowboard | Jones</quote>
+  </quotelist>
+  <url_with_text_link>https://www.jonessnowboards.com/products/men-rally-cat-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page. Highest authority for product identification and brand attribution.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Jones_Snowboards</url>
+  <quote>Jones Snowboards was founded in 2010 by Jeremy Jones in collaboration with Nidecker Snowboards.</quote>
+  <quote>Jones Snowboards is now part of the Nidecker Group.</quote>
+  <quote>Since 2020, Jones snowboards and splitboards are made using 100% solar power.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Jones_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on Jones Snowboards provides company history and parent group info. Somewhat reliable but may lag on details. Disagrees with Jones' own site on founding year (2010 vs 2009).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.jonessnowboards.com/pages/our-story</url>
+  <quote>Based in Truckee, California, Jones Snowboards was founded in 2009 by legendary big mountain snowboarder Jeremy Jones.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.jonessnowboards.com/pages/our-story</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2009</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Jones "Our Story" page. This is the primary source for company founding date and location. States 2009, which differs from some secondary sources.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://whitelines.com/brands/jones-snowboards</url>
+  <quote>Jones Snowboards was founded by backcountry boss Jeremy Jones in 2010 after his split from long-time sponsor Rossignol.</quote>
+  <quote>the brand has been partnered with 1% for the Planet since 2015</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/brands/jones-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Whitelines is a well-established snowboard media outlet. Their brand page provides founding information and sustainability partnerships. Says 2010 founding.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://grokipedia.com/page/jones_snowboards</url>
+  <quote>Jones Snowboards debuted its inaugural product lineup in 2010, consisting of four high-performance snowboard models.</quote>
+  </quotelist>
+  <url_with_text_link>https://grokipedia.com/page/jones_snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Encyclopedia-style article confirming first products debuted 2010. Helps reconcile founding date disagreement — company formed 2009, products shipped 2010.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.jonessnowboards.com/products/men-rally-cat-snowboard-2026</url>
+  <quote>Friendly cruiser, easy-to-turn, playful</quote>
+  <quote>Regular price $479.95</quote>
+  <quote>4.9 (19) 19 total reviews</quote>
+  <quote>On-piste / All-mountain 10/10, Freeride / Powder 7/10, Freestyle / Park 9/10</quote>
+  </quotelist>
+  <url_with_text_link>https://www.jonessnowboards.com/products/men-rally-cat-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page with full specifications table, sizing, pricing, terrain ratings, construction details, and user reviews. The primary authoritative source for all objective specifications and measurements.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Jones_Snowboards</url>
+  <quote>Jones snowboards are manufactured in Dubai.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Jones_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia states manufacturing location is Dubai, consistent with the SWS/Solico factory information from multiple industry sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Jones started out production in the GST factory. After the GST factory closed it moved to fellow Nideckerites YES's production home - SWS - in Dubai in 2016.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles provides a detailed breakdown of which factories produce which brands. Confirms Jones moved to SWS in Dubai in 2016.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url>
+  <quote>The Jones Rally Cat is a brand new, soft-flexing directional twin snowboard for the 2025 season.</quote>
+  <quote>Jones added it to their lineup at the lowest price for one of their boards at $479.95.</quote>
+  <quote>Our Rating: 83.2 out of a possible 100 or 4.12 out of a possible 5.</quote>
+  <quote>Ranks 34th out of the 36 boards reviewed in the park category.</quote>
+  <quote>It's also one of the lightest boards that I've gotten to ride for the 2025 season.</quote>
+  <quote>I was spinning 540s on it without trying that hard.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World is an independent snowboard review site focused on East Coast conditions. The reviewer tested the board at a demo event, providing unique real-world performance data. Updated March 2026.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.balmoralboards.com.au/products/jones-2027-rally-cat</url>
+  <quote>UPDATED DELIVERY: Due to recent world events, boards are now expected to arrive in Australia early June 2026.</quote>
+  <quote>All Jones snowboards and splitboards are backed with a 2 year warranty + 1 free year extension.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.balmoralboards.com.au/products/jones-2027-rally-cat</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer showing 2027 model availability and delivery estimate. Provides current preorder status and delivery updates.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url>
+  <quote>$383.93 Buy it Now Buy Jones Rally Cat from Sun & Ski Sports</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride affiliate link showing discounted street price for the 2025 model at Sun & Ski Sports. Prices fluctuate.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/jones-rally-cat-snowboard</url>
+  <quote>Low 3D Contour Base – Subtle yet effective 3D Contour Base featuring 2mm spoon bevel in the nose and 0 to 2mm spoon bevel in the tail.</quote>
+  <quote>Forever Flex – Forever Flex is a new manufacturing process that helps stabilize the flex and rocker of a board for its lifetime.</quote>
+  <quote>Bio Resin – All Jones boards are now built with bio-based, renewable epoxy instead of petroleum based epoxy.</quote>
+  <quote>Sintered 8000 Base – New super durable material made from Ultra High Molecular Weight polyethylene and carbon.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/jones-rally-cat-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a major reputable online retailer for snowboard equipment. Their product page provides detailed tech descriptions sourced from Jones. Very reliable for construction details.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.the-house.com/1161817.html</url>
+  <quote>Browse The House for Jones Rally Cat Snowboard, a playful directional twin made for all-mountain riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1161817.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House is a well-established online snow sports retailer. Confirms availability at this seller.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://theskimonster.com/products/jones-rally-cat</url>
+  <quote>Built By // Solico Winter Sport Factory, Du</quote>
+  <quote>Built with a soft-to-medium flex and full camber underfoot</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/jones-rally-cat</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Ski Monster is a boutique snowboard shop. Uniquely confirms factory name (Solico Winter Sport Factory, Dubai) on their product page — rare transparency.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://rudeboys.com/products/jones-rally-cat-snowboard-w26</url>
+  <quote>Producing two or more base color options minimizes p-tex waste. Order may be filled with either color.</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/jones-rally-cat-snowboard-w26</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Rudeboys is an authorized Jones retailer. Provides detail about base color options and sustainability rationale.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/jones-mens-rally-cat</url>
+  <quote>Board Type: All Mountain All Mountain 10/10 Powder 7/10 Freestyle 8/10</quote>
+  <quote>Flex: 4/10 (1=soft, 10=stiff)</quote>
+  <quote>PREORDER YOUR 2027 MODEL SNOWBOARD NOW</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/jones-mens-rally-cat</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an authorized Australian Jones dealer showing 2027 model with detailed specs including terrain ratings and flex. Matches merchant-provided data.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-jones-mens-rally-cat-snowboard</url>
+  <quote>the 6/10 flex keeps it playful enough to press and move around without fighting you</quote>
+  <quote>The True Twin shape keeps everything centred for spins and switch riding</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-jones-mens-rally-cat-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ballistyx is an Australian snowboard shop. Their 2027 Rally Cat description states 6/10 flex and "True Twin" shape, which conflicts with the manufacturer's 4/10 flex and "Directional Twin" description. Likely the retailer's own editorial interpretation rather than Jones specifications.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.milosport.com/products/jones-womens-rally-cat-snowboard-2027</url>
+  <quote>Jones Womens Rally Cat Snowboard 2027 $499.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosport.com/products/jones-womens-rally-cat-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Milosport is an authorized Jones dealer in Salt Lake City. Shows Women's 2027 pricing. Note: Women's version is $499.95 vs. Men's $479.95.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.auski.com.au/products/jones-mens-rally-cat-snowboard-2027</url>
+  <quote>The Men's Rally Cat is the all-mountain fun seeker, built as a friendly cruiser that's easy to turn and playful.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.auski.com.au/products/jones-mens-rally-cat-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Auski is a major Australian snow sports retailer confirming 2027 model availability.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://snowboards.eu/jones-rally-cat/</url>
+  <quote>With Forever Flex, the boards are slightly overbuilt and broken in using specialized machines that simulate riding use.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/jones-rally-cat/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboards.eu is a European Jones specialist retailer. Provides good detail on Forever Flex technology.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.jonessnowboards.com/pages/jones-snowboard-spitboard-apparel-and-backpacks-warranty</url>
+  <quote>Snowboards & Splitboards purchased after April 2019 (and all 2019 models): Two (2) + one (1) year from the original date of purchase.</quote>
+  <quote>Gear must be purchased from a Jones Authorized Dealer and warranty is non-transferable.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.jonessnowboards.com/pages/jones-snowboard-spitboard-apparel-and-backpacks-warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Jones warranty page. Primary authoritative source for warranty terms.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/jones-snowboard-warranty.281671/</url>
+  <quote>good luck getting ahold of anyone there if you are relying on the few people at the US location to communicate with you.</quote>
+  <quote>Jones is looking after him with a replacement new board. Good to hear Jones is pretty solid with Warranty in Oz.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/jones-snowboard-warranty.281671/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Snowboarding forum thread with real user warranty experiences. Shows mixed but generally adequate warranty service. Forum anecdotes have limited reliability individually but show patterns.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url>
+  <quote>The Jones Rally Cat has a similar shape to the Aviator 2.0 with a similar flex to the Tweaker.</quote>
+  <quote>It tracked very well one footing and flat basing in all conditions.</quote>
+  <quote>You have a medium flex in the nose and tail but a pretty soft flex between the feet.</quote>
+  <quote>The Jones Rally Cat feels pretty normal and a little heavier than the Aviator 2.0.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-12-07</date_of_last_relevance>
+  <reasoning>The Good Ride is a highly respected independent snowboard review site with extensive testing methodology. Reviewer James tested the 156cm for 5 days in varied conditions. One of the most detailed reviews available.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url>
+  <quote>The Rally Cat offers a noticeably softer flex than a typical medium (5 out of 10) flexing all mountain board.</quote>
+  <quote>nose and tail are slightly stiffer at about 4.5 out of 10 compared to the playful flexing center of the board, 3 out of 10.</quote>
+  <quote>Nose presses and buttering felt extremely simple on this board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World provides granular flex measurements across zones of the board. Useful for riders who want to understand exactly how the board flexes. Independent reviewer.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-womens-rally-cat-womens-snowboard-review-by-jordan/</url>
+  <quote>This board was probably the easiest and most enjoyable turning experience I have had on a mid-soft board.</quote>
+  <quote>Jones boards are notorious for having great base glide, and the Rally Cat is no exception.</quote>
+  <quote>It has the same sintered 8000 base as their high-performance women's board, the Airheart.</quote>
+  <quote>Definitely not an 'elbows-to-the-ground' board but a great option for developing consistent turns.</quote>
+  <quote>The Jones Women's Rally Cat was challenging on uneven snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-womens-rally-cat-womens-snowboard-review-by-jordan/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-12-06</date_of_last_relevance>
+  <reasoning>Jordan's review on The Good Ride. Women's version shares the same tech/construction. Provides detailed turning, carving, and limitation insights. Unpaid reviewer with ethical disclosure.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url>
+  <quote>When I scored for it's all mountain performance, it earned around one full point lower at a 4.03 / 5.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/review-jones-rally-cat-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>The all-mountain sub-score is lower than the park-focused overall score, showing the board is stronger in freestyle than all-mountain carving.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/jones-rally-cat</url>
+  <quote>Our testers collectively agree that the Jones Rally Cat is a reliable, fun, and adaptable snowboard.</quote>
+  <quote>From bowls and trees to groomers and parks, the Rally Cat handles it all.</quote>
+  <quote>it might not be the best fit for those who are seeking a highly aggressive board primarily for racing or very steep, technical terrains.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/jones-rally-cat</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025-05-02</date_of_last_relevance>
+  <reasoning>evo Field Tested review based on multiple employee testers across multiple locations. Standardized methodology with diverse rider profiles provides robust feedback. Tested at Loveland, CO.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url>
+  <quote>If you like decent speed, the Jones Rally Cat isn't for you. The Frontier or Aviator 2.0 is a better choice.</quote>
+  <quote>The base of the Jones Rally cat had too much die-cut for my taste.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-rally-cat-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-12-07</date_of_last_relevance>
+  <reasoning>The Good Ride reviewer provides direct competitor recommendations for speed-focused riders and notes a base quality concern.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-womens-rally-cat-womens-snowboard-review-by-jordan/</url>
+  <quote>This board was not designed for powder conditions... If you are looking for a powder-specific board, I recommend something directional like the Mind Expander.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-womens-rally-cat-womens-snowboard-review-by-jordan/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-04</date_of_first_relevance>
+  <date_of_last_relevance>2025-12-06</date_of_last_relevance>
+  <reasoning>Reviewer explicitly states the board is not for powder and recommends alternative. Important limitation for powder-focused buyers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-frontier-2-0-snowboard-review/</url>
+  <quote>It defintitely sits in between the Jones Mountain Twin and Stratos.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-frontier-2-0-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-03</date_of_last_relevance>
+  <reasoning>The Good Ride Frontier review provides comparative context for where the Rally Cat sits in the Jones lineup vs Frontier, Mountain Twin, and Stratos.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/jones-mountain-twin-pro-snowboard-review/</url>
+  <quote>The Frontier feels less washy, and so does the Rally Cat.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/jones-mountain-twin-pro-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-03</date_of_last_relevance>
+  <reasoning>Mountain Twin Pro review provides direct comparative data vs Rally Cat for edge hold washiness. Important for riders choosing between Jones all-mountain options.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://thegoodride.com/the-good-ride-2025-favorite-low-cost-all-mountain-snowboards/</url>
+  <quote>The Jones Rally Cat is new, and it made the 2025 Low-Cost Favorite All-Mountain Snowboards list because it blew me away at this price point.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/the-good-ride-2025-favorite-low-cost-all-mountain-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2025-12-12</date_of_last_relevance>
+  <reasoning>The Good Ride's annual favorites list. Inclusion on the low-cost favorites list is a strong value endorsement from a respected independent source.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/jones-rally-cat-w</url>
+  <quote>Katie Yaguchi highlighted the board's playful mid-soft flex and its poppy nature... Her review emphasizes the board's aesthetic appeal as well, complimenting its vibrant graphics.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/jones-rally-cat-w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2025-05-02</date_of_last_relevance>
+  <reasoning>evo field-tested women's version review. Provides aesthetic and graphic feedback from multiple testers.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/jones-mens-rally-cat</url>
+    <quote>AUD price: $849.99; manufacturer: Jones; brand: Jones; model name: Rally Cat; model year: 2027</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/jones-mens-rally-cat</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

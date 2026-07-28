@@ -1,0 +1,665 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="13" category="performance" />
+  <duplicate_canonical name="setback" count="9" category="unknown" />
+  <duplicate_canonical name="contact_length_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="8" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="8" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="positive_aspect" count="6" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="6" category="comparable" />
+  <duplicate_canonical name="skill_level_recommendation" count="5" category="recommendation" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="flex_feel" count="4" category="performance" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="sidewall_material" count="3" category="unknown" />
+  <duplicate_canonical name="model_year" count="2" category="identity" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1]
+2. model_name: Cold Brew [1]
+3. model_year: 2027 [2]
+4. model_year: 2025-2026 (note: snowboard industry uses season designation; "2027" is the merchant's year designation for the 25/26 season product) [1]
+5. manufacturer: Mervin Manufacturing [3][4]
+6. product_type: Snowboard [1]
+7. board_category: All Mountain - Directional [1]
+8. board_category: All Mountain / Freeride [2][5]
+9. gender: Men's [6]
+10. model_first_available_year: 2018 (Model Year 2018 per earliest retail listings and Good Wood award that season) [7][8]
+11. model continuity: The Cold Brew has been largely unchanged since its debut, per The Good Ride's 2025 update [9]
+12. graphic_designer_artist: Tim Zimmerman (@fotomaxizoomdweebie) [1]
+13. C2 profile co-developed with: Travis Rice [10]
+14. award: TransWorld SNOWboarding Good Wood 2018-2019 – Women's All-Mountain Winner [8]
+15. skill_level_recommendation: Beginner - Intermediate [2]
+16. skill_level_recommendation: Intermediate-Advanced [10]
+17. skill_level_recommendation: Beginner - Expert [9] DISAGREEMENT: The merchant lists Beginner-Intermediate, evo lists Intermediate-Advanced, and The Good Ride lists Beginner-Expert. This variation likely reflects the board's forgiveness (accessible to beginners) combined with legitimate all-mountain performance (fun for experts).
+18. skill_level_recommendation: Intermediate - Advanced [11]
+19. skill_level_recommendation: Riders wanting one versatile board for all-terrain use [9]
+20. terrain_suitability: Powder and crud, but also handles hardpack/groomers [1]
+21. terrain_suitability: All Mountain / Freeride / Mixed Conditions [11]
+22. terrain_suitability: Freeride-focused but freestyle-ready [1]
+23. riding_style: Directional all-terrain [1]
+24. terrain_suitability: Daily driver for resort laps, powder days, mild backcountry [5][12]
+25. shape: Tapered Directional [2]
+26. shape: Tail narrower than nose for enhanced control and stability in deeper snow [2]
+27. taper: ~3mm (subtle taper, wider nose, narrower tail) [13]
+28. camber_type: C2 Directional [2]
+29. camber_description: Mild rocker between feet with powerful camber to tip and tail [2]
+30. camber_type: Camber/Rocker/Camber (hybrid) [10]
+31. camber_description: Combining central rocker for edge hold and float, with powerful camber towards tip and tail for stability, pop, and control [14]
+32. nose design: Extended low-entry directional nose (floaty) [5]
+33. flex_direction: Directional [1]
+34. flex_rating_10: 6/10 [2]
+35. flex_rating_10_manufacturer: 5 [1]
+36. flex_rating_10_manufacturer: 5.5 [1]
+37. flex_rating_10_manufacturer: 6 [1]
+38. flex_rating_10_manufacturer: 6.5 [1]
+39. flex_rating_10_manufacturer: 7 [1]
+40. flex_feel: Medium [10]
+41. flex_feel: Medium-Stiff / Stiff [15] DISAGREEMENT: evo described the 2025 model as "Medium-Stiff" while the 2026 model is rated "Medium." The flex varies by size (5–7 range) and evo's category mapping changed between model years.
+42. flex_feel: Medium [9]
+43. flex_feel: Medium-stiff [16]
+44. buttering: Semi-Easy per The Good Ride [9]
+45. construction: Original Power (OP) Construction [2]
+46. core_material: 75% Aspen, 25% Paulownia [2] DISAGREEMENT: evo 2025 listing states "75% Paulownia / 25% Aspen" which is reversed from the merchant and other sources. Most sources agree on 75% Aspen / 25% Paulownia.
+47. core_material_blend_ratio: 75% Paulownia / 25% Aspen [15]
+48. core_material: Aspen and Paulownia [1]
+49. sustainability_certification: FSC certified [1]
+50. laminate: Tri-Ax/Bi-Ax Fiberglass [2]
+51. laminate: Smooth ride while keeping weight low [2]
+52. sidewall_material: Birch Internal Sidewalls — rugged, lightweight, vertical end grain adding pop and durability [14]
+53. sidewall_material: UHMW Sintered Sidewalls [2]
+54. sidewall_material: Twice as sintered as most industry sidewalls; increases durability, response and control [14]
+55. topsheet: Eco Sublimated Poly Topsheet [2]
+56. topsheet: Sublimated polyester material for vibrant yet durable graphics [14]
+57. base_material: Eco Sublimated TNT Base [2]
+58. base_material: Fastest, highest-density UHMW base, dual-layer thermal fusion, titanium layer reflects heat [2]
+59. base maintenance: Low maintenance, accepts wax easily, performs without wax [15]
+60. edge_technology: Magne-Traction — seven strategically placed serrations along edges [2]
+61. tip/tail protection: UHMW Tip/Tail Impact Deflection — edge removed around nose/tail, replaced with UHMW material [2]
+62. mounting_pattern: 2x4 Inserts [2]
+63. construction type: Sidewall Construction [7]
+64. manufacturing_location: Handbuilt in USA, Sequim/Carlsborg, Washington [14][3]
+65. sustainability_certification: Zero hazardous waste manufacturing process [4]
+66. sustainability_certification: Water-based solvents used instead of petrochemical solvents; sawdust recycled as soil additive; scrap wood donated as kindling [14][4]
+67. resin: Low VOC epoxy [17]
+68. sustainability_certification: Factory uses green power contracted from local PUD [17]
+69. Mervin Manufacturing founded: 1977 by Mike Olson and Pete Saari [3]
+70. Mervin ownership: Sold to Altamont Capital in 2013 (previously owned by Quiksilver from 1997) [18]
+71. Mervin distinction: Longest running and last major board building factory in the USA [3]
+72. available_sizes: 149, 153, 155W, 157, 158W, 159, 161, 163W [1]
+73. available_sizes: 153cm, 157cm, 161cm, 155cm Wide, 158cm Wide, 163cm Wide [2]
+74. width_options: Standard, Wide [2]
+75. contact_length_size: 111cm [1]
+76. sidecut_radius_size: 8.1m [1]
+77. tip_tail_width_size: 29.5/29.2cm [1]
+78. waist width 149: 25.6cm [1]
+79. stance_width_range_size: 18.5"-24" [1]
+80. setback: 1.5" [1]
+81. flex_rating_10_manufacturer: 5 [1]
+82. recommended_weight_range_size: 85+lbs / 40+kg [1]
+83. contact_length_size: 113cm [1]
+84. sidecut_radius_size: 8.2m [1]
+85. tip_tail_width_size: 29.7/29.3cm [1]
+86. waist width 153: 25.7cm [1]
+87. stance_width_range_size: 20"-25" [1]
+88. setback: 1.5" [1]
+89. flex_rating_10_manufacturer: 5.5 [1]
+90. recommended_weight_range_size: 90+lbs / 40+kg [1]
+91. contact_length_size: 114cm [1]
+92. sidecut_radius_size: 8.2m [1]
+93. tip_tail_width_size: 30.7/30.3cm [1]
+94. waist width 155W: 26.6cm [1]
+95. stance_width_range_size: 20"-25" [1]
+96. setback: 1.5" [1]
+97. flex_rating_10_manufacturer: 6 [1]
+98. recommended_weight_range_size: 100+lbs / 45+kg [1]
+99. contact_length_size: 115cm [1]
+100. sidecut_radius_size: 8.3m [1]
+101. tip_tail_width_size: 30.4/30.0cm [1]
+102. waist width 157: 26.2cm [1]
+103. stance_width_range_size: 20"-25" [1]
+104. setback: 1.5" [1]
+105. flex_rating_10_manufacturer: 6 [1]
+106. recommended_weight_range_size: 100+lbs / 45+kg [1]
+107. contact_length_size: 115cm [1]
+108. sidecut_radius_size: 8.3m [1]
+109. tip_tail_width_size: 31.0/30.6cm [1]
+110. waist width 158W: 26.8cm [1]
+111. stance_width_range_size: 20"-25" [1]
+112. setback: 1.5" [1]
+113. flex_rating_10_manufacturer: 6.5 [1]
+114. recommended_weight_range_size: 100+lbs / 45+kg [1]
+115. contact_length_size: 115cm [1]
+116. sidecut_radius_size: 8.3m [1]
+117. tip_tail_width_size: 30.5/30.2cm [1]
+118. waist width 159: 26.3cm [1]
+119. stance_width_range_size: 20"-25" [1]
+120. setback: 1.5" [1]
+121. flex_rating_10_manufacturer: 6.5 [1]
+122. recommended_weight_range_size: 110+lbs / 50+kg [1]
+123. contact_length_size: 117cm [1]
+124. sidecut_radius_size: 8.4m [1]
+125. tip_tail_width_size: 30.8/30.4cm [1]
+126. waist width 161: 26.5cm [1]
+127. stance_width_range_size: 20"-25" [1]
+128. setback: 1.5" [1]
+129. flex_rating_10_manufacturer: 6.5 [1]
+130. recommended_weight_range_size: 110+lbs / 50+kg [1]
+131. contact_length_size: 119cm [1]
+132. sidecut_radius_size: 8.4m [1]
+133. tip_tail_width_size: 31.4/31.2cm [1]
+134. waist width 163W: 26.8cm [1]
+135. stance_width_range_size: 20"-25" [1]
+136. setback: 1.5" [1]
+137. flex_rating_10_manufacturer: 7 [1]
+138. recommended_weight_range_size: 120+lbs / 55+kg [1]
+139. price_usd_msrp: $549.99 [1]
+140. price_aud_merchant: $899.99 [2]
+141. price_usd_evo: $439.99 (marked down from $549.99) [19]
+142. price_usd_tactics: $439.99 (on sale) [20]
+143. price USD (The House, 2026): $439.99 [21]
+144. price USD (Sun & Ski Sports): $389.83–$439.93 [9]
+145. price USD (Outdoor Gear Exchange): $549.99 [9]
+146. price_usd_backcountry: $439.99 [9]
+147. price_cad_prfo: $559.99 [9]
+148. price_eur_blue_tomato: €559.95 [9]
+149. price_gbp_blue_tomato_uk: £500.00 [9]
+150. price USD (Christy Sports): $439.99 [9]
+151. Rainier x Lib Tech collaboration edition (2024/25): $384.99 (sale from $549.99) [22]
+152. Lib Tech Cold Brew C2 LTD (limited edition evo exclusive): Available at evo with exclusive graphic [23]
+153. availability_status: Preorder, estimated May 1, 2026 [2]
+154. Lib Tech direct: "30% Off 25/26 SNOWBOARDS" sale active as of retrieval [1]
+155. warranty: 1 Year from time of purchase [14]
+156. warranty: Structural defects only; does NOT cover impact damage, abuse, misuse or normal wear and tear [14]
+157. powder_rating_tgr: Good [9]
+158. base_glide_performance: Good [9]
+159. carving_rating_tgr: Good [9]
+160. speed_rating_tgr: Good [9]
+161. uneven snow rating: Average [9]
+162. switch rating: Average [9]
+163. jumps_rating_tgr: Average [9]
+164. jibbing_rating_tgr: Poor [9]
+165. pipe_rating_tgr: Average (implied; great edge hold for pipe, forgiving) [9]
+166. on_snow_feel_tgr: Semi-Stable [9]
+167. turn_initiation_performance: Medium/Fast [9]
+168. skidded turns: Semi-Easy [9]
+169. edge_hold: Icy Snow (very competent in hard/icy conditions when on edge) [9]
+170. pop: Good — board pops into the air easily on an ollie [9]
+171. approximate weight feel: Normal [9]
+172. setback: Setback over 20mm [9]
+173. positive_aspect: Forgiving [9]
+174. positive_aspect: Good float for all mountain [9]
+175. positive_aspect: Great grip in hard snow [9]
+176. positive_aspect: Flexible but holds up well at higher speeds; lightweight; edge feels great especially in icy conditions [24]
+177. positive_aspect: Great board for the price [24]
+178. reviewer_opinion_whitelines: More predictable than many traditionally cambered boards; versatile across varied terrain [13][25]
+179. positive_aspect: Favorable flex and prominent edge hold; quickly established itself as a favorite [8]
+180. review rating (Lib Tech direct): 97% of 100 based on 34 reviews [1]
+181. negative_aspect: Loose and auto-spinny feel in harder snow [9]
+182. negative_aspect: Base is slow for this price point [9]
+183. negative_aspect: Some chatter picking up speed (common for hybrid rocker profiles) [9]
+184. negative_aspect: Sensitive to uneven snow due to poppy feel [9]
+185. negative_aspect: Some riders find it a bit stiff for park tricks [26]
+186. negative_aspect: Needs more back foot weight on groomers to prevent tail washout [9]
+187. negative_aspect: Not easy to flat base when one-footing off chairlift [9]
+188. boot fit (regular sizes): Near mid-wide; comfortable with size 8.5 up to size 11 boots without toe/heel drag [9]
+189. boot fit (wide sizes): Accommodate boots size 12-13 comfortably [9]
+190. comparable_board_cross_brand: Burton Custom — Cold Brew offers more aggressive feel and enhanced powder performance vs Custom [26]
+191. comparable_board_cross_brand: Burton Cartographer — Both directional medium-flex boards; Cold Brew better for high-speed carving/deep powder, Cartographer more playful [27]
+192. comparable_board_cross_brand: Arbor Element — Cold Brew provides better balance between versatility and environmental considerations [26]
+193. comparable_board_cross_brand: Never Summer Proto Type Two — Cold Brew's C2 profile gives slight edge in stability and edge control [26]
+194. comparable_board_cross_brand: Ride Shadowban — direct comparison available on Curated.com [27]
+195. comparable_board_cross_brand: Yes Pick Your Line, Burton Flight Attendant, Gnu Mullair, Jones Flagship, Never Summer West Bound, Rossignol XV, Lib Tech BRD, Lib Tech Lost Round Nose Fish [9]
+196. evo.com: Major US specialty snow/ski/outdoor retailer; 1-year return policy; lowest price guarantee (beat by 5%); membership rewards 10% back [19]
+197. Tactics.com: Reputable specialty snowboard retailer; free shipping over $150; low price guarantee [20]
+198. Melbourne Snowboard Centre: Established Australian snowboard retailer; 3-year store credits on returns [2]
+199. The House: Long-standing US snow/skate/water retailer [21]
+200. Backcountry.com: Major US outdoor retailer; well-known for wide selection and customer service [9]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.lib-tech.com/cold-brew</url>
+  <quote>Rating: 97 % of 100 · 34 Reviews … $549.99 ALL MOUNTAIN - DIRECTIONAL</quote>
+  <quote>ART BY: Tim Zimmerman (@fotomaxizoomdweebie)</quote>
+  <quote>Size 149: Contact 111, Side 8.1, Nose/Tail 29.5/29.2, Waist 25.6, Stance 18.5"-24"/1.5", Flex 5, Weight 85+/40+</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/cold-brew</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page. Highest authority for specifications, sizing, pricing, and flex ratings. Specs table directly supports size-specific claims.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/lib-tech-cold-brew</url>
+  <quote>With a big directional nose, a flexible core, and a C2 Directional camber</quote>
+  <quote>A tapered directional snowboard features a shape where the tail is narrower than the nose</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-cold-brew</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Merchant product listing for the "2027" model year designation. Provides the AUD price, availability status, and specific merchant attribute values given in the user's prompt. Trusted as merchant-verified facts.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.mervin.com/about/</url>
+  <quote>Mervin Manufacturing was founded by snowboarders Mike Olson and Pete Saari in 1977.</quote>
+  <quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing about page. Primary source for manufacturer identity, founding history, and USA manufacturing claim.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>Built at the world's most environMENTAL zero hazardous waste producing factory</quote>
+  <quote>We use only FSC certified fast growing renewable forest products</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Made website detailing environmental manufacturing practices. Direct support for zero hazardous waste and FSC certification claims.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.the-house.com/1159064.html</url>
+  <quote>Designed for easy riding & versatile performance, making it perfect for your local mountain, resort, or mild back country riding.</quote>
+  <quote>Original Power Construction features a sustainable core of FSC-certified Aspen & Paulownia blend</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1159064.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House is a reputable retailer. Product description confirms use case, core materials, and construction details.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.mountainsportsofangelfire.com/shop/c/p/Lib-Tech-Cold-Brew-C2-Snowboard-x29289059.htm</url>
+  <quote>Gender: Mens · Skill Level: Advanced Intermediate · Recommended Use: Powder/Big Mountain</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mountainsportsofangelfire.com/shop/c/p/Lib-Tech-Cold-Brew-C2-Snowboard-x29289059.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer spec sheet for original 2018 model. Provides gender, skill level, and recommended use categorisation. Specifies Model Year: 2018.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.mountainsportsofangelfire.com/shop/c/p/Lib-Tech-Cold-Brew-C2-Snowboard-x29289059.htm</url>
+  <quote>Model Year: 2018 · Model Number: 17SN030 149</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mountainsportsofangelfire.com/shop/c/p/Lib-Tech-Cold-Brew-C2-Snowboard-x29289059.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2018</date_of_last_relevance>
+  <reasoning>Confirms the original model year as 2018 from a retailer spec page, which aligns with The Good Ride's "2018-2025" title and Snowboarder.com's 2018 hype article.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.snowboarder.com/news/lib-tech-cold-brew-good-wood-snowboard-review-2019</url>
+  <quote>Despite its newcomer status to Good Wood, Lib Techs Cold Brew…quickly established itself as a favorite.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboarder.com/news/lib-tech-cold-brew-good-wood-snowboard-review-2019</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018-10</date_of_first_relevance>
+  <date_of_last_relevance>2019</date_of_last_relevance>
+  <reasoning>TransWorld SNOWboarding / Snowboarder.com Good Wood award review from October 2018. This is the authoritative source confirming the Cold Brew won the Good Wood stamp for 2018-2019 in the Women's All-Mountain category.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-cold-brew-snowboard-review/</url>
+  <quote>The Lib-Tech Cold Brew offers up a pretty reasonably priced and forgiving freeride board</quote>
+  <quote>Positives: Forgiving, Good Float For All Mountain, Great Grip In Hard Snow</quote>
+  <quote>Negatives: Loose And Auto Spinney, Base Is Slow For This Price</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-cold-brew-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-respected independent snowboard review site with standardised testing methodology. They physically tested the 157cm. Provides comprehensive performance ratings, pricing links, and ride characteristics. Updated for 2025 relevance.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard</url>
+  <quote>Hybrid C2 Directional – Carves the resort, plays in the park and slays the powder.</quote>
+  <quote>We worked with Travis Rice to develop this perfectly balanced all terrain contour.</quote>
+  <quote>Intermediate-Advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a major authoritative US snowboard retailer. Provides rider level, profile description, and Travis Rice collaboration details for the 2026 model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://shop.alpinhaus.com/collections/snowboards/products/lib-tech-cold-brew-mens-snowboard</url>
+  <quote>Best For: Intermediate - advanced riders seeking a versatile all-mountain / freeride board</quote>
+  </quotelist>
+  <url_with_text_link>https://shop.alpinhaus.com/collections/snowboards/products/lib-tech-cold-brew-mens-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Alpin Haus retailer providing detailed product spec summary including rider level assessment and terrain classification for the 2025/2026 model.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://boynecountrysports.com/products/lib-tech-mens-cold-brew-snowboard</url>
+  <quote>Designed as a daily driver, the Lib Tech Cold Brew Snowboard is a floaty, directional all-mountain deck</quote>
+  </quotelist>
+  <url_with_text_link>https://boynecountrysports.com/products/lib-tech-mens-cold-brew-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Boyne Country Sports retailer listing for 2026 model. Supports "daily driver" use case claim.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-cold-brew-2019-2020.html</url>
+  <quote>The subtle 3mm taper leaves you with a wider nose to aid with floatation</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-cold-brew-2019-2020.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-10</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Whitelines is a respected snowboard publication. Provides the specific 3mm taper measurement and its functional implications. Board design has not changed significantly since.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url>
+  <quote>C2 Rocker/Camber Profile - Combining central rocker for edge hold and float</quote>
+  <quote>Birch Internal Sidewalls - Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability.</quote>
+  <quote>1 Year Warranty - Covered under manufacturer warranty for 1 year from the time of purchase.</quote>
+  <quote>Handbuilt in the USA - Every Lib Tech board is handmade by snowboarders with jobs in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a reputable specialty retailer. Provides detailed construction breakdown including sidewall materials, warranty terms, environmental construction details, and profile description for the 2026 model.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard-2025</url>
+  <quote>Original Power Construction – 75% Paulownia / 25% Aspen</quote>
+  <quote>Medium - Stiff – Stout enough to charge your hardest but without excessive harshness.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-06</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>evo listing for the 2025 model. Notable DISAGREEMENT: states core ratio as "75% Paulownia / 25% Aspen" vs. the common "75% Aspen / 25% Paulownia." Also rates flex as "Medium-Stiff" vs. "Medium" on 2026 model. These may reflect year-over-year changes or listing errors.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.backcountry.com/lib-technologies-cold-brew-snowboard-2025</url>
+  <quote>The medium-stiff flex brings the response we need to charge through the steep and deep</quote>
+  </quotelist>
+  <url_with_text_link>https://www.backcountry.com/lib-technologies-cold-brew-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-06</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Backcountry.com is a major outdoor retailer. Their 2025 model description characterises flex as "medium-stiff." Provides additional size-specific contact length and waist width data.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url>
+  <quote>We use the safest epoxy resin systems available, with minimal VOC's.</quote>
+  <quote>All the electricity used by the factory is "green" power specially contracted from the local PUD.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2008</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Lib Tech blog post detailing environmental factory practices. Older post but practices are ongoing and confirmed by other sources.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url>
+  <quote>Mervin was purchased by Quiksilver in 1997 and later sold to Altamont Capital in 2013.</quote>
+  <quote>It manufactures its snowboards in Sequim, Washington.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on Mervin Manufacturing. Provides ownership history and confirms Sequim, WA manufacturing location.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard</url>
+  <quote>The Lib Tech Cold Brew C2 Snowboard 2026 is in stock now.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo product page showing 2026 model in stock. Price of $549.99 marked down to $439.99 on sale. Confirms availability and pricing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url>
+  <quote>Lib Tech Cold Brew C2 Snowboard 2026 in stock at Tactics.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics retailer listing confirming availability. Price cross-referenced with The Good Ride's affiliate links shows $439.99.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.the-house.com/1159064.html</url>
+  <quote>The Lib Tech Cold Brew Snowboard represents peak directional all-mountain performance.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1159064.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House retailer listing. Price from The Good Ride affiliate is $439.99.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://store.rainierbeer.com/products/rainier-x-lib-texh-cold-brew-snowboard</url>
+  <quote>$384.99 Regular price · $549.99 … FW 24/25 Cold Brew Shape, Original Power Construction</quote>
+  </quotelist>
+  <url_with_text_link>https://store.rainierbeer.com/products/rainier-x-lib-texh-cold-brew-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Rainier Beer collaboration edition of the Cold Brew. Demonstrates the board's cultural status and availability through brand partnerships. Original MSRP of $549.99 confirmed.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-ltd-snowboard</url>
+  <quote>The Lib Tech Cold Brew C2 LTD Snowboard delivers pure stoke with a special limited edition graphic</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-cold-brew-c2-ltd-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo exclusive limited edition version. Shows the Cold Brew's popularity warrants special editions.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url>
+  <quote>Flexible but holds up well at higher speeds. Lightweight, and the edge feels great especially in icy conditions.</quote>
+  <quote>Great board for the price!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/cold-brew-c2-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-27</date_of_last_relevance>
+  <reasoning>Verified buyer reviews on Tactics spanning multiple years. Most recent review dated 3/27/2026. Provides real user experience feedback.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-cold-brew-2021-2022.html</url>
+  <quote>the Cold Brew is exponentially more versatile than the really specific powder cannons</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-cold-brew-2021-2022.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-11</date_of_first_relevance>
+  <date_of_last_relevance>2022</date_of_last_relevance>
+  <reasoning>Whitelines is a specialist snowboard publication. Provides editorial review with terrain versatility insights and construction commentary. Design unchanged since.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.braninkboyack.com/post/lib-tech-cold-brew-snowboard-review</url>
+  <quote>When pitted against the Burton Custom, it offers a more aggressive feel and enhanced powder performance.</quote>
+  <quote>Some riders might find the Cold Brew a bit on the stiffer side, impacting its playfulness for certain tricks</quote>
+  </quotelist>
+  <url_with_text_link>https://www.braninkboyack.com/post/lib-tech-cold-brew-snowboard-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Personal blog review with competitor comparisons (Burton Custom, Arbor Element, Never Summer Proto Type Two). Lower credibility as personal blog but offers genuine user perspective and comparison data.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.curated.com/journal/3728058/expert-comparison-lib-tech-cold-brew-snowboard-2023-vs-burton-cartographer-snowboard-2024</url>
+  <quote>The Lib Tech Cold Brew is ideal for riders who enjoy high-speed carving and floating on top of deep powder.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/3728058/expert-comparison-lib-tech-cold-brew-snowboard-2023-vs-burton-cartographer-snowboard-2024</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-02</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Curated.com expert comparison article by multiple snowboarding experts. Provides structured comparison between Cold Brew and Burton Cartographer including ride style differentiation.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+</citations>
+</response>

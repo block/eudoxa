@@ -1,0 +1,1462 @@
+{
+  "product_guid": "pn8NiiLe60",
+  "source_pl": "pn8NiiLe60_facts.pl",
+  "n_attributes": 111,
+  "attributes": [
+    {
+      "name": "brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.000946,
+        "Nitro": 0.999054
+      },
+      "original_name": "brand",
+      "dominant_value": "Nitro",
+      "confidence": 0.999054
+    },
+    {
+      "name": "model_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Mastercarve": 0.983607
+      },
+      "original_name": "model_name",
+      "dominant_value": "Mastercarve",
+      "confidence": 0.983607
+    },
+    {
+      "name": "full_product_name",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Nitro_Quiver_Mastercarve": 0.983607
+      },
+      "original_name": "Full product name",
+      "dominant_value": "Nitro_Quiver_Mastercarve",
+      "confidence": 0.983607
+    },
+    {
+      "name": "model_series",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.006744,
+        "Quiver": 0.993256
+      },
+      "original_name": "Model series",
+      "dominant_value": "Quiver",
+      "confidence": 0.993256
+    },
+    {
+      "name": "model_year",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "2027": 0.983607
+      },
+      "original_name": "model_year",
+      "dominant_value": "2027",
+      "confidence": 0.983607
+    },
+    {
+      "name": "model_first_available_year",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.030787,
+        "New_FW_2026_27_first_year": 0.969213
+      },
+      "original_name": "model_first_available_year",
+      "dominant_value": "New_FW_2026_27_first_year",
+      "confidence": 0.969213
+    },
+    {
+      "name": "manufacturer",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.00605,
+        "Nitro_AG_Hunenberg_Switzerland": 0.99395
+      },
+      "original_name": "manufacturer",
+      "dominant_value": "Nitro_AG_Hunenberg_Switzerland",
+      "confidence": 0.99395
+    },
+    {
+      "name": "eu_representative",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.00605,
+        "Nitro_Distribution_Italia_Arco_TN": 0.99395
+      },
+      "original_name": "EU representative",
+      "dominant_value": "Nitro_Distribution_Italia_Arco_TN",
+      "confidence": 0.99395
+    },
+    {
+      "name": "founding_year",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.008621,
+        "1990": 0.991379
+      },
+      "original_name": "Founding year",
+      "dominant_value": "1990",
+      "confidence": 0.991379
+    },
+    {
+      "name": "founders",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.008621,
+        "Thomas_Delago_and_Sepp_Ardelt": 0.991379
+      },
+      "original_name": "Founders",
+      "dominant_value": "Thomas_Delago_and_Sepp_Ardelt",
+      "confidence": 0.991379
+    },
+    {
+      "name": "founding_location",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.35,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Veras_Cafe_Ballard_Seattle_WA": 0.994759
+      },
+      "original_name": "Founding location",
+      "dominant_value": "Veras_Cafe_Ballard_Seattle_WA",
+      "confidence": 0.994759
+    },
+    {
+      "name": "brand_philosophy",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.030787,
+        "Authenticity_and_independence_from_riders_for_riders": 0.969213
+      },
+      "original_name": "Brand philosophy",
+      "dominant_value": "Authenticity_and_independence_from_riders_for_riders",
+      "confidence": 0.969213
+    },
+    {
+      "name": "company_type",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Privately_owned_rider_owner_operated": 0.96199
+      },
+      "original_name": "Company type",
+      "dominant_value": "Privately_owned_rider_owner_operated",
+      "confidence": 0.96199
+    },
+    {
+      "name": "product_development_headquarters",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.35,
+      "posterior": {
+        "Unknown": 0.073194,
+        "Oberammergau_Bavaria_Germany": 0.926806
+      },
+      "original_name": "Product development headquarters",
+      "dominant_value": "Oberammergau_Bavaria_Germany",
+      "confidence": 0.926806
+    },
+    {
+      "name": "company_headquarters_registered",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.43,
+      "posterior": {
+        "Unknown": 0.003341,
+        "Hunenberg_Switzerland": 0.996659
+      },
+      "original_name": "Company headquarters (registered)",
+      "dominant_value": "Hunenberg_Switzerland",
+      "confidence": 0.996659
+    },
+    {
+      "name": "north_american_distribution",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.3,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Foundry_Distribution_SLC_UT_84115": 0.9839
+      },
+      "original_name": "North American distribution",
+      "dominant_value": "Foundry_Distribution_SLC_UT_84115",
+      "confidence": 0.9839
+    },
+    {
+      "name": "australian_distribution",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.25,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Blacklight_Distribution_Dingley_Village_VIC": 0.994759
+      },
+      "original_name": "Australian distribution",
+      "dominant_value": "Blacklight_Distribution_Dingley_Village_VIC",
+      "confidence": 0.994759
+    },
+    {
+      "name": "canadian_distribution",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.2,
+      "posterior": {
+        "Unknown": 0.195046,
+        "Edmonton_Alberta": 0.804954
+      },
+      "original_name": "Canadian distribution",
+      "dominant_value": "Edmonton_Alberta",
+      "confidence": 0.804954
+    },
+    {
+      "name": "direct_to_consumer_policy",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Not_direct_authorized_retailers_only": 0.96199
+      },
+      "original_name": "Direct to consumer policy",
+      "dominant_value": "Not_direct_authorized_retailers_only",
+      "confidence": 0.96199
+    },
+    {
+      "name": "brand_heritage",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.3,
+      "posterior": {
+        "Unknown": 0.104478,
+        "Over_35_years_of_snowboard_design": 0.895522
+      },
+      "original_name": "Brand heritage",
+      "dominant_value": "Over_35_years_of_snowboard_design",
+      "confidence": 0.895522
+    },
+    {
+      "name": "design_inspiration",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.030787,
+        "Late_80s_carving_pioneers_deep_sidecuts": 0.969213
+      },
+      "original_name": "Design inspiration",
+      "dominant_value": "Late_80s_carving_pioneers_deep_sidecuts",
+      "confidence": 0.969213
+    },
+    {
+      "name": "predecessor_model_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.090909,
+        "Woodcarver_discontinued_after_2021_22": 0.909091
+      },
+      "original_name": "predecessor_model_name",
+      "dominant_value": "Woodcarver_discontinued_after_2021_22",
+      "confidence": 0.909091
+    },
+    {
+      "name": "quiver_series_season_count",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.008621,
+        "10th_season": 0.991379
+      },
+      "original_name": "Quiver series season count",
+      "dominant_value": "10th_season",
+      "confidence": 0.991379
+    },
+    {
+      "name": "pro_rider_name",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.4,
+      "posterior": {
+        "Unknown": 0.008621,
+        "Bryan_Fox": 0.991379
+      },
+      "original_name": "pro_rider_name",
+      "dominant_value": "Bryan_Fox",
+      "confidence": 0.991379
+    },
+    {
+      "name": "riding_style",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Carving": 0.983607
+      },
+      "original_name": "riding_style",
+      "dominant_value": "Carving",
+      "confidence": 0.983607
+    },
+    {
+      "name": "terrain_suitability",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Groomed_runs_carving": 0.983607
+      },
+      "original_name": "terrain_suitability",
+      "dominant_value": "Groomed_runs_carving",
+      "confidence": 0.983607
+    },
+    {
+      "name": "use_case",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Dedicated_carving_board": 0.983607
+      },
+      "original_name": "Use case",
+      "dominant_value": "Dedicated_carving_board",
+      "confidence": 0.983607
+    },
+    {
+      "name": "overall_length",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "unk_overall_length": 0.016393,
+        "159.0": 0.983607
+      },
+      "original_name": "Overall length",
+      "unit": "cm",
+      "dominant_value": "159.0",
+      "confidence": 0.983607
+    },
+    {
+      "name": "available_sizes",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "159cm_only_single_size": 0.983607
+      },
+      "original_name": "available_sizes",
+      "dominant_value": "159cm_only_single_size",
+      "confidence": 0.983607
+    },
+    {
+      "name": "contact_length_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "123.0": 0.983607
+      },
+      "original_name": "contact_length_size",
+      "unit": "cm",
+      "dominant_value": "123.0",
+      "confidence": 0.983607
+    },
+    {
+      "name": "tip_tail_width_size",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "31.7": 0.983607
+      },
+      "original_name": "tip_tail_width_size",
+      "unit": "cm",
+      "dominant_value": "31.7",
+      "confidence": 0.983607
+    },
+    {
+      "name": "tail_width_size",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "31.5": 0.983607
+      },
+      "original_name": "tip_tail_width_size (tail)",
+      "unit": "cm",
+      "dominant_value": "31.5",
+      "confidence": 0.983607
+    },
+    {
+      "name": "waist_width_159",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "25.5": 0.983607
+      },
+      "original_name": "Waist width (159cm)",
+      "unit": "cm",
+      "dominant_value": "25.5",
+      "confidence": 0.983607
+    },
+    {
+      "name": "sidecut_radius_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "7.2m_nose_5.8m_tail_progressive": 0.983607
+      },
+      "original_name": "sidecut_radius_size",
+      "unit": "m",
+      "dominant_value": "7.2m_nose_5.8m_tail_progressive",
+      "confidence": 0.983607
+    },
+    {
+      "name": "setback",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "-1.5": 0.983607
+      },
+      "original_name": "setback",
+      "unit": "cm",
+      "dominant_value": "-1.5",
+      "confidence": 0.983607
+    },
+    {
+      "name": "recommended_weight_range_size",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "60+_kg": 0.983607
+      },
+      "original_name": "recommended_weight_range_size",
+      "unit": "kg",
+      "dominant_value": "60+_kg",
+      "confidence": 0.983607
+    },
+    {
+      "name": "width_options",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Standard": 0.983607
+      },
+      "original_name": "width_options",
+      "dominant_value": "Standard",
+      "confidence": 0.983607
+    },
+    {
+      "name": "shape",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Directional": 0.983607
+      },
+      "original_name": "shape",
+      "dominant_value": "Directional",
+      "confidence": 0.983607
+    },
+    {
+      "name": "camber_type",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "True_Camber": 0.983607
+      },
+      "original_name": "camber_type",
+      "dominant_value": "True_Camber",
+      "confidence": 0.983607
+    },
+    {
+      "name": "flex_rating_10",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.83,
+      "posterior": {
+        "Unknown": 0.002861,
+        "9.0": 0.997139
+      },
+      "original_name": "flex_rating_10",
+      "unit": "/10",
+      "dominant_value": "9.0",
+      "confidence": 0.997139
+    },
+    {
+      "name": "rider_level",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Advanced": 0.983607
+      },
+      "original_name": "rider_level",
+      "dominant_value": "Advanced",
+      "confidence": 0.983607
+    },
+    {
+      "name": "board_category",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Freeride_Powder_merchant_classification": 0.983607
+      },
+      "original_name": "board_category",
+      "dominant_value": "Freeride_Powder_merchant_classification",
+      "confidence": 0.983607
+    },
+    {
+      "name": "mounting_pattern",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "2x4_Inserts": 0.983607
+      },
+      "original_name": "mounting_pattern",
+      "dominant_value": "2x4_Inserts",
+      "confidence": 0.983607
+    },
+    {
+      "name": "gender",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Mens": 0.983607
+      },
+      "original_name": "gender",
+      "dominant_value": "Mens",
+      "confidence": 0.983607
+    },
+    {
+      "name": "core_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "PowerCore_II_Poplar_Beech_stringers": 0.983607
+      },
+      "original_name": "core_material",
+      "dominant_value": "PowerCore_II_Poplar_Beech_stringers",
+      "confidence": 0.983607
+    },
+    {
+      "name": "core_profile",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Standard_Core_Profile_thicker_middle": 0.983607
+      },
+      "original_name": "Core profile",
+      "dominant_value": "Standard_Core_Profile_thicker_middle",
+      "confidence": 0.983607
+    },
+    {
+      "name": "laminate",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Tri_Lite_Laminates_3_directions": 0.983607
+      },
+      "original_name": "laminate",
+      "dominant_value": "Tri_Lite_Laminates_3_directions",
+      "confidence": 0.983607
+    },
+    {
+      "name": "sidewall_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "ABS_Sidewall_flexible_impact_resistant": 0.983607
+      },
+      "original_name": "sidewall_material",
+      "dominant_value": "ABS_Sidewall_flexible_impact_resistant",
+      "confidence": 0.983607
+    },
+    {
+      "name": "base_material",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Sintered_Extruded_HD_Base": 0.983607
+      },
+      "original_name": "base_material",
+      "dominant_value": "Sintered_Extruded_HD_Base",
+      "confidence": 0.983607
+    },
+    {
+      "name": "sustainability_certification",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "85_pct_post_industrial_Ptex": 0.983607
+      },
+      "original_name": "sustainability_certification",
+      "dominant_value": "85_pct_post_industrial_Ptex",
+      "confidence": 0.983607
+    },
+    {
+      "name": "edge_technology",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Recycled_Steel_Edge": 0.983607
+      },
+      "original_name": "edge_technology",
+      "dominant_value": "Recycled_Steel_Edge",
+      "confidence": 0.983607
+    },
+    {
+      "name": "topsheet",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "EcoGuard_Topsheet_90pct_recycled": 0.983607
+      },
+      "original_name": "topsheet",
+      "dominant_value": "EcoGuard_Topsheet_90pct_recycled",
+      "confidence": 0.983607
+    },
+    {
+      "name": "factory_wax",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Green_Speed_Natural_Wax_biodegradable": 0.983607
+      },
+      "original_name": "Factory wax",
+      "dominant_value": "Green_Speed_Natural_Wax_biodegradable",
+      "confidence": 0.983607
+    },
+    {
+      "name": "resin",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "EcoPoxy_33_plant_vegetable_derived": 0.983607
+      },
+      "original_name": "resin",
+      "dominant_value": "EcoPoxy_33_plant_vegetable_derived",
+      "confidence": 0.983607
+    },
+    {
+      "name": "sidecut_type",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Progressive_Sidecut": 0.983607
+      },
+      "original_name": "sidecut_type",
+      "dominant_value": "Progressive_Sidecut",
+      "confidence": 0.983607
+    },
+    {
+      "name": "ink_type",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.78,
+      "posterior": {
+        "Unknown": 0.002028,
+        "Water_based_inks": 0.997972
+      },
+      "original_name": "Ink type",
+      "dominant_value": "Water_based_inks",
+      "confidence": 0.997972
+    },
+    {
+      "name": "sustainability_certification_fsc",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "FSC_responsibly_sourced": 0.983607
+      },
+      "original_name": "sustainability_certification (FSC)",
+      "dominant_value": "FSC_responsibly_sourced",
+      "confidence": 0.983607
+    },
+    {
+      "name": "sustainability_certification_solar",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.78,
+      "posterior": {
+        "Unknown": 0.002028,
+        "100pct_solar_energy_factory": 0.997972
+      },
+      "original_name": "sustainability_certification (solar)",
+      "dominant_value": "100pct_solar_energy_factory",
+      "confidence": 0.997972
+    },
+    {
+      "name": "sustainability_certification_co2",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "32.2": 0.983607
+      },
+      "original_name": "sustainability_certification (CO2)",
+      "unit": "kg_CO2",
+      "dominant_value": "32.2",
+      "confidence": 0.983607
+    },
+    {
+      "name": "camber_description",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Original_camber_strong_snap_powerful_response_terrain_tweaked": 0.983607
+      },
+      "original_name": "camber_description",
+      "dominant_value": "Original_camber_strong_snap_powerful_response_terrain_tweaked",
+      "confidence": 0.983607
+    },
+    {
+      "name": "core_profile_benefits",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Exceptional_speed_stability_edge_control": 0.983607
+      },
+      "original_name": "Standard Core Profile delivers",
+      "dominant_value": "Exceptional_speed_stability_edge_control",
+      "confidence": 0.983607
+    },
+    {
+      "name": "directional_shape_description",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Longer_nose_shorter_tail_one_direction": 0.983607
+      },
+      "original_name": "Directional shape description",
+      "dominant_value": "Longer_nose_shorter_tail_one_direction",
+      "confidence": 0.983607
+    },
+    {
+      "name": "directional_benefits",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Better_control_stability_float_powder_carving": 0.983607
+      },
+      "original_name": "Directional benefits",
+      "dominant_value": "Better_control_stability_float_powder_carving",
+      "confidence": 0.983607
+    },
+    {
+      "name": "progressive_sidecut_description",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Larger_nose_catch_free_tighter_tail_accelerates": 0.983607
+      },
+      "original_name": "Progressive sidecut description",
+      "dominant_value": "Larger_nose_catch_free_tighter_tail_accelerates",
+      "confidence": 0.983607
+    },
+    {
+      "name": "responsive_torsional_flex",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Key_ride_characteristic": 0.983607
+      },
+      "original_name": "Responsive torsional flex",
+      "dominant_value": "Key_ride_characteristic",
+      "confidence": 0.983607
+    },
+    {
+      "name": "standard_width_benefits",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.065868,
+        "Exceptional_edge_to_edge_quickness_responsiveness": 0.934132
+      },
+      "original_name": "Standard width boards deliver",
+      "dominant_value": "Exceptional_edge_to_edge_quickness_responsiveness",
+      "confidence": 0.934132
+    },
+    {
+      "name": "flex_feel",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Precise_responsive_high_speed_steep_icy": 0.983607
+      },
+      "original_name": "flex_feel",
+      "dominant_value": "Precise_responsive_high_speed_steep_icy",
+      "confidence": 0.983607
+    },
+    {
+      "name": "price_aud_merchant",
+      "type": "numeric",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.0161,
+        "999.99": 0.9839
+      },
+      "original_name": "price_aud_merchant",
+      "unit": "AUD",
+      "dominant_value": "999.99",
+      "confidence": 0.9839
+    },
+    {
+      "name": "availability_status",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Preorder": 0.9839
+      },
+      "original_name": "availability_status",
+      "dominant_value": "Preorder",
+      "confidence": 0.9839
+    },
+    {
+      "name": "estimated_availability_date",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.0161,
+        "May_1_2026": 0.9839
+      },
+      "original_name": "estimated_availability_date",
+      "dominant_value": "May_1_2026",
+      "confidence": 0.9839
+    },
+    {
+      "name": "seller",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Melbourne_Snowboard_Centre_Preston_VIC": 0.983607
+      },
+      "original_name": "Seller",
+      "dominant_value": "Melbourne_Snowboard_Centre_Preston_VIC",
+      "confidence": 0.983607
+    },
+    {
+      "name": "seller_reputation",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Established_independent_retailer_7days_free_shipping": 0.983607
+      },
+      "original_name": "Melbourne Snowboard Centre reputation",
+      "dominant_value": "Established_independent_retailer_7days_free_shipping",
+      "confidence": 0.983607
+    },
+    {
+      "name": "return_policy_terms",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Store_credit_exchange_30d_no_refund_change_of_mind_no_mounted": 0.983607
+      },
+      "original_name": "return_policy_terms",
+      "dominant_value": "Store_credit_exchange_30d_no_refund_change_of_mind_no_mounted",
+      "confidence": 0.983607
+    },
+    {
+      "name": "availability_other_retailers",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.3,
+      "posterior": {
+        "Unknown": 0.375,
+        "No_other_retailers_preorder_only": 0.625
+      },
+      "original_name": "No other retailers currently found",
+      "dominant_value": "No_other_retailers_preorder_only",
+      "confidence": 0.625
+    },
+    {
+      "name": "warranty_period_years",
+      "type": "numeric",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.005241,
+        "2.0": 0.994759
+      },
+      "original_name": "warranty_period_years",
+      "unit": "years",
+      "dominant_value": "2.0",
+      "confidence": 0.994759
+    },
+    {
+      "name": "warranty",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.8,
+      "posterior": {
+        "Unknown": 0.005241,
+        "Defects_material_workmanship_repair_or_replace": 0.994759
+      },
+      "original_name": "warranty",
+      "dominant_value": "Defects_material_workmanship_repair_or_replace",
+      "confidence": 0.994759
+    },
+    {
+      "name": "warranty_transferability",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Original_purchaser_not_transferable_not_ebay": 0.9839
+      },
+      "original_name": "warranty (transferability)",
+      "dominant_value": "Original_purchaser_not_transferable_not_ebay",
+      "confidence": 0.9839
+    },
+    {
+      "name": "warranty_claim_process",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.75,
+      "posterior": {
+        "Unknown": 0.0161,
+        "Through_authorized_retailer": 0.9839
+      },
+      "original_name": "warranty (claim process)",
+      "dominant_value": "Through_authorized_retailer",
+      "confidence": 0.9839
+    },
+    {
+      "name": "recycled_materials",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.03801,
+        "Recycled_materials_topsheet_base_edges": 0.96199
+      },
+      "original_name": "Recycled materials in topsheet base and edges",
+      "dominant_value": "Recycled_materials_topsheet_base_edges",
+      "confidence": 0.96199
+    },
+    {
+      "name": "base_upgrade_2627",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.048316,
+        "UHMW_polyethylene_upgrade_26_27": 0.951684
+      },
+      "original_name": "Speed Formula II base upgrade",
+      "dominant_value": "UHMW_polyethylene_upgrade_26_27",
+      "confidence": 0.951684
+    },
+    {
+      "name": "manufacturing_location_current",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.53,
+      "posterior": {
+        "Unknown": 0.030172,
+        "Playmaker_factory_Taiwan": 0.969828
+      },
+      "original_name": "manufacturing_location_current",
+      "dominant_value": "Playmaker_factory_Taiwan",
+      "confidence": 0.969828
+    },
+    {
+      "name": "manufacturing_location_prior",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.110672,
+        "Elan_factory_Austria": 0.889328
+      },
+      "original_name": "manufacturing_location_prior",
+      "dominant_value": "Elan_factory_Austria",
+      "confidence": 0.889328
+    },
+    {
+      "name": "product_design_location",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.38,
+      "posterior": {
+        "Unknown": 0.026914,
+        "Oberammergau_Germany_and_Seattle_USA": 0.973086
+      },
+      "original_name": "Product design location",
+      "dominant_value": "Oberammergau_Germany_and_Seattle_USA",
+      "confidence": 0.973086
+    },
+    {
+      "name": "comparable_board_same_brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.052133,
+        "Woodcarver_flex7_camout_dual_degressive_midwide": 0.947867
+      },
+      "original_name": "comparable_board_same_brand",
+      "dominant_value": "Woodcarver_flex7_camout_dual_degressive_midwide",
+      "confidence": 0.947867
+    },
+    {
+      "name": "comparable_board_same_brand_comparison",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.78,
+      "posterior": {
+        "Unknown": 0.003653,
+        "Mastercarve_9vs7_true_camber_progressive_trilite": 0.996347
+      },
+      "original_name": "comparable_board_same_brand (Mastercarve vs Woodcarver)",
+      "dominant_value": "Mastercarve_9vs7_true_camber_progressive_trilite",
+      "confidence": 0.996347
+    },
+    {
+      "name": "comparable_board_same_brand_others",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.45,
+      "posterior": {
+        "Unknown": 0.104478,
+        "Banker_Basher_Dinghy_Squash_Santoku": 0.895522
+      },
+      "original_name": "comparable_board_same_brand (other Quiver models)",
+      "dominant_value": "Banker_Basher_Dinghy_Squash_Santoku",
+      "confidence": 0.895522
+    },
+    {
+      "name": "comparable_board_cross_brand",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.085366,
+        "Korua_Cafe_Racer_flex7_directional_float_camber": 0.914634
+      },
+      "original_name": "comparable_board_cross_brand",
+      "dominant_value": "Korua_Cafe_Racer_flex7_directional_float_camber",
+      "confidence": 0.914634
+    },
+    {
+      "name": "comparable_board_cross_brand_korua_edge",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.245774,
+        "Korua_basic_biaxial_edge_hold_loss_icy": 0.754226
+      },
+      "original_name": "comparable_board_cross_brand (Korua edge hold)",
+      "dominant_value": "Korua_basic_biaxial_edge_hold_loss_icy",
+      "confidence": 0.754226
+    },
+    {
+      "name": "comparable_board_cross_brand_pencil",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.085366,
+        "Korua_Pencil_directional_full_camber_groomers": 0.914634
+      },
+      "original_name": "comparable_board_cross_brand (Korua Pencil)",
+      "dominant_value": "Korua_Pencil_directional_full_camber_groomers",
+      "confidence": 0.914634
+    },
+    {
+      "name": "comparable_board_cross_brand_trenchdigger",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.098196,
+        "Korua_Trenchdigger_165cm_10m_sidecut_full_camber": 0.901804
+      },
+      "original_name": "comparable_board_cross_brand (Korua Trenchdigger)",
+      "dominant_value": "Korua_Trenchdigger_165cm_10m_sidecut_full_camber",
+      "confidence": 0.901804
+    },
+    {
+      "name": "comparable_board_cross_brand_flagship",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.188906,
+        "Jones_Flagship_medium_stiff_sintered": 0.811094
+      },
+      "original_name": "comparable_board_cross_brand (Jones Flagship)",
+      "dominant_value": "Jones_Flagship_medium_stiff_sintered",
+      "confidence": 0.811094
+    },
+    {
+      "name": "comparable_board_cross_brand_freecarver",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.188906,
+        "Jones_Freecarver_9000s_long_sidecut_full_camber": 0.811094
+      },
+      "original_name": "comparable_board_cross_brand (Jones Freecarver)",
+      "dominant_value": "Jones_Freecarver_9000s_long_sidecut_full_camber",
+      "confidence": 0.811094
+    },
+    {
+      "name": "comparable_board_cross_brand_blade_plus",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.188906,
+        "Nidecker_Blade_Plus_triaxial_carbon_max_stiffness": 0.811094
+      },
+      "original_name": "comparable_board_cross_brand (Nidecker Blade Plus)",
+      "dominant_value": "Nidecker_Blade_Plus_triaxial_carbon_max_stiffness",
+      "confidence": 0.811094
+    },
+    {
+      "name": "comparable_board_cross_brand_cheater",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.55,
+      "posterior": {
+        "Unknown": 0.269103,
+        "Stranda_Cheater_variable_sidecut_torsional_eurocarving": 0.730897
+      },
+      "original_name": "comparable_board_cross_brand (Stranda Cheater)",
+      "dominant_value": "Stranda_Cheater_variable_sidecut_torsional_eurocarving",
+      "confidence": 0.730897
+    },
+    {
+      "name": "comparable_board_cross_brand_ns_west",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.23321,
+        "Never_Summer_West_carving_freeride_fusion_rocker": 0.76679
+      },
+      "original_name": "comparable_board_cross_brand (Never Summer West)",
+      "dominant_value": "Never_Summer_West_carving_freeride_fusion_rocker",
+      "confidence": 0.76679
+    },
+    {
+      "name": "comparable_board_cross_brand_deep_daze",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.23321,
+        "Burton_FT_3D_Deep_Daze_3d_shaping_directional": 0.76679
+      },
+      "original_name": "comparable_board_cross_brand (Burton FT 3D Deep Daze)",
+      "dominant_value": "Burton_FT_3D_Deep_Daze_3d_shaping_directional",
+      "confidence": 0.76679
+    },
+    {
+      "name": "comparable_board_cross_brand_lib_tech",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.23321,
+        "Lib_Tech_aggressive_carving_MagneTraction_progressive_sidecut": 0.76679
+      },
+      "original_name": "comparable_board_cross_brand (Lib Tech)",
+      "dominant_value": "Lib_Tech_aggressive_carving_MagneTraction_progressive_sidecut",
+      "confidence": 0.76679
+    },
+    {
+      "name": "user_review_forum",
+      "type": "categorical",
+      "canonical": true,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.188906,
+        "Carves_like_a_dream_good_in_powder_except_super_deep": 0.811094
+      },
+      "original_name": "user_review_forum",
+      "dominant_value": "Carves_like_a_dream_good_in_powder_except_super_deep",
+      "confidence": 0.811094
+    },
+    {
+      "name": "user_review_forum_switch",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.188906,
+        "Hard_to_ride_switch_directional_expected": 0.811094
+      },
+      "original_name": "user_review_forum (switch riding)",
+      "dominant_value": "Hard_to_ride_switch_directional_expected",
+      "confidence": 0.811094
+    },
+    {
+      "name": "reviewer_opinion_the_good_ride",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.113924,
+        "Precise_locked_in_easily_handled_excellent_intermediate_advanced": 0.886076
+      },
+      "original_name": "reviewer_opinion_the_good_ride",
+      "dominant_value": "Precise_locked_in_easily_handled_excellent_intermediate_advanced",
+      "confidence": 0.886076
+    },
+    {
+      "name": "user_review_forum_eurocarving",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.269103,
+        "Very_fun_to_carve_suited_to_eurocarving": 0.730897
+      },
+      "original_name": "user_review_forum (eurocarving)",
+      "dominant_value": "Very_fun_to_carve_suited_to_eurocarving",
+      "confidence": 0.730897
+    },
+    {
+      "name": "carving_board_advice_stranda",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.65,
+      "posterior": {
+        "Unknown": 0.245774,
+        "Camber_dominant_directional_shape_best": 0.754226
+      },
+      "original_name": "General carving board advice (Stranda)",
+      "dominant_value": "Camber_dominant_directional_shape_best",
+      "confidence": 0.754226
+    },
+    {
+      "name": "carving_board_advice_general",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.196891,
+        "Stiff_flex_traditional_camber_directional_shape": 0.803109
+      },
+      "original_name": "General carving board advice",
+      "dominant_value": "Stiff_flex_traditional_camber_directional_shape",
+      "confidence": 0.803109
+    },
+    {
+      "name": "reviewer_opinion_whitelines",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.5,
+      "posterior": {
+        "Unknown": 0.076923,
+        "Carving_returned_centre_stage_turn_n_burn": 0.923077
+      },
+      "original_name": "reviewer_opinion_whitelines",
+      "dominant_value": "Carving_returned_centre_stage_turn_n_burn",
+      "confidence": 0.923077
+    },
+    {
+      "name": "user_review_forum_wide",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.6,
+      "posterior": {
+        "Unknown": 0.342105,
+        "Get_wide_version_for_deep_carving_prevent_bootout": 0.657895
+      },
+      "original_name": "user_review_forum (wide recommendation)",
+      "dominant_value": "Get_wide_version_for_deep_carving_prevent_bootout",
+      "confidence": 0.657895
+    },
+    {
+      "name": "user_review_forum_korua",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.7,
+      "posterior": {
+        "Unknown": 0.269103,
+        "Korua_designed_slashed_turns_not_perfect_C_carves": 0.730897
+      },
+      "original_name": "user_review_forum (Korua vs dedicated carving)",
+      "dominant_value": "Korua_designed_slashed_turns_not_perfect_C_carves",
+      "confidence": 0.730897
+    },
+    {
+      "name": "mounting_pattern_benefits",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Precise_stance_adjustments_compatible_standard_mini_disk": 0.983607
+      },
+      "original_name": "2x4 inserts benefits",
+      "dominant_value": "Precise_stance_adjustments_compatible_standard_mini_disk",
+      "confidence": 0.983607
+    },
+    {
+      "name": "recommended_binding_stiffness",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.45,
+      "posterior": {
+        "Unknown": 0.354839,
+        "Stiff_to_medium_stiff_bindings": 0.645161
+      },
+      "original_name": "Recommended binding stiffness for carving boards",
+      "dominant_value": "Stiff_to_medium_stiff_bindings",
+      "confidence": 0.645161
+    },
+    {
+      "name": "specialization",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 1.0,
+      "posterior": {
+        "Unknown": 0.016393,
+        "Single_purpose_carving_not_park_freestyle": 0.983607
+      },
+      "original_name": "Highly specialized",
+      "dominant_value": "Single_purpose_carving_not_park_freestyle",
+      "confidence": 0.983607
+    },
+    {
+      "name": "design_homage",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.85,
+      "posterior": {
+        "Unknown": 0.030787,
+        "Modern_interpretation_early_snowboard_carving_era": 0.969213
+      },
+      "original_name": "Late 80s design homage",
+      "dominant_value": "Modern_interpretation_early_snowboard_carving_era",
+      "confidence": 0.969213
+    },
+    {
+      "name": "sustainability_certification_summary",
+      "type": "categorical",
+      "canonical": false,
+      "importance": 0.78,
+      "posterior": {
+        "Unknown": 0.002028,
+        "Solar_recycled_FSC_bioresin_CO2_disclosed": 0.997972
+      },
+      "original_name": "sustainability_certification (summary)",
+      "dominant_value": "Solar_recycled_FSC_bioresin_CO2_disclosed",
+      "confidence": 0.997972
+    }
+  ]
+}

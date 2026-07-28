@@ -1,0 +1,786 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="14" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="14" category="review" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="5" category="comparable" />
+  <duplicate_canonical name="construction_material_innovation" count="4" category="construction" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="graphic_designer_artist" count="3" category="identity" />
+  <duplicate_canonical name="sustainability_certification" count="3" category="sustainability" />
+  <duplicate_canonical name="skill_level_recommendation" count="3" category="recommendation" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="user_review_forum" count="3" category="review" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="contact_length_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="2" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="riding_style" count="2" category="identity" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][2][3]
+2. model_name: Family Tree Gril Master [1][2]
+3. model_year: 2024 (W24 season code) [1][2]
+4. Model series: Family Tree Collection [2][5]
+5. product_type: Snowboard [1]
+6. SKU (merchant): 23898100000 145 [MERCHANT]
+7. predecessor_model_name: Gril Master LTD (2023, limited edition; came in 3 sizes: 130, 140, 155) [19][23]
+8. model_first_available_year: November 23, 2022 (limited edition of 100 boards, exclusively on Burton.com) [23]
+9. redesign_year: First Family Tree inline version for 2023/24 season [19][11]
+10. pro_rider_name: Marko "Grilo" Grilc (7 July 1983 – 23 November 2021), Slovenian professional snowboarder and Burton team rider [4][22]
+11. Tribute rider nationality: Slovenian (born in Ljubljana) [22][28]
+12. Tribute rider cause of death: Fatal snowboarding accident while filming in Sölden, Austria, November 23, 2021 [28][22]
+13. graphic_designer_artist: Hand-drawn graphics created by Grilo's children [2][20]
+14. graphic_designer_artist: Artist Ryan Crotty abstract mountainscapes [25]
+15. Design philosophy: A board that can cruise with the family and charge on solo laps [22][3]
+16. graphic_designer_artist: Lesley Betts, Burton senior product line merchandiser – hardgoods [23]
+17. gender: Gender-neutral sizing [5][11]
+18. Collection description: "Based on existing shapes, but tweaked to make them even better for your ultimate day of riding" [5]
+19. availability_status: Per The Good Ride, the Gril Master was confirmed discontinued as of 2026 update [TGR]
+20. availability_status: Out of stock (page shows "Sorry, but no results were found") [1]
+21. manufacturer: Burton Snowboards (B Corp certified) [1]
+22. manufacturing_location: Austria (Kiel-Nindl GMBH, Austria) [50]
+23. manufacturing_location_prior: Craig's, Vermont — described as "the most advanced snowboard prototype facility in the world" [28]
+24. camber_type: Directional Camber — rocker in nose combined with camber under back foot [2][5]
+25. shape: Freeride Directional [25][MERCHANT]
+26. flex_rating_10: 6.5/10 (Medium Firm) [MERCHANT][38]
+27. flex_direction: Directional Flex — increased pop in the tail and more resilient nose [2][5]
+28. flex_rating_10: 4-7 (Medium to Aggressive) [40]
+29. flex_feel: "Pretty soft ride for Family Tree but still medium stiff between the feet" [13]
+30. flex_feel: Nose is a good bit softer, tail in-between, stiffer underfoot [13][9]
+31. taper: 15mm [25][MERCHANT]
+32. core_material: Super Fly II™ 700G Core [6][21]
+33. sustainability_certification: FSC™ Certified (noted on 2025 version) [40][49]
+34. construction_material_innovation: Squeezebox — thicker powerful sections with thinner flexible sections for enhanced energy transfer [2][6]
+35. construction_material_innovation: Dualzone™ EGD™ — wood grain perpendicular along heel and toe edges for consistent edge hold [6][21]
+36. laminate: 45° Carbon Highlights — tip-to-tail carbon layer with 45° angled fibres [2][16]
+37. Laminate fibre function: "A 60° fiber angle creates a highly maneuverable and playful feel, while a 45° fiber angle provides a more aggressive ride" [16]
+38. base_type: Sintered WFO (Wide F!#@ing Open) [2][16]
+39. base_material: "Extra-absorbent, high-density sintered material infused with specially formulated wax" [2][16]
+40. resin: Super Sap® Epoxy — bio-based materials, reduces carbon footprint by 50% [2][7]
+41. construction_material_innovation: Pro-Tip — tapered tip and tail thickness reduces swing weight [6][7]
+42. construction_material_innovation: Infinite Ride™ — board overbuilt then machine broken-in for consistent flex from day one [2][7]
+43. mounting_pattern: The Channel® [2][5]
+44. binding_compatibility: Compatible with all major bindings (not just Burton's) [2][5]
+45. edge_technology: Frostbite Edges [40]
+46. sidecut_type: Balanced Freeride Geometry — centers sidecut on stance for twin feel on flat base, directional feel on edge [5][41]
+47. laminate: Triax Infused with 45° Carbon Highlights [50]
+48. warranty: 3-Year Warranty (all Burton boards with The Channel from 2014+) [25][26]
+49. available_sizes: 130, 140, 145, 150, 155, 160, 165, 155W [19][MERCHANT]
+50. available_sizes: 130, 140, 155 only [23][11]
+51. Effective edge (155cm): 1146mm [MERCHANT]
+52. Effective edge (160cm): 1246mm [MERCHANT]
+53. Waist width (155cm): 257mm [MERCHANT]
+54. Waist width (160cm): 264mm [MERCHANT]
+55. tip_tail_width_size: 305/290mm [MERCHANT]
+56. tip_tail_width_size: 313.8/298.8mm [MERCHANT]
+57. sidecut_radius_size: 7.5m [MERCHANT]
+58. sidecut_radius_size: 7.8m [MERCHANT]
+59. Sidecut depth (155cm): 20.2mm [MERCHANT]
+60. Sidecut depth (160cm): 22.2mm [MERCHANT]
+61. setback: -25mm [MERCHANT]
+62. setback: -25mm [MERCHANT]
+63. contact_length_size: 1100mm [MERCHANT]
+64. contact_length_size: 1110mm [MERCHANT]
+65. stance_width_range_size: 560mm [MERCHANT]
+66. stance_width_range_size: 560mm [MERCHANT]
+67. recommended_weight_range_size: 54-82kg [MERCHANT]
+68. recommended_weight_range_size: 82-118kg [MERCHANT]
+69. Boot size recommendation (155): US 9.5-10.5 [TGR]
+70. Boot size recommendation (160): US 11-12 [TGR]
+71. board_category: All Mountain / Powder [MERCHANT]
+72. terrain_suitability: 4/10 [MERCHANT][40]
+73. terrain_suitability: 7/10 [MERCHANT][40]
+74. terrain_suitability: 8/10 [MERCHANT][40]
+75. rider_level: Intermediate [MERCHANT]
+76. skill_level_recommendation: Intermediate/Expert [25]
+77. skill_level_recommendation: Advanced – Expert [TGR]
+Comment: Disagreement — The merchant lists "Intermediate", The House lists "Intermediate/Expert", and The Good Ride lists "Advanced – Expert". This reflects different interpretations of the board's versatility. The softer flex makes it accessible, but the directional camber profile benefits experienced riders.
+78. terrain_suitability: All Mountain, Powder [MERCHANT]
+79. riding_style: Freeride, Carving, Cruising [MERCHANT]
+80. riding_style: "Do-everything board for the rider who enjoys side hits and stashes" [3]
+81. powder_rating_tgr: Great [TGR]
+82. base_glide_performance: Good [TGR]
+83. carving_rating_tgr: Great [TGR]
+84. speed_rating_tgr: Great [TGR]
+85. chatter_performance: Great [TGR]
+86. switch_riding: Good [TGR]
+87. jumps_rating_tgr: Great [TGR]
+88. jibbing_rating_tgr: Average [TGR]
+89. pipe_rating_tgr: Good [TGR]
+90. on_snow_feel_tgr: Semi-Locked In [TGR]
+91. turn_initiation_performance: Medium/Fast [TGR]
+92. TGR skidded turns: Semi-Hard [TGR]
+93. flex_rating_10_the_good_ride: Medium [TGR]
+94. TGR buttering: Moderate [TGR]
+95. edge_hold: Medium Snow [TGR]
+96. price_usd_msrp: $659.95 [19]
+97. price_usd_msrp: $679 [TGR]
+Comment: Disagreement — Snowboard Magazine states MSRP $659.95 while The Good Ride lists $679. The $659.95 likely reflects the original 2024 MSRP while $679 may include a small price increase or rounding.
+98. price_usd_msrp: $699.95 [TGR]
+99. Burton Canada price: $889.99 CAD [TGR]
+100. price_aud_merchant: $999.99 AUD [MERCHANT]
+101. price_aud_merchant: $699.99 AUD (30% off) [MERCHANT]
+102. price_usd_evo: $629.96 USD [5][TGR]
+103. price_usd_backcountry: $524.96 USD [TGR]
+104. The House sale price: $489.95 USD [TGR]
+105. The House sale price (alternate listing): $475.95 USD [TGR]
+106. availability_status: Available (2025/2026 model) — 2024 model out of stock [1][73]
+107. availability_status: 2024 out of stock; 2025 Used available at $629.96 sale [5][76]
+108. availability_status: Available (on sale) [TGR]
+109. availability_status: Available [TGR][25]
+110. availability_status: 2024 listed (sold out) [10]
+111. availability_status: Listed [2]
+112. availability_status: Listed [21]
+113. availability_status: Listed [7]
+114. availability_status: Listed [40]
+115. availability_status: Listed (2025) [50]
+116. availability_status: Listed (2024) [42]
+117. availability_status: Sold out [MERCHANT]
+118. reviewer_opinion_whitelines: Selected for "Whitelines 100" best snowboard products 2023/24 [15]
+119. Snowboard Magazine Platinum Pick: Named "Best of '24" [19]
+120. Curated.com expert rating: Matthew Switzer gave 4 of 5 stars [12]
+121. Evo field test: "Easy to ride, capable in the terrain, and made for an overall great time" [3]
+122. Curated.com summary: "Ideal for riders seeking exceptional float in powder and a versatile, fun ride" [9][12]
+123. reviewer_opinion_the_good_ride: "Very fun-to-turn, lively, floaty, easy-to-pop directional camber board" [4]
+124. skill_level_recommendation: "Progressing riders who want an approachable board that they won't outgrow" [50]
+125. reviewer_opinion_whitelines: "It bridges the gap nicely between family cruiser and serious shred weapon" [26]
+126. King Snow review: "I was definitely stoked on the board. What I really liked how fun and playful it was in every condition" [56]
+127. positive_aspect: Super fun turning experience [TGR]
+128. positive_aspect: Great pop on ollies and turns [TGR]
+129. positive_aspect: Despite 15mm taper, doesn't feel overly tapered [TGR]
+130. positive_aspect: Solid float in powder [TGR]
+131. positive_aspect: Soft for Family Tree boards (more accessible) [TGR]
+132. positive_aspect: Excelled in dry Utah powder and mellow terrain at Powder Mountain [3]
+133. positive_aspect: Moved edge-to-edge quickly, easily cruised through trees [3]
+134. positive_aspect: Camber provided crucial stability at speed [3]
+135. positive_aspect: "Turning almost instinctual, particularly in powder" [12]
+136. positive_aspect: "Unlike many surfier boards that falter on hard, fast lines, the Gril Master plows through with ease" [9]
+137. positive_aspect: "On groomers, it grips well and feels energetic in and out of a carve" [50]
+138. positive_aspect: In trees/chutes — "predictable, nimble, and feels compliant when you go to pivot" [50]
+139. positive_aspect: Holds firm edge while carving, yet doesn't feel too stiff [19]
+140. positive_aspect: Very competent at higher speed [TGR]
+141. negative_aspect: Base glide slow for the price — "not there with their higher end bases or many competitors" [TGR]
+142. negative_aspect: Sizing has huge jumps between sizes (width and weight range increase considerably) [TGR][13]
+143. negative_aspect: Edge hold lacks in hard snow [TGR]
+144. negative_aspect: Gets bucked around in chunder/tracked-out conditions [3]
+145. negative_aspect: Slower pace on gentler slopes [9]
+146. negative_aspect: Struggle to get pop in softer, deeper snow (per one reviewer) [9]
+147. user_review_forum: "Felt really directional and planky" to one forum user [54]
+148. user_review_forum: Perceived as too stiff for absolute beginners (forum advice: not suitable for beginner children) [53]
+149. negative_aspect: Whitelines tester noted initially felt "a little stiff" and "perhaps a little slow edge to edge" [15]
+150. user_review_forum: Burton's factory edge tune described as "insanely bad" by one forum poster [54]
+151. Burton Hometown Hero — shares freeride Family Tree DNA; more snappy/responsive, more substance underfoot, better high-speed stability but more demanding [50][12]
+152. Burton Skeleton Key — similar floaty setback directional; reviewer called it a toss-up for recommendations [TGR]
+153. Burton Custom — Burton's all-mountain benchmark; more park-versatile, true twin feel [9]
+154. Burton Flight Attendant — stiffer, more all-mountain directional; comparable weight range sizing [TGR]
+155. Burton Power Wagon — similar sizing issues with jumps between sizes [TGR]
+156. Jones Frontier — comparable all-mountain directional option [9]
+157. Lib Tech Dynamo — comparable alternative suggested by Curated [9]
+158. K2 Alchemist — listed as similar board by The Good Ride [TGR]
+159. YES PYL Uninc — listed as similar board by The Good Ride [TGR]
+160. sustainability_certification: Super Sap® Epoxy reduces carbon footprint by 50% vs. petroleum-based alternatives [2][7]
+161. sustainability_certification: FSC™ Certified wood (noted on 2025 spec sheets) [40][49]
+162. board_weight_grams: "Feels normal" for 155cm size [TGR]
+163. Weight note: "With wood cores there is no consistency in a board's weight" [13]
+164. Nickname: "The Dad Board" — originally was going to be called the Dad Board [3][11]
+165. Grilo's quiver context: Grilo rode Custom / Fish / Hometown Hero, and wanted a board that filled the gap between them [23]
+Notes:
+"TGR" refers to The Good Ride review site (thegoodride.com).
+"Merchant" refers to the merchant-supplied attributes provided in the prompt.
+Where sources conflict (e.g., ability level, MSRP), both values are listed with separate citations and a disagreement comment.
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-family-tree-gril-master-snowboard/W24-238981.html</url>
+  <quote>Shop the Family Tree Gril Master Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-family-tree-gril-master-snowboard/W24-238981.html#:~:text=Family%20Tree%20Gril%20Master%20Camber%20Snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer page for the 2024 Gril Master. The page is mostly out of stock but confirms the product exists under the Family Tree line. Highest authority for product identity.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024</url>
+  <quote>Directional Camber – A blend of rocker and camber in the nose combines float and control while camber under the back foot drives with power and stability.</quote>
+  <quote>45° Carbon Highlights - A tip to tail carbon layer reduces weight and contains 45° angled fibres.</quote>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024#:~:text=Directional%20Camber,back%20foot</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is an authorized Burton dealer reproducing official product specs. The descriptions match Burton marketing copy precisely, providing reliable spec data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/burton-gril-master</url>
+  <quote>The 2024 Family Tree Burton Gril Master Snowboard is the second generation of the board, inspired after the passing of Burton rider Marko Grilc.</quote>
+  <quote>The Gril Master excelled in the dry Utah powder and mellow terrain. It moved edge-to-edge quickly.</quote>
+  <quote>It was easy to ride, capable in the terrain, and made for an overall great time.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/burton-gril-master#:~:text=second%20generation,Marko%20Grilc</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>evo.com field test review with hands-on riding impressions at Powder Mountain and Mount Baker. evo is a major specialty retailer with credible editorial reviews.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/</url>
+  <quote>The Burton Grill Master is a board I really enjoyed, even though it didn't come in a viable size for me.</quote>
+  <quote>This is a very fun-to-turn, lively, floaty, easy-to-pop directional camber board.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/#:~:text=very%20fun-to-turn</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-established independent snowboard review site. 5+ day extended demo review from an experienced rider. Provides detailed performance metrics.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard-2024</url>
+  <quote>The Family Tree Collection – Based on existing shapes, but tweaked to make them even better for your ultimate day of riding.</quote>
+  <quote>The Channel® Mounting System – Stronger, faster, easier, and more adjustable.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard-2024#:~:text=Family%20Tree%20Collection</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>evo.com product listing page reproducing official Burton specs and descriptions. Major authorized retailer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard</url>
+  <quote>Super Fly II™ 700G Core – Stronger and lighter woods target specific areas of the core to provide pop, strength, and reduced weight.</quote>
+  <quote>Pro-Tip – A tapered tip and tail thickness reduces swing weight for easier mobility.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard#:~:text=Super%20Fly%20II</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo.com 2025 model product listing, confirming continuing specs for the Gril Master.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://rudeboys.com/products/burton-family-tree-gril-master-snowboard-w24</url>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%.</quote>
+  <quote>Infinite Ride™ – This Burton-exclusive technology allows maximized pop and strength by overbuilding the board.</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/burton-family-tree-gril-master-snowboard-w24#:~:text=Super%20Sap</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Rudeboys is an authorized retailer reproducing official Burton spec sheets. Confirms sustainability and construction technologies.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.curated.com/journal/3763001/review-burton-family-tree-gril-master-snowboard-2024</url>
+  <quote>The Burton Family Tree Gril Master Snowboard is ideal for riders seeking exceptional float in powder.</quote>
+  <quote>The only drawback I found was its slower pace on gentler slopes.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/3763001/review-burton-family-tree-gril-master-snowboard-2024#:~:text=ideal%20for%20riders</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-03</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Curated.com expert review by Matthew Switzer and Nicolas Sears. Multi-expert perspective with riding at Crested Butte. Provides both positives and drawbacks.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.tactics.com/burton/family-tree-gril-master-snowboard</url>
+  <quote>Shop for Burton men's snowboards online at Tactics Boardshop.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/burton/family-tree-gril-master-snowboard#:~:text=Burton%20Family%20Tree%20Gril%20Master</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Tactics is a major authorized retailer. Confirms the product was listed and available through this channel.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.evo.com/reviews/snowboard/burton-gril-master</url>
+  <quote>The original Gril Master also only came in three, family-friendly sizes (130, 140, 150), but Burton went fully inclusive and gender-neutral with the 2024 version's sizing.</quote>
+  <quote>The Burton Gril Master Snowboard was supposed to be called the Dad Board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/reviews/snowboard/burton-gril-master#:~:text=original%20Gril%20Master,gender-neutral</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>evo field test review providing historical context about the 1st gen vs 2nd gen Gril Master. Reliable for product history.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.curated.com/journal/3763001/review-burton-family-tree-gril-master-snowboard-2024</url>
+  <quote>Matthew Switzer gave 4 of 5 stars.</quote>
+  <quote>The Gril Master makes turning almost instinctual, particularly in powder.</quote>
+  <quote>It floats nearly as good as the Hometown Hero with less setback and more versatility.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.curated.com/journal/3763001/review-burton-family-tree-gril-master-snowboard-2024#:~:text=4%20of%205%20stars</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-03</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Curated expert review with specific star rating and comparison to Burton Hometown Hero. Provides direct competitive context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/</url>
+  <quote>The Burton Gril Master is a pretty soft ride for Family Tree but still medium stiff between the feet.</quote>
+  <quote>The width and recommended weight range goes up considerably.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/#:~:text=pretty%20soft%20ride</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride extended review with detailed flex analysis and sizing commentary. Independent and thorough assessment.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-gril-master-snowboard-review.html</url>
+  <quote>Tested and selected for our top 100 snowboard products of the year: the Burton Gril Master.</quote>
+  <quote>My first thought riding the Gril Master was that it felt a little stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-gril-master-snowboard-review.html#:~:text=top%20100%20snowboard%20products</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>Whitelines is a well-established UK snowboard publication. The Whitelines 100 is a respected annual gear award. Provides real tester feedback including criticism.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard-2024</url>
+  <quote>45˚ Carbon Highlights – Carbon Highlights optimizes each layer of the fiberglass matrix.</quote>
+  <quote>A 60° fiber angle creates a highly maneuverable and playful feel, while a 45° fiber angle provides a more aggressive ride.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-family-tree-gril-master-snowboard-2024#:~:text=45%CB%9A%20Carbon%20Highlights</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>evo.com product specs page with detailed carbon fiber angle explanation. Authoritative retailer source for technical specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-picks-best-of-24-burton-family-tree-gril-master-snowboard</url>
+  <quote>sizes: 130, 140, 145, 150, 155, 160, 165cm MSRP: $659.95</quote>
+  <quote>For 2024, the board is now an in-line addition to the Family Tree.</quote>
+  <quote>in 2023, Burton introduced the Gril Master, a limited edition release sized for both adults and kids.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-picks-best-of-24-burton-family-tree-gril-master-snowboard#:~:text=MSRP%3A%20%24659.95</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-10</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is an authoritative industry publication. Provides MSRP, available sizes, and "Platinum Pick" award status. First-party pricing info.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024</url>
+  <quote>Born from a design Grilo helped inspire, his legacy lives on in hand-drawn graphics created by his kids.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024#:~:text=hand-drawn%20graphics%20created%20by%20his%20kids</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Authorized retailer reproducing official Burton copy about the graphic design origin.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/ft-gril-master-snowboard/</url>
+  <quote>Super Fly II™ 700G Core – Stronger and lighter woods target specific areas of the core.</quote>
+  <quote>Dualzone™ EGD™ – The wood grain is positioned along the toe and heel edges.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/ft-gril-master-snowboard/#:~:text=Super%20Fly%20II</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Salty Peaks is a long-running authorized board shop in Salt Lake City. Reproduces official Burton specs.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/grilo-forever-remembering-marko-grilo-grilc/</url>
+  <quote>He envisioned the Gril Master as a board that could cruise with the family or open up for a solo lap.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/grilo-forever-remembering-marko-grilo-grilc/#:~:text=Gril%20Master%20as%20a%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Burton blog memorial for Marko Grilc. Primary source for the design intent behind the Gril Master and biographical details of the tribute rider.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://snowboardmag.com/stories/burton-releases-gril-master-ltd-snowboard-in-honor-of-marko-grilc</url>
+  <quote>The Gril Master LTD comes in three sizes, true to Grilo's vision: 155, 140, and 130.</quote>
+  <quote>One hundred Gril Master boards will be available for purchase on November 23, exclusively through Burton.com.</quote>
+  <quote>He talked at great length about the products he was riding at the time (Custom / Fish / Hometown Hero).</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/stories/burton-releases-gril-master-ltd-snowboard-in-honor-of-marko-grilc#:~:text=three%20sizes</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-11</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Snowboard Magazine article on the original LTD release with interview of designer Lesley Betts. Primary source for first-gen details and Grilo's design input.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.the-house.com/1141181.html</url>
+  <quote>Bend: Directional Camber • Shape: Freeride Directional • Flex: Directional • Taper: 15mm</quote>
+  <quote>Riding Level: Intermediate/Expert • Warranty: 3-YEAR WARRANTY</quote>
+  <quote>ABOUT THE GRAPHIC: Like a literal family tree, this year's Family Tree board graphics deliver on the connectedness of all things.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/1141181.html#:~:text=Directional%20Camber,Taper%3A%2015mm</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>The House is a major authorized retailer. Full spec sheet with warranty info and riding level. Useful for confirming 3-year warranty and construction specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-gril-master-snowboard-review.html</url>
+  <quote>It bridges the gap nicely between family cruiser and serious shred weapon.</quote>
+  <quote>Burton's market-leading three-year warranty.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-gril-master-snowboard-review.html#:~:text=bridges%20the%20gap</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>Whitelines is a well-known UK snowboard publication. Confirms warranty and provides editorial verdict.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.boardsportsource.com/burton-release-gril-master-snowboard-in-tribute-to-the-late-marko-grilo-grilc/</url>
+  <quote>On November 23, 2021, the world lost long-time Burton rider Marko "Grilo" Grilc in a tragic snowboarding accident while filming in Sölden, Austria.</quote>
+  <quote>Each Gril Master board was made by hand in Vermont at Craig's, the most advanced snowboard prototype facility in the world.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/burton-release-gril-master-snowboard-in-tribute-to-the-late-marko-grilo-grilc/#:~:text=November%2023%2C%202021</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022-11</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Boardsport SOURCE is a respected industry trade publication. Provides factual press release details about the LTD release and Grilo's passing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024</url>
+  <quote>FLEX 6.5/10 Personality – Medium Firm Directional Flex.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-family-tree-gril-master-2024#:~:text=6.5%2F10</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Blauer Board Shop listing with official Burton flex rating of 6.5/10. Confirms the merchant-provided data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://gravitee.com/products/burton-gril-master-snowboard-2024</url>
+  <quote>CORE: FSC™ Certified Super Fly II™ 700G Core with Dualzone™ EGD™, Squeezebox EXTRAS: Frostbite Edges, Infinite Ride, The Channel®, Pro-Tip, Super Sap® Epoxy</quote>
+  <quote>TERRAIN: Park: 4/10, All-Mountain: 7/10, Powder: 8/10 3-Year Warranty</quote>
+  </quotelist>
+  <url_with_text_link>https://gravitee.com/products/burton-gril-master-snowboard-2024#:~:text=Frostbite%20Edges</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Gravitee is an authorized Burton dealer in Copper Mountain, CO. Their listing is the only one to explicitly mention Frostbite Edges and FSC certification for the 2024 model. Very useful for confirming edge technology and terrain ratings.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://rudeboys.com/products/burton-family-tree-gril-master-snowboard-w24</url>
+  <quote>Balanced Freeride Geometry ends the debate between twin and directional with setback camber and a sidecut centered on your stance.</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/burton-family-tree-gril-master-snowboard-w24#:~:text=Balanced%20Freeride%20Geometry</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Authorized retailer reproducing official Burton Balanced Freeride Geometry description.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.shredshop.com/burton-family-tree-gril-master-snowboard-2024-pr5a18917/p</url>
+  <quote>The 2024 Burton Family Tree Gril Master Snowboard is available as one of our many Snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/burton-family-tree-gril-master-snowboard-2024-pr5a18917/p#:~:text=2024%20Burton%20Family%20Tree</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Shred Shop is a US retailer (associated with Erik's). Confirms availability through this channel.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-family-tree-gril-master-2025</url>
+  <quote>FSC™ Certified Super Fly II™ 700G Core – Stronger and lighter woods target specific areas of the core.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-family-tree-gril-master-2025#:~:text=FSC%E2%84%A2%20Certified</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>2025 model listing at Blauer Board Shop confirms FSC certification of the core wood, continuing from 2024.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://theskimonster.com/products/burton-gril-master</url>
+  <quote>Built By: Kiel-Nindl GMBH, Austria</quote>
+  <quote>Progressing riders who want an approachable board that they won't outgrow as they get better.</quote>
+  <quote>The Gril Master is not quite as snappy or responsive but feels a little more manageable and smooth.</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/burton-gril-master#:~:text=Kiel-Nindl%20GMBH</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Ski Monster is a reputable specialty retailer. Uniquely provides the manufacturing facility name (Kiel-Nindl GMBH, Austria) and a comparative review against the Hometown Hero. The manufacturing info is highly valuable.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/kids-burton-family-tree-gril-master-for-beginner-8-year-old.282038/</url>
+  <quote>Now I'm worried it's too stiff for a beginner and that it will hamper her ability to learn and ride comfortably.</quote>
+  <quote>Ideally I think you'd want to start with something softer, twin-ish and maybe camrock.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/kids-burton-family-tree-gril-master-for-beginner-8-year-old.282038/#:~:text=too%20stiff%20for%20a%20beginner</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-03</date_of_last_relevance>
+  <reasoning>Snowboarding Forum is a community-driven discussion site. This thread shows a real-world concern about suitability for beginners (specifically children). Anecdotal but relevant to sizing decisions.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://ezlounging.com/viewtopic.php?t=145&start=280</url>
+  <quote>The gril master was amazing. Not a Burton. Totally different feel. More like Nidecker or k2.</quote>
+  <quote>Felt really directional and planky to me; not at all the playful versatile daily driver it's marketed as.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=145&start=280#:~:text=gril%20master%20was%20amazing</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-07</date_of_first_relevance>
+  <date_of_last_relevance>2024-08</date_of_last_relevance>
+  <reasoning>EZLounging is a niche snowboard enthusiast forum. Two contrasting opinions from real riders: one very positive (different from typical Burton feel) and one negative (felt planky). Shows the polarization in user experience.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://kingsnowboard.com/blogs/gear/2024-burton-gril-master-snowboard-review-whats-good</url>
+  <quote>I was definitely stoked on the board. What I really liked how fun and playful it was in every condition.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/2024-burton-gril-master-snowboard-review-whats-good#:~:text=stoked%20on%20the%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2024-06</date_of_last_relevance>
+  <reasoning>King Snow is an independent Australian snowboard media outlet. Provides a rider's positive review feedback.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="63">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Marko_Grilc</url>
+  <quote>Marko Grilc (7 July 1983 – 23 November 2021) was a Slovenian professional snowboarder.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Marko_Grilc#:~:text=7%20July%201983%20%E2%80%93%2023%20November%202021</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2021-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Wikipedia provides verified biographical dates. Standard reference source for birth and death dates.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="73">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-family-tree-gril-master-camber-snowboard/W26-238981.html</url>
+  <quote>Shop the Family Tree Gril Master Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-family-tree-gril-master-camber-snowboard/W26-238981.html#:~:text=Family%20Tree%20Gril%20Master</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Burton.com W26 (2026) model page exists, contradicting the "discontinued" claim from The Good Ride. However, The Good Ride updated their review in late 2025 saying it was discontinued. The W26 page may reflect a final season or the page may be a placeholder. This is ambiguous.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="TGR">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/</url>
+  <quote>Update 2026: The Gril Master was a great board but is now discontinued.</quote>
+  <quote>List Price $679 (USD)</quote>
+  <quote>Manufactured in: Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-gril-master-snowboard-review/#:~:text=now%20discontinued</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Good Ride is a primary independent review source. Provides extensive performance ratings, list price, manufacturing country, and discontinuation notice. The $679 list price differs from Snowboard Magazine's $659.95 — the discrepancy is noted as a disagreement.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="Merchant">
+  <quotelist>
+  <url>Merchant-provided data (as supplied in the product listing)</url>
+  <quote>AUD price: $699.99, RRP price: $999.99, discount: 30%, SKU: 23898100000 145</quote>
+  <quote>effective edge 155cm: 1146mm, waist width 155cm: 257mm, sidecut 155cm: 7.5m</quote>
+  </quotelist>
+  <url_with_text_link>N/A - merchant-provided structured data</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Merchant-verified spec data provided directly as structured attributes. Size-specific measurements are highly reliable as they come from Burton's official spec sheets. Treated as a trusted merchant source.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-family-tree-gril-master-2024</url>
+    <quote>AUD price: $699.99; RRP price: $999.99; discount: 30%; brand: Burton; model name: Family Tree Gril Master</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-family-tree-gril-master-2024</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

@@ -1,0 +1,1101 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="12" category="availability" />
+  <duplicate_canonical name="negative_aspect" count="6" category="review" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="positive_aspect" count="5" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="flex_feel" count="4" category="performance" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="construction_material_innovation" count="2" category="construction" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Never Summer Industries [1][2]
+2. model_name: Proto Slinger [1][2]
+3. model_year: 2025 (2024/2025 season) [1][2]
+4. product_type: Snowboard [1]
+5. board_category: Freestyle [2][3]
+6. gender: Men's [3][4]
+7. manufacturer: Never Summer Industries, Inc. [5]
+8. manufacturing_location: Denver, Colorado, USA — handcrafted in factory [5][6]
+9. Company founded: 1991 by Tim and Tracey Canaday [5][7]
+10. Factory address: 3838 Eudora Way, Denver, CO 80207 [8]
+11. Manufacturer reputation: One of the last larger, independently owned snowboard factories making boards in the USA; still family owned and operated [6]
+12. Manufacturer heritage: First patent on any type of hybrid camber technology [9]
+13. pro_rider_name: Sam Anderson (listed on most sources) [4][10] DISAGREEMENT: Blauer Board Shop lists "Sam Klein" as the pro rider [11] — this appears to be a retailer-specific text error; most authoritative sources (manufacturer descriptions at multiple retailers, Snowboard Robot, snowboards.eu) consistently name Sam Anderson.
+14. predecessor_model_name: Replaces the Funslinger [12][13]
+15. Model origin: Combination of the older Funslinger and Proto Type Two [14][15]
+16. model_first_available_year: 2020-2021 season (new for the 2020-2021 season per Whitelines) [16]
+17. shape: Asymmetrical Twin (true twin shape with asymmetrical sidecut, designated toe and heel edge) [2][17]
+18. Shape description: True twin for balanced regular and switch riding, with heelside sidecut shorter and deeper than toeside [18][19]
+19. camber_type: Shock Wave Rocker Camber [1][2]
+20. camber_description: Extended camber zones underfoot towards tip and tail for pop and stability, smaller rocker areas for quick turn initiation and floatation [1][2]
+21. camber_description: Camber/Rocker/Camber hybrid — short rocker section between the feet and large camber zones right under your feet [20][21]
+22. Extended Transition Area: Small flat section at contact points for improved turn initiation and powder floatation [1][2]
+23. Rocker Camber profile: Patented by Never Summer [1]
+24. taper: 0mm [MERCHANT]
+25. setback: 0mm (centered stance) [MERCHANT][2]
+26. Stance position: Centered [2][22]
+27. flex_direction: True twin (symmetrical regular/switch) [23]
+28. flex_rating_10: 4 out of 10 (1=soft, 10=stiff) [MERCHANT][2][3]
+29. Dampness rating: 4 out of 10 [24]
+30. flex_feel: 4/10 feels accurate per reviewer field test [20]
+31. flex_feel: Felt more like 5.5/10, possibly due to sizing down [25]
+32. flex_feel: Soft and buttery but with good dose of camber which helps with carving [12]
+33. flex_feel: Soft-to-medium, pressable [2]
+34. Press Flex core feature: 2 specific softer flex points between the feet creating better hinge points for pressing and ollie performance [26]
+35. core_material: NS Superlight Wood Core — custom blend of Poplar, Paulownia and Birch woods [1][MERCHANT]
+36. Core construction: Press Flex Wood Core taper allows for locks into presses and on rails [4][26]
+37. laminate: Bi-Lite Fiberglass — lightweight and strong, combines STS strength with ultralight glass fiber matrix [1][MERCHANT]
+38. laminate: STS Pre-tensioned Fiberglass — pre-hardened, pre-tensioned laminate with elastomer stringers between 0° and 90° glass fibers [1][MERCHANT]
+39. construction_material_innovation: Carbon VXR Laminate Technology — carbon V shapes from inserts to edges for torsional strength and pop [1][MERCHANT]
+40. construction_material_innovation: V's positioned to ends of board for maximum boost/pop; softer more forgiving mid-flex for torsional control [1]
+41. Damping system: FDS (Freestyle Damping System) — thinner rubber foil for lighter, snappier feel while providing smooth ride [1][MERCHANT]
+42. Underfoot stabilisers: Elastomeric Underfoot Stabilizers — vibration absorption, high speed stability, reduced foot fatigue [1][MERCHANT]
+43. Tip/tail damping: Harmonic Nose/Tail Dampers — reduces vibrations for smooth and stable ride at speed and hard landings [1][27]
+44. sidewall_material: Sintered UHMW Polyethylene Sidewalls (Sintered P-Tex) — more resistant to cracking in cold than ABS [1][MERCHANT][28]
+45. Sidewall claim: Never Summer was the first snowboard company to use and perfect P-Tex Sidewalls; claims to never have seen one crack [28]
+46. base_material: Durasurf XT Sintered 5501 — exclusive from Crown Plastics, with added graphite for fastest base in Never Summer range [1][MERCHANT][27] DISAGREEMENT: Blauer Board Shop lists "Durasurf Sintered 4501 Base" for this model [29], while evo, Ski Barn, and the merchant data all list the 5501. Most sources agree on 5501, and 4501 appears to be a lower-end base used on other NS models. The 5501 designation is most likely correct for the 2025 Proto Slinger.
+47. base_type: Sintered [1]
+48. topsheet: Co-Extruded Polymer Topsheet — durable, lightweight, scratch and chip resistant fiber-backed thermoplastic [1][MERCHANT]
+49. topsheet_appearance_description: Provides more grip than other topsheet materials, working as a built-in stomp pad [27]
+50. edge_technology: Full Wrap Metal Edge [30][31]
+51. Tip/tail protection: P-Tex Tip/Tail Protection — UHMW plastic that seals, protects wood core, and absorbs vibration [29]
+52. Nose/tail profile: Low Profile — maximises snow contact for pop and landing stability, reduces plowing effect [1][MERCHANT]
+53. sidecut_type: Asym Vario Power Grip Sidecut — multiple radii creating extra contact points for maximum edge hold [1][MERCHANT]
+54. mounting_pattern: 2x4 Inserts [MERCHANT][31]
+55. Construction: Handcrafted in Denver factory with 20-point inspection [32]
+56. available_colors: May vary [MERCHANT]
+57. available_sizes: 149cm, 153cm, 156cm, 154cm Wide (X), 157cm Wide (X) [MERCHANT][20]
+58. Effective edge 149cm: 113.0cm [MERCHANT]
+59. Effective edge 153cm: 117.0cm [MERCHANT]
+60. Effective edge 156cm: 119.0cm [MERCHANT]
+61. Effective edge 154W: 117.0cm [MERCHANT]
+62. Effective edge 157W: 120.0cm [MERCHANT]
+63. tip_tail_width_size: 29.2cm [MERCHANT]
+64. tip_tail_width_size: 29.5cm [MERCHANT]
+65. tip_tail_width_size: 29.8cm [MERCHANT]
+66. tip_tail_width_size: 30.3cm [MERCHANT]
+67. tip_tail_width_size: 30.7cm [MERCHANT]
+68. Waist width 149cm: 24.7cm [MERCHANT]
+69. Waist width 153cm: 25.0cm [MERCHANT]
+70. Waist width 156cm: 25.3cm [MERCHANT]
+71. Waist width 154W: 25.8cm [MERCHANT]
+72. Waist width 157W: 26.2cm [MERCHANT]
+73. sidecut_radius_size: Vario 735/657 [MERCHANT]
+74. sidecut_radius_size: Vario 783/701 [MERCHANT]
+75. sidecut_radius_size: Vario 818/736 [MERCHANT]
+76. sidecut_radius_size: Vario 786/703 [MERCHANT]
+77. sidecut_radius_size: Vario 823/737 [MERCHANT]
+78. recommended_weight_range_size: 45-68kg [MERCHANT]
+79. recommended_weight_range_size: 54-72kg [MERCHANT]
+80. recommended_weight_range_size: 63-90+kg [MERCHANT]
+81. recommended_weight_range_size: 54-82kg [MERCHANT]
+82. recommended_weight_range_size: 63-90+kg [MERCHANT]
+83. width_options: "X" is Never Summer-speak for "wide" [33]
+84. Wide variant boot size suitability: Men's size 10.5/11+ [31]
+85. terrain_suitability: Freestyle, Park, All Mountain [MERCHANT][2]
+86. terrain_suitability: Park-first with all-mountain capability [14][22]
+87. terrain_suitability: Park with small to medium sized features, groomed runs, side hits [20][34]
+88. riding_style: Creative freestyle, jibbing the entire mountain [MERCHANT]
+89. rider_level: Intermediate to Advanced [31][35]
+90. skill_level_recommendation: Park-focused rider who wants easy riding board that can jib, butter, and jump well, while carving outside the park [2][22]
+91. pop: Explosive pop from Shock Wave Camber profile and Carbon VXR [2][14]
+92. edge_hold: Grippy, very locked-in feel in icy conditions thanks to Power Grip Sidecut [20][36]
+93. Riding characteristics — buttering: Medium easy to butter; rocker in middle helps [25][22]
+94. carving_rating_tgr: Impressive carving for a park board; easy turn initiation that rolls edge to edge effortlessly [20][22]
+95. turn_initiation_performance: Works best for shorter, tighter, and medium turns [20]
+96. Riding characteristics — stability at speed: Stable enough at speed but softer flex and rocker between feet means it won't feel like a stiff cambered board [36]
+97. Riding characteristics — dampness: Feels damper than its flex suggests while still being super poppy [37]
+98. Riding characteristics — tracking: Likes to track straight more than it likes to turn — great for approaching park features [37]
+99. powder_rating_tgr: Can float through moderate fresh snow, but limited in deep powder as a twin with centered stance [20][12]
+100. switch_riding: Rides the same switch and regular due to true twin shape [23]
+101. positive_aspect: Very easy to ride; steers directly underfoot and can make a turn on a dime [20]
+102. positive_aspect: Boosts confidence by how simple it is to ride, encouraging progression [20]
+103. positive_aspect: Higher-end, smoother riding feel compared to similarly priced boards [20]
+104. positive_aspect: Carves well regardless of conditions for a park board [22]
+105. positive_aspect: A little lighter than average based on reviewer weighing [12]
+106. negative_aspect: It's on the pricey side [20]
+107. negative_aspect: Takes some getting used to if coming from a traditional camber board [20]
+108. negative_aspect: Not great for powder; not designed for deep snow [12][22]
+109. negative_aspect: Not a bomber; ok on medium sized runs but not a big steep run big mountain board [37]
+110. negative_aspect: A little loose when riding flat base; rocker section can want to spin the board around on flat icy terrain [25]
+111. negative_aspect: Can feel auto-spinny/loose in harder snow depending on individual board's wood cure [37]
+112. warranty: 3-Year Manufacturer's Warranty covering defects in materials and/or workmanship [31][38][39]
+113. warranty: Does not cover damage caused by impact, misuse, abuse, or neglect [40]
+114. Quality inspection: All boards go through 20-point inspection [32]
+115. price_usd_msrp: $649.99 [24][41][42]
+116. price_aud_merchant: $664.99 AUD [MERCHANT]
+117. price_aud_merchant: $949.99 AUD [MERCHANT]
+118. Merchant supplied discount: 30% off RRP [MERCHANT]
+119. Price at Snowboards.com: $649.99 original, 20% off ($519.99) [42]
+120. Price at 701 Cycle and Sport: $519.99 (excl. tax) [43]
+121. Price at Glacier Ski Shop: $489.00 (sale from $650.00 regular) [44]
+122. Price at Saint Bernard: $519.90 [45]
+123. Price at Rocky Mountain Ski & Board: $649.99 [24]
+124. Price at Willi's Ski & Board (prior year model): $469.99 (from $619.95) [46]
+125. Price at Eskimo Ski & Board Shop: $649.99 [47]
+126. Price comparison (Board of the World): Costs $15.73 less than the average snowboard price of $535.72 [20]
+127. availability_status: Yes (appears sold out for some sizes at time of research) [1]
+128. availability_status: Yes [48]
+129. availability_status: Yes [11]
+130. availability_status: In stock (154W, 156, 157W sizes listed) [44]
+131. availability_status: In stock [43]
+132. availability_status: Yes [45]
+133. availability_status: Listed [49]
+134. availability_status: Listed [50]
+135. availability_status: 154 X Wide backordered [51]
+136. availability_status: Listed [31]
+137. availability_status: Listed [52]
+138. availability_status: Listed [53]
+139. Merchant user rating: 5.0 out of 5 (based on 1 review) [MERCHANT]
+140. Board of the World review score: 86.55/100 (4.33/5) [20]
+141. Board of the World ranking: 13th out of 36 boards reviewed in park category [20]
+142. reviewer_opinion_snowboardingprofiles: Great option for freestyle oriented deck that can do pretty well on the rest of the mountain [12]
+143. reviewer_opinion_the_good_ride: Very recommendable ride; evolved Funslinger with just a newer camber profile [37][54]
+144. Snowboard Robot verdict: Would suit intermediate or above riders well, who want a board that will ride well in the park but can still comfortably ride all over the mountain [36]
+145. reviewer_opinion_whitelines: Praised soft flexing freestyle deck with pop and aggression from extended camber zones [16]
+146. comparable_board_cross_brand: Proto Slinger feels like a higher-end, faster GNU Money; both grippy with rocker profiles between feet [20]
+147. comparable_board_cross_brand: Quite similar per SnowboardingProfiles reviewer [55]
+148. comparable_board_same_brand: Proto Slinger has less carving power and more flex; like a softer, more jib-focused Proto Synthesis [56]
+149. comparable_board_cross_brand: Softest, most playful option among comparable boards per forum advice [55]
+150. comparable_board_cross_brand: Stiffer, more aggressive option among comparable boards [55]
+151. comparable_board_cross_brand: Compared as playful alternative; Proto Slinger slightly easier to butter [57]
+152. comparable_board_same_brand: Stiffer all-mountain twin with same Shock Wave camber; better for aggressive carving [56]
+153. NS boards durability reputation: "Not the lightest, but the tradeoff for the weight is they are tough – you can count on them lasting" [36]
+154. US manufacturing premium: "Not cheap either, but you do pay more for boards made in the US" [36]
+155. Recommended binding flex: 4/10 to 5/10 flex range [55]
+156. Recommended bindings: Burton Malavita Re:Flex, Union Ultra, Union Contact Pro [55][58]
+157. Tested binding combo (Board of the World): Union Ultra bindings — flex paired well [20]
+158. SKU: 2025 Never Summer Proto Slinger 154w [MERCHANT]
+159. Listed size: 154cm Wide [MERCHANT]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url>
+  <quote>Shock Wave Rocker, an NS Superlight Core, and Carbon VXR laminates give this thing more hops than a mug of your favorite IPA and a DuraSurf XT 5501 sintered base</quote>
+  <quote>NS Superlight Wood Core – Never Summer's Superlight core uses a custom blend of Poplar, Paulownia and Birch woods</quote>
+  <quote>Asym Vario Power Grip Sidecut – Vario Power Grip Sidecut utilizes multiple radii creating extra contact points to enhance edge hold.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is a major, reputable retailer that carries manufacturer-provided specs. These tech descriptions match the official Never Summer language used across all authorized dealers. Highly reliable for spec data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>This is an asymmetrical twin freestyle snowboard with a centered stance and a very pressable four out of 10 flex rating.</quote>
+  <quote>The Never Summer Proto Slinger's highlights are its soft, pressable flex, easy-riding rocker profile, grippy edge hold, explosive pop, and smooth, higher-end feel.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World is a specialist snowboard review site. The reviewer tested the 2025 model in person at the EWSRA demo event in January 2024 at Stratton VT. Provides well-structured scoring and real-world riding impressions.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url>
+  <quote>2025 Never Summer Proto Slinger Snowboard FREESTYLE ASYMMETRICAL TWIN</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Authorized NS dealer carrying manufacturer-provided product descriptions. Confirms model year, category, and board type.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url>
+  <quote>The go-to snowboard of Sam Anderson, one of the most technical freestyle snowboarders on the planet</quote>
+  </quotelist>
+  <url_with_text_link>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Authorized NS dealer. Multiple retailers use this exact language from the manufacturer naming Sam Anderson as the pro rider.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Never_Summer</url>
+  <quote>Never Summer Industries is a snowboard and apparel manufacturer based out of Denver, Colorado.</quote>
+  <quote>Tim and Tracey Canaday founded Never Summer snowboards in 1991.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Never_Summer</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1991</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced background on the manufacturer. Establishes company identity, founding, and location.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url>
+  <quote>we are the last larger, independently owned snowboard factories making boards in the USA, and still family owned</quote>
+  </quotelist>
+  <url_with_text_link>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1991</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer website. Strong authority for claims about their own manufacturing process and company status.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://neversummer.com/pages/about-us</url>
+  <quote>Designing and building snowboards since 1991 has given us years of experience</quote>
+  </quotelist>
+  <url_with_text_link>https://neversummer.com/pages/about-us</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1991</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer About Us page. Primary source for company founding date.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.yelp.com/biz/never-summer-industries-denver</url>
+  <quote>NEVER SUMMER INDUSTRIES, 3838 Eudora Way, Denver, CO 80207</quote>
+  </quotelist>
+  <url_with_text_link>https://www.yelp.com/biz/never-summer-industries-denver</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1991</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Yelp business listing confirms factory address. Third-party verification of location.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.2</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.uncovercolorado.com/made-in-colorado/never-summer-industries/</url>
+  <quote>Never Summer was awarded the first patent on any type of hybrid camber technology.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.uncovercolorado.com/made-in-colorado/never-summer-industries/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2008</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Regional publication confirming NS's patent claim on hybrid camber. Corroborates manufacturer claims with independent sourcing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url>
+  <quote>It has been around for a few seasons now, and it was originally a combination of the older very soft Funslinger and asymmetrical but stiffer Proto Type Two.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Independent snowboard review site with hands-on testing. Provides historical context about the model's origins.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url>
+  <quote>The go-to snowboard of Sam Klein, one of the most technical freestyle snowboarders on the planet</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop lists "Sam Klein" instead of "Sam Anderson" — likely a retailer text error. Most other sources consistently state Sam Anderson.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url>
+  <quote>The Proto Slinger replaces the Funslinger.</quote>
+  <quote>It's soft and buttery but also has a good dose of camber, which helps with carving.</quote>
+  <quote>Not great for powder and not quite for a beginner, just because of all that camber, but low intermediate and up should be good on this board.</quote>
+  <quote>The Proto Slinger a little lighter than average.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles is a well-regarded specialist review site by Nate, who rides and weighs boards himself. Reviews include real-world data from a 2021 model, relevant as the Proto Slinger design has remained consistent.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url>
+  <quote>The Never Summer Proto Slinger has the same shape and overall ride as the Funslinger but with a little extra camber and a little less rocker.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent, well-known snowboard review site. Ethics statement says they don't get paid by manufacturers.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url>
+  <quote>The Proto Slinger being the middle ground between the two, is a combination that I think gets the balance right.</quote>
+  <quote>It is going to suit intermediate or above riders well, who want a board that will ride well in the park, but can still comfortably ride all over the mountain.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Independent review site with hands-on testing of both 153 and 156 sizes. Provides balanced assessment of riding characteristics.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url>
+  <quote>While the Funslinger was very soft and playful, outside of the park it was hard work. On the other hand, the Proto Type Two was very solid and stable, but not playful.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Explains the design lineage, which is relevant context for understanding the Proto Slinger's position in the market.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/never-summer-proto-slinger-2020-2021.html</url>
+  <quote>New for this season Never Summer have released their all new park focused portmanteau- The ProtoSlinger.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/never-summer-proto-slinger-2020-2021.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Whitelines is a major UK snowboard publication. Their 2020-2021 review confirms this was the debut season for the Proto Slinger model.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url>
+  <quote>A true twin shape with an asymmetrical sidecut, this board will ride the same switch and regular, but has a designated toe and heel edge</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian authorized retailer confirming key shape details with manufacturer language.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>The Proto Slinger has a unique true twin shape with an asymmetrical where the heelside's sidecut has a shorter and deeper radius than the board's toeside sidecut.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Reviewer explains the asymmetric sidecut in accessible terms, directly supporting the shape description claim.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>The main benefit is that it makes the board easier to carve than the standard symmetrical twin shaped board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Explains the practical benefit of asymmetric sidecut — important for purchase decision in park category.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>Our Rating: 86.55 out of a possible 100 or 4.33 out of a possible 5 review score for the Never Summer Proto Slinger Snowboard.</quote>
+  <quote>Ranks 13th out of the 36 boards reviewed in the park category.</quote>
+  <quote>The board has an easy turn initiation that feels like it rolls from edge to edge effortlessly.</quote>
+  <quote>It's on the pricey side.</quote>
+  <quote>This board is available in 149cm, 153cm, 156cm, 154X (Wide), and 157X (Wide).</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Primary hands-on review for the 2025 model. Provides quantified scoring, ranking against competitors, and confirmed size availability.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>This profile features a short rocker section between the feet and large camber zones right under your feet.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Reviewer's description of profile confirms Camber/Rocker/Camber hybrid layout.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>I was impressed by how well the Proto Slinger carves, especially given its softer flexing park board.</quote>
+  <quote>In terms of the types of turns this board makes, it works best for shorter, tighter, and medium turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>First-hand riding observations about carving capability and turn radius preference.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url>
+  <quote>The twin shape of this board (even though it is asymmetrical) means that it will have the exact same ride, in both the regular directions and switch.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Confirms twin shape rides identically regular and switch despite asym sidecut.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://shop.rockymountainskiandboard.com/neversummer-mens-protoslinger.html</url>
+  <quote>Features: Flex: 4 · Damp: 4 · Shockwave Rocker Camber profile · Suitable for park, all mountain</quote>
+  </quotelist>
+  <url_with_text_link>https://shop.rockymountainskiandboard.com/neversummer-mens-protoslinger.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Authorized dealer listing confirming both flex and dampness ratings at 4/10, as well as $649.99 price.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/never-summer-womens-proto-slinger-snowboard-review-by-steph-w/</url>
+  <quote>The Proto Slinger comes with a 4/10 flex on the Never Summer scale. I felt it was more like a 5.5 out of 10.</quote>
+  <quote>It is a little loose when riding it flat base.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/never-summer-womens-proto-slinger-snowboard-review-by-steph-w/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride reviewer's flex perception differs from manufacturer rating (5.5 vs 4); reviewer notes this may be due to riding a size up. Important for buyers to consider that flex perception varies with sizing.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url>
+  <quote>Press Flex Wood Core – This rocker core design features 2 specific softer flex points between the feet creating better hinge points for ultimate pressing and ollie performance.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Authorized dealer provides detail on Press Flex core feature not always visible on other listings. Manufacturer-supplied language.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url>
+  <quote>Durasurf XT Sintered 5501 Base – Crown Plastics has developed an exclusive, super fast, durable sintered base specifically for higher end boards.</quote>
+  <quote>Coextruded Polymer Topsheet – The Premium Topsheet is a durable, lightweight, scratch and chip resistant fiber backed thermoplastic.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo listing with manufacturer-sourced tech descriptions for base and topsheet materials.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url>
+  <quote>Sintered UHMW Polyethylene Sidewalls – Never Summer was the first snowboard company to use and perfect Sintered P-Tex Sidewalls, and they've never seen one crack.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/never-summer-proto-slinger-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo repeats manufacturer claim about sidewall innovation. This is a marketing claim that should be noted but is widely repeated.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url>
+  <quote>Durasurf Sintered 4501 Base – Crown Plastics has been the industry leader in sintered materials for over 36 years</quote>
+  <quote>P-Tex Tip/Tail Protection – Boards with P-Tex Tip/Tail Protection have UHMW plastic</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer lists the base as 4501 rather than 5501 — this disagrees with most other sources and appears to be an error in this retailer's listing. The 4501 is used on some other NS models.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url>
+  <quote>Full Wrap Metal Edge Press Flex Wood Core Taper</quote>
+  </quotelist>
+  <url_with_text_link>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Glacier Ski Shop's tech list confirms Full Wrap Metal Edge as a listed feature.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.christysports.com/product/never-summer-proto-slinger-x-snowboard/8106640.html</url>
+  <quote>Binding Mount Patterns - 2x4 Warranty - 3 Year Manufacturer's</quote>
+  <quote>Ability Level - All Flex Rating - 4 Shape - Asymmetrical Twin</quote>
+  </quotelist>
+  <url_with_text_link>https://www.christysports.com/product/never-summer-proto-slinger-x-snowboard/8106640.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Christy Sports is a major US ski/board retailer. Confirms warranty, binding pattern, and ability level from a structured spec listing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url>
+  <quote>All boards go through an extensive 20 point inspection, ensuring the highest quality snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer blog describes quality control process. Marketing content but factual about inspection steps.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/never-summer-proto-slinger-x-snowboard</url>
+  <quote>(the "X" version is Never Summer-speak for "wide")</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/never-summer-proto-slinger-x-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo explains the "X" designation clearly for the wide version of the Proto Slinger.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url>
+  <quote>I really enjoyed riding this board in a park with small to medium sized features.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-slinger-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Reviewer specifies ideal feature size, relevant to determining appropriate use case.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.saintbernard.com/products/never-summer-proto-slinger-mens-snowboard-2025</url>
+  <quote>Ability Level: Intermediate - Advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saintbernard.com/products/never-summer-proto-slinger-mens-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Saint Bernard is a reputable specialty retailer. Confirms ability level categorization.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url>
+  <quote>The edge hold, and overall predictable feel of turning a Never Summer board is hard to beat.</quote>
+  <quote>Never Summer boards aren't the lightest, but the tradeoff for the weight is they are tough – you can count on them lasting.</quote>
+  <quote>They aren't cheap either, but you do pay more for boards made in the US.</quote>
+  <quote>The Proto Slinger is stable enough at speed, but the softer flex and rocker between your feet mean it is never going to feel like stiff cambered board.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardrobot.com/snowboard-review/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Independent review site with practical, honest assessments. Notes both durability strengths and limitations at speed.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url>
+  <quote>Never summer has minimal compromise with making the board feel damper than its flex while still being super poppy.</quote>
+  <quote>Not a bomber. Its ok on medium sized runs but it is not a big steep run big mtn board.</quote>
+  <quote>Medium/Fast bordering on medium is how the Never Summer Proto Slinger turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride provides detailed riding analysis from two testers. States they don't get paid by manufacturers. Good for performance characteristics.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://snowboards.com/product/49687/never-summer-mens-proto-slinger-snowboard</url>
+  <quote>Your new Never Summer Snowboard is warrantied to be free of defects in material and/or workmanship for a period of three (3) years*</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49687/never-summer-mens-proto-slinger-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboards.com reproduces the full warranty text from Never Summer, confirming 3-year warranty period.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://www.christysports.com/product/never-summer-proto-slinger-x-snowboard/8106640.html</url>
+  <quote>Warranty - 3 Year Manufacturer's</quote>
+  </quotelist>
+  <url_with_text_link>https://www.christysports.com/product/never-summer-proto-slinger-x-snowboard/8106640.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Christy Sports confirms 3-year warranty as a structured spec field.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-synthesis-review/</url>
+  <quote>offers a limited 3-year warranty that covers defects in its materials and quality. The warranty doesn't cover the typical breaking from impacts, misuse, or neglect</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-synthesis-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World's review of the Proto Synthesis confirms warranty details applicable to NS boards generally, including the Proto Slinger.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://shop.rockymountainskiandboard.com/neversummer-mens-protoslinger.html</url>
+  <quote>$649.99 Excl. tax · In stock (1)</quote>
+  </quotelist>
+  <url_with_text_link>https://shop.rockymountainskiandboard.com/neversummer-mens-protoslinger.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Rocky Mountain Ski & Board lists full retail price at $649.99, corroborating MSRP across other sources.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://snowboards.com/product/49687/never-summer-mens-proto-slinger-snowboard</url>
+  <quote>Original Price: $649.99 · Savings 20% Off Original Price</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49687/never-summer-mens-proto-slinger-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboards.com confirms $649.99 original price with 20% discount bringing it to roughly $519.99.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.701cycleandsport.com/mens-2025-proto-slinger.html</url>
+  <quote>$519.99 Excl. tax · In stock · Men's Freestyle Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.701cycleandsport.com/mens-2025-proto-slinger.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>701 Cycle and Sport lists a discounted price, currently in stock.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url>
+  <quote>Sale price$489.00 USD Regular price$650.00 USD</quote>
+  </quotelist>
+  <url_with_text_link>https://glacierskishop.com/products/never-summer-proto-slinger-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Glacier Ski Shop offers one of the lower sale prices found; confirms $650 regular price (consistent with $649.99 MSRP).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://www.saintbernard.com/products/never-summer-proto-slinger-mens-snowboard-2025</url>
+  <quote>Never Summer Proto Slinger Men's Snowboard 2025 | $519.90</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saintbernard.com/products/never-summer-proto-slinger-mens-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Saint Bernard is a reputable specialty retailer, listing at $519.90.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.willisskiandboard.com/products/never-summer-proto-slinger-snowboard-2024</url>
+  <quote>Never Summer Proto Slinger Snowboard · $619.95 · $469.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.willisskiandboard.com/products/never-summer-proto-slinger-snowboard-2024</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Willi's lists prior year model at deep discount. Note the 2024 model MSRP was $619.95, slightly lower than the 2025 MSRP of $649.99.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://eskimoshop.com/never-summer-proto-slinger-2025/</url>
+  <quote>Never Summer Proto Slinger 2025 · Now $649.99</quote>
+  </quotelist>
+  <url_with_text_link>https://eskimoshop.com/never-summer-proto-slinger-2025/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Eskimo Ski & Board Shop lists the 2025 model at MSRP $649.99.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.amazon.com/Never-Summer-Slinger-Freestyle-Snowboard/dp/B0D8JYF4MG</url>
+  <quote>Amazon.com : Never Summer Proto Slinger Men's Freestyle Snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.amazon.com/Never-Summer-Slinger-Freestyle-Snowboard/dp/B0D8JYF4MG</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon listing confirms product availability on the platform.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://www.zombieboardshop.com/shop/SNOW/p/Never-Summer-Proto-Slinger-Snowboard-2025.htm</url>
+  <quote>Never Summer Proto Slinger Snowboard 2025</quote>
+  </quotelist>
+  <url_with_text_link>https://www.zombieboardshop.com/shop/SNOW/p/Never-Summer-Proto-Slinger-Snowboard-2025.htm</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Zombie Boardshop listing confirms availability at this retailer.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://skibarn.com/collections/snowboards-1-all/products/never-summer-mens-proto-slinger-board</url>
+  <quote>Never Summer Men's Proto Slinger Snowboard 2025</quote>
+  </quotelist>
+  <url_with_text_link>https://skibarn.com/collections/snowboards-1-all/products/never-summer-mens-proto-slinger-board</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Ski Barn listing confirms product availability.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+  <url>https://www.focusmadison.com/products/never-summer-proto-slinger-mens-snowboard-2025</url>
+  <quote>Never Summer Proto Slinger Men's Snowboard 2025 - 154 X (Wide) is backordered and will ship as soon as it is back in stock.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/never-summer-proto-slinger-mens-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Focus Boardshop listing shows backordered status for 154W, indicating demand for this size.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="52">
+  <quotelist>
+  <url>https://snowboards.eu/never-summer-proto-slinger/</url>
+  <quote>This snowboard is the result of years of innovation and feedback from professionals like Sam Anderson</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/never-summer-proto-slinger/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>European retailer (Sideways/snowboards.eu) confirms availability in Europe and confirms Sam Anderson as the pro rider.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url>
+  <quote>The 2025 Never Summer Proto Slinger is the go-to fun freestyle board that is packed with tech</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer listing confirms international availability and provides localized product description.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url>
+  <quote>The Never Summer Proto Slinger is just an evolved Funslinger with the same shape/specs and just a newer camber profile.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/never-summer-proto-slinger-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride confirms that the Proto Slinger is an evolution of the Funslinger, not a completely new design.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url>
+  <quote>I would say that the GNU Headspace is quite similar</quote>
+  <quote>In terms of bindings, I would go with something in the 4/10 to 5/10 flex range on the Proto Slinger.</quote>
+  <quote>Of those 3, I would say that the Disaster is the softest, most playful option, with the Jackpot being the stiffer, more aggressive option</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles reviewer provides competitor comparisons and binding recommendations in Q&A section with readers. Highly useful practical advice for purchasers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/never-summer-proto-synthesis-review/</url>
+  <quote>The Proto Slinger feels a lot like the Proto Synthesis; it has less carving power and more flex, which helps for pressing into rails. It's like a softer, more jib-focused Proto Synthesis.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/never-summer-proto-synthesis-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World compares the Proto Slinger to the Proto Synthesis from the same reviewer, providing direct sibling model comparison.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="57">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url>
+  <quote>Slinger easier to butter, but Kilroy Twin not hard or anything – Both equally good for jumps and spins</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/never-summer-proto-slinger-review-freestyle-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Direct comparison between Proto Slinger and Burton Kilroy Twin by experienced reviewer in response to reader question.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="58">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/binding-for-never-summer-protoslinger.273622/</url>
+  <quote>My malavita's worked well on my protoslinger.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/binding-for-never-summer-protoslinger.273622/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum user confirms Burton Malavita binding compatibility and good pairing with the Proto Slinger. Anecdotal but corroborates reviewer recommendations.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url>
+    <quote>brand: Never Summer; model name: Proto Slinger; model year: 2025; AUD price: $664.99; RRP price: $949.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/never-summer-proto-slinger-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

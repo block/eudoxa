@@ -1,0 +1,1002 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="22" category="availability" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="13" category="comparable" />
+  <duplicate_canonical name="recommended_weight_range_size" count="9" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="comparable_board_same_brand" count="8" category="comparable" />
+  <duplicate_canonical name="sustainability_certification" count="5" category="sustainability" />
+  <duplicate_canonical name="construction_material_innovation" count="5" category="construction" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="terrain_suitability" count="5" category="recommendation" />
+  <duplicate_canonical name="user_review_forum" count="5" category="review" />
+  <duplicate_canonical name="flex_rating_10" count="4" category="performance" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="4" category="review" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="4" category="review" />
+  <duplicate_canonical name="available_colors" count="3" category="identity" />
+  <duplicate_canonical name="topsheet_appearance_description" count="3" category="identity" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="binding_compatibility" count="2" category="unknown" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="2" category="review" />
+  <duplicate_canonical name="negative_aspect" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton Snowboards [MERCHANT] [1][4]
+2. model_name: Custom Glow (also sold as "Custom Camber Glow") [MERCHANT] [2][3]
+3. model_year: 2026 (Winter 2025/2026 season) [MERCHANT] [15][37]
+4. model series: Burton Custom — the series has been in production since 1996 [1][4]
+5. series first year: 1996 [1][10]
+6. product_type: Snowboard [MERCHANT] [36]
+7. gender: Men's (also listed as Unisex by REI) [2][37] — DISAGREEMENT: Blauer Board Shop lists as "Men's" while REI Technical Specs lists as "Unisex." The board is marketed primarily to men but REI categorises it as unisex.
+8. available_colors: "Glow" — one of four 2026 Custom graphic options (Jungle, Glow, Blank, 30th Anniversary Limited Edition) [4][18]
+9. topsheet_appearance_description: Neon-inspired design with glow-in-the-dark ink highlighting The Channel and base lettering [3][4]
+10. Jungle graphic: AI was used in the creation of the Jungle graphic — the only board in the C26 Burton line designed this way [51]
+11. Glow graphic is NOT AI-generated — AI was only used for the Jungle version [51]
+12. SKU: 106881AAI2RG150 (150cm size) [MERCHANT]
+13. manufacturer: Burton Snowboards, privately owned, founded 1977 by Jake Burton Carpenter [68]
+14. manufacturer headquarters: Burlington, Vermont, USA [68]
+15. manufacturing_location_current: Kiel-Nindl GMBH, Austria [39][63]
+16. prototyping facility: Burlington, Vermont (R&D and testing only) [69][70]
+17. sustainability_certification: Burton is a certified B Corp [manufacturer website footer]
+18. 30th anniversary: 2026 marks the 30th year of the Burton Custom model [4][18]
+19. 2026 model change: New graphic only ("Glow graphic") — no technical/spec changes from 2025 model [12][23]
+20. comparable_board_same_brand: Burton Custom Flying-V (more forgiving hybrid rocker/camber version) [MERCHANT] [79]
+21. comparable_board_same_brand: Burton Custom Jungle (same specs, different graphic) [4][18]
+22. comparable_board_same_brand: Burton Custom Blank (same specs, black & white graphic) [18]
+23. comparable_board_same_brand: Burton 30th Anniversary Custom (limited edition, original graphics/shape) [18][41]
+24. board_category: All Mountain [MERCHANT] [36]
+25. shape: Directional/Twin (directional shape with twin flex) [MERCHANT] [23]
+26. shape description: Slightly longer nose than tail to concentrate pop in the tail while providing float, with twin flex for switch riding [32][37]
+27. camber_type: Traditional Camber [MERCHANT] [23]
+28. camber_description: Weight distributed evenly across entire board for smooth continuous edge control from tip to tail [32][37]
+29. flex_rating_10: 5.5/10 [MERCHANT]
+30. flex_rating_10: 4–7/10 (Medium–Aggressive) [12][23] — DISAGREEMENT: The merchant site rates flex at 5.5/10 while Blauer Board Shop lists the range as 4-7/10. Burton officially rates it around 6/10 on some sites. The flex varies by size.
+31. flex_rating_10: Medium (6 out of 10) [39][63]
+32. flex_rating_10: Feels closer to 5/10, about one point less stiff than Burton's official rating [42]
+33. flex_feel: Twin flex — symmetrical from tip to tail [23][32]
+34. flex_direction: Twin (symmetrical flex both directions) [MERCHANT]
+35. width_options: Standard and Wide [MERCHANT]
+36. available_sizes: 150cm, 154cm, 156cm, 158cm, 162cm, 158cm Wide, 162cm Wide, 166cm Wide, 170cm Wide [MERCHANT]
+37. setback: -12.5mm (all sizes) [MERCHANT] [42]
+38. core_material: FSC™ Certified Super Fly II™ 700G Core [14][36]
+39. construction_material_innovation: Dualzone™ EGD™ — wood grain aligned along toe and heel edges in two unbroken zones perpendicular to rest of core [MERCHANT] [23][32]
+40. construction_material_innovation: Squeezebox — thicker powerful core sections combined with thinner flexible sections for enhanced energy transfer [MERCHANT] [32]
+41. core_material_blend_ratio: Dual-species — alternating softwood/hardwood laminations [85][32]
+42. laminate: 45° Carbon Highlights [MERCHANT] [29][36]
+43. construction_material_innovation: Full tip-to-tail carbon layer at 45° angle reduces weight and fine-tunes torsional flex [79][93]
+44. base_material: Sintered WFO [MERCHANT] [27][36]
+45. base_type: Extra-absorbent high-density sintered material infused with specially formulated wax for ultra-durable, fast base [93]
+46. resin: Super Sap® Epoxy — bio-based resin reducing carbon footprint by 50% over conventional petroleum-based epoxies [MERCHANT] [79][85]
+47. edge_technology: Frostbite Edges — extend out slightly underneath bindings for extra edge hold on hardpack and ice [MERCHANT] [14][85]
+48. construction_material_innovation: Pro-Tip™ — tapered tip and tail thickness reduces swing weight for easier mobility [MERCHANT] [23][87]
+49. construction_material_innovation: Infinite Ride™ — boards overbuilt then machine-broken-in at factory for consistent pop and performance from day one [MERCHANT] [79][93]
+50. mounting_pattern: The Channel® — compatible with all major binding brands, best with Burton EST bindings [MERCHANT] [32][40]
+51. binding_compatibility: EST bindings are ONLY compatible with The Channel system, but The Channel accepts all major binding brands [26][40]
+52. binding_compatibility: The Channel mounting system accepts 2x4 pattern bindings from all brands [26]
+53. sustainability_certification: FSC-C124994, FSC® 100%, NC-COC-007445 [83][84]
+54. warranty: 3-year warranty from date of purchase for all 2014 and newer Burton snowboards with The Channel [3][20][84]
+55. effective edge 150cm: 1135mm [MERCHANT]
+56. sidecut_radius_size: 7.4m [MERCHANT]
+57. waist width 150cm: 248mm [MERCHANT]
+58. tip_tail_width_size: 288mm [MERCHANT]
+59. stance_width_range_size: 505mm [MERCHANT]
+60. recommended_weight_range_size: 54-82kg [MERCHANT]
+61. effective edge 154cm: 1175mm [MERCHANT]
+62. sidecut_radius_size: 7.6m [MERCHANT]
+63. waist width 154cm: 250mm [MERCHANT]
+64. recommended_weight_range_size: 54-82kg [MERCHANT]
+65. effective edge 156cm: 1195mm [MERCHANT]
+66. sidecut_radius_size: 7.8m [MERCHANT]
+67. waist width 156cm: 252mm [MERCHANT]
+68. recommended_weight_range_size: 68-91kg [MERCHANT]
+69. effective edge 158cm: 1215mm [MERCHANT]
+70. sidecut_radius_size: 7.9m [MERCHANT]
+71. waist width 158cm: 254mm [MERCHANT]
+72. recommended_weight_range_size: 68-91kg [MERCHANT]
+73. effective edge 162cm: 1255mm [MERCHANT]
+74. sidecut_radius_size: 8.2m [MERCHANT]
+75. waist width 162cm: 256mm [MERCHANT]
+76. recommended_weight_range_size: 82-118+kg [MERCHANT]
+77. effective edge 158W: 1215mm [MERCHANT]
+78. waist width 158W: 262mm [MERCHANT]
+79. recommended_weight_range_size: 68-91kg [MERCHANT]
+80. effective edge 162W: 1255mm [MERCHANT]
+81. waist width 162W: 264mm [MERCHANT]
+82. recommended_weight_range_size: 82-118+kg [MERCHANT]
+83. effective edge 166W: 1295mm [MERCHANT]
+84. waist width 166W: 266mm [MERCHANT]
+85. recommended_weight_range_size: 82-118+kg [MERCHANT]
+86. effective edge 170W: 1335mm [MERCHANT]
+87. waist width 170W: 270mm [MERCHANT]
+88. recommended_weight_range_size: 82-118+kg [MERCHANT]
+89. terrain_suitability: 6/10 [MERCHANT] [19]
+90. terrain_suitability: 10/10 [MERCHANT] [19]
+91. terrain_suitability: 6/10 [MERCHANT] [19]
+92. rider_level: Intermediate to Expert [MERCHANT] [36][84]
+93. riding_style: All-Mountain / All-Mountain Freestyle [12][23]
+94. price_aud_merchant: $999.99 AUD [MERCHANT]
+95. price_aud_merchant: $799.99 AUD (20% off) [MERCHANT]
+96. price_usd_msrp: $679.95 [21][34][42]
+97. price_usd_msrp: $679.99 [34] — DISAGREEMENT: Most retailers list $679.95 while Aspen Ski lists $679.99. The $0.04 difference is likely a rounding issue.
+98. price_usd_evo: $475.96 [32][93]
+99. USD sale price (Darkside 2nd Quality): $475.96 [26]
+100. USD sale price (eBay): $509.96 [28]
+101. price_eur_blue_tomato: €359.95 (prior year discounted) / €879.95 (current full-price Custom X) [95]
+102. comparable_board_cross_brand: $579.95 [60]
+103. comparable_board_cross_brand: $579.95 [56]
+104. comparable_board_same_brand: $899.95 [33][96]
+105. comparable_board_cross_brand: $629.95 [56]
+106. comparable_board_cross_brand: $699.99 [56]
+107. availability_status: Burton.com (manufacturer direct) [15][35]
+108. availability_status: REI Co-op (major US outdoor retailer, strong reputation) [37]
+109. availability_status: evo.com (reputable US online snow/surf retailer; blem available at discount) [32][93]
+110. availability_status: Willi's Ski & Board ($679.95, some sizes out of stock) [17][21]
+111. availability_status: Blauer Board Shop (specialist snowboard retailer) [2][12]
+112. availability_status: Focus Boardshop (rider-owned, Madison WI; 156 backordered) [3][20]
+113. availability_status: Pacific Boarder (Vancouver, BC) [9][29]
+114. availability_status: Aspen Ski and Board ($679.99, backordered) [34]
+115. availability_status: Corbetts Ski + Snowboard [1]
+116. availability_status: Shoreline Tahoe [36][84]
+117. availability_status: The Source Snowboard & Skate [6][27]
+118. availability_status: Darkside Snowboards (Vermont, established 1989) [26][40]
+119. availability_status: eBay ($509.96, limited sizes) [28]
+120. availability_status: Twelve Board Store (Australia, international shipping) [14]
+121. availability_status: Balmoral Boards (Australia) [19]
+122. availability_status: Behind The Pines (EU) [10]
+123. availability_status: Sartorius Sports [8][16]
+124. availability_status: Rude Boys (Banff, Alberta) [83]
+125. availability_status: The Ski Monster (already showing 2027 model, US-based) [39][63]
+126. availability_status: Peter Glenn Ski and Sports [38]
+127. availability_status: Alpine Shop [89]
+128. availability_status: Berg's Ski Shop [85]
+129. shipping restriction (merchant site): Only available for shipping within Australia [MERCHANT]
+130. reviewer_opinion_whitelines: 89.52/100 (4.5/5) for 2025 Burton Custom Camber [42]
+131. reviewer_opinion_whitelines: 9th out of 38 all-mountain boards reviewed; 8th out of 36 park boards [42]
+132. overall_rating_snowboardingprofiles: #4 on Top All Mountain Snowboards for 2026 [61]
+133. The Inertia 2026: Not in top picks this year but "still more than worthy of your consideration" [60]
+134. user_review_forum: 5/5 stars, "absolutely brilliant All Mountain Snowboard" [44]
+135. user_review_forum: "Build quality is top-tier... the board feels durable and well-crafted. 10/10" [39]
+136. reviewer_opinion_the_good_ride: "Not the one-board quiver it used to be… missing the float and edge hold that many All-Mountain peers have, but it's still a very fun, springy, true camber ride" [45]
+137. reviewer_opinion_the_good_ride: "Let go pretty easy in hard patches" compared to disrupted sidecut boards from other brands [45]
+138. reviewer_opinion_whitelines: "Responsive feel with added power and pop for carving" [42]
+139. flex_feel: "Nose and tail feel softer and more pressable than the center between the bindings" — design gives playful feel while maintaining stability underfoot [42]
+140. reviewer_opinion_snowboardingprofiles: "Not going to be awesome for powder… a back leg burner in deeper powder" but "should handle shallow powder just fine" [43]
+141. reviewer_opinion_snowboardingprofiles: "For medium to moderately high speeds, the Custom was just so fun to carve" [43]
+142. reviewer_opinion_whitelines: "Costs $7.95 more than the average snowboard price of $468.01" [42]
+143. reviewer_opinion_the_good_ride: "Feels on the light side of medium, bordering on being pretty lightweight" [74]
+144. reviewer_opinion_the_good_ride: Does not publish exact weight "because with wood cores, there is no consistency in a board's weight" [74]
+145. board_weight_grams: 3550 grams [44]
+146. comparable_board_cross_brand: Custom Camber better for carving and jumping; Mountain Twin more forgiving and better for ice grip [53]
+147. comparable_board_cross_brand: Custom Camber more versatile all-mountain; DOA better for park/freestyle with more explosive pop [55]
+148. user_review_forum: "Full camber will be more precise" vs hybrid camber alternatives being more forgiving [54]
+149. user_review_forum: "Burton has kinda been left behind with their board tech and there are other options out there to try" [47]
+150. user_review_forum: "Twin camber medium stiffness is about as tried and true as you can possible have a snowboard be" [47]
+151. ride characteristics: Poppy, precise, versatile, stable at speed [2][10]
+152. pop: Excellent — one of its strongest attributes, especially for ollies and jump boosting [42][45]
+153. positive_aspect: Strong, particularly on firm snow where camber profile shines [10][44]
+154. edge_hold: Good with Frostbite Edges, but some reviewers note it loses grip on very hard/icy snow compared to boards with disrupted sidecuts [45][85]
+155. negative_aspect: Limited in deep powder; setback helps in shallow powder only [43]
+156. turn_initiation_performance: High — carbon highlights and EGD technology provide snappy energy return [29][42]
+157. chatter_performance: Medium — some chatter reported at very high speeds for heavier riders [74][95]
+158. switch_riding: Good — twin flex allows confident switch riding despite directional shape [23][32]
+159. buttering: Possible but requires "old school camber strength" due to full camber profile [74]
+160. terrain_suitability: Groomed runs, side hits, natural terrain features, light powder [2][10]
+161. negative_aspect: Deep powder (limited float), very hard ice (edge hold limited vs. competitors with disrupted sidecuts) [43][45]
+162. terrain_suitability: Primary resort board for intermediate to advanced riders who carve, hit jumps, and ride park occasionally [42][53]
+163. recommended binding pairings: Burton Cartel EST, Burton Genesis EST, Union Atlas, Union Strata [74][45]
+164. comparable_board_cross_brand: Jones Mountain Twin — more forgiving, hybrid camber-rocker, better in powder, better ice grip via Traction Tech 3.0 [53][54]
+165. comparable_board_cross_brand: Capita DOA — true twin, more freestyle/park focused, more explosive pop off jumps, $579.95 [55][60]
+166. comparable_board_cross_brand: Capita Mercury — directional all-mountain, similar price at $629.95 [56]
+167. comparable_board_cross_brand: Never Summer Proto Type 3 Ultra — triple camber, exceptional ice grip and pop, $699.99 [56]
+168. comparable_board_cross_brand: YES Standard — #2 on SnowboardingProfiles top all-mountain list for 2026 [61]
+169. comparable_board_cross_brand: GNU Forest Bailey 4x4 — #3 on SnowboardingProfiles list [61]
+170. comparable_board_cross_brand: Slash ATV — #1 on SnowboardingProfiles top all-mountain list for 2026 [61]
+171. comparable_board_same_brand: Burton Custom X ($899.95) — stiffer, carbon-fueled, expert-level, more aggressive [33][96]
+172. comparable_board_same_brand: Burton Feelgood — same core tech, women's-specific sizing (142-152cm) [42]
+173. comparable_board_same_brand: Burton Custom Smalls — PurePop Camber variant for youth [92]
+174. sustainability_certification: FSC® 100% certified core wood (FSC-C124994, NC-COC-007445) [83][84]
+175. sustainability_certification: Super Sap® Epoxy reduces carbon footprint by 50% vs petroleum-based alternatives [79][85]
+176. sustainability_certification: "Fighting for the future of our people, planet, and sport" [5][14]
+177. brand privately held: Burton has never been sold to private equity — Donna Carpenter famously declared "not for sale" [51]
+178. topsheet_appearance_description: Neon-inspired, glow-in-the-dark ink design [3][4]
+179. topsheet_appearance_description: Channel and base lettering light up in the dark [3][4]
+180. available_colors: Jungle — colorful ride-to-paradise jungle scene [3][4]
+181. available_colors: Blank — black & white minimalist design [18]
+182. graphic_designer_artist: Casey Callahan, Burton Design Lead [4]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.corbetts.com/burton-custom-glow-snowboard-2026/</url>
+  <quote>Since 1996, this icon has reigned supreme while constantly evolving</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/burton-custom-glow-snowboard-2026/#:~:text=Since%201996%2C%20this%20icon%20has%20reigned%20supreme</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Corbetts is an authorized retailer carrying the Burton Custom Glow 2026. The description confirms the product's history and series origin from 1996.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026</url>
+  <quote>Intermediate to advanced riders looking for a do-it-all camber board with all-mountain versatility, freestyle capability, and a responsive feel.</quote>
+  <quote>Summary Ability Intermediate – Advanced Rider Type All-Mountain / All-Mountain Freestyle Camber Profile Traditional Camber Flex 4–7/10</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026#:~:text=Intermediate%20to%20advanced%20riders</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is a specialist snowboard retailer providing a detailed summary of the Custom Glow 2026, including ability level, rider type, and flex range. Their flex rating of 4-7/10 differs from the merchant's 5.5/10.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.focusmadison.com/products/burton-custom-glow-camber-snowboard-2026</url>
+  <quote>glow-in-the-dark ink highlighting the Channel and base lettering to light up your favorite terrain</quote>
+  <quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/burton-custom-glow-camber-snowboard-2026#:~:text=glow-in-the-dark%20ink%20highlighting</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Focus Boardshop is a rider-owned retailer. Confirms graphic description and warranty details directly from product listing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/burton-2026-snowboards-graphics-choices/</url>
+  <quote>Naturally, by offering four different graphics including Ben Ferguson's Limited Edition 30th Anniversary Custom, jungle, a blank (black & white), and a glow-in-the-dark option</quote>
+  <quote>the all mountain perfection of the Burton Custom, the best-selling snowboard of all time</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/burton-2026-snowboards-graphics-choices/#:~:text=four%20different%20graphics</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Burton blog post confirming the four 2026 Custom graphic options and the 30th anniversary. This is a primary manufacturer source — highly credible for graphic details and marketing claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.willisskiandboard.com/products/burton-custom-graphic-camber-glow-snowboard-2026</url>
+  <quote>After driving innovation and progress for over 40 years, We are a purpose-led brand rooted in snowboarding and the outdoors.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.willisskiandboard.com/products/burton-custom-graphic-camber-glow-snowboard-2026#:~:text=purpose-led%20brand</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Willi's is a US retailer quoting Burton's brand statement about sustainability mission.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-mens-custom-camber-snowboard-glow-2026</url>
+  <quote>When it comes to stability and precision, the Custom Camber is the top choice for many Burton pro riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-mens-custom-camber-snowboard-glow-2026#:~:text=stability%20and%20precision</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Source is a Canadian retailer listing the Glow variant with standard Burton product descriptions.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://pacificboarder.com/products/burton-mens-custom-camber-snowboard-2026-glow</url>
+  <quote>Super Sap® Epoxy improves sustainability without sacrificing performance.</quote>
+  </quotelist>
+  <url_with_text_link>https://pacificboarder.com/products/burton-mens-custom-camber-snowboard-2026-glow#:~:text=Super%20Sap%C2%AE%20Epoxy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Pacific Boarder is a Vancouver retailer confirming key feature list including sustainability resin.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.behindthepines.eu/products/burton-custom-glow-2026-snowboard</url>
+  <quote>The Custom Camber is known for its stability and precision, especially on firm snow, where the camber profile truly shines.</quote>
+  <quote>Since its introduction in 1996, the Custom has defined what a versatile, high performance snowboard should be</quote>
+  </quotelist>
+  <url_with_text_link>https://www.behindthepines.eu/products/burton-custom-glow-2026-snowboard#:~:text=stability%20and%20precision%2C%20especially%20on%20firm%20snow</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Behind The Pines is a European retailer providing detailed editorial description of ride characteristics and history.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026</url>
+  <quote>What is new on the 2026 model? Glow graphic.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026#:~:text=What%20is%20new%20on%20the%202026%20model%3F%20Glow%20graphic</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer explicitly confirms the only change for 2026 is the new graphic, confirming no spec changes from 2025.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://twelveboardstore.com.au/en-us/products/burton-mens-custom-snowboard-glow-2026</url>
+  <quote>FSC™ Certified Super Fly II™ 700G Core – Stronger, lighter, and more responsive for ultimate control</quote>
+  <quote>3-Year Warranty – Backed by Burton's industry-leading durability guarantee.</quote>
+  </quotelist>
+  <url_with_text_link>https://twelveboardstore.com.au/en-us/products/burton-mens-custom-snowboard-glow-2026#:~:text=FSC%E2%84%A2%20Certified</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Twelve Board Store is an Australian retailer providing feature bullet points including FSC certification and warranty.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/mens-burton-custom-camber-snowboard/W26-106881.html</url>
+  <quote>Shop the Men's Custom Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/mens-burton-custom-camber-snowboard/W26-106881.html#:~:text=Men%27s%20Custom%20Camber%20Snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Burton.com product page. The page requires JavaScript so specs weren't fully rendered, but the URL confirms the W26 (Winter 2026) model designation. Highest credibility manufacturer source.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/burton-2026-snowboards-graphics-choices/</url>
+  <quote>Ben Ferguson's Limited Edition 30th Anniversary Custom: Burton team rider Ben Ferguson and the Burton Custom both turned 30 this year.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/burton-2026-snowboards-graphics-choices/#:~:text=Ben%20Ferguson%27s%20Limited%20Edition</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Burton blog confirming the 30th anniversary and the limited edition Ben Ferguson graphic variant.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.balmoralboards.com.au/products/burton-2026-custom-camber-glow</url>
+  <quote>DESIGNED FOR: Intermediate - Expert | Park 6/10, All-Mountain 10/10, Powder 6/10</quote>
+  </quotelist>
+  <url_with_text_link>https://www.balmoralboards.com.au/products/burton-2026-custom-camber-glow#:~:text=Park%206%2F10%2C%20All-Mountain%2010%2F10%2C%20Powder%206%2F10</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Balmoral Boards is an Australian retailer confirming official Burton terrain ratings.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.focusmadison.com/products/burton-custom-glow-camber-snowboard-2026</url>
+  <quote>Warranty: 3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system</quote>
+  </quotelist>
+  <url_with_text_link>https://www.focusmadison.com/products/burton-custom-glow-camber-snowboard-2026#:~:text=3-YEAR%20WARRANTY</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Focus Boardshop confirms the 3-year warranty applying to Channel-equipped Burton boards.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.willisskiandboard.com/products/burton-custom-graphic-camber-glow-snowboard-2026</url>
+  <quote>Burton Custom Graphic Camber Glow Snowboard 2026 · $679.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.willisskiandboard.com/products/burton-custom-graphic-camber-glow-snowboard-2026#:~:text=%24679.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Willi's is a US retailer confirming the $679.95 USD retail price.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026</url>
+  <quote>Pro-Tip™ – Tapered tip and tail thickness reduces swing weight for easier spins and maneuverability.</quote>
+  <quote>Super Fly II™ 700G Core – Lightweight, dual-species wood core designed for maximum pop and strength with reduced weight.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-custom-camber-glow-snowboard-2026#:~:text=Pro-Tip%E2%84%A2</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides detailed technical descriptions of key features like Pro-Tip and core construction.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://darksidesnowboards.com/products/burton-mens-custom-camber-snowboard-2026-2nd-quality</url>
+  <quote>Regular price $475.96 · Sale price$679.95</quote>
+  <quote>EST bindings are ONLY COMPATIBLE WITH THE BURTON CHANNEL SYSTEM.</quote>
+  </quotelist>
+  <url_with_text_link>https://darksidesnowboards.com/products/burton-mens-custom-camber-snowboard-2026-2nd-quality#:~:text=%24475.96</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Darkside Snowboards offers 2nd quality (blem) pricing at $475.96 and clarifies EST binding compatibility.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-mens-custom-camber-snowboard-glow-2026</url>
+  <quote>Base: Sintered WFO - High-end base material that is harder, more durable, and faster than extruded bases.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-mens-custom-camber-snowboard-glow-2026#:~:text=Sintered%20WFO</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Source describes the sintered WFO base as being harder, more durable, and faster than extruded bases — helpful buyer context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.ebay.com/itm/157345526646</url>
+  <quote>Item price · US $509.96</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/itm/157345526646#:~:text=%24509.96</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>eBay listing shows a discounted price for the Glow in 158 size. Prices fluctuate on eBay but confirms market availability.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-custom-snowboard</url>
+  <quote>Squeezebox – Burton's most versatile Squeezebox profile improves pop and performance</quote>
+  <quote>The Channel® Mounting System – Stronger, faster, easier, and more adjustable</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-custom-snowboard#:~:text=Squeezebox</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo is a major US online snow retailer with good reputation. Provides detailed specs from Burton. Confirms Squeezebox and Channel details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.aspenskiandboard.com/products/burton-custom-camber-mens-snowboard-2026</url>
+  <quote>$ 679.99 USD</quote>
+  </quotelist>
+  <url_with_text_link>https://www.aspenskiandboard.com/products/burton-custom-camber-mens-snowboard-2026#:~:text=%24%20679.99</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Aspen Ski and Board lists a $679.99 price (4 cents higher than most retailers), creating a minor price disagreement.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://shorelineoftahoe.com/products/burton-custom-camber-snowboard-2026</url>
+  <quote>Bend Camber Shape Directional Flex Twin Core Super Fly II™ 700G Core with Dualzone™ EGD™ Fiberglass 45° Carbon Highlights Base Sintered WFO</quote>
+  </quotelist>
+  <url_with_text_link>https://shorelineoftahoe.com/products/burton-custom-camber-snowboard-2026#:~:text=Bend%20Camber%20Shape%20Directional</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shoreline Tahoe provides the complete technical spec table in one line — highly useful for cross-referencing all core specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.rei.com/product/253102/burton-custom-camber-snowboard-20252026</url>
+  <quote>Snowboard Style: All-mountain, Snowboard Shape: Directional Twin, Snowboard Profile: Camber</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/253102/burton-custom-camber-snowboard-20252026#:~:text=All-mountain</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI is a major, highly reputable US outdoor retailer. Their technical specs table confirms core attributes and lists Gender as "Unisex" while most retailers list as Men's.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://theskimonster.com/products/burton-custom-camber</url>
+  <quote>Flex // Medium (6 out of 10) Shape // Directional Twin Profile // Camber Core Materials // FSC Certified Super Fly II 700G Added Materials // 45° Carbon Highlights Designed By // Burton Snowboards Built By // Kiel-Nindl GMBH, Austria</quote>
+  <quote>The build quality is top-tier, which is what you'd expect from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/burton-custom-camber#:~:text=Built%20By%2F%20Kiel-Nindl%20GMBH%2C%20Austria</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Ski Monster provides the crucial manufacturing detail — Kiel-Nindl GMBH, Austria — and confirms flex rating of 6/10. Also includes a customer review praising build quality.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://darksidesnowboards.com/products/burton-mens-custom-camber-snowboard-2026</url>
+  <quote>EST bindings are ONLY COMPATIBLE WITH THE BURTON CHANNEL SYSTEM. All bindings brands we carry are compatible with the Burton channel system and 2x4 patterns.</quote>
+  </quotelist>
+  <url_with_text_link>https://darksidesnowboards.com/products/burton-mens-custom-camber-snowboard-2026#:~:text=EST%20bindings%20are%20ONLY%20COMPATIBLE</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Darkside provides important buyer-facing clarification about binding compatibility — EST is proprietary but The Channel accepts all major brands.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/burton-custom-camber-review/</url>
+  <quote>Our Rating: 89.52 out of a possible 100 or 4.5 out of a possible 5 review score</quote>
+  <quote>Ranks 9th out of the 38 boards reviewed in the all mountain category.</quote>
+  <quote>I would say the 2025 Custom Camber is closer to a perfect happy medium 5 out of 10 flex pattern.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/burton-custom-camber-review/#:~:text=89.52%20out%20of%20a%20possible%20100</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-03-11</date_of_last_relevance>
+  <reasoning>Board of the World is a dedicated snowboard review site with standardised scoring methodology. The reviewer rode the board at a demo event. Provides both rating and a flex opinion that disagrees with Burton's official flex rating.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/burton-custom-camber-review-snowboard</url>
+  <quote>Not going to be awesome for powder… a back leg burner in deeper powder.</quote>
+  <quote>For medium to moderately high speeds, the Custom was just so fun to carve.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/burton-custom-camber-review-snowboard#:~:text=not%20going%20to%20be%20awesome%20for%20powder</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles.com is a specialist review site that tests boards in real conditions. Their powder and carving assessments directly affect buying decisions.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/burton-custom-snowboard-review.258173/</url>
+  <quote>The Burton Custom 166W is an absolutely brilliant All Mountain Snowboard.</quote>
+  <quote>Weight: 3550 grms</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/burton-custom-snowboard-review.258173/#:~:text=3550%20grms</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018-07</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Long-running forum thread with detailed review of 2019 Custom 166W. Provides actual measured weight (3550g) which Burton does not officially publish. Older model year but same core construction.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/</url>
+  <quote>The Burton Custom Camber is not the one-board quiver it used to be for most riders. It's missing the float and edge hold that many All-Mountain peers have</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/#:~:text=not%20the%20one-board%20quiver</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>The Good Ride is a well-known, independent snowboard review site spanning 15+ years of riding the Custom. Their honest criticism about edge hold and float is an important counterpoint to marketing claims.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/is-the-burton-process-still-a-good-buy-in-2025.282255/</url>
+  <quote>The guy down at the snowboard shop told me that burton has kinda been left behind with their board tech</quote>
+  <quote>Twin camber medium stiffness is about as tried and true as you can possible have a snowboard be.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/is-the-burton-process-still-a-good-buy-in-2025.282255/#:~:text=burton%20has%20kinda%20been%20left%20behind</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-11</date_of_first_relevance>
+  <date_of_last_relevance>2025-11</date_of_last_relevance>
+  <reasoning>Snowboarding forum thread shows both positive and negative community sentiment about Burton's technology compared to competitors. Useful for buyer context.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+  <url>https://www.snowboarder.com/news/burton-reveals-artificial-intelligence-snowboard-design</url>
+  <quote>It is the only board from Burton's entire 2025-2026 line that involved AI in the process.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboarder.com/news/burton-reveals-artificial-intelligence-snowboard-design#:~:text=only%20board%20from%20Burton%E2%80%99s%20entire%202025-2026%20line</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarder Magazine is a reputable industry publication. Confirms AI was used only for the Jungle graphic, not the Glow. Important context for buyers who care about AI in design.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/the-burton-custom-camber-vs-jones-mountain-twin/</url>
+  <quote>The Custom Camber excels with its precise carving and strong jump performance</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/the-burton-custom-camber-vs-jones-mountain-twin/#:~:text=Custom%20Camber%20excels%20with%20its%20precise%20carving</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Board of the World's head-to-head comparison between the Custom Camber and Jones Mountain Twin — directly relevant competitive comparison for buyers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/do-it-all-burton-custom-camber-or-jones-mountain-twin.271261/</url>
+  <quote>The Mountain Twin will be more versatile and forgiving. The Custom being a full camber will be more precise.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/do-it-all-burton-custom-camber-or-jones-mountain-twin.271261/#:~:text=more%20versatile%20and%20forgiving</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Community forum with direct buyer comparison between the two most common all-mountain board options. Forum consensus is useful for gauging real-world buyer sentiment.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/the-burton-custom-camber-vs-capita-doa/</url>
+  <quote>The Capita DOA is a jump-focused park board that's also capable of being your all-mountain board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/the-burton-custom-camber-vs-capita-doa/#:~:text=jump-focused%20park%20board</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Board of the World's comparison between Custom Camber and DOA — key competitor comparison for freestyle-leaning buyers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/the-2026-top-all-mountain-snowboards/</url>
+  <quote>The Burton Custom Camber ($679.95) offers a strong balance of stability and playfulness</quote>
+  <quote>At $579.95, the Jones Mountain Twin can handle every single type of condition</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/the-2026-top-all-mountain-snowboards/#:~:text=Burton%20Custom%20Camber%20(%24679.95)</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Board of the World's comprehensive 2026 all-mountain ranking article. Confirms pricing of key competitors and positions the Custom Camber in context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="60">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/best-snowboards/</url>
+  <quote>These full camber, directional twin boards are excellent all-mountain freestyle options… knocked out of the top picks this year, but are still more than worthy of your consideration.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/best-snowboards/#:~:text=knocked%20out%20of%20the%20top%20picks</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02-27</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Inertia is a well-known outdoor/surf/snow publication. Their 2026 test excluded Burton Custom from top picks but still recommended it — important counterpoint to marketing claims.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="61">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/the-top-all-mountain-snowboards-my-top-10</url>
+  <quote>#4: BURTON CUSTOM (CAMBER)</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/the-top-all-mountain-snowboards-my-top-10#:~:text=%234%3A%20BURTON%20CUSTOM</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03-20</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles maintains a ranked list based on testing. Positioning at #4 out of 10+ shows the Custom remains competitive but not category-leading.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="65">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/midnight-deals-family-values-story-burton-europe-first-modern-snowboard-factory/</url>
+  <quote>he stumbled upon Keil Ski, a ski manufacturer based in Uttendorf (close to Salzburg)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/midnight-deals-family-values-story-burton-europe-first-modern-snowboard-factory/#:~:text=Keil%20Ski%2C%20a%20ski%20manufacturer</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Burton blog telling the origin story of their Austrian manufacturing partnership with Keil Ski (now Kiel-Nindl). Confirms the long-standing manufacturing relationship.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="68">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+  <quote>In 2010, Burton announced that Burton Snowboards would cease manufacturing in Vermont and move production to Austria.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards#:~:text=privately%20owned%20snowboard%20manufacturer</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced background on Burton's founding, ownership, and manufacturing shift to Austria. Useful for brand context.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="69">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Burton still run their prototyping facility in Vermont, but production takes place mostly in China and Austria.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands#:~:text=prototyping%20facility%20in%20Vermont</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles' detailed manufacturing article confirms Burton's dual production in Austria (high-end) and China (other lines), with prototyping in Vermont.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="70">
+  <quotelist>
+  <url>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url>
+  <quote>Most of its snowboards are made at the Keil factory with 80 workers in Austria</quote>
+  </quotelist>
+  <url_with_text_link>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/#:~:text=Keil%20factory%20with%2080%20workers%20in%20Austria</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-12</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>VTDigger is a reputable Vermont news outlet with direct factory access. Confirms 80 workers at the Keil Austrian factory making most Burton snowboards. Older article but manufacturing location remains the same.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="74">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/</url>
+  <quote>The Burton Custom Camber feels on the light side of medium, bordering on being pretty lightweight.</quote>
+  <quote>We don't put in the exact weight because with wood cores, there is no consistency in a board's weight</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/#:~:text=light%20side%20of%20medium</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>The Good Ride's subjective weight assessment and explanation of why exact board weights aren't reliable — important buyer context for anyone comparing weight specs.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="79">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-custom-2025</url>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  <quote>45° Carbon Highlights – Carbon Highlights optimizes each layer of the fiberglass matrix and adds a full tip-to-tail carbon layer</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-custom-2025#:~:text=Super%20Sap%C2%AE%20Epoxy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop's 2025 listing provides the most detailed technology descriptions for the identical construction (2025 and 2026 have same specs). Confirms Super Sap and carbon specs.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="83">
+  <quotelist>
+  <url>https://rudeboys.com/products/burton-custom-camber-snowboard-w26</url>
+  <quote>Made with FSC® certified materials, FSC-C124994 FSC® 100%, NC-COC-007445</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/burton-custom-camber-snowboard-w26#:~:text=FSC-C124994</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Rude Boys (Banff retailer) provides the exact FSC certification numbers for the board's wood core sourcing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="84">
+  <quotelist>
+  <url>https://shorelineoftahoe.com/products/burton-custom-camber-snowboard-2026</url>
+  <quote>Riding Level Intermediate Expert Sustainability Super Sap® Epoxy Made with FSC® certified materials, FSC-C124994 FSC® 100%, NC-COC-007445</quote>
+  </quotelist>
+  <url_with_text_link>https://shorelineoftahoe.com/products/burton-custom-camber-snowboard-2026#:~:text=Riding%20Level%20Intermediate%20Expert</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shoreline Tahoe confirms riding level range and full sustainability certification details in a clean spec table.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="85">
+  <quotelist>
+  <url>https://www.bergsskishop.com/shop/p97854/custom-snowboard-mens</url>
+  <quote>Frostbite extends your edges out slightly beneath your bindings for extra edge hold on hard and icy conditions. Less grabby than other traction features from other brands</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bergsskishop.com/shop/p97854/custom-snowboard-mens#:~:text=Frostbite%20extends%20your%20edges</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Berg's Ski Shop provides the most detailed and buyer-friendly description of Frostbite Edges, explaining how they work and how they compare to competitors.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="87">
+  <quotelist>
+  <url>https://www.alternative113.com/en/burton-25-men-s-custom-board-1-btn-100.html</url>
+  <quote>Pro-Tip™: A tapered tip and tail thickness reduces swing weight for easier mobility.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.alternative113.com/en/burton-25-men-s-custom-board-1-btn-100.html#:~:text=Pro-Tip%E2%84%A2</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Alternative 113 retailer provides clean Burton tech descriptions. Same construction as 2026 model.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="93">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-custom-snowboard</url>
+  <quote>Sintered WFO – Infusing a specially formulated wax deep into the pores of this extra-absorbent, high-density sintered material</quote>
+  <quote>Infinite Ride™ – This Burton-exclusive technology allows maximized pop and strength by overbuilding the board, then putting it in a machine that breaks in the board for you.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-custom-snowboard#:~:text=Sintered%20WFO</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo is a major retailer with comprehensive product descriptions. Their descriptions of Sintered WFO and Infinite Ride technology are the most detailed available.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="95">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/</url>
+  <quote>When it comes to pointing it the Burton Custom Camber isn't bad if you are a lighter rider. For me it bucked a little</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-snowboard-review-with-davey/#:~:text=bucked%20a%20little</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-02</date_of_last_relevance>
+  <reasoning>The Good Ride's assessment of high-speed stability issues for heavier riders — important honest criticism for buyer decision-making.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="96">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-custom-x-snowboard</url>
+  <quote>Burton Custom X Snowboard - Blem 2026 $899.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-custom-x-snowboard#:~:text=%24899.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo listing for the Custom X confirms the step-up model's price point for competitive comparison.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-custom-glow</url>
+    <quote>brand: Burton; model name: Custom Glow; model year: 2026; SKU: 106881AAI2RG150; AUD price: $799.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-custom-glow</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

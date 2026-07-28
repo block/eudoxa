@@ -1,0 +1,877 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="user_review_forum" count="8" category="review" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="7" category="review" />
+  <duplicate_canonical name="contact_length_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="6" category="comparable" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="5" category="performance" />
+  <duplicate_canonical name="edge_technology" count="5" category="unknown" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="4" category="review" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="3" category="review" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="rider_level" count="2" category="target_user" />
+  <duplicate_canonical name="turn_initiation_performance" count="2" category="performance" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1][4]
+2. model_name: Dynamo [1]
+3. full product name: Lib Tech Dynamo C3 Snowboard 2026 [4]
+4. model_year: 2025-2026 (marketed as "2026") [1]
+5. manufacturer: Mervin Manufacturing [6]
+6. manufacturer founded: 1977, by Mike Olson and Pete Saari [6]
+7. manufacturing_location: Carlsborg/Sequim, Washington, USA [6][7]
+8. handbuilt in USA: Yes — "Every Lib Tech board is handmade by snowboarders with jobs in the USA" [8]
+9. model_first_available_year: 2019/20 winter season — "The Lib Tech Dynamo is all new for 2019/20 winter season" [9]
+10. model continuity: Continuously produced from 2020-2026, with incremental updates [10]
+11. 2026-2027 early release successor: Already available — described as "a new floatier shape" with "a new powerful camber contour" [11]
+12. 2025 vs 2024 shape change: "The 2025 Lib Tech Dynamo has the same sidecut, contact length, effective edge width, and length but now has more surface area in the form of a more blunted-out nose and tail" [10]
+13. SKU: 25SN041 (merchant data)
+14. product_type: Snowboard [1]
+15. board_category: All Mountain - Freeride [1][12]
+16. gender: Men's [4]
+17. graphic_designer_artist: Mike Parillo (@mikeparillo) [1]
+18. pro_rider_name: Austen Sweetin and Phil Hansen favorite [1]
+19. comparable_board_same_brand: Lib Tech Dynamiss [13]
+20. shape: Tapered Directional [1][14]
+21. taper: 3mm — "slightly tapered directional shape with 3mm of taper" [10]
+22. camber_type: C3 Directional — described as "very mild rocker between feet with powerful directional camber to tip and tail" [1][15]
+23. camber_description: "The camber profile is full camber from tip to tail with an almost barely noticeable passive bend from tip to tail" [10]
+24. camber_height_mm: 7mm (SnowboardingProfiles measured) [16]
+25. camber_type: Camber/Rocker/Camber hybrid [4][17]
+26. nose design: Relaxed entry directional nose, newly squared-off (2025+ update) [1][18]
+27. flex_rating_10_manufacturer: 6/10 (merchant data, confirmed manufacturer spec table) [1]
+28. flex_rating_10_manufacturer: 5/10 [1]
+29. flex_rating_10_manufacturer: 6.5/10 [1]
+30. flex_rating_10_manufacturer: 6.5/10 [1]
+31. flex_rating_10_manufacturer: 7/10 [1]
+32. flex_rating_10_evo: "Medium - Stiff — Stout enough to charge your hardest but without excessive harshness" [4]
+33. flex_feel: "Medium (6.5/10)" [16]
+34. flex_feel: "There is a medium-ish flex in the studio, but it's almost consistent from tip to tail and feels a bit stiffer torsionally, so on snow, this feels almost medium stiff" [10]
+35. flex_feel: evo standardizes 6/10 as "Medium" [22]; Blauerboardshop and evo both call it "Medium-Stiff" [4][19]; merchant data says 6/10 is "Balanced blend of flexibility and stiffness." The manufacturer's own rating of 6/10 on most sizes places it in the medium to medium-stiff range; reviewers describe it as feeling stiffer on snow than the number suggests.
+36. flex_direction: Directional flex — consistent from tip to tail per TheGoodRide [10]
+37. construction: OP — Original Power Construction [1][20]
+38. core_material: Aspen (75%) and Paulownia (25%) [1] (merchant data)
+39. core_material: "sustainable poppy aspen/paulownia core" [1]
+40. laminate: Tri-Ax/Bi-Ax Fiber [MERCHANT]
+41. topsheet: Eco Sublimated Poly Topsheet — "sublimated polyester material that's great for vibrant yet durable graphics" [18]
+42. sidewall_material: Birch Internal — "Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability" [8]
+43. sidewall_material: UHMW Sintered Sidewalls — "ultra high molecular weight material increases durability, response and control" [8]
+44. base_material: Eco Sublimated TNT Base — "Fast and low maintenance, this base accepts wax easily and stands up to punishment" [4]
+45. base_type: Classified as Extruded — "Lib Tech's Eco Sublimated TNT" [16]
+46. edge_technology: Magne-Traction — "seven strategically placed serrations along edges" [1][21]
+47. edge_technology: "seven medium-sized Magnetraction bumps" [10]
+48. tip/tail protection: UHMW Tip/Tail Impact Deflection (merchant data)
+49. mounting_pattern: 2x4 Inserts [17] (merchant data)
+50. sustainability_certification: "Core materials are sourced from fast-growing, renewable forest products. Water-based solvents used for cleansing instead of petrochemical-based solvents" [18]
+51. sustainability_certification: "zero hazardous waste producing factory" [22]
+52. sustainability_certification: "All wood sawdust is recycled as a soil additive, plus scrap wood is donated to a local Mood Wood company" [18]
+53. sustainability_certification: Eco-friendly sublimation process eliminates toxic gloss curtain coats and allows base material recycling [23]
+54. available_sizes: 150cm, 153cm, 156cm, 159cm, 162cm [1]
+55. available_sizes: 156W, 159W, 162W, 165W [1]
+56. contact_length_size: 105cm [1]
+57. sidecut_radius_size: 7.8m [1]
+58. tip_tail_width_size: 28.2/27.8cm [1]
+59. waist width 150cm: 24.3cm [1]
+60. stance_width_range_size: 18.5"-23.5" [1]
+61. recommended_weight_range_size: 80+lbs / 35+kg [1]
+62. contact_length_size: 108cm [1]
+63. sidecut_radius_size: 7.9m [1]
+64. waist width 153cm: 25.2cm [1]
+65. recommended_weight_range_size: 95+lbs / 45+kg [1]
+66. contact_length_size: 111cm [1]
+67. sidecut_radius_size: 8.0m [1]
+68. tip_tail_width_size: 29.7/29.4cm [1]
+69. waist width 156cm: 25.5cm [1]
+70. stance_width_range_size: 20.25"-25.0" [1]
+71. recommended_weight_range_size: 110+lbs / 50+kg [1]
+72. contact_length_size: 114cm [1]
+73. sidecut_radius_size: 8.1m [1]
+74. waist width 159cm: 25.7cm [1]
+75. recommended_weight_range_size: 130+lbs / 60+kg [1]
+76. contact_length_size: 116cm [1]
+77. waist width 162cm: 25.8cm [1]
+78. recommended_weight_range_size: 150+lbs / 70+kg [1]
+79. waist width 156W: 26.5cm [1]
+80. waist width 159W: 26.7cm [1]
+81. waist width 162W: 26.8cm [1]
+82. waist_width_165: 26.8cm [1]
+83. contact_length_size: 118cm [1]
+84. sidecut_radius_165: 8.3m [1]
+85. setback: 1 inch (25mm) on sidecut [1]
+86. board_weight_grams: 2880g / 6lbs 6oz [16]
+87. weight_per_cm: 18.46g/cm vs average 18.58g/cm — essentially average [16]
+88. reviewer_opinion_the_good_ride: "Feels pretty normal. Not heavy or light…and for me, just right" [10]
+89. recommended boot size 150cm: US 6-7 [10]
+90. recommended boot size 153cm: US 8-9 [10]
+91. recommended boot size 156cm: US 8.5-9.5 [10]
+92. recommended boot size 159cm: US 10-11 [10]
+93. recommended boot size 162cm: US 10.5-11.5 [10]
+94. recommended boot size 156W: US 10.5-11.5 [10]
+95. recommended boot size 162W: US 11-12 [10]
+96. recommended_boot_size_165: US 11.5-12.5 [10]
+97. price_usd_msrp: $579.99 [1]
+98. price at Lib Tech direct (sale): $405.99 (30% off from $579.99) [1]
+99. price_usd_evo: $405.99 (from $579.99) [4]
+100. price_usd_tactics: $405.99 [24]
+101. price at The House (sale): $405.99 [10]
+102. price at Sun & Ski Sports: $463.93 [10]
+103. price_usd_backcountry: $463.99 [10]
+104. price at Milo Snow and Skate: $439.99 (regular $579.95) [25]
+105. price at eBay (new): $459.00 [26]
+106. price at SpokeX: $579.99 (full price) [27]
+107. price_cad_prfo: $510.99 [10]
+108. price at Stoked Board Shop (EUR): €353.95 [10]
+109. price at SnowCountry (EUR): €471.96 [10]
+110. price_aud_merchant: $969.99
+111. price at McU Sports: $487.47 [28]
+112. Blem version available at evo: Yes, same features with possible cosmetic issues [29]
+113. B-Grade version at Lib Tech direct (2025 model): $521.99 [30]
+114. warranty: 1 year manufacturer warranty — "Covered under manufacturer warranty for 1 year from the time of purchase. Warranty includes structural defects only and DOES NOT cover impact damage, abuse, misuse or normal wear and tear" [8]
+115. rider_level: Intermediate-Advanced [4][17]
+116. skill_level_recommendation: "for more technical, advanced to expert riders and not ideal for intermediates unless they want to take some lumps" [10]
+117. rider_level: Merchant/manufacturer say "Intermediate-Advanced"; TheGoodRide says "advanced to expert riders". The board's C3 camber profile is more technical than most Intermediate boards, so it may be best suited to the upper end of intermediate through advanced.
+118. terrain_suitability: All Mountain, Freeride [1] (merchant data)
+119. riding_style: Freeride, All Mountain, Cruising [MERCHANT]
+120. terrain_suitability: Freestyle, All-Mountain, Freeride [17]
+121. reviewer_opinion_the_good_ride: "Excellent Pop, Near Excellent Grip, Very Fun To Turn & Get Air With" [10]
+122. negative_aspect: "Not as good as some peers in powder" [10]
+123. negative_aspect: "Base loses wax quickly and can feel slow" [10]
+124. reviewer_opinion_the_good_ride: "really shines on groomers and is a great choice for those who see a lot of hard snow" [10]
+125. reviewer_opinion_the_good_ride: "did very well for a board with camber from tip to tail with only a passive bend in the middle" but "there are many better options out there" [10]
+126. switch_riding: "the kind of board I like to throw around switch a lot, even though it favors a more directional turn" [10]
+127. reviewer_opinion_the_good_ride: "can point it on a straight line a lot better than you would think for this flex and sidecut" [10]
+128. reviewer_opinion_the_good_ride: "not a great jibber with this flex, but it's a great jump and pipe board" [10]
+129. reviewer_opinion_the_good_ride: "more reliable than many ultra-light boards and better in all conditions" [10]
+130. base_glide_performance: Lib Tech bases lose wax quickly; "Even when well waxed, they aren't as fast as many of their peers" [10]
+131. comparable_board_cross_brand: Yes Pick Your Line, Burton Flight Attendant, Gnu Mullair, Jones Flagship, Lib Tech Lost Round Nose Fish, Never Summer West Bound, Rossignol XV, Gnu Antigravity [10]
+132. overall_rating_snowboardingprofiles: 82.2/100 [16]
+133. category ranking: 25th out of 28 mellow freeride boards tested [16]
+134. category average score: 85.7/100 [16]
+135. carving_score_snowboardingprofiles: 3.5/5 — "decent for carving, didn't wash out easily... a little above average" [16]
+136. turn_initiation_performance: 3.5/5 — "a little bit of effort required to initiate turns" [16]
+137. powder_score_snowboardingprofiles: 4/5 [16]
+138. trees rating: 4/5 [16]
+139. crud rating: 3.5/5 [16]
+140. speed rating: 3.5/5 [16]
+141. jumps rating: 3.5/5 [16]
+142. switch rating: 3/5 [16]
+143. dampness feel: 6/10 [16]
+144. reviewer_opinion_snowboardingprofiles: "some noticeable catch-threat in there" [16]
+145. reviewer_opinion_snowboardingprofiles: "didn't feel like the Dynamo had anything particularly bad about it, but there was nothing that was particularly good with it either" [16]
+146. comparable_board_same_brand: "significantly under the Jamie Lynn for stability at speed and carving" [16]
+147. turn_initiation_performance: "fast on the Dynamo, it is really easy to make fast carves and lay into eurocarves" [31]
+148. speed stability: "damp and stable at high speeds" [31]
+149. positive_aspect: "the nose lifts up and the slightly set back stance just makes it floaty and playful" [31]
+150. overall sentiment: "true to its name — energetic, powerful and delivers a lot of fun" [31]
+151. weight feel: reviewer noted surprisingly light feel [9]
+152. control feel: "medium flex and Mervin C3 camber give you a great feeling of precise control, with heaps of power for pop" [9]
+153. edge_hold: "confidence-giving grip when things get a bit icy under foot" [9]
+154. user_review_forum: "I love it for smaller east coast resorts. I wanted a camber board with lots of grip but not too stiff" [32]
+155. user_review_forum: "Mag is great on the east coast, especially if you have another board for better days!" [32]
+156. user_review_forum: "Dynamo is a fantastic one board directional quiver option. It's real good" [32]
+157. user_review_forum: "Mervin boards are usually stiff brand new and they break in after 30 days or so of riding" [33]
+158. user_review_forum: A user reported the board being initially too stiff out of box, softening after break-in [33]
+159. user_review_forum: After break-in — "the pop was epic and fun. This thing Rips groomers and I Love the stability with the mag and camber" [33]
+160. manufacturer site rating: 98% of 100 — 56 reviews [1]
+161. merchant customer rating: 5.0 out of 5 (1 review) [MERCHANT]
+162. edge_technology: 7 per edge [21][10]
+163. edge_technology: "wavy, serrated edge that acts like a serrated knife, providing superior traction on hardpack, ice, and variable conditions" [34]
+164. technology is Mervin exclusive: "only available on Lib Tech, Gnu, and Roxy snowboards" [34]
+165. edge_technology: "mellow mag" — "The mellow mag seems to have a good grip, but it isn't quite an icy snow specialist like the full mag boards from Lib Tech" [10]
+166. user_review_forum: Some riders find it "too grabby/grippy" — "I rode the Ejack and the Dynamo and they both had too much grip for me" [35]
+167. user_review_forum: "Magnetraction is one of the greatest tech innovations in snowboarding" [35]
+168. comparable_board_cross_brand: Same manufacturer; similar board. Forum user: "On paper they are the same but the Gnu is cheaper." Reviewer felt Antigravity may be softer. [32]
+169. comparable_board_same_brand: Reviewer found the Jamie Lynn "significantly" better for stability at speed and carving [16]
+170. comparable_board_cross_brand: Listed as comparable board by TheGoodRide; Frontier provides "a more forgiving all-mountain ride" per brand assessment [36]
+171. comparable_board_cross_brand: Listed as comparable board by TheGoodRide [10]
+172. comparable_board_cross_brand: Listed as comparable board; Flagship is stiffer/more freeride focused [10]
+173. comparable_board_same_brand: Sister model with hybrid camber; Dynamo delivers more camber-driven performance [37]
+174. comparable_board_cross_brand: "K2 Instrument, Jones Hovercraft, Ride Shadowban in wide, Lib Tech Dynamo in wide, Rome Stale Crewzer in wide" [38]
+175. brand reputation: "Lib Tech keep it weird but functional, and their edges grip insanely well" [39]
+176. brand reputation (general): Lib Tech is among the "proven names with gear that lasts" alongside Burton, Jones, CAPiTA [39]
+177. manufacturing uniqueness: "the longest running and last major board building factory in the USA" [6]
+178. parent company ownership: Altamont Capital Partners (acquired from Quiksilver in 2013) [40]
+179. Mervin employee count: Approximately 84 employees [41]
+180. Mervin annual revenue: Approximately $54.3 million [41]
+181. evo.com: Lowest Price Guarantee — "We'll beat it by 5%"; up to 1 year returns; up to 10% back in rewards [4]
+182. Tactics.com: Low price guarantee, free shipping over $99, 10% back in rewards on full-priced items, 10% bundle discount with Bent Metal bindings [18]
+183. Salty Peaks: 10-Day Price Match Guarantee in store credit; decades of industry leadership [42]
+184. BlueZone Sports: Free shipping over $50; $24.99 return shipping fee for snowboards [43]
+185. reviewer_opinion_snowboardingprofiles: "best suited to someone who wants a board that's on the freeride/directional side but don't want to go too directional and don't want anything too stiff/aggressive" [16]
+186. negative_aspect: "Not for beginner, IMO — the catch-feel and effort, even if not that huge, to initiate turns would make focusing on good technique difficult" [16]
+187. terrain_suitability: Hard snow and groomers [10]
+188. negative_aspect: Deep powder compared to dedicated freeride boards [10]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.lib-tech.com/dynamo</url>
+  <quote>A dreamy camber directional all terrain freeride board with unlimited freestyle capacity.</quote>
+  <quote>An Austen Sweetin and Phil Hansen favorite.</quote>
+  <quote>$579.99 $405.99</quote>
+  <quote>Rating: 98 % of 100 · 56 Reviews</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/dynamo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page — primary authority for specs, pricing, and product description. The spec table provides authoritative sizing data. Sale pricing may be time-limited.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard</url>
+  <quote>Camber Directional – Camber Hybrid Technology.</quote>
+  <quote>Medium - Stiff – Stout enough to charge your hardest but without excessive harshness.</quote>
+  <quote>Eco Sublimated TNT – Fast and low maintenance, this base accepts wax easily and stands up to punishment.</quote>
+  <quote>Intermediate-Advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a leading US-based specialty snow sports retailer with detailed product descriptions, standardized flex ratings, and price matching. Highly credible for product descriptions and pricing.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.mervin.com/about/</url>
+  <quote>Mervin Manufacturing was founded by snowboarders Mike Olson and Pete Saari in 1977.</quote>
+  <quote>Based out of Carlsborg, Washington, between the rugged Olympic and Cascade Mountain Ranges</quote>
+  <quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing about page — primary source for company history, location, and manufacturing claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url>
+  <quote>It manufactures its snowboards in Sequim, Washington.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Mervin_Manufacturing</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides independent confirmation of the Sequim, WA manufacturing location and company history.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url>
+  <quote>Handbuilt in the USA - Every Lib Tech board is handmade by snowboarders with jobs in the USA.</quote>
+  <quote>1 Year Warranty - Covered under manufacturer warranty for 1 year from the time of purchase.</quote>
+  <quote>Birch Internal Sidewalls - Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability.</quote>
+  <quote>UHMW Sintered Sidewalls - A Lib Tech innovation that is twice as sintered as most industry sidewalls.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics is a reputable specialty snowboard retailer with detailed technology descriptions sourced from the manufacturer. Warranty details are standard retailer-provided information.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-dynamo-2019-2020.html</url>
+  <quote>The Lib Tech Dynamo is all new for 2019/20 winter season</quote>
+  <quote>The Dynamos medium flex and Mervin C3 camber give you a great feeling of precise control, with heaps of power for pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-dynamo-2019-2020.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-10</date_of_first_relevance>
+  <date_of_last_relevance>2020-04</date_of_last_relevance>
+  <reasoning>Whitelines is an established specialist snowboard publication in the UK. Their 2019-2020 review confirms the Dynamo was introduced as a new model for that season. Review impressions are from initial model year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-dynamo-snowboard-review/</url>
+  <quote>The Lib Tech Dynamo has a Slightly Tapered Directional Shape with 3mm of taper.</quote>
+  <quote>The Lib Tech Dynamo has seven medium-sized Magnetraction bumps.</quote>
+  <quote>List Price $579 (USD) Excellent Pop · Near Excellent Grip · Very Fun To Turn & Get Air With · Not as good as some peers in powder · Base looses wax quickly and can feel slow</quote>
+  <quote>There is a medium-ish flex in the studio, but it's almost consistent from tip to tail and feels a bit stiffer torsionally, so on snow, this feels almost medium stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-dynamo-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>TheGoodRide is a highly respected independent snowboard review site with extensive, multi-day testing. James Biesty has tested 800+ boards. The review covers 2020-2026 models with detailed updates and price comparisons from multiple retailers.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.lib-tech.com/dynamo-2627-early-release</url>
+  <quote>A new floatier shape on our dreamy camber directional all terrain freeride board with unlimited freestyle capacity.</quote>
+  <quote>A new powerful camber contour with Magne-Traction® guarantees precise hard pack carving</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/dynamo-2627-early-release</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official manufacturer early release page for next year's model. Confirms the model continues and that a shape update is coming for 2026-2027, which contextualizes the current 2025-2026 model as nearing end-of-season.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/lib-tech-dynamo</url>
+  <quote>Board Type: All Mountain - Freeride</quote>
+  <quote>Flex: 6/10 (1=soft, 10=stiff)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-dynamo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an Australian retailer confirming board type and flex rating consistent with other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.lib-tech.com/dynamiss</url>
+  <quote>The Dynamiss is a dynamic all terrain snowboard that is as comfortable charging and carving on resort runs as it is floating on dreamy pow days.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/dynamiss</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer page confirming the Dynamiss as the women's counterpart to the Dynamo.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url>
+  <quote>Featuring a directional shape with a tapered tail, the Dynamo excels in freeride scenarios</quote>
+  <quote>C3 Directional Contour: Very mild rocker between the feet with powerful directional camber for maximum edge hold, pop, and precision</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Salty Peaks is a respected specialty retailer in Utah. Their product descriptions are consistent with manufacturer specs.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url>
+  <quote>The C3 Directional contour combines a very mild rocker between the feet with powerful directional camber extending to the tip and tail.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Confirms the C3 camber profile description from a retailer source.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/lib-tech-dynamo-review-freeride-snowboard</url>
+  <quote>Rating Score: 82.2/100</quote>
+  <quote>The Dynamo ranked 25th out of 28</quote>
+  <quote>Board Weight: 2880g / 6lbs 6ozs</quote>
+  <quote>Flex Feel on Snow: Medium (6.5/10)</quote>
+  <quote>Camber Height: 7mm</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/lib-tech-dynamo-review-freeride-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-01-26</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles provides methodical, scored reviews with measured data (actual board weight, camber height). Nate has weighed 300+ models. This is a detailed first-hand test of the 2026 model specifically on a 156cm. The lower ranking (25/28) provides important context for a purchase decision.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/bargain-loft/bargain-loft-activities/bargain-loft-activities-snowboard/lib-tech-dynamo-snowboard-2025-2026/</url>
+  <quote>Terrain: Freestyle, All-Mountain, Freeride Ability Level: Intermediate-Advanced Rocker Type: Camber/Rocker/Camber Shape: Directional Flex Rating: Medium Binding Mount Pattern: 2×4</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/bargain-loft/bargain-loft-activities/bargain-loft-activities-snowboard/lib-tech-dynamo-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>McU Sports retailer listing with standardized specs. Confirms binding mount pattern, terrain categories, and flex description. Calls flex "Medium" whereas other sources add "Stiff" qualifier.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url>
+  <quote>Eco-Sub Poly Top Sheet - sublimated polyester material that's great for vibrant yet durable graphics, which means a long lasting image.</quote>
+  <quote>Mervin Made: EnvironMENTAL Construction - Core materials are sources from fast-growing, renewable forest products. Water-based solvents used for cleansing instead of petrochemical-based solvents.</quote>
+  <quote>All wood sawdust is recycled as a soil additive, plus scrap wood is donated to a local Mood Wood company</quote>
+  <quote>Its relaxed entry, newly squared-off directional nose, and mild taper effortlessly float through powder and crud.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics provides detailed technology descriptions direct from manufacturer literature, including topsheet, environmental construction, and nose shape update details.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/lib-tech-dynamo-snowboard-2026</url>
+  <quote>Medium–Stiff flex built for stability at speed and confident freeride performance.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/lib-tech-dynamo-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is a specialty retailer describing the flex as "Medium-Stiff," consistent with evo's characterization.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/demoed-a-dynamo-board-loved-it-bought-one-too-stiff-wtf.281185/</url>
+  <quote>And the construction is still the OP construction.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/demoed-a-dynamo-board-loved-it-bought-one-too-stiff-wtf.281185/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum user confirms the OP construction continues across model years. Low individual credibility but consistent with manufacturer specs.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.the-house.com/portal/magne-traction/</url>
+  <quote>Magne-Traction® boasts seven points, akin to the difference between a serrated knife and a butter knife.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/portal/magne-traction/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2004</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The House provides an educational article on Magne-Traction technology, confirming seven contact points and the serrated edge design. Well-established retailer with gear expertise.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard</url>
+  <quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo's standardized flex rating system. By this scale, a 6/10 board falls in the "stiff" range — but evo categorizes the Dynamo as "Medium" in their own listing, creating some ambiguity.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url>
+  <quote>Our sublimation process eliminates the need for the super toxic automotive lacquer gloss coats you see on many shiny snowboard topsheets.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2008</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Lib Tech blog post about their environmental manufacturing practices. Older content but the sublimation process is still used on the Dynamo and other current models.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url>
+  <quote>Lib Tech Dynamo C3 Snowboard 2026 in stock at Tactics.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/dynamo-c3-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics current listing confirms in-stock status and sale pricing at $405.99 (visible in TheGoodRide aggregated pricing).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.milosnowandskate.com/products/lib-tech-orca-snowboard-2026-copy</url>
+  <quote>Sale price $439.99 Regular price $579.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosnowandskate.com/products/lib-tech-orca-snowboard-2026-copy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Independent retailer with a 24% discount; pricing snapshot.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.ebay.com/shop/lib-tech-dynamo?_nkw=lib+tech+dynamo</url>
+  <quote>Lib Tech Dynamo Snowboard NEW 2026 · Brand New · $459.00 · Buy It Now</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ebay.com/shop/lib-tech-dynamo?_nkw=lib+tech+dynamo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>eBay listings for new Dynamo boards from various sellers. Prices fluctuate and warranty support may vary from authorized retailers.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://spokex.com/products/dynamo</url>
+  <quote>2026 Lib Tech Dynamo Snowboard · Lib Tech · $579.99</quote>
+  </quotelist>
+  <url_with_text_link>https://spokex.com/products/dynamo</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Small retailer listing at full MSRP.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.mcusports.com/shop/bargain-loft/bargain-loft-activities/bargain-loft-activities-snowboard/lib-tech-dynamo-snowboard-2025-2026/</url>
+  <quote>$487.47Current price is: $487.47.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/bargain-loft/bargain-loft-activities/bargain-loft-activities-snowboard/lib-tech-dynamo-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>McU Sports retailer with a mid-range discount from MSRP.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard-blem</url>
+  <quote>*Please Note: This is a factory blem product. It may have slight cosmetic issues that do not impact performance.*</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-dynamo-c3-snowboard-blem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo blem listing confirms factory seconds are available at a discount with only cosmetic issues.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.lib-tech.com/dynamo-2025-b-grade</url>
+  <quote>dynamo-b · Be the first to review this product · $521.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/dynamo-2025-b-grade</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-06</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Official Lib Tech B-grade listing for the prior year's Dynamo at a lower price point.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.oldguysriptoo.com/lib-tech-dynamo/</url>
+  <quote>I felt turn initiation was fast on the Dynamo, it is really easy to make fast carves and lay into eurocarves</quote>
+  <quote>Its damp and stable at high speeds</quote>
+  <quote>In powder this board is great too, the nose lifts up and the slightly set back stance just makes it floaty and playful.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.oldguysriptoo.com/lib-tech-dynamo/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-04</date_of_first_relevance>
+  <date_of_last_relevance>2021-04</date_of_last_relevance>
+  <reasoning>Old Guys Rip Too is an enthusiast review site. Their positive Dynamo review contrasts with SnowboardingProfiles' more lukewarm assessment, providing balance. Tested on earlier model year but construction unchanged.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-tech-dynamo-anyone-ridden-it.264425/</url>
+  <quote>I love it for smaller east coast resorts. I wanted a camber board with lots of grip but not too stiff</quote>
+  <quote>Mag is great on the east coast, especially if you have another board for better days!</quote>
+  <quote>Dynamo is a fantastick one board directional quiver option. It's real good.</quote>
+  <quote>On paper they are the same but the Gnu is cheaper.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-dynamo-anyone-ridden-it.264425/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Snowboarding Forum is a long-running enthusiast community. Multiple user experiences provide user-level validation. Individual posts are anecdotal but patterns across users increase credibility.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.42</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/demoed-a-dynamo-board-loved-it-bought-one-too-stiff-wtf.281185/</url>
+  <quote>Mervin boards are usually stiff brand new and they break in after 30 days or so of riding</quote>
+  <quote>I took it out today and it seems way friendlier I smooth and the pop was epic and fun.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/demoed-a-dynamo-board-loved-it-bought-one-too-stiff-wtf.281185/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum thread specifically about Dynamo break-in experience. Important for buyer expectations — the board may feel stiffer than expected new and soften with use. Multiple users confirm this pattern.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.absolute-snow.com/buying-guides/lib-tech-mervin-magne-traction-explained</url>
+  <quote>Magne-Traction is a game-changing edge technology designed to enhance grip and control on the mountain.</quote>
+  <quote>Since Mervin Manufacturing holds the patent for Magne-Traction, it's only available on Lib Tech, Gnu, and Roxy snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/buying-guides/lib-tech-mervin-magne-traction-explained</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2004</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute Snow provides an educational explainer on Magne-Traction technology, confirming the patent exclusivity and how it works. Solid retailer source for technology explainers.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/magnetraction-traction-tech-experiences-reviews.275060/</url>
+  <quote>I rode the Ejack and the Dynamo and they both had too much grip for me.</quote>
+  <quote>Magnetraction is one of the greatest tech innovations in snowboarding.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/magnetraction-traction-tech-experiences-reviews.275060/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum thread with diverse user opinions on Magne-Traction. Important for showing that the technology is divisive — some love it, some find it too grippy. Directly mentions the Dynamo by name.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://thesnowchasers.com/blog/best-snowboard-brands/</url>
+  <quote>the Frontier gives you a more forgiving all-mountain ride without losing control.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowchasers.com/blog/best-snowboard-brands/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Snow Chasers is a snowboard enthusiast blog. Useful for competitor brand positioning, though not a deep equipment review source.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url>
+  <quote>I really liked how it didn't feel like a major downgrade in same day tests against full camber rides like the Lib Tech Dynamo</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>TheGoodRide comparison of the Lib Rig against the Dynamo provides context for how the Dynamo's full camber compares to hybrid alternatives in the same brand family.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/jones-stratos-as-bad-as-people-say-it-is.280790/</url>
+  <quote>Lib Tech Dynamo in wide, Rome Stale Crewzer in wide.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/jones-stratos-as-bad-as-people-say-it-is.280790/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2024-01</date_of_last_relevance>
+  <reasoning>Forum post recommending the Dynamo Wide as a competitor option for big-footed riders alongside other brands.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://thesnowchasers.com/blog/best-snowboard-brands/</url>
+  <quote>Lib Tech keep it weird but functional, and their edges grip insanely well.</quote>
+  <quote>Burton, Jones, Lib Tech, CAPiTA, Union, ThirtyTwo, Nitro, Ride, Rome and Smith are all proven names with gear that lasts.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowchasers.com/blog/best-snowboard-brands/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Brand reputation context from a snowboard enthusiast blog. Useful for positioning Lib Tech as a respected brand among competitors.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url>
+  <quote>Today Mervin Manufacturing recognizes its official change in ownership from Quiksilver, Inc. to Altamont Capital Partners</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Mervin announcement confirming the ownership change to Altamont Capital Partners in 2013. Corporate ownership context for the brand.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://rocketreach.co/mervin-manufacturing-inc-profile_b5d66768f42e3286</url>
+  <quote>The Mervin Manufacturing, Inc. annual revenue was $54.3 million in 2026.</quote>
+  <quote>Mervin Manufacturing, Inc. is a Sporting Goods Manufacturing company located in Sequim, Washington with $54.3 million in revenue and 84 employees.</quote>
+  </quotelist>
+  <url_with_text_link>https://rocketreach.co/mervin-manufacturing-inc-profile_b5d66768f42e3286</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>RocketReach provides estimated company financials. Revenue and employee count figures are estimates and not official disclosures, so credibility is moderate.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url>
+  <quote>With our 10-Day Price Match Guarantee, you can shop confidently</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/lib-tech-dynamo-8/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Salty Peaks retailer page with price match policy info.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.bluezonesports.com/lib-tech/lib-tech-dynamo-snowboard-2026-55629</url>
+  <quote>Enjoy free shipping on eligible orders over $50!</quote>
+  <quote>$24.99 Return Shipping Fee: Snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bluezonesports.com/lib-tech/lib-tech-dynamo-snowboard-2026-55629</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-06</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>BlueZone Sports retailer page with shipping and return policy specifics.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/lib-tech-dynamo-2026</url>
+    <quote>AUD price: $969.99; brand: Lib Tech; manufacturer: Mervin Manufacturing; model name: Dynamo; model year: 2026</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-dynamo-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

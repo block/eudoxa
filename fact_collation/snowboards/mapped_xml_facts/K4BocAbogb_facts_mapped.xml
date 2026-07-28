@@ -1,0 +1,737 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="12" category="review" />
+  <duplicate_canonical name="stance_width_range_size" count="10" category="geometry" note="size_variant" />
+  <duplicate_canonical name="availability_status" count="10" category="availability" />
+  <duplicate_canonical name="construction_material_innovation" count="6" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="5" category="comparable" />
+  <duplicate_canonical name="base_material" count="5" category="construction" />
+  <duplicate_canonical name="available_sizes" count="5" category="availability" />
+  <duplicate_canonical name="contact_length_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="topsheet_appearance_description" count="3" category="identity" />
+  <duplicate_canonical name="flex_rating_10" count="3" category="performance" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="core_material" count="3" category="construction" />
+  <duplicate_canonical name="topsheet" count="3" category="construction" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="estimated_availability_date" count="2" category="availability" />
+</canonical_schema>
+
+<answer>
+1. brand: Nidecker [1][2]
+2. model_name: Sensor Pro [1][2]
+3. model_year: 2027 [1][5]
+4. predecessor_model_name: Nidecker Sensor Plus (renamed to Sensor Pro for model year 2025) [11][17]
+5. product_type: Snowboard [1][2]
+6. board_category: Freestyle-All Mountain [14][16]
+7. gender: Men's [5]
+8. manufacturer: Nidecker SA, 2 place de l'Industrie, 1180 Rolle, Switzerland [7]
+9. Manufacturer European representative: Low Pressure Studio BV, Johan Van Hasseltweg 8B, Amsterdam 1022, Netherlands [7]
+10. Manufacturer US operations: Low Pressure Studio, 55 S Atlantic St #202, Seattle, WA, United States [2]
+11. Nidecker company founded: 1887 in Etoy, Switzerland [18]
+12. First Nidecker snowboard produced: 1984 in Rolle, Switzerland [19]
+13. Nidecker ownership: 100% family-owned, fifth-generation [18][20]
+14. Nidecker is the oldest European snowboard brand still in operation [19]
+15. Nidecker Group also owns: Jones Snowboards, YES., Rome, Bataleon, Lobster, NOW Bindings, ThirtyTwo, etnies, éS, Emerica [18][21]
+16. manufacturing_location_current: Swiss-designed, assembled in Asia [22]
+17. sustainability_certification: 1% for the Planet — 1% of all sales donated to environmental initiatives [12][23]
+18. warranty: 2-year warranty against manufacturer defects, extendable to 3 years with registration [3]
+19. Nidecker committed to snowboarding since 1984 [24]
+20. construction_material_innovation: Orbital Cushioning™ technology (shock-absorbing urethane around inserts) [6][15]
+21. topsheet_appearance_description: Updated graphics — topsheet features wrestlers depicting Cooper Branham and Taylor Gold [25]
+22. 2027 Sensor Pro positioned between Sensor (softer) and Sensor Mons (stiffer pro model) in Nidecker's lineup [4]
+23. pro_rider_name: Taylor Gold, Craig McMorris [5][7]
+24. Mons Røisland associated with the related Sensor Mons signature model, not the Sensor Pro itself [6]
+25. shape: True Twin (symmetrical tip and tail) [1][7]
+26. setback: 0mm (all sizes) [1][MERCHANT]
+27. taper: 0mm (all sizes) [1]
+28. camber_type: Camber Pro (most aggressive camber in Nidecker range) [1][5]
+29. camber_description: More pronounced camber that pushes contact points further out, extending effective edge [5]
+30. camber_description: Super reactive profile for advanced riders demanding explosive pop, insane edge-hold and a locked-in feel on rails [5]
+31. flex_rating_10: 6/10 [MERCHANT]
+32. flex_rating_5: 4/5 (which equals 8/10) [5][7] — COMMENT: The manufacturer rates flex "4/5" = "Stiff". However the merchant site lists 6/10, which is "mid-flex." This is a significant disagreement.
+33. flex_rating_10: 7/10, "medium flex on the stiffer side" [11] — COMMENT: A third-party reviewer's subjective assessment, which falls between the merchant's 6/10 and manufacturer's 8/10.
+34. flex_rating_10: 8/10 "stiff freestyle flex" [4]
+35. flex_feel: "Powerful and aggressive. For riders who can harness it, a stiff flex delivers snappy ollies and razor-sharp edge control." [5]
+36. flex_feel: Mid-flex [MERCHANT]
+37. flex_feel: Stiff [5]
+38. flex_direction: Symmetrical (twin flex pattern, nose and tail feel the same) [9]
+39. laminate: Premium Sandwich Construction (adds carbon stringers to standard sandwich) [5][7]
+40. laminate: Biax Plus (classic 90° weave with more glass for enhanced power transfer) [5][7]
+41. laminate: "Super responsive and ideal for riders seeking a stiffer and more agile board that's still playful" [5]
+42. construction_material_innovation: Pop Carbon Plus (carbon on both sides of core, nose to tail) [5][7]
+43. construction_material_innovation: "Beefing up the flex. Ideal for aggressive riders who want snappy edge response, tons of pop and a smooth ride at high speeds" [5]
+44. Construction includes Kevlar® in addition to Carbon (per evo description of Premium Sandwich) [8]
+45. core_material: Light Core (Nidecker's lightest core) [5][7]
+46. core_material: Paulownia (lightweight), Poplar (responsive), Beech (hardwood stringers down center) [5][7]
+47. core_material: includes Spruce additionally [11] — COMMENT: Reviewer lists "poplar, beech, spruce, and paulownia" while manufacturer lists only three. This may reflect older spec or reviewer error.
+48. base_material: N-9000 Sintered [5][7]
+49. base_material: "Super dense, high carbon content to minimise friction" [5]
+50. base_material: "The fastest base in Nidecker's lineup" [5]
+51. base_material: "made from carbon nanoparticles... very dense molecular structure, making it the fastest and hardest base material" [7]
+52. base_type: Sintered [5]
+53. Base graphics: Diecut base (pure-color base materials pieced together like jigsaw) [5]
+54. topsheet: Absorbnid Topsheet [5][7]
+55. topsheet: "Absorbs unwanted vibrations for a smooth ride with less fatigue" [5]
+56. topsheet: "rubbery matte material... adds extra layer of dampening" [11]
+57. topsheet_appearance_description: Matte finish [5]
+58. topsheet_appearance_description: Neon Color inks + Overprint (layered artwork adds depth and texture) [5]
+59. construction_material_innovation: Orbital Cushioning™ (2027 new) — surrounds inserts with shock-absorbing urethane [6][15]
+60. construction_material_innovation: "Creates a smooth, planted ride whether you're pinning it down the in-run or landing deep" [6]
+61. mounting_pattern: 2x4 inserts [1][11]
+62. mounting_pattern: 6 rows at 2cm intervals [5]
+63. binding_compatibility: Works with all bindings except Burton EST channel system [11]
+64. available_sizes: 150cm [1]
+65. Effective edge (150cm): 1160mm [1][MERCHANT]
+66. contact_length_size: 1040mm [1]
+67. sidecut_radius_size: 7.3m [1][MERCHANT]
+68. Waist width (150cm): 246mm [1][MERCHANT]
+69. Underfoot width front/rear (150cm): 255.0mm [1]
+70. tip_tail_width_size: 286.0mm [1]
+71. stance_width_range_size: 520mm [1]
+72. stance_width_range_size: 480-600mm [1]
+73. recommended_weight_range_size: 50-75kg / 110-165 lbs [1]
+74. Recommended binding size (150cm): M [1]
+75. Tail length (150cm): 230mm [1]
+76. available_sizes: 154cm [1][MERCHANT]
+77. Effective edge (154cm): 1200mm [1][MERCHANT]
+78. contact_length_size: 1080mm [1]
+79. sidecut_radius_size: 7.6m [1][MERCHANT]
+80. tip_tail_width_size: 294mm [1][MERCHANT]
+81. Waist width (154cm): 252mm [1][MERCHANT]
+82. Underfoot width front/rear (154cm): 261.0mm [1]
+83. stance_width_range_size: 540mm [1][MERCHANT]
+84. stance_width_range_size: 500-620mm [1]
+85. recommended_weight_range_size: 55-80kg / 120-175 lbs [1][MERCHANT]
+86. Recommended binding size (154cm): M [1]
+87. Tail length (154cm): 230mm [1]
+88. available_sizes: 158cm [1][MERCHANT]
+89. Effective edge (158cm): 1240mm [1][MERCHANT]
+90. contact_length_size: 1120mm [1]
+91. sidecut_radius_size: 7.9m [1][MERCHANT]
+92. tip_tail_width_size: 297mm [1][MERCHANT]
+93. Waist width (158cm): 254mm [1][MERCHANT]
+94. Underfoot width front/rear (158cm): 264.0mm [1]
+95. stance_width_range_size: 560mm [1][MERCHANT]
+96. stance_width_range_size: 520-640mm [1]
+97. recommended_weight_range_size: 65-90kg / 145-200 lbs [1][MERCHANT]
+98. Recommended binding size (158cm): L [1]
+99. Tail length (158cm): 230mm [1]
+100. available_sizes: 158cm Wide [1][MERCHANT]
+101. Effective edge (158W): 1240mm [1][MERCHANT]
+102. contact_length_size: 1120mm [1]
+103. sidecut_radius_size: 7.9m [1][MERCHANT]
+104. tip_tail_width_size: 309mm [1][MERCHANT]
+105. Waist width (158W): 265mm [1][MERCHANT]
+106. Underfoot width front/rear (158W): 275.0mm [1]
+107. stance_width_range_size: 560mm [1]
+108. stance_width_range_size: 520-640mm [1]
+109. recommended_weight_range_size: 65-90kg / 145-200 lbs [1][MERCHANT]
+110. Recommended binding size (158W): XL [1]
+111. Tail length (158W): 230mm [1]
+112. available_sizes: 162cm [1][MERCHANT]
+113. Effective edge (162cm): 1280mm [1][MERCHANT]
+114. contact_length_size: 1160mm [1]
+115. sidecut_radius_size: 8.2m [1][MERCHANT]
+116. Waist width (162cm): 256mm [1][MERCHANT]
+117. Underfoot width front/rear (162cm): 266.0mm [1]
+118. tip_tail_width_size: 301mm [1]
+119. stance_width_range_size: 560mm [1]
+120. stance_width_range_size: 520-640mm [1]
+121. recommended_weight_range_size: 75+kg / 165+ lbs [1][MERCHANT]
+122. Recommended binding size (162cm): L-XL [1]
+123. Tail length (162cm): 230mm [1]
+124. width_options: Standard, Wide (158W only) [1][MERCHANT]
+125. terrain_suitability: 5/5 [5]
+126. terrain_suitability: 4/5 [5]
+127. terrain_suitability: 3/5 [5]
+128. terrain_suitability: Park, freestyle, all mountain, street [MERCHANT]
+129. riding_style: Competition freestyle, street sessions, switch riding, park [MERCHANT]
+130. rider_level: Advanced [MERCHANT][5]
+131. skill_level_recommendation: Advanced to expert aggressive freestyle riders [9][5]
+132. price_aud_merchant: $899.99 AUD [MERCHANT]
+133. price_usd_msrp: $549.95 USD [5]
+134. price_usd_msrp: $579.95 USD [3]
+135. Price USD (NZ Shred, 2027 model): $587.00 USD [10]
+136. availability_status: Preorder (2027 model) [MERCHANT]
+137. estimated_availability_date: May 1, 2026 [MERCHANT]
+138. estimated_availability_date: Expected delivery April/May 2026 [5]
+139. availability_status: Pre-order, estimated availability May 2026 [10]
+140. availability_status: Pre-order [4]
+141. availability_status: Pre-order [14]
+142. availability_status: Available in 154cm and 158cm [10]
+143. availability_status: In stock [8]
+144. availability_status: 154 and 158 in stock; 150, 158w, 162 sold out [5]
+145. availability_status: Available [7]
+146. availability_status: Listed [13]
+147. Price vs average: $44.23 more than the average snowboard price of $535.72 (per Board of the World) [11]
+148. availability_status: All sizes listed as "sold out or unavailable" (pre-order) — 150, 154, 158, 162, 158W [10]
+149. Retailer: Ballistyx (Melbourne, AUS) — "Trusted Melbourne snowboard store since 1991" [4]
+150. Retailer: Elevation107 (Sydney, AUS) — lay-by available [5]
+151. Retailer: Cherri Pow (AUS) — "trusted since 1987" [10]
+152. Retailer: Snow Central (Brisbane, AUS) — small locally-owned business [14]
+153. Retailer: NZ Shred (New Zealand) [10]
+154. Retailer: evo.com (USA) — major US online retailer with free shipping & lowest price guarantee [8]
+155. Retailer: Snowboard Zezula (Czech Republic/Europe) — major European snowboard retailer [7]
+156. Retailer: Gear West (USA, Minnesota) [13]
+157. Retailer: Blauer Boardshop (USA) [15]
+158. return_policy_terms: Nidecker.com direct (USA) — 30-day return policy, free shipping over $100 [5]
+159. pop: "Snappy, explosive pop" — "spring-board level of pop" due to carbon stringers and camber [11]
+160. reviewer_opinion_snowboardingprofiles: "Not the easiest to get the pop going, but with a good wind up it gives back good energy" [9]
+161. reviewer_opinion_snowboardingprofiles: "Felt like it could remain stable and unaffected no matter what you could throw at it" [9]
+162. reviewer_opinion_snowboardingprofiles: "Really stable for the run in and the bigger the jump the better" [9]
+163. reviewer_opinion_the_good_ride: "Very easy to carve... can roll effortlessly edge to edge" [11]
+164. edge_hold: Strong edge hold due to Camber Pro profile with extended effective edge [5]
+165. switch_riding: "True twin outline rides just as well switch as it does in your regular stance" [5]
+166. reviewer_opinion_snowboardingprofiles: "Not great for jibbing... more of a jump board than jib stick" [9]
+167. reviewer_opinion_snowboardingprofiles: "A little on the stiff side to really press and hold" [9]
+168. reviewer_opinion_snowboardingprofiles: "Not awful for slow speed quick turns, but it's also not great — it feels at home much more with a bit of speed" [9]
+169. reviewer_opinion_snowboardingprofiles: "Definitely not powder oriented... once it gets deeper, it's going to be a nose diver" [9]
+170. reviewer_opinion_snowboardingprofiles: "Weight and stiffness help it plow through the junk, and it hardly got bucked around at all" [9]
+171. reviewer_opinion_snowboardingprofiles: "Decent enough, but a little too heavy, stiff and damp to make it super enjoyable" [9]
+172. reviewer_opinion_snowboardingprofiles: "Especially good for bigger jumps — it gives you confidence because of its stability" [9]
+173. base_glide_performance: "Glide didn't feel super fast, so you may need to keep up more regular waxing" [9]
+174. reviewer_opinion_snowboardingprofiles: "Not a light board, so it takes a bit of effort to get the rotations around" [9]
+175. reviewer_opinion_snowboardingprofiles: "A little on the catchy side on setup and landings, but not horrible" [9]
+176. Durability (Board of the World): "Can take a beating, and it keeps bouncing back" — survived a nose hit that would have damaged other boards [11]
+177. overall_rating_snowboardingprofiles: 29th of 38 in all-mountain category; 26th of 36 in park category [11]
+178. skill_level_recommendation: "Advanced to expert rider who wants to send it and needs a board that can remain stable even when pushed to the limits" [9]
+179. comparable_board_same_brand: Sensor is softer, better for jibbing; Sensor Pro is stiffer, better for jumping [11]
+180. comparable_board_same_brand: Team is a wider version with N-7000 Hybrid base (sintruded) rather than N-9000 sintered; Team is less aggressive [16]
+181. comparable_board_same_brand: Mons is Mons Røisland's pro-level signature, sits above Sensor Pro in stiffness and is for competition riders [4]
+182. comparable_board_cross_brand: DOA ($463.96) is more playful/buttery, uses Resort V1 hybrid profile vs full camber; better for soft snow/park; Nidecker boards have better edge hold on icy hardpack [17]
+183. comparable_board_cross_brand: Mountain Twin ($579.95) is a directional twin with serrated edges, broader all-mountain capability [17]
+184. comparable_board_cross_brand: Capita is seen as more playful for park; Nidecker is seen as more stable at speed with better edge hold on hard snow [17]
+185. comparable_board_cross_brand: Capita DOA, Jones Mountain Twin, YES Standard, Capita Mercury, Lib Tech dPr [17][18]
+186. Youth variant exists: Sensor Pro Youth 2027 (124, 136, 142, 146cm sizes) [8]
+187. Craig McMorris signature variant: Limited to 100 boards worldwide with custom graphics [8]
+188. comparable_board_same_brand: Mons Røisland's signature model based on Sensor Pro platform [6]
+189. Sidekick technology (on prior models): lifts contact points at widest nose/tail points for catch-free feel [11] — NOTE: The 2027 model appears to have replaced SideKick with Orbital Cushioning™ as the featured exclusive technology.
+190. Industry trend context: "Back to camber trend undeniable" heading into Olympic year [25]
+191. Recommended bindings (manufacturer): Kaon Pro (two-strap, stiff) paired on Nidecker.com [5]
+192. Recommended bindings (Board of the World reviewer): Nidecker Supermatic pair well with Sensor Pro [11]
+193. base_material: Board of the World review mentions N-7000 base, while all manufacturer/retailer sources for 2026-2027 list N-9000. This likely reflects the reviewer testing a 2024 model.
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-pro-2026</url>
+  <quote>Sensor Pro — True Twin, Camber Pro, Stiff — Sale price $549.95</quote>
+  <quote>size chart: 150, 154, 158, 158w, 162 with full specs including effective edge, sidecut, waist width, stance range</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-pro-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker manufacturer product page for the Sensor Pro 2026 model. Contains authoritative size chart data, official pricing, and tech specifications. The 2026 and 2027 models share the same size chart specs based on cross-reference with merchant data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-pro-2026</url>
+  <quote>Low Pressure Studio, 55 S Atlantic St #202, WA, Seattle, United States</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-pro-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker US website footer listing US operations address.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-pro-2025</url>
+  <quote>Nidecker snowboards are backed by a full two-year warranty against manufacturer's defects that can be extended to three years simply by registering your new board.</quote>
+  <quote>Sale price $579.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-pro-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Official Nidecker product page for the 2025 model year, confirming warranty terms and prior year pricing.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-nidecker-sensor-pro-snowboard</url>
+  <quote>The Nidecker Sensor Pro sits right in the sweet spot of Nidecker's freestyle lineup, delivering serious park performance without stepping into the full pro-level stiffness of the Sensor Mons.</quote>
+  <quote>Flex – 8/10 A stiff freestyle flex</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-nidecker-sensor-pro-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Ballistyx is an established Melbourne snowboard retailer listing the 2027 model. Their flex rating of 8/10 aligns with the manufacturer's 4/5 "Stiff" rating. Contains analysis of lineup positioning.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-pro-2026</url>
+  <quote>Camber Pro - Our most aggressive camber is more pronounced and pushes the contact points further out, extending the effective edge.</quote>
+  <quote>Powerful and aggressive. For riders who can harness it, a stiff flex delivers snappy ollies and razor-sharp edge control.</quote>
+  <quote>N-9000 Sintered — A lightning quick sintered base made from super dense material with a high carbon content to minimise friction.</quote>
+  <quote>Park 5/5, Resort 4/5, Pow 3/5, Flex 4/5</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-pro-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Official Nidecker manufacturer page — the highest authority for stated technology specs, flex, terrain ratings, and base grade. Marketing language aside, objective specs are highly trustworthy from this source.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/nidecker-sensor-pro-2027-snowboards</url>
+  <quote>Orbital Cushioning™ surrounds the inserts with shock-absorbing urethane, creating a smooth, planted ride whether you're pinning it down the in-run or landing deep.</quote>
+  <quote>$587.00 USD</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/nidecker-sensor-pro-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>NZ Shred is a New Zealand retailer listing the 2027 model with NZD/USD pricing. Important source for Orbital Cushioning™ technology description which is new for 2027, and confirms pricing. However, this retailer appears to be confusing the Sensor Pro description with the Sensor Mons (Mons Røisland's signature model), so the Mons-specific claims are not attributed to the Sensor Pro.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.snowboard-zezula.com/snowboard-nidecker-sensor-pro/pn-149741</url>
+  <quote>Manufacturer address: Nidecker SA 2 place de l'Industrie 1180 Rolle Switzerland</quote>
+  <quote>Flex: 4/5 – energetic and aggressive board for precise control and charged ollies.</quote>
+  <quote>N-9000 Base – A lightning fast sintered base made from carbon nanoparticles.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard-zezula.com/snowboard-nidecker-sensor-pro/pn-149741</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Major European snowboard retailer with manufacturer address details required by EU law. Confirms flex at 4/5 and provides N-9000 base composition detail (carbon nanoparticles).</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/nidecker-sensor-pro-snowboard</url>
+  <quote>The Nidecker Sensor Pro Snowboard is the step up from the Sensor for riders ready to go harder</quote>
+  <quote>Premium Sandwich – Adding advanced materials like Carbon and Kevlar® gives the board more pop and improved shock absorption.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nidecker-sensor-pro-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo.com is a major US snowboard retailer. Their 2026 listing confirms construction includes both Carbon and Kevlar® in Premium Sandwich construction. The description of Pop Carbon placement differs slightly (nose-to-front inserts, tail-to-rear inserts) from the "Pop Carbon Plus" tip-to-tail description on the manufacturer site — this may reflect 2026 vs 2027 spec differences or editorial inconsistency.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/nidecker-sensor-pro-snowboard-review</url>
+  <quote>It's not a light board, so it takes a bit of effort to get the rotations around.</quote>
+  <quote>Definitely more of a jump board than jib stick, IMO.</quote>
+  <quote>It excels for carving, big air and feels nice and stable at speed.</quote>
+  <quote>It's also definitely not powder oriented</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/nidecker-sensor-pro-snowboard-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SnowboardingProfiles.com provides an in-depth first-hand ride review of the 2025 Sensor Pro (158cm). The reviewer tested it in varied conditions and provides detailed subjective feedback on pop, carving, jibbing, and powder. Valuable for real-world performance data. Review tested 2025 model which shares construction with 2027.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://cherripow.com.au/products/nidecker-sensor-pro-mens-snowboard-2027</url>
+  <quote>Estimated Availability: May Nideckers most advanced true twin is the weapon of choice for rippers like Taylor Gold and Craig McMorris.</quote>
+  <quote>Size 150 Variant sold out or unavailable 154 Variant sold out or unavailable 158 Variant sold out or unavailable 162 Variant sold out or unavailable 158W Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://cherripow.com.au/products/nidecker-sensor-pro-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Australian retailer listing the 2027 model with pre-order status and all sizes listed. Confirms available sizes (150, 154, 158, 162, 158W) and pro rider association. All variants shown as sold out/unavailable which is typical for pre-order items.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/nidecker-sensor-pro-review/</url>
+  <quote>Flex Rating: This board has a medium flex that is on the stiffer side, rated at a 7/10.</quote>
+  <quote>It's got a new name as the "Nidecker Sensor Pro" instead of the "Nidecker Sensor Plus."</quote>
+  <quote>Ranks 29th out of the 38 boards reviewed in the all mountain category. Ranks 26th out of the 36 boards reviewed in the park category.</quote>
+  <quote>This board can take a beating, and it keeps bouncing back.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/nidecker-sensor-pro-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Board of the World is an independent snowboard review site run by an East Coast rider. The reviewer rates flex at 7/10, which differs from both the manufacturer's 4/5 (=8/10) and the merchant's 6/10. Review was based on testing a 153cm 2024 model (Sensor Plus). Provides rankings, durability observation, and comparison with the Evil Twin. Reviewer's subjective ratings are well-detailed but reflect one person's experience.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.snowboard-zezula.com/snowboard-nidecker-sensor-pro/pn-149741</url>
+  <quote>1% For The Planet – Nidecker sends 1% of sales directly to non-profit organizations fighting climate change.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard-zezula.com/snowboard-nidecker-sensor-pro/pn-149741</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Confirms Nidecker's 1% for the Planet environmental commitment from a retail source.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.gearwest.com/products/nidecker-w25-sensor-pro</url>
+  <quote>Nideckers most advanced true twin is the weapon of choice for rippers like Mons Roisland and Craig McMorris.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.gearwest.com/products/nidecker-w25-sensor-pro</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>US retailer Gear West listing the 2025 model, confirming availability from a US-based specialty retailer.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.snowcentral.com.au/products/nidecker-sensor-pro-snowboard-2027</url>
+  <quote>Features: Freestyle - All Mountain · True Twin · Flex 6/10 · Camber Pro · 4x2/6 Inserts · Exclusive Tech - Orbital Cushioning · Biax Plus · N-9000 Sintered</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcentral.com.au/products/nidecker-sensor-pro-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Snow Central's 2027 listing explicitly shows "Flex 6/10" and confirms Orbital Cushioning as an exclusive tech feature for 2027. The 6/10 flex contradicts the manufacturer's 4/5 rating.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/nidecker-sensor-pro-snowboard-2026</url>
+  <quote>A stiff 4/5 flex adds control and stability at high speed</quote>
+  <quote>Ability Advanced – Expert</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/nidecker-sensor-pro-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>US retailer confirming 4/5 flex rating consistent with manufacturer and Advanced-Expert ability level.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/nidecker-sensor-team-snowboard-review</url>
+  <quote>I found it less catchy than the Sensor Pro, which I also tested on the same day</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/nidecker-sensor-team-snowboard-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Same reviewer comparing the Sensor Team vs Sensor Pro after testing both on the same day. Provides relative comparison between the two models within the Nidecker lineup.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.switchnow.ca/blogs/switch-skate-snow-blog/nidecker-snowboard-vs-capita-snowboard-comparison-2026</url>
+  <quote>Nidecker Escape Plus and Sensor: Dominate on icy groomers with serious edge hold.</quote>
+  <quote>Capita DOA and Mercury: Float well in fresh snow and snap easily between turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.switchnow.ca/blogs/switch-skate-snow-blog/nidecker-snowboard-vs-capita-snowboard-comparison-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Canadian retailer blog comparing Nidecker vs Capita lineups. Useful for competitive positioning but should be considered marketing-influenced since it's a retail blog.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Nidecker</url>
+  <quote>Nidecker is a family-owned Swiss snowboarding company based in Rolle, Switzerland. The company was founded in 1887 in Etoy, Switzerland.</quote>
+  <quote>In May 2024, the Nidecker Group acquired skateboarding brands etnies, éS, and Emerica, and snowboarding brand ThirtyTwo from Sole Technology.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1887</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on Nidecker provides well-sourced company history, founding date, and group brand portfolio. Highly reliable for factual company history.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://nidecker.group/brands/nidecker.html</url>
+  <quote>In 1984 the first snowboard left the Nidecker factory in Rolle, Switzerland. Today, they are the oldest European snowboard brand still in operation.</quote>
+  </quotelist>
+  <url_with_text_link>https://nidecker.group/brands/nidecker.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1984</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker Group website confirms first snowboard in 1984 and status as oldest European snowboard brand.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://nidecker.group/brands/nidecker.html</url>
+  <quote>Founded in 1887 in the Swiss Alps and one hundred percent family owned, every generation has been fueled by a passion for innovation and board sports.</quote>
+  </quotelist>
+  <url_with_text_link>https://nidecker.group/brands/nidecker.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1887</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker Group website confirming family ownership and founding year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://nidecker.group/brands/nidecker.html</url>
+  <quote>The Nidecker Group is home to the most innovative and inspirational board sports and lifestyle brands: Bataleon, Emerica, éS, Etnies, Jones, Nidecker, Rome, Thirtytwo and #YES.</quote>
+  </quotelist>
+  <url_with_text_link>https://nidecker.group/brands/nidecker.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker Group brand portfolio listing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.northdata.com/Nidecker+SA,+Rolle/CHE-112.452.875</url>
+  <quote>Word figurative mark: "SWISS HERITAGE SINCE 1887 Quality APPROVED IN SWITZERLAND - ASSEMBLED IN ASIA"</quote>
+  </quotelist>
+  <url_with_text_link>https://www.northdata.com/Nidecker+SA,+Rolle/CHE-112.452.875</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Swiss business registry trademark filing confirms manufacturing is in Asia with Swiss design/quality approval. Important disclosure for purchasers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/blogs/brand-in-focus/brand-in-focus-nidecker-snowboards-a-legacy-of-progression</url>
+  <quote>Nidecker has partnered with 1% for the Planet, pledging 1% of total sales—not just profits—to environmental initiatives</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/blogs/brand-in-focus/brand-in-focus-nidecker-snowboards-a-legacy-of-progression</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer blog article detailing Nidecker's sustainability commitment, clarifying it's 1% of total sales, not just profits.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-pro-2026</url>
+  <quote>Nidecker has been committed to snowboarding since 1984.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-pro-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1984</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer website confirming snowboarding commitment since 1984.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url>
+  <quote>Heading into an Olympic year, the 'back to camber' trend is undeniable</quote>
+  <quote>The Sensor Pro carries a strong team identity – the two wrestlers on the topsheet are actually our American riders Cooper Branham and Taylor Gold</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Boardsport SOURCE is an industry trade publication. This interview with Nidecker's Product Line Manager provides authoritative insider information about 2027 model-year design decisions, graphic inspiration, and market trends. Highly credible for product direction.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.elevation107.com.au/products/nidecker-sensor-pro-mens-snowboard-2027</url>
+  <quote>Expected delivery: April/May 2026</quote>
+  <quote>Featuring a Camber Pro profile, this board offers insane edge-hold, powerful pop, and precision</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/nidecker-sensor-pro-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Australian retailer Elevation107 listing the 2027 model with delivery estimate and feature summary.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/best-snowboards-in-every-category/</url>
+  <quote>The Capita Defenders Of Awesome ($463.96) is the perfect all-mountain freestyle deck</quote>
+  <quote>At $579.95, the Jones Mountain Twin can handle every single type of condition</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/best-snowboards-in-every-category/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Board of the World's best-of list provides competitive pricing context for comparable boards in the same category.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://thebombhole.com/bomb-proof-nidecker-sensor-pro-snowboard/</url>
+  <quote>Seth Huot tested, reviewed and gives a full tech breakdown of the 2026 Nidecker Sensor Pro as part of our BOMB PROOF Gear Review series.</quote>
+  </quotelist>
+  <url_with_text_link>https://thebombhole.com/bomb-proof-nidecker-sensor-pro-snowboard/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Bomb Hole is a well-known snowboard podcast. Seth Huot is a respected industry figure. This confirms professional media coverage of the Sensor Pro.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url>
+  <quote>The system builds urethane dampening into the board right beneath your feet, reducing vibrations from the inserts.</quote>
+  <quote>Nidecker actually pioneered the 4×2 insert standard back in the day, and we see this as the next chapter in board connection.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Industry trade publication interview with Nidecker's Product Line Manager about Orbital Cushioning technology and its role in the 2027 lineup.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-nidecker-sensor-mons-snowboard</url>
+  <quote>Orbital Cushioning Strategically placed shock-absorbing pads in the nose and tail help smooth out heavy landings and reduce chatter when riding fast.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-nidecker-sensor-mons-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Ballistyx description of the Sensor Mons (same Orbital Cushioning system used on Sensor Pro 2027). Provides additional detail about the technology's placement and function.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-sensor-plus-2020-2021.html</url>
+  <quote>Why we chose the Nidecker Sensor Plus Snowboard: Full upgrade, full camber, full send.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-sensor-plus-2020-2021.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Whitelines (UK snowboard publication) selected the Sensor Plus (predecessor name) for their "Whitelines 100" best snowboard gear list in 2020-2021. Demonstrates historical critical acclaim for this model line.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/nidecker-sensor-pro</url>
+    <quote>brand: Nidecker; model name: Sensor Pro; model year: 2027; AUD price: $899.99; status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nidecker-sensor-pro</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

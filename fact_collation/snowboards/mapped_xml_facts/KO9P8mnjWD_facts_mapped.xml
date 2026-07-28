@@ -1,0 +1,985 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="11" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="7" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="7" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="skill_level_recommendation" count="5" category="recommendation" />
+  <duplicate_canonical name="user_review_forum" count="5" category="review" />
+  <duplicate_canonical name="flex_rating_5" count="4" category="performance" />
+  <duplicate_canonical name="sustainability_certification" count="4" category="sustainability" />
+  <duplicate_canonical name="base_type" count="4" category="construction" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="4" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="flex_rating_10_evo" count="2" category="performance" />
+  <duplicate_canonical name="sidecut_type" count="2" category="unknown" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="price_cad_prfo" count="2" category="pricing" />
+  <duplicate_canonical name="rider_level" count="2" category="target_user" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="2" category="comparable" />
+  <duplicate_canonical name="redesign_year" count="2" category="identity" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][7]
+2. model_name: Sleepwalker [1][3]
+3. model_year: 2025 (season designation 24/25) [1][3]
+4. SKU (155W variant): L47661400 [MERCHANT]
+5. product_type: Snowboard [1][3]
+6. board_category: Park and Freestyle [1][6]
+7. gender: Men's [1][3]
+8. pro_rider_name: Tommy Gesme [1][3][17]
+9. manufacturer: Salomon S.A.S. (part of Amer Sports) [19][24]
+10. Manufacturer founded: 1947, in Annecy, France — originally a wood saw workshop making metal edges for skis [19][25]
+11. Design headquarters: Annecy Design Center, Annecy, France [26]
+12. Salomon brand reputation: "one of the world's leading outdoor adventure sports brands" in ski, snowboard, hiking, trail running [19][25]
+13. manufacturing_location_current: Likely China based on forum reports of Salomon snowboard production [27]; Salomon skis are manufactured in Altenmarkt, Austria at the Amer/Atomic factory, but snowboards reportedly use Asian OEM [28]
+14. model_first_available_year: 2017/2018 season [29][30]
+15. comparable_board_same_brand: Also available as a separate model [31]
+16. camber_type: Rock Out Camber [1][3]
+17. camber_description: Flat between bindings for stability, camber near the feet for response, and rocker on the tip/tail for pressability [1][3]
+18. shape: True Twin [1][3]
+19. Shape description: Identical tip/tail lengths, symmetrical core profiling, flex and a centered binding stance [1][3]
+20. setback: 0mm (centered stance) [MERCHANT]
+21. flex_direction: Symmetrical (twin flex pattern) [1][3]
+22. flex_rating_5: 2 out of 5 (1=Soft, 5=Stiff) [1][32]
+23. flex_rating_5: 4 out of 5 — this conflicts with the widely reported 2/5 from Blauer, Zombie, Glacier, and evo 2025 listing; likely an error on the Rudeboys listing or refers to a different scale [33]
+24. flex_rating_10_evo: Soft [3]
+25. flex_rating_10_evo: Medium [34]
+26. flex_feel: Soft-Medium — all mountain versatility, playful when wanted, stable when needed [MERCHANT]
+27. flex_feel: "it's a park noodle" — described as very flexible for buttering [35]
+28. flex_feel: "The 2024 Sleepwalker 'feels' stiffer than previous years, and maybe even stiffer than the Craft" [36]
+29. sidecut_type: EQ Rad Sidecut — Equalizer straight lines and Radial lines blended together [1][3][10]
+30. sidecut_type: Quadratic Sidecut — A blend of elliptic curves [37]. NOTE: This is likely the 2024 spec carried over erroneously; the 2024 model used Quadratic Sidecut while the 2025 changed to EQ Rad per the merchant data and most retailers.
+31. core_material: Aspen Strong — full-length FSC certified Aspen wood core [1][3]
+32. construction_material_innovation: CNC-selected high-density wood strips (birch) for inserts and rail zones [1][3]
+33. Core profile: Popster — strategically milled core thins underfoot and thickens outside bindings for snap and pop [1][3][10]
+34. Core profile description: "Feels like your skateboard kicktail finally connected with your snowboard" [1]
+35. sustainability_certification: FSC certified wood [MERCHANT][38]
+36. laminate: Biaxial Medium Density (BA MD) Fiberglass [1][3]
+37. Fiberglass origin: European-made fiberglass layers [1][3]
+38. resin: 30% Bio-based Resin — bio-epoxy with 30% plant-derived molecular structure [3][10][39]
+39. sustainability_certification: Eco-friendly construction with 30% Bio-based resin and natural wax [19][39]
+40. sidewall_material: ABS Sidewalls [37]
+41. Sidewall technology description: "combining toughness for energy transfer and dampening properties for impact absorption" [37]
+42. construction_material_innovation: Royal Rubber Pads — 2mm rubber blocks inserted into high-pressure zones of ABS sidewalls [1][3][10]
+43. Damping purpose: Dampen vibrations, reduce fatigue, and protect against sidewall blow outs [1][3]
+44. Rubber pad thickness: 2mm [1]
+45. base_type: Sintered [3][10][37][40]
+46. base_type: Extruded EG [1]. NOTE: Blauer's 2025 page lists "Extruded EG" base material, conflicting with the majority of 2025 sources (including the merchant data) that list Sintered. The 2022 and earlier models used Extruded EG bases; the change to Sintered appears to have occurred around 2024. This is a significant disagreement — the merchant data and most authoritative 2025 sources say Sintered.
+47. Base finish: Medium Stone Finish — improves base glide in all snow conditions [1][3]
+48. Factory wax: Natural Wax — paraffin-free compound made from natural ingredients [MERCHANT][41]
+49. edge_technology: Freestyle Edge Bevel [1][6]
+50. edge_bevel_spec: 2-degree edge holding tune through key sidecut areas, 3-degree bevel between feet, detuned at tip and tail [1][10]
+51. Edge treatment purpose: Balance of edge hold and forgiveness on rails [1][10]
+52. mounting_pattern: 2x4 Inserts [MERCHANT]
+53. binding_compatibility: Standard 2x4 insert pattern, compatible with most bindings [MERCHANT]
+54. available_sizes: 148cm, 151cm, 153cm, 155cm, 158cm, 155cm Wide, 158cm Wide [3][MERCHANT]
+55. width_options: Standard and Wide [MERCHANT][10]
+56. Waist width 148cm: 242mm [MERCHANT][42]
+57. tip_tail_width_size: 287mm [MERCHANT]
+58. Effective edge 148cm: 1140mm [MERCHANT][42]
+59. recommended_weight_range_size: 45–65kg (99–143lb) [MERCHANT][42]
+60. Waist width 151cm: 247mm [MERCHANT][42]
+61. tip_tail_width_size: 292mm [MERCHANT]
+62. Effective edge 151cm: 1170mm [MERCHANT][42]
+63. recommended_weight_range_size: 50–70kg (110–154lb) [MERCHANT][42]
+64. Waist width 153cm: 250mm [MERCHANT][42]
+65. tip_tail_width_size: 295mm [MERCHANT]
+66. Effective edge 153cm: 1190mm [MERCHANT][42]
+67. recommended_weight_range_size: 55–75kg (121–165lb) [MERCHANT][42]
+68. Waist width 155cm: 252mm [MERCHANT][42]
+69. tip_tail_width_size: 297mm [MERCHANT]
+70. Effective edge 155cm: 1205mm [MERCHANT][42]
+71. recommended_weight_range_size: 55–85kg (121–187lb) [MERCHANT][42]
+72. Waist width 158cm: 254mm [MERCHANT][42]
+73. tip_tail_width_size: 299mm [MERCHANT]
+74. Effective edge 158cm: 1230mm [MERCHANT][42]
+75. recommended_weight_range_size: 65–90kg (143–198lb) [MERCHANT][42]
+76. Waist width 155cm Wide: 259mm [MERCHANT][42]
+77. tip_tail_width_size: 304mm [MERCHANT]
+78. Effective edge 155cm Wide: 1205mm [MERCHANT][42]
+79. recommended_weight_range_size: 65–90kg (143–209lb) [MERCHANT][42]
+80. Waist width 158cm Wide: 262mm [MERCHANT][42]
+81. tip_tail_width_size: 307mm [MERCHANT]
+82. Effective edge 158cm Wide: 1230mm [MERCHANT][42]
+83. recommended_weight_range_size: 70–105kg (154–231lb) [MERCHANT][42]
+84. stance_width_range_size: 20.9–23.1 in (531–587mm) [42]
+85. stance_width_range_size: 21.3–23.5 in (541–597mm) [42]
+86. stance_width_range_size: 21.7–23.9 in (551–607mm) [42]
+87. stance_width_range_size: 22.0–24.25 in (559–616mm) [42]
+88. stance_width_range_size: 22.4–24.6 in (569–625mm) [42]
+MSRP / Retail Prices:
+89. price_usd_msrp: $419.95 [42][43]
+90. price_usd_msrp: $449.95 [44][45]
+91. price_aud_merchant: $699.99 AUD [MERCHANT]
+92. price_cad_prfo: $489.95 CAD [33]
+93. MSRP (CHF, Exodus Ride Shop Switzerland, 2026 model): CHF 366.00 [46]
+Discounted/Sale Prices (2025 model, end of season closeout):
+94. price_usd_backcountry: $293.96 (30% off $419.95) [42]
+95. The-House.com price: $293.95 (30% off $419.95) [10]
+96. Aspen Ski and Board price: $251.97 (40% off $419.95) [43]
+97. UtahSkis price: $259.97 (38% off $419.95) [47]
+98. price_cad_prfo: $342.96 (30% off $489.95 CAD) [33]
+99. PTO Ski price: $343.00 USD (20% off $429.00) [48]
+100. price_aud_merchant: $489.99 AUD (30% off $699.99) [MERCHANT]
+Retailers Carrying the Product:
+101. availability_status: Backcountry.com (USA, online) — sizes 148, 151, 153, 155 in stock [42]
+102. availability_status: evo.com (USA, online) — 2025 model sold out; 2026 model in stock [3][34]
+103. availability_status: The-House.com (USA, online) — sizes 151, 153, 155, 158, 155W in stock [10]
+104. availability_status: ERIK'S Bike Board Ski (USA, closeout) — limited availability [49]
+105. availability_status: UtahSkis (USA, online) — size 153 in stock (3 units) [47]
+106. availability_status: Blauer Board Shop (USA, online) [1]
+107. availability_status: Rudeboys (Banff, Alberta, Canada) [33]
+108. availability_status: Absolute-Snow (UK, online) [19]
+109. availability_status: King Snow (Australia) [6]
+110. availability_status: Christy Sports (USA) [50]
+111. availability_status: Joe's Sporting Goods (USA, sold out 2026 model at $449.95) [45]
+112. rider_level: Beginner – Intermediate [MERCHANT]
+113. skill_level_recommendation: Intermediate – Advanced [3]
+114. skill_level_recommendation: "intermediate to advanced riders who enjoy park and freestyle riding" [19]
+115. skill_level_recommendation: Intermediate to Advanced [42]
+116. skill_level_recommendation: Park rats and jibbers [6]
+117. terrain_suitability: Park, street, side hits, all mountain [MERCHANT]
+118. riding_style: Jibbing, rail pressing, park freestyle, street [MERCHANT]
+119. terrain_suitability: Terrain parks and urban settings [19]
+120. terrain_suitability: Spinning, buttering, airing, park laps [51]
+121. warranty_period_years: 2 years for all products (other than alpine ski bindings and winter jackets/pants) [52][53]
+122. warranty: Manufacturing or material defects only [52][53]
+123. warranty: Damage from transportation, improper use, normal wear and tear, modifications, or impact [52]
+124. Tommy Gesme stance: Regular [54]
+125. Tommy Gesme home mountain: Hyland Hills, Minneapolis, MN [54]
+126. Tommy Gesme board size: 158 [54]
+127. Tommy Gesme riding specialty: Street snowboarding — "a household name in street snowboarding" [54]
+128. Tommy Gesme joined Salomon: ~2016 [55][56]
+129. Tommy Gesme riding description: "smooth and fluid style that is unmistakably his" [57]
+Professional Press:
+130. reviewer_opinion_whitelines: Selected for Whitelines 100 Best Snowboard Gear; praised as "great value for money for any park and jib fiends" [58]
+131. reviewer_opinion_whitelines: "It's about as much bang for your buck as you can get in a park deck" [58]
+132. reviewer_opinion_whitelines: "The Salomon Sleepwalker is essentially the Salomon Villain but with some of that extra, pricey tech removed" [58]
+133. Snowboard Robot 2018 review: "Overall the Sleepwalker is a super fun board" — highly recommended for the price [59]
+134. Snowboard Robot ride feel: "The soft flex isn't too soft at all, it was still easy hold a press, but it didn't feel unstable riding fast" [59]
+135. reviewer_opinion_whitelines: "works equally well as an affordable quiver board, or as your first foray into doing tricks" [60]
+Forum Opinions:
+136. user_review_forum: Assassin preferred for all-mountain and high speed; Sleepwalker described as "noodle jib board" — better for dedicated park use [35]
+137. user_review_forum: Riders question Sleepwalker's stability at higher speeds and all-mountain capabilities [61]
+138. user_review_forum: Salomon boards with quadratic sidecuts "tend to be a bit narrower underfoot" by 2-3mm [36]
+139. user_review_forum: "The big plus is the Sleepwalker now has a sintered base" — confirming the base upgrade from extruded to sintered around 2024 [36]
+User Reviews:
+140. user_review_forum: "Great board have about 6 days on it since I've gotten it" — 1 review [42]
+141. comparable_board_same_brand: Salomon's step-up freestyle twin; uses Quad Camber (more aggressive) vs Sleepwalker's Rock Out Camber; medium flex (5/10) vs Sleepwalker's softer (2/5); Triaxial Fiberglass vs Biaxial MD; carbon stringers (Popster Booster); higher price point (~$499 MSRP) [62][63]
+142. comparable_board_same_brand: All-mountain freestyle board; same Rock Out Camber but stiffer flex and Quadralizer sidecut; better for high speed and carving; directional twin shape [35][64]
+143. predecessor_model_name: Higher-spec park board from Salomon that the Sleepwalker is essentially a budget version of [58]
+144. comparable_board_cross_brand: Volume-shifted freestyle twin, competing park/jib board from Ride; more playful and maneuverable in park [65]
+145. comparable_board_cross_brand: Park-oriented competitors with unique 3BT triple base technology [66]
+146. redesign_year: Changed from Quadratic Sidecut to EQ Rad Sidecut [37][1]
+147. redesign_year: Changed from Extruded EG to Sintered base [36]
+148. base_type: Backcountry, evo 2025, Rudeboys, Zombie Board Shop, The-House, Absolute-Snow, and merchant data all list Sintered base [3][10][37][40][42]
+149. base_type: Blauer's detailed 2025 spec lists "Extruded EG" [1]. This appears to be a carry-over from older model year specs on their listing page.
+150. flex_rating_5: Blauer, Zombie, Glacier all list 2 out of 5 [1][32]
+151. flex_rating_5: Rudeboys lists "Flex Rating – 4 (1 Soft - 5 Stiff)" which conflicts with all other sources; likely an error [33]
+152. rider_level: Beginner – Intermediate [MERCHANT]
+153. skill_level_recommendation: Intermediate – Advanced [3][19][42]
+154. positive_aspect: Consistently praised as one of the best value park boards available [58][59]
+155. construction_material_innovation: High-density birch strips in insert and rail zones for impact resistance [1][3]
+156. sustainability_certification: Paraffin-free wax compound from natural ingredients [41]
+157. sustainability_certification: Bio-based resin and FSC certified core wood [19][39]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+<quotelist>
+<url>https://blauerboardshop.com/products/salomon-sleepwalker-2025</url>
+<quote>Flex Rating – 2/5 (1=Soft, 5=Stiff)</quote>
+<quote>Extruded EG – A harder compound than EXT, Salomon EXT EG takes the easy maintenance of a non-sintered base</quote>
+<quote>Rubber Pads – 2mm Rubber blocks inserted into the high-pressure zones of the ABS Sidewalls</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/salomon-sleepwalker-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop is an authorized Salomon retailer. Their detailed spec page provides Salomon's official product description. Note the base type listed as Extruded EG contradicts most other 2025 sources — likely a data entry error or carry-over from older years.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard-2025</url>
+<quote>This jibby park specialist pairs a medium-soft flex with Rock Out Camber for playful pop</quote>
+<quote>True Twin – Freestyle specific: Identical tip/tail lengths, symmetrical core profiling, flex and a centered binding stance.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo.com is one of the largest and most authoritative online snowboard retailers in the USA. Their 2025 model listing classifies the flex as "Soft" and the rider level as "Intermediate-Advanced".</reasoning>
+<evidentiary_alignment>0.93</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://kingsnowboard.com/blogs/gear/salomon-sleepwalker-snowboard-2025</url>
+<quote>Freestyle-focused designed specifically for park rats and jibbers.</quote>
+<quote>Sizes (cm) 148, 151, 153, 155, 155w, 158, 158w</quote>
+</quotelist>
+<url_with_text_link>https://kingsnowboard.com/blogs/gear/salomon-sleepwalker-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-05</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>King Snow is an Australian snowboard retailer with a gear blog. This provides the complete size range and key feature bullet points for the 2025 Sleepwalker.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url>
+<quote>Salomon is one of the world's leading outdoor adventure sports brands</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Absolute-Snow is a UK retailer providing Salomon brand background information.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.the-house.com/1149237.html</url>
+<quote>Profile: Rock Out Camber • Shape: True Twin • Sidecut: EQ Rad • Fiber & Resin: BA MD fiberglass, 30% Bio-based resin</quote>
+<quote>Sale · $293.95 $419.95 · Save $126 30% Off</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/1149237.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>The-House.com is a large US online retailer. Their 2025 model listing provides a clean structured spec summary confirming sintered base and EQ Rad sidecut, plus pricing.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.snowboarder.com/transworld-snowboarding-archive/snowboarding-photos/setting-up-a-profile-of-tommy-gesme/</url>
+<quote>Tommy's setup: adidas Glisan bibs and Tactical ADV boots + Salomon Sleepwalker and District.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboarder.com/transworld-snowboarding-archive/snowboarding-photos/setting-up-a-profile-of-tommy-gesme/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2017-11</date_of_last_relevance>
+<reasoning>Snowboarder Magazine profile of Tommy Gesme, confirming his use of the Salomon Sleepwalker.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url>
+<quote>The Salomon Sleepwalker snowboard is best suited for intermediate to advanced riders</quote>
+<quote>Crafted with eco-friendly materials like 30% Bio-based resin</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Absolute-Snow provides rider level assessment and sustainability feature confirmation for the 2025 Sleepwalker.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://www.salomon.com/en-gb/product/sleepwalker-li8550</url>
+<quote>A mid-soft flex paired with Rock Out Camber allows for a playful ride</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-gb/product/sleepwalker-li8550</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon manufacturer product page. This is the most authoritative source for product claims, though the search snippet was limited.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url>
+<quote>In 1947, the Salomon family owned a wood saw workshop in Annecy, France which started to make metal edges for skis.</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-sleepwalker-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1947</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Historical background on Salomon brand founding year and origin.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://www.powder.com/gear/salomon-annecy-factory-tour</url>
+<quote>Salomon's Annecy Design Center is the brand's global headquarters.</quote>
+</quotelist>
+<url_with_text_link>https://www.powder.com/gear/salomon-annecy-factory-tour</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-01</date_of_first_relevance>
+<date_of_last_relevance>2025-01</date_of_last_relevance>
+<reasoning>POWDER magazine factory tour article confirming Salomon's global HQ location in Annecy, France.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url>
+<quote>My Salomon is made in China.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013</date_of_first_relevance>
+<date_of_last_relevance>2023</date_of_last_relevance>
+<reasoning>Forum post with user reporting their Salomon snowboard was made in China. This is anecdotal but corroborated by multiple forum posters and industry articles indicating Salomon snowboards use Asian OEM manufacturing.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+<quote>Some Rome, Some Burton, Some Flow, Some Salomon, Playmaker</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>SnowboardingProfiles compilation of where snowboard brands are manufactured. Salomon is listed among brands with some production in Taiwan. Manufacturing locations can change between seasons.</reasoning>
+<evidentiary_alignment>0.5</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2017-2018.html</url>
+<quote>The Salomon Sleepwalker is a new freestyle deck for 2017/18</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2017-2018.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-09</date_of_first_relevance>
+<date_of_last_relevance>2018-05</date_of_last_relevance>
+<reasoning>Whitelines review from 2017/18 season explicitly states the Sleepwalker is a "new freestyle deck for 2017/18", establishing the first year the model was introduced.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/salomon-sleepwalker/</url>
+<quote>For the price, I don't think you will be able to beat it in the 2018 season.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-sleepwalker/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-05</date_of_first_relevance>
+<date_of_last_relevance>2018-05</date_of_last_relevance>
+<reasoning>Snowboard Robot's 2018 review confirming the board was new for that season, consistent with the 2017/18 introduction date.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://www.theskibum.com/2025-salomon-sleepwalker-mens-snowboard-l47661400.html</url>
+<quote>Salomon Sleepwalker Grom Snowboard Boy's · As low as $223.96 Regular Price $279.95</quote>
+</quotelist>
+<url_with_text_link>https://www.theskibum.com/2025-salomon-sleepwalker-mens-snowboard-l47661400.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The Ski Bum listing confirms the existence of the Sleepwalker Grom as a youth version.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://www.zombieboardshop.com/shop/SNOW/SNOWBOARDS/p/Salomon-Sleepwalker-Snowboard-2025.htm</url>
+<quote>Flex Rating – 2 (1 Soft - 5 Stiff)</quote>
+</quotelist>
+<url_with_text_link>https://www.zombieboardshop.com/shop/SNOW/SNOWBOARDS/p/Salomon-Sleepwalker-Snowboard-2025.htm</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Zombie Board Shop's 2025 listing confirms the flex rating of 2/5, consistent with Blauer and the majority of sources.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://rudeboys.com/products/salomon-sleepwalker-snowboard-w25</url>
+<quote>Sale price $342.96 Regular price $489.95</quote>
+<quote>Flex Rating – 4 (1 Soft - 5 Stiff)</quote>
+</quotelist>
+<url_with_text_link>https://rudeboys.com/products/salomon-sleepwalker-snowboard-w25</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Rudeboys (Banff, Alberta) lists the flex as 4/5, which contradicts ALL other sources that list 2/5. They also list Quadratic Sidecut rather than EQ Rad. Both are likely errors or carry-over from 2024 model specs. CAD pricing provided.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard</url>
+<quote>The Salomon Sleepwalker Snowboard 2026 is in stock now.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo.com 2026 model listing classifies the flex as "Medium" (vs "Soft" for 2025), suggesting a possible flex change or reclassification between model years.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/salomon-assasin-or-sleepwalker.280137/</url>
+<quote>Definitely assasin, sleepwalker is noodle jib board.</quote>
+<quote>it's a park noodle so will be easy to butter, and it is definitely not a stable high speed all mt board</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/salomon-assasin-or-sleepwalker.280137/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-11</date_of_first_relevance>
+<date_of_last_relevance>2024-05</date_of_last_relevance>
+<reasoning>Forum users describing the Sleepwalker as a "noodle jib board" and explicitly not suited for high speed all-mountain riding. Multiple respondents give consistent assessment.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/salomon-sleepwalker-or-something-else.280128/</url>
+<quote>The 2024 Sleepwalker "feels" stiffer than previous years</quote>
+<quote>The big plus is the Sleepwalker now has a sintered base.</quote>
+<quote>Salomon boards with their quadratic sidecuts tend to be a bit narrower underfoot</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/salomon-sleepwalker-or-something-else.280128/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-11</date_of_first_relevance>
+<date_of_last_relevance>2024-06</date_of_last_relevance>
+<reasoning>Forum user who physically handled the 2024 Sleepwalker at a shop, providing first-hand observations about stiffness changes, the sintered base upgrade, and Salomon's narrower underfoot measurements.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.42</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://rudeboys.com/products/salomon-sleepwalker-snowboard-w25</url>
+<quote>ABS Sidewalls – The molecular structure of ABS can be described as a concrete bar with rubber nuggets inside</quote>
+<quote>Quadratic Sidecut – A blend of elliptic curves provides easy turn initiation</quote>
+<quote>Sintered Base – Provides a moderate balance between the speed created by a hard surface and good wax retention.</quote>
+</quotelist>
+<url_with_text_link>https://rudeboys.com/products/salomon-sleepwalker-snowboard-w25</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Rudeboys provides detailed construction specs. Note the Quadratic Sidecut listing conflicts with the EQ Rad listed by most other 2025 sources—likely a 2024 spec carry-over.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.snowcountry.eu/25-salomon-snowboard-sleepwalker.html</url>
+<quote>Aspen Strong CNC-selected high-density FSC certified wood strips</quote>
+</quotelist>
+<url_with_text_link>https://www.snowcountry.eu/25-salomon-snowboard-sleepwalker.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>EU retailer confirming FSC certification of the wood used in the core.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard-2025</url>
+<quote>30% Bio-based Resin – High performance with low environmental impact, this bio-based resin is made with 30% of its molecular structure derived from plants.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-sleepwalker-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo.com 2025 listing provides the detailed bio-resin specification.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://www.zombieboardshop.com/shop/SNOW/SNOWBOARDS/p/Salomon-Sleepwalker-Snowboard-2025.htm</url>
+<quote>30% Bio-based Resin – High performance with low environmental impact</quote>
+</quotelist>
+<url_with_text_link>https://www.zombieboardshop.com/shop/SNOW/SNOWBOARDS/p/Salomon-Sleepwalker-Snowboard-2025.htm</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Zombie Board Shop confirms bio-resin spec and lists sintered base for the 2025 model via their detailed specs section.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://gorgeperformance.com/products/sleepwalker</url>
+<quote>Natural wax: A paraffin-free wax compound made from natural ingredients.</quote>
+</quotelist>
+<url_with_text_link>https://gorgeperformance.com/products/sleepwalker</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Gorge Performance 2026 listing confirms the natural wax specification, which is consistent across model years.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://www.backcountry.com/salomon-sleepwalker-snowboard-2025</url>
+<quote>Current price: $293.96 Original price: $419.95 · 30% off</quote>
+<quote>[148cm] 1140mm, [151cm] 1170mm, [153cm] 1190mm, [155cm, 155cm wide] 1205mm, [158cm, 158cm wide] 1230mm</quote>
+<quote>[148cm] 99 - 143lb, [151cm] 110 - 154lb, [153cm] 121 - 165lb, [155cm] 121 - 187lb, [155cm wide] 143 - 209, [158cm] 143 - 198lb, [158cm wide] 154 - 231lb</quote>
+</quotelist>
+<url_with_text_link>https://www.backcountry.com/salomon-sleepwalker-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Backcountry.com is a major authorized retailer. Their listing provides comprehensive sizing data, weight ranges, effective edge lengths, stance ranges, and current pricing. Also includes a user review.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="43">
+<quotelist>
+<url>https://www.aspenskiandboard.com/products/salomonsleepwalkersnowboardmens2025</url>
+<quote>$ 251.97 USD · $ 419.95 · MSRP · Retail: $419.95</quote>
+</quotelist>
+<url_with_text_link>https://www.aspenskiandboard.com/products/salomonsleepwalkersnowboardmens2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Aspen Ski and Board provides MSRP confirmation and a heavily discounted end-of-season price.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://www.theskibum.com/2025-salomon-sleepwalker-mens-snowboard-l47661400.html</url>
+<quote>2026 Salomon Sleepwalker Snowboard Men's · As low as $449.95</quote>
+</quotelist>
+<url_with_text_link>https://www.theskibum.com/2025-salomon-sleepwalker-mens-snowboard-l47661400.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>The Ski Bum listing shows the 2026 model at $449.95, indicating a $30 MSRP increase from the 2025 model's $419.95.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="45">
+<quotelist>
+<url>https://joessportinggoods.com/products/1-184228-sleepwalker-snowboard-25-26</url>
+<quote>Sale price $449.95 USD Unit price / per Sold out</quote>
+</quotelist>
+<url_with_text_link>https://joessportinggoods.com/products/1-184228-sleepwalker-snowboard-25-26</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Joe's Sporting Goods confirms the 2025/2026 model at $449.95. All sizes sold out.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="46">
+<quotelist>
+<url>https://exodusrideshop.com/products/salomon-sleepwalker-snowboard-2026</url>
+<quote>Sale priceCHF 366.00</quote>
+</quotelist>
+<url_with_text_link>https://exodusrideshop.com/products/salomon-sleepwalker-snowboard-2026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Swiss retailer price for 2026 model in CHF.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="47">
+<quotelist>
+<url>https://utahskis.com/products/salomon-sleepwalker-snowboard-2025</url>
+<quote>$259.97 · $419.95 · In Stock · Select Size: 153</quote>
+</quotelist>
+<url_with_text_link>https://utahskis.com/products/salomon-sleepwalker-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>UtahSkis provides pricing and limited stock availability. Only 153cm remains in stock (3 units).</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="48">
+<quotelist>
+<url>https://ptoski.com/products/salomon-sleepwalker-2025</url>
+<quote>$429.00 USD Sale price $343.00 USD</quote>
+</quotelist>
+<url_with_text_link>https://ptoski.com/products/salomon-sleepwalker-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>PTO Ski lists a slightly different original price ($429 vs $419.95) and all sizes sold out.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="49">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/salomon-sleepwalker-mens-snowboard-2025-pr5a22673</url>
+<quote>CLOSEOUT ITEM!! (May not be available at all locations, while supplies last)</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/salomon-sleepwalker-mens-snowboard-2025-pr5a22673</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>ERIK'S lists the 2025 model as a closeout item with limited availability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="50">
+<quotelist>
+<url>https://www.christysports.com/product/salomon-sleepwalker-snowboard/499988007277.html</url>
+<quote>The core is strategically milled inside of the insert packs, allowing the board to flex more naturally underfoot</quote>
+</quotelist>
+<url_with_text_link>https://www.christysports.com/product/salomon-sleepwalker-snowboard/499988007277.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Christy Sports is a major US brick-and-mortar snowboard retailer. Their listing confirms core milling technology details.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="51">
+<quotelist>
+<url>https://glacierskishop.com/products/salomon-sleep-walker-snowboard-2022</url>
+<quote>the Sleepwalker is made for spinning, buttering and airing to your heart's content</quote>
+</quotelist>
+<url_with_text_link>https://glacierskishop.com/products/salomon-sleep-walker-snowboard-2022</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2021-06</date_of_first_relevance>
+<date_of_last_relevance>2023-09</date_of_last_relevance>
+<reasoning>Glacier Ski Shop's older model listing describes the core riding uses — spinning, buttering, airing — consistent across model years.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="52">
+<quotelist>
+<url>https://www.salomon.com/en-us/b/warranty</url>
+<quote>Two (2) years for other products</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-us/b/warranty</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon US warranty page. Snowboards fall under "other products" category with a 2-year warranty period. This is the most authoritative source for warranty information.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="53">
+<quotelist>
+<url>https://www.salomon.com/en-fi/warranty.html</url>
+<quote>Two (2) years for all other Products</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-fi/warranty.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Salomon Finland warranty page corroborates the 2-year warranty for all products except ski bindings and winter jackets/pants.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="54">
+<quotelist>
+<url>https://slushthemagazine.com/blogs/features/videograss-rider-profile-tommy-gesme</url>
+<quote>Stance: Regular Home Mountain: Hyland Hills 4 Life Currently Reside: Minneapolis, MN Board: Salomon Sleepwalker 158</quote>
+</quotelist>
+<url_with_text_link>https://slushthemagazine.com/blogs/features/videograss-rider-profile-tommy-gesme</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-10</date_of_first_relevance>
+<date_of_last_relevance>2024-10</date_of_last_relevance>
+<reasoning>Slush Magazine rider profile of Tommy Gesme confirming his personal setup details including board, stance, and home mountain.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="55">
+<quotelist>
+<url>https://snowboardmag.com/videos/salomon-welcomes-tommy-gesme-to-the-team</url>
+<quote>Tommy joins the Global AM Team rounding out the young cast of talented rippers</quote>
+</quotelist>
+<url_with_text_link>https://snowboardmag.com/videos/salomon-welcomes-tommy-gesme-to-the-team</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2016-01</date_of_first_relevance>
+<date_of_last_relevance>2016-01</date_of_last_relevance>
+<reasoning>Snowboard Magazine article from January 2016 announcing Tommy Gesme joining the Salomon team.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="56">
+<quotelist>
+<url>https://www.thesnowboardersjournal.com/2016/01/mellow-technique-jibbing-with-tommy-gesme/</url>
+<quote>that cast of riders just got even more impressive now that Tommy Gesme is a part of the crew.</quote>
+</quotelist>
+<url_with_text_link>https://www.thesnowboardersjournal.com/2016/01/mellow-technique-jibbing-with-tommy-gesme/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2016-01</date_of_first_relevance>
+<date_of_last_relevance>2016-01</date_of_last_relevance>
+<reasoning>The Snowboarders Journal corroborates Tommy Gesme joining Salomon in early 2016.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="57">
+<quotelist>
+<url>https://www.salomon.com/en-no/athlete/tommy-gesme</url>
+<quote>Tommy has a smooth and fluid style that is unmistakably his.</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-no/athlete/tommy-gesme</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2016</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Salomon athlete page for Tommy Gesme, confirming his official association with the brand.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="58">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2021-2022.html</url>
+<quote>great value for money for any park and jib fiends</quote>
+<quote>The Salomon Sleepwalker is essentially the Salomon Villain but with some of that extra, pricey tech removed.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2021-2022.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2021-08</date_of_first_relevance>
+<date_of_last_relevance>2022-05</date_of_last_relevance>
+<reasoning>Whitelines is a well-respected UK snowboard media outlet. Their review selected the Sleepwalker for the "Whitelines 100" top gear list and praised its value proposition. The comparison to the Villain provides competitive context within the Salomon range.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="59">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/salomon-sleepwalker/</url>
+<quote>Overall the Sleepwalker is a super fun board</quote>
+<quote>The soft flex isn't too soft at all, it was still easy hold a press, but it didn't feel unstable riding fast</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-sleepwalker/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-05</date_of_first_relevance>
+<date_of_last_relevance>2018-05</date_of_last_relevance>
+<reasoning>Snowboard Robot provides a hands-on review of the original model. While from 2018, the core design philosophy has remained very similar through 2025. The ride characteristics described are consistent with the current model.</reasoning>
+<evidentiary_alignment>0.72</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="60">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2017-2018.html</url>
+<quote>works equally well as an affordable quiver board, or as your first foray into doing tricks.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sleepwalker-2017-2018.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-09</date_of_first_relevance>
+<date_of_last_relevance>2018-05</date_of_last_relevance>
+<reasoning>Whitelines' original 2017/18 review establishes the Sleepwalker's positioning as accessible and affordable.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="61">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/beginnerish-snowboarder.283796/</url>
+<quote>im afraid in how it will hold up all mountain and at higher speeds?</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/beginnerish-snowboarder.283796/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Forum user expressing common concern about the Sleepwalker's all-mountain capability and high-speed stability, a frequent buyer concern.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="62">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-huck-knife-snowboard-2025</url>
+<quote>Salomon's Quad Camber profile and Popster Booster carbon stringers combine for boosted take-offs</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-huck-knife-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>evo.com Huck Knife 2025 listing — provides key differentiators between the Huck Knife and Sleepwalker (Quad Camber vs Rock Out Camber, carbon stringers, Triaxial vs Biaxial fiberglass).</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="63">
+<quotelist>
+<url>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url>
+<quote>The Salomon Huck Knife is an award-winning freestyle twin snowboard that was originally introduced to the Salomon Snowboards lineup back in 2017.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/salomon-huck-knife-review-and-comparison/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-03</date_of_last_relevance>
+<reasoning>Board of the World provides a detailed review and scoring of the Huck Knife as a competitor/sibling to the Sleepwalker within Salomon's park lineup.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="64">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/salomon-dancehaul/</url>
+<quote>There is a good reason that this profile is used on the Villain, Sleepwalker and Assassin, it works for everything.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/salomon-dancehaul/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-11</date_of_first_relevance>
+<date_of_last_relevance>2024-05</date_of_last_relevance>
+<reasoning>Snowboard Robot review confirms Rock Out Camber is shared across Villain, Sleepwalker, and Assassin — contextualizing the Sleepwalker within Salomon's broader lineup.</reasoning>
+<evidentiary_alignment>0.78</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="65">
+<quotelist>
+<url>https://www.curated.com/journal/3681095/expert-comparison-salomon-assassin-snowboard-2023-vs-ride-twinpig-snowboard-2023</url>
+<quote>Compare Salomon Sleepwalker Snowboard · 2024 and Ride Twinpig Snowboard · 2023.</quote>
+</quotelist>
+<url_with_text_link>https://www.curated.com/journal/3681095/expert-comparison-salomon-assassin-snowboard-2023-vs-ride-twinpig-snowboard-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-02</date_of_first_relevance>
+<date_of_last_relevance>2024-02</date_of_last_relevance>
+<reasoning>Curated.com references the Ride Twinpig as a directly comparable competitor to the Sleepwalker in expert comparisons.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="66">
+<quotelist>
+<url>https://www.tiktok.com/discover/bataleon-chaser-snowboard-2025</url>
+<quote>2025 Bataleon Blow Snowboard - $329.95</quote>
+</quotelist>
+<url_with_text_link>https://www.tiktok.com/discover/bataleon-chaser-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-12</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>TikTok compilation showing Bataleon boards as alternatives in a similar price range to the Sleepwalker. Low credibility as a primary source but confirms market positioning.</reasoning>
+<evidentiary_alignment>0.4</evidentiary_alignment>
+<source_credibility>0.25</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-sleepwalker-2025</url>
+    <quote>brand: Salomon; model name: Sleepwalker; model year: 2025; SKU: L47661400 155W; AUD price: $489.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-sleepwalker-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

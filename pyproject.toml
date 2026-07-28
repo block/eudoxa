@@ -1,0 +1,26 @@
+[project]
+name = "eudoxa"
+version = "0.1.0"
+description = "Eudoxa — a probabilistic product recommendation and decision-support engine"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.86.0",
+    "fastapi>=0.115",
+    "httpx>=0.27",
+    "uvicorn>=0.30",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "problog>=2.2",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["server/tests"]

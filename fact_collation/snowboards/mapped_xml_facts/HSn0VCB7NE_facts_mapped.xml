@@ -1,0 +1,842 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="17" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="10" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="9" category="comparable" />
+  <duplicate_canonical name="construction_material_innovation" count="7" category="construction" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="7" category="review" />
+  <duplicate_canonical name="negative_aspect" count="7" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="6" category="sustainability" />
+  <duplicate_canonical name="user_review_forum" count="6" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="6" category="comparable" />
+  <duplicate_canonical name="terrain_suitability" count="5" category="recommendation" />
+  <duplicate_canonical name="core_material" count="4" category="construction" />
+  <duplicate_canonical name="sidecut_type" count="3" category="unknown" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="2" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="shape" count="2" category="geometry" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="resin" count="2" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="base_type" count="2" category="construction" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][2]
+2. model_name: HPS – Takaharu Nakai [1][2]
+3. model_year: 2024 (2023/24 season) [1][2]
+4. product_type: Snowboard [1][2]
+5. board_category: Freeride [3][4]
+6. board_category: All Mountain Freeride / Versatile Powder Board [2][5]
+7. manufacturer: Salomon SAS (French sports equipment company) [6]
+8. Manufacturer headquarters: Annecy, France [6][7]
+9. Parent company: Amer Sports (Finnish conglomerate) [6][7]
+10. Snowboard design location: Annecy, France [8]
+11. manufacturing_location_current: China (Salomon snowboards manufactured in China) [9][10]
+12. manufacturing_location_current: China [11]
+13. Manufacturer founded: 1947 [6][7]
+14. Model series: Hillside Project Series (HPS) [12][13]
+15. Series first available: 2017 (HPS series launched) [14]
+16. model_first_available_year: 2019 (per The Good Ride review title "2019-2025") [15]
+17. pro_rider_name: Collaboration between Wolfgang (Wolle) Nyvelt and Takaharu Nakai [1][12]
+18. Designer description: Wolle Nyvelt is described as "legendary snowboard shaper"; Takaharu Nakai is "one of Japan's finest soul shredders" with an impressive halfpipe career [12][16]
+19. Design philosophy: Boards in HPS line are "hand-shaped" and "fine-tuned to excel in powder" reflecting individual rider aesthetics [14]
+20. gender: Listed as Men's / Unisex [3][17]
+21. SKU (155cm): L41505000 155 [2]
+22. available_sizes: 155cm, 158cm, 161cm [2]
+23. Waist width (158cm): 262mm [2]
+24. setback: 30mm [2]
+25. tip_tail_width_size: 310/298mm [2]
+26. Effective edge (158cm): 1170mm [2]
+27. recommended_weight_range_size: 70–100kg [2]
+28. Waist width (161cm): 264mm [2]
+29. setback: 30mm [2]
+30. tip_tail_width_size: 312/300mm [2]
+31. Effective edge (161cm): 1190mm [2]
+32. recommended_weight_range_size: 80+kg [2]
+33. shape: Tapered Directional [1][2][12]
+34. shape: Longer nose and tapered tail; tail width tapered 2–20mm [1][12]
+35. taper: 12mm [15][18]
+36. camber_type: Powder Camber [1][2][12]
+37. camber_description: Traditional camber through majority of board with large reverse camber nose for float in deep snow and smooth turn entry [2][12]
+38. camber_description: "Camber between feet for carving and precision, and huge rocker on nose for floatation in very deep powder" [19]
+39. sidecut_type: Quadratic Sidecut [2]
+40. sidecut_type: Radial sidecut [19][20]
+41. sidecut_type: The merchant listing states "Quadratic Sidecut" while the Salomon.com US page and several other retailer listings state "Radial" sidecut. The 2024 model may have received a Quadratic sidecut update vs. earlier Radial sidecut, or different markets describe it differently. Both claims are recorded separately.
+42. stance_width_range_size: Setback over 20mm [15]
+43. stance_width_range_size: Unique stance set up with 5×2 on front foot and 7×2 on back; 22″ set all the way back gives -4.875″ from board center [15]
+44. flex_rating_10: Soft (powerful, more relaxed, surfier feel) [2]
+45. flex_rating_10_manufacturer: Medium [17]
+46. flex_rating_10: Merchant listing says "Soft" while Salomon.com Canada and evo list "Medium" and The Good Ride reviewer notes "Salomon calls this flex medium, but it's more on the Medium-Soft Side" [15][17][2]. This suggests the 2024 model was marketed as "Soft" in some markets while the general Salomon classification is "Medium."
+47. flex_feel: "softer flex in the middle vs. most freeride boards. The tail is a little stiffer and the nose to a lesser extent, but overall, it's a very mellow flex" [15]
+48. flex_direction: Directional (tail slightly stiffer than nose) [15]
+49. core_material: Ghost Green Core [2][19]
+50. core_material: Paulownia wood (super light, sustainable) [19][21]
+51. core_material: Popster — "shaped wood core profile with strategically placed variations of thickness for skate-influenced snap and pop" [2][19]
+52. sustainability_certification: FSC certified woodcore [22]
+53. construction_material_innovation: ABC Wrapper [2][19]
+54. construction_material_innovation: "Patented process using structural bamboo veneers to reduce fiberglass and resin content in each board by 40%" [19]
+55. laminate: BA MD Glass (Medium Density fiberglass) [2][21]
+56. laminate: "Medium density European-made fiberglass layers guarantee a consistent quality level, for light and lively boards" [21]
+57. construction_material_innovation: Ghost Carbon Stringers [22][23]
+58. construction_material_innovation: "Carbon stringers are sewn into a triax layer for reactive pop and stability at speed" [22]
+59. resin: 30% Bio Resin (bio-epoxy resin, 30% molecular structure derived from plants) [2][23]
+60. sidewall_material: Recycled ABS Sidewalls [2]
+61. sidewall_material: Merchant listing for 2024 says "Recycled ABS Sidewalls." However, the Salomon.com US page for earlier model years says "waterproof Bamboo rods" replace traditional ABS. Altitude Sports lists "Bamboo+Cork Rails." The Good Ride reviewer confirms for 2025 that ABS replaced cork/bamboo, so the 2024 merchant listing of "Recycled ABS" may be forward-applied or the 2024 model already had this change [2][19][24][15].
+62. construction_material_innovation: Damplifier Lite [21][23]
+63. construction_material_innovation: "Lightweight cork and honeycomb strategically placed in the tip for better float, lower swing weight, and increased dampening and shock resistance" [21]
+64. base_material: Sintered EG [2][19]
+65. base_material: "High speed, good wax retention, Electra finish for turbocharged glide, Gallium for extra impact resistance" [2][19]
+66. base_type: Fine Stone Finish [2][19]
+67. base_type: "Particularly efficient on Sintered EG base, speed up in powder or softer snow conditions" [19]
+68. sustainability_certification: Natural wax — paraffin-free compound made from natural ingredients [17]
+69. edge_technology: All Mountain Edge Bevel [2][24]
+70. edge_bevel_spec: "1-degree bevel in the nose and tail and a 2-degree bevel between the feet for superior edge hold and no hang ups" [24]
+71. mounting_pattern: 2×4 Inserts (also noted as 4×2) [2][24]
+72. price_aud_merchant: $949.99 [2]
+73. price_aud_merchant: $569.99 (40% discount) [2]
+74. availability_status: Sold out (155cm listed) [2]
+75. price_usd_msrp: $669 [15]
+76. USD price (Sundance Ski Shop, E.P. variant): Regular $569.00, Sale $432.00 [25]
+77. CAD price (Comor Sports, 2024 clearance): CA$461.99 [22]
+78. EUR price (SnowCountry, 2025 model): €389.00 [15]
+79. price_cad_prfo: CA$394.99 [15]
+80. CAD price (The Local Skate Shop, demo): CA$435.00 (regular $580.00) [26]
+81. availability_status: Salomon.com (official, multiple country stores) — board listed as "Freeride" [17][19]
+82. availability_status: evo.com (US/Canada) — reputable major online ski/snowboard retailer [27]
+83. availability_status: Backcountry.com — listed HPS Takaharu Nakai EP 2024 [1]
+84. availability_status: Boyne Country Sports — US specialty retail [12]
+85. availability_status: Comor Sports — Canadian retailer (Whistler, Vancouver, North Vancouver) [22]
+86. availability_status: SnowCountry.eu — European retailer [21]
+87. availability_status: Behind The Pines (EU) — European snowboard shop [20]
+88. availability_status: Ski Pro AZ — US specialty [3]
+89. availability_status: Powder7 — Golden, CO ski shop (used/demo units) [28]
+90. availability_status: Wilderness Safe Co — Australian retailer [5]
+91. availability_status: Melbourne Snowboard — Australian retailer [29]
+92. availability_status: Absolute-Snow.com — UK retailer [30]
+93. availability_status: PRFO Sports — Canadian retailer [15]
+94. availability_status: Altitude Sports — Canadian outlet [24]
+95. availability_status: Tactics Boardshop — US retailer [31]
+96. availability_status: 2024 model widely sold out at most retailers; 2025 model available at select shops [2][15]
+97. Customer rating (merchant): 5.0 out of 5 (1 review) [2]
+98. reviewer_opinion_the_good_ride: Powder: Great; Base Glide: Great; Carving: Great; Speed: Good; Uneven Snow: Good; Switch: Average; Jumps: Great; Jibbing: Good; Pipe: Good [15]
+99. reviewer_opinion_the_good_ride: Alternative Freeride [15]
+100. reviewer_opinion_the_good_ride: Intermediate – Expert [15]
+101. on_snow_feel_tgr: Stable [15]
+102. turn_initiation_performance: Medium/Fast [15]
+103. edge_hold: Hard Snow [15]
+104. flex_rating_10_the_good_ride: Medium [15]
+105. reviewer_opinion_the_good_ride: Semi-Easy [15]
+106. reviewer_opinion_the_good_ride: Normal (bordering on light) [15]
+107. positive_aspect: "Med-Soft but Poppy Flex" [15]
+108. positive_aspect: "Fast Base" [15]
+109. positive_aspect: "Very Easy To Turn For It's Width" [15]
+110. positive_aspect: "Fun to Turn" [15]
+111. positive_aspect: "Much Better Chatter Absorption" (2025 model with ABS sidewalls) [15]
+112. positive_aspect: Excellent base glide — "really special upper tier glide" even after wax wore off [15]
+113. positive_aspect: Easy and lively ollie/pop out of turns [15]
+114. positive_aspect: "Very stable camber-like board that tracks super well but is pretty forgiving" [15]
+115. positive_aspect: Very good powder float for a more traditional freeride shape [15]
+116. reviewer_opinion_whitelines: "Smooth and easy edge-to-edge, making for a very nice and soulful ride" [16]
+117. positive_aspect: "stable at high speeds, and never had it wash out" [32]
+118. user_review_forum: "Fantastic board imo. I actually love the flex" [33]
+119. user_review_forum: "It's playful and surfy. Good powder board" [34]
+120. user_review_forum: "It turns great. Carves great. Nose stays up and it floats in deep snow" [34]
+121. negative_aspect: "Still Bouncy In Uneven Snow" [15]
+122. negative_aspect: "Softer Flex For Freeride" — softer than typical freeride boards [15]
+123. negative_aspect: "It just didn't buffer your body from what the chunder/micro bumps/wet uneven snow can do to your joints" — this was a major weakness before ABS sidewalls [15]
+124. user_review_forum: "the nose is too soft for me…the section right in front of the front foot flexes a LOT" — nose can fold in terrain depressions [34]
+125. user_review_forum: "Not quite fast enough for my personal taste…The Taka is a bit slower" vs Burton Flight Attendant [34]
+126. negative_aspect: "not ideal as a hard bordering on icy specialist" for edge hold [15]
+127. negative_aspect: Limited size range — "They only have three" sizes [34]
+128. negative_aspect: Board felt narrower on-snow than specs suggest — "almost 1cm narrower" feel, best for US boot sizes 8-9 on 158 [15]
+129. user_review_forum: "icy groomer where the softer flex and almost flat bottom doesn't help with edge hold" [33]
+130. negative_aspect: Not a straight-line bomber — "fine for a short, straight line for a traverse, but it's no bomber" [15]
+131. Recommended boot sizes (155cm): US 8-10 [15]
+132. Recommended boot sizes (158cm): US 9-11 [15]
+133. Recommended boot sizes (161cm): US 10-12 [15]
+134. reviewer_opinion_the_good_ride: Reviewer recommends staying "well under Salomon's recommended weight ranges as I think they are pretty generous on the high end" [15]
+135. reviewer_opinion_the_good_ride: Board feels narrower than specs; best for boot sizes 8-9 on the 158 per reviewer [15]
+136. comparable_board_cross_brand: Amplid Souly Grail [15]
+137. comparable_board_cross_brand: K2 Alchemist [15]
+138. comparable_board_cross_brand: YES PYL Uninc [15]
+139. comparable_board_cross_brand: Weston Backwoods [15]
+140. comparable_board_cross_brand: United Shapes Cadet [15]
+141. comparable_board_cross_brand: Burton Gril Master [15]
+142. comparable_board_cross_brand: Jones Flagship Pro [15]
+143. comparable_board_cross_brand: Nidecker Beta, Nitro Quiver Cannon [35]
+144. comparable_board_same_brand: HPS Takaharu Nakai E.P. (Extended Play — longer nose, slightly narrower, designed to ride 3-5cm longer) [36][20]
+145. comparable_board_same_brand: Salomon Sick Stick (similar flex range, different character per forum) [33]
+146. Compared against Burton Flight Attendant by forum user — FA is stiffer and faster [34]
+147. comparable_board_same_brand: HPS Taka Split exists for touring [37]
+148. resin: 30% plant-derived molecular structure [2][23]
+149. construction_material_innovation: Reduces fiberglass and resin content by 40% [19]
+150. sustainability_certification: FSC certified [22]
+151. core_material: Paulownia (sustainable, lightweight) [19]
+152. sustainability_certification: Recycled ABS sidewalls [2]
+153. sustainability_certification: 50% recycled base materials [38]
+154. sustainability_certification: Natural, paraffin-free wax [17]
+155. terrain_suitability: Versatile powder board [2]
+156. terrain_suitability: Deep powder and fresh snow [12]
+157. terrain_suitability: Trees, powder, freeride, groomed runs [12][16]
+158. riding_style: "set-back and surfy, calling for big arcing cuts in fresh powder" [12]
+159. switch_riding: Doable but directional board pulls you back from switch [15][32]
+160. terrain_suitability: Not designed for park; can jib in a pinch [15]
+161. terrain_suitability: "Endless fun on groomed runs" per Boyne Country Sports description [12]
+162. skill_level_recommendation: Intermediate to Advanced/Expert freeriders [2][15]
+163. comparable_board_same_brand: HPS Takaharu Nakai E.P. (new for 2024 season) [36]
+164. comparable_board_same_brand: Same general platform but with different shape — slightly narrower than non-E.P. and designed to be ridden 3-5cm longer [36][20]
+165. comparable_board_same_brand: Designed for faster, open bowls and deep backcountry [14]
+166. Graphics remained the same for 2024 as previous year's model [36]
+167. 2024 lineup: All 2023 Salomon models returned, E.P. variant was new addition [36]
+168. available_sizes: 161cm size added to lineup [39]
+169. Hillside Project has been a "favorite collection in the Salomon line since 2017" [14]
+170. Taka shape/design: "inspired by Japanese powder riding style" per Salomon's own FW19/20 preview [40]
+</answer>
+
+<citations>
+
+<citation id="1">
+<quotelist>
+<url>https://www.backcountry.com/salomon-hps-takaharu-nakai-ep-snowboard-2024</url>
+<quote>The Salomon HPS Takaharu Nakai EP Snowboard brings speed, agility, and control to our freeride adventures with a directional camber profile and tapered directional shape.</quote>
+</quotelist>
+<url_with_text_link>https://www.backcountry.com/salomon-hps-takaharu-nakai-ep-snowboard-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Backcountry.com is a major US online retailer with accurate product descriptions sourced from manufacturer data. Confirms basic product identity and key features.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://www.wildernesssafeco.com/products/salomon-hps-takaharu-nakai-2024/</url>
+<quote>AUD price: $569.99, RRP price: $949.99, discount: 40%, SKU: L41505000 155</quote>
+<quote>available sizes: 155cm, 158cm, 161cm</quote>
+<quote>camber type: Powder Camber, flex: Soft, shape: Tapered Directional</quote>
+</quotelist>
+<url_with_text_link>https://www.wildernesssafeco.com/products/salomon-hps-takaharu-nakai-2024/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2026-02</date_of_last_relevance>
+<reasoning>This is the merchant source identified in the task instructions. Contains the most comprehensive spec table including dimensions for each size, verified by merchant.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://skipro.com/products/salomon_hps_takaharu_nakai_snowboard</url>
+<quote>The Salomon HPS Takaharu Nakai Snowboard 2024 is a high-performance board designed for advanced riders looking for precision and control in various conditions.</quote>
+</quotelist>
+<url_with_text_link>https://skipro.com/products/salomon_hps_takaharu_nakai_snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Ski Pro AZ is a specialty retailer providing product descriptions. Confirms board category as freeride and target rider level as advanced.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://www.salomon.com/en-ca/shop/product/hps-takaharu-nakai-li6804.html</url>
+<quote>Best for Freeride, Advanced, Intermediate, Flex - Medium</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-ca/shop/product/hps-takaharu-nakai-li6804.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Official Salomon Canada product page — highest authority for product classification and flex rating. Classifies flex as Medium, not Soft.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://www.wildernesssafeco.com/products/salomon-hps-takaharu-nakai-2024/</url>
+<quote>The 2024 Salomon HPS – Takaharu Nakai is the ultimate versatile powder board</quote>
+</quotelist>
+<url_with_text_link>https://www.wildernesssafeco.com/products/salomon-hps-takaharu-nakai-2024/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2026-02</date_of_last_relevance>
+<reasoning>Merchant confirms board category as "versatile powder board."</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+<quote>Salomon SAS is a French sports equipment manufacturing company headquartered in Annecy, France.</quote>
+<quote>It was founded in 1947 by François Salomon</quote>
+<quote>Salomon is owned by Finnish retail conglomerate Amer Sports</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1947</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Wikipedia provides well-sourced background on Salomon's corporate identity, ownership, and founding. Reliable for established corporate facts.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://skipro.com/products/salomon_hps_takaharu_nakai_snowboard</url>
+<quote>Founded in 1947 in the heart of the French Alps, Salomon started as a small workshop producing saw blades.</quote>
+<quote>This expansion continued under the ownership of Adidas and later Amer Sports</quote>
+</quotelist>
+<url_with_text_link>https://skipro.com/products/salomon_hps_takaharu_nakai_snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1947</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Retailer page confirming Salomon corporate history, consistent with Wikipedia and other sources.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Salomon_Snowboards</url>
+<quote>Marketing for Salomon Snowboards is based in Portland, Oregon, near Mount Hood, while design and development takes place at the base of the French Alps, in Annecy, France.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Snowboards</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2000</date_of_first_relevance>
+<date_of_last_relevance>2024-12</date_of_last_relevance>
+<reasoning>Wikipedia article specifically on Salomon Snowboards confirms design/development location in Annecy.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+<quote>For the most part, Salomon snowboards are manufactured in China.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2024-03</date_of_last_relevance>
+<reasoning>Industry-focused article researching manufacturing locations for multiple brands. Confirms China as Salomon's snowboard factory location.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+<quote>Factory: China. Manufactured in China with design and development undertaken in France.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Snowboarding Profiles is a well-researched specialist snowboarding resource. Independently confirms China manufacture for Salomon boards.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="11">
+<quotelist>
+<url>https://www.amazon.co.jp/-/en/Salomon-TAKAHARU-NAKAI-L47350600-Snowboard/dp/B0CK17P3L7</url>
+<quote>Country of Origin: China</quote>
+</quotelist>
+<url_with_text_link>https://www.amazon.co.jp/-/en/Salomon-TAKAHARU-NAKAI-L47350600-Snowboard/dp/B0CK17P3L7</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Amazon Japan product listing explicitly states Country of Origin as China. Product-level evidence of manufacturing origin.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://boynecountrysports.com/products/salomon-mens-hps-takaharu-nakai-snowboard</url>
+<quote>Salomon's HPS-Takaharu Nakai edition is part of their Hillside Project, in which legendary snowboard shaper Wolle Nyvelt worked with Salomon's pros to create unique boards</quote>
+<quote>Nakai's model is set-back and surfy, calling for big arcing cuts in fresh powder.</quote>
+</quotelist>
+<url_with_text_link>https://boynecountrysports.com/products/salomon-mens-hps-takaharu-nakai-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Boyne Country Sports provides detailed product narrative directly from Salomon's official marketing materials. Reliable for design intent and series background.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://comorsports.com/products/salomon-hps-takaharu-nakai-snowboard-2023</url>
+<quote>Designed and built from start to finish by snowboard icons Wolfgang Nyvelt and Takaharu Nakai.</quote>
+</quotelist>
+<url_with_text_link>https://comorsports.com/products/salomon-hps-takaharu-nakai-snowboard-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Comor Sports, Canadian retailer, confirms designer collaboration credits.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://snowboardmag.com/stories/shreddable-arrangement-first-look-the-2024-salomon-hps-quiver</url>
+<quote>Since 2017, the Hillside Project Series has been one of Salomon's most-anticipated releases every season.</quote>
+<quote>Each hand-shaped board in the line is fine-tuned to excel in powder</quote>
+</quotelist>
+<url_with_text_link>https://snowboardmag.com/stories/shreddable-arrangement-first-look-the-2024-salomon-hps-quiver</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Snowboard Magazine is a reputable specialist publication. Confirms HPS series start date of 2017 and describes the design philosophy authoritatively.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-hps-takaharu-nakai-snowboard-review/</url>
+<quote>List Price $669 (USD)</quote>
+<quote>Salomon calls this flex medium, but it's more on the Medium-Soft Side.</quote>
+<quote>The Salomon HPS Takaharu Nakai has 12mm of taper</quote>
+<quote>155: 8-10, 158: 9-11, 161: 10-12</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-hps-takaharu-nakai-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride is one of the most thorough and independent snowboard review sites. Reviewer tested 800+ boards for comparison. Extensive hands-on testing with detailed ratings. Primary review source for performance characteristics.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-hps-taka-2018-2019.html</url>
+<quote>It's a collaboration between Wolle and one of Japan's finest soul shredders, who also has an impressive halfpipe career to look back on.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-hps-taka-2018-2019.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2018</date_of_first_relevance>
+<date_of_last_relevance>2019</date_of_last_relevance>
+<reasoning>Whitelines is an established snowboard media outlet. Early review of the Taka providing designer background and ride impressions. Describes ride character consistently with later reviews.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.salomon.com/en-ca/shop/product/hps-takaharu-nakai-li6804.html</url>
+<quote>Best for Freeride, Advanced, Intermediate, Flex - Medium</quote>
+<quote>A medium flex has a balance of playfulness and response</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-ca/shop/product/hps-takaharu-nakai-li6804.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Official Salomon Canada site for the 2025 model year. Highest authority for manufacturer-stated flex rating. Shows "Medium" flex classification, contradicting merchant "Soft" listing.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-hps-takaharu-nakai-snowboard-review/</url>
+<quote>The Salomon HPS Takaharu Nakai has 12mm of taper and you do feel some of that.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-hps-takaharu-nakai-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>Independent reviewer measurement/observation of taper amount. Consistent across multiple years of the same shape.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.salomon.com/en-us/shop/product/hps-takaharu-nakai.html</url>
+<quote>ABC Wrapper is a patented process using structural bamboo veneers to reduce fiberglass and resin content in each board by 40%.</quote>
+<quote>Ghost Green Core components have been selected and designed to optimize pop and reduce weight while utilizing sustainable attributes of a super light polawania wood.</quote>
+<quote>Sintered material provides superior wax retention, Gallium strengthens impact resistance and the Electra finish gives a turbocharged glide.</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-us/shop/product/hps-takaharu-nakai.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Official Salomon US product page. Highest authority for construction details, material descriptions, and technology specs. Some listings may reflect earlier model years but core technologies remain consistent.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://www.behindthepines.eu/en/salomon-takahru-nakai-ep-2024.html</url>
+<quote>Created from a perfect circle, Radial is the classic sidecut for consistent response forward and switch.</quote>
+<quote>ABC Wrapper is a patented process using structural wood veneers to reduce fiberglass and resin content in each board by 40%.</quote>
+</quotelist>
+<url_with_text_link>https://www.behindthepines.eu/en/salomon-takahru-nakai-ep-2024.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>European retailer listing for the E.P. variant. Describes sidecut as "Radial" rather than "Quadratic." This may be specific to the E.P. variant or reflect different marketing terminology.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.snowcountry.eu/24-salomon-snowboard-hps-takaharu-nakai-e-p.html</url>
+<quote>Ghost Green Core components have been selected and designed to optimize pop and reduce weight while utilizing sustainable attributes of a super light paulownia wood.</quote>
+<quote>Medium density European-made fiberglass layers guarantee a consistent quality level, for light and lively boards.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowcountry.eu/24-salomon-snowboard-hps-takaharu-nakai-e-p.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>SnowCountry.eu provides detailed spec descriptions sourced from Salomon. Confirms fiberglass type and core material details.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://comorsports.com/products/salomon-hps-takaharu-nakai-snowboard-2023</url>
+<quote>Shop Salomon Men's HPS - Takaharu Nakai Snowboard 2024 for only CA$461.99.</quote>
+<quote>FSC certified woodcore: FSC certified wood comes from forests that meet the highest environmental and social standards</quote>
+<quote>Ghost Carbon stringers: Carbon stringers are sewn into a triax layer for reactive pop and stability at speed</quote>
+</quotelist>
+<url_with_text_link>https://comorsports.com/products/salomon-hps-takaharu-nakai-snowboard-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Comor Sports Canadian retailer confirms pricing, FSC certification, and carbon stringer technology. Price is clearance/sale price.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://www.prfo.com/products/salomon-hps-takaharu-nakai-ep-snowboard-ap18</url>
+<quote>30% Bio-based resin This bio-epoxy resin is made with 30% of its molecular structure derived from plants.</quote>
+<quote>Ghost Carbon stringers Carbon stringers are sewn into a triax layer for reactive pop and stability at speed</quote>
+</quotelist>
+<url_with_text_link>https://www.prfo.com/products/salomon-hps-takaharu-nakai-ep-snowboard-ap18</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>PRFO Sports Canadian retailer with detailed product specs. Confirms bio-resin and carbon stringer details.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://www.altitude-sports.com/p/salomon-hps-takaharu-nakai-snowboard-mens-sal-l47662800</url>
+<quote>Equipped with a 1-degree bevel in the nose and tail and a 2-degree bevel between the feet for superior edge hold</quote>
+<quote>4x2 Inserts</quote>
+<quote>Bamboo+Cork Rails: The liveliness of bamboo mixed with cork composite</quote>
+</quotelist>
+<url_with_text_link>https://www.altitude-sports.com/p/salomon-hps-takaharu-nakai-snowboard-mens-sal-l47662800</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Altitude Sports is a reputable Canadian outlet. Provides detailed edge bevel specifications and confirms Bamboo+Cork Rails for this model year, which may differ from the merchant's "Recycled ABS" claim.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://sundanceskishop.com/en-us/products/salomon-hps-takaharu-nakai-e-p-24</url>
+<quote>Regular price $569.00 Sale price Salomon HPS - TAKAHARU NAKAI E.P. - $432.00</quote>
+</quotelist>
+<url_with_text_link>https://sundanceskishop.com/en-us/products/salomon-hps-takaharu-nakai-e-p-24</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Note: This is the E.P. variant, not the standard Taka. However, the $569 regular price gives context for what the HPS line costs at US retail.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://thelocalskateshop.ca/products/demo-salomon-hps-takaharu-nakai-snowboard</url>
+<quote>Regular price $435.00 · Sale price $435.00 Regular price · $580.00</quote>
+</quotelist>
+<url_with_text_link>https://thelocalskateshop.ca/products/demo-salomon-hps-takaharu-nakai-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2026</date_of_last_relevance>
+<reasoning>Canadian retailer showing demo pricing, confirms CA$580 as regular price point for the E.P. variant.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-hps-takaharu-nakai-snowboard</url>
+<quote>Head out to the bowls and steep couloirs with the Salomon HPS -Takaharu Nakai Snowboard and tackle any terrain with confidence.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-hps-takaharu-nakai-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Evo.com is one of the largest and most reputable online snowboard retailers. Confirms product availability and general ride description.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://www.powder7.com/Salomon-HPS-Takaharu-Nakai-Skis/for-sale</url>
+<quote>2024 Salomon HPS Takaharu Nakai 158cm Skis are now on sale with fast shipping from our Golden, CO ski shop.</quote>
+</quotelist>
+<url_with_text_link>https://www.powder7.com/Salomon-HPS-Takaharu-Nakai-Skis/for-sale</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2026</date_of_last_relevance>
+<reasoning>Powder7 is a reputable used/demo gear reseller based in Golden, CO. Confirms availability of used 2024 units.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/salomon-hps-takaharu-nakai-2025</url>
+<quote>The 2025 Salomon HPS - Takaharu Nakai is the ultimate versatile powder board</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-hps-takaharu-nakai-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Australian retailer confirming product availability in Australian market.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-hps---takaharu-nakai-snowboards-men-2025</url>
+<quote>The Salomon HPS - Takaharu Nakai Snowboard excels in freeride terrain, offering explosive turning capabilities and effortless control.</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-hps---takaharu-nakai-snowboards-men-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-03</date_of_last_relevance>
+<reasoning>UK retailer confirming availability and providing description for 2025 model year.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://www.tactics.com/salomon/hps-takaharu-nakai-snowboard</url>
+<quote>Shop for Salomon men's snowboards online at Tactics Boardshop.</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/salomon/hps-takaharu-nakai-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Tactics is a major US boardshop. Confirms product listing availability.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>http://www.agnarchy.com/2021-salomon-taka-takaharu-nakai-review/</url>
+<quote>It was stable at high speeds, and never had it wash out.</quote>
+<quote>The only limitation I found is that it wants to pull you back from switch right away, and it doesn't like landing on an edge.</quote>
+</quotelist>
+<url_with_text_link>http://www.agnarchy.com/2021-salomon-taka-takaharu-nakai-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020-03</date_of_first_relevance>
+<date_of_last_relevance>2021</date_of_last_relevance>
+<reasoning>Agnarchy is an independent snowboard review site. 2021 model review with hands-on riding impressions. Provides specific ride character details about edge hold and switch limitations.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/update-salomon-hps-takaharu-nakai.275826/</url>
+<quote>Fantastic board imo. I actually love the flex... its what makes that board fantastic, but to be fair im only 145lbs with riding gear</quote>
+<quote>The only down on the board, is icy groomer where the softer flex and almost flat bottom doesnt help with edge hold</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/update-salomon-hps-takaharu-nakai.275826/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2022</date_of_first_relevance>
+<date_of_last_relevance>2024</date_of_last_relevance>
+<reasoning>Snowboarding forum user with 2022 model in 158. Lightweight rider (145lbs) with positive views on flex but confirms ice/groomer limitation. Anecdotal but pattern-consistent with other reviews.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/update-salomon-hps-takaharu-nakai.275826/</url>
+<quote>It's playful and surfy. Good powder board. Fairly stable. Not quite fast enough for my personal taste</quote>
+<quote>On my Burton Flight Attendant, I can hit faster speeds and its a bit more stable (stiffer board). The Taka is a bit slower.</quote>
+<quote>Only real negative for me was that it's too soft from the nose to your front foot.</quote>
+<quote>the nose is too soft for me…the section right in front of the front foot flexes a LOT</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/update-salomon-hps-takaharu-nakai.275826/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2022</date_of_first_relevance>
+<date_of_last_relevance>2024</date_of_last_relevance>
+<reasoning>Forum thread from rider using 2021 model in 158 at Bella Coola heli-skiing (6'2", 190lbs, size 11.5 US boot). Detailed user experience with specific negatives about nose flex and speed compared to Burton Flight Attendant. Rider also updated with 161 experience, same issues.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.45</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.youtube.com/watch?v=w_MlCZCCZCc</url>
+<quote>Comparable Boards: Yes PYL, Nidecker Beta, Nitro Quiver Cannon</quote>
+</quotelist>
+<url_with_text_link>https://www.youtube.com/watch?v=w_MlCZCCZCc</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-11</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>YouTube video review listing comparable boards. Provides useful competitor context for purchase comparison.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://snowboardingprofiles.com/2024-salomon-snowboards-overview</url>
+<quote>+ HPS Takaharu Nakai E.P. - Same as the HPS Takahura Nakai but with a different shape. Slightly narrower than the non-E.P.</quote>
+<quote>Most boards got new paint jobs but the graphics remained the same on the Sick Stick, HPS Louif Paradis, HPS Wolle Nyvelt Fish, HPS - Annie Boulanger and the HPS Takaharu Nakai.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/2024-salomon-snowboards-overview</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-06</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Snowboarding Profiles provides a thorough annual lineup analysis for Salomon. Confirms E.P. variant relationship, unchanged graphics for 2024, and detailed year-over-year changes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://www.salomon.com/en-int/shop-int/product/hps-taka-split.html</url>
+<quote>One of our most popular powder profiles, designed by Wolle Nyvelt and Takaharu Nakai, made for uphill exploration.</quote>
+<quote>Powder Camber combined with a 12mm taper in the tail</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-int/shop-int/product/hps-taka-split.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2021</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Official Salomon international page for the Taka Split variant. Confirms 12mm taper specification and relationship to the solid board.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://skipro.com/products/hps-takaharu-nakai-45w</url>
+<quote>Eco-Friendly Construction: Built with 50% recycled base materials and 30% bio-based resin</quote>
+</quotelist>
+<url_with_text_link>https://skipro.com/products/hps-takaharu-nakai-45w</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Ski Pro AZ listing for 2025 model confirms 50% recycled base materials — this is for the 2025 model; 2024 model may differ.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://snowboardingprofiles.com/2021-salomon-snowboards-overview</url>
+<quote>Salomon HPS Takaharu Nakai - Looks to be just a name change for the most part - but with a new size too (161)</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/2021-salomon-snowboards-overview</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020-06</date_of_first_relevance>
+<date_of_last_relevance>2021-09</date_of_last_relevance>
+<reasoning>Snowboarding Profiles 2021 overview confirms 161cm size was added for the 2021 model year. Useful for understanding size availability history.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://www.boardsportsource.com/salomon-fw19-20-snowboard-preview/</url>
+<quote>The Taka for example is a unique powder shape inspired by Japanese powder riding style.</quote>
+<quote>But this board has a true tail, can ollie, land switch and can be ridden in any snow conditions.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardsportsource.com/salomon-fw19-20-snowboard-preview/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019-01</date_of_first_relevance>
+<date_of_last_relevance>2020-09</date_of_last_relevance>
+<reasoning>Boardsport SOURCE is a trade publication with direct Salomon interview content from 2019. Provides Salomon's own design intent description — Japanese-inspired versatile powder shape. Highly authoritative for design philosophy.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+</citations>
+</response>

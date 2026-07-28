@@ -1,0 +1,928 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="16" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="9" category="geometry" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="5" category="review" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="skill_level_recommendation" count="3" category="recommendation" />
+  <duplicate_canonical name="negative_aspect" count="3" category="review" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+  <duplicate_canonical name="predecessor_model_name" count="2" category="identity" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="taper" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][2]
+2. model_name: Mystery Day Trader (also listed as "Mystery Series Day Trader") [1][2]
+3. model_year: 2025 [1][2]
+4. Series: Mystery Series [1][2]
+5.
+Product listed on burton.com as "Mystery Day Trader Flat Top Snowboard"
+6. SKU: W25-243751 (Burton), 24375100000-155 (merchant) [2] [MERCHANT]
+7.
+Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.
+8.
+Privately held and owned by Donna Carpenter, Burton's headquarters are in Burlington, Vermont with offices in Austria, Japan, Australia, Canada and China.
+9.
+Most of its snowboards are made at the Keil factory with 80 workers in Austria.
+10.
+Burton is the world's first snowboard company to become a certified B Corporation.
+11.
+In 2013, Donna Carpenter estimated that the company had 40 to 45% of the snowboarding market.
+12.
+Specifically for the 2025 season, they've introduced the High Fidelity, Alekesam and Mystery Day Trader into the lineup.
+— The Mystery Day Trader is a NEW addition for the 2025 model year. [10]
+13. The original Burton Day Trader was first released circa 2014 as a women's-specific model.
+The description reads "our women's freeride shape on the NEW Day Trader" and "Developed with Kimmy Fasani."
+14. Pro model rider (predecessor):
+Developed with freeride maven Kimmy Fasani.
+15. gender: Unisex —
+listed as "Gender: Unisex Season: Winter 2025"
+at Pacific Boarder. [11] This is a change from the prior women's-specific Day Trader models.
+16. product_type: Snowboard [1]
+17. board_category: All Mountain / Powder [MERCHANT]
+18. Board subtype:
+freeride directional board
+19. terrain_suitability: 3/10 [Merchant data, confirmed by
+Terrain: Park: 3/10 All-Mountain: 7/10 Powder: 10/10
+] [13]
+20. terrain_suitability: 7/10 [Merchant data, confirmed by Boardertown] [13]
+21. terrain_suitability: 10/10 [Merchant data, confirmed by Boardertown] [13]
+22. rider_level: Expert [MERCHANT]
+23. Rider level (DISAGREEMENT):
+DESIGNED FOR: Intermediate - Expert / All-Mountain, Powder
+— Balmoral Boards lists "Intermediate - Expert" [20]. The merchant data says "Expert" only. This is a notable discrepancy: some retailers include intermediate riders.
+24. Rider level per Absolute-Snow:
+The Mystery Series Day Trader is ideal for intermediate to expert riders looking to explore all over the mountain.
+25. skill_level_recommendation: All-mountain explorers who prioritize powder float with groomer versatility [1]
+26. shape: Tapered Directional [MERCHANT]
+27. Shape description:
+This shape features a slightly longer nose than tail, which concentrates pop in the tail while providing extra float and control in any terrain.
+28. Shape detail: Freeride Directional —
+Bend: Directional Flat Top · Shape: Freeride Directional · Flex: Twin · Taper: 12mm
+29. camber_type: Directional Flat Top [MERCHANT]
+30. Camber description:
+A flat profile between the feet means stability, better balance, and continuous edge control. The tip and tail kick up with an early rise outside the feet for the catch-free and loose feeling you'd expect from a rocker profile.
+31. taper: 12mm [Merchant data, confirmed by Comor] [22]
+32. setback: -37.5mm (all sizes) [MERCHANT]
+33. Balanced Freeride Geometry:
+Balanced Freeride Geometry spec setback camber and a sidecut that is centered on your stance to create a twin freestyle feel when riding flat base. On edge it turns tight and quick with the float and prowess expected from a directional deck.
+34. flex_rating_10: 6/10 [MERCHANT]
+35. Flex rating (DISAGREEMENT):
+Flex 6-9/10
+per Blauer Board Shop. This "6-9/10" listing is unusual and may indicate the flex varies across sizes or may be a data entry error; most other sources list 6/10. [15]
+36. flex_direction: Twin Flex —
+Twin Flex – The flex is perfectly symmetrical from tip to tail for a balanced ride that's equally versatile regular or switch.
+37. flex_feel: "medium" per Steep and Cheap and evo categorizations [3][16]
+38. core_material: Dragonfly II 500G [MERCHANT]
+39. Core description:
+Dragonfly II 500G core is Burton's lightest Core ever, integrating carbon laminations inside the core to provide absolute pop and performance with far less material.
+40. Core description supplementary:
+This is Burtons lightest ever core, which integrates carbon laminations inside the core which provides ultimate pop and performance with minimal materials.
+41. Core zones: Multizone EGD —
+A Burton exclusive. Manipulating the angles and direction of wood grain placement within the core results in ultimate edge-hold, response, and durability. In four separate zones, the wood grain is perpendicular to the core adjacent to The Channel.
+42. Core profiling: Squeezebox —
+Burton's most versatile Squeezebox profile improves pop and performance through the balance of thicker, more powerful core sections with thinner, more flexible sections. Rider energy is transferred outward from beneath the feet, energizing the tip and tail.
+43. Core carbon reinforcement:
+Power Mystery Core – Loaded with carbon for all the power you need to ride aggressively.
+44. laminate: Mystery Glass [MERCHANT]
+45. Mystery Glass description:
+Mystery Glass - This construction features a custom blend of fiberglass and carbon fiber specifically designed to optimize strength-to-weight and allows us to manipulate both flex and feel.
+46. Mystery Glass per Melbourne Snowboard:
+Burton are keeping this one confidential, but just be sure this is some feather-light, robotic-built, space age tech that simultaneously improves power and response.
+47. base_material: Methlon [MERCHANT]
+48. Base description:
+Methlon Base is the fastest, lowest maintenance base material that we offer at Burton, it is constructed from a high molecular-weight P-Tex that is harder, faster and stonger than conventional P-Tex.
+49. Base marketing claim:
+Faster Mystery Methlon Base – Burton's fastest base ever.
+50. base_type: Sintered (highest grade) [MERCHANT]
+51. edge_technology: Frostbite Edges —
+Frostbite extends out slightly beneath your bindings for tremendous edge-hold on hard, icy conditions. Powerful when you need them, playful when you don't.
+52. mounting_pattern: The Channel [MERCHANT]
+53. Channel description:
+Suddenly riders had the ability to easily mount their bindings with virtually unlimited stance options, all in a system compatible with nearly every binding in the shop.
+54. binding_compatibility: All major bindings, works best with Burton EST bindings [Merchant data, confirmed by
+The Channel is compatible with most major binding brands, but works best with Burton EST bindings.
+] [32]
+55. Channel material:
+Aircraft-grade aluminum provides retention twice as strong as the industry standard.
+56. resin: Super Sap Epoxy [MERCHANT]
+57. Resin description:
+A resin formulated with bio-based materials that reduces the carbon footprint by 50% over conventional all-petroleum-based epoxies.
+58. Flex retention: Infinite Ride [MERCHANT]
+59. Infinite Ride description:
+This Burton-exclusive technology allows maximized pop and strength by overbuilding the board, then putting it in a machine that breaks in the board for you. Your board will maintain its flex, pop, and feel from the first day forward, season after season.
+60. Tip/tail design: Pro-Tip —
+A tapered tip and tail thickness reduces swing weight for easier mobility.
+61. available_sizes: 145cm, 150cm, 155cm, 160cm —
+145cm, 150cm, 155cm, 160cm
+62. Effective edge 145cm: 1075mm [Merchant data, confirmed by
+[145cm] 1075mm
+] [16]
+63. Effective edge 150cm: 1125mm [MERCHANT] [16]
+64. Effective edge 155cm: 1175mm [MERCHANT] [16]
+65. Effective edge 160cm: 1225mm [MERCHANT] [16]
+66. sidecut_radius_size: 6.7m [MERCHANT] [16]
+67. sidecut_radius_size: 7.0m [MERCHANT] [16]
+68. sidecut_radius_size: 7.4m [Merchant data, also confirmed by
+Turn radius (m) 7.4 · Reference Size (cm) 155
+] [34]
+69. sidecut_radius_size: 7.7m [MERCHANT] [16]
+70. Waist width 145cm: 241mm [MERCHANT] [16]
+71. Waist width 150cm: 243mm [MERCHANT] [16]
+72. Waist width 155cm: 249mm [Merchant data, confirmed by
+Waist width (mm) 249
+] [34]
+73. Waist width 160cm: 255mm [MERCHANT] [16]
+74. tip_tail_width_size: 298.3mm [Merchant data, confirmed by
+Tip Width (mm) 298.3
+] [34]
+75. tip_tail_width_size: 286.3mm [Merchant data, confirmed by
+Tail width (mm) 286.3
+] [34]
+76. tip_tail_width_size: 286.5/274.5mm [MERCHANT]
+77. tip_tail_width_size: 290.4/278.4mm [MERCHANT]
+78. tip_tail_width_size: 306.2/294.2mm [MERCHANT]
+79. stance_width_range_size: 505mm [MERCHANT]
+80. stance_width_range_size: 530mm [MERCHANT]
+81. stance_width_range_size: 560mm [MERCHANT]
+82. stance_width_range_size: 560mm [MERCHANT]
+83. recommended_weight_range_size: 45-68kg [MERCHANT]
+84. recommended_weight_range_size: 54-82kg [MERCHANT]
+85. recommended_weight_range_size: 54-82kg [MERCHANT]
+86. recommended_weight_range_size: 82-118+kg [MERCHANT]
+87. warranty_period_years: 3 years —
+3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty from date of purchase.
+88. Warranty policy detail:
+Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date of the original owner (with proof of purchase) against manufacturer's defects.
+89. warranty: Only valid from authorized dealers; original purchaser only; eBay purchases not covered [36]
+90. price_aud_merchant: $1,539.99 sale / $2,199.99 RRP — 30% discount, SOLD OUT [MERCHANT]
+91. Price (CAD, Comor Sports):
+$1,415.99 $2,359.99
+— 40% off [22]
+92. Price (CAD RRP): CA$2,359.99 per both Comor and Pacific Boarder [22][11]
+93. Price (CAD, Pacific Boarder):
+$1,651.99 $2,359.99
+— 30% off, sold out [11]
+94. Price (USD, The Source):
+$1,738.00 USD Sale price $1,043.00 USD
+— 40% off, sold out [17]
+95. price_usd_msrp: $1,738.00 USD [17]
+96. availability_status: Listed but appears sold out (page rendered with no size/price data visible) [2]
+97. availability_status: Listed but sold out —
+But fear not - there is plenty to explore
+(stock redirect language) [3]
+98. availability_status: Listed as sold out [16]
+99. The Source Snowboard (US/CA):
+Size: 145 — Variant sold out or unavailable, 150 sold out, 155 sold out, 160 sold out
+— all sizes sold out [17]
+100. availability_status: Listed at CA$1,415.99 on sale, size 155 — appears sold out [22]
+101. availability_status: Listed at CA$1,651.99, size 155, sold out [11]
+102. availability_status: Listed online [20]
+103. availability_status: Listed online [38]
+104. availability_status: Listed online [39]
+105. availability_status: Listed online [40]
+106. availability_status: Listed online, Australia shipping only [32]
+107. availability_status: Listed online with 90-day returns [13]
+108. availability_status: Listed online [14]
+109. availability_status: Listed, appears sold out [1]
+110. availability_status: Listed [34]
+111. Ride feel (speed):
+It's pretty clear that the Day Trader is a snowboard that wants to go fast and luckily feels super steady when you open up the throttle. This snowboard has a medium-stiff flex that we didn't find to be too predisposed to developing speed wobbles.
+112. Ride feel (carving):
+It feels pretty good to carve with though we found that you can definitely feel the flat portion of the board when transitioning edge-to-edge.
+113. Ride feel (chop/crud):
+This board also cuts through crud and chop as long as you commit and power through. We found it to be a bit of a freight train.
+114. Ride feel (short turns negative):
+It's a moderately stiff board that is great for carving but can feel a little out of control if you are going through dense woods or congested areas where you have to quickly make short turns.
+115. Playfulness (negative):
+The Day Trader isn't the most playful board out there and is probably best kept out of the park. It's not great for jibbing, and its asymmetric profile can make riding switch feel quite awkward.
+116. Edge hold (positive):
+We think Burton's serrated FrostBite edges work exceptionally well. We never had the edge slip when traversing on steep or icy terrain.
+117. Edge hold (negative caveat):
+This board can be a little predisposed to skidding turns while carving, and we would feel the board start to slip just a tiny bit on top of that if we hit any patches of ice at high speed.
+118. Powder performance:
+The Day Trader is a directional freeride board with a longer nose and shorter tail, as well as a flat rocker profile that helps it float to the top of the snow. This snowboard also has a slight taper — 12 mm — from nose to tail.
+119. Target use summary:
+The Day Trader by Burton is for anyone who wants a fairly stiff snowboard that is stable at speed and floaty in powder.
+120. reviewer_opinion_whitelines: Whitelines found it "super fun at fast speeds" and noted it "held an edge remarkably well on ice" but "rather clumsy when it came to making quick turns" [44]
+121. reviewer_opinion_the_good_ride: The Good Ride —
+The Burton Day Trader is a free-ride snowboard that borders on the all-mountain line. So when you are riding it doesn't feel super aggressive like some free-ride boards tend to do.
+122. reviewer_opinion_the_good_ride: The Good Ride on edge hold (DISAGREEMENT with OGL) —
+Not really there when the snow gets med/hard to hard. Up till that point, the Burton Day Trader is not bad but after that point, it lets go way too easy and it can be a bit scary.
+NOTE: This contradicts OutdoorGearLab's more positive edge hold assessment. The Good Ride may have tested an older (pre-Frostbite?) version. [42]
+123. user_review_forum: Freeride.com user —
+Really good all mountain boards, works well both in the pist and the powder outside. Weaknesses: Had been awesome if it was in a slightly longer model.
+124. Value assessment:
+The Day Trader isn't the cheapest snowboard on the market, but it is a bit less expensive than some of the other directional snowboards.
+NOTE: This was for the non-Mystery version; the Mystery version is significantly more expensive. [41]
+125. Weight reduction claim:
+This is Burton's lightest core ever, which is made with carbon laminations that provide both pop and performance (and use a minimal amount of materials).
+126. Mystery Landlord reviewer on weight:
+It's seriously light... Burton have massively reduced the weight by building the Mystery Landlord around their lightest core and then shaved extra grams with carbon additives just about everywhere. It really is insanely lightweight, but there's none of the twitchiness you'd expect to find.
+127. Mystery Series price concern:
+Safe to say, if you're on a budget – look elsewhere.
+128. Mystery Series value commentary:
+But that price tag is enough to make an onion cry. If the cost phases you, don't buy it, you'll be underwhelmed.
+129. Construction: Methlon base + Mystery Glass + Dragonfly II 500G core + Squeezebox profiling + Multizone EGD + Frostbite Edges + The Channel + Infinite Ride + Super Sap Epoxy + Pro-Tip — confirmed across multiple sources [1][3][13][17]
+130. taper: 12mm [41]
+131. Profile summary:
+Directional Flat-Top — The ultimate surfy feel for stable landings and maximum float for pow days. Zero camber insert to insert with rocker in the nose and tail. The flat portion of the board is set back onto a smaller tail. The extended rocker in the nose makes for a gorgeous, surfy float.
+132. Shape detail (The Source):
+Directional Tapered — The tail sinks in pow for better float and quicker turns.
+133. Pro-Tip benefit (per The Source):
+this shape not only sees mega-enhanced floatation with a surfy feel in deep powder, it also creates a faster turning snowboard which is noticeably more nimble and great for tree riding.
+134.
+As the world's largest snowboard manufacturer by a considerable way, Burton have a reputation for making excellent boards.
+135.
+Burton Snowboards was the world's first snowboard manufacturing company. It was founded in 1977 by Jake Burton Carpenter in Manchester, Vermont.
+136. Manufacturing moved to Austria:
+In 2010, Burton announced that Burton Snowboards would cease manufacturing in Vermont and move production to Austria.
+137.
+Just 1% to 2% of Burton's snowboards are made at its Vermont prototyping lab.
+138. Customer satisfaction (Comparably):
+122 Customers rate Burton's Product Quality Score a 4.4/5, which ranks it 1st against its competitors.
+139. comparable_board_same_brand: Burton Family Tree Hometown Hero (directional camber, all-mountain/freeride), Burton Cartographer (big-mountain/all-mountain), and Burton Flight Attendant/Deep Thinker (freeride crossover) [10][3]
+140. The Good Ride comparison:
+These days it sits in between the Stick Shift and Story Board in terms of overall ride. It doesn't have the float of the Stick Shift but is close and ride groomers a little better.
+141. Burton's brand competitors in snowboards:
+Burton Snowboards's top competitors include Salomon, Quiksilver and Rossignol.
+142. comparable_board_cross_brand: Capita, Nitro, Salomon, K2, Yes, Jones — though these are more commonly compared to the Burton Custom [48]
+143. predecessor_model_name: Burton Day Trader (women's-specific, first available ~2014), later Burton Family Tree Day Trader (2016-2021).
+Developed with freeride maven Kimmy Fasani, this tapered, directional board is designed to explore the off-piste with ease.
+144. The 2025 Mystery version changed the Day Trader from a women's-specific board to a unisex model with upgraded Mystery Series construction [11][15][1]
+145. Core change: Previous versions used FSC Certified Super Fly II 700G core. The 2025 Mystery version uses Dragonfly II 500G core (significantly lighter).
+Like many of Burton's female favourites, the Day Trader has an FSC Certified Super Fly II 700G core.
+vs. current Dragonfly II 500G [50][17]
+146. Glassing change: Previous versions used Triax Fiberglass. The 2025 Mystery version uses Mystery Glass (carbon/fiberglass blend) [49][1]
+147. tip_tail_width_size: 286.5/274.5mm [MERCHANT]
+148. tip_tail_width_size: 290.4/278.4mm [MERCHANT]
+149. tip_tail_width_size: 298.3/286.3mm [MERCHANT]
+150. tip_tail_width_size: 306.2/294.2mm [MERCHANT]
+151. terrain_suitability: All Mountain, Powder [MERCHANT]
+152. riding_style: Powder float, groomed runs, versatile all mountain [MERCHANT]
+153. Shipping restriction (merchant): Australia only [MERCHANT]
+154. availability_status: Sold out [MERCHANT]
+155. available_sizes: 155cm, 160cm [MERCHANT]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-mystery-series-day-trader-2025</url>
+  <quote>2025 Burton Mystery Series Day Trader Snowboard offers smooth, confident control for all-mountain explorers.</quote>
+  <quote>Directional Flat Top – A flat profile between the feet means stability, better balance, and continuous edge control.</quote>
+  <quote>Frostbite Edges – Frostbite extends out slightly beneath your bindings for tremendous edge-hold on hard, icy conditions.</quote>
+  <quote>Mystery Glass Fiberglass build is a complex carbon layup that help manupulate flex while revolutionizing the strength to weight ratio</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-mystery-series-day-trader-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is an authorized Burton dealer providing Burton's official product descriptions and specs. The technical specs quoted are sourced directly from Burton's marketing materials and are consistent across multiple retailers.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-mystery-day-trader-flat-top-snowboard/W25-243751.html</url>
+  <quote>Shop the Mystery Day Trader Flat Top Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-mystery-day-trader-flat-top-snowboard/W25-243751.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton.com US product page. The page appeared to be mostly sold out with limited rendered content, but confirms the model name, SKU, and product categorization as authoritative.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>1.0</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-mystery-series-day-trader-snowboard</url>
+  <quote>Directional Flat Top™ – Flat overall with a rocker nose for the steady stability and effortless float</quote>
+  <quote>Twin Flex – The flex is perfectly symmetrical from tip to tail for a balanced ride</quote>
+  <quote>Balanced Freeride Geometry spec setback camber and a sidecut that is centered on your stance</quote>
+  <quote>Power Mystery Core – Loaded with carbon for all the power you need to ride aggressively.</quote>
+  <quote>Faster Mystery Methlon Base – Burton's fastest base ever.</quote>
+  <quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-mystery-series-day-trader-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is a major, reputable US outdoor retailer. Their product descriptions directly reproduce Burton's official specs and are highly reliable for technical attributes. evo also provides supplementary categorization (flex rating as "medium", ability level as "intermediate-advanced").</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-mystery-day-trader-snowboard-2025</url>
+  <quote>this shape not only sees mega-enhanced floatation with a surfy feel in deep powder, it also creates a faster turning snowboard which is noticeably more nimble and great for tree riding.</quote>
+  <quote>Flex: 6 A mid flex for versatile performance</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-mystery-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Source Snowboard is a reputable specialty retailer. Their description provides additional shape/performance insights beyond standard Burton copy.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://blauerboardshop.com/blogs/snowboarding/2025-burton-snowboards-overview</url>
+  <quote>Specifically for the 2025 season, they've introduced the High Fidelity, Alekesam and Mystery Day Trader into the lineup.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/blogs/snowboarding/2025-burton-snowboards-overview</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>This shop blog article confirms the Mystery Day Trader is a new addition to the 2025 lineup, establishing the first year of sale for this specific model variant.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://pacificboarder.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url>
+  <quote>Gender: Unisex Season: Winter 2025</quote>
+  <quote>$1,651.99 $2,359.99</quote>
+  </quotelist>
+  <url_with_text_link>https://pacificboarder.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Pacific Boarder is a Canadian retail specialist. Confirms gender designation as Unisex and CAD pricing. 30% discount from RRP CA$2,359.99.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.boardertown.co.nz/us/burton-mystery-day-trader-snowboard-2025-bu-24375100000-multi</url>
+  <quote>Terrain: Park: 3/10 All-Mountain: 7/10 Powder: 10/10</quote>
+  <quote>Methlon Base is the fastest, lowest maintenance base material that we offer at Burton, it is constructed from a high molecular-weight P-Tex</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardertown.co.nz/us/burton-mystery-day-trader-snowboard-2025-bu-24375100000-multi</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Boardertown is an Australasian snowboard retailer. Reproduces Burton's official terrain ratings and base material description. Offers 90-day returns.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.88</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.absolute-snow.com/burton-mystery-series-day-trader-snowboards-2025</url>
+  <quote>The Mystery Series Day Trader is ideal for intermediate to expert riders looking to explore all over the mountain.</quote>
+  <quote>Made for fresh snow and groomed laps alike, this medium-flex board boasts bags of float in the deep stuff</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/burton-mystery-series-day-trader-snowboards-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Absolute-Snow is a UK-based specialist retailer with editorial product Q&A. Their independent assessment of rider level as "intermediate to expert" differs from the merchant data's "expert" only designation.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.82</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/burton-mystery-series-day-trader-2025</url>
+  <quote>Flex 6-9/10 Twin Flex</quote>
+  <quote>Multizone EGD™ – A Burton exclusive. Manipulating the angles and direction of wood grain placement within the core</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/burton-mystery-series-day-trader-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Blauer Board Shop lists flex as "6-9/10" which is unusual and may be a data entry error or range. Most other sources list simply 6/10. Noted as disagreement.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.steepandcheap.com/burton-mystery-day-trader-snowboard-2025</url>
+  <quote>145cm, 150cm, 155cm, 160cm · Profile · Flat Top · Shape · directional, tapered · Flex · medium</quote>
+  <quote>Effective Edge · [145cm] 1075mm, [150cm] 1125mm, [155cm] 1175mm, [160cm] 1225mm</quote>
+  <quote>Manufacturer Warranty · 3 year</quote>
+  </quotelist>
+  <url_with_text_link>https://www.steepandcheap.com/burton-mystery-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Steep and Cheap (Backcountry.com family) provides comprehensive spec tables. Highly reliable for numerical specs. Confirms all four sizes and dimensional data.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-mystery-day-trader-snowboard-2025</url>
+  <quote>$1,738.00 USD Sale price $1,043.00 USD</quote>
+  <quote>Glassing: Mystery Glass - This construction features a custom blend of fiberglass and carbon fiber</quote>
+  <quote>Core: Dragonfly II 500G Core - With Multizone EGD uses end-grain woods in impact zones</quote>
+  <quote>Size: 145 — Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-mystery-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Source provides USD pricing and inventory status. All four sizes are sold out. MSRP of $1,738.00 USD is the clearest USD RRP found. 40% discount to $1,043.00.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.93</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://comorsports.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url>
+  <quote>Whether carving through fresh powder or mastering groomed slopes, this freeride directional board offers the versatility and stability every rider craves.</quote>
+  </quotelist>
+  <url_with_text_link>https://comorsports.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Comor Sports is a reputable Vancouver-based multi-sport retailer confirming board subtype classification.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.balmoralboards.com.au/products/burton-2025-mystery-day-trader</url>
+  <quote>DESIGNED FOR: Intermediate - Expert / All-Mountain, Powder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.balmoralboards.com.au/products/burton-2025-mystery-day-trader</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Balmoral Boards is an Australian retailer. Lists rider level as "Intermediate - Expert" which is a wider range than the merchant data's "Expert" only.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.82</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://comorsports.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url>
+  <quote>Shop Burton Mystery Series Day Trader Snowboard 2025 for only CA$1,415.99.</quote>
+  <quote>Gender: Unisex Season: Winter 2025</quote>
+  <quote>Bend: Directional Flat Top · Shape: Freeride Directional · Flex: Twin · Taper: 12mm</quote>
+  </quotelist>
+  <url_with_text_link>https://comorsports.com/products/burton-day-mystery-series-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Comor Sports provides CAD sale pricing and confirms taper spec of 12mm. 40% discount from CA$2,359.99 RRP.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.88</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+  <quote>In 2010, Burton announced that Burton Snowboards would cease manufacturing in Vermont and move production to Austria.</quote>
+  <quote>In 2013, Donna Carpenter estimated that the company had 40 to 45% of the snowboarding market.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides well-sourced background on Burton's founding, market share, and manufacturing location changes. Useful for company context.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.burton.com/us/en/content/about-us.html</url>
+  <quote>Privately held and owned by Donna Carpenter, Burton's headquarters are in Burlington, Vermont with offices in Austria, Japan, Australia, Canada and China.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/content/about-us.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton about page — highest authority for corporate information.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url>
+  <quote>Most of its snowboards are made at the Keil factory with 80 workers in Austria.</quote>
+  <quote>Just 1% to 2% of Burton's snowboards are made at its Vermont prototyping lab.</quote>
+  </quotelist>
+  <url_with_text_link>https://vtdigger.org/2019/12/22/making-it-in-vermont-burton-snowboards-global-reach-begins-in-burlington/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-12</date_of_first_relevance>
+  <date_of_last_relevance>2020-12</date_of_last_relevance>
+  <reasoning>VTDigger is a reputable Vermont news outlet. Provides specific manufacturing details from 2019; the Keil factory detail is still relevant as Burton still manufactures there.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/</url>
+  <quote>Burton is the world's first snowboard company to become a certified B Corporation.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bcorporation.net/en-us/find-a-b-corp/company/burton/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>B Lab is the official certifying body. Confirms Burton's B Corp status, supporting sustainability claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowboard-review.com/snowboard_reviews/review/day_trader/</url>
+  <quote>our women's freeride shape on the NEW Day Trader</quote>
+  <quote>Developed with Kimmy Fasani</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard-review.com/snowboard_reviews/review/day_trader/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2014</date_of_last_relevance>
+  <reasoning>This review page for the 2014 Day Trader confirms it as the first year of the Day Trader model and its women's-specific design with Kimmy Fasani.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://rentals.burton.com/products/ft-day-trader-2020</url>
+  <quote>Developed with freeride maven Kimmy Fasani, this tapered, directional board is designed to perform in fresh snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://rentals.burton.com/products/ft-day-trader-2020</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Burton's own rental/resale platform confirms Kimmy Fasani's involvement in Day Trader development. Authoritative source.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.sourceboards.com/en-us/products/burton-mystery-deep-thinker-camber-snowboard-2026</url>
+  <quote>Dragonfly II 500G core is Burton's lightest Core ever, integrating carbon laminations inside the core to provide absolute pop and performance with far less material.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.sourceboards.com/en-us/products/burton-mystery-deep-thinker-camber-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Source's listing for another Mystery Series board provides the most detailed official description of the Dragonfly II 500G core, which is the same core used in the Mystery Day Trader.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/burton-mystery-day-trader</url>
+  <quote>Dragonfly II 500G - This is Burtons lightest ever core, which integrates carbon laminations inside the core</quote>
+  <quote>Mystery Glass - Burton are keeping this one confidential, but just be sure this is some feather-light, robotic-built, space age tech</quote>
+  <quote>The Channel is compatible with most major binding brands, but works best with Burton EST bindings.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-mystery-day-trader</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre provides uniquely detailed retailer descriptions, including the candid note that Mystery Glass construction is deliberately kept confidential by Burton. Australia-only shipping noted.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.78</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/story-behind-burtons-one-kind-snowboard-mounting-system-channel/</url>
+  <quote>Aircraft-grade aluminum provides retention twice as strong as the industry standard</quote>
+  <quote>Suddenly riders had the ability to easily mount their bindings with virtually unlimited stance options</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/story-behind-burtons-one-kind-snowboard-mounting-system-channel/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton blog explaining Channel technology in detail. Authoritative for understanding the mounting system's material and design benefits.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://www.snowleader.nl/en/mystery-day-trader-2025-BURT02485.html</url>
+  <quote>Waist width (mm) 249 · Tip Width (mm) 298.3 · Tail width (mm) 286.3 · Turn radius (m) 7.4 · Reference Size (cm) 155</quote>
+  <quote>Gender · Unisex</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowleader.nl/en/mystery-day-trader-2025-BURT02485.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowleader (EU retailer) provides independently listed dimensional specs for the 155cm size that confirm the merchant-provided data. Also includes an in-house team review rating.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://burton-snowboarders.com/collections/snowboarding/products/burton-mystery-day-trader-flat-top-snowboard_29599c00</url>
+  <quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty from date of purchase.</quote>
+  </quotelist>
+  <url_with_text_link>https://burton-snowboarders.com/collections/snowboarding/products/burton-mystery-day-trader-flat-top-snowboard_29599c00</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Directly on the Mystery Day Trader product listing, confirming the 3-year warranty applies specifically to this board.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url>
+  <quote>Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date of the original owner (with proof of purchase) against manufacturer's defects.</quote>
+  </quotelist>
+  <url_with_text_link>https://info.burton.com/hc/en-us/articles/208658227-Warranty-policy</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Burton warranty policy page. Most authoritative source for warranty terms.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.auski.com.au/products/burton-mystery-day-trader-snowboard-2025</url>
+  <quote>Unlock the Entire Mountain with Float, Control, and Agility</quote>
+  </quotelist>
+  <url_with_text_link>https://www.auski.com.au/products/burton-mystery-day-trader-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Auski is an Australian snowboard retailer listing this product. Confirms availability in Australia.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://paulreader.com.au/products/burton-mysteryday-trader-2025-snowboard</url>
+  <quote>Whether you're after a day of carving groomers, surfing through powder or ducking through trees, the Burton Mystery Day Trader 2025 Snowboard can do it all.</quote>
+  </quotelist>
+  <url_with_text_link>https://paulreader.com.au/products/burton-mysteryday-trader-2025-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Paul Reader Snow Sports is an Australian specialist retailer confirming product availability. Their early listing (April 2024) suggests pre-season availability.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.rhythmsnowsports.com.au/products/2025-mystery-day-trader-snowboard</url>
+  <quote>Experience the ultimate ride with the Burton Mystery Day Trader snowboard.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rhythmsnowsports.com.au/products/2025-mystery-day-trader-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Rhythm Snowsports is a well-known Australian snowboard retailer. Confirms availability in Australian market.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-womens/burton-day-trader</url>
+  <quote>The Burton Day Trader is a solid all-around all-mountain/freeride snowboard that is happiest when going fast through open areas.</quote>
+  <quote>It's pretty clear that the Day Trader is a snowboard that wants to go fast and luckily feels super steady when you open up the throttle.</quote>
+  <quote>We think Burton's serrated FrostBite edges work exceptionally well.</quote>
+  <quote>This snowboard also has a slight taper — 12 mm — from nose to tail to further enhance its floatation in deep snow.</quote>
+  <quote>The Day Trader isn't the most playful board out there and is probably best kept out of the park.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-womens/burton-day-trader</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-01</date_of_first_relevance>
+  <date_of_last_relevance>2021-12</date_of_last_relevance>
+  <reasoning>OutdoorGearLab is a highly respected review site with standardized testing methodology. This review is of the pre-Mystery Day Trader (women's model with different core/laminate), but the overall shape, camber profile, and riding DNA are the same. The Mystery upgrade would primarily affect weight and pop. Excellent for understanding ride characteristics.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.88</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-day-trader-snowboard-review/</url>
+  <quote>The Burton Day Trader is a free-ride snowboard that borders on the all-mountain line.</quote>
+  <quote>The Day Trader was a little difficult to make short radius closed turns</quote>
+  <quote>Edge Hold: Not really there when the snow gets med/hard to hard.</quote>
+  <quote>These days it sits in between the Stick Shift and Story Board in terms of overall ride.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-day-trader-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is an independent, non-manufacturer-funded review site. Their edge hold assessment is notably more negative than OutdoorGearLab's, likely reflecting a different test version or conditions. Important disagreement to flag.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.freeride.com/gear/snowboards/burton-day-trader.html</url>
+  <quote>Really good all mountain boards, works well both in the pist and the powder outside. Weaknesses: Had been awesome if it was in a slightly longer model</quote>
+  </quotelist>
+  <url_with_text_link>https://www.freeride.com/gear/snowboards/burton-day-trader.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Freeride.com user review provides consumer perspective. The size limitation complaint is relevant — the 2025 Mystery version addresses this with expanded sizes (145-160cm).</reasoning>
+  <evidentiary_alignment>0.72</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-mystery-landlord-2019-2020.html</url>
+  <quote>This is Burton's lightest core ever, which is made with carbon laminations that provide both pop and performance</quote>
+  <quote>It really is insanely lightweight, but there's none of the twitchiness you'd expect to find</quote>
+  <quote>Safe to say, if you're on a budget – look elsewhere.</quote>
+  <quote>But that price tag is enough to make an onion cry.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-mystery-landlord-2019-2020.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-09</date_of_first_relevance>
+  <date_of_last_relevance>2020-04</date_of_last_relevance>
+  <reasoning>Whitelines is a respected snowboard media outlet. This review of the Mystery Landlord uses the same Mystery Series construction as the Mystery Day Trader, making the weight and price commentary directly applicable to understanding the Mystery construction's trade-offs.</reasoning>
+  <evidentiary_alignment>0.78</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.82</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://mpora.com/snowboarding/burton-day-trader-snowboard-review/</url>
+  <quote>As the world's largest snowboard manufacturer by a considerable way, Burton have a reputation for making excellent boards.</quote>
+  </quotelist>
+  <url_with_text_link>https://mpora.com/snowboarding/burton-day-trader-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2016-10</date_of_first_relevance>
+  <date_of_last_relevance>2017-06</date_of_last_relevance>
+  <reasoning>Mpora is an action sports media outlet. The market share claim is well-established and consistent with other sources. Provides brand reputation context.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.68</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.the-house.com/portal/burton-history/</url>
+  <quote>Burton Snowboards was the world's first snowboard manufacturing company. It was founded in 1977 by Jake Burton Carpenter in Manchester, Vermont.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.the-house.com/portal/burton-history/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The-House is a longstanding snowboard retailer. Their brand history page confirms Burton's founding year and claim as the first snowboard manufacturer.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://www.comparably.com/companies/burton-snowboards/competitors</url>
+  <quote>122 Customers rate Burton's Product Quality Score a 4.4/5, which ranks it 1st against its competitors.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.comparably.com/companies/burton-snowboards/competitors</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Comparably aggregates customer and employee ratings. Useful for quantified brand reputation data, though sample size is relatively small.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.62</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/recommend-me-the-best-burton-custom-alternative-boards-from-other-brands.273201/</url>
+  <quote>Capita Mercury, Nitro Team, Salomon Assassin, K2 Broadcast, Yes Standard, Jones Mountain Twin, etc.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/recommend-me-the-best-burton-custom-alternative-boards-from-other-brands.273201/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-02</date_of_first_relevance>
+  <date_of_last_relevance>2023</date_of_last_relevance>
+  <reasoning>Snowboarding forum discussion about Burton alternatives. While focused on the Custom rather than Day Trader specifically, it identifies the key competitor brands in the all-mountain space. The Day Trader is more freeride-oriented so competitors would differ slightly (e.g., Jones Flagship, Capita Navigator).</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.42</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://www.snowboard-review.com/snowboard_reviews/review/burton_family_tree_day_trader2/</url>
+  <quote>Directional Flat Top Directional Shape, 12MM Taper Directional Flex Certified Super Fly II™ 700G Core, Dualzone™ EGD™ Triax™ Fiberglass</quote>
+  <quote>Developed with freeride maven Kimmy Fasani</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboard-review.com/snowboard_reviews/review/burton_family_tree_day_trader2/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2019</date_of_last_relevance>
+  <reasoning>Snowboard-review.com listing for the 2018 Family Tree Day Trader. Documents the predecessor model's core (Super Fly II 700G) and fiberglass (Triax), confirming the significant material upgrades in the 2025 Mystery version.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-day-trader-2019-2020.html</url>
+  <quote>Like many of Burton's female favourites, the Day Trader has an FSC Certified Super Fly II 700G core.</quote>
+  <quote>The Day Trader was super fun at fast speeds, and it held an edge remarkably well on ice</quote>
+  <quote>I found it to be rather clumsy when it came to making quick turns</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/burton-day-trader-2019-2020.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-09</date_of_first_relevance>
+  <date_of_last_relevance>2020-04</date_of_last_relevance>
+  <reasoning>Whitelines is a respected snowboard media outlet. Review of the 2019-2020 Day Trader confirms the previous core material and provides on-snow rider impressions. The quick-turn clumsiness concern is consistent across multiple reviews.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.78</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-mystery-day-trader</url>
+    <quote>brand: Burton; model name: Mystery Day Trader; series: Mystery Series; model year: 2025; SKU: 24375100000-155</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-mystery-day-trader</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

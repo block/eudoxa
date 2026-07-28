@@ -1,0 +1,838 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="positive_aspect" count="12" category="review" />
+  <duplicate_canonical name="negative_aspect" count="12" category="review" />
+  <duplicate_canonical name="availability_status" count="10" category="availability" />
+  <duplicate_canonical name="price_usd_msrp" count="6" category="pricing" />
+  <duplicate_canonical name="contact_length_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="flex_feel" count="5" category="performance" />
+  <duplicate_canonical name="overall_rating_snowboardingprofiles" count="4" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="3" category="sustainability" />
+  <duplicate_canonical name="shape" count="3" category="geometry" />
+  <duplicate_canonical name="setback" count="3" category="unknown" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="3" category="performance" />
+  <duplicate_canonical name="core_material_blend_ratio" count="3" category="construction" />
+  <duplicate_canonical name="base_material" count="3" category="construction" />
+  <duplicate_canonical name="base_glide_performance" count="3" category="performance" />
+  <duplicate_canonical name="turn_initiation_performance" count="3" category="performance" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="price_eur_blue_tomato" count="2" category="pricing" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="stance_width_range_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="weight_per_cm" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="2" category="review" />
+  <duplicate_canonical name="jumps_rating_tgr" count="2" category="review" />
+  <duplicate_canonical name="jibbing_rating_tgr" count="2" category="review" />
+  <duplicate_canonical name="speed_rating_tgr" count="2" category="review" />
+  <duplicate_canonical name="chatter_performance" count="2" category="performance" />
+  <duplicate_canonical name="reviewer_opinion_snowboardingprofiles" count="2" category="review" />
+  <duplicate_canonical name="edge_hold" count="2" category="unknown" />
+  <duplicate_canonical name="camber_height_mm" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="2" category="comparable" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1]
+2. model_name: Legitimizer [1]
+3. model_first_available_year: 2025 (2024-2025 season) — the Legitimizer was introduced as a brand new model for the 2025 season [2]
+4. Model continuation: The 2026 model is unchanged vs. the 2025 model [3]
+5. product_type: Snowboard [1]
+6. board_category: Freestyle / Park [1]
+7. board_category: Freestyle / Park – Twin [1]
+8. gender: Men's [4]
+9. rider_level: Intermediate to Advanced [1] [5]
+10. skill_level_recommendation: Intermediate to Expert [6]
+11. pro_rider_name: Brandon Reis [1]
+12. graphic_designer_artist: Christina "Pika" Burtner (@pika_burtner) [7]
+13. Design inspiration: Combination of the old Banana Tech Box Scratcher and camber Box Knife [1]
+14. Matteo Soltane quote on board: "This board is perfect for taking it to the next level. I learned some new tricks on it at Mt. Hood." [8]
+15. manufacturer: Mervin Manufacturing [9]
+16. manufacturing_location: Sequim, Washington, USA [9]
+17. Factory address: 35 Banana Way, Sequim, WA [10]
+18. Mervin Manufacturing founders: Mike Olson and Pete Saari [11]
+19. sustainability_certification: Zero hazardous waste production [10]
+20. Mervin market position: Last major board factory in the USA [12]
+21. Mervin annual production: Approximately 100,000 units annually (all product types) [13]
+22. Mervin US market share: 23% of US market share for boards priced above $500 (Snowsports Industries America figures) [13]
+23. Mervin current ownership: Acquired by Spring Capital Group (Oregon-based private investment firm) [14]
+24. Mervin factory size: Over 60,000 square feet [13]
+25. Mervin employees: Approximately 120 employees [13]
+26. sustainability_certification: 89.6% hydroelectric power in Washington State [15]
+27. sustainability_certification: FSC certified fast growing renewable forest products [15]
+28. warranty: 1 year against manufacturer's defects from date of purchase from authorized dealer [16]
+29. price_usd_msrp: $499.99 USD [1]
+30. price_usd_msrp: $549.99 USD [17]
+31. price_usd_msrp: $549.99 USD [18]
+32. price_usd_msrp: $549.95 USD [19]
+33. price_usd_msrp: $549.99 USD [20]
+34. price_usd_msrp: $549.99 USD [21]
+MSRP DISAGREEMENT: The manufacturer's own current listing shows $499.99 for the 2025-2026 model, while multiple retailers show $549.99 for the 2025 model. This likely reflects a price reduction for the continuing 2026 model year, or evo/others listing higher original MSRP. The 2026 model at evo is $499.99 [22]. The merchant-provided attribute lists AUD $899.99 RRP.
+35. price_aud_merchant: $629.99 AUD [MERCHANT]
+36. price_aud_merchant: $899.99 AUD [MERCHANT]
+37. Merchant discount: 30% [MERCHANT]
+38. Price at lib-tech.com (on sale): $314.99 USD (from $499.99) [1]
+39. price_usd_evo: $384.99 USD (from $549.99) [17]
+40. price_usd_evo: $349.99 USD (from $499.99) [22]
+41. Price at Sun & Ski Sports: $439.93 USD [23]
+42. Price at Mount Everest: $384.99 USD (MSRP $549.99, 30% off) [20]
+43. availability_status: Listed on Amazon.com [10]
+44. Available at Blauer Board Shop [24]
+45. Available at Buckman's [25]
+46. availability_status: Original price $549.99, 20% off [18]
+47. Available at Corbetts Ski + Snowboard [26]
+48. Available at Ski Shack Sports [27]
+49. price_eur_blue_tomato: €341.57 [23]
+50. price_eur_blue_tomato: €349.95 [23]
+51. availability_status: $549.95 USD [19]
+52. availability_status: $499.99 (2026 model, multiple sizes sold out) [28]
+53. availability_status: $499.99 (2026 model) [29]
+54. availability_status: $549.99 USD (or best offer) [21]
+55. Lib Tech website sale: 30% off 25/26 snowboards at time of research [1]
+56. shape: True Twin [1]
+57. shape: Chopped pill shape with flat-kick nose and tail [1]
+58. camber_type: Early Rise Camber (C3) [1]
+59. camber_description: Traditional camber with catch-free, floaty, carvy, early rise tips and tails [30]
+60. camber_description: Camber underfoot transitioning into rocker a decent amount before the nose and tail [3]
+61. setback: 0cm (centered stance, all sizes) [MERCHANT]
+62. setback: Centered, duck [3]
+63. flex_rating_10_manufacturer: 4.5/10 [1]
+64. flex_rating_10_manufacturer: 5/10 [1]
+65. flex_rating_10_manufacturer: 6/10 [1]
+66. flex_rating_10: 5.5/10 [MERCHANT]
+67. flex_feel: Medium – the most versatile flex [30]
+68. flex_feel: 4.5/10 (medium) [31]
+69. flex_feel: Medium/Soft — more stiffness between feet, softer nose and tail [3]
+70. flex_feel: Felt like a 6/10 nose to tail, 5/10 toe to heel [32]
+FLEX DISAGREEMENT: Multiple reviewers perceive flex slightly differently. Manufacturer says 5/10 for 154cm; SnowboardingProfiles feels 4.5/10 on snow; BoardOfTheWorld says 6/10 longitudinal, 5/10 torsional. This is typical variation in subjective flex perception.
+71. flex_direction: Twin (symmetrical) [1]
+72. core_material: Original Power Construction (OP+) [MERCHANT]
+73. core_material_blend_ratio: 75% Aspen / 25% Paulownia [1]
+74. core_material_blend_ratio: 75% Paulownia / 25% Aspen [30]
+75. core_material_blend_ratio: 75% Aspen / 35% Paulownia (apparent error summing to 110%) [33]
+CORE COMPOSITION DISAGREEMENT: The manufacturer's own spec table on lib-tech.com and the Mount Everest retailer listing state "75% Aspen / 25% Paulownia" [1][20]. The evo 2025 listing reverses this to "75% Paulownia / 25% Aspen" [30]. Multiple other retailer sources and the merchant data confirm the manufacturer's version (75% Aspen / 25% Paulownia). The evo listing appears to be an error.
+76. laminate: Triax and Biax fibreglass [MERCHANT]
+77. laminate: Biaxial/Basalt Fiberglass [28]
+78. base_material: Eco-Sublimated Sintered [MERCHANT]
+79. base_material: Eco Sublimated TNT [34]
+80. base_material: Fast, rugged, maximum wax retention [MERCHANT]
+81. base_glide_performance: Quasi-extruded, durable and low-maintenance; not the fastest gliding base [3]
+82. base_glide_performance: Arrived dry and not fully ready; would benefit from a base grind [3]
+83. topsheet: Eco Sublimated Poly Top [MERCHANT]
+84. topsheet: High strength, impact resistant, lightweight, UV and temperature resistant [30]
+85. sidewall_material: Birch [MERCHANT]
+86. sidewall_material: UHMW Sintered [MERCHANT]
+87. Tip/tail protection: UHMW Tip/Tail Impact Deflection [MERCHANT]
+88. edge_technology: Magne-Traction (7 strategically placed serrations along edges) [MERCHANT]
+89. edge_technology: Strategically located edge serrations provide edge hold; "turns ice into powder" [30]
+90. mounting_pattern: 2x4 inserts [MERCHANT]
+91. construction_material_innovation: Original Power Construction [1]
+92. available_sizes: 147cm, 151cm, 153W, 154cm, 156W, 157cm [1]
+93. available_sizes: 154cm, 157cm, 153cm Wide, 156cm Wide [MERCHANT]
+Note: Manufacturer lists 6 sizes; merchant listed 4 sizes at time of merchant data.
+94. contact_length_size: 111cm [1]
+95. sidecut_radius_size: 7.8m [1]
+96. tip_tail_width_size: 29/29cm [1]
+97. Waist width 147cm: 25.1cm (251mm) [1]
+98. stance_width_range_size: 51.5–63.5cm [1]
+99. recommended_weight_range_size: 85+ lbs / 40+ kg [1]
+100. contact_length_size: 113cm [1]
+101. sidecut_radius_size: 8.0m [1]
+102. tip_tail_width_size: 29.2/29.2cm [1]
+103. Waist width 151cm: 25.2cm (252mm) [1]
+104. recommended_weight_range_size: 95+ lbs / 45+ kg [1]
+105. contact_length_size: 115cm [1] [MERCHANT]
+106. sidecut_radius_size: 8.2m [1] [MERCHANT]
+107. tip_tail_width_size: 30.3/30.3cm [1] [MERCHANT]
+108. Waist width 153W: 26.2cm (262mm) [1] [MERCHANT]
+109. recommended_weight_range_size: 110+ lbs / 50+ kg [1]
+110. contact_length_size: 115cm [1] [MERCHANT]
+111. sidecut_radius_size: 8.2m [1] [MERCHANT]
+112. tip_tail_width_size: 29.4/29.4cm [1] [MERCHANT]
+113. Waist width 154cm: 25.3cm (253mm) [1] [MERCHANT]
+114. recommended_weight_range_size: 110+ lbs / 50+ kg [1]
+115. contact_length_size: 117cm [1] [MERCHANT]
+116. sidecut_radius_size: 8.3m [1] [MERCHANT]
+117. tip_tail_width_size: 30.6/30.6cm [1] [MERCHANT]
+118. Waist width 156W: 26.5cm (265mm) [1] [MERCHANT]
+119. recommended_weight_range_size: 130+ lbs / 60+ kg [1]
+120. contact_length_size: 117cm [1] [MERCHANT]
+121. sidecut_radius_size: 8.3m [1] [MERCHANT]
+122. tip_tail_width_size: 29.6/29.6cm [1] [MERCHANT]
+123. Waist width 157cm: 25.5cm (255mm) [1] [MERCHANT]
+124. recommended_weight_range_size: 120+ lbs / 55+ kg [1]
+125. stance_width_range_size: 51.5–63.5cm / 20.25"–25" [1]
+126. setback: 0cm [1] [MERCHANT]
+127. board_weight_grams: 2840g (6lbs 4oz) [31]
+128. weight_per_cm: 18.44 g/cm [31]
+129. weight_per_cm: 18.64 g/cm [31]
+130. reviewer_opinion_the_good_ride: Feels normal for this surface area [3]
+131. overall_rating_snowboardingprofiles: 82.6/100 [31]
+132. overall_rating_snowboardingprofiles: 19th out of 28 [31]
+133. jumps_rating_tgr: 4/5 [31]
+134. jibbing_rating_tgr: 3.5/5 [31]
+135. Spins rating: 4.5/5 [31]
+136. Switch rating: 4.5/5 [31]
+137. Butters rating: 4.5/5 [31]
+138. Uneven terrain rating: 3/5 [31]
+139. powder_score_snowboardingprofiles: 2/5 [31]
+140. speed_rating_tgr: 2.5/5 [31]
+141. carving_score_snowboardingprofiles: 3/5 [31]
+142. turn_initiation_performance: 4/5 [31]
+143. chatter_performance: Chattery (toward the chattery end) [31]
+144. reviewer_opinion_snowboardingprofiles: More snappy than smooth [31]
+145. reviewer_opinion_snowboardingprofiles: Balanced, slightly more playful [31]
+146. edge_hold: Adequate on icy snow [31]
+147. camber_height_mm: 6.5mm [31]
+148. powder_rating_tgr: Average [3]
+149. base_glide_performance: Average [3]
+150. carving_rating_tgr: Good [3]
+151. speed_rating_tgr: Average [3]
+152. chatter_performance: Good [3]
+153. Switch: Great [3]
+154. jumps_rating_tgr: Great [3]
+155. jibbing_rating_tgr: Great [3]
+156. pipe_rating_tgr: Good [3]
+157. on_snow_feel_tgr: Stable [3]
+158. turn_initiation_performance: Medium/Fast [3]
+159. turn_initiation_performance: Semi-Easy [3]
+160. reviewer_opinion_the_good_ride: Semi-Easy [3]
+161. edge_hold: Hard Snow [3]
+162. flex_feel: Medium/Soft [3]
+163. overall_rating_snowboardingprofiles: 84.6/100 [32]
+164. Park category rank: 29th out of 36 [32]
+165. All-mountain rank: 35th out of 38 [32]
+166. positive_aspect: Playful but stable [3]
+167. positive_aspect: Good grip on ice/hard snow (Magne-Traction) [3]
+168. positive_aspect: Consistent feel underfoot in all conditions [3]
+169. positive_aspect: Easy to butter — locks in well and doesn't over-flex [31]
+170. positive_aspect: Great for spins; good swing weight [31]
+171. positive_aspect: Fun for jumps, forgiving landings [31]
+172. positive_aspect: Rides switch excellently as true twin [6]
+173. positive_aspect: Mellow camber profile suitable for butters and rails [6]
+174. positive_aspect: Forgiving/easy to ride vs. many other C3 camber boards [3]
+175. positive_aspect: Durable construction with UHMW sidewalls; will last a long time [3]
+176. positive_aspect: Perfect for East Coast icy park conditions [32]
+177. positive_aspect: Below average price — costs $35.73 less than the average snowboard price of $535.72 [32]
+178. negative_aspect: Easily bucked about in rough/uneven snow; felt a lot of chatter [31]
+179. negative_aspect: Not suitable for high-speed bombing; gets speed wobbles at faster velocities [31]
+180. negative_aspect: Poor powder performance; not much float when powder gets deep [31]
+181. negative_aspect: Some catchiness, particularly toe side of tail at slower speeds [31]
+182. negative_aspect: Base arrives dry and not fully ready out of the box; needs a base grind [3]
+183. negative_aspect: Has more Box Scratcher personality than Box Knife — may disappoint Box Knife fans [3]
+184. negative_aspect: 154cm model can be a bit narrow for larger boots [6]
+185. negative_aspect: Not for beginners — performance demands make it challenging for less experienced riders [6]
+186. negative_aspect: Not a one-board quiver for riders who want speed, powder, or all-mountain versatility [31]
+187. negative_aspect: Lib Tech doesn't recommend boot sizes, which can lead to buying wrong size [3]
+188. user_review_forum: Lib Tech bases are considered among the slowest by some forum users [35]
+189. comparable_board_cross_brand: Yes Greats, Stone Message, Yes Basic, Ride TwinPig, Burton Good Company, Ride Benchwarmer, Capita Outerspace Living [3]
+190. comparable_board_same_brand: Lib Tech Off Ramp — similar but with more pop for jumping, stiffer flex (7/10), and traditional camber [32]
+191. comparable_board_same_brand: Lib Tech Box Knife (predecessor/related, now discontinued) — turned faster but less forgiving [3]
+192. comparable_board_cross_brand: Capita DOA, Bataleon Evil Twin, Burton Free Thinker, GNU Headspace [35]
+193. predecessor_model_name: Box Scratcher (shape/personality) and Box Knife (camber) — Legitimizer fuses both [1]
+194. terrain_suitability: Resort, Park, Streets [1]
+195. terrain_suitability: Park, groomers, side hits, all mountain [MERCHANT]
+196. riding_style: Freestyle, jibbing [MERCHANT]
+197. terrain_suitability: Primarily park board; also fun for groomer laps, side hits, buttering [31]
+198. negative_aspect: High-speed riding, deep powder, racing [31]
+199. Board comes factory waxed and ready for the mountain [16]
+200. Lib-tech.com rating: 100% (3 reviews) [1]
+201. Edges may need detuning from factory if they feel grabby [3]
+202. camber_height_mm: 6.5mm [31]
+203. overall_rating_snowboardingprofiles: 83.8/100 (Legitimizer at 82.6 is slightly below average) [31]
+204. SKU (merchant): 24SN042 153W [MERCHANT]
+205. shape: Flat-kick nose and tail for easy presses and stability during jumps/landings [1]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+<quotelist>
+<url>https://www.lib-tech.com/legitimizer</url>
+<quote>FREESTYLE / PARK - TWIN</quote>
+<quote>$499.99 $314.99</quote>
+<quote>Size 147: Contact 111, Side 7.8, Nose/Tail 29/29, Waist 25.1, Flex 4.5, Weight 85+/40+</quote>
+<quote>Size 154: Contact 115, Side 8.2, Nose/Tail 29.4/29.4, Waist 25.3, Flex 5, Weight 110+/50+</quote>
+<quote>BOARD ART BY: Christina "Pika" Burtner (@pika_burtner)</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/legitimizer</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official manufacturer product page with full spec table, pricing, and product details. This is the most authoritative source for specifications, sizing, and manufacturer-stated features. The spec table was extracted via web_fetch.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://blauerboardshop.com/blogs/snowboarding/2025-lib-tech-snowboards-overview</url>
+<quote>They introduce five new models(Apex Orca/Legitimizer/Theda/Mini Ramp/Skunk Ape Camber)</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/blogs/snowboarding/2025-lib-tech-snowboards-overview</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-07</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop's 2025 lineup overview confirms the Legitimizer was introduced as a brand new model for the 2025 season. Blauer is an authorized Lib Tech dealer.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/lib-tech-legitimizer-snowboard-review/</url>
+<quote>The 2026 model didn't change vs. the 2025 model I rode so this review is 100% relevant.</quote>
+<quote>The Lib Tech Legitimizer has a medium-to-medium-soft flex overall, with more stiffness between the feet and a softer nose and tail for easy butters.</quote>
+<quote>The base of this production model arrived dry and not fully ready for prime time.</quote>
+<quote>Overall, this is a pretty reliable, well built board that will last a long time.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-legitimizer-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-12</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>The Good Ride is one of the most respected independent snowboard review sites. Reviewer James has tested 800+ boards. This review was based on a purchased production model (157cm), tested over 2 days in varied conditions. Highly credible for performance characteristics.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.88</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard-2025</url>
+<quote>Lib Tech Legitimizer C3 Snowboard 2025</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo is a major authorized Lib Tech retailer. Product listing confirms Men's categorization and in-stock status.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://snowboardingprofiles.com/lib-tech-legitimizer-snowboard-review</url>
+<quote>The Legitimizer is best suited to be used as a park board for someone who is intermediate or above in terms of freestyle ability.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/lib-tech-legitimizer-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-01</date_of_first_relevance>
+<date_of_last_relevance>2026-01-26</date_of_last_relevance>
+<reasoning>Snowboarding Profiles provides independent hands-on review with on-snow testing in varied conditions. Intermediate/above recommendation aligns with manufacturer and other reviews.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://www.evo.com/reviews/snowboard/lib-tech-legitimizer</url>
+<quote>The 2025 Lib Tech Legitimizer is best suited for intermediate to expert riders</quote>
+<quote>He found the mellow camber profile particularly suitable for butters and rails</quote>
+<quote>Though he found the 154cm model a bit narrow for his boots</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/reviews/snowboard/lib-tech-legitimizer</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo's Field Tested reviews are conducted by experienced evo employees at multiple resorts (Brighton UT, Mission Ridge WA, Snow Basin UT). Three testers used the board, providing diverse perspectives. Credible retail review source.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://www.lib-tech.com/legitimizer</url>
+<quote>BOARD ART BY: Christina "Pika" Burtner (@pika_burtner)</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/legitimizer</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official manufacturer page identifies the artist for the board graphics.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.15</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://www.boardsports.eu/lib-tech-legitimizer-snowboard-2025</url>
+<quote>"This board is perfect for taking it to the next level. I learned some new tricks on it at Mt. Hood." Matteo Soltane</quote>
+</quotelist>
+<url_with_text_link>https://www.boardsports.eu/lib-tech-legitimizer-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>European authorized retailer reproducing the Matteo Soltane quote about the Legitimizer. A pro rider endorsement, though marketing material.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://www.mervin.com/</url>
+<quote>Mervin Manufacturing, home of Lib Tech, GNU, and Bent Metal, is a leading designer and manufacturer of snowboarding, skiing, surfing and skateboarding products</quote>
+</quotelist>
+<url_with_text_link>https://www.mervin.com/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Manufacturing website confirms the company as Lib Tech's manufacturer and parent company.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.amazon.com/Lib-Tech-Legitimizer-Mens-Snowboard/dp/B0D94YWTT5</url>
+<quote>Brought to life with ZERO HAZARDOUS waste right here in Sequim, Washington, at Mervin Manufacturing</quote>
+<quote>The address is 35 Banana Way</quote>
+</quotelist>
+<url_with_text_link>https://www.amazon.com/Lib-Tech-Legitimizer-Mens-Snowboard/dp/B0D94YWTT5</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Amazon product listing with manufacturer's own description confirming factory address and zero hazardous waste claim.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+<quotelist>
+<url>https://snowboards.eu/lib-tech-legitimizer/</url>
+<quote>Mervin Manufacturing, founded in 1977 by Mike Olson and Pete Saari, is the leading manufacturer of Lib Tech snowboards.</quote>
+</quotelist>
+<url_with_text_link>https://snowboards.eu/lib-tech-legitimizer/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>European retailer page providing background on Mervin Manufacturing founders and founding year, consistent with other sources.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://www.mervin.com/</url>
+<quote>Mervin is the longest running and last major board factory in the USA.</quote>
+</quotelist>
+<url_with_text_link>https://www.mervin.com/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Manufacturing website. Self-reported claim, but corroborated by Seattle Times and other credible press.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://www.seattletimes.com/life/outdoors/how-made-in-wa-snowboards-still-conquer-the-slopes/</url>
+<quote>Mervin Manufacturing makes around 100,000 units annually</quote>
+<quote>With 23% of U.S. market share for boards priced above $500 according to Snowsports Industries America figures</quote>
+<quote>Mervin Manufacturing, which occupies over 60,000 square feet in a Sequim industrial park.</quote>
+<quote>120 employees head to their preferred Cascade ski areas.</quote>
+</quotelist>
+<url_with_text_link>https://www.seattletimes.com/life/outdoors/how-made-in-wa-snowboards-still-conquer-the-slopes/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-12</date_of_first_relevance>
+<date_of_last_relevance>2025-01</date_of_last_relevance>
+<reasoning>Seattle Times is a respected regional newspaper. Article dated Dec 2024 provides detailed reporting on Mervin's operations, production volume, and market share — all relevant to buyer confidence in the manufacturer.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://shop-eat-surf-outdoor.com/news/mervin-manufacturing-acquired-qa-with-ceo-anthony-derocco/618475</url>
+<quote>Mervin Manufacturing...has been acquired by Spring Capital Group, an Oregon-based private investment firm.</quote>
+</quotelist>
+<url_with_text_link>https://shop-eat-surf-outdoor.com/news/mervin-manufacturing-acquired-qa-with-ceo-anthony-derocco/618475</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Recent industry news about Mervin's ownership change. Relevant to understanding the brand's future direction and stability.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://www.mervinmade.com/</url>
+<quote>In Washington State our electricity is 89.6% hydro electric</quote>
+<quote>Making sure we use only FSC certified fast growing renewable forest products</quote>
+</quotelist>
+<url_with_text_link>https://www.mervinmade.com/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2010</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Made website providing environmental claims. Self-reported but consistent with third-party press reporting.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://snowboards.com/product/49260/lib-tech-lib-tech-mens-legitimizer-snowboard</url>
+<quote>All products made by Lib Tech have a one year warranty against manufacturer's defects from the date of purchase from a Lib Tech Authorized Dealer.</quote>
+<quote>Board comes waxed and ready for the mountain right from the factory.</quote>
+</quotelist>
+<url_with_text_link>https://snowboards.com/product/49260/lib-tech-lib-tech-mens-legitimizer-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Snowboards.com is an authorized retailer providing warranty and factory wax details from the manufacturer. Reliable for factual warranty information.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.evo.com/shop/sale/snowboard/snowboards/lib-tech</url>
+<quote>Lib Tech Legitimizer C3 Snowboard 2025 · $549.99 $384.99 Sale</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/shop/sale/snowboard/snowboards/lib-tech</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo sale page showing the 2025 model's original MSRP of $549.99 and current sale price of $384.99. Evo is one of the largest US snowboard retailers.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://snowboards.com/product/49260/lib-tech-lib-tech-mens-legitimizer-snowboard</url>
+<quote>Original Price: $549.99 · Savings 20% Off Original Price</quote>
+</quotelist>
+<url_with_text_link>https://snowboards.com/product/49260/lib-tech-lib-tech-mens-legitimizer-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Snowboards.com confirming original price of $549.99 for the 2025 model. This corroborates evo's MSRP and suggests $549.99 was the initial 2025 MSRP.</reasoning>
+<evidentiary_alignment>0.93</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.liberty-center.com/buy/product/lib-tech-legitimizer-snowboard-2025-zumiez-226fa0</url>
+<quote>Current price: $549.95</quote>
+</quotelist>
+<url_with_text_link>https://www.liberty-center.com/buy/product/lib-tech-legitimizer-snowboard-2025-zumiez-226fa0</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Zumiez listing via Liberty Center showing the 2025 Legitimizer at $549.95, very close to $549.99 from other sources. Confirms full-price retail point.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://www.ridemteverest.com/snowboard/lib-tech-legitimizer-snowboard/25-24SN042</url>
+<quote>$384.99 · MSRP · $549.99 Save 30%</quote>
+<quote>Core · 75% ASPEN / 25% PAULOWNIA</quote>
+</quotelist>
+<url_with_text_link>https://www.ridemteverest.com/snowboard/lib-tech-legitimizer-snowboard/25-24SN042</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Mount Everest retailer with detailed specs listing including MSRP of $549.99, sale price, and core composition matching manufacturer claims. Confirms 75% Aspen / 25% Paulownia.</reasoning>
+<evidentiary_alignment>0.93</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.ebay.com/itm/256618266742</url>
+<quote>US $549.99 · or Best Offer · Condition: New</quote>
+</quotelist>
+<url_with_text_link>https://www.ebay.com/itm/256618266742</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>eBay listing for a new 156W confirming the $549.99 price point. Secondary market but useful for price comparison.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://www.evo.com/shop/snowboard/snowboards/lib-tech</url>
+<quote>Lib Tech Legitimizer Snowboard 2026 $499.99 $349.99 Sale</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/lib-tech</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo's current listing showing the 2026 model at $499.99 MSRP (on sale $349.99), confirming the price reduction from the 2025 model's $549.99 to the continuing 2026 model's $499.99.</reasoning>
+<evidentiary_alignment>0.93</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/lib-tech-legitimizer-snowboard-review/</url>
+<quote>$439.93 Buy it Now Buy Lib Tech Legitimizer from Sun & Ski Sports</quote>
+<quote>€341.57 Buy it Now Buy Lib Tech Legitimizer from SnowCountry</quote>
+<quote>€349.95 Buy it Now Buy Lib Tech Legitimizer from Stoked Board Shop</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-legitimizer-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-12</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>The Good Ride's affiliate pricing links provide current comparison prices from multiple US and EU retailers. Prices are dynamic but provide a useful snapshot.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://blauerboardshop.com/products/lib-tech-legitimizer-2025</url>
+<quote>2025 Lib Tech Legitimizer Snowboard All new!</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/lib-tech-legitimizer-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Blauer Board Shop is an authorized Lib Tech dealer and active retail listing confirms availability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://buckmans.com/product/49260/lib-tech-legitimizer-snowboard-mens</url>
+<quote>Lib Tech Legitimizer Snowboard - Men's</quote>
+</quotelist>
+<url_with_text_link>https://buckmans.com/product/49260/lib-tech-legitimizer-snowboard-mens</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Buckman's is an authorized retailer; listing confirms product availability.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://www.corbetts.com/lib-tech-legitimizer-snowboard-2025/</url>
+<quote>Shop the Lib Tech Legitimizer Snowboard 2025. Corbetts.com offers you the best selection</quote>
+</quotelist>
+<url_with_text_link>https://www.corbetts.com/lib-tech-legitimizer-snowboard-2025/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Corbetts Ski + Snowboard is a reputable specialty retailer. Listing confirms availability.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://www.skishacksports.com/lib-tech-legitimizer-mens-snowboard-2025.html</url>
+<quote>Lib Tech Legitimizer Men's Snowboard 2025 - Ski Shack</quote>
+</quotelist>
+<url_with_text_link>https://www.skishacksports.com/lib-tech-legitimizer-mens-snowboard-2025.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Ski Shack is a specialty retailer confirming product availability.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://skipro.com/products/legitimizer-56w</url>
+<quote>Biaxial/Basalt Fiberglass: Tuned flex that pops on jumps and presses easily on rails</quote>
+<quote>151 Variant sold out or unavailable 153W Variant sold out or unavailable</quote>
+</quotelist>
+<url_with_text_link>https://skipro.com/products/legitimizer-56w</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Ski Pro AZ retailer listing for the 2026 model mentions Biaxial/Basalt Fiberglass, which differs from other sources listing Triax/Biax. This may reflect updated 2026 specs or retailer description error. Multiple sizes shown as sold out.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://www.skibarn.com/products/libtech-mens-legitimizer-board</url>
+<quote>Athletes:Brandon Reis · Lib Tech Men's Legitimizer Snowboard 2026 · $499.99</quote>
+</quotelist>
+<url_with_text_link>https://www.skibarn.com/products/libtech-mens-legitimizer-board</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Ski Barn listing confirms Brandon Reis as the athlete associated with the board and the $499.99 MSRP for the 2026 model year.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard-2025</url>
+<quote>Early Rise Camber – Traditional camber with catch-free, floaty, carvy, early rise tips and tails.</quote>
+<quote>Original Power Construction – 75% Paulownia / 25% Aspen</quote>
+<quote>Eco Sublimated Poly Top – High strength, impact resistant, lightweight</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo's product page for the 2025 model lists specs from manufacturer but reverses the core wood ratio to "75% Paulownia / 25% Aspen." This conflicts with the manufacturer's own page which lists "75% Aspen / 25% Paulownia." Evo appears to have the ratio inverted.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://snowboardingprofiles.com/lib-tech-legitimizer-snowboard-review</url>
+<quote>Rating Score: 82.6/100</quote>
+<quote>Board Weight: 2840g/cm 6lbs 4ozs</quote>
+<quote>Weight per CM: 18.44g/cm</quote>
+<quote>Camber Height: 6.5mm</quote>
+<quote>The average score was 83.8/100</quote>
+<quote>The Legitimizer ranked 19th= out of 28</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/lib-tech-legitimizer-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-03</date_of_first_relevance>
+<date_of_last_relevance>2026-01-26</date_of_last_relevance>
+<reasoning>Comprehensive independent review with measured weight, detailed scoring breakdown across 10 categories, and comparison to 28 other freestyle boards. Reviewer Nate tested the 154cm model on March 14, 2024 with documented conditions. Very thorough methodology with 300+ boards weighed for comparison.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://www.boardoftheworld.com/quick-review-of-the-lib-tech-legitimizer-snowboard-2026/</url>
+<quote>Overall, the Lib Tech Legitimizer 2026 earned a 84.6 out of a possible 100 in our park boards category.</quote>
+<quote>Ranks 29th out of the 36 boards reviewed in the park category.</quote>
+<quote>The board's flex felt like a 6 out of 10 from nose to tail, and around one whole point softer from toe to heel at a 5 out of 10.</quote>
+<quote>The Lib Tech Legitimizer costs -$35.73 less than the average snowboard price of $535.72.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/quick-review-of-the-lib-tech-legitimizer-snowboard-2026/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-02</date_of_first_relevance>
+<date_of_last_relevance>2026-03-11</date_of_last_relevance>
+<reasoning>Board of the World review by Steve Weber, an experienced East Coast rider (27 years experience) who tested the 154cm at a demo event in Stratton, VT. Provides unique East Coast perspective on icy conditions performance. Flex rating differs from other sources, reflecting subjective variation.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.82</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://peterglenn.com/lib-tech-legitimizer-snowboard-mens-2026-winter/</url>
+<quote>It's made with Lib Tech's Original Power Construction, featuring 75% aspen and 35% paulownia woods.</quote>
+</quotelist>
+<url_with_text_link>https://peterglenn.com/lib-tech-legitimizer-snowboard-mens-2026-winter/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Peter Glenn retailer page contains an apparent error, listing 75% aspen and 35% paulownia (summing to 110%). This is clearly a typo/error and should be disregarded in favor of the manufacturer's 75/25 split.</reasoning>
+<evidentiary_alignment>0.4</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard</url>
+<quote>Eco Sublimated TNT – Fast and low maintenance, this base accepts wax easily and stands up to punishment.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/lib-tech-legitimizer-c3-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo's 2026 model listing shows the base material as "Eco Sublimated TNT" rather than the 2025's "Eco Sublimated Sintered." This may indicate a base material update for the 2026 model year, or different naming convention for similar base.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/all-mountain-freestyle-board.262483/</url>
+<quote>Lib has the slowest bases I've ever ridden.</quote>
+<quote>I would consider capita DOA, Bataleon Evil Twin, Burton Free Thinker, GNU headspace.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/all-mountain-freestyle-board.262483/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019-08</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Snowboarding forum discussion. The slow base claim is a recurring theme corroborated by The Good Ride's review. Forum posts are anecdotal but patterns across users increase credibility. The competitor list provides general all-mountain freestyle alternatives, though the thread predates the Legitimizer.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/lib-tech-legitimizer-2025</url>
+    <quote>AUD price: $629.99; RRP price: $899.99; discount: 30%; model name: Legitimizer; brand: Lib Tech</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-legitimizer-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

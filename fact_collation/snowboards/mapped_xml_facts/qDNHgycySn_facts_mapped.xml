@@ -1,0 +1,825 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="14" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="9" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="7" category="sustainability" />
+  <duplicate_canonical name="comparable_board_same_brand" count="6" category="comparable" />
+  <duplicate_canonical name="construction_material_innovation" count="6" category="construction" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="5" category="review" />
+  <duplicate_canonical name="available_colors" count="4" category="identity" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="mounting_pattern" count="3" category="construction" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="user_review_forum" count="3" category="review" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton (Burton Snowboards) [1][5]
+2. model_name: Process Flying V [5]
+3. model_year: 2027 [5]
+4. product_type: Snowboard [5]
+5. board_category: All Mountain [5]
+6. pro_rider_name: Mark McMorris [5][6]
+7. Mark McMorris description: Canadian professional snowboarder, three-time Olympic bronze medallist, 25 X Games medals [19]
+8. Mark McMorris quote on the Process: "It was the last board I tried when I signed with Burton, and it felt the best. I haven't changed it up since then." [18]
+9. manufacturer: Burton Snowboards, founded 1977 by Jake Burton Carpenter [20]
+10. Manufacturer HQ: Burlington, Vermont, USA [21]
+11. Manufacturer offices: Austria, Japan, Australia, Canada, and China [21]
+12. sustainability_certification: Burton is a certified B Corporation® [21]
+13. manufacturing_location_current: Most retail boards manufactured in Austria for 25+ years; some production also in China [22][23]
+14. R&D facility: Craig's Prototype Facility, Burlington, Vermont [21]
+15. Manufacturer ownership: Privately held, owned by Donna Carpenter [21]
+16. model_first_available_year: The Burton Process Flying V has been available since at least 2011 (evo has listings back to 2011) [24]
+17. The Good Ride reviewed Process Flying V 2011-2018 as a continuous model [24]
+18. 2025 model identical to 2024 except graphic (per SnowboardingProfiles) [25]
+19. 2025 model introduced new size 155W [25]
+20. redesign_year: only change from 2025 is graphics (per Blauer Board Shop) [26]
+21. available_colors: Graphic described as "Good Dog" on Rhythm Snowsports listing [27]
+22. comparable_board_same_brand: PurePop Camber bend available separately as the "Burton Process" (non Flying V) [5][28]
+23. price_aud_merchant: $879.99 AUD [5]
+24. price_usd_msrp: $549.95 USD [29]
+25. price_usd_evo: $384.96 USD [30]
+26. USD sale price (Peter Glenn, 2026): $384.99 USD (was $549.95) [31]
+27. USD price (Rocky Mountain Ski & Board, 2025 model): $549.95 USD [32]
+28. USD price (Shred Shop, 2026): $549.95 USD [33]
+29. USD price (ERIK'S, 2026): $549.95 USD [34]
+30. eBay price (new 2026): $412.46 USD (discounted from $549.95) [35]
+31. Shipping restriction (merchant): Only available for shipping within Australia [5]
+32. availability_status: Rhythm Snowsports (Australia) — 2027 model pre-order available [27]
+33. availability_status: Burton.com (US) — lists as W26-107121 for 2026 season [36]
+34. availability_status: evo.com — 2026 model in stock ($549.95); 2025 model out of stock [29][37]
+35. availability_status: Backcountry.com — lists 2025 model [38]
+36. availability_status: REI Co-op — lists 2024/2025 model [39]
+37. availability_status: Amazon.com — available (152cm shown) [40]
+38. availability_status: Buckmans — lists current model [41]
+39. availability_status: Peter Glenn Ski and Sports — 2026 model [31]
+40. availability_status: Shred Shop — 2026 model (sold out in all sizes at time of search) [33]
+41. availability_status: ERIK'S Bike Board & Ski — 2026 model (sold out) [34]
+42. availability_status: Blauer Board Shop — 2025 and 2026 models listed [26]
+43. availability_status: Boyne Country Sports — 2025 model listed [42]
+44. availability_status: SkatePro — lists the model with flex rating of 3 [43]
+45. availability_status: Snowinn / TradeInn — lists model with full tech specs [44]
+46. evo reputation: Major US online retailer; Lowest Price Guarantee; beat competitor prices by 5%; up to 1-year returns [29]
+47. Burton.com reputation: Official manufacturer direct store; Burton Guides support at (800) 881-3138 [36]
+48. REI reputation: Major outdoor co-op retailer; well-regarded for customer service [39]
+49. shape: Twin/Twin [5]
+50. flex_direction: Twin Flex (symmetrical tip to tail) [5]
+51. flex_rating_10: 2.5/10 [5]
+52. flex_feel: "Playful - Medium" [45]
+53. flex_rating_10: Merchant lists flex as 2.5/10; SkatePro lists flex as 3/10; Buckmans describes it as "Medium". Comment: The merchant and SkatePro sources disagree slightly. Burton's own materials sometimes describe the board personality as "soft" while others note "medium". The 2.5/10 and 3/10 discrepancy likely reflects different year models or rounding differences. [5][43][41]
+54. camber_type: Flying V (rocker/camber blend) [5]
+55. camber_description: Rocker zones between and outside feet; camber zones underneath feet [5][29]
+56. mounting_pattern: The Channel (Burton Channel) [5]
+57. binding_compatibility: Compatible with most major binding brands, works best with Burton EST bindings [5]
+58. available_sizes: 152cm, 155cm, 157cm, 159cm, 162cm Wide [5]
+59. width_options: Standard, Wide [5]
+60. setback: 0cm [5]
+61. core_material: Super Fly II 700G Core with Dualzone EGD and Squeezebox [5]
+62. core_material: Wood (dual-species) [46]
+63. sustainability_certification: FSC™ Certified wood [46][47]
+64. sustainability_certification: 100% FSC™ certified wood in the core [48]
+65. construction_material_innovation: Wood grain positioned along toe and heel edges in two unbroken zones perpendicular to rest of core [5]
+66. construction_material_innovation: Thicker powerful sections combined with thinner flexible sections profiled throughout core [5]
+67. laminate: Triax Fiberglass (above and below core) [5]
+68. laminate: Topsheet / Top glass +/- 45° & 0° stitched / Core / Bottom glass 0° & +/- 45° stitched [44]
+69. resin: Super Sap® Epoxy (bio-based) [5]
+70. sustainability_certification: Reduces carbon footprint by 50% over petroleum-based epoxies [5][29]
+71. base_type: Sintered [5]
+72. base_material: Durable and highly porous, providing added durability and superior wax absorption for greater overall glide [29]
+73. edge_technology: Frostbite Edges — extend slightly under bindings for enhanced edge hold on hardpack and ice [5]
+74. construction_material_innovation: Pro-Tip (tip and tail taper at points for reduced swing weight and promoted mobility) [5]
+75. construction_material_innovation: Infinite Ride — overbuilt then broken down by machinery for consistent performance day 1 to day 100 [5]
+76. effective edge 152cm: 116.5cm [5]
+77. sidecut_radius_size: 7.7m [5]
+78. tip_tail_width_size: 29.01cm [5]
+79. waist width 152cm: 24.9cm [5]
+80. stance_width_range_size: 53.0cm [5]
+81. recommended_weight_range_size: 54-82 kg [5]
+82. effective edge 155cm: 119.5cm [5]
+83. sidecut_radius_size: 7.9m [5]
+84. tip_tail_width_size: 29.32cm [5]
+85. waist width 155cm: 25.1cm [5]
+86. stance_width_range_size: 53.0cm [5]
+87. recommended_weight_range_size: 54-82 kg [5]
+88. effective edge 157cm: 121.5cm [5]
+89. sidecut_radius_size: 8.1m [5]
+90. tip_tail_width_size: 29.49cm [5]
+91. waist width 157cm: 25.2cm [5]
+92. stance_width_range_size: 56.0cm [5]
+93. recommended_weight_range_size: 68-91 kg [5]
+94. effective edge 159cm: 123.5cm [5]
+95. sidecut_radius_size: 8.2m [5]
+96. tip_tail_width_size: 29.86cm [5]
+97. waist width 159cm: 25.5cm [5]
+98. stance_width_range_size: 56.0cm [5]
+99. recommended_weight_range_size: 68-91 kg [5]
+100. effective edge 162W: 126.5cm [5]
+101. sidecut_radius_size: 8.4m [5]
+102. tip_tail_width_size: 30.68cm [5]
+103. waist width 162W: 26.2cm [5]
+104. stance_width_range_size: 56.0cm [5]
+105. recommended_weight_range_size: 82-118+ kg [5]
+106. terrain_suitability: 7/10 [5]
+107. terrain_suitability: 10/10 [5]
+108. terrain_suitability: 6/10 [5]
+109. SKU 152cm: 107121EE9IRG152 [5]
+110. warranty_period_years: 3-year warranty from date of purchase (all 2014+ Burton boards with The Channel) [40][41]
+111. rider_level: Merchant lists as "Beginner"; Rhythm Snowsports lists as "Beginner - Intermediate"; Buckmans lists as "Intermediate / Expert"; Boyne Country Sports describes as "intermediate-to-advanced-level"; Rocky Mountain Ski lists as "intermediate". Comment: There is substantial disagreement across sources about the target rider level. The soft flex and forgiving Flying V profile make it accessible to beginners, but the pro-pedigree twin shape means intermediate+ riders will also find value. Most expert sources converge on "intermediate" as the primary target. [5][27][41][42][32]
+112. terrain_suitability: All mountain with freestyle emphasis [5]
+113. board_category: All-mountain freestyle twin [29]
+114. riding_style: Freestyle-oriented all-mountain [42]
+115. gender: Merchant description says "Men's"; SkatePro says "Man, Unisex". Comment: Burton officially labels it as "Men's" on burton.com; some third-party retailers list it as Unisex. [36][43]
+116. available_colors: "Good Dog" design [27]
+117. graphic_designer_artist: Sean William Randall [29]
+118. available_colors: Panda graphic described as "coveted" [37]
+119. available_colors: Tiger graphic with glow-in-the-dark elements [41]
+120. positive_aspect: Jibs better than average all-mountain snowboard — "one of the great things about this deck is that it jibs well" [49]
+121. positive_aspect: Great all-rounder with no major weaknesses; "perfect for anyone who wants only one board but needs it to be able to do a bit of everything" [49]
+122. turn_initiation_performance: Effortless to turn and quick edge-to-edge [49]
+123. positive_aspect: Handles bumpy stuff well due to soft flex and hybrid rocker profile [49]
+124. positive_aspect: Fun on jumps, spins easy, good pop; "really shines on small to medium jumps" [49]
+125. positive_aspect: Good float due to rocker in profile (despite being a twin) [49]
+126. positive_aspect: Softer flex excellent for presses and butters [50]
+127. positive_aspect: Flying V profile provides catch-free, forgiving feel [27]
+128. positive_aspect: Smooth, forgiving ride on groomed runs; fast and controlled [50]
+129. base_glide_performance: Board maintains speed across flat sections due to sintered base [50]
+130. positive_aspect: Very forgiving board — rewards creative riding without punishing mistakes [27]
+131. edge_hold: Edge hold isn't amazing; "a lot more fun to ride in the softer stuff than in the icy stuff" [49]
+132. negative_aspect: "Too soft and too loose to really lay into deep carves" [49]
+133. negative_aspect: Slightly too soft and edge hold not sufficient for pipe riding [49]
+134. chatter_performance: "Does have some chatter due to its softer flex and hybrid profile" at higher speeds [50]
+135. negative_aspect: Falls apart in medium to hard snow due to lack of edge hold — consistent criticism across Flying V boards [24][51]
+136. negative_aspect: Flying V profile can feel loose/unstable at high speed for aggressive riders [51]
+137. negative_aspect: "If you're an aggressive carver who loves deep, locked-in turns, you might find this board a little too playful" [50]
+138. user_review_forum: Some forum members suggest the PurePop Camber Process instead of Flying V for beginners who want to progress — "the process is already a very soft board" [52]
+139. user_review_forum: Riders advised to be aware not to develop bad habits compensating for reduced edge grip [52]
+140. user_review_forum: "Burton's Flying V profile isn't something what usually gets much praise" — some forum members prefer camber for skill development [52]
+141. comparable_board_same_brand: Easiest to hardest — Process Flying V, Custom Flying V, Process Camber, Custom Camber [53]
+142. comparable_board_same_brand: Custom is stiffer, more directional, has WFO base (faster), and full tip-to-tail carbon layer; Process is softer, more freestyle-oriented, true twin [53]
+143. comparable_board_same_brand: Custom retails higher than Process ($659 vs $549 in 2023 pricing) [53]
+144. comparable_board_same_brand: Process is more park-oriented; Custom is more all-mountain [54]
+145. comparable_board_same_brand: Custom Flying V shares Flying V profile but has medium flex vs Process's softer flex, and a WFO sintered base (faster) [55]
+146. comparable_board_cross_brand: Lib Tech TRS — user switched from Process FV and was "very happy with it, can do everything except jibbing" [24]
+147. comparable_board_cross_brand: Lib Tech Magnatraction rated better for edge hold on firm conditions than Burton Frostbite Edges [51]
+148. sustainability_certification: Super Sap® Epoxy reduces carbon footprint by 50% [5]
+149. sustainability_certification: FSC™ Certified wood [46]
+150. sustainability_certification: Burton is the world's first snowboard company to become a certified B Corporation® [21]
+151. laminate: Three layers of fiberglass (angled, vertical, and horizontal) for balanced strength [26]
+152. construction_material_innovation: Softer/thinner zones underfoot, thicker/stiffer zones outside bindings [31]
+153. mounting_pattern: Two slots running parallel to edges, one per binding, using 2 screws per binding; allows nearly infinite stance adjustment [41]
+154. The Channel replaced 3D mounting in 2014 [41]
+155. construction_material_innovation: Exaggerated tip and tail scooping turns up edges for looser, more forgiving feel [44]
+</answer>
+
+<citations>
+
+<citation id="1">
+<quotelist>
+<url>https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html</url>
+<quote>Shop the Men's Process Flying V Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Burton manufacturer page for the Process Flying V 2026 season. While the JS-heavy page doesn't render full specs, it confirms the product name and categorization.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://www.rhythmsnowsports.com.au/products/22-2</url>
+<quote>Burton Process Flying V 2027 — pro-pedigree freestyle twin with a forgiving Flying V bend.</quote>
+<quote>The Process Flying V takes the same pro-pedigree twin shape designed with Mark McMorris</quote>
+</quotelist>
+<url_with_text_link>https://www.rhythmsnowsports.com.au/products/22-2</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-06</date_of_last_relevance>
+<reasoning>Rhythm Snowsports (AU) is the merchant source listing the 2027 model. It provides the complete product description, specifications per size, and AUD pricing. This is the primary merchant-verified source.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://buckmans.com/product/49653/burton-process-flying-v-snowboard-mens</url>
+<quote>The men's Burton Process Snowboard, with the coveted Tiger graphic, is Mark McMorris' pick</quote>
+</quotelist>
+<url_with_text_link>https://buckmans.com/product/49653/burton-process-flying-v-snowboard-mens</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Buckmans is a reputable US snowboard retailer providing product details and warranty info for the Process FV.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://www.burton.com/blogs/the-burton-blog/built-boards-mark-mcmorris-trusts-process/</url>
+<quote>It was the last board I tried when I signed with Burton, and it felt the best.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/blogs/the-burton-blog/built-boards-mark-mcmorris-trusts-process/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Burton blog post about Mark McMorris and The Process. Provides direct rider quote and confirms the FSC certification and Super Sap details.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Mark_McMorris</url>
+<quote>Mark Lee McMorris (born December 9, 1993) is a Canadian professional snowboarder who specializes in slopestyle and big air events.</quote>
+<quote>A three-time Olympic bronze medallist</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Mark_McMorris</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1993</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Wikipedia biography provides verified background on McMorris's competitive achievements, which supports the pro-rider credibility claims.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+<quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Wikipedia article on Burton Snowboards. Provides founding date, manufacturing info, and corporate history.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.burton.com/us/en/about-why-burton</url>
+<quote>Burton is the world's first snowboard company to become a certified B Corporation®.</quote>
+<quote>Privately held and owned by Donna Carpenter, Burton's headquarters are in Burlington, Vermont with offices in Austria, Japan, Australia, Canada and China.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/us/en/about-why-burton</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Burton About page. Primary authority for corporate facts including HQ location, offices, ownership, and B Corp status.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://m.sevendaysvt.com/arts-culture/craigs-place-2144655</url>
+<quote>Most of its retail boards have been manufactured in Austria for more than 25 years.</quote>
+</quotelist>
+<url_with_text_link>https://m.sevendaysvt.com/arts-culture/craigs-place-2144655</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Seven Days (Vermont independent newspaper) article about Burton's Craig's Prototype Facility. Provides manufacturing location info from a local journalistic source.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://mtnweekly.com/sports/burton-snowboards-doesnt-care-about-you-they-care-about-china/</url>
+<quote>Currently, most Burton is making snowboards in China, while some of the higher-end boards are being produced in Austria</quote>
+</quotelist>
+<url_with_text_link>https://mtnweekly.com/sports/burton-snowboards-doesnt-care-about-you-they-care-about-china/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2015</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Mountain Weekly News editorial piece. Provides perspective on Burton manufacturing split between China and Austria. Opinionated source but includes factual claims about manufacturing locations.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-process-flying-v-2011-2018-snowboard-review/</url>
+<quote>The Burton Proces Flying V is for those that like the Burton Custom Flying V but want a better board for riding switch</quote>
+<quote>It's a really fun board in good snow but falls apart in medium to hard snow due to lack of edge hold.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-process-flying-v-2011-2018-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2011</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride is a well-known independent snowboard review site. The 2011-2018 review covers the model's evolution. While the review covers older models, the fundamental ride characteristics remain consistent across years as the reviewer notes.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://snowboardingprofiles.com/burton-process-flying-v-review-all-mountain-snowboard-review</url>
+<quote>The 2025 model is identical to the 2024 model, as far as I can tell, except the graphic.</quote>
+<quote>The 2025 does introduce a new model - the 155W.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/burton-process-flying-v-review-all-mountain-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017</date_of_first_relevance>
+<date_of_last_relevance>2025-10</date_of_last_relevance>
+<reasoning>SnowboardingProfiles is a dedicated snowboard review site. The reviewer tested the board on snow and provides detailed experience-based feedback on performance. Model-year comparison info is useful for understanding incremental changes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2026</url>
+<quote>What is new on the 2026 model? Graphics.</quote>
+<quote>Upper beginner to advanced riders looking for a softer, more forgiving freestyle twin</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop is a specialty snowboard retailer with detailed product descriptions. Their confirmation that 2026 changes are graphics-only is helpful for year-over-year comparison.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://www.rhythmsnowsports.com.au/products/22-2</url>
+<quote>Flying V blends rocker zones in the tip and tail for a catch-free, easy-to-press feel with camber underfoot</quote>
+<quote>Rider Ability: Beginner - Intermediate</quote>
+</quotelist>
+<url_with_text_link>https://www.rhythmsnowsports.com.au/products/22-2</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-06</date_of_last_relevance>
+<reasoning>Rhythm Snowsports full product page for the 2027 model. Provides rider ability classification and confirms the Good Dog graphic name.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2025</url>
+<quote>Available in two versions, choose the relaxed and floaty Flying V or precise control of PurePop camber.</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop 2025 listing confirms the Process is available in two camber profiles: Flying V and PurePop Camber.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-process-flying-v-snowboard</url>
+<quote>Super Fly II™ 700G Core – Stronger and lighter woods target specific areas of the core</quote>
+<quote>Sintered Base – Durable and highly porous, get added durability and superior wax absorption</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-process-flying-v-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Evo is a major, well-established US online retailer for snowboard gear. Their product pages include detailed tech specs drawn from Burton's official materials. Pricing reflects current MSRP.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2023</url>
+<quote>Burton Process Flying V Snowboard 2026 · $549.95 $384.96 Sale</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2022-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo outlet page showing prior season Process FV on clearance at $384.96 (30% off MSRP), demonstrating discounted availability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://peterglenn.com/burton-process-flying-v-snowboard-men-s-2026-winter/</url>
+<quote>Was $549.95 · Sale: Sale: $384.99</quote>
+<quote>Squeezebox design, which enhances maneuverability and stability by strategically placing a soft flex underfoot and stiffer flex outside the bindings.</quote>
+</quotelist>
+<url_with_text_link>https://peterglenn.com/burton-process-flying-v-snowboard-men-s-2026-winter/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Peter Glenn Ski and Sports is a well-known US ski/snowboard retailer. Provides sale pricing and a useful plain-language description of Squeezebox technology placement.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://shop.rockymountainskiandboard.com/mens-process-fv-snowboard.html</url>
+<quote>$549.95 ... Skill level: intermediate · Terrain: all mountain</quote>
+</quotelist>
+<url_with_text_link>https://shop.rockymountainskiandboard.com/mens-process-fv-snowboard.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Rocky Mountain Ski and Board listing provides price and skill-level classification. Lists skill level as intermediate.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://www.shredshop.com/products/burton-process-flying-v-mens-snowboard-2026-pr5a24510</url>
+<quote>$549.95 Unit price / per</quote>
+</quotelist>
+<url_with_text_link>https://www.shredshop.com/products/burton-process-flying-v-mens-snowboard-2026-pr5a24510</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Shred Shop confirms $549.95 MSRP. Shows all sizes as sold out, suggesting demand.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/burton-process-flying-v-mens-snowboard-2026-pr5a24510</url>
+<quote>Sale price $549.95 Regular price</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/burton-process-flying-v-mens-snowboard-2026-pr5a24510</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>ERIK'S lists at standard MSRP. Shows all variants sold out.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.ebay.com/shop/burton-flying-v-process?_nkw=burton+flying+v+process</url>
+<quote>Men's BURTON Process Flying V Snowboard - 2026 · Brand New · $412.46$549.95</quote>
+</quotelist>
+<url_with_text_link>https://www.ebay.com/shop/burton-flying-v-process?_nkw=burton+flying+v+process</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>eBay marketplace shows third-party new pricing at discount. Prices are volatile on eBay but provide a snapshot of street pricing.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html</url>
+<quote>Men's Burton Process Flying V Snowboard | Burton.com Winter 2026 US</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Official Burton US product page for Winter 2026. Confirms the product ID (W26-107121) and "Men's" labeling. JavaScript-dependent page did not fully render specs.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-process-flying-v-snowboard-2025</url>
+<quote>Burton Process Flying V Snowboard 2026 · $549.95 View Selections</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-process-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Evo 2025 model listing, out of stock, with cross-sell to 2026 model at $549.95.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.backcountry.com/burton-process-flying-v-snowboard-2025</url>
+<quote>Rockered all-mountain twin for boundary-pushing freestyle shredders</quote>
+</quotelist>
+<url_with_text_link>https://www.backcountry.com/burton-process-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Backcountry.com is a major online outdoor gear retailer. Their product page confirms effective edge measurements across sizes and categorizes the board as a rockered all-mountain twin.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://www.rei.com/product/238084/burton-process-flying-v-snowboard-20242025</url>
+<quote>Twin shape is perfectly symmetrical for a balanced ride so you can spin and stomp with outstanding stability</quote>
+</quotelist>
+<url_with_text_link>https://www.rei.com/product/238084/burton-process-flying-v-snowboard-20242025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>REI Co-op is one of the most trusted US outdoor retailers. Confirms product features and specs drawn from Burton's official materials.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://www.amazon.com/Burton-Mens-Process-Flying-Snowboard/dp/B0DCD7FH7B</url>
+<quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty</quote>
+</quotelist>
+<url_with_text_link>https://www.amazon.com/Burton-Mens-Process-Flying-Snowboard/dp/B0DCD7FH7B</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Amazon.com listing confirms warranty terms and availability on Amazon marketplace.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://buckmans.com/product/49653/burton-process-flying-v-snowboard-mens</url>
+<quote>The Channel replaced Burton's 3D mounting pattern in 2014.</quote>
+<quote>Medium A medium flex has a balance of playfulness and response</quote>
+<quote>Intermediate / Expert An intermediate to expert skier or rider handles varied terrain</quote>
+</quotelist>
+<url_with_text_link>https://buckmans.com/product/49653/burton-process-flying-v-snowboard-mens</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Buckmans provides detailed tech descriptions and classifies this as Intermediate/Expert level and Medium flex — a notable disagreement with the merchant's Beginner/2.5 rating.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://boynecountrysports.com/products/burton-mens-process-flying-v-snowboard-2025</url>
+<quote>an intermediate-to-advanced-level board that's built for letting loose, getting creative, and taking off.</quote>
+</quotelist>
+<url_with_text_link>https://boynecountrysports.com/products/burton-mens-process-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Boyne Country Sports is a specialty retailer. Their description of the board as intermediate-to-advanced adds to the rider level disagreement.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="43">
+<quotelist>
+<url>https://www.skatepro.com/en-us/60-36161.htm</url>
+<quote>Eco Friendly: FSC Certified Wood · Gender: Man, Unisex</quote>
+<quote>riding characteristics and a flex of 3, this Burton snowboard is recommended for intermediates and advanced riders.</quote>
+</quotelist>
+<url_with_text_link>https://www.skatepro.com/en-us/60-36161.htm</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>SkatePro is a large European online action sports retailer. Their flex rating of 3 (vs merchant's 2.5) and "Unisex" gender classification represent data disagreements worth noting.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://www.tradeinn.com/snowinn/en/burton-process-flying-v-snowboard/137236715/p</url>
+<quote>Triax™ fiberglass: - Topsheet - Top glass +/- 45° & 0° stitched - Core - Bottom glass 0° & +/- 45° stitched</quote>
+</quotelist>
+<url_with_text_link>https://www.tradeinn.com/snowinn/en/burton-process-flying-v-snowboard/137236715/p</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Snowinn/TradeInn provides the most detailed technical spec description of the Triax fiberglass orientation among all sources.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="45">
+<quotelist>
+<url>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2025</url>
+<quote>FLEX 2-5/10 Personality – Playful - Medium Twin Flex</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/burton-process-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop's listing describes the flex as "2-5/10 Playful - Medium" for the 2025 model. This seems to combine the flex number with a text descriptor.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="46">
+<quotelist>
+<url>https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2018</url>
+<quote>FSC™ Certified Super Fly II 700G Core – Stronger and lighter woods target specific areas of the core</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/outlet/snowboards/burton-process-flying-v-snowboard-2018</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-09</date_of_first_relevance>
+<date_of_last_relevance>2018-09</date_of_last_relevance>
+<reasoning>Evo 2018 model listing explicitly shows "FSC™ Certified" prefix on core name, confirming FSC certification has been present since at least 2018.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="47">
+<quotelist>
+<url>https://www.bergsskishop.com/shop/p74956/process-flying-v-snowboard-mens</url>
+<quote>Super Fly II™ 700g Core - A FSC™ Certified dual-species wood core</quote>
+</quotelist>
+<url_with_text_link>https://www.bergsskishop.com/shop/p74956/process-flying-v-snowboard-mens</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Berg's Ski Shop listing confirms FSC certification and identifies the core as "dual-species wood" — a detail not found in most other sources.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="48">
+<quotelist>
+<url>https://www.burton.com/blogs/the-burton-blog/built-boards-mark-mcmorris-trusts-process/</url>
+<quote>The fact that the core features 100% FSC™ certified wood and bio-based Super Sap® Epoxy is more than just a bonus.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/blogs/the-burton-blog/built-boards-mark-mcmorris-trusts-process/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Burton blog confirms 100% FSC certification of the Process core wood. High-authority source for sustainability claims.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="49">
+<quotelist>
+<url>https://snowboardingprofiles.com/burton-process-flying-v-review-all-mountain-snowboard-review</url>
+<quote>one of the great things about this deck is that it jibs well.</quote>
+<quote>Too soft and too loose to really lay into deep carves.</quote>
+<quote>this board is really effortless to turn on and was quick from edge-to-edge.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/burton-process-flying-v-review-all-mountain-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017</date_of_first_relevance>
+<date_of_last_relevance>2025-10</date_of_last_relevance>
+<reasoning>SnowboardingProfiles tested the board on snow (157cm, 2017 model) and provides detailed, experience-based performance assessments. The review notes model continuity across years.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="50">
+<quotelist>
+<url>https://ugosnow.com/burton-process-flying-v-snowboard-review/</url>
+<quote>does have some chatter due to its softer flex and hybrid profile</quote>
+<quote>if you're an aggressive carver who loves deep, locked-in turns, you might find this board a little too playful.</quote>
+</quotelist>
+<url_with_text_link>https://ugosnow.com/burton-process-flying-v-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-11</date_of_first_relevance>
+<date_of_last_relevance>2025-11</date_of_last_relevance>
+<reasoning>uGOsnow review provides personal on-snow testing across piste, powder, and park in Bansko and Austria. An independent, experience-based review with specific performance observations.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="51">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-process-flying-v-2011-2018-snowboard-review/</url>
+<quote>Edge Hold: The biggest problem with Burton's Flying V boards and this just misses the mark here.</quote>
+<quote>It really takes a lot of pleasure out of riding unless it's perfect soft snow</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-process-flying-v-2011-2018-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2011</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride identifies edge hold as the board's primary weakness. Their independent testing methodology and multiple-rider feedback increases credibility of this finding.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="52">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/burton-process-flying-v-for-a-beginner.265668/</url>
+<quote>Burton's Flying V profile isn't something what usually gets much praise.</quote>
+<quote>I would look for something with PurePop Camber in the Burton's line</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/burton-process-flying-v-for-a-beginner.265668/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Snowboarding forum discussion about the Process FV for beginners. Provides community opinions about whether beginners should choose Flying V vs PurePop Camber. Forum advice from experienced riders.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="53">
+<quotelist>
+<url>https://snowboardrobot.com/difference-burton-custom-process/</url>
+<quote>The Custom has a base that is one notch higher (faster) than the Process, as well as a full tip-to-tail carbon layer</quote>
+<quote>easiest and most forgiving is Process Flying-V, Custom Flying-V, Process Camber, then Custom Camber.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/difference-burton-custom-process/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-04</date_of_first_relevance>
+<date_of_last_relevance>2023-04</date_of_last_relevance>
+<reasoning>Snowboard Robot provides a useful direct comparison between the Custom and Process lines, including ease-of-riding ranking. Helpful for purchase decision context.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="54">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/burton-custom-vs-process-for-all-mountain-riding.200481/</url>
+<quote>The Process is a bit more park oriented while the Custom is a bit more all mountain</quote>
+<quote>The Flying V floats much better in powder and is more forgiving in bumps, trees and sketchy landings</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/burton-custom-vs-process-for-all-mountain-riding.200481/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2016-01</date_of_first_relevance>
+<date_of_last_relevance>2016-01</date_of_last_relevance>
+<reasoning>Forum discussion comparing Custom vs Process for all-mountain riding. Multiple community members provide comparative riding experience. Lower credibility as forum posts, but useful community perspective.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="55">
+<quotelist>
+<url>https://www.curated.com/journal/3571091/expert-comparison-burton-process-flying-v-snowboard-2024-vs-burton-custom-flying-v-snowboard-2024</url>
+<quote>The Superfly II 700g core gives you a lightweight yet responsive feel, and the centered WFO base is the secret sauce</quote>
+</quotelist>
+<url_with_text_link>https://www.curated.com/journal/3571091/expert-comparison-burton-process-flying-v-snowboard-2024-vs-burton-custom-flying-v-snowboard-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-02</date_of_first_relevance>
+<date_of_last_relevance>2024-02</date_of_last_relevance>
+<reasoning>Curated.com expert comparison noting the Custom FV has a WFO base (faster) vs the Process FV's standard sintered base — an important differentiator between the two models.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+</citations>
+</response>

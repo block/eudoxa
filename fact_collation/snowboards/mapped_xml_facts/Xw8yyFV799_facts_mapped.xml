@@ -1,0 +1,905 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="13" category="availability" />
+  <duplicate_canonical name="sustainability_certification" count="6" category="sustainability" />
+  <duplicate_canonical name="user_review_forum" count="6" category="review" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="flex_feel" count="4" category="performance" />
+  <duplicate_canonical name="construction_material_innovation" count="4" category="construction" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="positive_aspect" count="3" category="review" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="3" category="review" />
+  <duplicate_canonical name="manufacturing_location" count="2" category="identity" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="width_options" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+</canonical_schema>
+
+<answer>
+1. brand: Ride Snowboards [1]
+2. model_name: Superpig [1]
+3. model_year: 2027 [MERCHANT]
+4. product_type: Snowboard [1]
+5. Manufacturer founded: 1992 in Redmond, WA [2]
+6. Manufacturer current headquarters: Seattle, Washington [3]
+7. Parent company: Elevate Outdoor Collective (formerly K2-MDV Holdings / K2 Sports LLC) [4]
+8. Parent company ownership: Owned by Kohlberg & Company (private equity) [5]
+9. manufacturing_location: Guangzhou Province, China [6]
+10. Brand experience: Over 30 years of experience building snowboards [7]
+11. gender: Unisex — designed to fit men and women [8]
+12. board_category: All Mountain [1]
+13. Board subtype: Aggressive all-mountain / alternative freeride [9]
+14. terrain_suitability: All Mountain — aggressive riding, big mountain, high speed [MERCHANT]
+15. terrain_suitability: Groomers, powder, park, side hits [10]
+16. terrain_suitability: All Mountain, Park, Powder [11]
+17. Response level (RIDE official): Aggressive [11]
+18. riding_style: The Good Ride classifies it as "Alternative Freeride" [9]
+19. rider_level: Intermediate – Advanced [MERCHANT]
+20. skill_level_recommendation: Advanced-Expert [12]
+21. skill_level_recommendation: Demanding riders who want aggressive thrash style with camber and stiffness [1]
+22. Not suitable for: Beginners; not a mellow cruiser, not designed to be forgiving [13]
+23. shape: Tapered Directional [MERCHANT]
+24. camber_type: Directional Extra Camber — predominantly positive camber with subtle rocker in nose [14]
+25. camber_description: Hybrid Positive — camber-dominant profile with early rise in the nose [15]
+26. Volume-shifted design: Yes — board is designed to be ridden 6–10cm shorter than standard [MERCHANT]
+27. comparable_board_same_brand: Warpig — the Superpig is the same shape as the Warpig with more tech and camber [1]
+28. taper: 10mm of taper (nose wider than tail by 10mm across all sizes) [Merchant verified size chart]
+29. flex_feel: Stiff [MERCHANT]
+30. flex_rating_10: Stiff (8/10) [16]
+31. flex_feel: Medium / Stiff [17]
+32. flex_feel: Medium-stiff between the feet, going to medium in the nose and about the same or a little stiffer in the tail [9] DISAGREEMENT: The Good Ride reviewer describes flex as "medium" bordering on medium/stiff on-snow, while manufacturer and retailers describe it as "Stiff." This discrepancy likely reflects the difference between marketing flex rating and real-world feel as assessed by an independent reviewer.
+33. flex_direction: Directional flex pattern (nose slightly softer than tail) [9]
+34. pop: Snappy pop; takes a little more work to create air than the Warpig [9]
+35. core_material: Performance Core — Aspen, Bamboo, and Paulownia wood blend [1]
+36. sidewall_material: Carbon Slimewalls — carbon and Slimewall material from inserts to contact points [MERCHANT]
+37. sidewall_material: Full-length Carbon-Urethane composite laminate for additional edge hold and energy transfer [18]
+38. laminate: Carbon Infused Glass, Carbon Array 5, Double Impact Plates [MERCHANT]
+39. construction_material_innovation: 90° carbon fibers stitched into glass for pop and response without added stiffness [1]
+40. construction_material_innovation: Five carbon stringers in binding zone for power distribution [MERCHANT]
+41. construction_material_innovation: Double Impact Plates — two-layer urethane weaves beneath each binding area for compressive strength [MERCHANT]
+42. base_material: Sintered, Stone Ground Race Base — carbon-infused sintered base [MERCHANT]
+43. base_type: High-end sintered 4000 Ptex base material [19]
+44. edge_technology: Cleave Edge Steel — nearly 50% more steel for resistance to cracking [MERCHANT]
+45. sustainability_certification: 30% recycled materials in edges [20]
+46. topsheet: Topless Topsheet — graphics transferred directly to fiberglass [MERCHANT]
+47. topsheet_appearance_description: Earlier models (2019-2021) had significant topsheet chipping complaints from users; around 2022 Ride reverted to a durable urethane topsheet [21] The 2026/2027 merchant listing says "Topless Topsheet" again — purchasers should verify.
+48. construction_material_innovation: Thin Con — tapered tips and tails to reduce swing weight [MERCHANT]
+49. resin: Bio Resin — plant-based epoxy from renewable resources [MERCHANT]
+50. sustainability_certification: Wend® Meadowfoam Biodegradable Wax — non-toxic, completely biodegradable [22]
+51. Factory tuning: Board comes waxed and ready for mountain from factory [23]
+52. mounting_pattern: 2x4 Inserts [MERCHANT]
+53. sidecut_type: Tapered Bi-Radial Sidecut [MERCHANT]
+54. width_options: Standard [MERCHANT]
+55. width_options: Yes (per RIDE official site) [11]
+56. available_sizes: 142 (X-Small), 148 (Small), 151 (Medium), 154 (Large), 158 (X-Large) [24]
+57. available_sizes: Small 148cm, Medium 151cm, Large 154cm [MERCHANT]
+58. Sizing note: Size down 6-10cm from what you normally ride [MERCHANT]
+59. Effective edge (142 XS): 1044mm [24]
+60. Effective edge (148 S): 1095mm [24]
+61. Effective edge (151 M): 1121mm [24]
+62. Effective edge (154 L): 1146mm [24]
+63. Effective edge (158 XL): 1171mm [24]
+64. Waist width (142 XS): 250mm / 25.0cm [24] [MERCHANT]
+65. Waist width (148 S): 260mm / 26.0cm [24] [MERCHANT]
+66. Waist width (151 M): 265mm / 26.5cm [24] [MERCHANT]
+67. Waist width (154 L): 270mm / 27.0cm [24] [MERCHANT]
+68. Waist width (158 XL): 277mm / 27.7cm [24] [MERCHANT]
+69. sidecut_radius_size: 4.6 / – / 5.6m [24] [MERCHANT]
+70. sidecut_radius_size: 5.1 / – / 6.2m [24] [MERCHANT]
+71. sidecut_radius_size: 5.4 / – / 6.5m [24] [MERCHANT]
+72. sidecut_radius_size: 5.6 / – / 6.9m [24] [MERCHANT]
+73. sidecut_radius_size: 5.9 / – / 7.2m [24] [MERCHANT]
+74. tip_tail_width_size: 301mm / 291mm [24] [MERCHANT]
+75. tip_tail_width_size: 311mm / 301mm [24] [MERCHANT]
+76. tip_tail_width_size: 316mm / 306mm [24] [MERCHANT]
+77. tip_tail_width_size: 321mm / 311mm [24] [MERCHANT]
+78. tip_tail_width_size: 328mm / 318mm [24] [MERCHANT]
+79. setback: 0mm (centered inserts) [24] [MERCHANT]
+80. stance_width_range_size: 483mm / 19" [24] [MERCHANT]
+81. stance_width_range_size: 533mm / 21" [24] [MERCHANT]
+82. stance_width_range_size: 559mm / 22" [24] [MERCHANT]
+83. stance_width_range_size: 559mm / 22" [24] [MERCHANT]
+84. stance_width_range_size: 584mm / 23" [24] [MERCHANT]
+85. recommended_weight_range_size: 60-160 lbs / 27-73kg [24] [MERCHANT]
+86. recommended_weight_range_size: 100-205 lbs / 45-93kg [24] [MERCHANT]
+87. recommended_weight_range_size: 130-210 lbs / 59-95kg [24] [MERCHANT]
+88. recommended_weight_range_size: 140-220+ lbs / 64-100+kg [24] [MERCHANT]
+89. recommended_weight_range_size: 170-220+ lbs / 77-100+kg [24] [MERCHANT]
+90. Boot size for 148 S: US 8-9 [25]
+91. Boot size for 151 M: US 9-10 [25]
+92. Boot size for 154 L: US 10-11 [25]
+93. Boot size for 158 XL: US 11-12 [25]
+94. sustainability_certification: FSC® Certified Materials for base stickers and shipping boxes [20]
+95. sustainability_certification: 44% sustainable solar energy used in production [20]
+96. sustainability_certification: Plant-based epoxy reduces carbon emissions vs. traditional petrochemical epoxy [22]
+97. sustainability_certification: 30% recycled steel [20]
+98. warranty: 3-year warranty on snowboards, original purchaser only [23]
+99. price_usd_msrp: $649.95 — currently on sale at $454.97 on ridesnowboards.com [26]
+100. price_usd_evo: ~$519.95-$519.96 [27]
+101. price_eur_blue_tomato: €467.96 [27]
+102. Price (USD, The House, 2026 model): $519.95 [27]
+103. price_aud_merchant: $1,049.99 — preorder [MERCHANT]
+104. estimated_availability_date: May 1, 2026 [MERCHANT]
+105. availability_status: Preorder [MERCHANT]
+106. price_usd_msrp: $649.95 (sold out in all sizes) [28]
+107. availability_status: ridesnowboards.com (2026 model on sale) [26]
+108. availability_status: In stock (2026 model); free shipping, lowest price guarantee, 1-year returns [29]
+109. availability_status: In stock (2026 model) [27]
+110. availability_status: In stock (2026 model) [27]
+111. availability_status: In stock (2026 model) [27]
+112. availability_status: In stock (2026 model) [27]
+113. availability_status: In stock (2026 model) [27]
+114. availability_status: Available (prior model years) [30]
+115. availability_status: Preorder (2027 model) [31]
+116. availability_status: 2027 model listed [32]
+117. availability_status: Listed as 2027 model [33]
+118. availability_status: 2027 model listed for NZ market [34]
+119. board_weight_grams: "Pretty normal, touch on lighter side of normal" — The Good Ride notes exact weight not published due to wood core variability [9]
+120. powder_rating_tgr: Good [9]
+121. base_glide_performance: Good [9]
+122. carving_rating_tgr: Great [9]
+123. speed_rating_tgr: Good [9]
+124. chatter_performance: Good [9]
+125. switch_riding: Good [9]
+126. jumps_rating_tgr: Great [9]
+127. jibbing_rating_tgr: Average [9]
+128. pipe_rating_tgr: Average [9]
+129. on_snow_feel_tgr: Stable [9]
+130. turn_initiation_performance: Medium/Slow [9]
+131. The Good Ride — Skidded Turns: Moderate [9]
+132. flex_feel: Medium [9]
+133. The Good Ride — Buttering: Moderate [9]
+134. edge_hold: Medium Snow [9]
+135. price_usd_msrp: $589 USD [9] DISAGREEMENT with MSRP of $649.95 from manufacturer/evo. The Good Ride may be citing a past-season MSRP.
+136. positive_aspect: "Carves harder than the Warpig," "Feels very centered for tapered/directional shape," "Pretty versatile ride" [9]
+137. negative_aspect: "Not as fun in the park as the Warpig," "Base is slow for this price," "Wide width fatiguing in uneven snow" [9]
+138. reviewer_opinion_the_good_ride: Fun tapered directional, short wide, one board quiver [9]
+139. reviewer_opinion_whitelines: Selected for Whitelines 100 Best Snowboard Gear for both 2019/2020 and 2020/2021 [35]
+140. positive_aspect: Precise carving on groomers, powerful pop, controlled locked-in landings [35]
+141. positive_aspect: Great float in powder thanks to rocker nose [35]
+142. user_review_forum: "Extremely quick edge to edge... real treat for tree riding, feels very nimble. Swing weight also very low" [36]
+143. user_review_forum: "Biaxial radius works as suggested, really does feel like you accelerate and shoot out of turns" [36]
+144. user_review_forum: Overall rated as excellent all-mountain board for advanced-expert riders [36]
+145. user_review_forum: Topless topsheet historically prone to chipping (pre-2022 models), requiring edge sanding [37]
+146. user_review_forum: Some riders report sizing-down feels unstable at high speed; "it definitely feels like it wants to kill me a little" on the 154 sizing down from 160 [38]
+147. user_review_forum: Not ideal as dedicated powder board; nose can drop in deep snow [36]
+148. reviewer_opinion_the_good_ride: "Edge hold is amazing... VERY predictable at speed" [39]
+149. reviewer_opinion_the_good_ride: "Great Quiver Killer for the older crowd (likes camber)" but "topless top sheet is no Bueno" [40]
+150. Ballistyx description: "Not a mellow cruiser and not designed to be forgiving" [13]
+151. comparable_board_same_brand: Ride Warpig — same shape but flat/rocker profile, softer flex, more playful [41]
+152. comparable_board_same_brand: Ride Moderator — sits between Warpig and Superpig in aggressiveness [42]
+153. comparable_board_same_brand: Ride Peace Seeker — described as "like a Superpig and a Berzerker had a baby" [43]
+154. comparable_board_cross_brand: YES Hybrid — volume-shifted directional; similar category [9]
+155. comparable_board_cross_brand: Lib Tech Orca — volume-shifted aggressive board [9]
+156. comparable_board_cross_brand: Never Summer Harpoon — short/wide alternative freeride [9]
+157. comparable_board_cross_brand: Korua Otto — stiffer, more damp, different sidecut philosophy [44]
+158. comparable_board_cross_brand: Jones Hovercraft — more freeride/powder focused tapered directional [45]
+159. model_first_available_year: 2019/2020 season [35] (Whitelines review dated for 2019-2020 season; forum discussions confirm it as "all new" for 2020 season)
+160. manufacturing_location: China (confirmed by multiple sources including forum users and manufacturing databases) [6]
+161. redesign_year: "Almost the same ride" per The Good Ride; primary change is topsheet material — more durable/damp than older models [9]
+162. Current model (2027) appears to carry forward the same core construction and technology platform [32]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>The SUPERPIG rides like a very angry WARPIG. This board is made for the demanding rider that wants the aggressive thrash style of the WARPIG with camber and a little more stiffness.</quote>
+  <quote>The SUPERPIG infuses high-end tech into our best-selling WARPIG shape for an elite all-mountain deck.</quote>
+  <quote>90° Carbon fibers stitched into the glass. Extra pop and response, without adding extra stiffness.</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer product page — the primary authority for product identity, specifications, and technology descriptions. Marketing language may exaggerate performance claims but specs are authoritative.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/support/history</url>
+  <quote>Founded in Redmond, WA. in late 1992, RIDE hit the market with only four board models and a vision</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/support/history</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1992</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer history page — authoritative for founding date and location.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.linkedin.com/company/ride-snowboards</url>
+  <quote>Headquarters · Seattle, Washington · Type · Privately Held · Founded · 1992</quote>
+  </quotelist>
+  <url_with_text_link>https://www.linkedin.com/company/ride-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1992</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>LinkedIn company page confirms current HQ and founding year.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url>
+  <quote>Elevate Outdoor Collective is the new name for the parent company of all K2 Sports and MDV brands, including: K2 Skis, K2 Snowboards, Marker, Dalbello, Völkl, RIDE Snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/k2-snowboards-parent-company-renamed-elevate-outdoor-collective/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Industry trade publication confirming parent company name change that includes Ride Snowboards. Authoritative for corporate structure.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/K2_Sports</url>
+  <quote>Jarden was later acquired by Newell Brands, who then sold K2 to private equity firm Kohlberg & Company in 2017.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/K2_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2017</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia article on K2 Sports confirms ownership chain. Reasonably reliable for corporate history.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+  <quote>Ride make their snowboards in a factory located in the Guangzhou Province, China.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2001</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboard industry blog specifically researching manufacturing locations for major brands. Corroborated by multiple forum posts and other sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url>
+  <quote>Engineered by snowboarders, for the most demanding riders on the planet. With over 30 years of experience in building high-quality products.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer page quoting manufacturer marketing copy. "30 years" aligns with 1992 founding.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url>
+  <quote>Unisex Designed to fit men and women.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer product page explicitly labeling the board as unisex.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url>
+  <quote>The Ride Superpig is for those who want a more aggressive harder carving version of the Warpig but don't want to go super aggressive.</quote>
+  <quote>The flex is medium-stiff between the feet going to medium in the nose and about the same or a little stiffer in the tail.</quote>
+  <quote>The base glide is pretty good but not exceptional.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride is a respected independent snowboard review site. The reviewer tested the 151 over 4+ days and compared against multiple competing boards. The 2025 update confirms the review still applies. High credibility for subjective ride characteristics.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/ride-superpig-snowbaord-2026</url>
+  <quote>This beast thrives everywhere from steeps to pow, groomers to side hits.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/ride-superpig-snowbaord-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer product description summarizing terrain versatility.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>Size: 142, 148, 151, 154, 158. Ability: Intermediate, Advanced. Response: Aggressive. Specialty: All Mountain, Park, Powder. Available In Wide: Yes.</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer spec list from full page fetch. Authoritative for size range and response/ability classification.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/ride-superpig-snowboard</url>
+  <quote>Advanced-Expert Whether you charge the steepest lines, hit the biggest jumps in the park or carve with race-like precision</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/ride-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo is a major specialty retailer classifying the board as Advanced-Expert. Their classification methodology is standardized across their product range.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url>
+  <quote>It is not a mellow cruiser and it is not designed to be forgiving.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian snowboard retailer's editorial description of the 2027 model. Credible for rider guidance.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/ride-superpig-snowboard</url>
+  <quote>Directional Extra Camber – Directional, positive camber dominant shape with rocker just in the nose.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/ride-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Major retailer quoting manufacturer camber type description. Consistent with official RIDE specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url>
+  <quote>Profile – Hybrid Positive A camber-dominant profile with early rise in the nose delivers strong edge hold and energy while helping the board stay manoeuvrable.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer editorial profile description of 2027 model. Useful supplementary characterization.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.boardhouse.nz/products/ride-superpig-snowboard-2028</url>
+  <quote>Rider Type Freeride, All Mountain Shape Tapered Directional Flex Stiff (8/10) Rocker Directional Hybrid Camber Ability Advanced</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardhouse.nz/products/ride-superpig-snowboard-2028</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>NZ retailer providing a numeric flex rating of 8/10 which contextualizes the "Stiff" label.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url>
+  <quote>Medium / Stiff A stiff flex delivers increased power, stability, and confidence for advanced riders</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Snowboards.com classifies flex as Medium/Stiff rather than just Stiff. Provides nuance on the actual stiffness range.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>Further improving on Ride's revolutionary Slim Wall technology, Carbon Slim Wall integrates a full-length Carbon-Urethane, composite laminate, that provides additional edge hold and energy transfer</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer technology description from the product page.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/ride-superpig-snowboard</url>
+  <quote>Sintered, Stone Ground Race Base – High-end sintered 4000 Ptex base material that is more durable, harder and faster than extruded.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/ride-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo quoting manufacturer spec identifying base as sintered 4000 Ptex — specifies the grade which manufacturer site doesn't clearly state.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>Edges on RIDE Snowboards contain 30% recycled materials.</quote>
+  <quote>Yup, made with FSC® Certified Materials. Boxes the boards are shipped in? Also FCS® Certified.</quote>
+  <quote>We're currently at using 44% sustainable solar energy</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer sustainability claims. Important for environmentally conscious buyers. These are self-reported, so credibility is slightly discounted.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url>
+  <quote>They did away with the "topless top sheet" bullshit, and have a normal topsheet now.</quote>
+  <quote>This "Topless Topsheet Construction" sucks.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2023</date_of_last_relevance>
+  <reasoning>Forum discussion from experienced riders documenting topsheet chipping issues and the change around 2022. Multiple users corroborate the complaint, increasing credibility despite forum source.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>The Meadowfoam® factory wax we use is made from wildflower seeds native to California and Oregon. All WEND® Meadowfoam® snow wax blends are non-toxic and completely biodegradable</quote>
+  <quote>Our plant based Bio Resin is one of the biggest impacts for sustainability.</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer data on wax and resin. Self-reported sustainability claims.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url>
+  <quote>RIDE provides a 3-year warranty on snowboards. RIDE warranties are reserved for the original purchaser only.</quote>
+  <quote>Board comes waxed and ready for the mountain right from the factory.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/49303/ride-snowboards-ride-unisex-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Retailer listing warranty and factory wax details — consistent with manufacturer policy.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>SUPERPIG X-SMALL (142) Eff-Edge 1044, Waist 250, Sidecut 4.6/-/5.6, Tip 301, Tail 291, Setback 0, Ref Stance 19"/483mm, Weight 60-160lbs/27-73kg</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer size chart from full page fetch. The most authoritative source for dimensional specifications. All five sizes extracted from the official table.</reasoning>
+  <evidentiary_alignment>0.98</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url>
+  <quote>148 S: 8-9, 151 M: 9-10, 154 L: 10-11, 158 XL: 11-12</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>The Good Ride's boot size recommendations based on testing. Practical purchase guidance from an experienced reviewer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>$454.97 $649.95</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official RIDE website showing MSRP of $649.95 with a 30% off sale price of $454.97. Sale price is volatile but MSRP is the baseline.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url>
+  <quote>$519.96 Buy it Now Buy Ride Superpig from evo</quote>
+  <quote>$519.95 Buy it Now Buy Ride Superpig from The House</quote>
+  <quote>$519.96 Buy it Now Buy Ride Superpig from Christy Sports</quote>
+  <quote>€467.96 Buy it Now Buy Ride Superpig from SnowCountry</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride aggregates current retail prices from multiple US and EU retailers. Prices are volatile snapshots but represent the current market.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.eriksbikeshop.com/products/ride-superpig-snowboard-2026-pr5a25659</url>
+  <quote>$649.95 Unit price / per Sale Sold out</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/ride-superpig-snowboard-2026-pr5a25659</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Erik's lists MSRP at $649.95 confirming manufacturer pricing. Sold out status indicates demand.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/ride-superpig-snowboard</url>
+  <quote>The Ride Superpig Snowboard 2026 is in stock now.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/ride-superpig-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Evo in-stock status confirms current availability. Evo is a major US outdoor retailer with strong reputation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.amazon.com/Ride-Superpig-Unisex-Snowboard/dp/B0DBQM5HKW</url>
+  <quote>Founded in Redmond, WA. in late 1992</quote>
+  </quotelist>
+  <url_with_text_link>https://www.amazon.com/Ride-Superpig-Unisex-Snowboard/dp/B0DBQM5HKW</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Amazon product listing confirms availability on Amazon marketplace.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url>
+  <quote>The 2027 RIDE Superpig is an aggressive volume-shifted directional snowboard built for riders who want serious power underfoot.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/ride-superpig-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer listing confirming 2027 model preorder availability. Ballistyx describes themselves as a trusted Melbourne snowboard store since 1991.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.wilderness.net.au/ride-superpig-2027.html</url>
+  <quote>The 2027 Ride Superpig is a souped up version of the fan favourite Warpig</quote>
+  </quotelist>
+  <url_with_text_link>https://www.wilderness.net.au/ride-superpig-2027.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Australian retailer listing for 2027 model with detailed specs.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/ride-superpig</url>
+  <quote>Ride Superpig is a souped up version of the fan favourite Warpig</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/ride-superpig</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard listing for Australian market.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://basenz.com/products/ride-superpig-snowboard-2027</url>
+  <quote>Ride Superpig Snowboard 2027. Warpig shape cranked to eleven with premium carbon tech and aggressive camber.</quote>
+  </quotelist>
+  <url_with_text_link>https://basenz.com/products/ride-superpig-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>NZ retailer listing confirming 2027 model availability in NZ market.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/snowboards/ride-superpig-2019-2020.html</url>
+  <quote>Carving on the groomers was precise. It provides smooth edge to edge riding at speed and has powerful pop, and controlled locked in landings.</quote>
+  <quote>The Superpig really ticked the daily drive box for me, with the rocker in the nose providing great float when riding powder.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/ride-superpig-2019-2020.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019-09</date_of_first_relevance>
+  <date_of_last_relevance>2021</date_of_last_relevance>
+  <reasoning>Whitelines is a respected snowboard publication. Their review of the inaugural 2019-2020 Superpig confirms launch season and provides expert ride assessment. Selected for the Whitelines 100 awards.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url>
+  <quote>To my surprise, it is extremely quick edge to edge... Real treat for tree riding, feels very nimble. Swing weight is also very low</quote>
+  <quote>The biaxial radius also works as suggested, really does feel like you accelerate and shoot out of turns.</quote>
+  <quote>Overall an excellent all-mtn board and would recommend it for an advanced-expert rider.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum user reviews from actual owners. 190lb rider on 154 Large gives detailed first-hand experience. Individual anecdotes but multiple users corroborate positive impressions.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/ride-superpig.260861/</url>
+  <quote>They went to a topless topsheet so it basically doesn't have any durability. IIRC, the 16-17 are the only ones that don't have durability issues.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/ride-superpig.260861/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2022</date_of_last_relevance>
+  <reasoning>Forum thread about the Warpig/Superpig topsheet issue. Multiple users report chipping problems with topless topsheet on pre-2022 models. Relevant as a historical durability concern that buyers should be aware of.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url>
+  <quote>I don't think I'm entirely sold on the whole sizing down thing yet though, it definitely feels like it wants to kill me a little. I'm on the 154 down from 160</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/ride-superpig.265534/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Forum user expressing concern about sizing down — important user feedback about the volume-shifted concept not working for all riders.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url>
+  <quote>Edge hold is amazing, the 148 for my frame was the right call... the full camber ride is VERY predictable at speed</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>User review on The Good Ride from 2022 owner giving 4.5/5 rating. First-hand owner feedback.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url>
+  <quote>Great Quiver Killer for the older crowd (likes camber) or whomever has room/budget for one deck to do it all.</quote>
+  <quote>Would give it a 5 but topless top sheet is no Bueno. Anything more than a sneeze and it scratches.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/ride-superpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Expert-level user review on The Good Ride. 210lb rider on Large size providing practical quiver advice and topsheet concern.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url>
+  <quote>The SUPERPIG is the same shape as the WARPIG, just with a lot more tech and a little bit of camber.</quote>
+  </quotelist>
+  <url_with_text_link>https://ridesnowboards.com/en-us/p/superpig-snowboard-2526</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2019</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer description of the relationship between Superpig and Warpig.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/ride-warpig-snowboard-review/</url>
+  <quote>If you're looking for something in between the Superpig and Warpig, check out the Ride Moderator.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/ride-warpig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-03</date_of_last_relevance>
+  <reasoning>Board of the World review site positioning the Moderator between Warpig and Superpig. Useful for comparative context.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://blisterreview.com/gear-reviews/snowboard-reviews/snowboard-quivers/2-board-quivers-reviewers-selections-24-25</url>
+  <quote>Ride says this board is "like a Superpig and a Berzerker had a baby."</quote>
+  </quotelist>
+  <url_with_text_link>https://blisterreview.com/gear-reviews/snowboard-reviews/snowboard-quivers/2-board-quivers-reviewers-selections-24-25</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-12</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Blister is a well-regarded outdoor gear review site. This places the Peace Seeker as a related Ride model for quiver building alongside the Superpig.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/who-rides-a-korua.259583/page-27</url>
+  <quote>Our bud has a Superpig. The Otto is indeed stiffer, like one step up in a 1/10 scale, similar directional flex.</quote>
+  <quote>Very different sidecuts and the Korua is more beefy and damp for sure.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/who-rides-a-korua.259583/page-27</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Forum comparison between Superpig and Korua Otto from riders who own both boards. Useful direct comparison for buyers choosing between these brands.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://thegoodride.com/the-good-ride-2024-alternative-freeride-favorites/</url>
+  <quote>The Jones Hovercraft 2.0 has a more tapered directional setback shape vs. the older model.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/the-good-ride-2024-alternative-freeride-favorites/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>The Good Ride's Alternative Freeride favorites list contextualizes the competitive landscape for volume-shifted boards. Jones Hovercraft is listed in the same category.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/ride-superpig</url>
+    <quote>brand: Ride; model name: Superpig; model year: 2027; AUD price: $1,049.99; order status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/ride-superpig</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

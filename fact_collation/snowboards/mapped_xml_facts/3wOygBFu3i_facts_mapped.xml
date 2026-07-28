@@ -1,0 +1,964 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="16" category="availability" />
+  <duplicate_canonical name="recommended_weight_range_size" count="9" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="sustainability_certification" count="7" category="sustainability" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="7" category="comparable" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="5" category="review" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="5" category="review" />
+  <duplicate_canonical name="rider_level" count="4" category="target_user" />
+  <duplicate_canonical name="laminate" count="4" category="unknown" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="flex_rating_10" count="3" category="performance" />
+  <duplicate_canonical name="base_type" count="3" category="construction" />
+  <duplicate_canonical name="edge_bevel_spec" count="3" category="construction" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="flex_rating_5" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="sidecut_type" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="tip_tail_width_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][32]
+2. model_name: Sight [1][32]
+3. model_year: 2025 (2024/2025 season) [9][21]
+4. SKU: L47661700 [21][MERCHANT]
+5. product_type: Snowboard [1][32]
+6. gender: Men's [9][75]
+7. manufacturer: Salomon SAS, a French sports equipment company headquartered in Annecy, France [82]
+8. Parent company: Amer Sports, headquartered in Helsinki, Finland [82]
+9. Amer Sports ownership: owned by consortium including ANTA Sports (China's largest sportswear manufacturer), FountainVest Partners, Anamered Investments, and Tencent [83]
+10. Salomon founded: 1947 by François Salomon in Annecy, French Alps [82]
+11. Salomon US operations: Ogden, Utah [82]
+12. manufacturing_location: Global production — France/Bulgaria/Asia depending on model/season [116]. Forum users report some Salomon boards marked "Made in China" [114]. Amer Sports operates manufacturing in Austria, Bulgaria, France, Finland, Canada, and the US [87].
+13. warranty: 2-year warranty against manufacturer's defects from date of purchase from an authorized dealer [75][108]
+14. predecessor_model_name: Evolution of the now-discontinued Salomon Ace [41]
+15. model_first_available_year: The Salomon Sight has been in production since at least the 2012/2013 season, as evidenced by The Good Ride having images from 2013 [61 — The Good Ride page shows images going back to 2013]
+16. comparable_board_same_brand: Salomon Effect — described as the Sight's "bigger brother" with stiffer flex [41]
+17. Design inspiration: Shape derived from the Salomon Highpath freeride board [42]
+18. Variant: Sight X — evo-exclusive graphic version with identical specs [46]
+19. board_category: All-Mountain [1][32][21]
+20. board_category: All-Mountain with freeride-inspired shape [2][32]
+21. terrain_suitability: All-mountain, freeride, powder [1][42]
+22. rider_level: Beginner-Intermediate [MERCHANT]
+23. rider_level: Beginner – Advanced [61 — The Good Ride review table]
+24. rider_level: Intermediate-Advanced [16]
+25. rider_level: Intermediate to Advanced [19] — DISAGREEMENT: The merchant lists beginner-intermediate, Absolute-Snow lists beginner-intermediate [12], but evo lists intermediate-advanced [16] and Ski Barn Durango lists intermediate-advanced [19]. The board's flex and construction support the beginner-intermediate designation from the manufacturer, though skilled riders on a budget can push it further.
+26. riding_style: All-mountain with freeride lean [2][42]
+27. skill_level_recommendation: Beginner's first freeride-oriented board; good for progression into intermediate riding [42][53]
+28. terrain_suitability: Groomers, powder fields, tree runs [42]
+29. terrain_suitability: Steep technical descents or aggressive high-speed carving [42]
+30. shape: Tapered Directional [1][32][MERCHANT]
+31. taper: Tail width is slightly tapered (2–20mm), loosening turn initiation and improving floatation in deeper snow without sacrificing edge hold on hardpack [4][9]
+32. camber_type: Cross Profile (Rocker/Camber/Rocker) [1][32][MERCHANT]
+33. camber_description: Camber between the feet for better control, pop and landing stability; Rocker on tip and tail for effortless flotation forward and switch [2][9]
+34. setback: -10mm [61 — The Good Ride review table]
+35. flex_rating_10: 4/10 (soft/mid) [MERCHANT]
+36. flex_rating_5: 2.5/5 (1=Soft, 5=Stiff) [15] — equivalent to 5/10 on a 10-point scale
+37. flex_rating_5: 2.5/5 (1 Soft – 5 Stiff) [4]
+38. flex_rating_10_the_good_ride: Medium/Soft [61 — The Good Ride review table]
+39. flex_rating_10_evo: Medium [16]
+40. flex_rating_10: 5/10 [131] — DISAGREEMENT: The merchant says 4/10, Blauer/Divide say 5/10 (2.5/5), evo says "Medium." The actual flex sits in the soft-to-medium range; different scales and subjective interpretations cause variance.
+41. flex_feel: Forgiving and playful; camber feel with a more forgiving ride [41]
+42. flex_feel: Nice soft flex that leans to the medium side [61 — The Good Ride review]
+43. Buttering: Semi-Easy [61 — The Good Ride review table]
+44. sidecut_type: Quadratic Sidecut [2][9][MERCHANT]
+45. sidecut_type: Uses 3 or more radii instead of a continuous radial sidecut; shallower at ends, deeper in middle for easier turn initiation [4]
+46. available_sizes: 147cm, 150cm, 153cm, 156cm, 159cm [MERCHANT][30]
+47. available_sizes: 155cm W, 158cm W, 162cm W, 166cm W [MERCHANT][30]
+48. Waist width 147cm: 244mm [MERCHANT]
+49. Waist width 150cm: 247mm [MERCHANT]
+50. Waist width 153cm: 250mm [MERCHANT]
+51. Waist width 156cm: 252mm [MERCHANT]
+52. Waist width 159cm: 256mm [MERCHANT]
+53. Waist width 155cm W: 262mm [MERCHANT]
+54. Waist width 158cm W: 264mm [MERCHANT]
+55. Waist width 162cm W: 271mm [MERCHANT]
+56. Waist width 166cm W: 275mm [MERCHANT]
+57. Effective edge 147cm: 111.0cm [MERCHANT]
+58. Effective edge 150cm: 113.5cm [MERCHANT]
+59. Effective edge 153cm: 116.0cm [MERCHANT]
+60. Effective edge 156cm: 118.0cm [MERCHANT]
+61. Effective edge 159cm: 120.0cm [MERCHANT]
+62. Effective edge 155cm W: 115.5cm [MERCHANT]
+63. Effective edge 158cm W: 118.5cm [MERCHANT]
+64. Effective edge 162cm W: 121.5cm [MERCHANT]
+65. Effective edge 166cm W: 124.5cm [MERCHANT]
+66. tip_tail_width_size: 29.9/29.6cm [MERCHANT]
+67. tip_tail_width_size: 30.4/30.1cm [MERCHANT]
+68. recommended_weight_range_size: 50–70kg [MERCHANT]
+69. recommended_weight_range_size: 55–75kg [MERCHANT]
+70. recommended_weight_range_size: 55–85kg [MERCHANT]
+71. recommended_weight_range_size: 65–90kg [MERCHANT]
+72. recommended_weight_range_size: 65–90kg [MERCHANT]
+73. recommended_weight_range_size: 70–85kg [MERCHANT]
+74. recommended_weight_range_size: 70–90kg [MERCHANT]
+75. recommended_weight_range_size: 70–105kg [MERCHANT]
+76. recommended_weight_range_size: 75+kg [MERCHANT]
+77. Boot size fit: US 8–10 and 10–12 [61 — The Good Ride review table]
+78. core_material: Aspen Strong — Aspen wood core with CNC-selected high-density FSC certified wood strips for inserts and rail zones [2][25]
+79. core_material: Popster — shaped core profile thins underfoot and thickens outside bindings before tapering at tip/tail to maximize natural snap and pop [2][25]
+80. sustainability_certification: FSC certified wood strips [2][25]
+81. laminate: BA LD (Low-Density) fiberglass [1][15][MERCHANT]
+82. laminate: BA MD (Medium-Density) European-made fiberglass [25][49] — DISAGREEMENT: The merchant and several retailers (Blauer, Absolute-Snow) list BA LD (Low-Density), while Tactics lists BA MD (Medium-Density). This may reflect a 2025 vs. 2026 model year change, or a retailer data error. The 2025 model appears to use BA LD per the majority of sources.
+83. laminate: Low-density fibers allow Salomon to produce lighter boards that keep their playful forgiving flex [1][15]
+84. laminate: Medium density European-made fiberglass layers guarantee a consistent quality level, for light and lively boards [25][49]
+85. base_material: Extruded EG [3][4][16]
+86. base_type: A harder compound than EXT, adds Electra for increased gliding characteristics; easy maintenance, non-sintered [3][4]
+87. base_type: Standard Stone Finish — optimized extruded base structure for any snow condition [15][10]
+88. base_type: Medium Stone Finish — improves base glide, quicker in all snow conditions [3][18]
+89. sustainability_certification: Natural Wax — paraffin-free wax compound made from natural ingredients; non-pollutant [10][12]
+90. sidewall_material: ABS Sidewalls with Royal Cork Rails (pads) [19][25]
+91. sidewall_material: 4mm soft Royal Cork Rails (Royal = extra thick) blocks inserted into high-pressure zones of ABS sidewalls to damp vibration and mellow big impacts [25][49]
+92. sustainability_certification: Cork pads replace petroleum-based rubber, providing eco-friendly dampening [2][28]
+93. mounting_pattern: 2x4 Inserts [MERCHANT][108]
+94. mounting_pattern: 2x4 hole pattern with two rows of holes 4cm apart, each hole 2cm apart; bindings secured with four bolts [108]
+95. edge_bevel_spec: All-Mountain Edge Bevel — 1° edge holding tune throughout key parts of sidecut, 2° bevel between feet [4][15][MERCHANT]
+96. edge_bevel_spec: All Mountain EB — 1.5° base edge bevel and 1.5° side edge bevel [16] — DISAGREEMENT: The 2025 model is listed as 1°/2° by most 2025 retailers, while evo's 2026 listing shows 1.5°/1.5°. This appears to be a model year spec change for 2026.
+97. edge_bevel_spec: 1° bevel in nose/tail and 2° bevel between feet [10]
+98. price_usd_msrp: $419.95 [21][102][108]
+99. price_aud_merchant: $649.99 AUD [MERCHANT]
+100. Sale price — The Ski Bum: As low as $293.97 (from $419.95) [21]
+101. Sale price — Potter Brothers: $289.95 (from $419.95) [30]
+102. Sale price — Winter Is Calling: $299.98 (from $420.00) [22]
+103. Sale price — Ski Pro AZ: $299.95 (from $419.95) [105]
+104. Sale price — UtahSkis: $304.99 (from $419.95) [102]
+105. Price at The House (2026 model via Good Ride): $359.95 [61 — The Good Ride pricing table]
+106. price_usd_evo: $314.96 [61 — The Good Ride pricing table]
+107. price_usd_backcountry: $359.96 [61 — The Good Ride pricing table]
+108. price_usd_tactics: $359.95 [61 — The Good Ride pricing table]
+109. The Good Ride list price (model-generic): $299 [61 — The Good Ride page header]
+110. reviewer_opinion_whitelines: "All for 400 bucks, what a bargain" [42]
+111. Price category: Budget/entry-level for all-mountain boards [42][41]
+112. availability_status: REI Co-op — listed as Salomon Sight Men's 2024/2025 [9]
+113. availability_status: evo — 2026 model in stock [23]
+114. availability_status: Tactics — 2025 closeout available; 2026 in stock [25][49]
+115. availability_status: Backcountry — 2025 listed [17]
+116. availability_status: The Ski Bum — in stock, limited quantities [21]
+117. availability_status: Potter Brothers — sale, sold out [30]
+118. availability_status: Ski Barn Durango — in stock, multiple sizes [106]
+119. availability_status: Blauer Board Shop — 2025 listed [15]
+120. availability_status: UtahSkis — out of stock [102]
+121. availability_status: Snowboards.com — 20% off original price [108]
+122. availability_status: Ski Pro AZ — sold out all sizes [105]
+123. availability_status: Shred Shop — sold out all sizes at $419.95 [109]
+124. availability_status: Winter Is Calling — sold out at $299.98 [22]
+125. availability_status: Salomon.com (official) — listed [32]
+126. availability_status: Absolute-Snow (UK) — listed for 2025 [1]
+127. availability_status: Many retailers show the 2025 model as closeout/sold-out, while the 2026 model is current stock [23][25]
+128. reviewer_opinion_the_good_ride: All Mountain [61]
+129. on_snow_feel_tgr: Stable [61]
+130. turn_initiation_performance: Medium/Fast [61]
+131. reviewer_opinion_the_good_ride: Moderate [61]
+132. powder_rating_tgr: Poor (needs back-leg work in deep snow, minor setback helps but isn't a powder board) [61]
+133. base_glide_performance: Below average (extruded base, step slower than the Effect) [61]
+134. carving_rating_tgr: Good [61]
+135. speed_rating_tgr: Poor (limited by extruded base and soft flex) [61]
+136. chatter_performance: Good (handles chewed-up groomers and emerging moguls) [61]
+137. switch_riding: Good (centered stance achievable with minor -10mm setback) [61]
+138. jumps_rating_tgr: Good (good pop for ollies, stable takeoff) [61]
+139. jibbing_rating_tgr: Average (not the best rail jib board, slightly better than the Effect) [61]
+140. pipe_rating_tgr: Good (good beginner pipe board, can be finicky at that price point) [61]
+141. edge_hold: Medium Snow (combo of creative sidecut, semi-stiff board, and camber near bindings) [61]
+142. reviewer_opinion_the_good_ride: Feels Normal [61]
+143. reviewer_opinion_whitelines: Selected for Whitelines' top 100 snowboard products of the year (2022-2023 and 2023-2024 seasons) [42][44]
+144. reviewer_opinion_whitelines: Genuinely good choice for budget riders or first freeride experience; tones down clever Salomon tech into affordable package [42]
+145. reviewer_opinion_whitelines: "We'd probably steer clear of the stomach clenching technical descents and lean more towards wide powder fields and tree runs" [42]
+146. reviewer_opinion_the_good_ride: "Mellow little brother to the Effect which is a great all mountain starter board" [41]
+147. reviewer_opinion_the_good_ride: Not ideal for deep powder; requires back-leg effort when snow gets deeper [61]
+148. Snow Magazine review (2019-20): "Good, solid snowboard for beginners looking to progress on the pistes and learn a few tricks" [48]
+149. Snow Magazine limitation: "At higher speeds and in precision, long arcing carves it starts to wash out a little" [48]
+150. reviewer_opinion_whitelines: "Perfect proof that a low price tag doesn't have to mean low quality" [45]
+151. SnowboardingDays review: "Best freeride snowboard for beginners" and "completely different beast" after the taper redesign [131]
+152. flex_rating_10: 5/10 [131]
+153. Merchant customer rating: 5.0 out of 5 (2 reviews) [MERCHANT]
+154. reviewer_opinion_snowboardingprofiles: Listed in top 10 beginner snowboards for 2025-2026; "most directional board on this list, great option for anyone who sees powder/freeriding in their future" [53]
+155. user_review_forum: Recommended as a good first board with camber for progression; preferred over flat-profile boards like the Burton Ripcord for skill development [122]
+156. user_review_forum: Edges stayed sharp after 12+ outings in northeast US ice conditions; "These edges do not dull, it's honestly impressive" [92]
+157. user_review_forum: Does not hold wax very well, "which is expected from an extruded base board" [92]
+158. comparable_board_cross_brand: Often compared against Nidecker Escape, Amplid Singular, and Burton Instigator as beginner all-mountain options [94][52]
+159. user_review_forum: Seen as good price/performance ratio among beginner boards [94]
+160. comparable_board_cross_brand: Burton Instigator/Cultivator — flat top profile, softer flex, easier for absolute beginners but less progression potential [131][53]
+161. comparable_board_cross_brand: Nitro Prime — cheapest beginner option, versatile, easy to ride [53]
+162. comparable_board_cross_brand: Nidecker Play — another versatile beginner board [53]
+163. comparable_board_cross_brand: K2 Gateway — easy riding, versatile shape [53]
+164. comparable_board_cross_brand: Rossignol Ampage — more freestyle-oriented beginner board [53]
+165. comparable_board_cross_brand: Sight has camber (better for progression/edge hold) vs Ripcord's flat profile (more forgiving but less growth potential); forum users recommend Sight for those wanting to improve technique [122]
+166. comparable_board_same_brand: Effect is stiffer "bigger brother"; Sight has softer/more forgiving flex but similar hybrid camber profile [41]
+167. sustainability_certification: Described as "accessible all-mountain board with bio-sourced materials" [8]
+168. sustainability_certification: Replace traditional rubber pads, reducing petroleum-based materials [2][28]
+169. sustainability_certification: Paraffin-free factory wax, non-pollutant compound [10][12]
+170. sustainability_certification: Core wood strips are FSC certified [2][25]
+171. Salomon brand reputation: Major global sports brand with 75+ year heritage; "one of the finest manufacturers of ski equipment" who brought knowledge to snowboards [124]
+172. comparable_board_same_brand: Entry-to-mid-range in their lineup; the Sight sits below the Assassin ($649.95) and Highpath ($699.95) [66]
+173. Amer Sports financial health: IPO in Feb 2024 on NYSE, valued at $6.5 billion [83]
+174. Salomon sneaker revenue: Over $1 billion in sneaker sales in 2024, indicating strong overall brand health [91]
+</answer>
+
+<citations>
+
+<citation id="1">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-sight-snowboards-2025</url>
+<quote>The Salomon Sight Snowboard is best-known for its exceptional versatility and performance across various terrain types.</quote>
+<quote>BA LD Fibreglass - The use of Low-density fibers allows Salomon to produce lighter boards that keep their playful forgiving flex forever</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-sight-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Absolute-Snow is a reputable UK snow sports retailer. Their product listing confirms Sight specs including BA LD fiberglass and key features. Merchant listing directly from authorized retailer.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://blauerboardshop.com/products/salomon-sight-2025</url>
+<quote>Aspen Strong Core – CNC-selected high-density FSC certified wood strips for the inserts and rail zones</quote>
+<quote>Royal Cork Rails – Keep the planet and your edges in good shape with this eco version of Royal Rubber Rails.</quote>
+<quote>Extruded – Offers long lasting glide with low-maintenance characteristics.</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/salomon-sight-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop is a specialty snowboard retailer providing detailed Salomon spec sheets. Detailed 2025 model specs match manufacturer descriptions.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://www.als.com/salomon-sight-snowboard-2025-10560026/p</url>
+<quote>Extruded EG - A harder compound than EXT, Salomon EXT EG takes the easy maintenance of a non-sintered base and adds Electra for increased gliding characteristics.</quote>
+<quote>Medium Stone Finish - A medium structure finish that improves base glide.</quote>
+</quotelist>
+<url_with_text_link>https://www.als.com/salomon-sight-snowboard-2025-10560026/p</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Als.com is a reputable ski/snowboard retailer. Their base spec information (Extruded EG, Medium Stone Finish) comes directly from Salomon product data sheets.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://divideboardshop.com/products/salomon-mens-sight-snowboard-2025</url>
+<quote>Flex Rating – 2.5 (1 Soft - 5 Stiff)</quote>
+<quote>Tapered Directional – Tail width is slightly tapered (2-20mm).</quote>
+<quote>Quadratic sidecuts use 3 or more radii instead of a continuous radial sidecut.</quote>
+<quote>All-Mountain Edge Bevel – A 1° edge holding tune throughout the key parts of the sidecut meets a 2° bevel between the feet.</quote>
+</quotelist>
+<url_with_text_link>https://divideboardshop.com/products/salomon-mens-sight-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Divide Board Shop provides detailed specs from manufacturer data. Flex rating of 2.5/5, taper specs, sidecut description, and edge bevel specs are all directly from Salomon spec sheets.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://winteriscalling.com/products/salomon-sight-knife-snowboard-2025-preorder</url>
+<quote>An accessible all-mountain board with bio-sourced materials.</quote>
+</quotelist>
+<url_with_text_link>https://winteriscalling.com/products/salomon-sight-knife-snowboard-2025-preorder</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-04</date_of_last_relevance>
+<reasoning>Winter Is Calling is a specialty snowboard retailer. The "bio-sourced materials" description comes from Salomon marketing materials.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://www.rei.com/product/238732/salomon-sight-snowboard-mens-20242025</url>
+<quote>With a freeride-inspired shape and Cross Profile camber, the all-mountain Salomon Sight men's snowboard is stable on the groomers</quote>
+<quote>Tail width is slightly tapered (2–20 mm) to loosen up turning initiation</quote>
+</quotelist>
+<url_with_text_link>https://www.rei.com/product/238732/salomon-sight-snowboard-mens-20242025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>REI is one of the most reputable outdoor retailers in the US. Their product page confirms 2024/2025 model year and provides manufacturer-sourced specifications.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.pinewskis.com/shop/c/p/2025-Salomon-Sight-Mens-Snowboard-x84376016.htm</url>
+<quote>A paraffin-free wax compound made from natural ingredients.</quote>
+<quote>Equipped with a 1-degree bevel in the nose and tail and a 2-degree bevel between the feet</quote>
+<quote>Cork pads are strategically placed into the sidewall to provide eco-friendly dampening.</quote>
+</quotelist>
+<url_with_text_link>https://www.pinewskis.com/shop/c/p/2025-Salomon-Sight-Mens-Snowboard-x84376016.htm</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Pines Skis retailer page with detailed Salomon spec information including natural wax and edge bevel details.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://www.absolute-snow.com/salomon-sight-snowboards-2025</url>
+<quote>Best suited for beginner to intermediate riders who appreciate versatility and performance on the mountain</quote>
+<quote>Natural Wax - A paraffin-free wax compound made from natural ingredients.</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/salomon-sight-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Absolute-Snow confirming rider level target and Natural Wax specification.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://blauerboardshop.com/products/salomon-sight-2025</url>
+<quote>FLEX 2.5/5 (1=Soft,5=Stiff)</quote>
+<quote>BA LD – Low-density fibers allow Salomon to produce lighter boards that keep their playful forgiving flex forever.</quote>
+<quote>Standard Stone Finish – Optimized extruded base structure for any snow condition.</quote>
+<quote>All-Mountain Edge Bevel – A 1° edge holding tune throughout the key parts of the sidecut meets a 2° bevel between the feet.</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/salomon-sight-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Blauer Board Shop 2025 model page with detailed manufacturer specs. Flex, fiberglass, base finish, edge bevel directly from Salomon spec sheet.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-sight-snowboard</url>
+<quote>Intermediate-Advanced Whether you're a progressing intermediate exploring new runs and terrain</quote>
+<quote>Equipped with 1.5 degree base edge bevel and a 1.5 degree side edge bevel</quote>
+<quote>Medium The amount a snowboard flexes varies significantly between boards.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-sight-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo is a major US snow sports retailer. This is the 2026 model page, which shows a different rider level (intermediate-advanced) and different edge bevel (1.5/1.5) compared to 2025 model specs.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.backcountry.com/salomon-sight-snowboard-2025</url>
+<quote>Salomon included responsibly harvested aspen and Royal Cork sidewalls to reduce environmental impact</quote>
+</quotelist>
+<url_with_text_link>https://www.backcountry.com/salomon-sight-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Backcountry.com is a major US outdoor retailer. Confirms sustainability features and availability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.skibarndurango.com/products/sight-2025</url>
+<quote>The Salomon Sight Snowboard 2025 is designed for intermediate to advanced riders</quote>
+<quote>Built with a Popster Core and ABS Sidewalls</quote>
+</quotelist>
+<url_with_text_link>https://www.skibarndurango.com/products/sight-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Ski Barn Durango lists rider level as intermediate-to-advanced, diverging from manufacturer's beginner-intermediate. Their product description appears to be custom-written rather than from Salomon spec sheets, and contains inaccuracies (Sintered base, Rock Out Camber, Directional Twin) that suggest this description may be wrong for this model.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.theskibum.com/brands/2025-salomon-sight-mens-snowboard-l47661700.html</url>
+<quote>As low as $293.97 Regular Price $419.95</quote>
+<quote>SKU · L47661700</quote>
+</quotelist>
+<url_with_text_link>https://www.theskibum.com/brands/2025-salomon-sight-mens-snowboard-l47661700.html</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>The Ski Bum confirms MSRP of $419.95, sale price as low as $293.97 (30% off), and SKU number. Reputable specialty retailer.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://winteriscalling.com/products/salomon-sight-knife-snowboard-2025-preorder</url>
+<quote>Original price $420.00 · Current price $299.98</quote>
+<quote>Sold out</quote>
+</quotelist>
+<url_with_text_link>https://winteriscalling.com/products/salomon-sight-knife-snowboard-2025-preorder</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-04</date_of_last_relevance>
+<reasoning>Winter Is Calling shows original $420 price point and sale price. Item sold out confirming end-of-season availability pattern.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://www.tactics.com/salomon/sight-snowboard-2025-closeout</url>
+<quote>BA MD Fiberglass - Medium density European-made fiberglass layers guarantee a consistent quality level, for light and lively boards.</quote>
+<quote>4mm soft Royal Cork Rails (Royal means extra thick) blocks inserted into the high-pressure zones of Salomon's ABS sidewalls damp vibration and mellows the big impacts.</quote>
+<quote>Aspen Strong Core - CNC-selected high-density FSC certified wood strips for the inserts and rail zones</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/salomon/sight-snowboard-2025-closeout</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Tactics is a major US board shop. Their 2025 closeout page lists BA MD fiberglass (disagreeing with other 2025 retailers who show BA LD). The Royal Cork Rails 4mm spec and sidewall construction details are highly specific.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://utahskis.com/products/salomon-sight-snowboard-2025</url>
+<quote>Cork Rails help reduce the use of petroleum-based products while providing a superior solution for dampening underfoot</quote>
+</quotelist>
+<url_with_text_link>https://utahskis.com/products/salomon-sight-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>UtahSkis provides Salomon spec information on sustainability features of cork rails.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://potterbrothers.com/products/sight-5</url>
+<quote>$419.95 · $289.95 / Sale Sold Out · Size: 147cm 147cm 150cm 153cm 155Wcm 156cm 158Wcm 159cm 162Wcm 166Wcm</quote>
+</quotelist>
+<url_with_text_link>https://potterbrothers.com/products/sight-5</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-04</date_of_last_relevance>
+<reasoning>Potter Brothers confirms all available sizes and sale pricing. Sold out status confirms end-of-season 2025 availability.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://www.salomon.com/en-us/product/sight-li8549</url>
+<quote>The Sight is an all-mountain snowboard with a freeride inspired shape.</quote>
+<quote>A tapered directional shape enhances turning sensation and float, with Cross Profile camber for stability on groomers.</quote>
+</quotelist>
+<url_with_text_link>https://www.salomon.com/en-us/product/sight-li8549</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>This is the official Salomon manufacturer product page — the highest authority source for product identity and category claims. Limited detail available from search snippet.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-sight-review-and-buying-advice/</url>
+<quote>The Salomon Sight is the evolution of the now discontinued Ace</quote>
+<quote>The Salomon Sight is a mellow little brother to the Effect</quote>
+<quote>Its sweet spot is more for the intermediate to the advanced rider but it won't disappoint if you push it.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-sight-review-and-buying-advice/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-01</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The Good Ride is a well-respected independent snowboard review site with detailed on-snow testing. Their ethics statement confirms they are not paid by manufacturers. Provides unique on-snow performance data.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-snowboard-review.html</url>
+<quote>Drawing inspiration from the new Salomon Highpath, the redesigned Sight is a genuinely good choice</quote>
+<quote>And all for 400 bucks, what a bargain.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-snowboard-review.html</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-10</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Whitelines is a respected UK-based snowboard magazine with a professional test team. Their review is for the 2023-24 model (essentially same construction as 2025). Selected for their top 100 products, adding credibility.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-2022-2023-snowboard-review.html</url>
+<quote>Tested and selected for our top 100 snowboard products of the year: the Salomon Sight</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-2022-2023-snowboard-review.html</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2022-09</date_of_first_relevance>
+<date_of_last_relevance>2023-09</date_of_last_relevance>
+<reasoning>Whitelines 2022-23 season review confirming the Sight won a Whitelines 100 award. Same test team and methodology as later reviews.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="45">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-2018-2019.html</url>
+<quote>Perfect proof that a low price tag doesn't have to mean low quality.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/salomon-sight-2018-2019.html</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2018-09</date_of_first_relevance>
+<date_of_last_relevance>2019-09</date_of_last_relevance>
+<reasoning>Whitelines review from 2018-19 season showing long-running positive reception of the Sight model across multiple years.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="46">
+<quotelist>
+<url>https://www.evo.com/snowboards/salomon-sight-x-snowboard</url>
+<quote>The Salomon Sight X Snowboard is your ticket to all-mountain good times, with exclusive evo graphics and colors</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/salomon-sight-x-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>evo's exclusive Sight X variant with custom graphics but identical specifications. Confirms variant existence.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="48">
+<quotelist>
+<url>https://www.snowmagazine.com/ski-gear/snowboards/salomon-sight-2019-20</url>
+<quote>good, solid snowboard for beginner's looking to progress on the pistes and learn a few tricks</quote>
+<quote>at higher speeds and in precision, long arcing carves it starts to wash out a little</quote>
+</quotelist>
+<url_with_text_link>https://www.snowmagazine.com/ski-gear/snowboards/salomon-sight-2019-20</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2019-10</date_of_first_relevance>
+<date_of_last_relevance>2020-09</date_of_last_relevance>
+<reasoning>Snow Magazine is a reputable UK-based ski/snowboard publication. Review is from 2019-20 model year but describes characteristics consistent across model years.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="49">
+<quotelist>
+<url>https://www.tactics.com/salomon/sight-snowboard</url>
+<quote>BA MD Fiberglass - Medium density European-made fiberglass layers guarantee a consistent quality level, for light and lively boards.</quote>
+<quote>4mm soft Royal Cork Rails (Royal means extra thick) blocks inserted into the high-pressure zones of Salomon's ABS sidewalls</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/salomon/sight-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Tactics 2026 model page. Confirms BA MD fiberglass and Royal Cork Rails 4mm spec. This is a major US retailer with generally accurate specs.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="53">
+<quotelist>
+<url>https://snowboardingprofiles.com/the-top-5-snowboards-for-beginners-mens</url>
+<quote>The Sight, the most directional board on this list, is a great option for anyone who sees powder/freeriding in their future.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/the-top-5-snowboards-for-beginners-mens</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-01</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>Snowboarding Profiles is a dedicated snowboard review and guide site. Their 2025-2026 beginner board ranking provides competitive context and confirms the Sight's positioning.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="61">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/salomon-sight-review-and-buying-advice/</url>
+<quote>List Price $299 (USD)</quote>
+<quote>Setback -10mm</quote>
+<quote>Approx. Weight: Feels Normal</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/salomon-sight-review-and-buying-advice/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-01</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The Good Ride detailed review page with spec table, performance ratings grid, and pricing. The list price of $299 shown is their generic/base listing (may not reflect 2025 MSRP). Performance ratings are from actual on-snow testing by experienced reviewers.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="66">
+<quotelist>
+<url>https://www.rei.com/product/224279/salomon-sight-snowboard-20232024</url>
+<quote>Assassin Snowboard - 2025/2026 · $649.95</quote>
+<quote>Highpath Snowboard - 2025/2026 · $699.95</quote>
+</quotelist>
+<url_with_text_link>https://www.rei.com/product/224279/salomon-sight-snowboard-20232024</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-09</date_of_last_relevance>
+<reasoning>REI product page cross-references showing Salomon's 2025/2026 line pricing, establishing where Sight sits in the lineup (below Assassin at $649.95 and Highpath at $699.95).</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="75">
+<quotelist>
+<url>https://snowboards.com/product/50309/salomon-snowboards-salomon-mens-sight-snowboard</url>
+<quote>Snowboards made by Salomon have a two year warranty against manufacturer's defects from the date of purchase from a Authorized Dealer.</quote>
+<quote>Men Designed to fit men.</quote>
+</quotelist>
+<url_with_text_link>https://snowboards.com/product/50309/salomon-snowboards-salomon-mens-sight-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Snowboards.com provides warranty information directly from Salomon's authorized dealer documentation.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="82">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+<quote>Salomon SAS is a French sports equipment manufacturing company headquartered in Annecy, France.</quote>
+<quote>It was founded in 1947 by François Salomon in the heart of the French Alps</quote>
+<quote>Salomon is owned by Finnish retail conglomerate Amer Sports</quote>
+<quote>Adidas then later sold the company to Amer Sports in 2005.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>1947</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Wikipedia provides well-sourced background on Salomon's corporate history, ownership chain, and headquarters. Reliable for established facts about the company.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="83">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Amer_Sports</url>
+<quote>The consortium included ANTA Sports, FountainVest Partners, Anamered Investments, and Tencent.</quote>
+<quote>In February 2024, Amer Sports went public again through an initial public offering and was listed on the New York Stock Exchange.</quote>
+<quote>The company raised $1.4 billion in its offering and was valued at $6.5 billion.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Amer_Sports</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Wikipedia Amer Sports page provides corporate ownership and financial information relevant to understanding Salomon's parent company stability.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="87">
+<quotelist>
+<url>https://www.globaldata.com/company-profile/amer-sports-corp/</url>
+<quote>It operates manufacturing facilities in Austria, Bulgaria, France, Finland, Canada, and the US.</quote>
+</quotelist>
+<url_with_text_link>https://www.globaldata.com/company-profile/amer-sports-corp/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>GlobalData is a business intelligence provider with corporate data. Manufacturing location list for Amer Sports is relevant to understanding where Salomon products may be made.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="91">
+<quotelist>
+<url>https://sgbonline.com/exec-salomon-continued-to-accelerate-in-first-quarter/</url>
+<quote>The Salomon brand set a new baseline in 2024, reporting over $1 billion in sneaker sales for the year</quote>
+</quotelist>
+<url_with_text_link>https://sgbonline.com/exec-salomon-continued-to-accelerate-in-first-quarter/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-05</date_of_first_relevance>
+<date_of_last_relevance>2025-05</date_of_last_relevance>
+<reasoning>SGB Media is a reputable sports business trade publication. Revenue data from Q1 conference call indicates strong brand health — relevant to brand reputation assessment.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="92">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/2022-salomon-sight-153.278149/</url>
+<quote>I've gone at least a dozen times this season and they're still SHARP.</quote>
+<quote>Though the edges seem to hold exceptionally well it does not hold wax very well, which is expected from an extruded base board.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/2022-salomon-sight-153.278149/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2022</date_of_first_relevance>
+<date_of_last_relevance>2022</date_of_last_relevance>
+<reasoning>SnowboardingForum.com user review from a first-year rider who bought the Sight. Provides anecdotal but authentic user experience data on edge durability and base wax retention.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="94">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/nidecker-escape-vs-amplid-singular-vs-salomon-sight.281301/</url>
+<quote>This one seems slightly more beginner oriented and I haven't researched as much but I saw it suggested here and there.</quote>
+<quote>I've narrowed it down to these 3 as they seem a good price/performance ratio.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/nidecker-escape-vs-amplid-singular-vs-salomon-sight.281301/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2024</date_of_last_relevance>
+<reasoning>Forum thread showing real buyer comparison shopping between Sight, Nidecker Escape, and Amplid Singular — demonstrates competitive context and price perception.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="102">
+<quotelist>
+<url>https://utahskis.com/products/salomon-sight-snowboard-2025</url>
+<quote>$304.99 · $419.95</quote>
+<quote>Out of Stock</quote>
+</quotelist>
+<url_with_text_link>https://utahskis.com/products/salomon-sight-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-04</date_of_last_relevance>
+<reasoning>UtahSkis sale price and out-of-stock status confirms end-of-season pricing pattern and MSRP.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="105">
+<quotelist>
+<url>https://skipro.com/products/sight-45w</url>
+<quote>Regular price $299.95 · Sale price $299.95 Regular price · $419.95</quote>
+<quote>Founded in 1947 in the heart of the French Alps, Salomon started as a small workshop producing saw blades.</quote>
+</quotelist>
+<url_with_text_link>https://skipro.com/products/sight-45w</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-04</date_of_last_relevance>
+<reasoning>Ski Pro AZ confirms MSRP and sale pricing. All sizes sold out.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="106">
+<quotelist>
+<url>https://www.skibarndurango.com/products/sight-2025</url>
+<quote>Regular price $419.95 Sale pricefrom $293.97 Save 30%</quote>
+</quotelist>
+<url_with_text_link>https://www.skibarndurango.com/products/sight-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Ski Barn Durango confirms MSRP and shows 30% discount sale price. Still has stock in some sizes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="108">
+<quotelist>
+<url>https://snowboards.com/product/50309/salomon-snowboards-salomon-mens-sight-snowboard</url>
+<quote>Original Price: $419.95 · Savings 20% Off Original Price</quote>
+<quote>2x4 The 2x4 hole pattern consists of two rows of holes spaced four centimeters apart, with each hole in the row two centimeters apart.</quote>
+<quote>Board comes waxed and ready for the mountain right from the factory.</quote>
+</quotelist>
+<url_with_text_link>https://snowboards.com/product/50309/salomon-snowboards-salomon-mens-sight-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Snowboards.com confirms MSRP, mounting pattern detail, factory wax, and warranty information.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="109">
+<quotelist>
+<url>https://www.shredshop.com/products/salomon-sight-mens-snowboard-2025-pr5a22672</url>
+<quote>Regular price $419.95 · Sale price $419.95</quote>
+</quotelist>
+<url_with_text_link>https://www.shredshop.com/products/salomon-sight-mens-snowboard-2025-pr5a22672</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Shred Shop confirms MSRP at $419.95 with all sizes sold out.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="114">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url>
+<quote>My Salomon is made in China.</quote>
+<quote>Some Salomon, Playmaker - Nitro, Thrive, Rossignol</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/where-are-boards-made.132433/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2013</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Forum discussion about snowboard manufacturing locations. One user reports Salomon board made in China; another lists some Salomon boards as made in Taiwan. Anecdotal but provides real user data on COO.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.3</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="116">
+<quotelist>
+<url>https://www.mobilityduo.com/blogs/blog/snowboards-made-in-usa</url>
+<quote>Salomon – Global production (France/Bulgaria/Asia depending on model/season).</quote>
+</quotelist>
+<url_with_text_link>https://www.mobilityduo.com/blogs/blog/snowboards-made-in-usa</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-08</date_of_first_relevance>
+<date_of_last_relevance>2025-08</date_of_last_relevance>
+<reasoning>Blog post documenting snowboard manufacturing locations. Lists Salomon as global production across France, Bulgaria, and Asia. Not primary source but aligns with Amer Sports corporate data.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.45</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="122">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/newbie-snowboard-gear-salamon-sight-vs-burton-ripcord.264935/</url>
+<quote>As a general advice, I think you need a least a bit of camber as that will help you progress so I would discard the Burton.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/newbie-snowboard-gear-salamon-sight-vs-burton-ripcord.264935/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2019-12</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Forum thread directly comparing Sight vs Burton Ripcord for a beginner buyer. Community preference for camber (Sight) over flat (Ripcord) for progression.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="124">
+<quotelist>
+<url>https://www.outsidepursuits.com/best-beginner-snowboard/</url>
+<quote>Salomon – Without question one of the finest manufactures of ski equipment, they have brought their knowledge to snowboards</quote>
+</quotelist>
+<url_with_text_link>https://www.outsidepursuits.com/best-beginner-snowboard/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2021</date_of_first_relevance>
+<date_of_last_relevance>2022</date_of_last_relevance>
+<reasoning>Outside Pursuits is a gear review website. Brand reputation assessment of Salomon as snowboard manufacturer.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="128">
+<quotelist>
+<url>https://friendwitha.com/blog/5-best-beginner-snowboard-models-you-need-check-out/</url>
+<quote>the Sight is really a steal because you get a 2-year warranty.</quote>
+</quotelist>
+<url_with_text_link>https://friendwitha.com/blog/5-best-beginner-snowboard-models-you-need-check-out/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2018-12</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>FriendWithA blog article confirming 2-year warranty and positive value assessment.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="131">
+<quotelist>
+<url>https://www.snowboardingdays.com/best-snowboards-for-beginners/</url>
+<quote>The Salomon Sight is the best freeride snowboard for beginners.</quote>
+<quote>Flex: 5/10 Profile: Cross (Rocker Hybrid) Base: Extruded EG Shape: Tapered Directional</quote>
+<quote>If you want a more moderate flex rating and marginally more versatility, go with the Sight.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingdays.com/best-snowboards-for-beginners/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-10</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>SnowboardingDays comprehensive beginner board comparison with hands-on testing. Provides direct competitive comparison between Sight and Burton Instigator.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-sight-2025</url>
+    <quote>brand: Salomon; model name: Sight; model year: 2025; SKU: L47661700 156; AUD price: $649.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-sight-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

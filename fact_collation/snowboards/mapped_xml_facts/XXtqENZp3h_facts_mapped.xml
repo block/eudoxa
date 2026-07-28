@@ -1,0 +1,912 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="12" category="availability" />
+  <duplicate_canonical name="positive_aspect" count="7" category="review" />
+  <duplicate_canonical name="sidecut_radius_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="6" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="negative_aspect" count="3" category="review" />
+  <duplicate_canonical name="manufacturing_location" count="2" category="identity" />
+  <duplicate_canonical name="manufacturing_location_prior" count="2" category="brand_info" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="warranty_period_years" count="2" category="warranty" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Academy Snowboards [1][2]
+2. model_name: Propaganda [1][2]
+3. model_year: 2024 [1][2]
+4. product_type: Snowboard [1]
+5. board_category: Park / All Mountain [6]
+6. gender: Men's [6]
+7. company founded: 2002 [3] — Note: Getboards.com states "since 2003" [4], a minor discrepancy. Academy's own About page says "Since 2002" [3].
+8. company headquarters: P.O. Box 4628, Auburn, CA 95604 [1]
+9. company philosophy: "rider owned and operated, no gimmick snowboard company" [2]
+10. company owners: Chad Otterstrom and Jeff Baughn ("JB") [5]
+11. company tagline: "Good People, Great Snowboards" [2]
+12. Instagram followers: ~24K followers [6]
+13. awards (brand-level): 9x Transworld Good Wood, Top 5 Snowboards Outside Magazine 2023 [6]
+14. scholarship program: Academy gives scholarships to snow lovers to help them through college [7]
+15. manufacturer: Built by Never Summer Industries [1][2]
+16. manufacturing_location_current: Denver, Colorado, USA [8][9]
+17. manufacturing_location: USA [10]
+18. Never Summer founded: 1991, by Tim and Tracey Canaday [8]
+19. Never Summer factory description: Handcrafted; "over a total of 700 years of snowboard building experience" among factory employees [9]
+20. Never Summer factory address: 3838 Eudora Way, Denver, CO 80207 [11]
+21. Never Summer quality control: All boards go through "an extensive 20 point inspection" [9]
+22. Never Summer reputation: "the worlds premier independent snowboard manufacturer" [12]
+23. manufacturing_location_prior: An older version of the Propaganda (pre-Never Summer partnership) was reviewed by The-House as "Made in Austria" [13] — this no longer applies to the 2024 model which is made in the USA at Never Summer.
+24. camber_type: Zero Camber (flat from contact point to contact point) [1][14]
+25. camber_description: "0º Flat center" [15]
+26. shape: True Twin [1][14]
+27. shape description: "Identically shaped tip and tail combined with a centered stance provides for easier switch riding and maximized maneuverability" [16]
+28. stance position: Centered Stance [1]
+29. flex_rating_10: 6.5 out of 10 [1][15]
+30. flex_feel: Medium-stiff (sits between medium 4-6 and stiff 7+) [17]
+31. terrain_suitability: Mountain 8/10, Pipe 7/10, Park 9/10, Street 10/10 [1]
+32. core_material: Ultralight Core (lightweight Canadian aspen wood) [1]
+33. core_material: "NS Superlight Wood Core — a custom blend of wood species that was created to be the lightest weight yet durable core" [18]
+34. core profiling: "CNC sanded in the custom wood working facility to a fraction of a millimeter" [18]
+35. construction: Sandwich Construction — "Tip to tail wood core sandwiched between layers of fiberglass and base material" [16]
+36. laminate: Bi-Lite Fiberglass — "combines many of the strength characteristics of Never Summer's STS fiberglass with an ultralight glass fiber matrix" [18]
+37. damping system: Featherweight Damping System [1]
+38. construction_material_innovation: Underfoot Balancing Stabilisers — "placed directly below the mounting area to provide optimum vibration absorption and increase high speed stability while reducing foot fatigue" [19]
+39. base_material: Durasurf Sintered 4501 — "sintered ultra high molecular weight base with excellent wax absorption" [1]
+40. base exclusivity: "Crown Plastics has…created the Durasurf 4501 sintered base exclusively for Never Summer" [18]
+41. base_type: Sintered (high-performance; holds wax better, faster, requires more frequent wax than extruded) [17]
+42. base colour: Random [1]
+43. sidewall_material: Sintered P-Tex Sidewall [1]
+44. sidewall advantage: "Unlike conventional ABS sidewalls, that have a tendency to crack in colder temperatures, Sintered P-tex Sidewalls maintain their integrity at any temperature" [20]
+45. sidewall innovation: "Never Summer was the first snowboard company to use and perfect Sintered P-Tex Sidewalls" [18]
+46. edge_technology: Full Wrap Metal Edges [1]
+47. topsheet: Poly-Thermo Topsheet — "durable, lightweight, scratch and chip resistant" [1][19]
+48. mounting_pattern: Stainless 10mm 2x4 Inserts — "super light, super strong, won't rust" [1]
+49. sidecut_type: Vario Power Grip Sidecut [1]
+50. sidecut description: "utilizes multiple radiuses creating extra contact points to enhance edge hold" [18]
+51. sidecut mechanism: "A flat section in the rocker area provides a broad contact point when flexed, however when unbent allows the board to track straight and not catch. Flanking this straight section are two shallow radii… Towards the ends are deep radius which renders quick turn initiation" [18]
+52. sidecut patent: Never Summer holds U.S. Patent No. 7798514 covering Vario Power Grip sidecut technology [21]
+53. nose/tail profile: Low Profile Tip/Tail [1]
+54. nose/tail description: "maximizes material contact with the snow for more powerful ollie/nollie pop and stability to your landings" and "reduces the plowing effect in the nose for better glide" [18]
+IMPORTANT NOTE on waist widths: There is a DISAGREEMENT between the merchant-provided data and the manufacturer's official spec table. The merchant data lists waist widths in mm (e.g. 152cm = 244mm), while the manufacturer's spec table on academysnowboards.com lists the 152cm waist width as 25.35 (presumably in cm = 253.5mm). These appear to be different model year figures or measurement conventions.
+55. waist width 146cm (manufacturer site): 24.1cm [1]
+56. waist width 149cm (manufacturer site): 25.2cm [1] — DISAGREEMENT: Merchant data says 243mm (24.3cm) [22]
+57. waist width 152cm (manufacturer site): 25.35cm [1] — DISAGREEMENT: Merchant data says 244mm (24.4cm) [22]. A user review on the official Academy site also states "The waist width on the 152s/153s are 24.4" [23]
+58. waist width 156cm (manufacturer site): 25.5cm [1] — DISAGREEMENT: Merchant data says 251mm (25.1cm) [22]
+59. waist width 154W (manufacturer site): 26.1cm [1] — DISAGREEMENT: Merchant data says 261mm (26.1cm) — these agree [22]
+60. waist width 157W (manufacturer site): 26.4cm [1] — DISAGREEMENT: Merchant data says 264mm (26.4cm) — these agree [22]
+61. effective edge 146cm: 116cm [1]
+62. effective edge 149cm: 119cm [1]
+63. effective edge 152cm: 122cm [1]
+64. effective edge 156cm: 125cm [1]
+65. effective edge 154W: 122cm [1]
+66. effective edge 157W: 125cm [1]
+67. sidecut_radius_size: Vario 700 [1]
+68. sidecut_radius_size: Vario 702 [1]
+69. sidecut_radius_size: Vario 720 [1]
+70. sidecut_radius_size: Vario 735 [1]
+71. sidecut_radius_size: Vario 728 [1]
+72. sidecut_radius_size: Vario 735 [1]
+73. tip_tail_width_size: 28.2cm [1]
+74. tip_tail_width_size: 29.19cm [1]
+75. tip_tail_width_size: 29.46cm [1]
+76. tip_tail_width_size: 29.72cm [1]
+77. tip_tail_width_size: 30.5cm [1]
+78. tip_tail_width_size: 31.0cm [1]
+79. tail width equals nose width (true twin): Yes — all sizes show identical nose and tail widths [1]
+80. recommended_weight_range_size: 40-68kg [22]
+81. recommended_weight_range_size: 45-70kg [22]
+82. recommended_weight_range_size: 50-75kg [22]
+83. recommended_weight_range_size: 55-80kg [22]
+84. recommended_weight_range_size: 55+kg [22]
+85. recommended_weight_range_size: 60+kg [22]
+86. available_sizes: 146, 149, 152, 156, 154W, 157W [1]
+87. available_sizes: 152cm, 156cm [22]
+88. warranty_period_years: Two-year warranty [22][24]
+89. warranty_period_years: "three year warranty" [3] — DISAGREEMENT: The About Us page says "three year warranty" but multiple retailer descriptions and the Melbourne Snowboard listing say "two-year warranty." The About Us page may reference a newer/different policy, or it may be a general brand claim that differs from what is delivered on this specific model.
+90. price_usd_msrp: $589.00 [25][26]
+91. price_aud_merchant: $999.99 [22]
+92. price_aud_merchant: $599.99 (40% off) [22]
+93. price USD (Academy direct, 2024 model on sale): $471.20 (20% off $589.00) [1]
+94. price USD (Getboards.com, 2024 model on sale): $471.20 (20% off $589.00) [27]
+95. price USD (Baker Street Snow, 2024 model on sale): $353.40 (40% off $589.00) [28]
+96. price USD (Blauer Board Shop, 2024 closeout): $249.99 (58% off $589.00) [29]
+97. price USD (Modern Skate & Surf): $599.00 [30]
+98. price USD (Cookies SF Collab variant, Baker St): $469.00 (was $589.00) [31]
+99. availability_status: Academy Snowboards direct (academysnowboards.com): Available, sizes 146-157W [1]
+100. availability_status: Getboards.com: Available [27]
+101. availability_status: Baker Street Snow (bakerstsnow.com): Available, sizes 146, 149, 152, 154W, 157W [28]
+102. availability_status: Blauer Board Shop (blauerboardshop.com): Available on closeout, sizes 149, 152, 154W [29]
+103. availability_status: Melbourne Snowboard Centre (AU): Available [24]
+104. availability_status: Dreamruns.com: Available [32]
+105. availability_status: Shoreline of Tahoe: Available [33]
+106. availability_status: ERIK'S Bike Board & Ski: Listed as "CLOSEOUT" [34]
+107. availability_status: eBay (via Dreamruns store): Available [35]
+108. availability_status: Modern Skate & Surf (modernskate.com): Available [30]
+109. availability_status: Christy Sports: Listed [36]
+110. availability_status: Board Paradise (boardparadise.com): Academy dealer [5]
+111. variant: Academy x Cookies SF Propaganda (limited collab): Only 420 units produced, same Propaganda shape and construction, unique graphics [37]
+112. comparable_board_same_brand: Academy Propacamba: Sibling model with Micro Camber (cambered) profile instead of Zero Camber, same construction quality [38]
+113. width_options: Wide versions: 154W and 157W available for riders with larger feet [1]
+114. award: Transworld Good Wood 2018 (Park Bang for Buck): Propaganda won Park Bang for Buck [39][40]
+115. award: Transworld Good Wood 2020: Listed on manufacturer site and multiple retailers [1][25]
+116. manufacturer site review score: 5/5 based on 5 reviews (100% 5-star) [1]
+117. positive_aspect: buttering/pressing: "It butters better than a tub of margarine" [23]
+118. positive_aspect: edge hold for flat board: "can hold an edge better than most flat profile boards" [23]
+119. positive_aspect: pop: "tonnes of pop" and "it'll last you all winter if not more" [23]
+120. positive_aspect: lightweight: "It's light and easy to ride" [23]
+121. positive_aspect: jibs and jumps: "Good for jibs and jumps it feels amazing" [23]
+122. positive_aspect: customer service: Owners personally respond; "they sent hella stickers too and wrote a thank you note" [23]
+123. negative_aspect: waist width too narrow for common boot sizes: "24.4 which only suit a bit smaller of a foot. Would love to see at least 24.8 so it suits size 9-10 boots better" [23]
+124. negative_aspect: carving and pop limitations: "Carving and mainly pop could use a little work but for a flat board this rides amazing" [23]
+125. positive_aspect: all-rounder: "This board is an all around beast, solid all over the mountain and destroys the park" [23]
+126. Transworld Good Wood 2018 tester comments: "balanced" and "easy-going"; "exceptional pressing ability" [40]
+127. negative_aspect: "some testers felt this board lacked stability—a tradeoff for its relaxed persona" [40]
+128. Transworld tester profile: "More comfortable navigating triple kinks than sending 80-footers" [40]
+129. Tactics review: "budget-friendly park board that features top of the line construction" [38]
+130. Academy brand YouTube review: "the best park jib board in the world" [41]
+131. reviewer_opinion_whitelines: Flex rated at 5 (on older version), described as "For intermediate and advanced freestylers who make jibbing a priority" [7]
+132. user_review_forum: Board "presses like no other board I have ever ridden" [42]
+133. Board Paradise editorial: "Park Rats and slashers rejoice the price and performance" [5]
+134. ride characteristics: forgiving: "Super forgiving and easy to shred" [1]
+135. ride characteristics: no wash out: "will never wash out like reverse camber" [1]
+136. edge_hold: edge hold: "edge hold without being catchy" [19]
+137. ride characteristics: playfulness: "playfulness without being too loose - the best of both worlds" [19]
+138. switch_riding: switch riding: True twin enables easy switch riding [16]
+139. chatter_performance: chatter free: "rubber dampening it will carve chatter free" [34]
+140. terrain_suitability: park primary: "built to satisfy any rider who wants to spend majority of the time honing their skills in the park on boxes, rails, or tubes" [19]
+141. terrain_suitability: all mountain: "can also haul around the entire mountain and hit any jump in its path" [19]
+142. rider_level: Suitable for beginners to advanced jibbers [34]
+143. skill_level_recommendation: "Whether you are new to the park or a highly advanced jibber" [34]
+144. float in powder: Low Profile Tip/Tail provides "superior float when it's deep" [18]
+145. comparable_board_same_brand: Academy Propacamba: Same brand sibling with Micro Camber instead of flat, won 2019 Transworld Good Wood Men's Park [38]
+146. comparable_board_cross_brand: Burton Free Thinker: True twin freestyle/park board but much stiffer with full positive camber, $839.99 CAD (~$620 USD); more aggressive, less forgiving [43]
+147. comparable_board_cross_brand: Burton Good Company: Entry-level Burton park board at $579.99 CAD, true twin full camber, softer flex [44]
+148. comparable_board_cross_brand: CAPiTA DOA (Defenders of Awesome): Popular park twin, won 2018 Good Wood alongside the Propaganda [39]
+149. comparable_board_cross_brand: Bataleon Disaster+: Named "Best Jib Board" by The Inertia in 2026 [45]
+150. value proposition: Propaganda offers Never Summer factory build quality (USA handcrafted) at a price point significantly lower than Never Summer's own branded boards and comparable Burton models [38][5]
+151. model_first_available_year: The Propaganda has existed since at least 2010/11 (reviewed by Whitelines that year) [7]
+152. brand founding year: 2002 [3]
+153. manufacturing_location_prior: An older version of the Propaganda was manufactured in Austria with ABS sidewalls, an extruded 2000 base, and an aspen/poplar core with carbon stringers [13]. The current 2024 model is made in the USA at Never Summer with sintered base, P-Tex sidewalls, and NS Superlight core.
+154. current model release date: 2024 model year (shipping from ~mid 2023 for the 2023/24 season) [1]
+155. successor: 2025 and 2026 model year Propaganda boards are also listed at $588.95 [27]
+156. manufacturing_location: Made in USA (Denver, CO) [10]
+157. sustainability_certification: None explicitly stated — unverified for any eco-certifications
+158. Durasurf base material exclusivity: Made exclusively for Academy and Never Summer [20]
+159. P-Tex sidewall innovation origin: Never Summer pioneered P-Tex sidewalls, now a common industry feature [46]
+160. Vario Power Grip sidecut patent holder: Never Summer, U.S. Patent No. 7798514 [21]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+<quotelist>
+<url>https://academysnowboards.com/products/propaganda</url>
+<quote>$471.20; Select size: 146, 149, 152, 156, 154W, 157W</quote>
+<quote>LENGTH 146 EFFECTIVE EDGE 116 NOSE WIDTH 28.2 TAIL WIDTH 28.2 SIDE CUT RADIUS VARIO 700 WAIST WIDTH 24.1</quote>
+<quote>Transworld Good Wood 2020; Ultralight Core; Vario Powergrip Sidecut; Low Profile Tipitail; Poly-thermo Topsheet; Bi-lite Fiberglass; Sintered P-tex Sidewalls; Featherweight Damping System; Underfoot Balancing Stabilizers; Durasurf Sintered 4501 Base; Full Wrap Metal Edges; Centered Stance</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/products/propaganda</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-07</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>This is the official manufacturer product page for the 2024 Propaganda. It contains the official spec table and technology listing. Highest authority for product specifications.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://academysnowboards.com/</url>
+<quote>We are a rider owned and operated, no gimmick snowboard company focused on making the best snowboards in the world.</quote>
+<quote>We have now partnered with never summer manufacturing to ensure our long term production quality, durability, and consistency.</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2002</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Academy homepage — authoritative for brand identity, philosophy, and Never Summer partnership confirmation.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://academysnowboards.com/pages/about-us</url>
+<quote>Since 2002, we have always stayed true to our foundation of quality, progression and individuals.</quote>
+<quote>three year warranty, quality and made in the USA!</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/pages/about-us</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2002</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official About Us page. Founded year 2002 is directly stated. Also states three year warranty, which conflicts with two-year claims on product listings.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://getboards.com/academy/</url>
+<quote>Since 2003, Academy Snowboards have been revolutionizing the park snowboarding industry</quote>
+</quotelist>
+<url_with_text_link>https://getboards.com/academy/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2003</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Getboards says 2003, while Academy's own site says 2002. Minor discrepancy in founding year. Retailer source, lower credibility than manufacturer for founding date.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://www.boardparadise.com/shop-by-brand/academy</url>
+<quote>Owners Chad Otterstrom and Jeff Baughn "JB" continue to bring the highest quality boards</quote>
+<quote>Academy has partnered with Never Summer to have their boards built right here in the USA.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardparadise.com/shop-by-brand/academy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2002</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Board Paradise is an authorized Academy dealer. Their editorial provides ownership details and confirms the NS partnership. Good credibility as they have direct relationship with the brand.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://www.instagram.com/academysnowboardco/</url>
+<quote>Tahoe CA since 2002 Quality First 9X Transworld Good Wood Top 5 Snowboards Outside Magazine 2023 Made in the USA at The Never Summer Factory</quote>
+</quotelist>
+<url_with_text_link>https://www.instagram.com/academysnowboardco/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2002</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Academy Instagram bio. Confirms 2002 founding, Tahoe origin, 9x Good Wood awards, and Outside Magazine recognition. Social media self-reported, but official.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/academy-propaganda-snowboard.html</url>
+<quote>Founded by a crew of riders who "believe in quality first", Academy has grown slowly overseas</quote>
+<quote>Academy give out a series of scholarships to talented snow lovers each year</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/academy-propaganda-snowboard.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2010</date_of_first_relevance>
+<date_of_last_relevance>2011</date_of_last_relevance>
+<reasoning>Whitelines is a reputable UK-based snowboard magazine. This is a 2010/11 review of the Propaganda, confirming the model existed then. Older source but useful for model history.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Never_Summer</url>
+<quote>Never Summer Industries is a snowboard and apparel manufacturer based out of Denver, Colorado.</quote>
+<quote>Tim and Tracey Canaday founded Never Summer snowboards in 1991.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Never_Summer</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1991</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Wikipedia article on Never Summer. Provides key facts about the factory that manufactures Academy boards. Well-sourced encyclopedic article.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url>
+<quote>With over a total of 700 years of snowboard building experience, our family of employees handcraft the best in the game.</quote>
+<quote>All boards go through an extensive 20 point inspection</quote>
+</quotelist>
+<url_with_text_link>https://neversummer.com/blogs/snowboarding/tour-the-never-summer-snowboards-factory-in-denver-co</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1991</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Never Summer factory tour blog post. Primary source for manufacturing quality claims. Marketing tone but factual about process.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.youtube.com/watch?v=YWJGyudDf8Y</url>
+<quote>Our Propaganda Series is proudly made in the USA at Never Summer Industries in Denver.</quote>
+</quotelist>
+<url_with_text_link>https://www.youtube.com/watch?v=YWJGyudDf8Y</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2021-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Academy YouTube channel review of the 2022 Propaganda. Confirms USA manufacturing at Never Summer.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="11">
+<quotelist>
+<url>https://www.yelp.com/biz/never-summer-industries-denver</url>
+<quote>NEVER SUMMER INDUSTRIES, 3838 Eudora Way, Denver, CO 80207</quote>
+</quotelist>
+<url_with_text_link>https://www.yelp.com/biz/never-summer-industries-denver</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1991</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Yelp business listing for Never Summer factory. Confirms physical address.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.2</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://neversummer.co.uk/about/</url>
+<quote>Never Summer is the worlds premier independent snowboard manufacturer</quote>
+</quotelist>
+<url_with_text_link>https://neversummer.co.uk/about/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1991</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Never Summer UK distributor's about page. Marketing claim about being "premier" — should be treated with appropriate skepticism, but reflects NS reputation.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://www.the-house.com/portal/academy-propaganda-snowboard-review/</url>
+<quote>It is aspen and poplar and actually has carbon fibers stringers inside as well.</quote>
+<quote>The extruded 2000 base is going to be very low maintenance and fast.</quote>
+<quote>Made in Austria.</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/portal/academy-propaganda-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2021-10</date_of_first_relevance>
+<date_of_last_relevance>2021-10</date_of_last_relevance>
+<reasoning>The-House.com review of an older Propaganda model (pre-NS partnership era). This shows the older spec: extruded base, Austrian manufacture, carbon stringers. Does NOT apply to 2024 model. Important for historical comparison.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/academy-propaganda</url>
+<quote>The park rider favourite Zero Camber profile is completely flat from contact point to contact point</quote>
+<quote>Board Type: Park / All Mountain Camber Type: Zero Camber</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/academy-propaganda</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre product page. Australian authorized dealer. Confirms board type and camber profile for the 2024 model.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://dreamruns.com/products/academy-propaganda-snowboard</url>
+<quote>Zero Camber - 0º Flat center Flex 6.5/10</quote>
+</quotelist>
+<url_with_text_link>https://dreamruns.com/products/academy-propaganda-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Dreamruns is an authorized Academy dealer (also sells on eBay). Confirms Zero Camber is 0-degree flat center and flex is 6.5/10.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://academysnowboards.com/pages/board-technology</url>
+<quote>TWIN: Identically shaped tip and tail combined with a centered stance provides for easier switch riding and maximized maneuverability.</quote>
+<quote>SANDWICH CONSTRUCTION (ALL BOARDS): Tip to tail wood core "sandwiched" between layers of fiberglass and base material</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/pages/board-technology</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Academy Board Technology page. Primary source for construction and geometry definitions used across their line. Highest credibility for these technical descriptions.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/academy-propaganda-snowboard-2025-pr5a22642</url>
+<quote>Medium Flex- 4-6 Flex. Versatile and responsive in varying conditions and terrain.</quote>
+<quote>Stiff Flex- 7+ Flex. Less forgiving allowing for pressure to transfer edge to edge</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/academy-propaganda-snowboard-2025-pr5a22642</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>ERIK'S is a large multi-state retailer. Their flex scale contextualizes the 6.5 flex as sitting between medium and stiff ranges. Helpful for categorization.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://blauerboardshop.com/products/academy-propaganda-2024</url>
+<quote>NS Superlight Wood Core – Academy partners with Never Summer and uses a custom blend of wood species</quote>
+<quote>The NS Superlight Wood Core is CNC sanded in the custom wood working facility to a fraction of a millimeter.</quote>
+<quote>Crown Plastics has…created the Durasurf 4501 sintered base exclusively for Never Summer.</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/academy-propaganda-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Blauer Board Shop (Big Bear Lake, CA) detailed product listing with full feature descriptions. Reputable specialty board shop. Very detailed technical descriptions matching manufacturer specs.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/academy-propaganda</url>
+<quote>The flat profile gives you edge hold without being catchy, and playfullness without being too loose - the best of both worlds.</quote>
+<quote>Underfoot Balancing Stabilisers - These stabilisers are placed directly below the mounting area to provide optimum vibration absorption</quote>
+<quote>built to satisfy any rider who wants to spend majority of the time honing their skills in the park on boxes, rails, or tubes</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/academy-propaganda</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre provides detailed feature descriptions for the 2024 model. Australian dealer with credible product listings.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://www.getboards.com/academy-propaganda-snowboard-2020/</url>
+<quote>Unlike conventional ABS sidewalls, that have a tendency to crack in colder temperatures, Sintered P-tex Sidewalls maintain their integrity at any tempe</quote>
+<quote>A base material made exclusively for Academy and Never Summer, featuring a high density construction</quote>
+</quotelist>
+<url_with_text_link>https://www.getboards.com/academy-propaganda-snowboard-2020/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Getboards listing for the 2020 Propaganda — technology descriptions remain consistent through model years. Confirms P-Tex sidewall advantages and Durasurf base exclusivity.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.uncovercolorado.com/made-in-colorado/never-summer-industries/</url>
+<quote>Under the same U.S. Patent, Never Summer created Vario Power Grip Sidecut technology that adds increased edge hold</quote>
+<quote>In September 2010, Never Summer was awarded the first-ever patent on hybrid camber technology.</quote>
+</quotelist>
+<url_with_text_link>https://www.uncovercolorado.com/made-in-colorado/never-summer-industries/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2010</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Uncover Colorado article about Never Summer. Confirms the patent on Vario Power Grip sidecut technology used in Academy boards.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>Merchant-provided data (user input)</url>
+<quote>AUD price: $599.99; RRP price: $999.99; discount: 40%; available sizes: 152cm, 156cm; waist width 152cm: 244mm; waist width 156cm: 251mm</quote>
+</quotelist>
+<url_with_text_link>Merchant-provided data</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Merchant-verified product data provided directly. Trusted source for pricing and sizing, though waist width values disagree with the manufacturer's spec table on academysnowboards.com for some sizes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://academysnowboards.com/products/propaganda</url>
+<quote>The Propaganda is the all round Jib machine! It butters better than a tub of margarine</quote>
+<quote>The waist width on the 152s/153s are 24.4 which only suit a bit smaller of a foot.</quote>
+<quote>This board is an all around beast, solid all over the mountain and destroys the park</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/products/propaganda</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>User reviews posted on the official Academy product page. These are first-party customer reviews. The waist width review mentioning 24.4 is notable as it aligns with merchant data (244mm) rather than the spec table on the same page (25.35cm).</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/academy-propaganda</url>
+<quote>Backed by a two-year warranty, this partnership ensures long term production quality, durability and consistency.</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/academy-propaganda</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre states two-year warranty. This is the warranty claim stated on most retailer product listings, potentially more accurate than the About Us page claim of three years.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://www.getboards.com/academy-propaganda-snowboard-2024/</url>
+<quote>Academy Propaganda Snowboard 2024; $589.00</quote>
+</quotelist>
+<url_with_text_link>https://www.getboards.com/academy-propaganda-snowboard-2024/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Getboards listing confirming MSRP of $589.00 for the 2024 model.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://academysnowboards.com/collections/2023-2024</url>
+<quote>$471.20 $589.00 20% OFF</quote>
+</quotelist>
+<url_with_text_link>https://academysnowboards.com/collections/2023-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Academy site collection page showing the sale price and original price for 2024 boards.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://getboards.com/academy/</url>
+<quote>Academy Propaganda Snowboard 2024 · $589.00 Original price was: $589.00. $471.20 Current price is: $471.20. -20%</quote>
+<quote>Academy Propaganda Snowboard 2025 · $588.95 Original price was: $588.95. $471.20</quote>
+</quotelist>
+<url_with_text_link>https://getboards.com/academy/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Getboards Academy brand page showing current prices for 2024 (on sale 20% off) and 2025/2026 models.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://bakerstsnow.com/products/academy-propaganda-snowboard-2024</url>
+<quote>$ 353.40 USD · $ 589.00; Size: 146 149 152 154W 157W</quote>
+</quotelist>
+<url_with_text_link>https://bakerstsnow.com/products/academy-propaganda-snowboard-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Baker Street Snow showing $353.40 sale price (40% off) with sizes available. Note the 156cm size is not listed, suggesting it may be sold out there.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://blauerboardshop.com/products/academy-propaganda-2024</url>
+<quote>Sale price $249.99; Regular price $589.00; Save 58%; Size: 149cm, 152cm, 154cm Wide; Sold out</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/academy-propaganda-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Blauer Board Shop (Big Bear Lake, CA) closeout pricing at $249.99 — currently sold out. Demonstrates end-of-season deep discounting potential.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://www.modernskate.com/products/propaganda-1</url>
+<quote>Original price $599.00; Current price $599.00</quote>
+</quotelist>
+<url_with_text_link>https://www.modernskate.com/products/propaganda-1</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Modern Skate & Surf listing at $599.00 — slightly higher than the $589.00 MSRP, suggesting either a different model year or price variation.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://bakerstsnow.com/collections/academy</url>
+<quote>Academy Propaganda Cookies SF Collab Snowboard | 2024 · Sale price $ 469.00 USD Regular price $ 589.00</quote>
+</quotelist>
+<url_with_text_link>https://bakerstsnow.com/collections/academy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Baker Street Snow pricing for the Cookies collab version.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://dreamruns.com/products/academy-propaganda-snowboard</url>
+<quote>The funnest park board period. Whether you are new to the park or a highly advanced jibber this board is amazing.</quote>
+</quotelist>
+<url_with_text_link>https://dreamruns.com/products/academy-propaganda-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Dreamruns is a Southern California board shop with eBay presence. Confirms availability and marketing description.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://shorelineoftahoe.com/products/academy-propaganda-zero-camber-snowboard-2024</url>
+<quote>Academy Propaganda - Zero Camber Snowboard 2024</quote>
+</quotelist>
+<url_with_text_link>https://shorelineoftahoe.com/products/academy-propaganda-zero-camber-snowboard-2024</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Shoreline of Tahoe product listing confirming availability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/academy-propaganda-snowboard-2024-pr5a19264/</url>
+<quote>CLOSEOUT ITEM!! (May not be available at all locations, while supplies last)</quote>
+<quote>Whether you are new to the park or a highly advanced jibber this board is amazing.</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/academy-propaganda-snowboard-2024-pr5a19264/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>ERIK'S is a major multi-state retailer. Listing as closeout indicates end-of-lifecycle for the 2024 model. Confirms broad ability level suitability.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.ebay.com/itm/266717222896</url>
+<quote>Academy Propaganda Snowboard 2024; Brand: Academy; Dreamruns is so much more than a online retailer, we have a 5000 square foot retail superstore</quote>
+</quotelist>
+<url_with_text_link>https://www.ebay.com/itm/266717222896</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-12</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>eBay listing from Dreamruns (authorized dealer). Confirms eBay availability.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://www.christysports.com/product/academy-propaganda-snowboard/499989150569.html</url>
+<quote>True Twin that features Zero Camber. Bi-Lite Fiberglass. NS Super Light Wood Core. Durasurf 4501 Sintered Base.</quote>
+</quotelist>
+<url_with_text_link>https://www.christysports.com/product/academy-propaganda-snowboard/499989150569.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Christy Sports is a large western US snow sports retailer. Confirms availability at a major chain.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://dreamruns.com/products/academy-x-cookies-sf-propaganda-snowboard</url>
+<quote>Only 420 units were ever produced and Dreamruns is one of the few shops that have been selected to carry these models.</quote>
+<quote>This board will feature the Propaganda shape and construction.</quote>
+</quotelist>
+<url_with_text_link>https://dreamruns.com/products/academy-x-cookies-sf-propaganda-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Dreamruns listing for the limited Cookies SF collab Propaganda. Confirms limited production run and identical shape/construction to the standard Propaganda.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.tactics.com/info/2020-academy-snowboard-reviews</url>
+<quote>The 2018 Transworld Good Wood winning Propaganda is the epitome of what a freestyle park board should be.</quote>
+<quote>If your looking for a budget-friendly park board that features top of the line construction, look no further.</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/info/2020-academy-snowboard-reviews</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>Tactics is a major online snowboard retailer. Their editorial describes the Propaganda as a Good Wood winner and budget-friendly option with top construction. Reputable retail source.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/good-wood-winners-2018.240865/</url>
+<quote>Park B4B Academy - Propaganda Burton - Killroy Process Park Capita - DOA</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/good-wood-winners-2018.240865/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-09</date_of_first_relevance>
+<date_of_last_relevance>2018</date_of_last_relevance>
+<reasoning>Snowboarding Forum thread listing the 2018 Good Wood winners. Shows Propaganda won Park "Bang for your Buck" alongside competitors like CAPiTA DOA, Burton Killroy Process.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://snowboarding.transworld.net/gear-guide/2018-good-wood/academy-propaganda/</url>
+<quote>For park rippers who don't buy into bullshit, the Propaganda is the perfect tool to press and pop</quote>
+<quote>Riders described the Propaganda as "balanced" and "easy-going".</quote>
+<quote>The trait some testers felt this board lacked was stability</quote>
+</quotelist>
+<url_with_text_link>https://snowboarding.transworld.net/gear-guide/2018-good-wood/academy-propaganda/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-10</date_of_first_relevance>
+<date_of_last_relevance>2018</date_of_last_relevance>
+<reasoning>The official Transworld Good Wood review for the 2018 Propaganda. This is the most authoritative expert review available. Tested at Mount Snow (Carinthia). Notes both strengths (pressing, forgiving) and weakness (stability). Older model year but construction is very similar.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://www.youtube.com/watch?v=ZfaEJnlT1E0</url>
+<quote>Mike Green reviews our new Propaganda Series and lets everyone know it's the best park jib board in the world.</quote>
+</quotelist>
+<url_with_text_link>https://www.youtube.com/watch?v=ZfaEJnlT1E0</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020-09</date_of_first_relevance>
+<date_of_last_relevance>2021</date_of_last_relevance>
+<reasoning>Academy's own YouTube channel review. Marketing content — high bias but confirms the brand's positioning of this board.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.45</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/academy-propaganda-rc.38099/</url>
+<quote>the boards is rather soft and presses like no other board I have ever ridden.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/academy-propaganda-rc.38099/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2011-02</date_of_first_relevance>
+<date_of_last_relevance>2011</date_of_last_relevance>
+<reasoning>Snowboarding Forum user review of an older Propaganda RC model. Forum post from a real user — low credibility individually but confirms pressing ability theme seen across many reviews.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="43">
+<quotelist>
+<url>https://www.boardoftheworld.com/burton-free-thinker-review/</url>
+<quote>The Burton Free Thinker is a stiff, true twin freestyle snowboard for all-mountain riding</quote>
+<quote>Its full positive camber profile provides an additional level of pop, response, and precision</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/burton-free-thinker-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2026-03</date_of_last_relevance>
+<reasoning>Board of the World review of the Burton Free Thinker — a key competitor. Useful for comparing the much stiffer, full camber alternative to the Propaganda's flat/forgiving approach.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://ultimatesnowboardingguide.com/best-mens-burton-park-snowboards/</url>
+<quote>Kicking this off at $579.99 CAD we have the Good Company…classic or traditional park board.</quote>
+</quotelist>
+<url_with_text_link>https://ultimatesnowboardingguide.com/best-mens-burton-park-snowboards/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2025</date_of_last_relevance>
+<reasoning>Ultimate Snowboarding Guide — blog-level source reviewing Burton park boards. Useful for price comparison context (Good Company at $579.99 CAD).</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="45">
+<quotelist>
+<url>https://www.theinertia.com/gear/best-snowboards/</url>
+<quote>Best Jib Board: Bataleon Disaster+</quote>
+</quotelist>
+<url_with_text_link>https://www.theinertia.com/gear/best-snowboards/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-02</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The Inertia 2026 snowboard test. Names a competitor (Bataleon Disaster+) as best jib board — relevant competitive context for the Propaganda's jib-focused category.</reasoning>
+<evidentiary_alignment>0.65</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="46">
+<quotelist>
+<url>https://en.wikipedia.org/wiki/Never_Summer</url>
+<quote>Never Summer is one of the innovators of P-tex sidewalls, now a common feature on the product lines of many manufacturers.</quote>
+</quotelist>
+<url_with_text_link>https://en.wikipedia.org/wiki/Never_Summer</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1991</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Wikipedia confirming Never Summer's role in pioneering P-Tex sidewalls, the same material used on the Propaganda.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+</citations>
+</response>

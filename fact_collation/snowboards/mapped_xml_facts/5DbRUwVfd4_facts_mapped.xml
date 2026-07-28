@@ -1,0 +1,962 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="13" category="availability" />
+  <duplicate_canonical name="user_review_forum" count="8" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="5" category="sustainability" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="4" category="review" />
+  <duplicate_canonical name="positive_aspect" count="4" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="construction_material_innovation" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="2" category="unknown" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="price_eur_blue_tomato" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_rei" count="2" category="pricing" />
+</canonical_schema>
+
+<answer>
+1. brand: Salomon [1][2]
+2. model_name: Fastlane [1][2]
+3. model_year: 2026 (F/W 2025/26 season) [1][3]
+4. model_first_available_year: New model for 2026 — first year of production [4][5]
+5. predecessor_model_name: Replaces the Salomon Super 8 in the freeride lineup (Super 8 discontinued after ~10 seasons) [6][7]
+6. SKU: L47947100 (153cm example) [8]
+7. gender: Unisex [9]
+8. product_type: Snowboard [1]
+9. Manufacturer headquarters: Annecy, France [10]
+10. Parent company: Amer Sports (headquartered Helsinki, Finland) [11]
+11. Amer Sports ownership: Owned by consortium including Anta Sports, FountainVest Partners, Anamered Investments, and Tencent [12]
+12. Salomon founded: 1947 by François Salomon in Annecy, French Alps [10][13]
+13. Design center: Salomon Annecy Design Center (ADC), ~400,000 sq ft facility with ~750 employees [14]
+14. manufacturing_location_current: Primarily manufactured in China [15]
+15. Salomon skis manufactured in: Amer Sports factory in Altenmarkt, Austria (skis, not snowboards) [14]
+16. warranty: 2-year limited warranty covering materials and craftsmanship [4]
+17. board_category: Freeride-Powder (merchant verified) [1]
+18. board_category: All-Mountain / Carving [5] — Note: Most other sources agree on Freeride. Blauer's categorization emphasizes the board's carving capability but is not representative of the consensus.
+19. terrain_suitability: Freeride, Powder, Steep, Off-piste, Backcountry (merchant verified) [1]
+20. riding_style: Aggressive, high-speed, precision (merchant verified) [1]
+21. rider_level: Advanced to Expert [1][3][5]
+22. Use case description: "hard charging freeride board built for steep and deep terrain" [2][3]
+23. user_review_forum: "Want to not turn at all and just bomb? Fastlane." [6]
+24. shape: Tapered Directional (tail narrower than nose) (merchant verified) [1]
+25. Tail shape: Pin tail (merchant verified) [1][2]
+26. taper: Tail slightly tapered 2–20mm [16][17]
+27. Taper benefit: Loosens up turn initiation and improves flotation in deeper snow without sacrificing edge hold on hardpack [16]
+28. camber_type: Backseat Camber (camber under back foot, flat under front foot) (merchant verified) [1][2]
+29. camber_description: Camber loaded under the back foot for precision and control, with flat segments under the front foot for superior flotation in deep snow [2][3]
+30. Nose design: Longer rockered nose for easier turn initiation and float [5][18]
+31. sidecut_type: Quadratic Sidecut (mix of elliptic curves) (merchant verified) [1][2]
+32. Sidecut description: A blend of elliptic curves for easy turn initiation, effortless direction changes and fluid edge-to-edge transitions [2][3]
+33. flex_rating_10: 9/10 [1]
+34. flex_rating_5: 5/5 (Stiff) [5]
+35. flex_feel: Stiff (merchant verified) [1]
+36. flex_rating_10_evo: Stiff; evo rates Salomon flex 6-8 = stiff on their standardized scale [19]
+37. user_review_forum: "Fastlanes tail is a plank" — extremely stiff tail [6]
+38. width_options: Standard (merchant verified) [1]
+39. flex_direction: Directional flex — stiffer tail for stability and drive [5][18]
+40. core_material: Aspen SLCT Core (hand-selected Aspen wood strips) [1]
+41. core_material: Aero Core [5] — Disagreement: The merchant says "Aspen SLCT Core" while Blauer Board Shop refers to it as "Aero Core" and Blue Tomato calls it "FSC-certified Aspen SLCT core". These likely describe the same core with different marketing emphasis — Aero referring to weight, SLCT to the wood selection process.
+42. sustainability_certification: FSC Certified wood core [20][21]
+43. Core description: Combines ultralight, strong and responsive wood for the lightest feel underfoot and power on demand; every single wood strip is hand-selected [3]
+44. construction_material_innovation: Yes (milled core inside inserts for more natural flex and extra pop) (merchant verified) [1]
+45. Popster description: Core is strategically milled inside of the insert packs, allowing the board to flex more naturally underfoot and transfer energy into the nose and tail for added pop [3]
+46. construction_material_innovation: Yes (ABS and cork insert in nose to absorb vibrations) (merchant verified) [1]
+47. Damplifier description (Blue Tomato): Damplifier insert for reduced swing weight [22]
+48. laminate: B/FX Ultra (flax and carbon natural fibers), BA MD Fiberglass (medium density) [1]
+49. B/FX Ultra description: A patented combination of basalt and flax designed to provide superior dampening, power, and weight reduction [16][23]
+50. laminate: Ghost Carbon Beams [5] — Note: Blauer lists "Ghost Carbon Beams" as an additional laminate; this may be inaccurate or a different tech feature mixed in from another product.
+51. sidewall_material: 66% Recycled ABS [1]
+52. sidewall_material: 100% recycled ABS sidewalls [24] — Note: Multiple sources (Corbetts, Boardsport Source) agree on 66%, while REI lists 100%. This is a significant discrepancy; the merchant and industry trade source (Boardsport Source) both say 66%.
+53. Sidewall technology: ABS molecular structure provides toughness for energy transfer and dampening properties for impact absorption [25]
+54. base_material: 50% Recycled Sintered Base [1]
+55. base_type: Sintered EG base [16]
+56. resin: 30% Bio-Based Resin (plant material) [1]
+57. Resin description: Bio-epoxy resin made with 30% of its molecular structure derived from plants [16]
+58. edge_technology: 20% recycled steel edges [22][23]
+59. topsheet: Olive wood veneer [22][23]
+60. topsheet_appearance_description: Premium, light, strong, and stylish [26]
+61. Base finish (merchant verified): Fine Stone Finish [1]
+62. Base finish description: Particularly efficient on Sintered EG base, speeds up in powder or softer snow conditions [16]
+63. Factory wax (merchant verified): Natural Wax [1]
+64. Natural wax description: A paraffin-free wax compound made from natural ingredients, non-pollutant held to highest standards of glide speed [16]
+65. mounting_pattern: 2x4 Inserts [1]
+66. Mounting pattern description: Standard insert pattern allowing for a wide range of stance options and compatibility with most bindings [4]
+67. edge_bevel_spec: All-Mountain Edge Bevel — precision-tuned edges from 1-degree through sidecut to 2-degree bevel between feet [27][28]
+68. sustainability_certification: 50% recycled base, 66% (or 100% per REI) recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges [23][24]
+69. sustainability_certification: FSC™-certified wood core [20][29]
+70. sustainability_certification: Paraffin-free natural wax [16]
+71. sustainability_certification: Salomon pledged by 2030 to reduce overall carbon emissions by 30% and create 100% of products with circular economy principles [30]
+72. available_sizes: 153cm, 157cm, 160cm, 163cm [1]
+73. available_sizes: 149cm, 166cm, 170cm [31]
+74. setback: 2.0cm (merchant verified) [1]
+75. Effective edge 153cm: 110.5cm (merchant verified) [1]
+76. Waist width 153cm: 25.4cm (merchant verified) [1]
+77. sidecut_radius_size: 6.9m (merchant verified) [1]
+78. stance_width_range_size: 54.0cm (merchant verified) [1]
+79. recommended_weight_range_size: 60-75kg (merchant verified) [1]
+80. Effective edge 157cm: 114.0cm (merchant verified) [1]
+81. Waist width 157cm: 25.8cm (merchant verified) [1]
+82. sidecut_radius_size: 7.1m (merchant verified) [1]
+83. recommended_weight_range_size: 60-85kg (merchant verified) [1]
+84. Effective edge 160cm: 116.0cm (merchant verified) [1]
+85. Waist width 160cm: 26.0cm (merchant verified) [1]
+86. sidecut_radius_size: 7.3m (merchant verified) [1]
+87. recommended_weight_range_size: 70-90kg (merchant verified) [1]
+88. Effective edge 163cm: 118.0cm (merchant verified) [1]
+89. Waist width 163cm: 26.4cm (merchant verified) [1]
+90. sidecut_radius_size: 7.8m (merchant verified) [1]
+91. recommended_weight_range_size: 70-105kg (merchant verified) [1]
+92. price_usd_msrp: $749.95 USD [3][32]
+93. price_aud_merchant: $949.99 AUD (merchant verified) [1]
+94. price_aud_merchant: $759.99 AUD (20% off — merchant verified) [1]
+95. price_eur_blue_tomato: €599.95 EUR [33]
+96. price_eur_blue_tomato: €419.97 EUR (Snowcountry.eu) [33]
+97. price_usd_evo: $749.95 USD [34]
+98. price_usd_evo: $599.96 USD (20% off) [34]
+99. price_usd_rei: $749.95 USD [3]
+100. price_usd_rei: $524.83 USD (30% off) [35]
+101. Shred Shop price: $599.96 USD (20% off, closeout) [36]
+102. BlueZone Sports price: $749.95 USD (listed as sale) [32]
+103. availability_status: In stock [34]
+104. availability_status: Available (some sizes on clearance) [35]
+105. availability_status: 153cm and 157cm sold out or unavailable [36]
+106. availability_status: 157, 160, 166, 170 sold out or unavailable [37]
+107. availability_status: Available [5]
+108. availability_status: Available [23]
+109. availability_status: Available [16]
+110. availability_status: Available [22]
+111. availability_status: Sold out [33]
+112. availability_status: Available [31]
+113. availability_status: Available [20]
+114. availability_status: Used (Good Condition) [38]
+115. availability_status: Listed [9]
+116. evo.com reputation: Major US specialty retailer; lowest price guarantee, free shipping, well-regarded [34]
+117. REI reputation: Major US outdoor co-op; member rewards, generous return policy, trusted [3]
+118. Blue Tomato reputation: Large European snowboard/ski retailer [22]
+119. Salomon direct (salomon.com): Official manufacturer store [9]
+120. REI average rating: 2.3 out of 5 stars (3 reviews) to 3.0/5 (4 reviews) [39][35]
+121. negative_aspect: Torsional stiffness is very soft; "makes for a spooky ride when you're trying to blast through bumpy snow" [39]
+122. negative_aspect: "How narrow the waist width is for a freeride board. My medium bindings hang off the side even at 18 degrees" [39]
+123. negative_aspect: "lack of real overall stiffness has this chattering on anything than perfect corduroy" [39]
+124. positive_aspect: "On piste, it does hold an edge fairly well" [39]
+125. positive_aspect: "One of the most damp riding boards that I've had from Salomon. Helps to quiet down the chunder or a wild run out." [40]
+126. positive_aspect: "Still has a smooth carve when back on the groomer" [40]
+127. positive_aspect: "Sleeper board for faster/bigger bank slalom races!" [40]
+128. negative_aspect: "How can this honestly be a board manufacturers website without all the size details?" [41]
+129. user_review_forum: Salomon told a customer that technical specifications are "PRIVATE INFORMATION NOT AVAILABLE TO THE PUBLIC" [42]
+130. user_review_forum: Fastlane is positioned as an "all out charger" [43]
+131. user_review_forum: Some users expected it to be the new Super 8 but it's a different, stiffer board [44]
+132. user_review_forum: "After about 10 seasons, the Super 8 model is on its final year" [7]
+133. user_review_forum: "The backseat camber is kinda of genius" [45]
+134. user_review_forum: "The base is a 50% recycled sintered base: if it performs like the old one... it's a GREAT base" [46]
+135. Salomon first snowboard: Late 1990s — Salomon expanded beyond skiing with launch of first snowboard [47]
+136. High-speed stability: Backseat camber paired with responsive flex provides maximum stability at high speeds [23]
+137. Powder float: Setback stance and tapered directional shape paired with longer nose rocker provides superior float in deep snow [23]
+138. Dampening: B/FX Ultra basalt and flax fibers provide enhanced stability and dampening [23]
+139. pop: Popster core channels energy efficiently for added pop [18]
+140. turn_initiation_performance: Quadratic sidecut enables fluid edge-to-edge transitions [2]
+141. base_glide_performance: Fine stone finish efficient on sintered base; speeds up in powder or softer snow [16]
+142. comparable_board_same_brand: Softer freeride board for Japanese-style low angle powder and carving ($649.95 MSRP) [6][48]
+143. comparable_board_same_brand: All-mountain freeride, Rock Out Camber ($699.95 MSRP) [48]
+144. comparable_board_same_brand: Freeride/powder ($699.95 MSRP) [48]
+145. comparable_board_same_brand: All-mountain freestyle-freeride ($649.95 MSRP) [48]
+146. comparable_board_cross_brand: Perennial #1 rated freeride snowboard, directional, FSC-certified [49]
+147. comparable_board_cross_brand: New 2025/26 freeride board, hard charging yet forgiving [50]
+148. comparable_board_cross_brand: New 2025/26, damp, powder-hungry speed demon [50]
+149. comparable_board_cross_brand: Notable freeride board, good for jumps [50]
+150. Competitive segment positioning: The Fastlane is Salomon's highest-priced snowboard at $749.95, above the Highpath ($699.95) and HPS models ($699.95) [48]
+151. Salomon founded: 1947, Annecy, French Alps [10]
+152. Founder: François Salomon [10]
+153. Acquisition by Adidas: 1997 [10]
+154. Acquisition by Amer Sports: 2005, for €485 million [12]
+155. Salomon US operations: Ogden, Utah [10]
+156. Amer Sports IPO: February 2024, listed on NYSE, raised $1.4 billion [12]
+157. Amer Sports major owner: Anta Sports (China's largest sportswear manufacturer) [12]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-fastlane</url>
+    <quote>Board Type: Freeride-Powder</quote>
+    <quote>tapered directional shape, pin tail, and backseat camber</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-fastlane</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is the merchant providing the base specification data. This is used for merchant-verified attributes like board type, shape, flex, and size-specific specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+    <url>https://www.salomon.com/en-us/product/fastlane-li8661</url>
+    <quote>The Fastlane is a hard charging freeride board built for steep and deep terrain.</quote>
+    <quote>Backseat CamberCamber loaded under the back foot for precision and control</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/fastlane-li8661</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Salomon product page — the highest-authority source for product specifications and marketing descriptions. However, Salomon's official page notably lacks detailed size specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+    <url>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url>
+    <quote>Aero core combines ultralight, strong and responsive wood</quote>
+    <quote>Every single wood strip is hand-selected</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI is a major US outdoor retailer with a strong reputation. Their product description aligns with Salomon's marketing materials. Price of $749.95 confirmed. Includes user reviews.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url>
+    <quote>2 Year: Backed by Salomon's two-year limited warranty covering materials and craftsmanship.</quote>
+    <quote>2x4 Inserts: Standard insert pattern</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop provides detailed specs including warranty info and insert pattern. Specialty snowboard retailer with knowledgeable staff descriptions.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url>
+    <quote>Summary Ability Advanced – Expert Rider Type All-Mountain / Carving Camber Profile Backseat Camber Flex 5/5 (Stiff) Shape Directional Core Aero Core Laminates Ghost Carbon Beams,</quote>
+    <quote>New model!</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop's spec summary. Note the "All-Mountain / Carving" category differs from most sources. The "Aero Core" and "Ghost Carbon Beams" naming may be retailer interpretation or alternative Salomon tech names. "New model!" confirms first year.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+    <quote>Want to not turn at all and just bomb? Fastlane.</quote>
+    <quote>Fastlanes tail is a plank, hope it's still accessible because I want one.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Snowboarding Forum discussion comparing new 2025/26 Salomon freeride boards. User describes Fastlane as extremely stiff in the tail (a "plank") and characterizes it as a bombing board, which aligns with the stiff/freeride positioning.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+    <url>https://ezlounging.com/viewtopic.php?t=91&start=60</url>
+    <quote>Salomon Super 8: Get it while you can! After about 10 seasons, the Super 8 model is on its final year.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=91&start=60</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>EZLounging forum user quoting Dirksen (a Salomon insider/rep) confirms the Super 8 discontinuation. This positions the Fastlane and Jetstream as its successors in the freeride category.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+    <url>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url>
+    <quote>$749.95 Sale · # L47947100</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>BlueZone Sports confirms the SKU number L47947100 and MSRP of $749.95.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+    <url>https://www.salomon.com/en-us/product/fastlane-li8661</url>
+    <quote>FASTLANE Unisex - Freeride</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/product/fastlane-li8661</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Salomon.com product page title confirms unisex designation and freeride category.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+    <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+    <quote>Salomon SAS is a French sports equipment manufacturing company headquartered in Annecy, France.</quote>
+    <quote>It was founded in 1947 by François Salomon</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1947</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Wikipedia provides authoritative historical and corporate information about Salomon. The founding date and headquarters location are well-established facts.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+    <url>https://en.wikipedia.org/wiki/Salomon_Group</url>
+    <quote>Salomon is owned by Finnish retail conglomerate Amer Sports</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Salomon_Group</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Confirms Amer Sports ownership since 2005.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+    <url>https://en.wikipedia.org/wiki/Amer_Sports</url>
+    <quote>Amer Sports is owned by Anta Sports, FountainVest Partners, Anamered Investments, and Tencent.</quote>
+    <quote>In 2005, Amer acquired the outdoor sports company Salomon from Adidas for €485 million.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Amer_Sports</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2005</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Wikipedia's Amer Sports page confirms the ownership structure and acquisition details. The IPO and Anta Sports ownership are well-documented facts.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+    <url>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url>
+    <quote>Founded in 1947 in the heart of the French Alps, Salomon started as a small workshop producing saw blades.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1947</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>SkiPro's retailer page includes Salomon brand history; cross-validated with Wikipedia.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+    <url>https://www.powder.com/gear/salomon-annecy-factory-tour</url>
+    <quote>Commercial skis like the QST line are designed here, but built at the much larger and more efficient AMER factory in Altenmarkt, Austria.</quote>
+    <quote>I got to spend a day touring the nearly 400,000 square-foot facility</quote>
+  </quotelist>
+  <url_with_text_link>https://www.powder.com/gear/salomon-annecy-factory-tour</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>POWDER Magazine's factory tour provides authoritative insight into Salomon's design and manufacturing processes. Confirms skis are made in Austria; snowboards are a separate production chain.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+    <url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+    <quote>For the most part, Salomon snowboards are manufactured in China.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarding Days researched manufacturing locations of major brands. This is corroborated by multiple forum posts (e.g., Snowboarding Forum "My Salomon is made in China"). Manufacturing location is somewhat difficult to confirm definitively.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+    <url>https://snowboards.com/product/51812/salomon-snowboards-salomon-mens-fastlane-snowboard</url>
+    <quote>B/FX Ultra: A patented combination of basalt and flax designed to provide superior dampening, power, and weight reduction.</quote>
+    <quote>Fine stone finish: Salomon's fine stone finish is particularly efficient on thier Sintered EG base</quote>
+    <quote>Natural wax: A paraffin-free wax compound made from natural ingredients.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.com/product/51812/salomon-snowboards-salomon-mens-fastlane-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboards.com provides detailed Salomon technology descriptions directly from manufacturer spec sheets. Good source for technology explanation details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+    <url>https://www.shredshop.com/products/salomon-fastlane-snowboard-pr5a25450</url>
+    <quote>Tapered directional: Tail width is slightly tapered 2-20mm.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/products/salomon-fastlane-snowboard-pr5a25450</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shred Shop confirms taper specification and is a specialty snowboard retailer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+    <url>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url>
+    <quote>The Backseat Camber profile places camber under the back foot for enhanced power and stability, while a longer, rockered nose keeps the board effortlessly afloat in powder.</quote>
+    <quote>The Popster core channels energy efficiently</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>BlueZone Sports product description includes both camber profile and core technology details.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/salomon-fastlane-snowboard</url>
+    <quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/salomon-fastlane-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo provides standardized flex scale context. With Salomon rating the Fastlane at 9/10 on their scale, it would fall into evo's "very stiff" category.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+    <url>https://www.rhythmsnowsports.com.au/products/2026-fastlane-snowboard</url>
+    <quote>The Fastlane features a 50% recycled base, 100% recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges, an olive wood Veneer, and an FCS Certified wood core.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rhythmsnowsports.com.au/products/2026-fastlane-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Rhythm Snowsports (Australian retailer) lists 100% recycled ABS sidewalls AND FSC certification. Note: This conflicts with other sources listing 66% recycled ABS.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+    <url>https://www.blue-tomato.com/en-GB/product/Salomon-Fastlane+2026+Snowboard-757759/</url>
+    <quote>The FSC-certified Aspen SLCT core, featuring a Popster profile, offers natural flex and a snappy rebound.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.blue-tomato.com/en-GB/product/Salomon-Fastlane+2026+Snowboard-757759/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blue Tomato, a major European retailer, provides the most specific core description combining "FSC-certified Aspen SLCT core" — resolving the Aero/SLCT naming question.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+    <url>https://www.blue-tomato.com/en-GB/product/Salomon-Fastlane+2026+Snowboard-757759/</url>
+    <quote>The board features a 50 % recycled sintered base, 66 % recycled ABS sidewalls, and 20 % recycled steel edges.</quote>
+    <quote>It is finished with 30 % bio-based resin, a Damplifier insert for reduced swing weight, and a olive wood veneer top.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.blue-tomato.com/en-GB/product/Salomon-Fastlane+2026+Snowboard-757759/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blue Tomato's spec sheet confirms 66% recycled ABS (aligning with Corbetts and Boardsport Source) and identifies the Damplifier as reducing swing weight, adding to merchant's description of it as a vibration absorber.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+    <url>https://www.corbetts.com/salomon-fastlane-snowboard-2026/</url>
+    <quote>CONSTRUCTION The Fastlane features a 50% recycled base, 66% recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges, an olive wood Veneer</quote>
+    <quote>B/FX Ultra combine basalt and flax fibers for enhanced stability and dampening.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.corbetts.com/salomon-fastlane-snowboard-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Corbetts provides construction details directly from Salomon's spec material. 66% ABS sidewall figure aligns with most sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+    <url>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url>
+    <quote>50% recycled base, 100% recycled ABS sidewalls, 30% bio-based resins, 20% recycled edges, and olive wood veneer</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI lists 100% recycled ABS sidewalls, which conflicts with the 66% figure from Corbetts, Blue Tomato, and Boardsport Source. REI may have updated data or may have a data entry error. The 66% figure is more widely reported.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/salomon-fastlane-snowboard</url>
+    <quote>Recycled ABS Sidewalls – The molecular structure of ABS can be described as a concrete bar with rubber nuggets inside</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/salomon-fastlane-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo's tech description explains ABS sidewall properties. Good for understanding the material function.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+    <url>https://sportradical.com/en-us/products/fastlane</url>
+    <quote>Olive Wood Veneer – A premium topsheet that's light, strong, and stylish.</quote>
+  </quotelist>
+  <url_with_text_link>https://sportradical.com/en-us/products/fastlane</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Radical Shop provides a concise description of the olive wood veneer topsheet.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url>
+    <quote>All-Mountain Edge Bevel: Precision-tuned edges deliver dependable grip for carving while maintaining a smooth, catch-free ride.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/salomon-fastlane-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop describes the edge bevel type.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+    <url>https://www.snowcountry.eu/26-salomon-snowboard-fastline.html</url>
+    <quote>All Mountain Edge Bevel From detuning the tip and tail to a 1-degree edge holding tune throughout the key parts of the sidecut, back to a 2-degree bevel between the feet.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcountry.eu/26-salomon-snowboard-fastline.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowcountry.eu provides the most detailed edge bevel specification found, describing the exact degree pattern of the all-mountain edge bevel.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+    <url>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url>
+    <quote>Constructed with FSC™-certified wood and bio-based resin for a lower environmental footprint</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>SkiPro confirms FSC certification of the wood core.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+    <url>https://www.winterinsight.com/news/salomon-winter-sports-announces-new-sustainability-ambitions/</url>
+    <quote>by 2030, Salomon has pledged to reduce its overall carbon emissions by 30 percent</quote>
+  </quotelist>
+  <url_with_text_link>https://www.winterinsight.com/news/salomon-winter-sports-announces-new-sustainability-ambitions/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2030</date_of_last_relevance>
+  <reasoning>Winter Insight reports on Salomon's sustainability ambitions, directly relevant to the recycled content and bio-based materials used in the Fastlane.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/salomon-fastlane</url>
+    <quote>The 2026 Salomon Fastlane is an adrenaline-fueled freeride board built for riders who thrive in steep, deep, and difficult terrain.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/salomon-fastlane</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is the merchant source listing additional sizes (149-170cm) beyond the 153-163 shown in the merchant-provided data.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+    <url>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url>
+    <quote>$749.95 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.bluezonesports.com/salomon/salomon-fastlane-snowboard-202-55594</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>BlueZone Sports confirms MSRP of $749.95.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+    <url>https://www.snowcountry.eu/26-salomon-snowboard-fastline.html</url>
+    <quote>€599.95 · €419.97</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcountry.eu/26-salomon-snowboard-fastline.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowcountry.eu provides European pricing — €599.95 RRP with sale to €419.97.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+    <url>https://www.evo.com/shop/snowboard/snowboards/salomon</url>
+    <quote>Salomon Fastlane Snowboard 2026 $749.95 $599.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo.com confirms MSRP of $749.95 and current sale price of $599.96 (20% off). evo is a major and reputable US specialty retailer.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+    <url>https://www.rei.com/b/salomon/c/snowboards</url>
+    <quote>SalomonFastlane Snowboard - 2025/2026 · $524.83 · Save 30%compared to $749.95 · (4)4 reviews with an average rating of 3.0 out of 5 stars</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/b/salomon/c/snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI category page shows 30% discount ($524.83 from $749.95) and 4 reviews averaging 3.0/5. The lower rating and deep discount suggest end-of-season clearance.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+    <url>https://www.shredshop.com/products/salomon-fastlane-snowboard-pr5a25450</url>
+    <quote>$749.95 Unit price / per</quote>
+    <quote>CLOSEOUT ITEM!!</quote>
+    <quote>153cm Variant sold out or unavailable 157cm Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://www.shredshop.com/products/salomon-fastlane-snowboard-pr5a25450</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shred Shop marks the Fastlane as a closeout item with listed sizes sold out. Sale price $599.96 (20% off MSRP $749.95).</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+    <url>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url>
+    <quote>157 Variant sold out or unavailable 160 Variant sold out or unavailable 166 Variant sold out or unavailable 170 Variant sold out or unavailable</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/collections/hot-take-meltdown-20-off-winter-gear/products/fastlane-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>SkiPro shows most sizes sold out — indicates either popularity or limited initial stock.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+    <url>https://lonepinegearx.com/products/2026-salomon-fastlane-54629</url>
+    <quote>Used - Good Condition</quote>
+  </quotelist>
+  <url_with_text_link>https://lonepinegearx.com/products/2026-salomon-fastlane-54629</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Lone Pine Gear Exchange lists a used Fastlane already, indicating some riders have used and resold the board within the first season.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+    <url>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url>
+    <quote>The torsional stiffness is very soft and makes for a spooky ride when you're trying to blast through bumpy snow.</quote>
+    <quote>The first thing I noticed is how narrow the waist width is for a freeride board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI user review expressing significant dissatisfaction. The narrow waist width complaint is notable because the board has standard width, which may not be wide enough for freeride use with larger bindings. The soft torsional stiffness complaint is at odds with the marketed "stiff" flex rating.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+    <url>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url>
+    <quote>This board is one of the most damp riding boards that I've had from Salomon.</quote>
+    <quote>Hyped that for a "charger" style board, still has a smooth carve when back on the groomer.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Positive REI user review praises dampening and groomer carving ability. Contrasts with the negative review, showing polarized opinions.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+    <url>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url>
+    <quote>How can this honestly be a board manufacturers website without all the size details?</quote>
+  </quotelist>
+  <url_with_text_link>https://www.rei.com/product/252761/salomon-fastlane-snowboard-20252026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>REI user review complaining about lack of detailed specs on the manufacturer's website. This is a known issue with Salomon's online presence for snowboards.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+    <url>https://ezlounging.com/viewtopic.php?t=91&start=130</url>
+    <quote>technical specifications like sidecut, setback, taper, reference stance, waist width, and etc. are all PRIVATE INFORMATION NOT AVAILABLE TO THE PUBLIC.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=91&start=130</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-11</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>EZLounging forum user reports Salomon's email response refusing to share specs. Multiple users express frustration. This is a significant negative for informed buyers.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+    <quote>Fastlane is definitely meant to be an all out charger.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Forum poster who appears to have early access or rep contact confirms the Fastlane's positioning as a pure charger in the Salomon lineup.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url>
+    <quote>Ho interesting, I though the Fastlane would be the new super 8 with that backseat camber… seems like not really</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/2025-2026-snowboard-hype-is-it-too-soon.282651/page-12</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2025-06</date_of_last_relevance>
+  <reasoning>Forum discussion showing that the Fastlane was expected by some to be the Super 8 replacement but is actually a different, more aggressive board.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+    <url>https://ezlounging.com/viewtopic.php?t=91&start=60</url>
+    <quote>The backseat camber is kinda of genius.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=91&start=60</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Long-time Super 8 rider praises the backseat camber profile, which is carried over to the Fastlane. Provides context for the camber technology's user satisfaction.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+    <url>https://ezlounging.com/viewtopic.php?t=91&start=60</url>
+    <quote>The base is a 50% recycled sintered base: if it performs like the old one (that is the standard sintered base for Salomon) it's a GREAT base.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=91&start=60</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Experienced Salomon rider commenting on the quality of Salomon's sintered base material, which is also used in the Fastlane.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+    <url>https://www.salomon.com/en-us/lp/g/who-we-are</url>
+    <quote>The late 1990s saw Salomon expanding beyond skiing with the launch of its first snowboard</quote>
+  </quotelist>
+  <url_with_text_link>https://www.salomon.com/en-us/lp/g/who-we-are</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1990s</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Salomon "Who We Are" page confirms snowboard production began in the late 1990s.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+    <url>https://www.evo.com/shop/snowboard/snowboards/salomon</url>
+    <quote>Salomon Highpath Snowboard 2026 $699.95 $559.96 Sale</quote>
+    <quote>Salomon HPS - Sickstick Snowboard 2026 $699.95 $559.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/salomon</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-08</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo's Salomon snowboard category page provides pricing for all competing models in the lineup, enabling direct price comparison.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+    <url>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5</url>
+    <quote>Finally, again retaining the #1 position, we have Jones' Flagship snowboard.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles' 2025-2026 freeride rankings place the Jones Flagship at #1, establishing it as the primary competitor in the freeride category. The Fastlane is not listed in their top 10, which could indicate it hasn't been tested yet or didn't make the cut.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+    <url>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5</url>
+    <quote>The Burton Family Tree Sketch Artist, new for their 2025/2026 line, is our next entry.</quote>
+    <quote>Another new board for the 2025-2026 season, the Jones Howler, comes in next.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/the-top-freeride-snowboards-my-top-5</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Identifies two new 2025/26 freeride competitors — Burton Sketch Artist and Jones Howler — that buyers may compare against the Fastlane.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+</citations>
+</response>

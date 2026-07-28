@@ -1,0 +1,604 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="7" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="5" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="user_review_forum" count="5" category="review" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="construction_material_innovation" count="4" category="construction" />
+  <duplicate_canonical name="warranty" count="4" category="warranty" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="available_sizes" count="3" category="availability" />
+  <duplicate_canonical name="core_material" count="3" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="topsheet_appearance_description" count="2" category="identity" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+</canonical_schema>
+
+<answer>
+1. brand: Nidecker [1][3]
+2. model_name: Tape Deck [1][6]
+3. model_year: 2027 (FW 2026/27 season) [1][6]
+4. product_type: Snowboard [1]
+5. board_category: All Mountain / Freestyle [1][13]
+6. model_first_available_year: 2027 (new model debut for FW 2026/27 season) [6]
+7. Model release status: Brand new model — first season introduction [6]
+8. gender: Men's [3]
+9. predecessor_model_name: None — the Tape Deck is a new addition to the Nidecker range for 2026/27 [6]
+10. Design inspiration: Inspired by the golden age of 90s freestyle — "takes the best of 90s design – true twin, wide waist, steep kick" [2]
+11. Design philosophy: Skate-inspired ride wrapped in a retro twin shape with playful graphics [6]
+12. topsheet_appearance_description: Size-specific artwork — each size features a unique topsheet and base graphic inspired by iconic works of art (Van Gogh, Vermeer, Munch), reimagined with Nidecker's signature "Ned" character [1]
+13. topsheet_appearance_description: Graphics and bases are size dependent and cannot be swapped between sizes [3]
+14. available_colors: Five iconic artworks (one per size) [6]
+15. manufacturer: Nidecker Group — family-owned Swiss snowboarding company based in Rolle, Switzerland [8]
+16. Company founded: 1887 in Etoy, Switzerland, originally as a manufacturer of wooden products [8]
+17. First snowboard production: 1984 — the first snowboard left the Nidecker factory in Rolle, Switzerland [8][9]
+18. Ownership status: 100% family-owned, rider-owned [8]
+19. CEO: Henry Nidecker [8]
+20. Headquarters: Rolle, Switzerland [8]
+21. US operations address: Low Pressure Studio, 55 S Atlantic St #202, Seattle, WA, USA [10]
+22. manufacturing_location_current: Titan factory, Guangdong, China (partner factory with Code of Conduct and regular external auditing) [11]
+23. Brand reputation: Oldest European snowboard brand still in operation; "a benchmark for quality and innovation" [9]
+24. Nidecker Group portfolio brands: Bataleon, Emerica, éS, Etnies, Jones, Nidecker, Rome, Thirtytwo, and YES [9]
+25. Nidecker pioneered the 4×2 insert standard [6]
+26. Industry trend context: Heading into Olympic year, "back to camber" trend is undeniable along with growing appetite for snappier, more responsive boards [6]
+27. shape: True Twin — perfectly symmetrical [1][3]
+28. camber_type: Positive Camber (traditional camber from tip to tail) [1][3]
+29. flex_rating_10: 6/10 [MERCHANT]
+30. flex_feel: Mid-Stiff — "balances stability for jumps and faster riding with enough playfulness for presses and creative park laps" [1]
+31. width_options: Standard and Wide [MERCHANT]
+32. mounting_pattern: 2x4 Inserts (4×2 / 6 inserts providing multiple stance options) [1][MERCHANT]
+33. available_sizes: 147cm, 150cm, 153cm, 156cm, 159cm [MERCHANT]
+34. available_sizes: 159cm Wide confirmed at Ballistyx; NZ Shred lists 156cm Wide and 159cm Wide [12][13]
+35. available_sizes: NZ Shred lists 153cm, 156cm, 156cm Wide, 159cm, 159cm Wide (no 147cm or 150cm). Ballistyx lists 147, 150, 153, 156, 159, 159W. This suggests NZ Shred carries only a subset of sizes, or that the 156W is a regional variant [12][13]
+36. rider_level: Intermediate [MERCHANT]; Snow Central describes it as "intermediate to advanced riders" [14]
+37. terrain_suitability: All mountain, park, groomed runs, off-piste [MERCHANT]
+38. terrain_suitability: "A playful twin built for freestyle riding across the resort, equally comfortable in the park or hitting natural features around the mountain" [1]
+39. Nose/tail design: Steep kick at the nose and tail — echoes classic 90s twins [2]
+40. Nose/tail function: Reduces swing weight, lets you jam the board into butters, presses and wallrides [2]
+41. topsheet: Absorbnid Topsheet — vibration-damping topsheet layer that reduces chatter and helps keep the ride smooth on firmer snow [1]
+42. laminate: Premium Sandwich Construction with Biax Plus Fiberglass [3][MERCHANT]
+43. construction_material_innovation: "This next level construction steps up the power and response of Nidecker's standard sandwich manufacturing. Adding advanced materials like Carbon and Kevlar gives the board more pop and improved shock absorption" [3]
+44. laminate: Biax Plus — fibreglass laid in two directions, classic 90° weave but uses more glass to enhance power transfer [1][3]
+45. Biax Plus flex characteristics: Keeps the flex smooth and predictable while maintaining a lively freestyle feel [1]
+46. core_material: Light Core — paulownia, poplar, and beech stringers [MERCHANT][3]
+47. core_material: "This core is composed of three wood types, including featherweight paulownia and super responsive poplar. Hardwood beech stringers down the centre enhance overall strength and boost pop" [3]
+48. core_material: Merchant data lists "Light Core with Pop Carbon"; NZ Shred lists "Master Wood Core" among tech specs. These may be different names for the same core or a data entry variance [MERCHANT][15]
+49. base_type: N-7000 Hybrid — combines extruded and sintered properties [MERCHANT]
+50. base_material: "Combines the low maintenance features of an extruded base with the hardness of a sintered base, making a hybrid base that requires minimum effort to maintain while still offering ample glide" [3]
+51. construction_material_innovation: Pop Carbon Plus — carbon between the inserts and the nose and tail [3][MERCHANT]
+52. construction_material_innovation: "Boosts ollie power and reduces dampening" (per Melbourne Snowboard) [3]; "Carbon inlays are added towards the nose and tail to dampen chatter and give your ollies more snap" (per NZ Shred) [2]
+53. construction_material_innovation: Melbourne Snowboard says Pop Carbon Plus "reduces dampening" while NZ Shred says carbon inlays "dampen chatter." These describe different aspects — one refers to reducing energy absorption (more snap), the other to reducing vibration [3][2]
+54. Effective edge 147cm: 117.0cm [MERCHANT]
+55. sidecut_radius_size: 7.2m [MERCHANT]
+56. tip_tail_width_size: 29.1cm [MERCHANT]
+57. Waist width 147cm: 24.7cm [MERCHANT]
+58. stance_width_range_size: 48.0cm [MERCHANT]
+59. recommended_weight_range_size: 45-65kg [MERCHANT]
+60. Effective edge 150cm: 120.0cm [MERCHANT]
+61. sidecut_radius_size: 7.3m [MERCHANT]
+62. tip_tail_width_size: 29.6cm [MERCHANT]
+63. Waist width 150cm: 25.0cm [MERCHANT]
+64. stance_width_range_size: 50.0cm [MERCHANT]
+65. recommended_weight_range_size: 50-75kg [MERCHANT]
+66. Effective edge 153cm: 123.0cm [MERCHANT]
+67. sidecut_radius_size: 7.4m [MERCHANT]
+68. tip_tail_width_size: 30.0cm [MERCHANT]
+69. Waist width 153cm: 25.3cm [MERCHANT]
+70. stance_width_range_size: 52.0cm [MERCHANT]
+71. recommended_weight_range_size: 55-80kg [MERCHANT]
+72. Effective edge 156cm: 126.0cm [MERCHANT]
+73. sidecut_radius_size: 7.5m [MERCHANT]
+74. tip_tail_width_size: 30.6cm [MERCHANT]
+75. Waist width 156cm: 25.7cm [MERCHANT]
+76. stance_width_range_size: 54.0cm [MERCHANT]
+77. recommended_weight_range_size: 65-90kg [MERCHANT]
+78. Effective edge 159cm: 129.0cm [MERCHANT]
+79. sidecut_radius_size: 7.6m [MERCHANT]
+80. tip_tail_width_size: 31.1cm [MERCHANT]
+81. Waist width 159cm: 26.0cm [MERCHANT]
+82. stance_width_range_size: 55.0cm [MERCHANT]
+83. recommended_weight_range_size: 75+kg [MERCHANT]
+84. Size chart units: cm unless otherwise specified [MERCHANT]
+85. pop: Strong ollie power from camber profile and Pop Carbon Plus — "loading up with pop when you drive through an ollie" [1]
+86. edge_hold: Strong — traditional camber provides "holding a solid edge when you lay into a carve" [1]
+87. switch_riding: True twin shape keeps the board perfectly balanced for riding switch [1]
+88. Stability: Mid-stiff flex provides enough backbone to stay stable on jumps and faster resort laps [1]
+89. chatter_performance: Absorbnid topsheet reduces chatter on firmer snow [1]
+90. turn_initiation_performance: Carbon reinforcement in tips helps dampen when terrain gets sketchy while boosting snap [3]
+91. Buttering/pressing: Steep kick at nose and tail specifically designed for butters, presses and wallrides [2]
+92. Everyday versatility: "Makes a lot of sense as an everyday board that stays fun when conditions are less than perfect" [1]
+93. Weight: Lightweight — Light Core combining poplar and paulownia reduces overall weight [1]
+94. price_aud_merchant: $799.99 AUD [MERCHANT]
+95. Price (NZD): $899.99 NZD at NZ Shred [13]
+96. Price (USD): $539.00 USD at NZ Shred (USD display price) [16]
+97. availability_status: Preorder [MERCHANT]
+98. estimated_availability_date: May 1, 2026 [MERCHANT]; April/May 2026 at Elevation107 [5]; May 2026 at Snow Central [7]
+99. availability_status: Ballistyx (Melbourne, Australia) — trusted Melbourne snowboard store since 1991, preorder available; includes limited edition preorder T-shirt [1][17]
+100. availability_status: Melbourne Snowboard Centre (Australia) — offers exchanges for orders over $100 at no extra cost [3]
+101. availability_status: Snow Central (Brisbane, Australia) — locally owned, 30-day returns/exchange policy, preorder available with estimated May 2026 delivery [7][14]
+102. availability_status: Elevation107 (Sydney, Australia) — preorder available, expected delivery April/May 2026, lay-by available [5]
+103. availability_status: NZ Shred (New Zealand) — independent and locally owned since 1986, preorder available, free shipping on orders $300+ NZD [13]
+104. Nidecker official US store (nidecker.com) — Tape Deck 2027 NOT listed on official US site as of April 2026; the 2026 range currently shown on nidecker.com does not include the Tape Deck [10]
+105. NOTE: The Tape Deck appears to be launching first in the Southern Hemisphere (Australia/New Zealand) for their winter season, ahead of Northern Hemisphere availability — "landing exclusively in Australia before the rest of the world" [5]
+106. warranty_period_years: 2-year standard warranty on snowboards (from season 2018/19 onward), extendable to 3 years upon registration [18]
+107. warranty: Free from defects in materials and craftsmanship [18]
+108. warranty: Rock damage, impact damage, stress cracks in lacquer, topsheet scratches, improper mounting, graphic fading [18]
+109. warranty: Repair or replacement of the defective product at Nidecker's discretion [18]
+110. Warranty is non-transferable and valid only for the original buyer from an authorized dealer [18]
+111. comparable_board_same_brand: Nidecker Sensor Team — also a true twin, camber, freestyle/all-mountain board with similar construction; the Sensor Team has a slightly stiffer flex and wider waist in comparable sizes [19]
+112. comparable_board_cross_brand: Burton Custom Camber 2027 — flex 6/10, directional twin, traditional camber, $679.95 USD; the Custom is considered the "original all-mountain weapon" and a 30-year industry stalwart [20]
+113. comparable_board_cross_brand: CAPiTA Defenders of Awesome (DOA) — true twin, hybrid camber, flex 5.5/10, $579.95 USD; more freestyle-oriented than the Tape Deck with hybrid camber providing easier turn initiation but less edge grip [21]
+114. comparable_board_cross_brand: CAPiTA Spring Break Resort Twin — true twin, full camber, flex 5/10, $599 USD; another retro-inspired camber twin comparable to the Tape Deck [22]
+115. comparable_board_cross_brand: YES Greats — true twin, hybrid camber, asymmetrical sidecut; historically awarded "best all-mountain snowboard" 3 years running; made by Nidecker Group [23]
+116. comparable_board_same_brand: Nidecker Sensor Pro — true twin, camber, stiff flex, $549.95 USD; similar shape concept but stiffer and more performance-oriented [10]
+117. comparable_board_same_brand: Nidecker Alpha APX was named "Best Overall Snowboard" by The Inertia for 2026 [24]
+118. Price comparison: The Tape Deck at $539 USD sits below the Burton Custom Camber ($679.95 USD) and above the CAPiTA DOA ($579.95 USD), positioning it as competitive value [20][21][16]
+119. Ballistyx editorial opinion: "A straightforward snowboard built for riders who want one board that can handle whatever the Australian season throws at them" [1]
+120. terrain_suitability: Thrives on park laps, side hits and creative riding [1]
+121. terrain_suitability: "Just as happy carving groomers or slashing through soft afternoon slush" [1]
+122. Everyday board assessment: "For riders who aren't chasing blower powder overseas every winter, the Tape Deck makes a lot of sense" [1]
+123. Snow Central assessment: "Delivers responsive performance for riders seeking versatility across varied terrain" [14]
+124. skill_level_recommendation: "Ideal for intermediate to advanced riders who demand a dependable all-mountain companion" [14]
+125. Boardsport SOURCE (industry press): Nidecker describes it as "A pure skate-inspired twin that blends retro shape with modern performance. Snappy, playful, and loaded with attitude" [6]
+126. Industry trend alignment: The Tape Deck's traditional camber and retro twin shape align with the "back to camber" industry trend heading into an Olympic year [6]
+127. user_review_forum: On snowboardingforum.com, one user states "I've owned 4 Nidecker boards over the last 18 years... They are quality boards and very freeride focused" [25]
+128. user_review_forum: One user expressed concern: "My biggest concern with Nidecker, is that from what I've been reading they have some durability issues" — though this was not corroborated by multiple sources and may be outdated [26]
+129. user_review_forum: Multiple forum users praise Nidecker boards' edge hold and carving ability — "There are only a few 'US' brands making boards that turn as good as Nidecker stuff" [25]
+130. user_review_forum: Forum user on Nidecker Blade: "build quality feels good" [27]
+131. user_review_forum: Some forum users note Nidecker is not widely known in the US — "had never heard of Nidecker before, but they look promising" [26]
+132. The Inertia editorial: Nidecker Alpha APX took the top spot as "our favorite snowboard this year" in 2026 testing, reflecting positive brand momentum [24]
+133. Brand tagline: "Different by Design. Engineered in Switzerland" [8]
+134. Brand slogan: "Independent Since 1984" [8]
+135. Nidecker mascot: "Ned" character featured in Tape Deck artwork [6]
+136. Tape Deck naming theme: Retro/nostalgia — named after cassette tape players, aligning with 90s design revival [6]
+137. binding_compatibility: 2x4 inserts compatible with any binding with a standard or mini disk [3]
+138. Base maintenance: N-7000 Hybrid base requires minimum effort to maintain while still offering ample glide — good for casual riders who don't wax regularly [3]
+139. Boot size consideration for Wide variant: Wide boards are for those with large boot sizes — provide extra flotation and reduced drag [3]
+140. Preorder incentive (Ballistyx): Every preorder includes a limited edition preorder T-shirt [1]
+141. Layby/payment options: Available at Elevation107 [5]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url>
+  <quote>The Nidecker Tape Deck is a straightforward snowboard built for riders who want one board that can handle whatever the Australian season throws at them.</quote>
+  <quote>The true twin shape keeps the board perfectly balanced for riding switch, while the mid-stiff flex provides enough backbone to stay stable on jumps and faster resort laps.</quote>
+  <quote>Absorbnid Topsheet A vibration-damping topsheet layer that reduces chatter and helps keep the ride smooth on firmer snow.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>Ballistyx is an authorized Australian Nidecker retailer since 1991. Their product descriptions closely mirror manufacturer copy and include detailed technology descriptions. Highly reliable for product specifications and marketing descriptions.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url>
+  <quote>Inspired by the golden age of freestyle, the Tape Deck takes the best of 90s design – true twin, wide waist, steep kick – and pairs it with modern technology.</quote>
+  <quote>Steep kick at the nose and tail echoes classic 90s twins, reducing the swing weight and letting you jam the board into butters, presses and wallrides.</quote>
+  <quote>Carbon inlays are added towards the nose and tail to dampen chatter and give your ollies more snap.</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>NZ Shred is an authorized New Zealand retailer using manufacturer-provided copy. Their description is sourced from Nidecker's official product description. Reliable for specifications and design features.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/nidecker-tape-deck</url>
+  <quote>This core is composed of three wood types, including featherweight paulownia and super responsive poplar. Hardwood beech stringers down the centre enhance the overall strength and boost pop.</quote>
+  <quote>Pop Carbon Plus adds carbon between the inserts and the nose and tail. This boosts ollie power and reduces dampening.</quote>
+  <quote>This base combines the low maintenance features of an extruded base with the hardness of a sintered base.</quote>
+  <quote>Adding advanced materials like Carbon and Kevlar gives the board more pop and improved shock absorption.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nidecker-tape-deck</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an established Australian snowboard retailer using manufacturer-provided technical descriptions. Their technology descriptions are detailed and directly sourced from Nidecker spec sheets.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.77</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.elevation107.com.au/products/nidecker-tape-deck-mens-snowboard-2027</url>
+  <quote>Expected delivery: April/May 2026 Please note: delivery dates are estimates and subject to change.</quote>
+  <quote>these boards are landing exclusively in Australia before the rest of the world.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/nidecker-tape-deck-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-06</date_of_last_relevance>
+  <reasoning>Elevation107 is an authorized Australian Nidecker dealer providing delivery timing and regional availability info. The "exclusively in Australia first" claim relates to Southern Hemisphere season timing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url>
+  <quote>Our true twin line taps into that, particularly the new Tape Deck – which has a steep kick at the nose and tail like those old school jib boards.</quote>
+  <quote>Tape Deck Snowboard: A pure skate-inspired twin that blends retro shape with modern performance.</quote>
+  <quote>Available in five iconic graphics (one per size) it's a tribute to old school freedom and style.</quote>
+  <quote>Heading into an Olympic year, the 'back to camber' trend is undeniable.</quote>
+  <quote>Nidecker actually pioneered the 4×2 insert standard.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nidecker-snowboards-f-w-2026-27-preview/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>Boardsport SOURCE is a respected snowboard industry trade publication. This is a pre-season brand preview interview with Nidecker directly (quotes attributed to "AF" — likely a Nidecker representative). Excellent primary source for brand intent and product positioning.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.88</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.snowcentral.com.au/products/tape-deck-snowboard-2027</url>
+  <quote>*Estimated Availability May 2026 Pre-order now for early access and be one of the first to ride it.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcentral.com.au/products/tape-deck-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-06</date_of_last_relevance>
+  <reasoning>Snow Central is an authorized Australian retailer confirming pre-order timing of May 2026. Supports merchant-provided availability data.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Nidecker</url>
+  <quote>Nidecker is a family-owned Swiss snowboarding company based in Rolle, Switzerland.</quote>
+  <quote>The company was founded in 1887 in Etoy, Switzerland, originally as a manufacturer of wooden products.</quote>
+  <quote>In 1984, Nidecker joined the snowboard market releasing their first series of 50 snowboards.</quote>
+  <quote>In 2009, in collaboration with Romain de Marchi, JP Solberg, and David Carrier Porcheron (DCP), Nidecker launched YES.</quote>
+  <quote>In May 2024, the Nidecker Group acquired skateboarding brands etnies, éS, and Emerica, and snowboarding brand ThirtyTwo from Sole Technology.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1887</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Wikipedia provides a well-referenced overview of Nidecker's corporate history. Multiple dates and milestones are cited from primary sources. Good for factual brand history.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.ndk.group/</url>
+  <quote>In 1984 the first snowboard left the Nidecker factory in Rolle, Switzerland. Today, they are the oldest European snowboard brand still in operation.</quote>
+  <quote>The Nidecker Group is home to the most innovative and inspirational board sports and lifestyle brands: Bataleon, Emerica, éS, Etnies, Jones, Nidecker, Rome, Thirtytwo and #YES.</quote>
+  <quote>Founded in 1887 in the Swiss Alps and one hundred percent family owned.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ndk.group/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1887</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nidecker Group corporate website. Primary authority on company structure, brand portfolio, and ownership. Marketing claims about being "oldest" should be treated with medium confidence but the historical facts align with Wikipedia and other sources.</reasoning>
+  <evidentiary_alignment>0.93</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.nidecker.com/collections/snowboards</url>
+  <quote>Nidecker has been committed to snowboarding since 1984.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/collections/snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nidecker US website snowboard collection page. The Tape Deck 2027 is NOT currently listed here — the site shows the 2025-2026 range. This confirms the board has not yet launched in the US/Northern Hemisphere market. Also provides US operations address from page footer.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.nidecker.com/pages/partner-factories</url>
+  <quote>Snowboards – Titan · Location: Guangdong, China · → Code of Conduct Signee · → Regular External Auditing</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/pages/partner-factories</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nidecker partner factories page. Primary source for manufacturing location. Confirms snowboards are manufactured at Titan factory in China, with environmental and ethical auditing in place.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url>
+  <quote>Size 147 150 153 156 159 159W</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>Ballistyx product page shows available size variants. Confirms 159W as the only wide size at this retailer, while NZ Shred shows 156W and 159W. Size availability may differ by region/retailer allocation.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url>
+  <quote>$899.99 NZD</quote>
+  <quote>Size · 153cm 156cm 156cm Wide 159cm 159cm Wide</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>NZ Shred product page with NZD pricing and size availability. NZ Shred carries 5 sizes (153-159W) while other retailers have more sizes. Confirms 156cm Wide exists as a size variant not mentioned in merchant data.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.snowcentral.com.au/products/nidecker-tape-deck-snowboard-2027</url>
+  <quote>Ideal for intermediate to advanced riders who demand a dependable all-mountain companion that handles everything winter throws your way.</quote>
+  <quote>The refined construction provides excellent edge hold and stability at speed, while maintaining the playfulness needed for tricks and transitions.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcentral.com.au/products/nidecker-tape-deck-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>Snow Central is an authorized Australian retailer. Their product description appears to be original editorial content rather than manufacturer copy, providing an additional perspective on the board's target rider. The "intermediate to advanced" range is slightly broader than the merchant's "intermediate" classification.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url>
+  <quote>Absorbnid, Biax Plus, Master Wood Core, Pop Carbon, N-7000 Hybrid Base</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>NZ Shred tech spec list calls the core "Master Wood Core" while the merchant and Ballistyx call it "Light Core." This is a naming discrepancy between sources; they likely refer to the same core construction. The difference may be a regional naming convention or an error on one site's part.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url>
+  <quote>$539.00 USD</quote>
+  </quotelist>
+  <url_with_text_link>https://nzshred.co.nz/products/nidecker-tape-deck-2027-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-03</date_of_last_relevance>
+  <reasoning>NZ Shred shows a USD price of $539.00 for international context. This is the only USD pricing available as the board is not yet listed on US retailers. The USD price may fluctuate with exchange rates.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url>
+  <quote>Every preorder includes a limited edition preorder T-shirt made exclusively for the Ballistyx crew.</quote>
+  <quote>Trusted Melbourne snowboard store since 1991.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ballistyx.com.au/products/2027-nidecker-tape-deck-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-06</date_of_last_relevance>
+  <reasoning>Confirms Ballistyx preorder bonus and store credentials. Preorder incentive is a minor purchase consideration but demonstrates retailer engagement and trust.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.nidecker.com/pages/warranty</url>
+  <quote>Nidecker guarantees all snowboards and snowsurfs from season 2018/19 and later to be free from defects in materials and craftsmanship for a period of two (2) years (extendable to three (3) years upon registration of product).</quote>
+  <quote>ROCK DAMAGE AND ANY OTHER IMPACT RELATED DAMAGE IS NOT COVERED.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/pages/warranty</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2018</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nidecker warranty page — the primary authority on warranty terms. 2+1 year warranty structure is clear and applies to all snowboards from 2018/19 onward, including the Tape Deck 2027.</reasoning>
+  <evidentiary_alignment>0.97</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.nidecker.com/products/sensor-team-2026</url>
+  <quote>The Sensor Team has been battle-tested by the Nidecker crew from Laax to Mammoth.</quote>
+  <quote>A mid-stiff flex is lively underfoot and stable at high speed – perfect for confident all-mountain riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/sensor-team-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nidecker product page for the Sensor Team, the most directly comparable model within Nidecker's own range. Both are true twins with camber and mid-stiff flex, making this an important internal comparison for buyers.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://theskimonster.com/products/burton-custom-camber</url>
+  <quote>Flex // Medium (6 out of 10) Shape // Directional Twin Profile // Camber</quote>
+  <quote>The original all-mountain weapon, the Burton Custom carries what is probably the most iconic name when it comes to snowboard models.</quote>
+  </quotelist>
+  <url_with_text_link>https://theskimonster.com/products/burton-custom-camber</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2026-09</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>The Ski Monster is a reputable specialty retailer. The Burton Custom Camber is the most direct mainstream competitor to the Tape Deck — both are 6/10 flex, camber profile, all-mountain boards. The Custom at $679.95 is significantly more expensive than the Tape Deck at ~$539 USD.</reasoning>
+  <evidentiary_alignment>0.82</evidentiary_alignment>
+  <source_credibility>0.78</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/</url>
+  <quote>If you're looking for the pinnacle of all mountain freestyle boards, it's the Capita Super DOA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/favorite-all-mountain-freestyle-twin-boards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Board of the World is a snowboard review site with hands-on testing. The CAPiTA DOA/Super DOA is the most established competitor in the all-mountain freestyle twin category. However, the DOA uses hybrid camber vs the Tape Deck's traditional camber, making it a different ride feel.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.72</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://whitelines.com/snowboard-gear/reviews/best-buys/best-all-mountain-snowboards.html</url>
+  <quote>PRICE: £485 / €549 / $599 SIZES: 152, 154, 155W, 156, 158, 158W, 160 FLEX: 5 SHAPE: True Twin PROFILE: Camber</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/best-buys/best-all-mountain-snowboards.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Whitelines is a highly respected snowboard media publication. The CAPiTA Spring Break Resort Twin is a close competitor as a full camber true twin at similar price point ($599 vs ~$539 USD). Both boards draw on retro/90s camber twin design philosophy.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/best-all-mountain-snowboards/</url>
+  <quote>The Yes Greats was awarded best all-mountain snowboard 3-years running.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/best-all-mountain-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboardingdays.com provides all-mountain snowboard comparisons. The YES Greats is relevant as it's made by Nidecker Group (sister brand) and is a well-known all-mountain twin, making it a useful reference point for buyers comparing within the Nidecker ecosystem.</reasoning>
+  <evidentiary_alignment>0.68</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.theinertia.com/gear/best-snowboards/</url>
+  <quote>Best Overall Snowboard: Nidecker Alpha APX</quote>
+  <quote>the Nidecker Alpha APX takes our top spot for our favorite snowboard this year.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/best-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Inertia is a reputable outdoor media publication. Their top ranking of a Nidecker board demonstrates positive brand momentum and quality perception. While this is about a different Nidecker model, it's relevant to brand credibility for a Tape Deck purchase decision.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/nidecker-powder-board.248210/</url>
+  <quote>I've owned 4 Nidecker boards over the last 18 years... They are quality boards and very freeride focused.</quote>
+  <quote>There are only a few "US" brands making boards that turn as good as Nidecker stuff.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/nidecker-powder-board.248210/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>Snowboarding Forum is a popular consumer discussion platform. These comments represent long-term user experiences across multiple Nidecker boards. Not specific to the Tape Deck but relevant to brand quality perception. Forum sources have lower credibility individually but the consistent positive pattern is informative.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/advice-for-new-deck-ns-nidecker-capita-others.42655/</url>
+  <quote>My biggest concern with Nidecker, is that from what I've been reading they have some durability issues.</quote>
+  <quote>had never heard of Nidecker before, but they look promising</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/advice-for-new-deck-ns-nidecker-capita-others.42655/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2011</date_of_first_relevance>
+  <date_of_last_relevance>2012</date_of_last_relevance>
+  <reasoning>This is an older forum thread (circa 2011). The durability concern was raised by one user without multiple corroborating reports and may be outdated. Nidecker's manufacturing has evolved significantly since then. Low confidence but worth noting as a historical concern. The brand awareness comment remains somewhat relevant in the US market.</reasoning>
+  <evidentiary_alignment>0.55</evidentiary_alignment>
+  <source_credibility>0.3</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://ezlounging.com/viewtopic.php?t=165</url>
+  <quote>build quality feels good.</quote>
+  </quotelist>
+  <url_with_text_link>https://ezlounging.com/viewtopic.php?t=165</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023</date_of_first_relevance>
+  <date_of_last_relevance>2024</date_of_last_relevance>
+  <reasoning>EZLounging is a niche snowboard enthusiast forum. The comment about build quality is about a different Nidecker model (Thruster) but is relevant to general brand quality perception. Single user opinion, low individual credibility.</reasoning>
+  <evidentiary_alignment>0.45</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/nidecker-tape-deck</url>
+    <quote>brand: Nidecker; model name: Tape Deck; model year: 2027; AUD price: $799.99; availability status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nidecker-tape-deck</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

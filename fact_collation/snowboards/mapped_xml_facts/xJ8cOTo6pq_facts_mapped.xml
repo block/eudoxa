@@ -1,0 +1,1203 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="comparable_board_cross_brand" count="10" category="comparable" />
+  <duplicate_canonical name="sustainability_certification" count="9" category="sustainability" />
+  <duplicate_canonical name="availability_status" count="7" category="availability" />
+  <duplicate_canonical name="edge_technology" count="6" category="unknown" />
+  <duplicate_canonical name="positive_aspect" count="5" category="review" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="camber_description" count="3" category="performance" />
+  <duplicate_canonical name="core_material" count="3" category="construction" />
+  <duplicate_canonical name="laminate" count="3" category="unknown" />
+  <duplicate_canonical name="sidewall_material" count="3" category="unknown" />
+  <duplicate_canonical name="topsheet" count="3" category="construction" />
+  <duplicate_canonical name="tip_tail_width_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="3" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="negative_aspect" count="3" category="review" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="camber_type" count="2" category="performance" />
+  <duplicate_canonical name="sidecut_type" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10" count="2" category="performance" />
+  <duplicate_canonical name="core_material_blend_ratio" count="2" category="construction" />
+  <duplicate_canonical name="base_glide_performance" count="2" category="performance" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+  <duplicate_canonical name="user_review_forum" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1]
+2. model_name: Mayhem LibZilla [1]
+3. model_year: 2027 (sold as 2025-2026 season / 2026-2027 season board) [1][2]
+4. product_type: Snowboard [1]
+5. board_category: All Mountain / Directional (per manufacturer) [1]
+6. board_category: Freeride-Powder [MERCHANT]
+7. Model series: Lib x Mayhem Collection [3]
+8. gender: Men's [4]
+9. pro_rider_name: Matt "Mayhem" Biolos (founder of Lost Surfboards) [1][5]
+10. Design inspiration: Japow-inspired surf shape — born from Matt Biolos' surf shaping trips to Japan [1]
+11. graphic_designer_artist: By Jim Zapalla — mutant prehistoric reptile terror theme [1]
+12. available_colors: Bases come in random colorways [1]
+13. manufacturer: Mervin Manufacturing [6]
+14. manufacturing_location: Handbuilt in the USA, Sequim/Carlsborg, Washington [7][8]
+15. Mervin Manufacturing founded: 1977 by Mike Olson and Pete Saari [9]
+16. Mervin parent company: Altamont Capital Partners (acquired from Quiksilver in 2013) [10]
+17. sustainability_certification: Zero hazardous waste producing factory [11]
+18. sustainability_certification: Factory electricity is 89.6% hydroelectric [12]
+19. sustainability_certification: Runs on renewable-based biodiesel [12]
+20. sustainability_certification: Core materials sourced from FSC-certified fast-growing renewable forest products [13]
+21. sustainability_certification: Water-based solvents used for cleansing instead of petrochemical-based solvents [14]
+22. sustainability_certification: All wood sawdust is recycled as a soil additive; scrap wood donated as kindling [14]
+23. Mervin reputation: Last major board-building factory in the USA [7]
+24. warranty: 1 year from time of purchase [15]
+25. warranty: Structural defects only — does NOT cover impact damage, abuse, misuse or normal wear and tear [15]
+26. shape: Tapered Directional [MERCHANT]
+27. Tail type: Deep swallowtail [1]
+28. camber_type: Early Rise Directional Camber [16]
+29. camber_description: Setback camber optimised for sidecut and stance, early rise in nose for effortless carving and float, power in tail [MERCHANT]
+30. camber_description: Traditional camber underfoot for power and grip with a slightly upturned nose for better float in powder and smoother turns [16]
+31. camber_description: Traditional camber between the bindings enhances power transmission, while the rocker nose provides smooth surf-like ride characteristics [17]
+32. Nose design: Low angle loving low entry floaty nose [1]
+33. sidecut_type: Hard-carving progressive sidecuts [1]
+34. sidecut_type: Progressive elliptical carving sidecut that seamlessly works with a set-back power camber [18]
+35. flex_rating_10_manufacturer: 7/10 [19] ⚠️ DISAGREEMENT — The manufacturer site states flex as 7 out of 10 = Firm.
+36. flex_rating_10: 6.5/10 [MERCHANT] ⚠️ DISAGREEMENT — The merchant data states flex 6.5/10. This is lower than the manufacturer's 7/10.
+37. flex_rating_10: 7/10 [20] — Agrees with manufacturer.
+38. flex_feel: Medium-Stiff — "Stout enough to charge your hardest but without excessive harshness" [21]
+39. flex_rating_10_evo: Stiff (evo categorises 6-8 as "Stiff") [22]
+40. flex_direction: Directional flex [MERCHANT]
+41. core_material: Original Power Construction (OP) [1]
+42. core_material_blend_ratio: 75% Paulownia / 25% Aspen [23] ⚠️ DISAGREEMENT with Tactics below.
+43. core_material_blend_ratio: Original Power Plus Construction (OP+) — 75% Aspen, 25% Paulownia [24] ⚠️ DISAGREEMENT — Tactics lists the ratio as inverted (75% Aspen, 25% Paulownia), while evo/manufacturer/NorthLine list it as 75% Paulownia / 25% Aspen. This is a significant discrepancy in the primary wood species proportion.
+44. core_material: OP is Lib Tech's go-to construction — light, strong, and durable [25]
+45. laminate: Tri-Ax / Bi-Ax Fiberglass [MERCHANT]
+46. laminate: 2-way fiber orientation engineered to provide maximum snap while decreasing chatter [26]
+47. laminate: 3-way fiber orientation engineered to increase snap and decrease vibrations for a smoother, more stable ride [26]
+48. sidewall_material: Birch Internal Sidewalls — rugged, lightweight, vertical end grain Birch; adds pop and durability [27]
+49. sidewall_material: UHMW Sintered Sidewalls — ultra-high molecular weight polyethylene for exceptional impact resistance [27]
+50. sidewall_material: "A Lib Tech innovation that is twice as sintered as most industry sidewalls" [27]
+51. base_material: Sintered Knife Cut Base — high-density UHMW [23]
+52. base_type: Fast sintered material with die-cut to reduce waste [MERCHANT]
+53. base_glide_performance: Optimized wax retention and toughness [23]
+54. Base maintenance: Wax regularly and repair professionally [23]
+55. topsheet: Eco Sublimated Poly Top [23]
+56. topsheet: High strength, impact resistant, lightweight, dimensionally stable, UV and temperature resistant [23]
+57. topsheet: Environmentally friendly eco sublimation process [23]
+58. topsheet_appearance_description: Made from sublimated polyester material great for vibrant yet durable graphics, long-lasting image [28]
+59. edge_technology: UHMW Tip/Tail Impact Deflection [MERCHANT]
+60. edge_technology: Edge replaced with UHMW material in nose and tail for damage prevention and reduced swing weight [MERCHANT]
+61. edge_technology: Steel edge does not extend beyond the contact points [29]
+62. edge_technology: Traditional edges — NO Magne-Traction on this board [30]
+63. edge_technology: Powder-specific boards don't necessarily need it because they are generally much wider than standard snowboards [30]
+64. mounting_pattern: 2x4 binding mount pattern [MERCHANT]
+65. binding_compatibility: All new bindings fit except 3D and EST [29]
+66. available_sizes: 188cm only [19]
+67. available_sizes: 188cm [19]
+68. Contact length / effective edge (188cm): 118.0cm / 1180mm [19][31]
+69. sidecut_radius_size: 9-8-7 (progressive, three-radius) [19]
+70. sidecut_radius_size: 8m (appears to be reported as a simplified single figure) [31]
+71. tip_tail_width_size: 32.7cm / 327mm [19][31]
+72. tip_tail_width_size: 30.9cm [19] ⚠️ DISAGREEMENT with merchant/NorthLine below.
+73. tip_tail_width_size: 30.6cm / 306mm [31][MERCHANT] ⚠️ DISAGREEMENT — The manufacturer page lists tail width as 30.9cm while NorthLine and the merchant list 30.6cm/306mm.
+74. Waist width (manufacturer): 27.0cm [19] ⚠️ MINOR DISAGREEMENT with merchant below.
+75. Waist width (merchant / NorthLine): 26.7cm / 267mm [31][MERCHANT] ⚠️ DISAGREEMENT — The manufacturer page lists 27cm while the merchant/NorthLine list 26.7cm/267mm.
+76. Surface area: 776 (units unspecified on manufacturer site, likely cm²) [19]
+77. stance_width_range_size: 19.5" – 24.25" [19][31]
+78. setback: 5" (12.5cm) [19][31]
+79. setback: 49.5 – 61.5cm / 12.5cm setback [19]
+80. width_options: Standard [MERCHANT]
+81. recommended_weight_range_size: 150+ lbs / 70+ kg [19]
+82. recommended_weight_range_size: 50+ kg [MERCHANT] ⚠️ DISAGREEMENT — The manufacturer site says 70+ kg / 150+ lbs while the merchant says 50+ kg. The manufacturer figure is likely more conservative/accurate.
+83. terrain_suitability: Freeride, Powder [31]
+84. terrain_suitability: Powder, Japan-style deep snow, groomed runs [MERCHANT]
+85. riding_style: Surf-style carving, deep powder float, hard carving on groomers [1]
+86. rider_level: Advanced to Expert [31]
+87. skill_level_recommendation: For riders who charge the steepest lines with aggressive precision [22]
+88. terrain_suitability: Deep powder days; also handles groomed corduroy runs with confidence [1]
+89. terrain_suitability: Primary deep powder board and secondary groomer carver [32]
+90. positive_aspect: Enormous amount of float [20]
+91. positive_aspect: Effortless planing in bottomless snow; low-entry floaty nose [1]
+92. positive_aspect: Progressive sidecuts transform powder shape into hard-carving machine on groomers [33]
+93. edge_hold: Traditional camber delivers strong edge hold [34]
+94. positive_aspect: Camber profile provides stability and powerful energy return at speed [34]
+95. positive_aspect: Core provides light, responsive flex with strong torsion [20]
+96. pop: Tri-axial/bi-axial fiberglass and sidewalls provide maximum pop [20]
+97. base_glide_performance: Sintered base maintains speed in any condition [20]
+98. comparable_board_cross_brand: Offers quicker handling thanks to its shorter effective length [35]
+99. comparable_board_cross_brand: Delivers significantly more power, edge hold, and high-speed confidence [35]
+100. price_usd_msrp: $849.99 [19]
+101. price_cad_prfo: $1,099.99 CAD [36]
+102. price_eur_blue_tomato: €799.99 [37]
+103. price_aud_merchant: $1,399.99 AUD [MERCHANT]
+104. price_usd_tactics: $849.99 USD [38]
+105. price_usd_evo: $849.99 USD (on back-order) [39]
+106. Price at Glacier Ski Shop: $849.00 USD (sold out) [40]
+107. Price at Eastern Boarder: Regular $849.95, sale $764.96 USD [41]
+108. availability_status: "Coming Soon" (not yet shipping) [19]
+109. availability_status: On back-order [39]
+110. availability_status: In stock [42]
+111. availability_status: Early Release [31]
+112. availability_status: Available for order [32]
+113. availability_status: Low stock — 1 item left [41]
+114. availability_status: Available [17]
+115. estimated_availability_date: Preorder, estimated May 1, 2026 [MERCHANT]
+116. Current season sale context: Lib Tech offering 30% off current 25/26 snowboards (not Libzilla 2027) [43]
+117. comparable_board_same_brand: Mayhem Rocket ($659.99), Mayhem Sweetfish ($749.99), Mayhem Rad Ripper ($699.99) [44]
+118. comparable_board_same_brand: Doughboy 185 ($849.99), Golden Orca ($849.99), T.Rice Orca II ($749.99) [45]
+119. comparable_board_cross_brand: Jones Storm Chaser — powder-hungry swallowtail by surf shaper Chris Christenson; Surf Rocker profile; wide waist; super wide compact platform [46]
+120. comparable_board_cross_brand: Jones Storm Wolf — high-powered swallowtail combining freeride versatility with Surf Series turn performance; mid-stiff flex; Traction Tech edges [47]
+121. comparable_board_cross_brand: K2 Special Effects — volume-shifted swallowtail with mega-fat nose, setback, rockered/flat tail [48]
+122. comparable_board_cross_brand: Nitro Squash — "PowGroomer" swallowtail with long shovel nose [49]
+123. comparable_board_cross_brand: Burton Pow Wrench — swallowtail with taper, setback, flat-top profile [50]
+124. comparable_board_cross_brand: Bataleon Surfer — positive camber directional swallowtail with 3BT technology [51]
+125. comparable_board_cross_brand: Libzilla uses traditional camber (Early Rise Directional Camber) for more aggressive edge hold, while Storm Chaser uses Surf Rocker for more float-oriented forgiveness [16][46]
+126. comparable_board_cross_brand: Libzilla has no Magne-Traction, while Jones boards have Traction Tech edges and some Lib Tech models have Magne-Traction [30]
+127. Matt Biolos founded Lost Surfboards in 1985 in San Clemente, California [52]
+128. Matt Biolos is founder/co-owner of Lost Surfboards and known as "Mayhem" (named after his punk band) [53]
+129. Biolos' snowboard design applies surf shaping expertise to snow — a surf/snow testing feedback loop [54]
+130. Lib Tech x Mayhem collaboration description: "The design mastery and experience of Matt Biolos combined with our environMENTALy friendly, handmade manufacturing process" [55]
+131. Lib Tech's first collab board with Lost: The Puddle Jumper [56]
+132. Lib Tech brand origin: Name derived from "Liberace Technologies" on a sparkly skateboard Mike Olson had made [57]
+133. Lib Technologies is an American snowboard manufacturer known for innovative designs [58]
+134. Lib Tech produces snowboards, surfboards, snow skates and wake surf boards from Sequim, Washington [58]
+135. Mervin was purchased by Quiksilver in 1997, then sold to Altamont Capital Partners in 2013 [10]
+136. Mervin Manufacturing annual revenue: Approximately $54.3 million (2026) [59]
+137. user_review_forum: Lib Tech is considered on the higher pricepoint of snowboards [60]
+138. user_review_forum: One user reported surviving highway-speed car-roof fall, truck impact, tree/rock hits with only scratches [61]
+139. Manufacturer site rating: 100% (6 reviews) [19]
+140. Previous year rating on manufacturer site: 100% (4 reviews when fewer reviews) [62]
+141. Review count variation: Between 4 and 6 reviews visible depending on cache timing [19][62]
+142. negative_aspect: Sintered base requires regular waxing — Lib Tech Rig (similar construction) noted to have "a thirsty base that can get slow very quickly" [63]
+143. negative_aspect: Only available in 188cm — limits rider weight/height options [19]
+144. negative_aspect: May be a disadvantage on icy/hard conditions compared to other Lib Tech models [30]
+145. switch_riding: Cannot ride switch effectively due to deep swallowtail design [merchant verified — swallow tail shape]
+146. recommended_weight_range_size: Manufacturer says 150+ lbs (70+ kg), merchant says 50+ kg — buyers should consider the manufacturer figure more authoritative [19][MERCHANT]
+147. Salty Peaks describes Libzilla with "Magnetraction® serrated edges provide seven points of contact" [64] ⚠️ DISAGREEMENT — This directly contradicts Tactics, which explicitly states "Traditional Edges (No Magne-Traction)" [30]. The Tactics description is more consistent with Lib Tech's general approach to powder-specific boards.
+148. Salty Peaks describes camber as "C2X Hybrid Camber" with "rocker between the feet" [65] ⚠️ DISAGREEMENT — This contradicts the manufacturer/evo description of Early Rise Directional Camber with traditional camber. Salty Peaks may be describing a prior model year or a different variant.
+149. Salty Peaks describes construction as "Horsepower Construction" [65] ⚠️ DISAGREEMENT — Other sources consistently describe "Original Power Construction." Salty Peaks' description appears to be either for a different prior model year or erroneous.
+150. sustainability_certification: Mervin calls their approach "environMENTAL" [11]
+151. sustainability_certification: Eco sublimation process for topsheet decoration [23]
+152. sustainability_certification: FSC-certified fast-growing renewable forest products; finger joining to maximise wood yield [13]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.lib-tech.com/mayhem-libzilla</url>
+  <quote>Go big or go bigger... introducing Matt Biolos's Japow inspired fluff floating corduroy trench monster.</quote>
+  <quote>Progressive sidecuts carve groomed resort days and a long smooth entry nose floats all angles of pow while the deep swallow settles and adds control.</quote>
+  <quote>Art by Jim Zapalla mutant prehistoric reptile terror by Lib x Mayhem.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/mayhem-libzilla</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official manufacturer product page — the primary authoritative source for product identity, description, and designer attribution. Marketing language may overstate but factual claims about features and design are reliable.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Lib Tech Mayhem Libzilla Snowboard 2027</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>evo is a major US online retailer with strong reputation. Designates this as model year 2027.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/lib-x-mayhem</url>
+  <quote>Mayhem LibZilla · Rating: 100% 6 Reviews · $849.99 · Coming Soon</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/lib-x-mayhem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech collection page showing the Libzilla as part of the Lib x Mayhem collection with price and rating.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/mens-snowboards</url>
+  <quote>Mayhem LibZilla · Rating: 100% 6 Reviews · $849.99 · Coming Soon</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/mens-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech men's snowboard category page confirms the Libzilla is listed under men's snowboards.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/lib-x-mayhem</url>
+  <quote>Matt "Mayhem" Biolos' - the brain behind Lost Surfboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/lib-x-mayhem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2015</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech page identifies Matt Biolos as the designer behind the Mayhem collaboration and founder of Lost Surfboards.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://snowboards.eu/lib-tech-mayhem-libzilla/</url>
+  <quote>Mervin Manufacturing, founded in 1977 by Mike Olson and Pete Saari, is the leading manufacturer of Lib Tech snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/lib-tech-mayhem-libzilla/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer providing background on manufacturer. Consistent with Wikipedia and official Mervin sources.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.mervin.com/about/history/</url>
+  <quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/history/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing history page — primary source for factory location and production claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.mervin.com/about/history/</url>
+  <quote>Based out of Carlsborg, Washington, between the rugged Olympic and Cascade Mountain Ranges</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/about/history/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin page confirming factory location as Carlsborg, WA (near Sequim).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.mervin.com/</url>
+  <quote>Mervin Manufacturing was founded by snow/skate/surf enthusiasts Mike Olson and Pete Saari in 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin Manufacturing homepage confirms founding date and founders.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url>
+  <quote>Today Mervin Manufacturing...recognizes its official change in ownership from Quiksilver, Inc. to Altamont Capital Partners</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2013-11-07</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin press release about ownership change. Primary source for corporate structure.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.mervin.com/</url>
+  <quote>Built at the world's most environMENTAL zero hazardous waste producing factory by the people who ride them.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervin.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2000</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin website environmental claim. Marketing language but environmental certifications verified across multiple independent sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>In Washington State our electricity is 89.6% hydro electric</quote>
+  <quote>On top of that our factory heating system runs on a renewable based biodiesel.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin Made website detailing energy sources. Self-reported but specific numbers indicate genuine commitment.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.mervinmade.com/</url>
+  <quote>Making sure we use only FSC certified fast growing renewable forest products, finger joining to maximize wood yield</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mervinmade.com/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2010</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Mervin Made website confirms FSC certification and wood sourcing practices.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Water-based solvents used for cleansing instead of petrochemical-based solvents.</quote>
+  <quote>All wood sawdust is recycled as a soil additive, plus scrap wood is donated to a local Mood Wood company</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics product page detailing Mervin's environmental manufacturing practices for this specific board.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>1 Year Warranty - Covered under manufacturer warranty for 1 year from the time of purchase.</quote>
+  <quote>Warranty includes structural defects only and DOES NOT cover impact damage, abuse, misuse or normal wear and tear.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics is a major authorized retailer; warranty terms are directly from Lib Tech documentation. Critical purchase decision factor.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://snowboards.eu/lib-tech-mayhem-libzilla/</url>
+  <quote>Lib Tech's Early Rise Directional Camber combines traditional camber underfoot for power and grip with a slightly upturned nose for better float in powder and smoother turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/lib-tech-mayhem-libzilla/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer providing detailed camber profile description consistent with manufacturer's technology pages.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://pacificboarder.com/products/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Traditional camber between the bindings enhances power transmission, while the rocker nose provides smooth surf-like ride characteristics.</quote>
+  </quotelist>
+  <url_with_text_link>https://pacificboarder.com/products/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Pacific Boarder is a Vancouver BC shop providing camber and ride descriptions consistent with other sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://snowboards.eu/lib-tech-mayhem-libzilla/</url>
+  <quote>directional shape with a progressive elliptical carving sidecut that seamlessly works with a set-back power camber</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/lib-tech-mayhem-libzilla/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer detailing sidecut design specifics.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.lib-tech.com/mayhem-libzilla</url>
+  <quote>Size 188 | Contact 118 | Side 9-8-7 | Nose/Tail 32.7/30.9 | Waist 27 | Surface 776 | Stance 19.5"-24.25"/5" | Flex 7 | Weight 150+/70+</quote>
+  <quote>$849.99</quote>
+  <quote>Rating: 100 % of 100 · 6 Reviews</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/mayhem-libzilla</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official manufacturer spec table — the primary authority for all measurements and specifications. This is the most reliable source for dimensions, flex, and weight range.</reasoning>
+  <evidentiary_alignment>0.98</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://snowboards.eu/lib-tech-mayhem-libzilla/</url>
+  <quote>With a stiffness of 7/10, this board is perfect for advanced riders who want to combine power, control, and fun.</quote>
+  <quote>Enormous amount of float!</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboards.eu/lib-tech-mayhem-libzilla/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer confirming flex at 7/10 (matching manufacturer) and highlighting the float characteristic.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Medium - Stiff – Stout enough to charge your hardest but without excessive harshness.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Major US retailer evo describing flex as Medium-Stiff with Lib Tech's own descriptive language.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>evo's standardised flex rating system provides context for interpreting the manufacturer's 7/10 flex as "Stiff."</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Original Power Construction – 75% Paulownia / 25% Aspen ... Sintered Knife Cut Base – High density UHMW.</quote>
+  <quote>Optimized wax retention and toughness.</quote>
+  <quote>Eco Sublimated Poly Top – High strength, impact resistant, lightweight dimensionally stable UV and temperature resistant top material decorated using an environmentally friendly eco sublimation process.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>evo is a major authorised retailer using Lib Tech's own technical descriptions. Core ratio listed as 75% Paulownia / 25% Aspen — consistent with NorthLine but contradicts Tactics.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Original Power Plus Construction (OP+) - 75% Aspen, 25% Paulownia - light, environMENTALLY nice, and strong.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics lists the core ratio as inverted (75% Aspen, 25% Paulownia) vs evo/NorthLine (75% Paulownia, 25% Aspen). Also calls it "OP+" rather than "OP". This is a notable source disagreement on a key construction detail. Tactics is a reputable retailer so this cannot be dismissed.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.snowcountry.eu/27-lib-tech-mayhem-libzilla.html</url>
+  <quote>Original Power Construction is light, strong and durable. Original power is Lib Tech's go-to construction.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcountry.eu/27-lib-tech-mayhem-libzilla.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer confirming OP construction as Lib Tech's standard construction tier.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Bi-axial Fiberglass - This 2-way fiber orientation is engineered to provide maximum snap while decreasing chatter.</quote>
+  <quote>Tri-axial Fiberglass - This 3-way fiber orientation is engineered to increase snap and decrease vibrations for a smoother, more stable ride.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics product page with detailed fiberglass layer descriptions. Technical claims are from Lib Tech's own product documentation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Birch Internal Sidewalls - Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability.</quote>
+  <quote>UHMW Sintered Sidewalls - A Lib Tech innovation that is twice as sintered as most industry sidewalls.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics provides Lib Tech's own detailed sidewall specifications including both internal Birch and external UHMW construction.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Eco-Sub Poly Top Sheet...the top sheet is made from sublimated polyester material that's great for vibrant yet durable graphics</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics elaborates on the topsheet material in more accessible language.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowcountry.eu/27-lib-tech-mayhem-libzilla.html</url>
+  <quote>The steel edge of Lib tech boards therefore does not extend beyond the contact points.</quote>
+  <quote>2x4 has more mounting option then 4x4. All new bindings will fit on these boards, except for 3D and EST.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowcountry.eu/27-lib-tech-mayhem-libzilla.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>European retailer providing detail about edge truncation and binding compatibility. Useful technical purchase info.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Traditional Edges (No Magne-Traction) - Powder-specific boards don't necessarily need Magne-traction because they are generally much wider than standard snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics explicitly confirms NO Magne-Traction on this board and explains the rationale. Important for edge hold on hardpack — key purchase consideration.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://www.northlinesports.ca/2027-lib-tech-mayhem-libzilla.html</url>
+  <quote>Size (cm) 188 Effective Edge (mm) 1180 Tip Width (mm) 327 Waist Width (mm) 267 Tail Width (mm) 306 Sidecut Radius (m) 8 Stance Setback (in) 5 Stance Range (in) 19.5-24.25</quote>
+  </quotelist>
+  <url_with_text_link>https://www.northlinesports.ca/2027-lib-tech-mayhem-libzilla.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Canadian retailer providing full spec table. Note waist width 267mm and tail width 306mm differ slightly from manufacturer's 270mm and 309mm. Sidecut radius listed as single 8m rather than manufacturer's progressive 9-8-7.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/lib-tech-libzilla-snowboard-2026</url>
+  <quote>Riders seeking a high-powered directional board for deep powder days, surf-style carving, and fast, responsive freeride performance.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/lib-tech-libzilla-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is specifically recommended by review sites like The Good Ride. Their target rider description is well-articulated.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Its progressive sidecut transforms this powder-hungry shape into a hard-carving machine on groomed resort runs</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics describing the groomer carving capability — important for buyers who want versatility beyond pure powder days.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/lib-tech-libzilla-snowboard-2026</url>
+  <quote>Camber – Traditional camber delivers maximum stability, strong edge hold, and powerful energy return</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/lib-tech-libzilla-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Blauer Board Shop detailing camber characteristics — stability, edge hold, energy return.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://skipro.com/products/mayhem-libzilla-ltd-56w</url>
+  <quote>Compared to traditional freeride boards, the Libzilla offers quicker handling thanks to its shorter length.</quote>
+  <quote>Compared to more playful volume-shifted boards, it delivers significantly more power, edge hold, and high-speed confidence.</quote>
+  </quotelist>
+  <url_with_text_link>https://skipro.com/products/mayhem-libzilla-ltd-56w</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Ski Pro AZ provides comparative analysis positioning the Libzilla between traditional freeride boards and volume-shifted boards.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://cad.lib-tech.com/snowboard</url>
+  <quote>Mayhem LibZilla · Rating: 100% 6 Reviews · $1,099.99 · Coming Soon</quote>
+  </quotelist>
+  <url_with_text_link>https://cad.lib-tech.com/snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech Canadian store confirming CAD pricing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://eur.lib-tech.com/snowboard</url>
+  <quote>Mayhem LibZilla · Rating: 100% 6 Reviews · €799.99 · Coming Soon</quote>
+  </quotelist>
+  <url_with_text_link>https://eur.lib-tech.com/snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech European store confirming EUR pricing.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Lib Tech Mayhem Libzilla Snowboard 2027 $849.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Tactics is a major US online retailer confirming price at $849.99. Also offers 10% off when bundled with Bent Metal bindings (code LIBGNUBENT26).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>The Lib Tech Mayhem Libzilla Snowboard 2027 is on back-order</quote>
+  <quote>$849.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>evo showing the board on back-order at $849.99. evo offers price match (beat by 5%), up to 10% rewards, and 1-year return policy.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://glacierskishop.com/products/lib-tech-mayhem-libzilla-snowboard-2026</url>
+  <quote>Sale price$849.00 USD · Sold out</quote>
+  </quotelist>
+  <url_with_text_link>https://glacierskishop.com/products/lib-tech-mayhem-libzilla-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Glacier Ski Shop (near Mervin's factory in WA) shows the board at $849 but sold out. Local authorized dealer.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+  <url>https://easternboarder.com/products/lib-tech-mayhem-libzilla-snowboard</url>
+  <quote>Lib Tech Mayhem Libzilla Snowboard · Lib Tech · Regular price $849.95 Sale price$764.96</quote>
+  <quote>Low stock - 1 item left</quote>
+  </quotelist>
+  <url_with_text_link>https://easternboarder.com/products/lib-tech-mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Eastern Boarder shows previous season stock on sale at about 10% off. This may be the 2025-2026 model rather than the 2027 model year. Important price reference for budget-conscious buyers.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+  <url>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url>
+  <quote>Lib Tech Mayhem Libzilla Snowboard 2027 in stock at Tactics.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/lib-tech/mayhem-libzilla-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Tactics explicitly states the 2027 model is in stock. One of the best current availability indicators.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+  <url>https://www.lib-tech.com/mayhem-libzilla</url>
+  <quote>SHOP SALE - 30% Off 25/26 SNOWBOARDS, SKIS, APPAREL</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/mayhem-libzilla</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Lib Tech's own site banner shows current-season boards on 30% off sale, but the Libzilla 2027 is listed as "Coming Soon" at full price. Previous model years may be discounted.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/lib-x-mayhem</url>
+  <quote>Mayhem Rocket · $659.99 · Mayhem Sweetfish · $749.99 · Mayhem Rad Ripper · $699.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/lib-x-mayhem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech collection page showing other boards in the Mayhem line with prices — useful for comparison within the lineup.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard</url>
+  <quote>Golden Orca - 2627 EARLY RELEASE · $849.99 · T.Rice Orca II · $749.99 · Doughboy 185 · $849.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech snowboard page showing comparable models at similar price points.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+  <url>https://www.jonessnowboards.com/products/storm-chaser-2025</url>
+  <quote>The Storm Chaser is a powder hungry swallowtail designed by surf shaper Chris Christenson that floats like a dream</quote>
+  </quotelist>
+  <url_with_text_link>https://www.jonessnowboards.com/products/storm-chaser-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Jones product page for the Storm Chaser — the most directly comparable competitor swallowtail powder board.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+  <url>https://www.evo.com/outlet/snowboards/jones-storm-wolf-ltd-snowboard</url>
+  <quote>Combining the shape and profile of the acclaimed Storm Chaser and Lone Wolf boards, this swallow-tailed beast blends all-mountain freeride versatility with the powder performance</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/jones-storm-wolf-ltd-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>evo outlet page for the Jones Storm Wolf — direct competitor combining freeride and powder swallowtail characteristics.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/best-swallowtail-snowboards/</url>
+  <quote>With a crazy setback, super cut-in swallowtail, and mega-fat nose, the K2 Special Effects Snowboard is the board you reach for when it gets deep.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/best-swallowtail-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarding Days listing the K2 Special Effects as a top swallowtail — useful competitor reference for buyers comparing options.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+  <url>https://www.switchbacktravel.com/best-all-mountain-snowboards</url>
+  <quote>The Nitro Squash...the Squash manages to do it all, from carving through crud to catching air...floating in the white room. Like many powder boards, the Squash features a swallowtail</quote>
+  </quotelist>
+  <url_with_text_link>https://www.switchbacktravel.com/best-all-mountain-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Switchback Travel is a respected gear review site identifying the Nitro Squash as a comparable swallowtail option.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/best-swallowtail-snowboards/</url>
+  <quote>Another of the best swallowtail snowboards is the Burton Pow Wrench. This little beauty has an unconventional swallowtail but it floats like a dream.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/best-swallowtail-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarding Days listing Burton Pow Wrench as a top swallowtail competitor.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="51">
+  <quotelist>
+  <url>https://www.boardoftheworld.com/best-deep-powder-snowboards/</url>
+  <quote>The Bataleon Surfer has everything you need for riding in deep snow. It has a positive camber profile, a directional shape, a setback stance, and a gigantic swallowtail.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardoftheworld.com/best-deep-powder-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Board of the World reviewing the Bataleon Surfer as a comparable camber-dominant swallowtail powder board.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="52">
+  <quotelist>
+  <url>https://www.theselectsgallery.com/all-images-5/lost-surfboard</url>
+  <quote>Founded in 1985 by legendary board shaper Matt "Mayhem" Biolos, Lost Surfboards is a household name in the surf world</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theselectsgallery.com/all-images-5/lost-surfboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1985</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Third-party gallery confirming Matt Biolos founded Lost Surfboards in 1985. Cross-referenced with other sources.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="53">
+  <quotelist>
+  <url>https://lostsurfboards.net/meet-your-shaper-matt-biolos/</url>
+  <quote>I SANG IN A PUNK ROCK BAND IN THE MID 80s. WE CALLED OURSELVES "MAYHEM ORDNANCE"</quote>
+  </quotelist>
+  <url_with_text_link>https://lostsurfboards.net/meet-your-shaper-matt-biolos/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1985</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lost Surfboards page with Matt Biolos explaining the origin of the "Mayhem" name. Adds context to the collaboration.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="54">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/lib-x-mayhem</url>
+  <quote>This surf / snow - shaping / testing feedback loop creates crossover performance characteristics that are truly amazing and unique to this collection.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/lib-x-mayhem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2015</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech page describing the surf-to-snow design philosophy behind the Mayhem collaboration. Marketing language but represents the design approach.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="55">
+  <quotelist>
+  <url>https://www.lib-tech.com/snowboard/lib-x-mayhem</url>
+  <quote>the design mastery and experience of Matt Biolos combined with our environMENTALy friendly, handmade manufacturing process</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/snowboard/lib-x-mayhem</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2015</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official description of the Lib x Mayhem collaboration philosophy.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="56">
+  <quotelist>
+  <url>https://www.lib-tech.com/about-lib-tech/history</url>
+  <quote>Our first collab board ever – the Lib X …lost Puddle Jumper</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/about-lib-tech/history</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2012</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech history page confirming the Puddle Jumper as the first Lib x Lost collaboration board.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="57">
+  <quotelist>
+  <url>https://www.lib-tech.com/about-lib-tech/history</url>
+  <quote>they saw the sparkly skateboard Mike had made a few years earlier with the words "Liberace Technologies" written on it. It made them laugh and that was enough…Lib Tech was born.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/about-lib-tech/history</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1989</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Official Lib Tech history page providing brand name origin.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.2</attribute_importance>
+</citation>
+
+<citation id="58">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Lib_Technologies</url>
+  <quote>Lib Technologies is an American snowboard manufacturer known for innovative snowboard designs and construction.</quote>
+  <quote>Lib Tech produces snowboards, surfboards, snow skates and wake surf boards all from their manufacturing base in Sequim, Washington</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Lib_Technologies</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1989</date_of_first_relevance>
+  <date_of_last_relevance>2026-10</date_of_last_relevance>
+  <reasoning>Wikipedia provides a neutral, well-sourced overview of Lib Technologies. Useful for brand verification.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="59">
+  <quotelist>
+  <url>https://rocketreach.co/mervin-manufacturing-inc-profile_b5d66768f42e3286</url>
+  <quote>The Mervin Manufacturing, Inc. annual revenue was $54.3 million in 2026.</quote>
+  </quotelist>
+  <url_with_text_link>https://rocketreach.co/mervin-manufacturing-inc-profile_b5d66768f42e3286</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026</date_of_first_relevance>
+  <date_of_last_relevance>2026</date_of_last_relevance>
+  <reasoning>RocketReach business intelligence providing estimated revenue. Should be treated as approximate — not an audited figure.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="60">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-tech-vs-burton-new-board.164441/</url>
+  <quote>lib-tech is considered on the higher pricepoint of snowboards</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-vs-burton-new-board.164441/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Community forum perspective on Lib Tech's market positioning. Forum opinions are anecdotal but represent consumer perception. Multiple users echoed this sentiment.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="61">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/lib-tech-vs-burton-new-board.164441/</url>
+  <quote>my board has fallen off the top of my car in Canada at highway speeds, was run over by a pick up truck, and still survived with only scratches</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-vs-burton-new-board.164441/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2020</date_of_last_relevance>
+  <reasoning>Single user anecdote about extreme Lib Tech durability. Low statistical significance but vivid and represents general brand reputation for toughness.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.3</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="62">
+  <quotelist>
+  <url>https://www.lib-tech.com/mayhem-libzilla</url>
+  <quote>Rating: 100 % of 100 · 6 Reviews</quote>
+  </quotelist>
+  <url_with_text_link>https://www.lib-tech.com/mayhem-libzilla</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Manufacturer site review rating. 100% rating across 6 reviews is excellent but small sample size. Reviews are from verified purchasers on the manufacturer's own site.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="63">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url>
+  <quote>The Lib Tech Lib Rig has a thirsty base that can get slow very quickly but everything else is pretty great.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Good Ride is a respected independent review site. While this is about the Lib Rig (not Libzilla), both boards use the same Sintered Knife Cut base. This known base maintenance issue likely applies to the Libzilla as well.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="64">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/lib-tech-mayhem-libzilla-swall/</url>
+  <quote>Magnetraction® serrated edges provide seven points of contact for phenomenal edge hold on firm snow and ice</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/lib-tech-mayhem-libzilla-swall/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Salty Peaks claims Magne-Traction on the Libzilla, which directly contradicts Tactics' explicit statement of "No Magne-Traction." This appears to be an error in Salty Peaks' product description, possibly copied from a different Lib Tech model or a previous year variant.</reasoning>
+  <evidentiary_alignment>0.5</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="65">
+  <quotelist>
+  <url>https://www.saltypeaks.com/product/lib-tech-mayhem-libzilla-swall/</url>
+  <quote>The dynamic C2X Hybrid Camber offers the perfect balance—rocker between the feet for incredible float and forgiveness, with camber underfoot</quote>
+  <quote>Built with Lib Tech's ultra-durable, lightweight Horsepower Construction</quote>
+  </quotelist>
+  <url_with_text_link>https://www.saltypeaks.com/product/lib-tech-mayhem-libzilla-swall/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2025-12</date_of_last_relevance>
+  <reasoning>Salty Peaks describes the camber as C2X Hybrid and construction as Horsepower, both of which contradict every other source (Early Rise Directional Camber and Original Power Construction). This description appears to be erroneous — likely describing a different model or prior year variant.</reasoning>
+  <evidentiary_alignment>0.3</evidentiary_alignment>
+  <source_credibility>0.35</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/lib-tech-mayhem-libzilla</url>
+    <quote>brand: Lib Tech; model name: Mayhem Libzilla; model year: 2027; AUD price: $1,399.99; status: Preorder</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-mayhem-libzilla</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

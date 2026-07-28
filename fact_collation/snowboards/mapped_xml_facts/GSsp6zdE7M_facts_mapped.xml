@@ -1,0 +1,785 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="sustainability_certification" count="13" category="sustainability" />
+  <duplicate_canonical name="availability_status" count="8" category="availability" />
+  <duplicate_canonical name="terrain_suitability" count="4" category="recommendation" />
+  <duplicate_canonical name="available_sizes" count="4" category="availability" />
+  <duplicate_canonical name="contact_length_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="4" category="unknown" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="warranty" count="4" category="warranty" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+  <duplicate_canonical name="base_type" count="2" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="2" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="2" category="comparable" />
+</canonical_schema>
+
+<answer>
+1. brand: Nitro [1]
+2. model_name: Phase x Motörhead [2]
+3. model_year: 2027 (F/W 2026/27 season) [2]
+4. product_type: Snowboard [1]
+5. board_category: All Mountain - Freeride [1]
+6. gender: Men's [3]
+7. Collaboration: Motörhead (the rock band), with matching bindings and boots available [4]
+8. Collaboration type: External music brand project with exclusive graphics [4]
+9. Limited edition: Yes — collab graphics typically last a single season (based on Nitro's pattern with Iron Maiden and Cinelli collabs) [5]
+10. Previous similar collabs: Nitro x Iron Maiden Beast (2023, only 666 sets produced), Nitro x Cinelli Phase (2026) [6][7]
+11. manufacturer: Nitro AG, Bösch 104, 6331 Hünenberg, Switzerland [8]
+12. EU representative: Nitro Distribution Italia S.R.L., Via A. Moro 51, 38062 Arco (TN), Italia [8]
+13. Brand founded: 1990 by Thomas Delago and Sepp Ardelt in Seattle, Washington [9]
+14. Brand philosophy: "Authenticity and independence" — privately owned, rider-driven [10]
+15. manufacturing_location: Taiwan (Playmaker factory) [11]
+16. sustainability_certification: 700 KW solar power station on factory roof; boards built with 100% solar power [12]
+17. Company structure: Privately owned, decentralised offices globally (Oberammergau, Salt Lake City, California, Vancouver) [13]
+18. price_aud_merchant: $799.99 AUD [1]
+19. USD price (Blauer Board Shop): $529.95 USD [3]
+20. EUR price (official Nitro site, standard Phase): €479.90 EUR [14]
+21. price_usd_evo: $459.95 USD (MSRP); currently on sale at $321.92 [15]
+22. price_usd_evo: $499.95 USD (MSRP), suggesting collab premium of ~$40 USD over standard Phase [16]
+23. availability_status: Preorder [1]
+24. estimated_availability_date: May 1, 2026 [1]
+25. availability_status: Listed, "Re-stocking soon" [3]
+26. availability_status: Nitro Motörhead collab bindings listed; board expected alongside [17]
+27. availability_status: 2027 Nitro collection available for pre-order [18]
+28. Nitro does not sell direct online in the USA — products sold exclusively through authorised retailers [19]
+29. shape: Directional (longer nose, shorter tail) [1][8]
+30. Shape description: "The most versatile all-mountain shape" — floats in pow, cuts through crust, functional tail [8]
+31. camber_type: Cam-Out Camber [1][8]
+32. camber_description: Positive camber with earlier and smoother transition zones in tip and tail, lower rise in centre [1][20]
+33. Profile: Standard Core Profile [1][8]
+34. Profile description: Thicker section in middle from first insert to last, gradually thinning toward contact points [1][8]
+35. flex_rating_10: 6/10 [1][8]
+36. flex_rating_10_evo: Medium (evo rates 6/10 as "stiff" per their scale where 6-8 = stiff) — DISAGREEMENT: evo classifies the Phase as "medium" in their listing text but their scale says 6-8 is stiff; the merchant and Nitro describe it as "medium" [21][22]
+37. flex_feel: Playful, forgiving, responsive [8]
+38. flex_feel: "A balanced flex that's stable at speed yet playful enough for presses and buttery turns" [23]
+39. terrain_suitability: 10/10 [14]
+40. terrain_suitability: 6/10 [14]
+41. terrain_suitability: 8/10 [14]
+42. rider_level: Intermediate [1]
+43. skill_level_recommendation: Intermediate-Advanced [21]
+44. sidecut_type: Dual Degressive Sidecut [1][8]
+45. Sidecut description: Smaller radius in centre, two larger in tip and tail — loose, playful, most forgiving in Nitro range [8]
+46. width_options: Mid-Wide, Wide [1][8]
+47. Mid-Wide description: "Exactly enough platform for most boot sizes" [8]
+48. Wide description: "All the room you need without edge-to-edge lag" [8]
+49. core_material: PowerCore — tip-to-tail Poplar wood [1][8]
+50. Core description: Lightweight strength, ideal blend of flex, response and feel [8]
+51. core_material: Poplar [8]
+52. sustainability_certification: FSC responsibly sourced forestry certified [1][12]
+53. laminate: Bi-Lite Laminates [1][8]
+54. Laminate description: Fibres running in two directions, providing strength, power, and forgiving board feel [1][24]
+55. sidewall_material: ABS Sidewall [1][8]
+56. sustainability_certification: ABS sidewalls made from 35% recycled polymers, cold-resistant and durable [25]
+57. base_type: Premium Extruded FH Base [1][8]
+58. Base description: "Durability, speed and low maintenance all in one ultra-clear base material" [8]
+59. base_type: Sintered Extruded FH Base [1] — DISAGREEMENT: Merchant site lists "Sintered Extruded FH Base" while Nitro official site and evo describe it as "Premium Extruded FH Base" and Melbourne Snowboard Centre lists it ambiguously as "Sintered · Extruded FH Base" [8][26]. The base is most likely extruded; "Sintered" may be a merchant labelling error given that Nitro's higher-end boards (Team, Team Pro, Alternator) use distinct sintered bases (EcoSpeed HD or Speed Formula II).
+60. edge_technology: Recycled Steel Edge [1][8]
+61. sustainability_certification: 50% recycled steel [8]
+62. Edge description: Strong, durable, can be sharpened multiple times [8]
+63. mounting_pattern: 2x4 Inserts [1][24]
+64. Insert description: Tighter hole pattern allowing more precise stance adjustments, compatible with any binding with standard or mini disk [24]
+65. sustainability_certification: Made with 100% solar energy [1][12]
+66. sustainability_certification: 700 KW solar power station on board factory roof [12]
+67. sustainability_certification: FSC certified wood core [1][12]
+68. sustainability_certification: Water based inks [1][12]
+69. sustainability_certification: Recycled raw materials used throughout [1][12]
+70. sustainability_certification: Yes [1][8]
+71. sustainability_certification: 32.2 kg CO₂ per board [1][27]
+72. sustainability_certification: ClimatePartner and myclimate [28]
+73. sustainability_certification: 35% recycled polymers [25]
+74. available_sizes: 152cm (Mid-Wide) [1]
+75. contact_length_size: 106.0 cm (1060 mm) [1][14]
+76. tip_tail_width_size: 29.6 cm (296/296 mm) [1][14]
+77. Waist width (152): 25.3 cm (253 mm) [1][14]
+78. sidecut_radius_size: 9.4/6.1/9.4 m [1][14]
+79. setback: -1.5 cm (-15 mm) [1][14]
+80. recommended_weight_range_size: 50-70 kg (110-155 lb) [1][14]
+81. stance_width_range_size: 48-60 cm (18.9-23.6 in) [14]
+82. available_sizes: 155cm (Mid-Wide) [1]
+83. contact_length_size: 109.0 cm (1090 mm) [1][14]
+84. tip_tail_width_size: 29.8 cm (298/298 mm) [1][14]
+85. Waist width (155): 25.5 cm (255 mm) [1][14]
+86. sidecut_radius_size: 9.9/6.5/9.9 m [1][14]
+87. setback: -1.5 cm (-15 mm) [1][14]
+88. recommended_weight_range_size: 55-75 kg (120-165 lb) [1][14]
+89. stance_width_range_size: 48-60 cm (18.9-23.6 in) [14]
+90. available_sizes: 159cm (Mid-Wide) [1]
+91. contact_length_size: 112.0 cm (1120 mm) [1][14]
+92. tip_tail_width_size: 30.0 cm (300/300 mm) [1][14]
+93. Waist width (159): 25.7 cm (257 mm) [1][14]
+94. sidecut_radius_size: 10.3/6.9/10.3 m [1][14]
+95. setback: -1.5 cm (-15 mm) [1][14]
+96. recommended_weight_range_size: 65+ kg (145+ lb) [1][14]
+97. stance_width_range_size: 50-62 cm (19.7-24.4 in) [14]
+98. available_sizes: 162cm Wide [1]
+99. contact_length_size: 115.0 cm (1150 mm) [1][14]
+100. tip_tail_width_size: 31.2 cm (312/312 mm) [1][14]
+101. Waist width (162W): 26.9 cm (269 mm) [1][14]
+102. sidecut_radius_size: 11.0/7.2/11.0 m [1][14]
+103. setback: -1.5 cm (-15 mm) [1][14]
+104. recommended_weight_range_size: 70+ kg (155+ lb) [1][14]
+105. stance_width_range_size: 50-62 cm (19.7-24.4 in) [14]
+106. comparable_board_same_brand: Nitro Team ($579.95 USD) — stiffer, directional twin, Trüe Camber, sintered base, advanced rider level [29]
+107. comparable_board_same_brand: Nitro Phase x Cinelli 2026 ($499.95 USD) — identical construction, different limited graphics [16]
+108. comparable_board_cross_brand: Burton Custom — the Custom is frequently cited alongside the Nitro Team as a go-to all-mountain camber board [30]
+109. comparable_board_cross_brand: Capita Mercury, Salomon Assassin, K2 Broadcast, Yes Standard, Jones Mountain Twin [30]
+110. Brand reputation (industry context): Nitro is considered one of the few authentic, independent snowboard brands; K2 and Nitro are considered smart value picks [31]
+111. Phase model positioning: Brings "the feel of an Alternator down to a more affordable price point" per Nitro president Tommy Delago [32]
+112. warranty_period_years: 2-year limited commercial guarantee from date of purchase [33]
+113. warranty: Defects in materials and workmanship; original purchaser only, non-transferable [33]
+114. warranty: Impact damage, abuse, negligence, improper mounting, modifications, normal wear and tear [33]
+115. warranty: Repair or replacement at Nitro's discretion [33]
+116. warranty: Products purchased from eBay or non-authorised dealers are NOT covered [34]
+117. Ride characteristics (manufacturer): Fun, responsive, forgiving — "turns on the spot" [20]
+118. terrain_suitability: Sidehits, tree runs, wide-open groomers, powder stashes, creative line hunting [8]
+119. skill_level_recommendation: "Snowboard enthusiasts and daydreamers who enjoy creating their own paths" [8]
+120. Value positioning: Described as Nitro's "affordable all-mountain cruiser" [8]
+121. Milosport describes it as: "The Phase is designed for the all-mountain cruiser at a commercial price point" [35]
+122. Bomb Hole review: Seth Huot provided a tech breakdown of the 2026 Phase, confirming mainstream recognition [36]
+123. Community context: The Phase is new for 2026 season — no extensive ride reviews yet for the Motörhead 2027 variant as it is still in pre-order [1]
+124. reviewer_opinion_the_good_ride: The Good Ride reviewer found Nitro's recommended weight ranges on the Alternator to be conservative, suggesting a 157 could handle up to 200-210 lbs despite Nitro's 120-175 lb recommendation; similar conservatism may apply to Phase ranges [37]
+125. topsheet_appearance_description: Motörhead band-themed collaboration artwork [4]
+126. Matching ecosystem: The Phase x Motörhead comes with matching Motörhead-themed bindings (Nitro One x Motörhead, €275.95) and boots available [4][17]
+127. Collaboration precedent: Follows Nitro's pattern of rock band collabs (Iron Maiden 2023, now Motörhead 2027) and lifestyle collabs (Cinelli cycling 2026) [6][7]
+128. Base maintenance level: Low — extruded bases are durable and easier to repair than sintered [38]
+129. base_glide_performance: Good for daily use; not as fast as sintered bases on higher-end models [38]
+130. binding_compatibility: Standard 2x4 inserts; compatible with any binding with standard or mini disk [24]
+131. Recommended matching binding: Nitro One x Motörhead (€275.95 at Milosport) [17]
+132. availability_status: Melbourne Snowboard Centre (AU) — Nitro 2027 collection available for pre-order [18]
+133. availability_status: Blauer Board Shop (US, Big Bear Lake, CA) — $529.95 USD, re-stocking soon [3]
+134. availability_status: Milosport (US, Salt Lake City, UT) — carries 2027 Nitro Motörhead bindings, board expected [17]
+135. availability_status: evo.com (US) — major authorised Nitro dealer, free shipping, 5% price match, 1-year returns [15]
+136. Retailer reputation (evo): "Best selection, authentic reviews, and helpful humans" — large, well-established online/physical retailer [15]
+137. Retailer reputation (Blauer Board Shop): Established 1975 in Big Bear Lake, CA; Shopper Approved certified [3]
+138. Retailer reputation (Milosport): Long-running Salt Lake City core snowboard shop, well-known in the community [17]
+139. Nitro USA Distribution: Foundry Distribution, 3602 Via Terra, Salt Lake City, UT 84115 [39]
+140. Collab premium over standard Phase: ~$40-70 USD extra for Motörhead collab graphics vs standard Phase ($459.95 MSRP base vs $529.95 at Blauer) [3][15]
+141. Value proposition: Affordable all-mountain board with sustainability credentials and exclusive rock-band graphics [8][12]
+142. Extruded vs sintered base trade-off: Extruded base is lower maintenance but slower than sintered bases found on Nitro Team ($579.95) and Team Pro ($629.95) [29][40]
+143. camber_description: More forgiving than Trüe Camber (used on Team, Team Pro, Alternator) — better for intermediate riders [20]
+144. Sidecut advantage: Dual Degressive is Nitro's most forgiving sidecut, suitable for playful riding and easy turn initiation [8]
+145. Flex not standardised: evo notes "Snowboard flex ratings are not necessarily standardized across manufacturers" — a 6/10 on Nitro may differ from other brands [21]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/nitro-phase-x-motorhead</url>
+  <quote>Merchant-provided product attributes for Nitro Phase x Motörhead 2027 including AUD price $799.99, preorder status, and all technical specifications.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nitro-phase-x-motorhead</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>These are the merchant-provided attributes given in the prompt, serving as the primary product specification source for this specific Motörhead collab variant.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/</url>
+  <quote>External projects such as the Phase x Motörhead (with matching bindings and boots) and the Mercy x Ali Bruce artist collab round off Nitro's claim to diversity.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/#:~:text=External%20projects%20such%20as%20the%20Phase%20x%20Mot%C3%B6rhead</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Boardsport SOURCE is a respected B2B industry publication. This interview with Nitro president Tommy Delago confirms the Phase x Motörhead collaboration for F/W 2026/27 with matching bindings and boots.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/nitro-phase-x-motorhead-snowboard-2027</url>
+  <quote>Nitro Phase x Motorhead Snowboard 2027 - Men's... Sale price$529.95... Re-stocking soon</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/nitro-phase-x-motorhead-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Blauer Board Shop is an authorised US retailer listing the exact Phase x Motörhead 2027. Price of $529.95 USD and sizes 152/155/159/162W confirmed from the product page.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/</url>
+  <quote>External projects such as the Phase x Motörhead (with matching bindings and boots)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/#:~:text=Phase%20x%20Mot%C3%B6rhead%20(with%20matching%20bindings%20and%20boots)</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Confirms the Motörhead collab is a complete ecosystem with board, bindings, and boots — important for buyers considering a matching setup.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/blogs/news/nitro-2027-snowboard-collection-pre-order-now</url>
+  <quote>Act fast, these Guest Shaper graphics are limited and only last for a single season.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/blogs/news/nitro-2027-snowboard-collection-pre-order-now#:~:text=Act%20fast%2C%20these%20Guest%20Shaper%20graphics%20are%20limited</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>While this quote specifically refers to Guest Shaper graphics, Nitro's collab boards (like the Motörhead) follow the same single-season limited pattern based on historical precedent.</reasoning>
+  <evidentiary_alignment>0.55</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+  <url>https://blauerboardshop.com/products/nitro-beast-x-iron-maiden-limited-edition-2023</url>
+  <quote>Only 666 sets of this unique collection have been created in true Iron Maiden style.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/nitro-beast-x-iron-maiden-limited-edition-2023#:~:text=Only%20666%20sets%20of%20this%20unique%20collection</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-10</date_of_first_relevance>
+  <date_of_last_relevance>2023-06</date_of_last_relevance>
+  <reasoning>Documents Nitro's precedent for limited rock-band collaborations, establishing the pattern that the Motörhead collab follows.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/nitro-phase-x-cinelli-snowboard</url>
+  <quote>The all-new Nitro Phase x Cinelli Snowboard transforms ordinary mountain days into extraordinary adventures</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nitro-phase-x-cinelli-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Confirms the 2026 Phase x Cinelli collab as another Phase-platform collaboration, establishing comparable pricing context ($499.95).</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/phase-snowboard</url>
+  <quote>Nitro's new affordable all-mountain cruiser with a medium and playful flex and perfectly matched widths</quote>
+  <quote>Our Powercore uses tip-to-tail poplar wood, providing lightweight strength and the perfect blend of flex, response and feel.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/phase-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official Nitro manufacturer product page for the Phase. Highest authority for construction specs and tech descriptions. The Phase x Motörhead uses the same platform.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://nitrosnowboardsusa.com/pages/nitro</url>
+  <quote>Nitro was founded by Thomas Delago and Sepp Ardelt in 1990 at Veras Cafe in Seattle, Washington.</quote>
+  </quotelist>
+  <url_with_text_link>https://nitrosnowboardsusa.com/pages/nitro#:~:text=Nitro%20was%20founded%20by%20Thomas%20Delago%20and%20Sepp%20Ardelt%20in%201990</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1990</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro USA distribution page confirming founding details. Primary source for brand history.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/</url>
+  <quote>Authenticity and independence. Authenticity because Nitro truly makes boards from riders for riders.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nitro-snowboards-f-w-2026-27-preview/#:~:text=Authenticity%20and%20independence</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Direct quote from Nitro president Tommy Delago on brand philosophy in an industry trade publication.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://www.snowboardingdays.com/where-are-snowboards-made/</url>
+  <quote>Nitro produces its snowboards in Taiwan.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingdays.com/where-are-snowboards-made/#:~:text=Nitro%20produces%20its%20snowboards%20in%20Taiwan</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2012</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Snowboarding Days compiled manufacturing locations for 36 top brands. Confirmed by the separate Snowboard-Review.com article on Nitro's move to Playmaker in Taiwan.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/pages/sustainability</url>
+  <quote>Currently our boards are built with a hundred percent solar power, FSC-certified wood cores, water-based inks, and as many recycled materials as possible.</quote>
+  <quote>We have installed a 700 KW solar power station on our board factory's roof</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/pages/sustainability#:~:text=Currently%20our%20boards%20are%20built,700%20KW%20solar%20power%20station</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro sustainability page — primary source for environmental claims. These are manufacturer self-reported but supported by third-party certifications (FSC, ClimatePartner).</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://rocketreach.co/nitro-snowboards-profile_b54bc841f6db7182</url>
+  <quote>Nitro's headquarters are divided all over the world from the Mountains of Oberammergau, to the worlds best snow in Salt Lake City, UT</quote>
+  </quotelist>
+  <url_with_text_link>https://rocketreach.co/nitro-snowboards-profile_b54bc841f6db7182</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Business data aggregator citing Nitro's company profile. Corroborates the decentralised headquarters claim.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.5</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/phase-snowboard</url>
+  <quote>Sale price€479,90... Size: 152mw 155mw 159mw 162w</quote>
+  <quote>Stance Range (cm) 48-60 / 48-60 / 50-62 / 50-62... Rider Weight (lb) 110-155 / 120-165 / 145+ / 155+</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/phase-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official manufacturer specs table including EUR pricing and detailed stance range/rider weight data not available in merchant listing. The Phase x Motörhead uses the same platform specs.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/nitro</url>
+  <quote>Nitro Phase Snowboard 2026 $459.95 $321.92 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/nitro#:~:text=Nitro%20Phase%20Snowboard%202026%20%24459.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo.com is one of the largest authorised snowboard retailers. Shows standard Phase MSRP and current sale price, useful for price comparison with the Motörhead collab.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/nitro</url>
+  <quote>Nitro Phase x Cinelli Snowboard 2026 $499.95 $349.92 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/nitro#:~:text=Nitro%20Phase%20x%20Cinelli%20Snowboard%202026%20%24499.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shows the Phase x Cinelli collab at $499.95 MSRP — $40 more than the standard Phase — establishing the collab premium pattern for estimating Motörhead collab pricing.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.milosport.com/products/nitro-one-snowboard-bindings-2027</url>
+  <quote>Nitro One Snowboard Bindings 2027 · Sale price€275,95... Color:Nitro X Motorhead</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosport.com/products/nitro-one-snowboard-bindings-2027#:~:text=Nitro%20X%20Motorhead</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-04</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Milosport listing confirms the matching Nitro One x Motörhead bindings exist for 2027, priced at €275.95, supporting the complete collab ecosystem claim.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/blogs/news/nitro-2027-snowboard-collection-pre-order-now</url>
+  <quote>Nitro 2027 snowboard collection is now available for pre-order!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/blogs/news/nitro-2027-snowboard-collection-pre-order-now#:~:text=Nitro%202027%20snowboard%20collection%20is%20now%20available%20for%20pre-order</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-06</date_of_last_relevance>
+  <reasoning>Australian retailer confirming pre-order availability for the full 2027 Nitro collection including the Phase x Motörhead variant.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://nitrosnowboardsusa.com/pages/nitro</url>
+  <quote>We take pride in supporting the retailers, community, and structure that has gotten snowboarding to where it is today, by not selling direct online.</quote>
+  </quotelist>
+  <url_with_text_link>https://nitrosnowboardsusa.com/pages/nitro#:~:text=by%20not%20selling%20direct%20online</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro USA page confirming their distribution-only sales model. Note: Nitro's EU site (nitrosnowboards.com) does sell direct; this policy applies to the US market via Foundry Distribution.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/phase-snowboard</url>
+  <quote>Our Cam-Out Camber is basically a Trüe Camber with early and smooth transitions into tip and tail. The result is a fun and responsive board that turns on the spot and is forgiving</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/phase-snowboard#:~:text=Cam-Out%20Camber%20is%20basically%20a%20Tr%C3%BCe%20Camber</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official Nitro tech explanation of Cam-Out Camber — critical for understanding how this board rides compared to Trüe Camber models.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/nitro-phase-snowboard</url>
+  <quote>Snowboard flex ratings are not necessarily standardized across manufacturers, so the flex may vary from brand to brand.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nitro-phase-snowboard#:~:text=flex%20ratings%20are%20not%20necessarily%20standardized</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo's educational note about flex rating non-standardisation is important context for comparing the Phase's 6/10 to competitors.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/nitro-phase-snowboard</url>
+  <quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nitro-phase-snowboard#:~:text=1-2%20as%20soft%2C%203-5%20as%20medium%2C%206-8%20as%20stiff</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo's flex categorisation places 6/10 in the "stiff" category, while Nitro and other retailers describe it as "medium." This discrepancy matters for buyer expectations.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.pfpowder.com/product-page/nitro-phase-26</url>
+  <quote>Flex Rating: 6/10 (Medium) – A balanced flex that's stable at speed yet playful enough for presses and buttery turns.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.pfpowder.com/product-page/nitro-phase-26#:~:text=A%20balanced%20flex%20that%27s%20stable%20at%20speed</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>PFpowder retailer provides a practical description of the flex feel, adding buyer-relevant context to the numeric rating.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/nitro-phase</url>
+  <quote>Inserts: 2x4 Inserts · These offer a tighter hole pattern, allowing for more precise stance adjustments.</quote>
+  <quote>Bi-Lite Laminates have fibres running in two directions, providing strength, power, and a forgiving board feel.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nitro-phase#:~:text=2x4%20Inserts,forgiving%20board%20feel</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre provides detailed construction explanations including insert pattern and laminate orientation detail not found on the official Nitro page.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/phase-snowboard</url>
+  <quote>Our ABS sidewalls are made from 35% recycled polymers and are designed to be cold-resistant and durable.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/phase-snowboard#:~:text=35%25%20recycled%20polymers</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official Nitro page tech details section specifying the recycled content of ABS sidewalls — visible on the fetched page.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/nitro-phase</url>
+  <quote>Base: Sintered · Extruded FH Base ·</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/nitro-phase#:~:text=Sintered%20%C2%B7%20Extruded%20FH%20Base</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Shows the confusing base labelling from this retailer. The official Nitro site calls it "Premium Extruded FH Base," not sintered. This retailer's formatting creates ambiguity. The merchant also lists it as "Sintered Extruded FH Base" which is contradictory.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/phase-snowboard</url>
+  <quote>Product Carbon Footprint 32.2 KG CO₂</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/phase-snowboard#:~:text=Product%20Carbon%20Footprint%2032.2%20KG</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official manufacturer carbon footprint figure. Interestingly, 32.2 kg CO₂ is the same figure listed across most Nitro boards (Team, Alternator, Pow, etc.), suggesting it's a per-board manufacturing average rather than model-specific.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.nature-ride.be/en/nitro-presentation/</url>
+  <quote>Nitro is certified by the labels Climat Partner and FSC!</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nature-ride.be/en/nitro-presentation/#:~:text=Climat%20Partner%20and%20FSC</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Third-party retailer confirming Nitro's sustainability certifications, corroborating the manufacturer's own claims.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.evo.com/shop/snowboard/snowboards/nitro</url>
+  <quote>Nitro Team Snowboard 2026 $579.95</quote>
+  <quote>Nitro Team Pro Snowboard 2026 $629.95</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/nitro#:~:text=Nitro%20Team%20Snowboard%202026%20%24579.95</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>evo pricing data for comparable Nitro models within the lineup, establishing the Phase as the more affordable option within Nitro's all-mountain range.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/recommend-me-the-best-burton-custom-alternative-boards-from-other-brands.273201/</url>
+  <quote>Capita Mercury, Nitro Team, Salomon Assassin, K2 Broadcast, Yes Standard, Jones Mountain Twin, etc.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/recommend-me-the-best-burton-custom-alternative-boards-from-other-brands.273201/#:~:text=Capita%20Mercury%2C%20Nitro%20Team%2C%20Salomon%20Assassin</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Community forum identifying the competitive landscape for all-mountain camber boards. The Phase sits at a lower price/ability tier than the Team but competes in the same broad category.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+  <url>https://thesnowchasers.com/blog/best-snowboard-brands/</url>
+  <quote>If you want solid gear on a tighter budget, K2 and Nitro are smart picks.</quote>
+  </quotelist>
+  <url_with_text_link>https://thesnowchasers.com/blog/best-snowboard-brands/#:~:text=K2%20and%20Nitro%20are%20smart%20picks</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Snow Chasers brand ranking article positions Nitro as a good-value brand alongside K2, relevant to the Phase's affordable positioning.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+  <url>https://www.boardsportsource.com/nitro-snowboards-f-w-2025-26-preview/</url>
+  <quote>The Phase and Nova, which are bringing the feel of an Alternator down to a more affordable price point for men and women.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.boardsportsource.com/nitro-snowboards-f-w-2025-26-preview/#:~:text=bringing%20the%20feel%20of%20an%20Alternator%20down%20to%20a%20more%20affordable%20price%20point</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Tommy Delago (Nitro president) describing the Phase as a budget-friendly version of the Alternator. Key positioning insight directly from the brand leader.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+  <url>https://nitrosnowboards.com/pages/warranty</url>
+  <quote>All Nitro snowboards, bindings and boots are covered by a commercial guarantee for a period of 2-years from the date of purchase</quote>
+  </quotelist>
+  <url_with_text_link>https://nitrosnowboards.com/pages/warranty#:~:text=2-years%20from%20the%20date%20of%20purchase</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2027-04</date_of_last_relevance>
+  <reasoning>Official Nitro warranty page, most authoritative source for warranty terms. 2-year limited warranty is standard for the industry.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+  <url>https://nitrosnowboards.com/en/nitro-warranty</url>
+  <quote>If you purchased your product from E-Bay or any 3rd party (non-authorized) Nitro Dealer than the warranty is not valid.</quote>
+  </quotelist>
+  <url_with_text_link>https://nitrosnowboards.com/en/nitro-warranty#:~:text=E-Bay%20or%20any%203rd%20party</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro warranty FAQ confirming warranty exclusions for third-party purchases — important buyer consideration for discounted/secondhand purchases.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+  <url>https://www.milosport.com/products/nitro-phase-snowboard-2026</url>
+  <quote>The Phase is designed for the all-mountain cruiser at a commercial price point.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.milosport.com/products/nitro-phase-snowboard-2026#:~:text=commercial%20price%20point</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Milosport is a well-respected core snowboard shop in SLC that works closely with Nitro. Their positioning of the Phase as a "commercial price point" board confirms its budget-friendly positioning.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+  <url>https://thebombhole.com/bomb-proof-nitro-phase-snowboard/</url>
+  <quote>Seth Huot reviewed and gives a full tech breakdown of the 2026 Phase board from Nitro Snowboards.</quote>
+  </quotelist>
+  <url_with_text_link>https://thebombhole.com/bomb-proof-nitro-phase-snowboard/#:~:text=Seth%20Huot%20reviewed</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Bomb Hole is a well-known snowboard podcast/media outlet. Seth Huot's review of the Phase confirms mainstream industry recognition for the model.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/nitro-alternator-snowboard-review/</url>
+  <quote>Nitro's recommended weight range of 120-175lbs seems way off. The 157 could easily handle my 190-195lbs</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nitro-alternator-snowboard-review/#:~:text=recommended%20weight%20range%20of%20120-175lbs%20seems%20way%20off</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-12</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>The Good Ride is a respected independent snowboard review site. Their observation about conservative Nitro weight ranges on the Alternator is applicable to the Phase as well, since both use similar construction approaches.</reasoning>
+  <evidentiary_alignment>0.6</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+  <url>https://www.eriksbikeshop.com/products/nitro-phase-mens-snowboard-pr5a25853</url>
+  <quote>Extruded Base - Found on most beginner and freestyle snowboards. Durable and made to be easier to repair and maintain.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/nitro-phase-mens-snowboard-pr5a25853#:~:text=Extruded%20Base%20-%20Found%20on%20most%20beginner</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Erik's provides clear educational context distinguishing extruded from sintered bases — directly relevant to understanding the Phase's base type trade-offs.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+  <url>https://nitrosnowboardsusa.com/pages/returns-exchanges</url>
+  <quote>NITRO SNOWBOARDS / FOUNDRY DISTRIBUTION 3602 VIA TERRA SALT LAKE CITY UT 84115</quote>
+  </quotelist>
+  <url_with_text_link>https://nitrosnowboardsusa.com/pages/returns-exchanges#:~:text=FOUNDRY%20DISTRIBUTION%203602%20VIA%20TERRA</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro USA returns page confirming Foundry Distribution as the US distributor with a Salt Lake City address.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+  <url>https://www.nitrosnowboards.com/products/team-snowboard</url>
+  <quote>Utilizing a recycled material compound, we have been able to achieve the same abrasion resistance, increased wax absorption and on-snow speeds with our Sintered EcoSpeed HD base</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nitrosnowboards.com/products/team-snowboard#:~:text=Sintered%20EcoSpeed%20HD%20base</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04</date_of_last_relevance>
+  <reasoning>Official Nitro Team page confirms the higher-end Team uses a Sintered EcoSpeed HD base, differentiating it from the Phase's extruded base. This is a key performance difference between the two models.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+</citations>
+</response>

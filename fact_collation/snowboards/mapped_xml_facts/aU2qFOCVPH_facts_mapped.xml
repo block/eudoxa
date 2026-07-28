@@ -1,0 +1,679 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="16" category="availability" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="10" category="review" />
+  <duplicate_canonical name="available_sizes" count="8" category="availability" />
+  <duplicate_canonical name="terrain_suitability" count="6" category="recommendation" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="core_material" count="4" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="4" category="construction" />
+  <duplicate_canonical name="skill_level_recommendation" count="4" category="recommendation" />
+  <duplicate_canonical name="positive_aspect" count="4" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="flex_rating_10" count="3" category="performance" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="sustainability_certification" count="3" category="sustainability" />
+  <duplicate_canonical name="sidecut_radius_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="3" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="topsheet_appearance_description" count="2" category="identity" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="base_material" count="2" category="construction" />
+  <duplicate_canonical name="binding_compatibility" count="2" category="unknown" />
+  <duplicate_canonical name="negative_aspect" count="2" category="review" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][3]
+2. manufacturer: Burton Snowboards, founded 1977 by Jake Burton Carpenter in Vermont, USA [2][3]
+3. model_name: Family Tree Smooth Operator [1][3]
+4. model series: Family Tree (Burton's limited edition freeride/powder collection) [3][4]
+5. model_year: 2026 (Winter 2026 season) [1][2]
+6. model_first_available_year: New to Family Tree for 2026 — all-new model, first year of production [3][4]
+7. product_type: Snowboard [1][2]
+8. board_category: All Mountain / Powder [5][6]
+9. gender: Unisex [7][8]
+10. limited edition: Yes — Family Tree boards are limited edition [3][9]
+11. topsheet_appearance_description: Audubon bird-themed topsheets for 2026 Family Tree lineup [3][10]
+12. topsheet_appearance_description: Crested Ibis — representing artful motion and grace at speed [10][11]
+13. SKU: W26-302911 (base product code); merchant-listed SKU 3029110A03 152 for 152cm variant [1][MERCHANT]
+14. pro_rider_name: Designed with legendary Japanese team rider Masanori Takeuchi [5][7][12]
+15. designer bio: Masanori Takeuchi is a Burton team rider, AK457 developer, and founder of Hikarigahara Cat Tours in the Japanese Alps [13][14]
+16. shape: Tapered Directional / Directional [MERCHANT][5]
+17. taper: 10mm [8][15]
+18. setback: -12.5mm (stance setback) [MERCHANT][16]
+19. ride geometry: Balanced Freeride Geometry — setback camber with stance-centered sidecut; feels twin when flat, turns tight and floaty when on edge [2][17]
+20. 3D base technology: Surfboard-inspired concave shaping in tip and tail, traditional base through the middle [10][11]
+21. tail design: Swallow tail [16]
+22. nose design: Long nose with early rise / rocker [8][15]
+23. camber_type: Directional Camber — rocker in nose for powder float, traditional camber under back foot for response and stability [MERCHANT][2][7]
+24. camber_description: Camber under both feet with rockered nose that adds lift for float in deep snow while retaining stability [8][18]
+25. flex_rating_10: 6.5/10 (1=soft, 10=stiff) [MERCHANT]
+26. flex_feel: Medium/Stiff (per The Good Ride review) [16]
+27. flex_feel: Mid-stiff flex [19]
+28. flex pattern: Directional Flex — increased pop in tail, stiffer nose for control [MERCHANT][19]
+29. flex_direction: Directional [MERCHANT]
+30. flex_feel: Very stiff tail and between feet; soft and buttery nose; poppy dynamic overall, easy to ollie [16]
+31. core_material: Dragonfly 600G Core [3][2][19]
+32. core_material: One of Burton's lightest cores — stronger and lighter woods targeted in specific areas; end-grain woods in impact zones [3][19]
+33. core zones: Multizone EGD — wood grain aligned along heel and toe edge in four separate zones adjacent to channel [MERCHANT][19]
+34. core profiling: Squeezebox — thicker powerful sections with thinner flexible sections profiled throughout core for enhanced energy transfer [2][19]
+35. core weight class: Ultralight [3][19]
+36. laminate: 45° Carbon Highlights — full tip-to-tail carbon layer, reduces weight, 45° angled fibres for aggressive torsional flex [MERCHANT][2][19]
+37. construction_material_innovation: Yes, tip-to-tail carbon layer [2][19]
+38. laminate: 45° fiber angle provides a more aggressive ride (vs 60° for playful feel) [2]
+39. base_material: Sintered WFO (Wide F!#@ing Open) [MERCHANT][2]
+40. base_material: Extra-absorbent, high-density sintered with specially formulated wax infusion for ultra-durable, fast base [2][19]
+41. base_type: Sintered [MERCHANT]
+42. resin: Super Sap Epoxy — bio-based resin, reduces carbon footprint by 50% over petroleum-based epoxies [MERCHANT][19]
+43. sustainability_certification: FSC Certified — Forest Stewardship Council (FSC C124994) [7]
+44. sustainability_certification: Bio-based Super Sap resin + FSC-certified wood core [7][19]
+45. mounting_pattern: The Channel — Burton's exclusive single-channel mounting system [MERCHANT][7]
+46. mounting_pattern: Central spine allows micro-adjust stance width, angle, and toe-to-heel centering; disperses energy for added rebound and snap [7]
+47. binding_compatibility: Compatible with all Channel-compatible bindings (most major brands); works best with Burton EST bindings [7][19]
+48. mounting_pattern: Extended channel for limitless stance options, unique to Smooth Operator [4][15]
+49. binding_compatibility: Burton EST bindings are ONLY compatible with the Burton Channel system [5]
+50. flex technology: Infinite Ride — factory overbuilt then broken down in machine to ensure consistent flex, pop, and feel from day 1 to day 100 [MERCHANT][2][7]
+51. available_sizes: 148cm [MERCHANT]
+52. effective edge (148cm): 111.5cm [MERCHANT]
+53. sidecut_radius_size: 8.4m [MERCHANT]
+54. tip_tail_width_size: 28.07 / 27.07cm [MERCHANT]
+55. waist width (148cm): 24.3cm [MERCHANT]
+56. stance_width_range_size: 51.0cm [MERCHANT]
+57. recommended_weight_range_size: 45-68kg [MERCHANT]
+58. available_sizes: 152cm [MERCHANT]
+59. effective edge (152cm): 114.5cm [MERCHANT]
+60. sidecut_radius_size: 8.6m [MERCHANT]
+61. tip_tail_width_size: 28.56 / 27.56cm [MERCHANT]
+62. waist width (152cm): 24.7cm [MERCHANT]
+63. stance_width_range_size: 51.0cm [MERCHANT]
+64. recommended_weight_range_size: 54-82kg [MERCHANT]
+65. available_sizes: 156cm [MERCHANT]
+66. effective edge (156cm): 117.5cm [MERCHANT]
+67. sidecut_radius_size: 8.8m [MERCHANT]
+68. tip_tail_width_size: 29.06 / 28.06cm [MERCHANT]
+69. waist width (156cm): 25.1cm [MERCHANT]
+70. stance_width_range_size: 54.0cm [MERCHANT]
+71. recommended_weight_range_size: 68-91kg [MERCHANT]
+72. available_sizes: 144cm [15] — DISAGREEMENT: Snowboard Magazine lists 144cm; merchant source lists only 148/152/156. The 144cm size may not be available in all markets.
+73. available_sizes: 160cm [8][16]
+74. available_sizes: 164cm [8][16]
+75. available_sizes: 144, 148, 152, 156, 160, 164cm [15]
+76. available_sizes: 152, 156, 160, 164 [8]
+77. width_options: Standard (no wide version) [MERCHANT][19]
+78. terrain_suitability: 1/10 [MERCHANT]
+79. terrain_suitability: 7/10 [MERCHANT]
+80. terrain_suitability: 10/10 [MERCHANT][2]
+81. rider_level: Intermediate-Advanced [MERCHANT]
+82. skill_level_recommendation: Expert level [7]
+83. skill_level_recommendation: Intermediate to Expert [16]
+84. skill_level_recommendation: Intermediate to Expert; Park 1/10, AM 7/10, Powder 10/10; Flex 5-8 Medium-Aggressive [20]
+85. skill_level_recommendation: Tactics describes this as "expert level" while the merchant and Melbourne Snowboard list "Intermediate-Advanced." The Good Ride and Balmoral list "Intermediate to Expert." The board is likely accessible to committed intermediates intrigued by snowsurf but truly shines at the advanced-expert level. [7][MERCHANT][16][20]
+86. terrain_suitability: Powder, Trees, Natural transitions, Steep and Deep [MERCHANT]
+87. terrain_suitability: Deep Japanese-style powder [3][5]
+88. riding_style: Snowsurf [16]
+89. design inspiration: Developed for the steep and deep of Japanese mountains [3][19]
+90. terrain_suitability: Powder surfing, tree riding, slashing powder, high-speed carving in soft snow; also works well on groomers [16]
+91. powder_rating_tgr: Great [16]
+92. base_glide_performance: Good [16]
+93. carving_rating_tgr: Great [16]
+94. speed_rating_tgr: Good [16]
+95. reviewer_opinion_the_good_ride: Good [16]
+96. switch_riding: Poor [16]
+97. jumps_rating_tgr: Good [16]
+98. jibbing_rating_tgr: Poor [16]
+99. pipe_rating_tgr: Good [16]
+100. on_snow_feel_tgr: Stable [16]
+101. turn_initiation_performance: Fast [16]
+102. reviewer_opinion_the_good_ride: Moderate [16]
+103. reviewer_opinion_the_good_ride: Moderate [16]
+104. edge_hold: Medium Snow — competent in firm spring conditions but not amazing; boards with other tech grip better [16]
+105. positive_aspect: Really fun to turn; turns a tighter radius than the shallow sidecut would suggest [16]
+106. positive_aspect: Solid pop without chatter [16]
+107. positive_aspect: Single channel allows extensive stance experimentation [16]
+108. positive_aspect: Really set back but doesn't require back foot weight [16]
+109. negative_aspect: Channel base is hard to wax and scrape [16]
+110. negative_aspect: There are better boards for hard to icy snow [16]
+111. reviewer_opinion_the_good_ride: Highlight of Burton testing from a snowsurf perspective; fun turning, smooth, springy; would not mind having in quiver [16]
+112. award: Snowboard Magazine Platinum Pick 2026 — listed as one of the best powder boards of the year [4][15]
+113. price_usd_msrp: $849.95 [15] — NOTE: Snowboard Magazine lists $849.95 as the price.
+114. price_usd_msrp: $899.95 [16][21]
+115. price_usd_tactics: $719.95 (sale price observed on The Good Ride aggregator) [16]
+116. price USD (Gravity Coalition — discounted): $699.97 [16]
+117. price_aud_merchant: $1,199.99 AUD [MERCHANT]
+118. price CAD (Pacific Boarder): $1,099.99 CAD [8]
+119. price_cad_prfo: $1,099.99 CAD [16]
+120. price_eur_blue_tomato: €879.95 [16]
+121. price EUR (SnowCountry): €799.00 [16]
+122. price_gbp_blue_tomato_uk: £785.00 [16]
+123. price SEK (Blue Tomato Sweden): kr 9,999.00 [16]
+124. price DKK (Blue Tomato Denmark): kr 6,599.00 [16]
+125. price_usd_msrp: Snowboard Magazine (Oct 2025 publication) lists $849.95, while Burton's own site and all US retailers (evo, Backcountry, etc.) list $899.95. The $849.95 may have been an early/pre-launch price or an error in the magazine listing. The $899.95 is likely the current retail MSRP.
+126. warranty: 3-year warranty from date of purchase (for all 2014+ Burton snowboards with The Channel mounting system) [22][23]
+127. warranty: Covers manufacturer's defects; original purchaser only with proof of purchase from authorized dealer [23]
+128. manufacturing_location_current: Europe (per The Good Ride) [16]
+129. manufacturing_location_current: Burton high-end boards produced at Keil Ski facility in Uttendorf, Austria (near Salzburg); has produced high-end Burton boards for 25+ years [24][25]
+130. prototyping location: Burlington, Vermont, USA [25]
+131. headquarters: Burlington, Vermont, USA [26]
+132. availability_status: Burton.com US: Available; $899.95 USD [21]
+133. availability_status: evo.com: In stock; $899.95 USD; free shipping + lowest price guarantee [21][16]
+134. availability_status: Backcountry.com: Available; $899.95 USD [16]
+135. availability_status: Tactics.com: In stock; $899.95 USD (on sale at times ~$719.95) [7][16]
+136. availability_status: Pacific Boarder (Canada): Available in 152/156/160/164; $1,099.99 CAD [8]
+137. availability_status: Darkside Snowboards (Vermont): Available; ships within 48 hours; established 1989 [5][22]
+138. availability_status: Rudeboys: Available [10]
+139. availability_status: Balmoral Boards (Australia): Available [20]
+140. availability_status: Melbourne Snowboard Centre (Australia): Available; ships within Australia only [19]
+141. availability_status: Aspen Ski and Board: $899.95 USD; 152cm backordered at time of search [27]
+142. availability_status: Gravity Coalition: $699.97 USD (discounted) [16]
+143. availability_status: Blue Tomato (multiple EU markets): €879.95 in Belgium/France/Finland/Italy/Austria; £785 UK; kr 9,999 Sweden; kr 6,599 Denmark [16]
+144. availability_status: SnowCountry (EU): €799.00 [16]
+145. availability_status: PRFO Sports (Canada): $1,099.99 CAD [16]
+146. availability_status: Burton Canada: $1,099.99 CAD [16]
+147. availability_status: Blauer Board Shop: Available per The Good Ride recommendation [16]
+148. brand reputation: Burton is the world's largest/most established snowboard brand, founded 1977; privately owned; controls ~40-45% of the snowboarding market [26]
+149. brand heritage: Pioneer of snowboarding; established European offices 1985 in Innsbruck, Austria [26]
+150. sustainability_certification: Burton is a certified B Corporation [1]
+151. reviewer_opinion_the_good_ride: "Burton almost always has great construction" with a semi-durable topsheet [16]
+152. reviewer_opinion_the_good_ride: "Not heavy or light. Just on the light side of middle." [16]
+153. recommended boot size 152cm: US 7-8 [16]
+154. recommended boot size 156cm: US 8-9 [16]
+155. recommended boot size 160cm: US 9-10 [16]
+156. recommended boot size 164cm: US 10-11 [16]
+157. reviewer_opinion_the_good_ride: Burton is liberal with boot sizes but fair with recommended weight on Smooth Operator; if boot size vs weight conflict, prioritize boot fit first [16]
+158. comparable_board_cross_brand: Korua Dart, Korua Café Racer, Weston Japow, Moss Jellyfish, Gentemstick Barracuda, Soul Shift, Nidecker Beta, Nidecker Beta APX, Korua Pintonic, Jones Storm Chaser 2025, Salomon Wolle Nyvelt Fish, Stranda Tree Surfer [16]
+159. comparable_board_cross_brand: Jones Storm Chaser: $699.95 at Tactics — stiffer, wider, very slashable in powder, less fun in variable terrain, poor edge hold on groomers per forum users [28][29]
+160. comparable_board_same_brand: Burton Counterbalance: New for 2026, replaces Deep Thinker & Story Board; described alongside Smooth Operator as Burton testing highlights [16]
+161. comparable_board_same_brand: Burton Family Tree Sketch Artist: $729.95 — also new to Family Tree 2026, freestyle-tuned all-mountain/powder with 18mm taper [3]
+162. comparable_board_same_brand: Burton Family Tree High Fidelity: Advanced freeride with 7mm taper, Super Fly II 700G core, steeper/more aggressive freeride DNA [3]
+163. comparable_board_same_brand: Burton Family Tree Alekesam: Surf-inspired all-mountain, first introduced 2023, Super Fly II 700G core with Carbon I-Beam [3]
+164. comparable_board_cross_brand: Gentemstick Barracuda: $1,150 — premium Japanese powder board [28]
+165. comparable_board_cross_brand: Jones Storm Wolf: $699.95 — powder/freeride, stiffer than Storm Chaser, broader groomer capability per forum reports [29]
+166. comparable_board_cross_brand: Smooth Operator at $899.95 is more expensive than Storm Chaser ($699.95) and Storm Wolf ($699.95) but cheaper than Gentemstick Barracuda ($1,150) [28]
+167. taper comparison note: Only 10mm of taper, which is less than many snowsurf/powder boards; feels less tapered than competitors like Soul Shift or Korua Dart [16]
+168. width over inserts: Same width over inserts (unusual for snowsurf); provides a more balanced turning feel on groomers [16]
+169. mounting_pattern: Full-length single channel allows extreme stance adjustments; riders can move back foot very far back to emulate surfing [16]
+170. reviewer_opinion_the_good_ride: Reviewer states this is also excellent on groomers, not just a dedicated powder board; "lives to carve on clean groomers" [16]
+171. reviewer_opinion_the_good_ride: 9.1m and 9.3m sidecuts felt tighter and more balanced than expected for such large radii [16]
+172. reviewer_opinion_the_good_ride: Works well across wide range of stance angles from +27/+9 to +18/-3 [16]
+173. surf-inspired 3D shaping: Concave shaping in tip and tail with traditional base in middle blends edge control with surfy freedom [10][11]
+174. predecessor_model_name: Burton Family Tree Sensei — also designed by Masanori Takeuchi; long, narrow shape for deep snow and steep terrain [30]
+175. flex_rating_10: 6.5/10 [MERCHANT]
+176. flex_rating_10: 5-8 range, Medium-Aggressive [20] — DISAGREEMENT: The merchant lists a precise 6.5/10 while Balmoral lists a range of 5-8. The wider range may account for the directional flex pattern (softer nose, stiffer tail).
+177. core_material: Super Fly® 600G Core [2]
+178. core_material: Dragonfly™ 600G Core [3][19][MERCHANT] — DISAGREEMENT: evo.com calls it "Super Fly® 600G Core" while Burton's own blog, Melbourne Snowboard, and the merchant listing call it "Dragonfly 600G Core." The manufacturer blog is the authoritative source; "Dragonfly 600G" is likely correct. evo may have used a generic family name.
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+  <url>https://www.burton.com/us/en/p/burton-family-tree-smooth-operator-camber-snowboard/W26-302911.html</url>
+  <quote>Shop the Family Tree Smooth Operator Camber Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/us/en/p/burton-family-tree-smooth-operator-camber-snowboard/W26-302911.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton manufacturer product page. Confirms model name, brand, and product category. The page requires JavaScript to fully render specs but URL and title confirm the product exists on burton.com.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-family-tree-smooth-operator-snowboard</url>
+  <quote>With its lightweight Super Fly® 600G Core, directional camber design, and perfect 10/10 powder rating</quote>
+  <quote>45˚ Carbon Highlights optimizes each layer of the fiberglass matrix and adds a full tip-to-tail carbon layer</quote>
+  <quote>Sintered WFO – Infusing a specially formulated wax deep into the pores of this extra-absorbent, high-density sintered material</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-family-tree-smooth-operator-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com is a major authorized Burton retailer. Product listing with detailed tech specs matches Burton marketing materials. Note: evo calls the core "Super Fly 600G" while Burton's blog calls it "Dragonfly 600G" — a naming discrepancy.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url>
+  <quote>The Smooth Operator features our exceptional Dragonfly™ 600G snowboard Core - one of the lightest we make</quote>
+  <quote>Burton's Family Tree boards for 2026 feature bold, bird-themed graphics.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton blog post from Oct 2, 2025 introducing the 2026 Family Tree collection. This is the manufacturer's primary authority for the core name (Dragonfly 600G) and Family Tree series description. Highest credibility for product naming and technology claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-pick-2026-burton-family-tree-smooth-operator</url>
+  <quote>A look at one of the best powder boards of the year.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-pick-2026-burton-family-tree-smooth-operator</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10-28</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is a respected specialist snowboarding publication. The Platinum Pick designation is an editorial award confirming this is a top-tier powder board for the 2026 season.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+  <url>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url>
+  <quote>Designed with legendary Japanese team rider Masanori Takeuchi, it blends 3D shaping and full-length control</quote>
+  <quote>However, do note EST bindings are ONLY COMPATIBLE WITH THE BURTON CHANNEL SYSTEM.</quote>
+  </quotelist>
+  <url_with_text_link>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Darkside Snowboards is an authorized Vermont-based retailer established 1989. Reliable source for product descriptions that mirror Burton's own copy. Binding compatibility info is practical and important for purchasers.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+  <url>https://www.tactics.com/burton/family-tree-smooth-operator-camber-snowboard</url>
+  <quote>The Burton Family Tree Smooth Operator Camber Snowboard is an expert level unisex board</quote>
+  <quote>FSC Certified - Forest Stewardship Council (FSC C124994) certified.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/burton/family-tree-smooth-operator-camber-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Tactics.com is a major authorized US snowboard retailer. Describes this as "expert level" which differs from other sources listing "intermediate-advanced." FSC certification number is a verifiable factual claim.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+  <url>https://pacificboarder.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url>
+  <quote>Directional Camber, a rockered nose, and 10mm taper team with surf-inspired 3D shaping</quote>
+  <quote>Size: 152 156 160 164 · Gender: Unisex Season: Winter 2026</quote>
+  </quotelist>
+  <url_with_text_link>https://pacificboarder.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Pacific Boarder is a reputable Vancouver-based retailer. Lists sizes 152/156/160/164 and $1,099.99 CAD pricing. Confirms 10mm taper spec and 3D shaping.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url>
+  <quote>Bird is the word, and 2026 limited edition Family Tree boards put that phrase front and center</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton blog confirming Family Tree boards are limited edition with bird-themed graphics for 2026.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+  <url>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url>
+  <quote>The Smooth Operator highlights the graceful crested ibis, channeling its artful motion and grace at speed</quote>
+  <quote>Surfboard-inspired concave shaping in the tip and tail, combined with a traditional base through the middle</quote>
+  </quotelist>
+  <url_with_text_link>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Darkside Snowboards product page provides the graphic description (crested ibis bird) and 3D base shaping details, both from Burton's product copy.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+  <url>https://rudeboys.com/products/burton-family-tree-smooth-operator-camber-snowboard-w26</url>
+  <quote>Surfboard-inspired concave shaping in the tip and tail, combined with a traditional base through the middle, blends edge control and surfy freedom</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/burton-family-tree-smooth-operator-camber-snowboard-w26</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Rudeboys is an authorized retailer corroborating the 3D shaping technology description.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+  <url>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url>
+  <quote>This collaborative effort between Burton and legendary Team rider Masanori Takeuchi utilizes 3D shaping</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/blogs/the-burton-blog/2026-burton-family-tree-snowboards/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10-02</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official manufacturer blog confirming the Masanori Takeuchi collaboration, which is the highest authority for this claim.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+  <url>https://www.burton.com/at/en/content/japan-masanori-takeuchi.html</url>
+  <quote>Masa's contribution to snowboarding started as a rider, but now he's focusing on product design</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/at/en/content/japan-masanori-takeuchi.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton bio page for Masanori Takeuchi, confirming his role as a product designer and team rider focusing on AK Guide and Family Tree collections.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+  <url>https://www.hikarigahara.com/en/team</url>
+  <quote>As the founder of Hikarigahara Cat Tours, Masanori invites riders to explore the untouched powder of the Japanese Alps.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.hikarigahara.com/en/team</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Masanori Takeuchi's own cat-touring company website, providing credible background on the designer's deep connection to Japanese powder riding.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+  <url>https://snowboardmag.com/gear/platinum-pick-2026-burton-family-tree-smooth-operator</url>
+  <quote>Burton Family Tree Smooth Operator – $849.95 · 144, 148, 152, 156, 160, 164cm</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/platinum-pick-2026-burton-family-tree-smooth-operator</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-10-28</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Snowboard Magazine's Platinum Pick listing shows $849.95 price and full 6-size range including 144cm and 160/164cm. The $849.95 price conflicts with all other retail sources showing $899.95. The 144cm size is not listed by most retailers, though some markets may carry it.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-smooth-operator-snowboard-review/</url>
+  <quote>Riding Style: Snowsurf · Riding Level: Intermediate - Expert · Manufactured in: Europe</quote>
+  <quote>Really Fun To Turn · Solid Pop without Chatter · Channels Are Hard To Wax & Scrape</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-smooth-operator-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-12-26</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Good Ride is one of the most comprehensive independent snowboard review sites, with the reviewer having tested 900+ boards. This is the most thorough review available for this board, covering 5 days of testing across 160 and 164cm sizes. Provides ride ratings, pricing aggregation, comparable boards, and detailed subjective assessments. Highest quality independent review source found.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.82</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+  <url>https://www.evo.com/snowboards/burton-family-tree-smooth-operator-snowboard</url>
+  <quote>Balanced Freeride Geometry ends the age-old twin vs directional debate with setback camber and a sidecut centered on your stance</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/burton-family-tree-smooth-operator-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>evo.com product listing explaining Balanced Freeride Geometry, which is a key differentiator for this board's ride characteristics.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+  <url>https://www.tactics.com/burton/family-tree-smooth-operator-camber-snowboard</url>
+  <quote>Burton's directional camber profile puts a camber profile at the back with rocker at the nose</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/burton/family-tree-smooth-operator-camber-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Tactics.com provides a clear technical explanation of the directional camber profile used on this board.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+  <url>https://www.melbournesnowboard.com.au/products/burton-family-tree-smooth-operator</url>
+  <quote>The Dragonfly 600G Core features stronger and lighter woods targeted in specific areas</quote>
+  <quote>Super Sap is a bio-based resin that reduces the carbon footprint by 50% over conventional petroleum-based epoxies.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-family-tree-smooth-operator</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Melbourne Snowboard Centre is an authorized Australian retailer with detailed tech breakdowns. Confirms Dragonfly 600G core name (matching Burton blog, not evo's "Super Fly" name) and Super Sap resin details.</reasoning>
+  <evidentiary_alignment>0.92</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+  <url>https://www.balmoralboards.com.au/products/burton-2026-smooth-operator-family-tree</url>
+  <quote>DESIGNED FOR: Intermediate - Expert | Park: 1/10, All-Mountain: 7/10, Powder: 10/10 SHAPE: Directional, 10mm Taper FLEX / PERSONALITY: Directional / 5-8 (Medium - Aggressive)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.balmoralboards.com.au/products/burton-2026-smooth-operator-family-tree</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Balmoral Boards is an Australian retailer providing a condensed spec sheet. Lists flex as 5-8 range rather than the merchant's 6.5/10. Both are plausible interpretations of a directional flex pattern.</reasoning>
+  <evidentiary_alignment>0.88</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+  <url>https://thegoodride.com/snowboard-reviews/burton-smooth-operator-snowboard-review/</url>
+  <quote>$899.95 Buy it Now Buy Burton Smooth Operator from Burton US</quote>
+  <quote>$899.95 Buy it Now Buy Burton Smooth Operator from evo</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-smooth-operator-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-12-26</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>The Good Ride aggregates pricing from multiple retailers, showing $899.95 as the standard US retail price across Burton US, evo, and Backcountry. Prices may have dropped since initial publication.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+  <url>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url>
+  <quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty from date of purchase.</quote>
+  </quotelist>
+  <url_with_text_link>https://darksidesnowboards.com/products/burton-family-tree-smooth-operator-camber-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2014</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Darkside Snowboards product page specifies the 3-year warranty for Channel-mount Burton snowboards. This matches Burton's warranty policy pages.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+  <url>https://www.burton.com/hu/en/help/warranty-ca.html</url>
+  <quote>Burton will repair or replace any current season channel board purchased after 08/13/13 for 3 years from the original purchase date</quote>
+  </quotelist>
+  <url_with_text_link>https://www.burton.com/hu/en/help/warranty-ca.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2013</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Official Burton warranty page confirming 3-year warranty on Channel-mount snowboards. Highest authority for warranty terms.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+  <url>https://www.benningtonbanner.com/local-news/burton-ends-snowboard-manufacturing-in-vermont/article_57691b83-527e-5474-bd81-131350242212.html</url>
+  <quote>The work will move to a facility in Uttendorf, Austria, run by Keil that has been producing the high-end boards for 25 years.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.benningtonbanner.com/local-news/burton-ends-snowboard-manufacturing-in-vermont/article_57691b83-527e-5474-bd81-131350242212.html</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2010-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>2010 news article from Bennington Banner documenting Burton's move of high-end board manufacturing to Keil factory in Uttendorf, Austria. This explains The Good Ride's "Manufactured in: Europe" claim.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+  <url>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url>
+  <quote>Burton still run their prototyping facility in Vermont, but production takes place mostly in China and Austria.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/where-are-snowboards-made-the-major-brands</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles is a well-researched enthusiast site tracking manufacturing locations. Confirms Burton's Austria/China split, with high-end boards (like Family Tree) most likely from Austria.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+  <url>https://en.wikipedia.org/wiki/Burton_Snowboards</url>
+  <quote>Burton Snowboards is a privately owned snowboard manufacturer founded by Jake Burton Carpenter in 1977.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Burton_Snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>1977</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Wikipedia article on Burton Snowboards providing verified company history and market position. Well-sourced for factual background information.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+  <url>https://www.aspenskiandboard.com/products/burton-family-tree-smooth-operator-adult-snowboard-2026</url>
+  <quote>Burton Family Tree Smooth Operator Adult Snowboard 2026 - Multicolor / 152cm / Retail: $899.95 is backordered</quote>
+  </quotelist>
+  <url_with_text_link>https://www.aspenskiandboard.com/products/burton-family-tree-smooth-operator-adult-snowboard-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Aspen Ski and Board listing confirms $899.95 MSRP and shows 152cm backordered, indicating strong demand for this limited edition board.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+  <url>https://www.tactics.com/mens-snowboards/powder-freeride</url>
+  <quote>Jones Storm Chaser Snowboard 2026 $699.95 · Burton Family Tree Smooth Operator Camber Snowboard 2026 $899.95 · Gentemstick Barracuda High Performance Snowboard 2026 $1,150.00</quote>
+  </quotelist>
+  <url_with_text_link>https://www.tactics.com/mens-snowboards/powder-freeride</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Tactics powder/freeride category page showing competitive pricing for comparable boards, enabling price-based comparison shopping.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+  <url>https://www.snowboardingforum.com/threads/powder-board-recommendations.279122/</url>
+  <quote>My favorite for good pow overall was the Storm Chaser. Very slashable and nibble yet happy to be ridden hard and fast.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/powder-board-recommendations.279122/</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2023-04</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Snowboarding forum discussion from experienced riders comparing powder boards. Provides real-world user perspectives on competitors (Storm Chaser, Storm Wolf). Lower credibility than professional reviews but useful for purchaser sentiment.</reasoning>
+  <evidentiary_alignment>0.65</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+  <url>https://boardersla.com/products/burton-20-21-family-tree-sensei-snowboard</url>
+  <quote>Designed in collaboration with Japanese powder riding legend Masanori Takeuchi (aka Masa), the Sensei's long, narrow shape serves up a surf-inspired feel</quote>
+  </quotelist>
+  <url_with_text_link>https://boardersla.com/products/burton-20-21-family-tree-sensei-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2022</date_of_last_relevance>
+  <reasoning>Shows that Masanori Takeuchi previously designed the Family Tree Sensei, confirming his long history of collaborating with Burton on powder-focused boards. The Smooth Operator can be seen as a spiritual successor.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-family-tree-smooth-operator-2026</url>
+    <quote>AUD price: $1,199.99; manufacturer: Burton; brand: Burton; model name: Family Tree Smooth Operator; model year: 2026</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-family-tree-smooth-operator-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

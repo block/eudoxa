@@ -1,0 +1,962 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="construction_material_innovation" count="6" category="construction" />
+  <duplicate_canonical name="positive_aspect" count="5" category="review" />
+  <duplicate_canonical name="negative_aspect" count="5" category="review" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="setback" count="4" category="unknown" />
+  <duplicate_canonical name="skill_level_recommendation" count="4" category="recommendation" />
+  <duplicate_canonical name="price_aud_merchant" count="3" category="pricing" />
+  <duplicate_canonical name="availability_status" count="3" category="availability" />
+  <duplicate_canonical name="sustainability_certification" count="3" category="sustainability" />
+  <duplicate_canonical name="flex_feel" count="3" category="performance" />
+  <duplicate_canonical name="available_sizes" count="3" category="availability" />
+  <duplicate_canonical name="sidecut_radius_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="recommended_weight_range_size" count="3" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="terrain_suitability" count="3" category="recommendation" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="3" category="review" />
+  <duplicate_canonical name="user_review_forum" count="3" category="review" />
+  <duplicate_canonical name="binding_compatibility" count="3" category="unknown" />
+  <duplicate_canonical name="gender" count="2" category="identity" />
+  <duplicate_canonical name="model_first_available_year" count="2" category="identity" />
+  <duplicate_canonical name="price_usd_msrp" count="2" category="pricing" />
+  <duplicate_canonical name="price_usd_evo" count="2" category="pricing" />
+  <duplicate_canonical name="core_material" count="2" category="construction" />
+</canonical_schema>
+
+<answer>
+1. brand: Burton [1][6]
+2. model_name: Custom Flying V [1][6]
+3. model_year: 2027 [MERCHANT][9]
+4. product_type: Snowboard [1][6]
+5. board_category: All Mountain [6][10]
+6. gender: Men's [1][10]
+7. manufacturer: Burton Snowboards, founded by Jake Burton Carpenter in Vermont in 1977 [6][20]
+8. model_first_available_year: 1995/96 season (launched for the 1995/96 winter) [42][47]
+9. model_first_available_year: 2010/2011 season (the Flying V profile debuted in 2009/10 on a standalone "Flying V" model; the "Custom Flying V" first appeared for the 2010/11 season) [63][64]
+10. Model series: Burton Custom (longest-running model in Burton's lineup) [42][44]
+11. Best-selling snowboard of all time (marketing claim) [42][48]
+12. comparable_board_same_brand: Burton Custom Camber (same board in traditional camber profile) [12][40]
+13. available_colors: "Jungle" [9][6]
+14. 30th anniversary of the Custom series: celebrated in 2025 [42][46]
+15. price_aud_merchant: $1,049.99 AUD [MERCHANT]
+16. price_aud_merchant: $1,019.00 AUD [74]
+17. price_aud_merchant: $999.99 AUD [Auski page — fetched]
+18. price_usd_msrp: $679.95 USD [92][93][94]
+19. price_usd_evo: $679.95 USD [94]
+20. price_usd_msrp: $679.95 USD [36]
+21. CAD price at Burton Canada (prior season): $879.99 CAD [36]
+22. EUR price at SnowCountry (prior season): €599.00 EUR [36]
+23. price_usd_evo: ~$509.96 USD [36]
+24. estimated_availability_date: Expected delivery April 2026 [9]
+25. Shipping restriction (AU merchant): Only available for shipping within Australia [MERCHANT]
+26. availability_status: Burton.com, evo.com, REI, Backcountry.com, The-House.com, ERIK'S, Peter Glenn, Salty Peaks, Amazon [Various — 1, 10, 14, 16, 37, 38, 39, 87]
+27. availability_status: Melbourne Snowboard Centre, Auski, Twelve Board Store, Elevation107, Rhythm Snowsports [72][74][75][79]
+28. availability_status: Quest Store Queenstown [9]
+29. warranty: 3-year warranty from date of purchase (all 2014+ Burton boards with Channel system) [1][37][39]
+30. Burton customer service phone (US): (800) 881-3138 [2]
+31. Burton B Corp certified [Burton website footer]
+32. shape: Directional (longer nose than tail) [1][10][MERCHANT]
+33. flex_direction: Twin (symmetrical flex tip to tail) [1][10][MERCHANT]
+34. Shape description: Directional shape with twin flex — directional shape keeps you carving, twin flex inspires freestyle fun [6][10]
+35. camber_type: Flying V (hybrid rocker/camber: rocker zones between and outside feet, camber zones under feet) [1][10][MERCHANT]
+36. camber_description: Roc/Cam/Roc/Cam/Roc [84]
+37. Tip/tail design: Pro-Tip (tapered tip and tail thickness, reducing swing weight and promoting mobility) [1][MERCHANT]
+38. setback: -1.25 cm [MERCHANT]
+39. flex_rating_10: 4.5/10 [MERCHANT]
+40. flex_feel: Medium [84][38]
+41. flex_feel: Perfectly symmetrical twin flex from tip to tail [10][17]
+42. core_material: Super Fly II 700G (dual-species wood core) [1][10][MERCHANT]
+43. Core description: Stronger and lighter woods targeted in specific areas for pop, strength, and reduced weight [10][17]
+44. construction_material_innovation: Squeezebox (thicker powerful sections combined with thinner flexible sections profiled throughout core) [10][17][MERCHANT]
+45. construction_material_innovation: Dualzone EGD (wood grain aligned along heel and toe edges in two unbroken zones perpendicular to rest of core) [10][17][MERCHANT]
+46. laminate: 45° Carbon Highlights (tip-to-tail carbon layer, 45° angled fibres fine-tuning torsional flex) [10][17][MERCHANT]
+47. construction_material_innovation: Optimizes fiberglass matrix and adds full tip-to-tail carbon layer to reduce weight and fine-tune torsional feel [17][84]
+48. base_material: Sintered WFO (extra-absorbent high-density sintered material infused with specially formulated wax) [1][MERCHANT]
+49. Base description: Ultra-durable, stays fast all season [84]
+50. edge_technology: Frostbite Edges (edges extend out slightly under bindings for enhanced edge hold on hardpack/ice) [MERCHANT][8]
+51. resin: Super Sap Epoxy (bio-based, reduces carbon footprint by 50% over petroleum-based epoxies) [10][17][MERCHANT]
+52. construction_material_innovation: Infinite Ride (boards overbuilt then machine-broken-in so board rides same from day 1 to day 100) [8][10][MERCHANT]
+53. mounting_pattern: The Channel (channel system for fine-tuned stance, compatible with all major bindings, best with Burton EST) [10][17][MERCHANT]
+54. Channel inserts included: Yes [10][17]
+55. available_sizes: 154cm, 156cm, 158cm [MERCHANT]
+56. available_sizes: 150cm, 154cm, 154W, 156cm, 158cm, 158W, 162cm, 162W, 166W [87]
+57. available_sizes: 150cm, 154cm, 156cm, 158cm, 158W, 162W [Auski page — fetched]
+58. width_options: Standard and Wide [MERCHANT]
+59. Effective edge 154cm: 117.5 cm [MERCHANT]
+60. sidecut_radius_size: 7.6 m [MERCHANT]
+61. tip_tail_width_size: 29.2 cm [MERCHANT]
+62. Waist width 154cm: 25.0 cm [MERCHANT]
+63. stance_width_range_size: 53.0 cm [MERCHANT]
+64. setback: -1.25 cm [MERCHANT]
+65. recommended_weight_range_size: 54–82 kg [MERCHANT]
+66. SKU 154cm: 1070719I66RG154 [MERCHANT]
+67. Effective edge 156cm: 119.5 cm [MERCHANT]
+68. sidecut_radius_size: 7.8 m [MERCHANT]
+69. tip_tail_width_size: 29.4 cm [MERCHANT]
+70. Waist width 156cm: 25.2 cm [MERCHANT]
+71. stance_width_range_size: 53.0 cm [MERCHANT]
+72. setback: -1.25 cm [MERCHANT]
+73. recommended_weight_range_size: 68–91 kg [MERCHANT]
+74. Effective edge 158cm: 121.5 cm [MERCHANT]
+75. sidecut_radius_size: 7.9 m [MERCHANT]
+76. tip_tail_width_size: 29.7 cm [MERCHANT]
+77. Waist width 158cm: 25.4 cm [MERCHANT]
+78. stance_width_range_size: 56.0 cm [MERCHANT]
+79. setback: -1.25 cm [MERCHANT]
+80. recommended_weight_range_size: 68–91 kg [MERCHANT]
+81. terrain_suitability: 5/10 [MERCHANT]
+82. terrain_suitability: 10/10 [MERCHANT]
+83. terrain_suitability: 6/10 [MERCHANT]
+84. skill_level_recommendation: Beginner–Intermediate [MERCHANT]
+85. skill_level_recommendation: Intermediate/Expert [37] — DISAGREEMENT: The merchant site lists "Beginner–Intermediate" while The-House.com and other retailers list "Intermediate/Expert." Multiple review sites (snowboardhow, extremenomads, evo) also recommend intermediate-to-advanced riders. The merchant's "Beginner–Intermediate" label is unusual and may be a data entry error or region-specific marketing.
+86. skill_level_recommendation: Intermediate–Advanced [84]
+87. skill_level_recommendation: Intermediate/Expert [72]
+88. flex_feel: Playful, forgiving, loose, surfier than camber version [7][13][36]
+89. positive_aspect: Excellent butter/press ability and playfulness [7][12]
+90. positive_aspect: Good powder float due to rocker and directional shape [7][13][88]
+91. positive_aspect: Easy turn initiation, quick edge-to-edge [5][13][88]
+92. positive_aspect: Forgiving and catch-free — good for progressing riders [13][88]
+93. positive_aspect: Good for switch riding due to twin flex [25][10]
+94. negative_aspect: Reduced edge hold on hard pack and ice compared to camber boards [7][13][88]
+95. negative_aspect: Feels loose and unstable at high speeds [5][13][7]
+96. negative_aspect: Speed wobbles on uneven hard terrain reported by multiple users [7]
+97. negative_aspect: Pop rated low (6/10 by Outdoor Gear Lab) relative to competitors [13]
+98. negative_aspect: Not ideal for aggressive high-speed carving [5][13]
+99. reviewer_opinion_the_good_ride: "Mellow, playful, easier floating version of the Custom that pops and butters really well; however, in hard snow loses a lot of its charm" [7][36]
+100. Review score (Outdoor Gear Lab): 7/10 overall [5]
+101. Review verdict (Outdoor Gear Lab): Too soft and rockered to qualify as one of the best all-mountain boards; recommended for beginners or casual riders [5][13]
+102. Review (snowboardhow.com): Rated as an excellent board for intermediate-to-advanced; too aggressive for beginners [85]
+103. Review (extremenomads.life): Better suited for intermediate and expert riders despite being forgiving [83]
+104. Review (Board of the World – Custom Camber review with Flying V comparison): Flying V version better for powder, buttering, and beginners who want a forgiving premium board [12]
+105. reviewer_opinion_the_good_ride: Hard pack and ice conditions make it feel dangerous at speed — good in soft snow only [7][88]
+106. user_review_forum: "Best board I've ever ridden" with proper carving technique; edge grip not a problem for confident riders [30]
+107. user_review_forum: Lightweight, stable, playful; worse edge grip than traditional camber [24]
+108. reviewer_opinion_the_good_ride: The board's ride personality has been largely unchanged since 2014; Burton refines it incrementally each year [36]
+109. Infinite Ride verdict (review sites): Board flex maintained consistently over seasons — no break-in period needed [8][10]
+110. sustainability_certification: Super Sap Epoxy reduces carbon footprint by 50% vs petroleum-based epoxy [10][17]
+111. Past models featured FSC-certified core wood (noted in 2020 and 2023 model descriptions); current 2027 model does not explicitly mention FSC certification in merchant listing [28][40] — Unverified for 2027 model specifically
+112. comparable_board_same_brand: Burton Custom Camber — same shape/core but traditional camber; stiffer, better edge hold, better carving, less forgiving [12][40]
+113. Burton Custom Camber flex: 6/10 (vs Custom Flying V 4.5/10) [12]
+114. Burton Custom Camber MSRP: $669.95 USD [56]
+115. comparable_board_cross_brand: Jones Mountain Twin — camrock profile with Traction Tech 2.0 edges; better ice/hard-pack edge hold; more beginner-friendly [53][56][60]
+116. Jones Mountain Twin pricing: Approximately $120 USD less than Custom Camber [56]
+117. Jones Mountain Twin edge hold advantage: Traction Tech 2.0 adds contact points for ice grip [56][60]
+118. comparable_board_cross_brand: Ride Algorythm — cam-rock profile, rave reviews for versatile all-mountain [57]
+119. comparable_board_cross_brand: Never Summer Proto Type Two — scored 9/10 powder float, better pop than Flying V per Outdoor Gear Lab [13]
+120. comparable_board_same_brand: Burton Flight Attendant — directional all-mountain/freeride; better stability at speed and powder float (10/10 stability per OGL) [5][13]
+121. comparable_board_cross_brand: Lib Tech Travis Rice Pro — best edge hold (10/10 per OGL); superior carving [5][13]
+122. comparable_board_cross_brand: YES Typo and Never Summer Snowtrooper — recommended for riders wanting forgiving flex with better icy-condition performance [15][90]
+123. comparable_board_same_brand: Burton Process Flying V — softer, more freestyle-focused, Mark McMorris pro connection [80]
+124. user_review_forum: Jones Mountain Twin often preferred over Flying V for icy East Coast conditions [53]
+125. Burton.com: Official manufacturer store; premium pricing; 3-year warranty direct; pre-order available [2]
+126. evo.com: Large US online retailer; 5% price-beat guarantee; up to 1-year returns; 10% rewards [84][94]
+127. REI Co-op: Major US outdoor retailer; member benefits; expert staff [14]
+128. Backcountry.com: Large US online retailer; expert staff available [16]
+129. The-House.com: Long-standing board sports retailer; 90-day returns [37]
+130. ERIK'S Bike Board & Ski: US Midwest chain; 10% bundle discount on Burton gear; free binding installation with purchase [87][38]
+131. Peter Glenn: US specialty sports retailer [92]
+132. Salty Peaks: Specialty snowboard shop (Salt Lake City); knowledgeable staff [8]
+133. Amazon: Available on Amazon US [39]
+134. Auski Australia: Australian retailer since 1949; free AU shipping over $99; 30-day returns for online [75]
+135. Twelve Board Store (AU): Melbourne-based; free shipping over $90 [74]
+136. Melbourne Snowboard Centre (AU): Independent AU store; 30-day returns for online [72]
+137. Quest Store (NZ): Queenstown; free click & collect [9]
+138. eBay: Used and new models available from third-party sellers [32][34]
+139. Channel mounting system compatible with all major binding brands [10][17]
+140. Best compatibility with Burton EST bindings [72][MERCHANT]
+141. Also compatible with Burton Re:Flex bindings [Burton lineup general knowledge]
+142. Channel inserts required to mount bindings (included with board) [10]
+143. sidecut_type: Standard radial sidecut [MERCHANT]
+144. construction_material_innovation: Infinite Ride [8][10]
+145. construction_material_innovation: 45° Carbon Highlights (tip-to-tail) [10][17]
+146. core_material: Dual species (two types of wood) [10][4]
+147. base_type: Sintered [1][10]
+148. sidewall_material: Not explicitly specified for 2027; historically "10:45" sidewalls noted on 2012 model [30]
+149. topsheet: Not explicitly specified
+150. manufacturing_location: Not specified in available sources — Unverified
+151. board_weight_grams: Not published by Burton for this model — Unverified
+152. Recommended stance angles (reviewer setups): Typically 15°/-9° to 15°/-15° duck [36]
+153. gender: Men's (women's equivalent is Burton Feelgood Flying V) [47]
+</answer>
+
+<citations>
+
+<citation id="1">
+<quotelist>
+<url>https://www.the-house.com/1147001.html</url>
+<quote>Bend: Flying V™ • Shape: Directional • Flex: Twin • Core: Super Fly II™ 700G Core with Dualzone™ EGD™</quote>
+<quote>Riding Level: Intermediate/Expert • Sustainability: Super Sap® Epoxy • Warranty: 3-YEAR WARRANTY</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/1147001.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The-House.com is a well-established US snowboard retailer listing official Burton specs. Directly states key specifications and riding level for the Custom Flying V.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://www.burton.com/us/en/p/mens-burton-custom-flying-v-snowboard/W26-107071.html</url>
+<quote>Shop the Men's Custom Flying V Snowboard and other all mountain, park, and powder boards from Burton.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/us/en/p/mens-burton-custom-flying-v-snowboard/W26-107071.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Official Burton manufacturer page for the Custom Flying V. The page was largely JavaScript-rendered with limited spec content, but confirms the product exists on Burton.com for the 2026 winter season.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://progressivesports.com/products/men-s-burton-custom-flying-v-snowboard</url>
+<quote>Super Fly® 700G Core is a dual-species wood core that is loaded with pop and reduces overall weight.</quote>
+</quotelist>
+<url_with_text_link>https://progressivesports.com/products/men-s-burton-custom-flying-v-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Authorized Burton dealer listing using official Burton marketing copy. Confirms dual-species wood core specification.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-men/burton-custom-flying-v</url>
+<quote>Scoring 7 out of 10 puts it at the bottom of the barrel in this category.</quote>
+<quote>At slow speeds it was a real treat as it was extremely agile.</quote>
+</quotelist>
+<url_with_text_link>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-men/burton-custom-flying-v</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>OutdoorGearLab is a respected independent testing and review site using standardized metrics. The board was tested in 2017, and the review notes Burton has updated it since. Scores are reliable for general ride characteristics even though exact model year differs.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://www.auski.com.au/products/burton-custom-jungle-flyingv-snowboard-2027</url>
+<quote>Since 1996, this icon has reigned supreme and constantly evolved.</quote>
+<quote>Flying V Bend The combination of camber and rocker creates a playful feel with focused edge control.</quote>
+</quotelist>
+<url_with_text_link>https://www.auski.com.au/products/burton-custom-jungle-flyingv-snowboard-2027</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-01</date_of_first_relevance>
+<date_of_last_relevance>2026-12</date_of_last_relevance>
+<reasoning>Auski is a well-established Australian retailer listing the 2027 model specifically. Uses official Burton marketing copy. Price confirmed at $999.99 AUD.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-snowboard-review/</url>
+<quote>The Burton Custom Flying V is the mellow playful easier floating version Burton Custom that pops and butters really well.</quote>
+<quote>If you ride in hard snow it loses a lot of its charm.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>TheGoodRide is a well-respected independent snowboard review site that tests boards extensively and does not accept manufacturer payment. Multiple riders tested this board over many days. Core ride characteristics remain relevant to 2027 model given incremental updates.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://www.saltypeaks.com/product/custom-flying-v-snowboard-1702083632/</url>
+<quote>Infinite Ride™ allows maximized pop and strength by overbuilding the board, then putting it in a machine that breaks in the board.</quote>
+<quote>Frostbite edges, and Superfly II core provides opportunity for improvement.</quote>
+</quotelist>
+<url_with_text_link>https://www.saltypeaks.com/product/custom-flying-v-snowboard-1702083632/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>Salty Peaks is a specialty snowboard shop. Their listing includes detailed Burton technology descriptions that confirm Infinite Ride and Frostbite edges specs.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://shop.queststore.co.nz/products/burton-custom-flying-v-snowboard-2027-jungle</url>
+<quote>Pre-Orders on 2027 Burton Snowboards available now - Expected delivery due April 2026.</quote>
+</quotelist>
+<url_with_text_link>https://shop.queststore.co.nz/products/burton-custom-flying-v-snowboard-2027-jungle</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-01</date_of_first_relevance>
+<date_of_last_relevance>2026-12</date_of_last_relevance>
+<reasoning>Quest Store NZ is an authorized Burton dealer in Queenstown. Confirms 2027 model year and pre-order availability with April 2026 delivery estimate.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url>
+<quote>Flying V™ features rocker zones between and outside your feet for enhanced playfulness, and float and camber zones.</quote>
+<quote>Super Fly II™ 700G Core – Stronger and lighter woods target specific areas to provide pop, strength, and reduced weight.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>evo.com is one of the largest and most reputable online snowboard retailers in the US. Uses official Burton product descriptions. This is the 2026 model listing but specs carry over to 2027.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://www.boardoftheworld.com/burton-custom-camber-review/</url>
+<quote>The Flying V version is better suited for someone who rides in powder often, butters a lot, or is a beginner learning to ride.</quote>
+<quote>Burton rates the 2025 Custom Camber with a 6 out of 10 flex.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/burton-custom-camber-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025</date_of_first_relevance>
+<date_of_last_relevance>2026-03</date_of_last_relevance>
+<reasoning>Board of the World is a snowboard review site with detailed comparisons. Provides useful context on how the Flying V differs from the Camber version and competitor comparisons.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-men/burton-custom-flying-v</url>
+<quote>We found this board to be soft, forgiving, and delightfully playful - perfect if you don't plan to push the limits too far.</quote>
+<quote>Six out of 10 — the lowest scoring in pop.</quote>
+</quotelist>
+<url_with_text_link>https://www.outdoorgearlab.com/reviews/snow-sports/snowboard-men/burton-custom-flying-v</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Same source as citation 5. Additional quotes supporting pop rating and beginner-friendliness observations. OGL notes the board has been updated since testing.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://www.rei.com/product/238076/burton-custom-flying-v-snowboard-20242025</url>
+<quote>Lightweight, poppy and super versatile, the Burton Custom Flying V snowboard combines the power of camber with the relaxed float of rocker.</quote>
+</quotelist>
+<url_with_text_link>https://www.rei.com/product/238076/burton-custom-flying-v-snowboard-20242025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2025</date_of_last_relevance>
+<reasoning>REI is a highly reputable US outdoor co-op retailer. Confirms availability through major retail channels.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://snowboardingprofiles.com/burton-custom-x-flying-v-review-all-mountain-snowboard-reviews</url>
+<quote>Something like the Never Summer Snowtrooper or YES Typo were some options that are nice and forgiving but still good in icy conditions.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/burton-custom-x-flying-v-review-all-mountain-snowboard-reviews</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>SnowboardingProfiles provides independent reviews and forum-style advice from experienced riders. Suggests alternatives for icy conditions where Flying V boards struggle.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://www.backcountry.com/burton-custom-flying-v-snowboard-2025</url>
+<quote>This board surfs pow and rides rails with equal fun, combining performance tech with the laid-back personality.</quote>
+</quotelist>
+<url_with_text_link>https://www.backcountry.com/burton-custom-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2025</date_of_last_relevance>
+<reasoning>Backcountry.com is a major US outdoor retailer. Confirms availability and provides marketing description.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard-2025</url>
+<quote>45˚ Carbon Highlights adds a full tip-to-tail carbon layer to reduce weight and fine tune torsional feel.</quote>
+<quote>Super Sap® Epoxy – A resin formulated with bio-based materials that reduces the carbon footprint by 50%.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024</date_of_first_relevance>
+<date_of_last_relevance>2025</date_of_last_relevance>
+<reasoning>evo.com listing for the 2025 model with detailed official Burton technology descriptions. These specs carry forward year to year.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url>
+<quote>Born from decades of innovation and evolution, the Custom Flying V proves that some classics just keep getting better.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>evo.com 2026 listing. Supports marketing claims about the board's heritage.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://www.freeride.com/gear/snowboards/burton-custom-flying-v.html</url>
+<quote>Strengths: Lightweight, consistent and stable. Weaknesses: Worse edge grip than a similar board with traditional camber.</quote>
+</quotelist>
+<url_with_text_link>https://www.freeride.com/gear/snowboards/burton-custom-flying-v.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2011</date_of_first_relevance>
+<date_of_last_relevance>2021</date_of_last_relevance>
+<reasoning>Freeride.com aggregates user reviews across multiple model years. The consistent theme of lightweight/stable positives and edge grip weakness aligns with all other sources.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-restricted-review-and-buying-advice/</url>
+<quote>If you really like to ride switch the Custom Flying V is the call of the hybrid rocker customs.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-restricted-review-and-buying-advice/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2017</date_of_first_relevance>
+<date_of_last_relevance>2024-02</date_of_last_relevance>
+<reasoning>TheGoodRide review of the Restricted variant confirms switch-riding capability of the Flying V platform.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard-2020</url>
+<quote>Built with a premium FSC™ Certified Super Fly II™ 700G Core with carbon reinforcements.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard-2020</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019</date_of_first_relevance>
+<date_of_last_relevance>2020</date_of_last_relevance>
+<reasoning>The 2020 model listing at evo mentions FSC certification for the core. This certification may or may not carry over to 2027 — Burton does not always mention it in later listings.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://www.snowboard-review.com/snowboard_reviews/review/Custom_Flying_V2/</url>
+<quote>I love this board! No signs of grip lacking and conditions have been different from hardpack to fresh snow.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboard-review.com/snowboard_reviews/review/Custom_Flying_V2/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2012</date_of_first_relevance>
+<date_of_last_relevance>2013</date_of_last_relevance>
+<reasoning>User review on snowboard-review.com providing a counterpoint to the edge-hold complaints. Shows that confident carvers can overcome edge hold concerns with proper technique.</reasoning>
+<evidentiary_alignment>0.65</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-2010-2018-snowboard-review/</url>
+<quote>$509.96 Buy it Now from evo · $679.95 Buy it Now from Burton US · $879.99 from Burton Snowboards Canada</quote>
+<quote>The Burton Custom Flying V 2014 to 2017 is pretty much the same general ride.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-2010-2018-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>TheGoodRide's comprehensive review covers 2010-2018 models with price links and notes about ride consistency across model years. Confirms pricing at multiple retailers.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://www.the-house.com/1147001.html</url>
+<quote>Riding Level: Intermediate/Expert</quote>
+<quote>Warranty: 3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system.</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/1147001.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>The-House.com is a reputable retailer. Lists riding level as Intermediate/Expert, conflicting with the merchant's Beginner-Intermediate rating.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url>
+<quote>Medium Flex- 4-6 Flex. Versatile and responsive in varying conditions and terrain.</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>ERIK'S is a US Midwest chain retailer listing official specs. Classifies 4-6 flex as "Medium" category.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://www.amazon.com/Mens-Burton-Custom-Flying-Snowboard/dp/B0G2N11ZD6</url>
+<quote>3-YEAR WARRANTY All 2014 and newer Burton snowboards with The Channel mounting system are backed by a three-year warranty.</quote>
+</quotelist>
+<url_with_text_link>https://www.amazon.com/Mens-Burton-Custom-Flying-Snowboard/dp/B0G2N11ZD6</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Amazon listing confirms availability and warranty terms. Product listed as 154cm Jungle graphic.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://blauerboardshop.com/products/burton-custom-flying-v-2023</url>
+<quote>Offered in two versions, the precision and stability of the Custom camber is the top choice for many pro riders.</quote>
+<quote>FSC™ Certified Super Fly II™ 700G Core</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/burton-custom-flying-v-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2022</date_of_first_relevance>
+<date_of_last_relevance>2023</date_of_last_relevance>
+<reasoning>Blauer Board Shop listing of the 2023 model confirms the two-version Custom line and FSC certification on the 2023 core.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://www.burton.com/blogs/the-burton-blog/from-prototype-to-icon-burton-custom-turns-30/</url>
+<quote>Officially unveiled at a Burton sales meeting in January of 1995 and launched for the first time the following winter (1995/96 season).</quote>
+<quote>2025 marks the Custom's thirtieth anniversary.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/blogs/the-burton-blog/from-prototype-to-icon-burton-custom-turns-30/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1996</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Official Burton blog post about the Custom's 30th anniversary. Primary source from the manufacturer for the Custom series history and launch date.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="44">
+<quotelist>
+<url>https://www.snowboard.international/gear/30-years-of-burton-custom/?v=0b3b97fa6688</url>
+<quote>the Custom has remained the longest-running model in Burton's line – consistently refined but never losing its identity.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboard.international/gear/30-years-of-burton-custom/?v=0b3b97fa6688</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-10</date_of_first_relevance>
+<date_of_last_relevance>2025-10</date_of_last_relevance>
+<reasoning>Snowboard International is a respected snowboard media publication. Confirms the Custom's status as Burton's longest-running model.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="46">
+<quotelist>
+<url>https://www.burton.com/us/en/c/burton-custom-30th-anniversary</url>
+<quote>The only board that never left the lineup.</quote>
+</quotelist>
+<url_with_text_link>https://www.burton.com/us/en/c/burton-custom-30th-anniversary</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025</date_of_first_relevance>
+<date_of_last_relevance>2026</date_of_last_relevance>
+<reasoning>Official Burton 30th anniversary page for the Custom series. Confirms continuous production and anniversary status.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="47">
+<quotelist>
+<url>https://snowboardmag.com/stories/lineage-the-infallible-burton-custom</url>
+<quote>Introduced in 1996, the Burton Custom is the original quiver killer—the longest-running single model in snowboarding history.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardmag.com/stories/lineage-the-infallible-burton-custom</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-10</date_of_first_relevance>
+<date_of_last_relevance>2025-10</date_of_last_relevance>
+<reasoning>Snowboard Magazine is a well-respected specialist publication. Confirms 1996 debut and historical significance.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="48">
+<quotelist>
+<url>https://snowboardcollector.com/custom96</url>
+<quote>To date it is the biggest selling snowboard model of all time.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardcollector.com/custom96</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1996</date_of_first_relevance>
+<date_of_last_relevance>2026</date_of_last_relevance>
+<reasoning>Snowboard collector site with historical context. The "best-selling" claim is widely repeated but hard to verify independently — treated as a marketing claim with moderate confidence.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="53">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/jones-mountain-twin-or-custom-flying-v.134074/</url>
+<quote>Jones'll have better edge hold with camber and mellow magnetraction.</quote>
+<quote>She finds the profile of her Burton just too loose for most of the conditions we ride in.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/jones-mountain-twin-or-custom-flying-v.134074/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2014</date_of_first_relevance>
+<date_of_last_relevance>2014</date_of_last_relevance>
+<reasoning>Snowboarding Forum is a well-established community. Multiple users comparing Jones Mountain Twin vs Custom Flying V consistently report better edge hold for Jones in icy conditions.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.45</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="56">
+<quotelist>
+<url>https://www.boardoftheworld.com/burton-custom-camber-review/</url>
+<quote>The Custom Camber retails for $669.95, and it's $120 more than other comparable options (like the Jones Mountain Twin).</quote>
+<quote>Jones Mountain Twin is the better option for East Coast (riding on ice) riding. It has the better edge hold.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/burton-custom-camber-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025</date_of_first_relevance>
+<date_of_last_relevance>2026-03</date_of_last_relevance>
+<reasoning>Board of the World provides detailed side-by-side comparisons. Confirms Custom Camber pricing and Jones Mountain Twin's edge hold advantage.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="57">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/lib-tech-terrain-wrecker-vs-jones-mountain-twin-vs-ride-algorhythm.268216/</url>
+<quote>I think you're better off with a cam-rock profile like the MT or the Algorythm.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-terrain-wrecker-vs-jones-mountain-twin-vs-ride-algorhythm.268216/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2021</date_of_last_relevance>
+<reasoning>Forum discussion comparing all-mountain boards. Ride Algorythm mentioned as a well-reviewed alternative for similar riding style.</reasoning>
+<evidentiary_alignment>0.65</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="60">
+<quotelist>
+<url>https://www.boardoftheworld.com/the-burton-custom-camber-vs-jones-mountain-twin/</url>
+<quote>Jones Mountain Twin's directional twin shape, along with its 3D nose and tail, helps it float better in powder.</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/the-burton-custom-camber-vs-jones-mountain-twin/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2025-06</date_of_last_relevance>
+<reasoning>Detailed comparison article between Burton Custom Camber and Jones Mountain Twin. Useful for understanding competitor positioning.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="63">
+<quotelist>
+<url>https://www.snowdb.com/catalog/burton/2011/custom-flying-v</url>
+<quote>Snowboard Burton Custom Flying V 2010/2011</quote>
+</quotelist>
+<url_with_text_link>https://www.snowdb.com/catalog/burton/2011/custom-flying-v</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2010</date_of_first_relevance>
+<date_of_last_relevance>2011</date_of_last_relevance>
+<reasoning>SnowDB is a snowboard catalog database. Confirms the Custom Flying V first appeared as a distinct model for the 2010/2011 season.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="64">
+<quotelist>
+<url>https://unofficialnetworks.com/2010/12/14/gear-review-burton-custom-flying-v/</url>
+<quote>The Burton Custom Flying-V is one of those boards that will step up your game no matter where you ride.</quote>
+</quotelist>
+<url_with_text_link>https://unofficialnetworks.com/2010/12/14/gear-review-burton-custom-flying-v/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2010-12</date_of_first_relevance>
+<date_of_last_relevance>2010-12</date_of_last_relevance>
+<reasoning>Unofficial Networks review from December 2010 — one of the earliest reviews of the Custom Flying V, confirming its debut year.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="72">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/burton-custom-flying-v</url>
+<quote>Skill Level: Intermediate / Expert Board</quote>
+<quote>From beginner to pro, park to powder, the Custom does it all.</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-custom-flying-v</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre listing for 2027 model. Lists skill level as Intermediate/Expert, consistent with The-House and evo but conflicting with the merchant's Beginner-Intermediate.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="74">
+<quotelist>
+<url>https://twelveboardstore.com.au/en-us/pages/burton-snowboards-australia</url>
+<quote>Sale price$1,019.00 Burton Men's Custom Flying V Snowboard Jungle | 2027</quote>
+</quotelist>
+<url_with_text_link>https://twelveboardstore.com.au/en-us/pages/burton-snowboards-australia</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Twelve Board Store is an established Melbourne AU retailer. Confirms AUD pricing for 2027 model at $1,019.00.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="75">
+<quotelist>
+<url>https://www.auski.com.au/products/burton-custom-jungle-flyingv-snowboard-2027</url>
+<quote>Burton was born in the mountains from the mind of Jack Burton Carpenter in a Vermont barn in 1977.</quote>
+</quotelist>
+<url_with_text_link>https://www.auski.com.au/products/burton-custom-jungle-flyingv-snowboard-2027</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026</date_of_first_relevance>
+<date_of_last_relevance>2026-12</date_of_last_relevance>
+<reasoning>Auski Australia listing for the 2027 Custom Flying V "Jungle" graphic. Provides detailed feature descriptions and confirmed $999.99 AUD pricing.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="80">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/burton-process-flying-v</url>
+<quote>Designed to meet the pro end demands of Burton pro rider Mark McMorris.</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-process-flying-v</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026</date_of_first_relevance>
+<date_of_last_relevance>2026-12</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre listing for the Process Flying V — a key comparable/alternative product. Confirms Mark McMorris connection.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="83">
+<quotelist>
+<url>https://extremenomads.life/burton-custom-flying-v/</url>
+<quote>Despite being a versatile and forgiving snowboard, the Flying V is much more suited to intermediate and expert riders.</quote>
+</quotelist>
+<url_with_text_link>https://extremenomads.life/burton-custom-flying-v/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2023-03</date_of_first_relevance>
+<date_of_last_relevance>2023-03</date_of_last_relevance>
+<reasoning>Extreme Nomads review by a snowboard writer. Reinforces intermediate-to-expert rider level recommendation, contradicting the merchant's "Beginner-Intermediate" label.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="84">
+<quotelist>
+<url>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url>
+<quote>Intermediate-Advanced Whether you're a progressing intermediate exploring new runs and terrain, or an accomplished rider.</quote>
+<quote>Roc/Cam/Roc/Cam/Roc This is a blend of camber and rocker.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/burton-custom-flying-v-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>evo.com 2026 listing with detailed ability-level classification and profile explanation. Classifies as Intermediate-Advanced.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="85">
+<quotelist>
+<url>https://snowboardhow.com/burton-custom-flying-v-review/</url>
+<quote>If you are an intermediate to advanced rider looking for a quality all-mountain option, this is an excellent board to ride.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardhow.com/burton-custom-flying-v-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-01</date_of_first_relevance>
+<date_of_last_relevance>2025</date_of_last_relevance>
+<reasoning>SnowboardHow review by a certified instructor. Clear recommendation for intermediate-to-advanced, explicitly stating not for beginners.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="87">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url>
+<quote>Color: Jungle · Size: 150cm, 154cm, 154w, 156cm, 158cm, 158w, 162cm, 162w, 166w</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>ERIK'S lists the full size range for the 2026 model year including wide options. The 2027 merchant listing only shows 3 sizes, suggesting a reduced regional offering.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="88">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-2010-2018-snowboard-review/</url>
+<quote>It does everything except riding hard pack or ice.</quote>
+<quote>I recommend this board to a beginner that wants to get to the next level because this board is a catch free board.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/burton-custom-flying-v-2010-2018-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>User reviews aggregated on TheGoodRide. Multiple users confirm hard-pack/ice weakness and recommend for beginners through intermediates in soft snow conditions.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="90">
+<quotelist>
+<url>https://snowboardingprofiles.com/burton-custom-x-flying-v-review-all-mountain-snowboard-reviews</url>
+<quote>Have been looking at Burton Process Flying V and Custom Flying V, but reviews not great on icy conditions.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/burton-custom-x-flying-v-review-all-mountain-snowboard-reviews</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Forum comment from an older rider seeking advice. Reflects common concern about Flying V boards in icy conditions among prospective buyers.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="92">
+<quotelist>
+<url>https://peterglenn.com/burton-custom-flying-v-snowboard-men-s-2026-winter/</url>
+<quote>Sale: $679.95</quote>
+</quotelist>
+<url_with_text_link>https://peterglenn.com/burton-custom-flying-v-snowboard-men-s-2026-winter/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>Peter Glenn confirms $679.95 USD MSRP for the 2026 model year. Consistent across all US retailers checked.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="93">
+<quotelist>
+<url>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url>
+<quote>Regular price $679.95</quote>
+</quotelist>
+<url_with_text_link>https://www.eriksbikeshop.com/products/burton-custom-flying-v-mens-snowboard-2026-pr5a24508</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>ERIK'S confirms same $679.95 USD price for the 2026 model.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="94">
+<quotelist>
+<url>https://www.evo.com/outlet/snowboards/burton-custom-flying-v-snowboard-2023</url>
+<quote>Burton Custom Flying V Snowboard 2026 · $679.95</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/outlet/snowboards/burton-custom-flying-v-snowboard-2023</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04</date_of_last_relevance>
+<reasoning>evo.com cross-links to the current 2026 model at $679.95. Consistent pricing confirmation.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/burton-custom-flying-v</url>
+    <quote>brand: Burton; model name: Custom Flying V; model year: 2027; AUD price: $1,049.99; SKU 154cm: 1070719I66RG154</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/burton-custom-flying-v</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>

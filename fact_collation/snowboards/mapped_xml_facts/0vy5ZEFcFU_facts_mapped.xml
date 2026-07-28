@@ -1,0 +1,851 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="positive_aspect" count="10" category="review" />
+  <duplicate_canonical name="negative_aspect" count="9" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="7" category="sustainability" />
+  <duplicate_canonical name="recommended_weight_range_size" count="6" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="price_usd_msrp" count="4" category="pricing" />
+  <duplicate_canonical name="comparable_board_same_brand" count="4" category="comparable" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="4" category="comparable" />
+  <duplicate_canonical name="user_review_forum" count="4" category="review" />
+  <duplicate_canonical name="redesign_year" count="3" category="identity" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="topsheet" count="3" category="construction" />
+  <duplicate_canonical name="warranty" count="3" category="warranty" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="available_colors" count="2" category="identity" />
+  <duplicate_canonical name="switch_riding" count="2" category="unknown" />
+</canonical_schema>
+
+<answer>
+1. brand: CAPiTA [1][2]
+2. model_name: Aeronaut [1][2]
+3. model_year: 2027 (Southern Hemisphere season designation; equivalent to 25/26 Northern Hemisphere season for the 2026 model year boards) [2][3]
+4. product_type: Snowboard [1][2]
+5. gender: Men's [2][7]
+6. manufacturer: CAPiTA Snowboards (operated by C3 Worldwide LLC, 4917 14th Ave NW, Seattle, WA 98107 USA; boards manufactured by Core S.r.l., Via Colombano 10, 23014 Delebio (SO), Italy) [1]
+7. brand founding year: 2000 (founded in Seattle) [15]
+8. manufacturing_location: Austria — The MotherShip™ facility, in Feistritz, Austrian Alps [1][4][5]
+9. manufacturing description: Handcrafted in Austria with self-generated clean energy [1][4]
+10. sustainability_certification: Certified B Corporation® with B Impact Score of 98.9 (median ordinary business: 50.9) [15]
+11. sustainability_certification: On-site hydro-activated NH3 Thermal Energy System + solar panel array — zero CO2 emissions, zero ozone depletion potential, zero global warming potential [1][5]
+12. sustainability_certification: 98% locally supplied (50% Austria, 16% Germany, 15% Slovenia, 14% Switzerland, 3% Italy), remaining 2% from Asia [16]
+13. NFC technology: Embedded NFC chip in the nose for board registration, warranty claims, and exclusive content access [1][17]
+14. pro_rider_name: Arthur Longo ("The Rocket Man", "Side Hit Euphoria" master) [1][2][3]
+15. model_first_available_year: 2024 (new for 23/24 season) [6]
+16. redesign_year: Graphics update and Alpine V3 camber profile refinements; tech largely unchanged from 2025 [7]
+17. redesign_year: Minor base upgrade to HyperDrive ADV XT (from HyperDrive ADV); otherwise unchanged [8]
+18. redesign_year: Graphics and new camber profile (Alpine V3 deeper camber) per Glacier Ski Shop [9]
+19. design philosophy: "A semi-old school, respectful nod to the 90s; a directional, cambered snowboard" designed as a "local-resort maximizer" [10]
+20. price_usd_msrp: $699.95 at CAPiTA direct [1]
+21. price_usd_msrp: $649 per The Good Ride [11]
+22. price_usd_msrp: CAPiTA direct site shows $699.95 [1], while The Good Ride lists $649 [11]. The $649 was the original MSRP for the 2024 model; CAPiTA's website appears to have increased the price to $699.95 for the 25/26 season.
+23. price_aud_merchant: $1,249.99 at Elevation107 and multiple Australian retailers [12]
+24. price_usd_evo: $559.93–$559.96 at evo, Blauer Board Shop, Tactics, The House, Backcountry, Sun & Ski, Christy Sports [13]
+25. price_eur_blue_tomato: €529.00 at BlueTomato (Belgium/France/Netherlands/Austria/Finland); €454.95 at Stoked Board Shop; €559.00 at SnowCountry [13]
+26. price_gbp_blue_tomato_uk: £475.00 at BlueTomato UK [13]
+27. price_cad_prfo: $719.99 at PRFO Sports Canada [13]
+28. estimated_availability_date: Preorder, estimated delivery April/May 2026 for Australia/NZ retailers [14]
+29. availability_status: In-stock at multiple US/EU retailers including evo, Tactics, Blauer Board Shop, Backcountry, The House [13]
+30. supplier: CAPiTA direct (capitasnowboarding.com) — manufacturer-direct, highest authority [1]
+31. supplier: evo.com — reputable major US online retailer with price match guarantee [18]
+32. supplier: Tactics.com — established Portland, OR board shop [19]
+33. supplier: Blauer Board Shop — specialist snowboard shop [20]
+34. supplier: The House — major US online retailer [13]
+35. supplier: Backcountry.com — large US outdoor retailer [13]
+36. supplier: Rhythm Snowsports (Australia) [21]
+37. supplier: Melbourne Snowboard Centre (Australia) [22]
+38. supplier: Balmoral Boards (Australia) — preorder available, lay-by available [14]
+39. supplier: Whiteroom Snow (Australia) [23]
+40. supplier: The Ski Monster (Boston, USA) — specialist shop [24]
+41. supplier: Snow+Rock (UK) — with their own 3-year product warranty [25]
+42. board_category: All-Mountain / Freeride [1][2]
+43. shape: Tapered Directional with 0.8" (20mm) setback [1][26]
+44. camber_type: Alpine V3 Directional [1]
+45. camber_description: 7mm traditional camber that zeros out before the end of the sidecut; small zero-camber sections provide controlled ride while retaining response and power [1]
+46. flex_rating_10_manufacturer: 6/10 (Directional flex) [1][26]
+47. flex_rating_10_evo: "Medium" per evo's standardized system (6–8 is stiff; 3–5 is medium), putting it at the boundary [18]
+48. flex_feel: CAPiTA rates it 6/10 [1]; Wobble Snow rates it 7/10 as "medium-stiff" [27]; evo classifies it as "medium" [18]. Snowboard Robot agrees "6/10 flex… seems pretty accurate" [6].
+49. flex_direction: Directional (nose flexes differently to tail) [6]
+50. sidecut_type: Progressive (two or more radii blended together) [1]
+51. sidecut description: Accommodates three stages of a turn — easy initiation, greater control throughout, maximum power exiting [1]
+52. taper: 0.5cm (5mm) across all sizes [1]
+53. setback: 2.0cm (0.8 inches) all sizes [1][26]
+54. width_options: Standard and Wide [2]
+55. mounting_pattern: 2x4 inserts [2]
+56. available_sizes: 153, 155, 157, 159, 161 (standard); 156W, 158W, 160W, 162W (wide) [1]
+57. core_material: Panda Hover Core — Paulownia, Poplar, and Bamboo Power Rods [1]
+58. core description: Ultra lightweight, ultra responsive [1]
+59. laminate: Holysheet Tri/Bi — triaxial above core, biaxial below core [1][28]
+60. fiberglass description: Fiber weaves with high tensile strength and low modulus of elasticity; higher roving count for stronger/more responsive board without added weight [1]
+61. resin: Magic Bean Resin — plant-based, high bio-content, zero waste, no greenhouse emissions [1][2]
+62. resin properties: Yields stronger and more rigid qualities, allowing decreased wood core thickness for lighter board with higher energy return [19]
+63. construction_material_innovation: 3x25mm CarbonFlax Amplifier [1][26]
+64. construction_material_innovation: Natural flax fibers woven with carbon strands; reactive energy of carbon + lightweight dampening of flax; compatible thermal expansion and failure strain [1]
+65. construction_material_innovation: Original 2024 model used "Amplitex V-TECH Amplifiers" rather than "CarbonFlax Amplifier" — CarbonFlax is the updated branding [10][29]
+66. base_material: Hyperdrive ADV XT — premium sintered polyethylene, extra thick for enhanced durability [1]
+67. base_type: Sintered, custom formulated, high molecular mass for anti-friction [1]
+68. base upgrade: Upgraded to XT (extra thick) starting in 2025 model year [1][8]
+69. base graphics: Sublimation print [2]
+70. available_colors: Standard widths feature white base; Wide sizes come with black base [21]
+71. available_colors: Base colours are size dependent and cannot be swapped [1][2]
+72. topsheet: PLT Technology — metallic screen with metallic underlay [2]
+73. topsheet: Exclusive to CAPiTA; bonds topsheet to already pressed board without toxic lacquers, producing featherlight smooth high-gloss finish [1]
+74. topsheet: PAM16000 printing technology (16,000 individual inkjet nozzles, solventless water-based UV ink) plus hand screen printing [2][23]
+75. construction: Sandwich (implied by sidewall construction and layup description) [28]
+76. factory tuning: Board comes waxed and ready for the mountain from factory [30]
+77. effective edge 153: 1200mm [1]
+78. effective edge 155: 1215mm [1]
+79. effective edge 157: 1230mm [1]
+80. effective edge 159: 1245mm [1]
+81. effective edge 161: 1260mm [1]
+82. effective edge 156W: 1222.5mm [1]
+83. effective edge 158W: 1237.5mm [1]
+84. effective edge 160W: 1252.5mm [1]
+85. effective edge 162W: 1267.5mm [1]
+86. waist width 153: 24.7cm [1]
+87. waist width 155: 25.0cm [1]
+88. waist width 157: 25.3cm [1]
+89. waist width 159: 25.6cm [1]
+90. waist width 161: 25.9cm [1]
+91. waist width 156W: 26.0cm [1]
+92. waist width 158W: 26.3cm [1]
+93. waist width 160W: 26.6cm [1]
+94. waist width 162W: 26.9cm [1]
+95. tip_tail_width_size: 30.0/29.5cm [1]
+96. sidecut_radius_size: 8.5/7.5m [1]
+97. stance_width_range_size: 55.9cm / 22" [1]
+98. suggested boot sizes for 153: Men's 6–9.5; for 155–161: Men's 8–10; for Wide sizes: Men's 8–10 (156W) to Men's 10+ (158W–162W) [1]
+99. recommended_weight_range_size: 52–79kg (115–175lbs) [1]
+100. recommended_weight_range_size: 56–83kg (125–185lbs) [1]
+101. recommended_weight_range_size: 61–88kg (135–195lbs) [1]
+102. recommended_weight_range_size: 65–92kg (145–205lbs) [1]
+103. recommended_weight_range_size: 72–99kg (160–220lbs) [1]
+104. recommended_weight_range_size: 77–104kg (170–230lbs) [1]
+105. warranty_period_years: 2 years from date of purchase [30][31]
+106. warranty: Structural defects in material and workmanship only; does NOT cover impact damage, abuse, misuse, or normal wear and tear [30][31]
+107. warranty: Must be purchased from authorized CAPiTA dealer; original purchaser only; second-hand purchases not covered [30]
+108. warranty: Uses NFC chip scan for serial number registration and claim submission [30]
+109. riding_style: All Mountain [11]
+110. rider_level: Advanced – Expert [11]
+111. carving_rating_tgr: "Great" [11]
+112. base_glide_performance: "Great" [11]
+113. jumps_rating_tgr: "Great" [11]
+114. speed_rating_tgr: "Good" [11]
+115. powder_rating_tgr: "Average" [11]
+116. uneven snow rating: "Average" [11]
+117. switch_riding: "Good" [11]
+118. jibbing_rating_tgr: "Average" [11]
+119. pipe_rating_tgr: "Good" [11]
+120. on_snow_feel_tgr: "Semi-Locked In" [11]
+121. turn_initiation_performance: "Fast" [11]
+122. skidded turns: "Semi-Hard" [11]
+123. flex_feel: "Medium" [11]
+124. buttering: "Moderate" [11]
+125. edge_hold: "Medium Snow" [11]
+126. approximate weight feel: "Feels Light" (on the light side, bordering on normal) [11]
+127. positive_aspect: "Pops Super Well On an Ollie" [11]
+128. positive_aspect: "Lots of Spring Out Of A Turn" [11]
+129. positive_aspect: "Very Turny" — very quick turning with committed edge keeps carving [11]
+130. positive_aspect: Strikes a great balance between many different factors; super versatile across different conditions and riding styles [32]
+131. positive_aspect: Locks into a carve nicely; confident and precise on groomers [33]
+132. positive_aspect: Very fast base; felt like it was constantly trying to accelerate [6]
+133. positive_aspect: Predictable and strong edge hold from traditional camber profile; board never felt overly catchy [6]
+134. positive_aspect: Lightweight core construction contributes to lively, maneuverable feel [6]
+135. positive_aspect: Stable enough for approach yet maneuverable enough for adjustments [32]
+136. positive_aspect: "It could easily be a one board quiver" [6]
+137. negative_aspect: "Bucks Allot In Uneven Soft Snow" — bounced around more than preferred in softer uneven or hard bumpy snow [11]
+138. negative_aspect: "Not as good in powder as it looks" — despite directional shape and setback, lack of early rise limits float [11]
+139. negative_aspect: Far from ideal for beginners or intermediates that often skid turns; pretty technical/catchy [11]
+140. negative_aspect: At slower speeds with friends, not in the "fun zone" for this board [34]
+141. negative_aspect: Not the most damp feel underfoot; riders preferring damp boards should look elsewhere [24]
+142. negative_aspect: Some forum users found ice grip worse than expected compared to Mercury and BSOD [34]
+143. negative_aspect: Beginners and jib-heavy park riders will find it too stiff and demanding [27]
+144. negative_aspect: Not super easy to press or butter due to all the camber [6]
+145. negative_aspect: Premium price point; value-minded buyers may find it more than needed [33]
+146. comparable_board_same_brand: CAPiTA Mercury — more all-round, hybrid camber, more forgiving; considered most well-rounded CAPiTA board [35][36]
+147. comparable_board_same_brand: CAPiTA Black Snowboard of Death — more freeride focused, better speed stability and charging, better carving on steep icy slopes [37][38]
+148. comparable_board_same_brand: CAPiTA Mega Death — ultralight BSOD with premium materials, faster, higher price [39]
+149. comparable_board_same_brand: CAPiTA Artemis — women's version combining elements of Aeronaut and Mercury [22]
+150. comparable_board_cross_brand: Jones Stratos [27]
+151. comparable_board_cross_brand: Yes Standard UnInc [27]
+152. comparable_board_cross_brand: Burton Custom Camber (user comparison) [6]
+153. comparable_board_cross_brand: K2 Manifest, Amplid Souly Grail, Korua Otto, Ride Algorythm, Salomon Highpath (similar boards per The Good Ride) [11]
+154. price_usd_msrp: $629.95–$679.95 [40]
+155. sustainability_certification: Uses FSC certified wood cores [5]
+156. sustainability_certification: Plant-based bio resins with zero waste and no greenhouse emissions [1][2]
+157. sustainability_certification: Water-based, solventless UV ink [2][16]
+158. core milling: In-house 5-axis CNC milling with hand inspection by carpenters [41]
+159. insert drilling: Automated thermal insert drilling technology with robotic precision [30]
+160. quality control: Each board undergoes final hand inspection and receives MotherShip quality control stamp [41]
+161. sustainability_certification: Lower temperature pressing with reduced cycle times for less energy consumption [5]
+162. user_review_forum: "When I first got on it I immediately felt at home… it really is quite good at everything" [34]
+163. user_review_forum: "In a vacuum, on the perfect jump, the aeronaut outperforms the merc in just a pure pop comparison" [34]
+164. user_review_forum: Mercury preferred over Aeronaut for side hits with sketchy takeoffs and landings [34]
+165. user_review_forum: Some users "feeling a little let down" — solid all-rounder but no characteristics really stand out beyond pop [34]
+166. reviewer_opinion_the_good_ride: Recommended staying at lower end of manufacturer weight settings; board is better for lighter riders [11]
+167. recommended binding pairing: Medium-stiff binding will let the Aeronaut perform as intended (e.g., Union Atlas, Union Falcor) [33][34]
+168. switch_riding: Directional tapered board is never great switch, but serviceable for occasional switch riding [6]
+</answer>
+
+<citations>
+
+
+<citation id="1">
+<quotelist>
+<url>https://capitasnowboarding.com/products/aeronaut-2026</url>
+<quote>$699.95</quote>
+<quote>The ALPINE V3 profile has a 7mm traditional camber that zeros out before the end of the sidecut.</quote>
+<quote>Effective Edge (mm) 1200 ... Waist 24.7 ... Taper 0.5</quote>
+<quote>PLT Topsheet Technology™ is exclusive to CAPiTA MFG and magically bonds the topsheet to an already pressed snowboard.</quote>
+<quote>CARBONFLAX™ is a next-generation natural flax fiber woven with carbon strands</quote>
+<quote>Custom formulated and exclusive to The MotherShip...HYPERDRIVE™...We have increased the thickness of our XT bases for enhanced durability.</quote>
+<quote>100% Clean Energy Manufacturing...via an on-site hydro-activated NH3 Thermal Energy System in concert with our newly expanded solar panel array.</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/products/aeronaut-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official CAPiTA manufacturer product page. This is the primary authority for specifications, pricing, and technical details. All measurements and construction details are from the manufacturer directly.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/products/capita-aeronaut</url>
+<quote>The 2026 CAPiTA Aeronaut is developed by the creative mastermind of Side Hit Euphoria, the Rocket Man, Arthur Longo.</quote>
+<quote>PAM16000 Printing technology utilises 16,000 individual inkjet nozzles to produce flawless digital graphics with solventless, water-based UV ink</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/products/capita-aeronaut</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Australian authorized dealer providing merchant-verified specifications for the 2027 model year board with detailed technology explanations.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/blogs/news/capita-2027-snowboards-now-available-for-pre-order</url>
+<quote>Discover the new 2027 Collection of CAPiTA Snowboards! Handcrafted in Austria using self-generated clean energy at The MotherShip™.</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/blogs/news/capita-2027-snowboards-now-available-for-pre-order</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Confirms 2027 model year pre-order availability for Australian market.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://capitasnowboarding.com/pages/the-factory</url>
+<quote>CAPiTA Snowboards are hand crafted in Austria with self-generated clean energy at The MotherShip™.</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/pages/the-factory</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2015-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official manufacturer page confirming factory location and clean energy manufacturing.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://capitasnowboarding.com/pages/clean-energy</url>
+<quote>Nestled in the beauty of the Alps, in a valley in the southern border region of Austria</quote>
+<quote>our low temperature pressing rooms employ plant-based bio resins with FSC certified wood cores</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/pages/clean-energy</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2015-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official CAPiTA page detailing clean energy production and sustainable material choices.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/capita-aeronaut/</url>
+<quote>This is a new board for the 23/24 season, and it is designed to be the only board you would need for riding everywhere in the resort.</quote>
+<quote>Capita rate this as having a 6/10 flex, which seems pretty accurate to me.</quote>
+<quote>It felt like it was constantly trying to accelerate</quote>
+<quote>the board never felt overly catchy</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/capita-aeronaut/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-11-14</date_of_first_relevance>
+<date_of_last_relevance>2025-11</date_of_last_relevance>
+<reasoning>Independent detailed review by Snowboard Robot testing the 157cm 2024 model. Provides ride-level assessment with specific riding conditions detailed. Confirms first availability as 23/24 season.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://www.switchnow.ca/blogs/switch-skate-snow-blog/capita-aeronaut-snowboard-review-2026</url>
+<quote>Tech stays largely the same from the 2025 version: camber, core, laminates remain consistent.</quote>
+</quotelist>
+<url_with_text_link>https://www.switchnow.ca/blogs/switch-skate-snow-blog/capita-aeronaut-snowboard-review-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-10-26</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Canadian retailer review noting 2026 model updates are primarily graphic, tech unchanged from 2025.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url>
+<quote>Update 2025: Other than a very minor upgrade to the base, the Aeronaut did not change for 2025.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-12-07</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>The Good Ride is a well-respected independent snowboard review site. Confirms 2025 changes were minimal.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://glacierskishop.com/products/capita-aeronaut-snowboard-2027</url>
+<quote>What is new on the 2026 model? Graphics Camber Profile Alpine V3 Profile – Features a deeper camber through the center of the board</quote>
+</quotelist>
+<url_with_text_link>https://glacierskishop.com/products/capita-aeronaut-snowboard-2027</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Glacier Ski Shop listing for the 2027 model noting changes for the current model year (which they call "2026").</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://blauerboardshop.com/products/capita-aeronaut-by-arthur-longo-2024</url>
+<quote>The all-new Aeronaut series was designed in collaboration with The Rocket Man, Arthur Longo. The goal: to introduce the local-resort maximizer.</quote>
+<quote>a semi-old school, respectful nod to the 90s; a directional, cambered snowboard</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/capita-aeronaut-by-arthur-longo-2024</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Original 2024 product listing at Blauer Board Shop showing the first-year marketing language including "all-new" designation. Notes Amplitex V-TECH amplifiers for the original model year.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url>
+<quote>List Price $649 (USD)</quote>
+<quote>Positives: Pops Super Well On an Ollie, Lots of Spring Out Of A Turn, Very Turny</quote>
+<quote>Negatives: Bucks Allot In Uneven Soft Snow, Not as good in powder as it looks</quote>
+<quote>Riding Style: All Mountain, Riding Level: Advanced - Expert</quote>
+<quote>Powder: Average, Base Glide: Great, Carving: Great, Speed: Good, Uneven Snow: Average</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-01</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>The Good Ride is one of the most respected independent snowboard review sites. Detailed multi-day tested review with specific performance ratings. Ethics statement confirms unbiased review.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://www.elevation107.com.au/products/capita-aeronaut-mens-snowboard-2027</url>
+<quote>Regular price $1,249.99</quote>
+</quotelist>
+<url_with_text_link>https://www.elevation107.com.au/products/capita-aeronaut-mens-snowboard-2027</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Australian retailer confirming AUD pricing for the 2027 model year board.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url>
+<quote>$559.95 Buy it Now Buy Capita Aeronaut from The House</quote>
+<quote>$559.93 Buy it Now Buy Capita Aeronaut from Sun & Ski Sports</quote>
+<quote>€529.00 Buy it Now Buy Capita Aeronaut from BlueTomato Belgium</quote>
+<quote>£475.00 Buy it Now Buy Capita Aeronaut from BlueTomato UK</quote>
+<quote>$719.99 Buy it Now Buy Capita Aeronaut from PRFO Sports Canada</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/capita-aeronaut-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-12</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Price aggregation from The Good Ride showing current retail prices across multiple authorized dealers worldwide. Prices are snapshots and may change.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://www.balmoralboards.com.au/products/capita-2027-aeronaut</url>
+<quote>Expected delivery: April/May 2026</quote>
+<quote>these boards are landing exclusively in Australia and New Zealand before the rest of the world.</quote>
+</quotelist>
+<url_with_text_link>https://www.balmoralboards.com.au/products/capita-2027-aeronaut</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-05</date_of_last_relevance>
+<reasoning>Australian retailer with pre-order details and expected delivery timeline for 2027 model.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://capitasnowboarding.com/pages/b-corp</url>
+<quote>Since our founding in Seattle in 2000, CAPiTA has been rooted in a dedication to being contributors to snowboarding</quote>
+<quote>We're proud of our overall B Impact Score of 98.9, which significantly exceeds the median score of 50.9 for ordinary businesses.</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/pages/b-corp</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2000</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official CAPiTA B Corp page confirming founding year and certification score.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://thinkempire.com/blogs/news/capita-mothership-snowboard-factory</url>
+<quote>the materials used in the manufacture are 98% locally supplied (50% in Austria, 16% in Germany, 15% in Slovenia, 14% in Switzerland, 3% in Italy), the remaining 2% coming from Asia.</quote>
+</quotelist>
+<url_with_text_link>https://thinkempire.com/blogs/news/capita-mothership-snowboard-factory</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2015-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Third-party article detailing local materials sourcing percentages at the MotherShip factory.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://capitasnowboarding.com/products/aeronaut-2026</url>
+<quote>connect with your board by simply scanning it with your phone. This NFC interface enables you to register your snowboard</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/products/aeronaut-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official manufacturer page describing NFC technology integration in snowboards.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://www.evo.com/snowboards/capita-aeronaut-snowboard</url>
+<quote>Generally you will find flex ratings of 1-2 as soft, 3-5 as medium, 6-8 as stiff, and 9-10 as very stiff.</quote>
+<quote>Intermediate-Advanced</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/capita-aeronaut-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>evo is a major authorized US retailer. Their flex classification system puts 6 at the stiff end of their medium range (or start of stiff). They classify the Aeronaut as Intermediate-Advanced skill level rather than CAPiTA's "Advanced".</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://www.tactics.com/capita/arthur-longo-aeronaut-snowboard</url>
+<quote>Magic Bean™ Resin - Poppy, powerful, and extremely durable...allowing CAPiTA to decrease the wood core thickness which means a lighter board with higher energy return.</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/capita/arthur-longo-aeronaut-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Tactics is an established Portland board shop and authorized dealer. Provides detailed resin technology explanation.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://blauerboardshop.com/products/capita-aeronaut-snowboard-2026</url>
+<quote>Intermediate to advanced riders who want a cambered directional board that excels at carving, side hits, and fast all-mountain lines.</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/capita-aeronaut-snowboard-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Blauer Board Shop is The Good Ride's "favorite store" and an authorized CAPiTA dealer.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.rhythmsnowsports.com.au/products/2027-aeronaut-snowboard</url>
+<quote>Standard widths feature a white base, while Wide (W) sizes come with a black base.</quote>
+</quotelist>
+<url_with_text_link>https://www.rhythmsnowsports.com.au/products/2027-aeronaut-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Australian authorized dealer providing base colour specifics for standard vs wide sizes.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://www.melbournesnowboard.com.au/blogs/news/capita-2027-snowboards-now-available-for-pre-order</url>
+<quote>The CAPiTA Artemis...takes the best of the mens Aeronaut and Mercury and combines them into one powerhouse freeride snowboard</quote>
+</quotelist>
+<url_with_text_link>https://www.melbournesnowboard.com.au/blogs/news/capita-2027-snowboards-now-available-for-pre-order</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Melbourne Snowboard Centre blog confirming Artemis as women's hybrid of Aeronaut + Mercury.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://www.whiteroomsnow.com.au/collections/2027-snowboards/products/capita-kazu-kokubo-pro-snowboard-2028</url>
+<quote>CAPiTA creates their incredibly detailed and vibrant topsheet designs using a combination of digital and hand screen printing methods.</quote>
+</quotelist>
+<url_with_text_link>https://www.whiteroomsnow.com.au/collections/2027-snowboards/products/capita-kazu-kokubo-pro-snowboard-2028</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Australian retailer with 2027 model listing confirming printing technology details.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://theskimonster.com/products/capita-aeronaut</url>
+<quote>While it's not the most powerful board, the Aeronaut can handle some higher speeds.</quote>
+<quote>Who is this not for? High-speed carvers and anyone who prefers a damp feel underfoot.</quote>
+</quotelist>
+<url_with_text_link>https://theskimonster.com/products/capita-aeronaut</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>The Ski Monster is a specialist Boston snowboard shop providing their own expert assessment of the Aeronaut's strengths and limitations.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.72</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://www.snowandrock.com/p/capita-aeronaut-snowboard-E5BB3A0185.html</url>
+<quote>Price Match Promise ✓ 3-Year Product Warranty ✓ Specialist Advice</quote>
+</quotelist>
+<url_with_text_link>https://www.snowandrock.com/p/capita-aeronaut-snowboard-E5BB3A0185.html</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Snow+Rock is a major UK outdoor retailer offering their own extended 3-year warranty on top of manufacturer's 2-year.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://sanctionsnow.com/products/capita-aeronaut-wide-snowboard-2026</url>
+<quote>Shape: Directional 0.8" Set Back Sidecut: Progressive Flex: Directional 6 Traditional Camber: Alpine V3 Directional</quote>
+</quotelist>
+<url_with_text_link>https://sanctionsnow.com/products/capita-aeronaut-wide-snowboard-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Sanction Snow retailer listing confirming key specifications in concise format.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://wobblesnow.com/blogs/news/capita-aeronaut-snowboard-review</url>
+<quote>Flex Rating: Medium-Stiff (7/10)</quote>
+<quote>Best Alternatives: Jones Stratos, Yes Standard UnInc</quote>
+<quote>Beginners and those looking for a soft, playful jib board will find the Aeronaut too stiff and demanding.</quote>
+</quotelist>
+<url_with_text_link>https://wobblesnow.com/blogs/news/capita-aeronaut-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-08-08</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Wobble Snow review rates flex as 7/10 which disagrees with CAPiTA's official 6/10 rating. Also provides competitor alternatives. Note: this is a smaller UK retailer blog, lower authority than manufacturer spec.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://www.absolute-snow.com/capita-aeronaut-snowboards-2025</url>
+<quote>Hyperdrive Adv Base - Exclusively formulated, sintered, ultra-high molecular weight, ultra-high density polyethene</quote>
+</quotelist>
+<url_with_text_link>https://www.absolute-snow.com/capita-aeronaut-snowboards-2025</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Absolute-Snow provides additional base material detail confirming ultra-high molecular weight polyethylene construction.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://www.skirack.com/capita-aeronaut-snowboard-2024-13151277</url>
+<quote>Amplitex™ is a next-generation natural flax fiber woven with carbon strands</quote>
+</quotelist>
+<url_with_text_link>https://www.skirack.com/capita-aeronaut-snowboard-2024-13151277</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-09</date_of_first_relevance>
+<date_of_last_relevance>2024-09</date_of_last_relevance>
+<reasoning>Skirack 2024 listing showing original Amplitex branding for the reinforcement, confirming the name change to CarbonFlax in later model years.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://capitasnowboarding.com/pages/warranty</url>
+<quote>We are proud to offer a warranty policy guaranteeing that your CAPiTA snowboard is free from defects in material or workmanship for a period of two (2) years from the date of purchase.</quote>
+<quote>Warranty applies to CAPiTA products purchased from an Authorized CAPiTA Dealer and is only valid for the original purchaser.</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/pages/warranty</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2020</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official CAPiTA warranty policy page. Authoritative source for warranty terms and conditions.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://www.tactics.com/capita/arthur-longo-aeronaut-snowboard</url>
+<quote>2 Year Warranty - Covered under manufacturer warranty for 2 years from the time of purchase. Warranty includes structural defects only and DOES NOT cover impact damage, abuse, misuse or normal wear and tear.</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/capita/arthur-longo-aeronaut-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Tactics retailer confirming warranty terms independently from manufacturer.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.78</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://snowboardingprofiles.com/capita-aeronaut-snowboard-review</url>
+<quote>It's an easy enough going ride, but can take a fairly aggressive approach, when you feel for it - and I found it to be super versatile across different conditions and for different riding styles.</quote>
+<quote>Good mix of stable and agile for approach and landings</quote>
+</quotelist>
+<url_with_text_link>https://snowboardingprofiles.com/capita-aeronaut-snowboard-review</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-01-26</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>SnowboardingProfiles review of the 2025 model tested on-snow. Provides detailed ride impressions from an independent reviewer.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://www.switchnow.ca/blogs/switch-skate-snow-blog/capita-aeronaut-snowboard-review-2026</url>
+<quote>With full camber and a progressive sidecut, the CAPiTA Aeronaut locks into a carve nicely. For local groomers it feels confident and precise.</quote>
+<quote>Pair with bindings that match your stiffness and carve ambitions — a medium-stiff binding will let the Aeronaut perform as intended.</quote>
+<quote>Price tends to be at premium level</quote>
+</quotelist>
+<url_with_text_link>https://www.switchnow.ca/blogs/switch-skate-snow-blog/capita-aeronaut-snowboard-review-2026</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-10-26</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Switch Skate & Snow Canadian shop review provides groomer carving impressions and binding pairing advice.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/opinions-on-the-capita-aeronaut.282653/</url>
+<quote>Feeling a little let down with this board...it's a solid all arounder, but none of its characteristics really stand out to me other than the pop</quote>
+<quote>In a vacuum, on the perfect jump, the aeronaut outperforms the merc in just a pure pop comparison</quote>
+<quote>when I ride slower with a group of friends...I'm finding myself not in the fun zone for this board.</quote>
+<quote>I was suprised that the full camber aeronaut had worse ice grip than the merc AND the BSOD.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/opinions-on-the-capita-aeronaut.282653/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-01-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Snowboarding Forum thread with multiple user opinions. Forum posts are anecdotal but patterns across multiple users increase confidence. Shows mixed opinions on the board.</reasoning>
+<evidentiary_alignment>0.78</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/capita-mercury-vs-aeronaut.279963/</url>
+<quote>The aéronaut is full camber and quite stiff. Its really made for good Technical rider that like to charge and go big. The mercury is more all round.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/capita-mercury-vs-aeronaut.279963/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-10-14</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Forum thread comparing Mercury vs Aeronaut. Multiple experienced riders weigh in on differences.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/capita-aeronaut/</url>
+<quote>The Mercury is still probably the most well-rounded board I have been on</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/capita-aeronaut/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-11-14</date_of_first_relevance>
+<date_of_last_relevance>2025-11</date_of_last_relevance>
+<reasoning>Snowboard Robot's expert comparison of Aeronaut to Mercury from same reviewer who tested both.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/aeronaut-vs-mercury-vs-bsod-vs-kazu.282314/</url>
+<quote>BSOD 161W- This board seems like the best of the 3 for speed stability and charging.</quote>
+<quote>the BSOD definely lays a "better" carve on an steep icy slope.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/aeronaut-vs-mercury-vs-bsod-vs-kazu.282314/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2025-01</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Forum user comparing Aeronaut, Mercury, BSOD, and Kazu side-by-side across multiple days. Valuable for direct competitive comparison.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/capita-board-lineup-aeronaut-vs-bsod-vs-mega-merc-vs-mega-death.279860/</url>
+<quote>Aeronaut: All-mountain Freeride, Best at popping; resort freeride; groomers especially carving...side hits, any kind of jump</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/capita-board-lineup-aeronaut-vs-bsod-vs-mega-merc-vs-mega-death.279860/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2023-09-18</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Forum thread with experienced rider breakdown of entire CAPiTA freeride lineup for comparison.</reasoning>
+<evidentiary_alignment>0.78</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://snowboardrobot.com/snowboard-review/capita-mega-death/</url>
+<quote>Similar to the feeling that I had from the Aeronaut – which was like the board is trying to pull you down the hill, this feels like it was taken a notch further.</quote>
+</quotelist>
+<url_with_text_link>https://snowboardrobot.com/snowboard-review/capita-mega-death/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2024-08-21</date_of_first_relevance>
+<date_of_last_relevance>2025-09</date_of_last_relevance>
+<reasoning>Snowboard Robot's Mega Death review provides direct comparison context to the Aeronaut from the same reviewer.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://www.boardoftheworld.com/the-2026-top-all-mountain-snowboards/</url>
+<quote>The Capita Mercury ($629.95) is a beloved all-mountain directional snowboard</quote>
+</quotelist>
+<url_with_text_link>https://www.boardoftheworld.com/the-2026-top-all-mountain-snowboards/</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2026-03-24</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Board of the World article provides Mercury pricing context for competitor comparison.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://capitasnowboarding.com/pages/how-snowboards-are-made</url>
+<quote>In-house 5-axis CNC milling ensures precision, and each core is then meticulously hand-inspected by our carpenters</quote>
+<quote>Every snowboard undergoes a meticulous final hand inspection.</quote>
+</quotelist>
+<url_with_text_link>https://capitasnowboarding.com/pages/how-snowboards-are-made</url_with_text_link>
+<date_url_retrieved>2026-04-27</date_url_retrieved>
+<date_of_first_relevance>2015-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-27</date_of_last_relevance>
+<reasoning>Official CAPiTA manufacturing process page detailing core milling and quality control procedures.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.4</attribute_importance>
+</citation>
+
+</citations>
+</response>

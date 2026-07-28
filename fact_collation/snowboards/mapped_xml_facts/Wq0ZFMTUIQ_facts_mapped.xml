@@ -1,0 +1,996 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="17" category="availability" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="7" category="review" />
+  <duplicate_canonical name="user_review_forum" count="6" category="review" />
+  <duplicate_canonical name="stance_width_range_size" count="5" category="geometry" note="size_variant" />
+  <duplicate_canonical name="comparable_board_cross_brand" count="5" category="comparable" />
+  <duplicate_canonical name="flex_feel" count="4" category="performance" />
+  <duplicate_canonical name="core_material" count="4" category="construction" />
+  <duplicate_canonical name="sidecut_radius_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="tip_tail_width_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="4" category="unknown" />
+  <duplicate_canonical name="recommended_weight_range_size" count="4" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="4" category="review" />
+  <duplicate_canonical name="construction_material_innovation" count="3" category="construction" />
+  <duplicate_canonical name="base_type" count="3" category="construction" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="price_aud_merchant" count="2" category="pricing" />
+  <duplicate_canonical name="topsheet" count="2" category="construction" />
+  <duplicate_canonical name="mounting_pattern" count="2" category="construction" />
+  <duplicate_canonical name="available_sizes" count="2" category="availability" />
+  <duplicate_canonical name="topsheet_appearance_description" count="2" category="identity" />
+  <duplicate_canonical name="sustainability_certification" count="2" category="sustainability" />
+</canonical_schema>
+
+<answer>
+1. brand: Nidecker [1][2]
+2. model_name: Alpha [1][2]
+3. model_year: 2027 (merchant verified) [1]
+4. product_type: Snowboard [1][2]
+5. board_category: All Mountain [2][3]
+6. manufacturer: Nidecker — a family-owned Swiss snowboarding company based in Rolle, Switzerland [4]
+7. Manufacturer heritage: Founded in 1887 in Etoy, Switzerland; first snowboard produced in 1984 [4][5]
+8. Manufacturer reputation: Oldest European snowboard brand still in operation [5][6]
+9. Parent company: Nidecker Group (NDK Group), which also owns Bataleon, Jones, Rome, YES, ThirtyTwo, etnies, and others [5][7]
+10. Industry standing: NDK Group considered the second biggest snowboard company in the world [4]
+11. Design origin: Swiss-designed boards [8]
+12. Manufacturing heritage: Many snowboard companies get Nidecker to develop and prototype snowboards for them [9]
+13. Model series: Part of Nidecker's Bio (formerly "Instinct") series, inspired by biomimicry [10][11]
+14. model_first_available_year: 2021-2022 season (originally as "Nidecker Instinct Alpha") [12]
+15. pro_rider_name: Mat (Mathieu) Crepel — described as the go-to deck for creative mountain surfers like Mat Crepel [13][14]
+16. Design philosophy: Biomimicry — incorporating shapes found in the natural world, specifically from marine mammals and birds of prey [10][15]
+17. availability_status: Pre-order (merchant verified) [1]
+18. estimated_availability_date: May 1, 2026 (merchant verified) [1]
+19. availability_status: Pre-order, expected delivery April/May 2026 [16]
+20. availability_status: Pre-order, estimated availability May [17]
+21. availability_status: Listed for 2027 [18]
+22. availability_status: Current model year (2026) in stock, 2027 not yet listed [19]
+23. Note on model year convention: Nidecker uses Southern Hemisphere model year numbering for Australian-market "2027" boards that correspond to the 2026-27 northern season. The same model is sold as "Alpha 2026" in the US/EU market. [16][20]
+24. price_aud_merchant: $849.99 AUD (merchant verified) [1]
+25. price_aud_merchant: $849.99 AUD (pre-order) [16][21]
+26. AUD price at Elevation107 for Alpha APX variant: $949.99 AUD (pre-order) [21]
+27. price_usd_msrp: $519.95 USD [20]
+28. price_usd_evo: $529.95 USD regular, sale ~$363.96-$415.96 USD [22][23]
+29. USD price at SpokeX (current 2026 model): $519.95 regular, sale $395.16 USD [24]
+30. price_eur_blue_tomato: €499.95 [25]
+31. EUR price at Montaz (2025-2026 model): €499.89 regular, discounted to €414.99 [26]
+32. EUR price at SnowCountry: €499.00 [25]
+33. price_gbp_blue_tomato_uk: £445.00 [25]
+34. USD price — Alpha APX (higher-end sibling) at nidecker.com: $619.95 USD [27]
+35. Value positioning: The Inertia noted the Alpha at $520 and Alpha APX at $620, stating both come in "more than $100 cheaper than many competitors with a similar spec list" [27]
+36. shape: Directional (merchant verified) [1][2]
+37. camber_type: Surfy CamRock — camber between feet with rocker in tip and slightly in tail (merchant verified) [1][2][13]
+38. camber_description: Features extended rocker at the nose and regular camber through the rest of the board; together with a shorter tail, it allows you to glide over bumps or pow and initiate turns off the back foot for a unique, surf-like ride [2][13]
+39. taper: Tapered directional shape; described as "moderately tapered" but does not feel super tapered on snow [28]
+40. 3D base technology: Evolution Nose — 3D curved nose for smooth edge-to-edge roll and surf-like flow (merchant verified) [1][2]
+41. Evolution Nose design inspiration: Based on the chest profile of marine mammals (dolphins/penguins) [10][15]
+42. Tail technology: Drop Out — bird of prey tail shape for more control on edge and extra agility in tight turns (merchant verified) [1][2]
+43. Drop Out design inspiration: Derived from the tail feathers of a vulture [10][29]
+44. flex_rating_10: 6/10 (1=soft, 10=stiff) (merchant verified) [1]
+45. flex_feel: "Playful and relaxed. A mid-soft flex" [13]
+46. flex_feel: Mid-soft flex [2]
+47. flex_feel: Mid-stiff flex — felt stable but not overwhelming and not a plank [29]
+48. flex_feel: The manufacturer describes the flex as "mid-soft" [13] while the Slash Board Shop reviewer experienced it as "mid-stiff" [29] and Whitelines described it as "lively mid-stiff" [12]. The merchant rates it 6/10. This is a subjective assessment — the board appears to land in the medium range with slightly different perceptions depending on the rider.
+49. Construction: Premium Sandwich Construction with Biax Plus Fiberglass (merchant verified) [1]
+50. Construction description: A step up from standard sandwich construction that adds carbon stringers for more pop, quicker edge response and improved shock absorption [13][30]
+51. laminate: Biax Plus (merchant verified) [1]
+52. Fiberglass description: Retains the properties of Nidecker's 90° biaxial fiberglass weave with more glass to enhance power transfer [2][30]
+53. core_material: Master Core with Pop Carbon (merchant verified) [1]
+54. core_material: Poplar, Paulownia (merchant verified) [1][13]
+55. core_material: "The culmination of decades of experimentation in materials and woodcraft. Two species of wood (poplar and paulownia) combined" [31]
+56. core_material: evo lists the Master Core as containing "poplar, beech, spruce, and paulownia" — four species of wood [32]. The manufacturer site and merchant listing state only "poplar and paulownia" [13][31]. The evo listing may be applying a generic description or an updated spec.
+57. construction_material_innovation: Pop Carbon (merchant verified) [1]
+58. construction_material_innovation: Carbon fiber positioned between the inserts and the nose and tail — boosting ollie power and dampening chatter [13][30]
+59. construction_material_innovation: Pop Carbon Plus (strategic placement from tail to rear inserts, and nose to front inserts, for increased pop and stiffness) [30]
+60. base_material: N-7000 Hybrid (merchant verified) [1]
+61. base_type: "N-7000 Hybrid combines the durability and low-maintenance of an extruded base with the hardness of a sintered one" [13][33]
+62. base_type: evo labels it "N-7000 Extruded Plus" rather than "N-7000 Hybrid" [2][30]. The merchant listing calls it "N-7000 Hybrid". The manufacturer site calls it "N-7000 Hybrid" [13][33]. Evo appears to use an older naming convention; both descriptions converge on the same technology.
+63. base_type: Nidecker has historically called this a "sintruded" base (combining sintered and extruded properties) [34]
+64. topsheet: Absorbnid (merchant verified) [1]
+65. topsheet: Innovative top layer developed to absorb unwanted vibrations, allowing responsive and dynamic boards that still provide a smooth and comfortable ride [2][13]
+66. mounting_pattern: 2x4 Inserts (merchant verified) [1]
+67. mounting_pattern: 6 rows of inserts at 2cm intervals — provides maximum choice of stance width and works with any binding on the market [2][13]
+68. binding_compatibility: Compatible with any binding on the market [2]
+69. Reference stance position: Second narrowest position possible [35]
+70. available_sizes: 153cm, 158cm (merchant verified for 2027 model) [1]
+71. width_options: Standard, Wide (merchant verified) [1]
+72. available_sizes: 148cm, 162 Wide [25][28]
+73. Effective edge 148cm: 109.0cm (merchant verified) [1]
+74. Effective edge 153cm: 114.0cm (merchant verified) [1]
+75. Effective edge 158cm: 119.0cm (merchant verified) [1]
+76. Effective edge 162W: 123.0cm (merchant verified) [1]
+77. sidecut_radius_size: 7.1m (merchant verified) [1]
+78. sidecut_radius_size: 7.4m (merchant verified) [1]
+79. sidecut_radius_size: 7.8m (merchant verified) [1]
+80. sidecut_radius_size: 8.0m (merchant verified) [1]
+81. tip_tail_width_size: 28.5/28.2cm (merchant verified) [1]
+82. tip_tail_width_size: 29.0/28.8cm (merchant verified) [1]
+83. tip_tail_width_size: 30.0/29.6cm (merchant verified) [1]
+84. tip_tail_width_size: 31.2/30.6cm (merchant verified) [1]
+85. Waist width 148cm: 24.6cm (merchant verified) [1]
+86. Waist width 153cm: 25.2cm (merchant verified) [1]
+87. Waist width 158cm: 25.8cm (merchant verified) [1]
+88. Waist width 162W: 26.8cm (merchant verified) [1]
+89. stance_width_range_size: 50.0cm (merchant verified) [1]
+90. stance_width_range_size: 53.0cm (merchant verified) [1]
+91. stance_width_range_size: 54.0cm (merchant verified) [1]
+92. stance_width_range_size: 54.0cm (merchant verified) [1]
+93. setback: 1.5cm (merchant verified) [1]
+94. setback: 1.5cm (merchant verified) [1]
+95. setback: 2.0cm (merchant verified) [1]
+96. setback: 2.0cm (merchant verified) [1]
+97. recommended_weight_range_size: 50-70kg (merchant verified) [1]
+98. recommended_weight_range_size: 60-75kg (merchant verified) [1]
+99. recommended_weight_range_size: 70-90kg (merchant verified) [1]
+100. recommended_weight_range_size: 75+kg (merchant verified) [1]
+101. stance_width_range_size: -3.25" back from center [36]
+102. Ideal US boot size 148cm: 6-7 [28]
+103. Ideal US boot size 153cm: 8-9 [28]
+104. Ideal US boot size 158cm: 9-10 [28]
+105. Ideal US boot size 162W: 11-12 [28]
+106. rider_level: Intermediate-Advanced (merchant verified) [1][2]
+107. terrain_suitability: All Mountain — groomed runs, off-piste, powder, carving, tree runs (merchant verified) [1]
+108. riding_style: Surf-inspired, flow-oriented, creative mountain surfing [2][13]
+109. gender: Marketed as men's model [16]
+110. Base graphics: Diecut base — pure-color base materials pieced together like a jigsaw for bold, crisp graphics [37]
+111. topsheet_appearance_description: Glossy Finish — adds a premium deep shine to select board artwork [37]
+112. topsheet_appearance_description: Overprint — layered topsheet artwork that adds depth and texture to the graphic [37]
+113. user_review_forum: User review notes topsheet can scratch easily if someone steps on board in lift line [38]
+114. warranty: 2-year warranty against manufacturer defects, extendable to 3 years by registering the board [13][20]
+115. sustainability_certification: 1% of every sale goes to environmental initiatives [13][39]
+116. sustainability_certification: "Nidecker donates 1% of all revenues to nonprofits fighting climate change" [39]
+117. Factory tuning: Snowboards generally shipped with factory wax and tuned edges, but this factory tuning is not very durable and should be rewaxed after a few days [18]
+118. reviewer_opinion_the_good_ride: "A pretty versatile directional daily driver that has a mellow flex in a moderately tapered directional shape" [28]
+119. negative_aspect: "Feels a little washy if you front foot weight your turns" — the spoon tech in the front foot bleeds into the effective edge [28][40]
+120. positive_aspect: "There is a healthy bow of camber with the Nidecker Alpha but with the lifted sides and maybe a touch of early rise before the nose it's pretty forgiving" [28]
+121. reviewer_opinion_the_good_ride: "The pop is really good but not there with the Alpha APX" [28]
+122. reviewer_opinion_the_good_ride: "Does better in hard microbumpy snow and also softer thicker uneven snow" than the APX [28]
+123. reviewer_opinion_the_good_ride: "Felt pretty light and about the same as the APX version" [28]
+124. reviewer_opinion_the_good_ride: At 185lbs the reviewer felt he was "almost too heavy" for the 158 [28]
+125. King Snowboard review: "This board likes to be ridden fast and aggressive. It rails a turn, and it's playful, but it definitely likes to be ridden aggressively" [41]
+126. King Snowboard review: "It offers phenomenal edge control and carving ability" [41]
+127. Slash Board Shop review: "I could charge down the slopes but still feel in control and make last-minute direction/speed changes if needed" [29]
+128. Slash Board Shop ride style assessment: Reviewer felt the riding style leans more toward "playful freeride" rather than all-mountain freestyle [29]
+129. Slash Board Shop recommendation: "Strong intermediate riders and up who want to charge but also be laid back at times" [29]
+130. reviewer_opinion_whitelines: Selected for the Whitelines 100 — top 100 snowboard products of the year [12]
+131. reviewer_opinion_whitelines: "The Alpha moves seamlessly from edge to edge and slices down the hill like the proverbial hot knife" [12]
+132. reviewer_opinion_whitelines: "More versatile than your typical directional shape, with a tail that's long enough to handle switch riding but still sinks nicely in the deep stuff" [12]
+133. user_review_forum: "I have an Alpha APX and I can't recommend it enough. I have not truly found a real limit on it" [42]
+134. user_review_forum: "From slow cruising, groomer carving, charging, trees, steeps, to even park" [42]
+135. user_review_forum: "The Alpha isn't the easiest to torsionally twist" at lighter weight (155lbs on a 158) [43]
+136. switch_riding: Drop Out tail means "you won't want to ride switch too much, but it's perfectly doable in a pinch" [44]
+137. reviewer_opinion_the_good_ride: "Neither the Alpha APX or Alpha are ideal for those that like to straight line and want a damp board to do so" [45]
+138. reviewer_opinion_the_good_ride: "The spoon nose makes it more difficult to nose butter and it often washes out on you" [28]
+139. user_review_forum: "Not great for switch riding but still pretty possible" [38]
+140. user_review_forum: "Best board I have ever owned to take the best out of the slops, in 25 years of snowboarding" [38]
+141. comparable_board_same_brand: APX has stiffer flex, more carbon (Pop Carbon Plus tip-to-tail), Power Rails sidewall construction, Triax Plus fiberglass (vs Biax Plus), N-9000 sintered base (vs N-7000), and is approximately $100 more expensive [27][46]
+142. comparable_board_same_brand: "You definitely get a little stiffer and poppier flex than the regular Alpha" — reviewer preferred Alpha for buttering/ollies, APX for turning [45]
+143. comparable_board_same_brand: "The regular Alpha is better in hard micro bumpy snow and messier snow but the Alpha APX shines a little brighter in good conditions" [45]
+144. comparable_board_cross_brand: Burton Skeleton Key — snappier turner but similar carving and powder performance [47]
+145. comparable_board_cross_brand: CAPiTA Kazu Kokubo Pro — closest competitor vibe-wise with similar 3D nose shaping and powder float [44]
+146. comparable_board_cross_brand: Ride Moderator — similar flex profile, a touch more camber, more switch/all-mountain versatility [44]
+147. comparable_board_cross_brand: Season Forma — better in pure powder but more limited for switch riding [44]
+148. comparable_board_cross_brand: Jones Frontier (softer & less directional), Bataleon Thunderstorm (slightly more mellow), Capita Navigator (more float), Ride Smokescreen (more pop & less nimble), Jones Flagship (slightly more aggressive) [29]
+149. availability_status: Current 2026 model available; 2027 model not yet listed at time of research [20]
+150. availability_status: Major online retailer, carries current model; offers price match policy (beat by 5%), up to 1-year returns, free shipping [19]
+151. availability_status: Pre-order for 2027 model at $849.99 AUD [16][21]
+152. availability_status: Pre-order for 2027 model, estimated May availability; established since 1987 [17]
+153. availability_status: Major European retailer carrying Alpha; available in multiple EU countries [18][25]
+154. availability_status: Available at €499.00 for current model [25]
+155. availability_status: Available at €499.89 / discounted €414.99 for current model [26]
+156. availability_status: Current 2026 model at $519.95 regular / $395.16 on sale [24]
+157. availability_status: Carries current model [48]
+158. availability_status: Carries Alpha as "Nidecker Alpha Snowboard 2025" [34]
+159. availability_status: Carries "2026 Nidecker Alpha" [49]
+160. availability_status: Carries "2025 Nidecker Alpha" [50]
+161. Snowboard Magazine 2025 Platinum Pick: Alpha APX received the Platinum Pick award [39]
+162. The Inertia Best Snowboard of the Year: Alpha APX named "favorite snowboard this year" by The Inertia for 2025-26 [44]
+163. reviewer_opinion_whitelines: Nidecker Instinct Alpha selected for the Whitelines 100 (top 100 products) in 2021-2022 [12]
+</answer>
+
+<citations>
+
+<citation id="1">
+  <quotelist>
+    <url>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url>
+    <quote>Pre-Order 2027 Snowboards Now... Nidecker Alpha Mens Snowboard 2027</quote>
+    <quote>Expected delivery: April/May 2026</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Merchant product listing — this is the source of the merchant-verified attributes provided by the user. Authoritative for availability and pricing in AU market.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="2">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url>
+    <quote>The Nidecker Alpha Snowboard is your go-to for smooth, surf-inspired turns and all-mountain exploration.</quote>
+    <quote>With its directional shape, mid-soft flex, and CamRock profile</quote>
+    <quote>N-7000 Extruded Plus Base</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>evo.com is one of the largest and most reputable online snowboard retailers. Product descriptions closely mirror manufacturer language. Note evo uses "N-7000 Extruded Plus" while manufacturer uses "N-7000 Hybrid" — same product, naming variation.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="3">
+  <quotelist>
+    <url>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url>
+    <quote>Biax Plus – Biax Plus retains the properties of Nidecker's tried and tested 90° biaxial fiberglass weave with more glass to enhance power transfer.</quote>
+    <quote>Pop Carbon – Strategic placement of carbon fiber from the tail to the rear inserts, and from the nose to the front inserts</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Elevation107 2027 product listing confirms construction details for the specific 2027 model year being researched.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="4">
+  <quotelist>
+    <url>https://en.wikipedia.org/wiki/Nidecker</url>
+    <quote>Nidecker is a family-owned Swiss snowboarding company based in Rolle, Switzerland.</quote>
+    <quote>The company was founded in 1887 in Etoy, Switzerland</quote>
+    <quote>It is considered the second biggest snowboard company in the world.</quote>
+  </quotelist>
+  <url_with_text_link>https://en.wikipedia.org/wiki/Nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1887</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Wikipedia provides a well-sourced overview of the company history. The claim about being the second biggest snowboard company may not have formal sourcing but is broadly repeated in industry coverage.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="5">
+  <quotelist>
+    <url>https://www.ndk.group/</url>
+    <quote>In 1984 the first snowboard left the Nidecker factory in Rolle, Switzerland.</quote>
+    <quote>Today, they are the oldest European snowboard brand still in operation.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ndk.group/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>1984</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker Group website — primary authority for corporate history and brand portfolio claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="6">
+  <quotelist>
+    <url>https://www.absolute-snow.com/articles/40-years-of-nidecker-snowboards</url>
+    <quote>Nidecker stands tall as a leader in the snowboarding world, committed to innovation, sustainability, and the pure joy of riding.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.absolute-snow.com/articles/40-years-of-nidecker-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2025</date_of_last_relevance>
+  <reasoning>Absolute Snow is a UK retailer writing a retrospective on 40 years of Nidecker. Provides context on brand heritage and innovation history.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="7">
+  <quotelist>
+    <url>https://www.ndk.group/</url>
+    <quote>The Nidecker Group is home to the most innovative and inspirational board sports and lifestyle brands: Bataleon, Emerica, éS, Etnies, Jones, Nidecker, Rome, Thirtytwo and #YES.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.ndk.group/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-05</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker Group site listing all brands under the corporate umbrella. Updated after the 2024 Sole Technology acquisition.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="8">
+  <quotelist>
+    <url>https://www.nidecker.com/collections/snowboards</url>
+    <quote>From pow lines to corduroy, from side hits to street spots, our Swiss-designed boards have shared the ride.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/collections/snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official manufacturer site confirming Swiss design origin for their snowboards.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.35</attribute_importance>
+</citation>
+
+<citation id="9">
+  <quotelist>
+    <url>https://whitelines.com/brands/nidecker</url>
+    <quote>To this day, many snowboard companies get Nidecker to develop and prototype snowboards for them</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/brands/nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Whitelines is a leading specialist snowboarding publication. This claim speaks to Nidecker's manufacturing credibility and expertise.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="10">
+  <quotelist>
+    <url>https://www.slashboardshop.com/nidecker-board-reviews/alpha</url>
+    <quote>Designed under Nidecker's Biomimicry series</quote>
+    <quote>The 3D spoon-shaped Evolution Nose, which is based on the chest profile of marine mammals, and the Drop Out Tail, which is based on the tail feathers of a vulture.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.slashboardshop.com/nidecker-board-reviews/alpha</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Slash Board Shop review provides clear biomimicry design detail. Independent retail/review source.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="11">
+  <quotelist>
+    <url>https://kingsnowboard.com/blogs/gear/nidecker-alpha-snowboard-review-2024-whats-good</url>
+    <quote>The Alpha is a playful member of Nidecker's Instinct series inspired by the efficient shapes found in nature.</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/nidecker-alpha-snowboard-review-2024-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024-11</date_of_last_relevance>
+  <reasoning>King Snowboard is an independent review site. Confirms the "Instinct series" naming used in earlier model years.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.4</attribute_importance>
+</citation>
+
+<citation id="12">
+  <quotelist>
+    <url>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-instinct-alpha-2021-2022.html</url>
+    <quote>Tested and selected for our top 100 snowboard products of the year: the Nidecker Instinct Alpha</quote>
+    <quote>The Alpha is the most versatile model in the range, with a lively mid-stiff flex pattern that will suit intermediate riders upwards.</quote>
+    <quote>The Alpha moves seamlessly from edge to edge and slices down the hill like the proverbial hot knife.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-instinct-alpha-2021-2022.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-08</date_of_last_relevance>
+  <reasoning>Whitelines is a premier snowboarding publication. This review confirms the Alpha was first released in 2021-2022 under the "Instinct Alpha" name, and provides a respected editorial assessment. Awards selection is a strong credibility marker.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="13">
+  <quotelist>
+    <url>https://www.nidecker.com/products/alpha-2026</url>
+    <quote>This is the go-to deck for creative mountain surfers like Mat Crepel.</quote>
+    <quote>Playful and relaxed. A mid-soft flex lets you get creative across the whole mountain</quote>
+    <quote>Developed exclusively for Nidecker, the N-7000 Hybrid combines the durability and low-maintenance of an extruded base with the hardness of a sintered one.</quote>
+    <quote>Nidecker snowboards are backed by a full two-year warranty against manufacturer's defects that can be extended to three years</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/alpha-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Official Nidecker manufacturer product page for the Alpha. The highest authority for specifications, descriptions, warranty, and pricing. The 2026 (US year) corresponds to the "2027" Australian model year.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="14">
+  <quotelist>
+    <url>https://www.nidecker.com/en/content/505-mathieu-crepel</url>
+    <quote>Snowboarding since age 6... Mathieu Crepel's career spans more than a quarter of a century.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/en/content/505-mathieu-crepel</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2020</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker rider profile page for Mathieu Crepel, confirming the rider's association with the brand.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.9</source_credibility>
+  <attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="15">
+  <quotelist>
+    <url>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-instinct-alpha-2021-2022.html</url>
+    <quote>Nidecker drew on this concept to create their new 'Instinct' series, featuring silhouettes and three-dimensional elements that mimic the shapes that work so well for birds and marine life.</quote>
+  </quotelist>
+  <url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/nidecker-instinct-alpha-2021-2022.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2021-09</date_of_first_relevance>
+  <date_of_last_relevance>2022-08</date_of_last_relevance>
+  <reasoning>Whitelines editorial provides the biomimicry context for the design philosophy behind the Alpha series.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="16">
+  <quotelist>
+    <url>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url>
+    <quote>Expected delivery: April/May 2026 Please note: delivery dates are estimates and subject to change.</quote>
+    <quote>Pre-Order 2027 Snowboards Now</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/products/nidecker-alpha-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Australian retailer specializing in snowboard gear, carrying the 2027 model year product. Confirms pre-order status and delivery timeline.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="17">
+  <quotelist>
+    <url>https://cherripow.com.au/products/nidecker-alpha-mens-snowboard-2027</url>
+    <quote>Estimated Availability: May</quote>
+    <quote>Order now for 2026 and be amongst the first in the world to ride the newest lineup</quote>
+  </quotelist>
+  <url_with_text_link>https://cherripow.com.au/products/nidecker-alpha-mens-snowboard-2027</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Cherri Pow is an Australian snow sports retailer established since 1987. Confirms availability and estimated delivery for the 2027 model.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.7</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="18">
+  <quotelist>
+    <url>https://www.blue-tomato.com/de-DE/product/Nidecker-Alpha+2027+Snowboard-754674/</url>
+    <quote>Nidecker steht für Schweizer Innovation und Excellenze.</quote>
+    <quote>Dieses sogenannte Factory-Tuning ist jedoch nicht sehr haltbar</quote>
+  </quotelist>
+  <url_with_text_link>https://www.blue-tomato.com/de-DE/product/Nidecker-Alpha+2027+Snowboard-754674/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Blue Tomato is a major European snowboard retailer. Lists the 2027 model year. Factory tuning note is useful for buyer expectations.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="19">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url>
+    <quote>The Nidecker Alpha Snowboard is in stock now.</quote>
+    <quote>Find a better price? We'll beat it by 5%.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo is one of the largest US snowboard retailers with strong customer service policies. Confirms in-stock availability and price-match promise for current model year.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="20">
+  <quotelist>
+    <url>https://www.nidecker.com/products/alpha-2026</url>
+    <quote>Sale price $ 519.95</quote>
+    <quote>1% of every sale we make goes straight to environmental initiatives with clear goals.</quote>
+    <quote>Nidecker snowboards are backed by a full two-year warranty against manufacturer's defects that can be extended to three years simply by registering your new board.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/alpha-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Official Nidecker US store page. The most authoritative source for US pricing, warranty, and sustainability claims.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="21">
+  <quotelist>
+    <url>https://www.elevation107.com.au/collections/nidecker-snowboards</url>
+    <quote>Nidecker Alpha Mens Snowboard 2027... Pre-order Regular price $849.99</quote>
+    <quote>Nidecker Alpha APX Mens Snowboard 2027... Pre-order Regular price $949.99</quote>
+  </quotelist>
+  <url_with_text_link>https://www.elevation107.com.au/collections/nidecker-snowboards</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Elevation107 collection page showing AUD pricing for both the Alpha and Alpha APX 2027 models in the Australian market.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="22">
+  <quotelist>
+    <url>https://www.evo.com/shop/snowboard/snowboards/nidecker</url>
+    <quote>Nidecker Alpha Snowboard $529.95 $363.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/snowboard/snowboards/nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo snowboard listing page showing the Alpha at regular $529.95 on sale at $363.96. Note: prices volatile and snapshot only. The $529.95 is $10 higher than nidecker.com's $519.95.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="23">
+  <quotelist>
+    <url>https://www.evo.com/shop/sale/nidecker</url>
+    <quote>Nidecker Alpha Snowboard $519.95 $415.96 Sale</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/shop/sale/nidecker</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2026-03</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>evo sale page showing current Alpha pricing at $519.95 regular / $415.96 on sale. This matches the manufacturer MSRP of $519.95.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="24">
+  <quotelist>
+    <url>https://spokex.com/products/nidecker-alpha-snowboard</url>
+    <quote>2026 Nidecker Alpha Snowboard... Regular price $519.95 Sale price$395.16</quote>
+  </quotelist>
+  <url_with_text_link>https://spokex.com/products/nidecker-alpha-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>SpokeX is a US retailer showing the Alpha at MSRP $519.95, currently discounted. Confirms the manufacturer's US pricing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="25">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url>
+    <quote>€499.95 Buy it Now Buy Nidecker Alpha from BlueTomato</quote>
+    <quote>£445.00 Buy it Now Buy Nidecker Alpha from BlueTomato UK</quote>
+    <quote>€499.00 Buy it Now Buy Nidecker Alpha from SnowCountry</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride aggregates buy links with pricing from multiple European retailers. Prices are snapshots and may fluctuate.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.75</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="26">
+  <quotelist>
+    <url>https://www.montaz.com/en/nidecker-alpha-p259991.html</url>
+    <quote>Season : 2025-2026... 499.89 € -16 % 414,99 €</quote>
+  </quotelist>
+  <url_with_text_link>https://www.montaz.com/en/nidecker-alpha-p259991.html</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Montaz is a French online retailer showing the current season Alpha with pricing and discount.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="27">
+  <quotelist>
+    <url>https://www.theinertia.com/gear/nidecker-alpha-apx-snowboard-review/</url>
+    <quote>the beefed-up version of the base Alpha ($520), it comes in at $620</quote>
+    <quote>coming in at more than $100 cheaper than many competitors with a similar spec list</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/nidecker-alpha-apx-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Inertia is a reputable outdoor media publication. This review provides comparative pricing context between the Alpha and Alpha APX, and vs. competition. Pricing is a snapshot from time of publishing.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="28">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url>
+    <quote>The Nidecker Alpha is a pretty versatile directional daily driver that has a mellow flex in a moderately tapered directional shape.</quote>
+    <quote>Feels a little washy if you front foot weight your turns.</quote>
+    <quote>148: 6-7 153: 8-9 158- 9-10 162w- 11-12</quote>
+    <quote>The Nidecker Alpha felt pretty light and about the same as the APX version.</quote>
+    <quote>The spoon nose makes it more difficult to nose butter and it often washes out on you</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride is one of the most respected independent snowboard review sites. The reviewer (James, size 9, 185lbs) tested the 158cm extensively. Reviews carry high credibility for ride characteristics. Boot size recommendations are field-tested.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="29">
+  <quotelist>
+    <url>https://www.slashboardshop.com/nidecker-board-reviews/alpha</url>
+    <quote>This board was a lot of fun to shred on as the mid-stiff flex felt stable but definitely not overwhelming and not a plank.</quote>
+    <quote>I'd recommend this board for strong intermediate riders and up who want to charge but also be laid back at times.</quote>
+    <quote>this board's riding style leans more toward "playful freeride."</quote>
+    <quote>Jones Frontier (softer & less directional), Bataleon Thunderstorm (slightly more mellow), Capita Navigator (more float), Ride Smokescreen (more pop & less nimble), Jones Flagship (slightly more aggressive).</quote>
+  </quotelist>
+  <url_with_text_link>https://www.slashboardshop.com/nidecker-board-reviews/alpha</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-01</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Slash Board Shop provides an independent hands-on review of the 2024/2025 Alpha. Useful for ride feel assessment, comparable boards, and rider recommendations. Note the "mid-stiff" flex assessment differs from manufacturer's "mid-soft" claim.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="30">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url>
+    <quote>Biax Plus – Biax Plus retains the properties of Nidecker's tried and tested 90° biaxial fiberglass weave with more glass to enhance power transfer.</quote>
+    <quote>Pop Carbon – Strategic placement of carbon fiber from the tail to the rear inserts, and from the nose to the front inserts</quote>
+    <quote>Premium Sandwich Construction – A step up from the standard sandwich construction that adds carbon stringers</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>evo's product page for the Alpha provides detailed construction specs that closely mirror manufacturer specifications.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="31">
+  <quotelist>
+    <url>https://www.nidecker.com/products/alpha-2026</url>
+    <quote>Our Master Core is the culmination of decades of experimentation in materials and woodcraft. Two species of wood (poplar and paulownia) are combined</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/alpha-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Official manufacturer product page describing the Master Core construction with two wood species. This is the primary authority for core composition.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="32">
+  <quotelist>
+    <url>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url>
+    <quote>Master Core – ...the perfect harmony of different wood densities and varieties (poplar, beech, spruce, and paulownia)</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/snowboards/nidecker-alpha-snowboard</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>evo lists 4 wood species in the Master Core, while the manufacturer's own page lists 2. This may be a generic description evo applies across multiple Nidecker models, or a more complete enumeration. Flagged as disagreement.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="33">
+  <quotelist>
+    <url>https://www.nidecker.com/pages/snowboards-technology</url>
+    <quote>Developed exclusively for Nidecker, the N-7000 Hybrid combines the durability and low-maintenance of an extruded base with the hardness of a sintered one.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/pages/snowboards-technology</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>Official Nidecker technology page. The primary authority for the N-7000 base naming and technology description. Confirms "Hybrid" as the official name.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="34">
+  <quotelist>
+    <url>https://www.mteverest.com/products/nidecker-alpha-snowboard-2025</url>
+    <quote>N-7000 Base... has all the durability and low-maintenance glide of an extruded base but is as hard as a sintered base. We call it sintruded.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mteverest.com/products/nidecker-alpha-snowboard-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Mt Everest retailer uses the "sintruded" marketing term for the N-7000 base, confirming it as neither pure extruded nor pure sintered.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="35">
+  <quotelist>
+    <url>https://www.evo.com/outlet/snowboards/nidecker-alpha-snowboard-2022</url>
+    <quote>Nidecker's reference stance is the second narrowest position.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.evo.com/outlet/snowboards/nidecker-alpha-snowboard-2022</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-09</date_of_first_relevance>
+  <date_of_last_relevance>2023-09</date_of_last_relevance>
+  <reasoning>evo's 2023 model listing confirms the reference stance positioning convention used by Nidecker across model years.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="36">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/nidecker-alpha-apx-snowboard-review/</url>
+    <quote>With a 22" stance width set all the way back you can get -3.25" back from center of board</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nidecker-alpha-apx-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride's APX review provides measured stance setback data. Since the Alpha and Alpha APX share the same outline/shape, the stance geometry is very similar. Useful for freeride setup planning.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="37">
+  <quotelist>
+    <url>https://www.mcusports.com/shop/brands/brands-nidecker/nidecker-alpha-snowboard-2025-2026/</url>
+    <quote>Diecut Base Pure-color base materials pieced together like a jigsaw for bold, crisp graphics.</quote>
+    <quote>Glossy Finish Adds a premium deep shine to select board artwork.</quote>
+    <quote>Overprint Layered topsheet artwork that adds depth and texture to the graphic.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.mcusports.com/shop/brands/brands-nidecker/nidecker-alpha-snowboard-2025-2026/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>MCU Sports listing with graphic/aesthetic details for the Alpha. Confirms base and topsheet cosmetic treatments.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.25</attribute_importance>
+</citation>
+
+<citation id="38">
+  <quotelist>
+    <url>https://eu.nidecker.com/products/alpha-apx-2026</url>
+    <quote>Only disappointment is that it can be really easy for scratch the design by someone who is stepping on your board on the lift line.</quote>
+    <quote>Best board I have ever owned to take the best out of the slops, in 25 years of snowboarding.</quote>
+  </quotelist>
+  <url_with_text_link>https://eu.nidecker.com/products/alpha-apx-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>User reviews on the official EU Nidecker store for the Alpha APX. While these are for the APX variant, topsheet durability applies across the Alpha line. User review credibility is moderate — individual experiences but posted on the official store.</reasoning>
+  <evidentiary_alignment>0.7</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.45</attribute_importance>
+</citation>
+
+<citation id="39">
+  <quotelist>
+    <url>https://snowboardmag.com/gear/2025-platinum-pick-boards-nidecker-alpha-apx</url>
+    <quote>Nidecker donates 1% of all revenues to nonprofits fighting climate change.</quote>
+    <quote>Nidecker also offers a less-aggressive version, simply called the Alpha, that will perform equally as well in all types of terrain.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardmag.com/gear/2025-platinum-pick-boards-nidecker-alpha-apx</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Snowboard Magazine is a leading industry publication. The Platinum Pick award is a well-regarded industry accolade. Confirms the Alpha as the less-aggressive sibling of the award-winning APX.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.85</source_credibility>
+  <attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="40">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url>
+    <quote>the spoon tech in the front foot seems to bleed into the effective edge and can wash with too much weight there.</quote>
+    <quote>There is a healthy bow of camber with the Nidecker Alpha but with the lifted sides and maybe a touch of early rise before the nose it's pretty forgiving.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nidecker-alpha-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride review explaining the mechanism of front-foot washiness — a key ride characteristic buyers should know about. This is the most specific technical explanation of this behavior.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="41">
+  <quotelist>
+    <url>https://kingsnowboard.com/blogs/gear/nidecker-alpha-snowboard-review-2024-whats-good</url>
+    <quote>This board likes to be ridden fast and aggressive. It rails a turn, and it's playful</quote>
+    <quote>It offers phenomenal edge control and carving ability</quote>
+  </quotelist>
+  <url_with_text_link>https://kingsnowboard.com/blogs/gear/nidecker-alpha-snowboard-review-2024-whats-good</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-11</date_of_first_relevance>
+  <date_of_last_relevance>2024-11</date_of_last_relevance>
+  <reasoning>Independent review from King Snowboard providing positive ride assessments of the Alpha. Confirms the board rewards aggressive riding.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="42">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/looking-for-a-freeride-powder-board-all-mountain.282029/</url>
+    <quote>I have an Alpha APX and I can't recommend it enough. I have not truly found a real limit on it.</quote>
+    <quote>From slow cruising, groomer carving, charging, trees, steeps, to even park.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/looking-for-a-freeride-powder-board-all-mountain.282029/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Forum post from an Alpha APX owner on a dedicated snowboarding forum. While individual anecdotal evidence, forum users tend to be experienced riders providing authentic feedback. The strong endorsement across varied terrain is notable.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.45</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="43">
+  <quotelist>
+    <url>https://www.snowboardingforum.com/threads/looking-for-a-freeride-powder-board-all-mountain.282029/</url>
+    <quote>IMO Angry is correct that the Alpha isn't the easiest to torsionally twist, at my weight anyway.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.snowboardingforum.com/threads/looking-for-a-freeride-powder-board-all-mountain.282029/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-10</date_of_first_relevance>
+  <date_of_last_relevance>2025-04</date_of_last_relevance>
+  <reasoning>Forum user at 155lbs found the Alpha APX 158 challenging to torsionally twist. Relevant for lighter riders considering this board — suggests it may feel stiff for riders at the lower end of the recommended weight range.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.4</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="44">
+  <quotelist>
+    <url>https://www.theinertia.com/gear/nidecker-alpha-apx-snowboard-review/</url>
+    <quote>The Nidecker Alpha APX is our favorite snowboard this year.</quote>
+    <quote>The CAPiTA Kazu Kokubo Pro was probably, vibe-wise, the closest competitor</quote>
+    <quote>the Ride Moderator has a pretty similar flex profile, a touch more camber</quote>
+    <quote>with the Drop Out tail, you won't want to ride switch too much, but it's perfectly doable in a pinch.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.theinertia.com/gear/nidecker-alpha-apx-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-10</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Inertia is a respected surf/outdoor media outlet. Their snowboard test involved dozens of decks at Mammoth Mountain with a team of riders. The Alpha APX winning best board of the year reflects extremely well on the Alpha platform as a whole. Competitor comparisons are highly relevant for purchase decisions.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="45">
+  <quotelist>
+    <url>https://thegoodride.com/snowboard-reviews/nidecker-alpha-apx-snowboard-review/</url>
+    <quote>You definitely get a little stiffer and poppier flex than the regular Alpha.</quote>
+    <quote>I personally liked the easier flex of the Alpha for buttering and ollies.</quote>
+    <quote>The regular Alpha is better in hard micro bumpy snow and messier snow but the Alpha APX shines a little brighter in good conditions.</quote>
+    <quote>Neither the Alpha APX or Alpha are ideal for those that like to straight line and want a damp board to do so.</quote>
+  </quotelist>
+  <url_with_text_link>https://thegoodride.com/snowboard-reviews/nidecker-alpha-apx-snowboard-review/</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2023-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-28</date_of_last_relevance>
+  <reasoning>The Good Ride's comparative review of the Alpha APX provides direct comparisons to the regular Alpha. Key differentiators between the two models are critical for purchase decisions.</reasoning>
+  <evidentiary_alignment>0.9</evidentiary_alignment>
+  <source_credibility>0.8</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="46">
+  <quotelist>
+    <url>https://www.nidecker.com/products/alpha-apx-2026</url>
+    <quote>Our flagship Bio Series model takes the innovative natural outline of the regular Alpha and enhances the construction with more carbon, a race-grade base and premium sidewalls.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.nidecker.com/products/alpha-apx-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-12</date_of_last_relevance>
+  <reasoning>Official Nidecker product page for the Alpha APX, explicitly differentiating it from the regular Alpha. Confirms the APX as the upgraded version with premium construction.</reasoning>
+  <evidentiary_alignment>0.95</evidentiary_alignment>
+  <source_credibility>0.92</source_credibility>
+  <attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="47">
+  <quotelist>
+    <url>https://snowboardingprofiles.com/nidecker-alpha-apx-review</url>
+    <quote>The Skeleton Key is the snappier turner, IMO, so it has that over the Alpha APX.</quote>
+    <quote>The Alpha APX has a surfier feel in powder versus the SK.</quote>
+  </quotelist>
+  <url_with_text_link>https://snowboardingprofiles.com/nidecker-alpha-apx-review</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2022-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-01</date_of_last_relevance>
+  <reasoning>Snowboarding Profiles is an independent review and advice site. The Burton Skeleton Key comparison is relevant for buyers deciding between similar all-mountain/freeride boards.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.6</source_credibility>
+  <attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="48">
+  <quotelist>
+    <url>https://www.eriksbikeshop.com/products/nidecker-alpha-snowboard-2026-pr5a25932</url>
+    <quote>The Alpha's smooth edge-to-edge transitions and versatile flex makes it the go-to deck for creative mountain surfers like Matieu Crepel.</quote>
+  </quotelist>
+  <url_with_text_link>https://www.eriksbikeshop.com/products/nidecker-alpha-snowboard-2026-pr5a25932</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>ERIK'S is a US multi-sport retailer carrying the Alpha. Confirms availability through additional retail channel.</reasoning>
+  <evidentiary_alignment>0.8</evidentiary_alignment>
+  <source_credibility>0.65</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="49">
+  <quotelist>
+    <url>https://rudeboys.com/products/nidecker-alpha-snowboard-w26</url>
+    <quote>Developed exclusively for Nidecker, the N-7000 Hybrid combines the durability and low-maintenance of an extruded base with the hardness of a sintered one.</quote>
+  </quotelist>
+  <url_with_text_link>https://rudeboys.com/products/nidecker-alpha-snowboard-w26</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-09</date_of_last_relevance>
+  <reasoning>Rude Boys retailer listing confirms availability and uses manufacturer's official "N-7000 Hybrid" terminology.</reasoning>
+  <evidentiary_alignment>0.85</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="50">
+  <quotelist>
+    <url>https://blauerboardshop.com/products/nidecker-alpha-2025</url>
+    <quote>the Alpha features a lively NDK core made from sustainable Swiss poplar, combined with carbon fibre layers for even more pop.</quote>
+  </quotelist>
+  <url_with_text_link>https://blauerboardshop.com/products/nidecker-alpha-2025</url_with_text_link>
+  <date_url_retrieved>2026-04-28</date_url_retrieved>
+  <date_of_first_relevance>2024-09</date_of_first_relevance>
+  <date_of_last_relevance>2025-09</date_of_last_relevance>
+  <reasoning>Blauer Board Shop carries the Alpha and uses older-model-year description referencing "NDK Swiss Core" and "sustainable Swiss poplar." Confirms availability through another independent retailer.</reasoning>
+  <evidentiary_alignment>0.75</evidentiary_alignment>
+  <source_credibility>0.55</source_credibility>
+  <attribute_importance>0.5</attribute_importance>
+</citation>
+</citations>
+</response>

@@ -1,0 +1,912 @@
+<response>
+
+<canonical_schema>
+<!-- IMPORTANT: The following canonical attribute names appear on multiple fact lines.
+     Per Rule 18 in the ProbLog generation instructions, you MUST preserve the
+     canonical name on the PRIMARY value. Secondary values get suffixed names
+     with @canonical false. See Rule 18 for how to pick the primary value
+     based on the category. -->
+  <duplicate_canonical name="availability_status" count="17" category="availability" />
+  <duplicate_canonical name="user_review_forum" count="12" category="review" />
+  <duplicate_canonical name="sustainability_certification" count="6" category="sustainability" />
+  <duplicate_canonical name="sidewall_material" count="5" category="unknown" />
+  <duplicate_canonical name="reviewer_opinion_the_good_ride" count="5" category="review" />
+  <duplicate_canonical name="tip_tail_width_size" count="4" category="geometry" note="size_variant" />
+  <duplicate_canonical name="construction_material_innovation" count="4" category="construction" />
+  <duplicate_canonical name="base_material" count="4" category="construction" />
+  <duplicate_canonical name="contact_length_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="stance_width_range_size" count="3" category="geometry" note="size_variant" />
+  <duplicate_canonical name="price_usd_msrp" count="3" category="pricing" />
+  <duplicate_canonical name="reviewer_opinion_whitelines" count="3" category="review" />
+  <duplicate_canonical name="comparable_board_same_brand" count="3" category="comparable" />
+  <duplicate_canonical name="board_category" count="2" category="identity" />
+  <duplicate_canonical name="graphic_designer_artist" count="2" category="identity" />
+  <duplicate_canonical name="redesign_year" count="2" category="identity" />
+  <duplicate_canonical name="sidecut_radius_size" count="2" category="geometry" note="size_variant" />
+  <duplicate_canonical name="setback" count="2" category="unknown" />
+  <duplicate_canonical name="flex_rating_10_manufacturer" count="2" category="performance" />
+  <duplicate_canonical name="flex_feel" count="2" category="performance" />
+  <duplicate_canonical name="recommended_weight_range_size" count="2" category="recommendation" note="size_variant" />
+  <duplicate_canonical name="camber_description" count="2" category="performance" />
+  <duplicate_canonical name="skill_level_recommendation" count="2" category="recommendation" />
+  <duplicate_canonical name="core_material_blend_ratio" count="2" category="construction" />
+  <duplicate_canonical name="laminate" count="2" category="unknown" />
+  <duplicate_canonical name="edge_technology" count="2" category="unknown" />
+  <duplicate_canonical name="manufacturing_location_current" count="2" category="brand_info" />
+  <duplicate_canonical name="warranty" count="2" category="warranty" />
+  <duplicate_canonical name="price_gbp_blue_tomato_uk" count="2" category="pricing" />
+  <duplicate_canonical name="edge_hold" count="2" category="unknown" />
+  <duplicate_canonical name="terrain_suitability" count="2" category="recommendation" />
+  <duplicate_canonical name="negative_aspect" count="2" category="review" />
+</canonical_schema>
+
+<answer>
+1. brand: Lib Tech [1][2]
+2. model_name: Doughboy (also referred to as "Doughboy Shredder" in prior years) [1][2]
+3. manufacturer: Mervin Manufacturing [3][4]
+4. model_year: 2025-2026 season [1]
+5. Model variant (next season early release): Doughboy 185 — 2026-2027 Early Release [5]
+6. SKU (manufacturer): doughboy [1]
+7. SKU (merchant): 25SN051 195 [MERCHANT]
+8. product_type: Snowboard [1]
+9. board_category: All Mountain - Freeride [MERCHANT]
+10. board_category: All Mountain - Directional Twin [1][2]
+11. gender: Men's [6]
+12. graphic_designer_artist: Mike Olson [1][2]
+13. graphic_designer_artist: Mark Gale [1][7]
+14. Design origin: Originally created in the late 1980s by Mike Olson [1][2]
+15. Design philosophy: Longer camber board on a fixed width stance for smoother ride through rough terrain [1]
+16. model_first_available_year: Late 1980s [1]
+17. redesign_year: The 2018-2019 re-release was noted as "smaller than the original" at 195cm [8]
+18. Product tagline: "LONG AND SHREDDY... MODERN CLASSIC / RESORT FREESTYLE ATV" [1]
+NOTE: Disagreement on contact length between manufacturer (152cm) and merchant data (135cm). Also disagreement on flex rating (manufacturer says 7/10; merchant says 6/10). Also disagreement on core wood composition ratio (Tactics says 75/25; evo says 60/40). Each is listed separately.
+19. Overall length: 195cm [1][7]
+20. contact_length_size: 152.0cm [1][7] ⚠️ DISAGREES WITH MERCHANT
+21. contact_length_size: 135.0cm [MERCHANT] ⚠️ DISAGREES WITH MANUFACTURER. Comment: The manufacturer's own spec table on lib-tech.com clearly states 152cm. The merchant data of 135cm appears to be the 185cm size's contact length applied in error, or a different measurement methodology. The manufacturer value of 152cm should be considered authoritative.
+22. sidecut_radius_size: 9.0m [1][7]
+23. tip_tail_width_size: 32.2cm [1][7] ⚠️ DISAGREES WITH MERCHANT
+24. tip_tail_width_size: 32.2cm [1][7]
+25. tip_tail_width_size: 31.6cm [MERCHANT] ⚠️ DISAGREES WITH MANUFACTURER. Comment: The merchant-listed nose/tail width of 31.6cm matches the 185cm size specs on lib-tech.com. The 195cm size's nose/tail width is 32.2cm per the manufacturer. This appears to be a merchant data error attributing 185cm specs to the 195cm listing.
+26. Waist width (195cm): 26.1cm [1][7][Merchant verified — agrees]
+27. Surface area (195cm): 840 sq. inches [1][9]
+28. stance_width_range_size: 20.25"–25.0" / 0" setback [1][7][Merchant verified — agrees]
+29. stance_width_range_size: 51.5–63.5cm / 0cm setback [1]
+30. setback: 0 inches [1] [Merchant verified — agrees]
+31. flex_rating_10_manufacturer: 7 out of 10 (10 = Firm) [1] ⚠️ DISAGREES WITH MERCHANT
+32. flex_rating_10: 6/10 [MERCHANT] ⚠️ DISAGREES WITH MANUFACTURER. Comment: The manufacturer spec table explicitly states flex = 7. The merchant listed 6/10. The manufacturer value should be considered authoritative for this objective measurement.
+33. flex_feel: Mid-flex, balanced blend of flexibility and stiffness [MERCHANT]
+34. flex_rating_10_evo: Medium [10]
+35. flex_feel: Medium Stiff [7]
+36. recommended_weight_range_size: 150+ lbs / 70+ kg [1][Merchant verified — agrees]
+37. width_options: Standard [MERCHANT]; Tactics says "Wide" [7]. Comment: Disagreement between sources. The board is 26.1cm waist which is not traditionally "wide" for most standard boot sizes, but may be categorized differently depending on retailer criteria.
+38. Overall length (185cm variant): 185cm [5]
+39. contact_length_size: 135.0cm [5]
+40. sidecut_radius_size: 9.0m [5]
+41. tip_tail_width_size: 31.6cm / 31.6cm [5]
+42. Waist width (185cm): 26.1cm [5]
+43. Surface area (185cm): 790 sq. inches [5]
+44. stance_width_range_size: 20.25"–25.0" / 1" setback [5]
+45. setback: 1 inch (2.5cm) [5]. Comment: Unlike the 195cm (0" setback), the 185cm has a 1" setback, making it slightly more directional.
+46. flex_rating_10_manufacturer: 7/10 [5]
+47. recommended_weight_range_size: 150+ lbs / 70+ kg [5]
+48. shape: Directional Twin [1][7][MERCHANT]
+49. camber_type: C3 Camber [10][11]
+50. camber_description: "Aggressive dominant camber zones out to the contacts combined with mild rocker between your feet" [10]
+51. camber_description: "Subtle Banana rocker gives freestyle freedom with maximum end-to-end stability for big, high-speed lines" [10]
+52. skill_level_recommendation: "For aggressive, skilled riders" [10]
+53. pro_rider_name: "EJack, Jamie Lynn, and Fredi K's favorite" [10]
+54. core_material: Aspen and Paulownia wood [1][7]
+55. core_material_blend_ratio: 75% Aspen / 25% Paulownia [7][MERCHANT] ⚠️ DISAGREES WITH EVO
+56. core_material_blend_ratio: 60% Aspen / 40% Paulownia [12] ⚠️ DISAGREES WITH TACTICS/MERCHANT. Comment: Tactics and the merchant data both list 75/25; evo lists 60/40. Lib Tech's own product page says "Aspen Paulownia core" without specifying percentages. The Tactics page cites the "Original Power Pop Construction (OPP) – 75% Aspen, 25% Paulownia" description which is consistent with past Lib Tech marketing. The evo figure may be from an earlier product update. Likely the 75/25 is correct for the current model.
+57. Core construction name: Original Power Pop Construction (OPP) [7]
+58. laminate: Tri-Ax Glass + Magnesium Techno Fiber Bands and Carbon [7][MERCHANT]
+59. laminate: 0°, 45°, -45° (Tri-Ax) [MERCHANT]
+60. construction_material_innovation: "High magnesium content glass fiber that has high tensile strength, high elastic modulus great overall strength to weight properties" [13]
+61. construction_material_innovation: Carbon additives included with magnesium fiber bands [1][7][MERCHANT]
+62. sidewall_material: Birch Internal Sidewalls — "Rugged, lightweight, vertical end grain Birch internal sidewalls add pop and durability" [7]
+63. sidewall_material: "Extremely rugged high impact 6 ply sidewall reinforcement" [13]
+64. sidewall_material: UHMW Sintered Sidewalls [7][MERCHANT]
+65. sidewall_material: "A Lib Tech innovation that is twice as sintered as most industry sidewalls" [7]
+66. sidewall_material: "Long molecular chains create rugged impact resistance, resilience and a smooth damp ride" [13]
+67. construction_material_innovation: UHMW Tip/Tail Impact Deflection [7][13][MERCHANT]
+68. construction_material_innovation: "minimize tip and tail spin weight" [13]
+69. topsheet: Eco Sublimated Poly Top Sheet [7][MERCHANT]
+70. topsheet_appearance_description: "made from sublimated polyester material that's great for vibrant yet durable graphics" [7]
+71. base_material: Eco Sublimated TNT Base [1][MERCHANT]
+72. base_type: UHMW dual-layer thermal fusion with titanium layer [MERCHANT]
+73. base_material: "The highest density UHMW and fastest base material without wax" [13]
+74. base_material: "unique dual-layer thermal fusion 'phase alteration' process which aligns the molecular chains into an engineered crystalline structure" [13]
+75. base_material: "reflects light and heat, keeping the base at or near snow temperatures" [14]
+76. Base wax requirement: "Wax to conditions as normal, but the board will remain fast even as wax wears" [14]
+77. edge_technology: Magne-Traction® serrated edges [7][MERCHANT]
+78. edge_technology: "Strategically placed bumps that create added contact points along each edge for increased grip and control in all conditions" [7]
+79. mounting_pattern: 2x4 Inserts [MERCHANT]
+80. manufacturing_location_current: Handbuilt in the USA [7][15]
+81. manufacturing_location_current: Carlsborg/Sequim, Washington, USA [15]
+82. sustainability_certification: "zero hazardous waste producing factory" [15][16]
+83. sustainability_certification: Uses safest epoxy resin systems, no solvents (citrus-based cleaners), fast-growing farmed wood cores [17]
+84. sustainability_certification: Eliminates need for toxic automotive lacquer gloss coats [17]
+85. sustainability_certification: "recycle all scrap manufacturing materials possible… including scrap wood, sawdust, and plastic base materials" [17]
+86. sustainability_certification: "green power specially contracted from the local PUD" [17]
+87. Factory heritage: Founded by Mike Olson and Pete Saari in 1977 [15]
+88. Factory distinction: "longest running and last major board building factory in the USA" [15]
+89. Current ownership: Altamont Capital Partners (acquired from Quiksilver in 2013) [18]
+90. warranty: 1 year manufacturer warranty — structural defects only [7]
+91. warranty: "DOES NOT cover impact damage, abuse, misuse or normal wear and tear" [7]
+92. price_usd_msrp: $799.99 [1]
+93. price_usd_msrp: ~$559.99 implied [1]
+94. price_aud_merchant: $1,349.99 AUD [MERCHANT]
+95. price_eur_blue_tomato: €799.99 (inc. VAT) [19]
+96. price_gbp_blue_tomato_uk: £694.99 [20]
+97. price_usd_msrp: $849.99 [5]
+98. price_gbp_blue_tomato_uk: £714.99 [20]
+99. availability_status: Lib Tech direct (lib-tech.com) — 195cm currently listed as "Notify me" (sold out/out of stock) [1]
+100. availability_status: evo.com — listed as 2026, out of stock [10]
+101. availability_status: Tactics.com — listed as 2026, out of stock [7]
+102. availability_status: Arlberg Ski & Surf — $799.99, 195cm, 2 in stock [21]
+103. availability_status: Board of Missoula — regular $800.00, sale $640.00 [22]
+104. availability_status: WWS Boardshop — $799.99 USD, sold out [23]
+105. availability_status: Rude Boys (Banff, Alberta) — 195cm listed [24]
+106. availability_status: Gorge Performance — listed [25]
+107. availability_status: Glacier Ski Shop (2025 model) — sale $639.00, regular $800.00 [26]
+108. availability_status: The House — 195cm listed [27]
+109. availability_status: Amazon.com — 195cm listed [28]
+110. availability_status: Salty Peaks (Millcreek, Utah) — listed [9]
+111. availability_status: Blauer Board Shop — listed (2025 model) [13]
+112. availability_status: Alpine Ski Shop — listed (2025 model) [29]
+113. availability_status: WinterIsCalling.com — $799.99 pre-order [30]
+114. availability_status: Alternative113.com — as low as $557.99, regular $929.99 [31]
+115. availability_status: SnowCountry.eu (Europe) — listed [32]
+116. reviewer_opinion_whitelines: Exceptionally stable — "even when you're clearly maching it... the Lib Tech Doughboy Shredder never actually feels like it's going that fast. That's a testament to its stability" [8]
+117. chatter_performance: "little to no gnarly chatter" in choppy conditions [8]
+118. turn_initiation_performance: "turns more like an oil tanker than a speedboat" — requires big, open terrain [8]
+119. user_review_forum: "only long turns are an option" per forum tester [33]
+120. user_review_forum: "It doesn't nearly feel as long as it is" [33]
+121. reviewer_opinion_the_good_ride: "a blast on big cord groomers" [34]
+122. user_review_forum: "fun every 5th day, not an every day rider" [34]
+123. reviewer_opinion_the_good_ride: "a board for a few runs a day but not all day" [35]
+124. carving_rating_tgr: "big tips and tails would carve into beautiful arcs on hardpack and ice" [1]
+125. powder_rating_tgr: "float incredibly in powder" [1]
+126. Rough terrain performance: "smoother ride through rough terrain" [1]
+127. Dampening quality: "turns chopped-up snow into smooth terrain and provides an incredibly damp ride" [9]
+128. Speed capability: "get this on a straight and you'll be flying" [8]
+129. pop: Carbon reinforcement and camber "keep this boy poppin" [1]
+130. freestyle_park_rating: Despite size, Chauncy "launches progressive spin missions of this platform on the daily" [1]
+131. edge_hold: Magne-Traction provides "unreal edge hold and control in all conditions" [7]
+132. edge_hold: "turning ice into carvable terrain" [9]
+133. base_glide_performance: "The base material is nippy at the best of times, but the sheer surface area does the job" [8]
+134. Manufacturer rating (lib-tech.com, 195cm): 100% (18 reviews) [1]
+135. Manufacturer rating (lib-tech.com, 185cm): 100% (2 reviews) [5]
+136. reviewer_opinion_the_good_ride: "a super long ass pretty much full camber ride that is nothing like anything else… it's a pretty expensive quiver ride but some might just have to have it" [35]
+137. reviewer_opinion_whitelines: "riding this for a morning was a joy – but would I buy one? Doubtful. Once the novelty wears off, all you're left with is board for riders that want to go fast, but without the adrenaline spike" [36]
+138. reviewer_opinion_whitelines: "the wavy Magne-traction edges give you confidence when you're railing some big, swooping turns" [8]
+139. user_review_forum: "I thought this board would feel like a plank and be hard to ride. I was way off. It made me fall in love with snowboarding all over again" [37]
+140. user_review_forum: "Is it a complete novelty that will be more of a wall hanger, or is it actually a board that you would ride occasionally?" [33]
+141. user_review_forum: "It doesn't really seem like it would be a good powder board, it seems like it's just a giant all mountain board" [33]
+142. user_review_forum: "Nice for comedic purposes, but I don't take it really serious" [33]
+143. user_review_forum: "After I rode a Doughboy Shredder I'm over the short fat thing. Long/fat is the way to go except for trees" [38]
+144. user_review_forum: "Doughboy was completely unique and definitely a quiver board" [39]
+145. reviewer_opinion_the_good_ride: "Mervin (Lib Tech / Gnu) makes pretty solid boards and the construction is pretty durable. The top sheet gets scuffs easy but its all superficial" [40]
+146. user_review_forum: "I really like the smooth/damp rides they provide though variable resort conditions when riding fast and hard" [39]
+147. user_review_forum: "I wish Mervin would make more boards without mag and with plain old camber" and "doubled down too hard on Mag and their banana technology" [39]
+148. terrain_suitability: All Mountain, Freeride [MERCHANT]
+149. riding_style: Carving, off-piste, steep terrain [MERCHANT]
+150. terrain_suitability: Groomed hardpack, deep powder, variable conditions [1][8]
+151. rider_level: Advanced [MERCHANT]; Advanced-Expert [10]
+152. skill_level_recommendation: Expert/aggressive riders who want to charge at speed [9]
+153. Volume shifted: Yes — oversized shape with surface area around 840 sq. in. makes it more manageable than length suggests [9]
+154. Insert positioning: "the inserts are where you'd expect to find them on something the 155-160 region" [8]
+155. negative_aspect: Requires big, open terrain; not suitable for tight trees [33][38]
+156. negative_aspect: Generally considered a quiver/fun board, not a daily driver [34][35][36]
+157. comparable_board_same_brand: Son of Birdman ($749.99) — listed as similar item [1]
+158. comparable_board_same_brand: Doughboy 185 ($849.99) — smaller version, 2627 early release [5]
+159. comparable_board_same_brand: Dynamo, Lib Rig, EJack — all-mountain alternatives [39][40]
+160. comparable_board_cross_brand: Jones Storm Chaser, Rome PD, Yes 420 [38]
+161. predecessor_model_name: Original Doughboy Shredder (late 1980s, reportedly 196cm or larger) [8][41]
+162. redesign_year: The 2018-2019 model was the modern re-release at 195cm (noted as smaller than original) [8]
+163. MSRP positioning: $799.99 USD is above average for Lib Tech snowboards (comparable T.Rice Orca II is $749.99, Golden Orca is $849.99) [42]
+164. Discounted pricing observed: $557.99–$640.00 at various end-of-season retailers [22][26][31]
+165. reviewer_opinion_the_good_ride: Described as "a pretty expensive quiver ride" given it's not an everyday board [35]
+166. Lib Tech brand reputation: Well-established, pioneering snowboard brand since 1977 [15]
+167. Mervin Manufacturing reputation: "longest running and last major board building factory in the USA" [15]
+168. user_review_forum: "pretty solid boards and the construction is pretty durable" [40]
+169. sustainability_certification: Zero hazardous waste producing, uses renewable/farmed wood, green power [15][16][17]
+170. Employee culture: "handmade by snowboarders with jobs in the USA" [7]
+</answer>
+
+<citations>
+
+<citation id="1">
+<quotelist>
+<url>https://www.lib-tech.com/doughboy</url>
+<quote>Doughboy 195 ... $799.99 ... ALL MOUNTAIN - DIRECTIONAL TWIN</quote>
+<quote>Size 195 | Contact 152 | Side 9 | Nose/Tail 32.2/32.2 | Waist 26.1 | Surface 840 | Stance 20.25"-25"/0" | Flex 7 | Weight 150+/70+</quote>
+<quote>The Doughboy was created in the late 80s by Mike Olson</quote>
+<quote>BOARD ART BY: Mark Gale</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/doughboy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Lib Tech manufacturer product page with complete spec table. This is the primary authoritative source for all measurements and specifications of the 195cm Doughboy for the 2025-2026 season. The spec table explicitly lists Contact=152, Flex=7, Nose/Tail=32.2/32.2.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>1.0</attribute_importance>
+</citation>
+
+<citation id="2">
+<quotelist>
+<url>https://www.lib-tech.com/doughboy</url>
+<quote>Mike's concept was a longer camber board on a fixed width stance would provide a smoother ride through rough terrain</quote>
+<quote>float incredibly in powder and the big tips and tails would carve into beautiful arcs on hardpack and ice</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/doughboy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1988</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official manufacturer description of the board's design philosophy and intended performance characteristics. Marketing language but from the definitive source.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="3">
+<quotelist>
+<url>https://www.mervin.com/about/</url>
+<quote>Mervin Manufacturing home of Lib Tech, GNU, Roxy and Bent Metal Binding Works</quote>
+</quotelist>
+<url_with_text_link>https://www.mervin.com/about/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Manufacturing about page confirming Lib Tech is a Mervin brand.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="4">
+<quotelist>
+<url>https://www.lib-tech.com/doughboy</url>
+<quote>Copyright © 2026 Mervin Manufacturing. All Rights Reserved.</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/doughboy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Footer on the manufacturer's website confirms Mervin Manufacturing as the entity behind Lib Tech.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="5">
+<quotelist>
+<url>https://www.lib-tech.com/doughboy-185</url>
+<quote>Doughboy 185 - 2627 EARLY RELEASE ... $849.99</quote>
+<quote>Size 185 | Contact 135 | Side 9 | Nose/Tail 31.6/31.6 | Waist 26.1 | Surface 790 | Stance 20.25"-25"/1" | Flex 7 | Weight 150+/70+</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/doughboy-185</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2026-04</date_of_first_relevance>
+<date_of_last_relevance>2027-06</date_of_last_relevance>
+<reasoning>Official manufacturer page for the new 185cm Doughboy variant for 2026-2027 season. Authoritative source for specs of this size.</reasoning>
+<evidentiary_alignment>0.97</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.9</attribute_importance>
+</citation>
+
+<citation id="6">
+<quotelist>
+<url>https://www.lib-tech.com/snowboard/mens-snowboards</url>
+<quote>Shop Lib Tech Men's Snowboards & Snowboard Gear 2025-2026</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/snowboard/mens-snowboards</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official men's snowboards catalog page confirming the Doughboy is categorized under men's snowboards.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.95</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="7">
+<quotelist>
+<url>https://www.tactics.com/lib-tech/doughboy-camber-snowboard</url>
+<quote>Original Power Pop Construction (OPP) - 75% Aspen, 25% Paulownia - light, environMENTALLY nice, and strong.</quote>
+<quote>Handbuilt in the USA - Every Lib Tech board is handmade by snowboarders with jobs in the USA.</quote>
+<quote>1 Year Warranty - Covered under manufacturer warranty for 1 year from the time of purchase.</quote>
+<quote>Magne-Traction Serrated Edges - Strategically placed bumps that create added contact points</quote>
+<quote>Birch Internal Sidewalls - Rugged, lightweight, vertical end grain Birch internal sidewalls</quote>
+<quote>UHMW Sintered Sidewalls - A Lib Tech innovation that is twice as sintered as most industry sidewalls.</quote>
+<quote>Contact Length (cm): 152.0 | Tip Width (cm): 32.2 | Tail Width (cm): 32.2 | Waist Width: 26.1</quote>
+<quote>Width: Wide | Flex: Medium Stiff</quote>
+</quotelist>
+<url_with_text_link>https://www.tactics.com/lib-tech/doughboy-camber-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Tactics is a major US snowboard retailer. Their product page has detailed specs and construction descriptions. They list contact length as 152cm matching the manufacturer, and flex as "Medium Stiff." They classify width as "Wide."</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.95</attribute_importance>
+</citation>
+
+<citation id="8">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-doughboy-shredder-2018-2019.html</url>
+<quote>this 195cm beast is smaller than the original</quote>
+<quote>Naturally this turns more like an oil tanker than a speedboat</quote>
+<quote>the Lib Tech Doughboy Shredder never actually feels like it's going that fast. That's a testament to its stability</quote>
+<quote>little to no gnarly chatter</quote>
+<quote>the inserts are where you'd expect to find them on something the 155-160 region</quote>
+<quote>The base material is nippy at the best of times, but the sheer surface area does the job</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-doughboy-shredder-2018-2019.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2018-11</date_of_first_relevance>
+<date_of_last_relevance>2019-04</date_of_last_relevance>
+<reasoning>Whitelines is a respected UK-based snowboard publication. While this review is from the 2018-2019 model, the Doughboy has remained fundamentally the same board. Provides key ride character insights applicable to the current model.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="9">
+<quotelist>
+<url>https://www.saltypeaks.com/product/lib-tech-doughboy/</url>
+<quote>volume-shifted design (often with a surface area around 840 square inches) makes it more manageable than its length suggests</quote>
+<quote>turns chopped-up snow into smooth terrain and provides an incredibly damp ride</quote>
+<quote>It's not a daily driver for everyone</quote>
+<quote>turning ice into carvable terrain</quote>
+</quotelist>
+<url_with_text_link>https://www.saltypeaks.com/product/lib-tech-doughboy/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Salty Peaks is a well-known specialty snowboard retailer in Utah. Their product description adds interpretive context beyond the manufacturer's marketing copy.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="10">
+<quotelist>
+<url>https://www.evo.com/snowboards/lib-tech-doughboy-c3-snowboard</url>
+<quote>C3 Camber – Aggressive dominant camber zones out to the contacts combined with mild rocker between your feet.</quote>
+<quote>Subtle Banana rocker gives freestyle freedom with maximum end-to-end stability</quote>
+<quote>For aggressive, skilled riders.</quote>
+<quote>EJack, Jamie Lynn, and Fredi K's favorite.</quote>
+<quote>Medium – The most versatile flex in the game</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/lib-tech-doughboy-c3-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo is a major specialty outdoor retailer. Their description of C3 Camber and rider level is sourced from Lib Tech's materials. They categorize flex as "Medium" which is their standardization of the manufacturer's 7/10 rating — not a disagreement per se but a different classification system.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="11">
+<quotelist>
+<url>https://www.saltypeaks.com/product/lib-tech-doughboy/</url>
+<quote>C3 Camber Profile: This is Lib Tech's aggressive dominant camber contour.</quote>
+</quotelist>
+<url_with_text_link>https://www.saltypeaks.com/product/lib-tech-doughboy/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Confirms the C3 camber designation from a retailer source.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="12">
+<quotelist>
+<url>https://www.evo.com/snowboards/lib-tech-doughboy-c3-snowboard</url>
+<quote>Original Power Pop (OPP) Construction – 60% Aspen / 40% Paulownia – Lighter.</quote>
+</quotelist>
+<url_with_text_link>https://www.evo.com/snowboards/lib-tech-doughboy-c3-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Evo lists the core composition as 60% Aspen / 40% Paulownia, which contradicts Tactics' 75%/25% listing. This is a genuine data disagreement between major retailers. Evo may have received different product spec sheets or this may be from a different model year's description.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.82</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="13">
+<quotelist>
+<url>https://blauerboardshop.com/products/lib-tech-doughboy-2025</url>
+<quote>Magnesium Techno Fiber Bands and Carbon - High magnesium content glass fiber that has high tensile strength</quote>
+<quote>Birch Internal Sidewalls - Extremely rugged high impact 6 ply sidewall reinforcement.</quote>
+<quote>UHMW Sintered Sidewalls - Strong high impact ultra-high molecular weight polyethylene.</quote>
+<quote>UHMW Tip/Tail Impact Deflection - minimize tip and tail spin weight.</quote>
+<quote>Eco Sublimated TNT – The highest density UHMW and fastest base material without wax.</quote>
+<quote>TNT features a unique dual-layer thermal fusion "phase alteration" process</quote>
+</quotelist>
+<url_with_text_link>https://blauerboardshop.com/products/lib-tech-doughboy-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Blauer Board Shop provides detailed technology descriptions sourced from Lib Tech's official materials. These are the most detailed construction specs available for the Doughboy.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="14">
+<quotelist>
+<url>https://glacierskishop.com/products/lib-tech-dough-boy-snowboard-2025</url>
+<quote>The titanium layer reflects light and heat, keeping the base at or near snow temperatures.</quote>
+<quote>Wax to conditions as normal, but the board will remain fast even as wax wears.</quote>
+</quotelist>
+<url_with_text_link>https://glacierskishop.com/products/lib-tech-dough-boy-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Glacier Ski Shop provides additional detail on the TNT base's titanium layer function not found elsewhere. Source of the waxing guidance.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="15">
+<quotelist>
+<url>https://www.mervin.com/about/</url>
+<quote>Mervin Manufacturing was founded by snowboarders Mike Olson and Pete Saari in 1977.</quote>
+<quote>Mervin is the longest running and last major board building factory in the USA.</quote>
+<quote>Based out of Carlsborg, Washington</quote>
+</quotelist>
+<url_with_text_link>https://www.mervin.com/about/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Manufacturing about page — authoritative source for company history, location, and manufacturing claims.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="16">
+<quotelist>
+<url>https://www.mervinmade.com/</url>
+<quote>Our zero hazardous waste producing gravity toys come in the shape of snowboards</quote>
+<quote>we make them right here in Sequim, WA in the USA using eco materials, processes and power.</quote>
+</quotelist>
+<url_with_text_link>https://www.mervinmade.com/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>1977</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Mervin Made website, the company's consumer-facing branding site. Confirms zero hazardous waste and Sequim, WA location.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.88</source_credibility>
+<attribute_importance>0.55</attribute_importance>
+</citation>
+
+<citation id="17">
+<quotelist>
+<url>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url>
+<quote>We use the safest epoxy resin systems available, with minimal VOC's.</quote>
+<quote>We use no solvents in the factory, but instead use citrus based cleaners</quote>
+<quote>we have used fast-growing farmed wood for our wood cores.</quote>
+<quote>All the electricity used by the factory is "green" power specially contracted from the local PUD.</quote>
+<quote>We recycle all the scrap manufacturing materials possible</quote>
+<quote>Mervin sublimates rather than silkscreens its graphics.</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/blog/2008/09/19/mervin-manufacturing-worlds-most-environmental-snowboard-factory/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2008</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Lib Tech blog post about environmental practices. While from 2008, these practices are core to Mervin's identity and remain relevant. Provides detailed environmental credentials not found in newer pages.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.85</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="18">
+<quotelist>
+<url>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url>
+<quote>Today Mervin Manufacturing... recognizes its official change in ownership from Quiksilver, Inc. to Altamont Capital Partners</quote>
+</quotelist>
+<url_with_text_link>https://www.mervin.com/2013/11/07/mervin-manufacturing-acquired-by-altamont-capital-partners/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2013-11</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official press release on ownership change. Relevant corporate background for understanding the brand's current structure.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.9</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="19">
+<quotelist>
+<url>https://eur.lib-tech.com/doughboy</url>
+<quote>€799.99 · Price includes VAT</quote>
+</quotelist>
+<url_with_text_link>https://eur.lib-tech.com/doughboy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Lib Tech European store, confirming EUR pricing.</reasoning>
+<evidentiary_alignment>0.95</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="20">
+<quotelist>
+<url>https://gbp.lib-tech.com/snowboard</url>
+<quote>Doughboy 195 · 17 Reviews · £694.99</quote>
+<quote>Doughboy 185 - 2627 EARLY RELEASE · 2 Reviews · £714.99</quote>
+</quotelist>
+<url_with_text_link>https://gbp.lib-tech.com/snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Lib Tech GBP store listing, confirming UK pricing for both sizes.</reasoning>
+<evidentiary_alignment>0.92</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="21">
+<quotelist>
+<url>https://www.arlbergski.com/products/lib-tech-doughboy-snowboard-mens-2026</url>
+<quote>Sale price $799.99 · Size · 195 cm · Only 2 in stock</quote>
+</quotelist>
+<url_with_text_link>https://www.arlbergski.com/products/lib-tech-doughboy-snowboard-mens-2026</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Small specialty retailer showing availability and pricing at MSRP.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="22">
+<quotelist>
+<url>https://boardofmissoula.com/collections/snowboards/products/lib-tech-doughboy-2026-snowboard</url>
+<quote>Regular price $ 800.00 Sale price $ 640.00</quote>
+</quotelist>
+<url_with_text_link>https://boardofmissoula.com/collections/snowboards/products/lib-tech-doughboy-2026-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Board of Missoula showing the board on sale at 20% discount.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="23">
+<quotelist>
+<url>https://wws-boardshop.com/products/lib-tech-doughboy-2026-mens-snowboard</url>
+<quote>Sale price $799.99 USD Sale Sold out</quote>
+</quotelist>
+<url_with_text_link>https://wws-boardshop.com/products/lib-tech-doughboy-2026-mens-snowboard</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>WWS Boardshop listing showing sold out status at MSRP.</reasoning>
+<evidentiary_alignment>0.88</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="24">
+<quotelist>
+<url>https://rudeboys.com/products/lib-tech-doughboy-snowboard-w26</url>
+<quote>2026 LIB TECH DOUGHBOY SNOWBOARD · 195</quote>
+</quotelist>
+<url_with_text_link>https://rudeboys.com/products/lib-tech-doughboy-snowboard-w26</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Canadian retailer confirming availability of 195cm in Canada.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="25">
+<quotelist>
+<url>https://gorgeperformance.com/products/doughboy</url>
+<quote>Lib Tech Doughboy Snowboard 2026</quote>
+</quotelist>
+<url_with_text_link>https://gorgeperformance.com/products/doughboy</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Gorge Performance retailer listing.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="26">
+<quotelist>
+<url>https://glacierskishop.com/products/lib-tech-dough-boy-snowboard-2025</url>
+<quote>Sale price$639.00 USD Regular price$800.00 USD</quote>
+</quotelist>
+<url_with_text_link>https://glacierskishop.com/products/lib-tech-dough-boy-snowboard-2025</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Glacier Ski Shop selling the 2025 model at a discount. Located near Mt Baker, WA — close to the Mervin factory.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.65</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="27">
+<quotelist>
+<url>https://www.the-house.com/1137919.html</url>
+<quote>Lib Tech Doughboy Men's Snowboard - 195cm</quote>
+</quotelist>
+<url_with_text_link>https://www.the-house.com/1137919.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>The House is a well-known US online board sports retailer.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="28">
+<quotelist>
+<url>https://www.amazon.com/Lib-Tech-Doughboy-Mens-Snowboard/dp/B0FH7K7PN4</url>
+<quote>Lib Tech Doughboy Mens Snowboard 195</quote>
+</quotelist>
+<url_with_text_link>https://www.amazon.com/Lib-Tech-Doughboy-Mens-Snowboard/dp/B0FH7K7PN4</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Amazon listing for the Doughboy, confirming availability on the major marketplace.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.7</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="29">
+<quotelist>
+<url>https://alpineskishop.com/lib-tech-doughboy-snowboard-2025/</url>
+<quote>Lib Tech Doughboy Snowboard 2025</quote>
+</quotelist>
+<url_with_text_link>https://alpineskishop.com/lib-tech-doughboy-snowboard-2025/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Alpine Ski Shop listing the 2025 model.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.5</attribute_importance>
+</citation>
+
+<citation id="30">
+<quotelist>
+<url>https://winteriscalling.com/products/lib-tech-doughboy-snowboard-2025-preorder</url>
+<quote>Original price $799.99</quote>
+</quotelist>
+<url_with_text_link>https://winteriscalling.com/products/lib-tech-doughboy-snowboard-2025-preorder</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-06</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>WinterIsCalling retailer listing with pre-order pricing at MSRP.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.55</source_credibility>
+<attribute_importance>0.6</attribute_importance>
+</citation>
+
+<citation id="31">
+<quotelist>
+<url>https://www.alternative113.com/en/libtech-25-doughboy-195-lib-424.html</url>
+<quote>As low as $557.99 Regular Price $929.99</quote>
+</quotelist>
+<url_with_text_link>https://www.alternative113.com/en/libtech-25-doughboy-195-lib-424.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>European retailer listing with significant discount pricing. The higher regular price of $929.99 likely includes international markups.</reasoning>
+<evidentiary_alignment>0.8</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="32">
+<quotelist>
+<url>https://www.snowcountry.eu/25-lib-tech-doughboy.html</url>
+<quote>The core consists of: 75% Aspen / 25% Paulownia with a layer of tri-ax and a layer of bi-ax fiberglass.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowcountry.eu/25-lib-tech-doughboy.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>European retailer providing additional core detail, confirming 75/25 Aspen/Paulownia and specifying both tri-ax and bi-ax fiberglass layers.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.6</source_credibility>
+<attribute_importance>0.65</attribute_importance>
+</citation>
+
+<citation id="33">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/lib-tech-doughboy-195.281059/</url>
+<quote>Is it a complete novelty that will be more of a wall hanger, or is it actually a board that you would ride occasionally?</quote>
+<quote>It doesn't really seem like it would be a good powder board, it seems like it's just a giant all mountain board.</quote>
+<quote>Nice for comedic purposes, but I don't take it really serious. It doesn't nearly feel as long as it is</quote>
+<quote>But you do need big open terrain, because only long turns are an option.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-doughboy-195.281059/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-02</date_of_first_relevance>
+<date_of_last_relevance>2025-11</date_of_last_relevance>
+<reasoning>Snowboarding Forum thread directly discussing the Doughboy 195. Multiple community members share ride impressions. Forum posts are anecdotal but provide valuable unfiltered buyer perspective on use case limitations.</reasoning>
+<evidentiary_alignment>0.82</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.8</attribute_importance>
+</citation>
+
+<citation id="34">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/lib-tech-doughboy-195.281059/</url>
+<quote>its a blast on big cord groomers. fun every 5th day, not an every day rider</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-doughboy-195.281059/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-11</date_of_first_relevance>
+<date_of_last_relevance>2025-11</date_of_last_relevance>
+<reasoning>Forum user 'erichad' who has ridden the board confirming it's a quiver/occasional board, not a daily driver. Single anecdote but aligns with multiple other sources.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.35</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="35">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/lib-tech-doughboy-shredder-2019-snowboard-review/</url>
+<quote>a super long ass pretty much full camber ride... it's a pretty expensive quiver ride but some might just have to have it.</quote>
+<quote>Definitely a board for a few runs a day but not all day.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-doughboy-shredder-2019-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019-01</date_of_first_relevance>
+<date_of_last_relevance>2024-02</date_of_last_relevance>
+<reasoning>The Good Ride is a well-respected independent snowboard review site. While reviewing the 2019 model, the fundamental board design is the same. They independently purchased and reviewed the board.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="36">
+<quotelist>
+<url>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-doughboy-shredder-2018-2019.html</url>
+<quote>riding this for a morning was a joy – but would I buy one? Doubtful.</quote>
+<quote>Once the novelty wears off, all you're left with is board for riders that want to go fast, but without the adrenaline spike.</quote>
+</quotelist>
+<url_with_text_link>https://whitelines.com/snowboard-gear/reviews/snowboards/lib-tech-doughboy-shredder-2018-2019.html</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2018-11</date_of_first_relevance>
+<date_of_last_relevance>2019-04</date_of_last_relevance>
+<reasoning>Whitelines is a respected UK snowboard magazine. Their candid review provides an important counterpoint to the positive manufacturer marketing.</reasoning>
+<evidentiary_alignment>0.9</evidentiary_alignment>
+<source_credibility>0.8</source_credibility>
+<attribute_importance>0.85</attribute_importance>
+</citation>
+
+<citation id="37">
+<quotelist>
+<url>https://shapersummit.com/product/libtech-doughboy-195-snowboard-review-2018-2019-rated-radical/</url>
+<quote>I thought this board would feel like a plank and be hard to ride. I was way off. It made me fall in love with snowboarding all over again.</quote>
+</quotelist>
+<url_with_text_link>https://shapersummit.com/product/libtech-doughboy-195-snowboard-review-2018-2019-rated-radical/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2018-09</date_of_first_relevance>
+<date_of_last_relevance>2019-04</date_of_last_relevance>
+<reasoning>Shaper Summit user review from the 2018-2019 model. Highly enthusiastic personal testimonial that contrasts with more skeptical reviews.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.5</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="38">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/lib-tech-jamie-lynn-short-fat-s.261899/</url>
+<quote>After I rode a Doughboy Shredder I'm over the short fat thing. Long/fat is the way to go except for trees.</quote>
+<quote>Try Jones Storm Chaser or Rome PD. Maybe Yes 420.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-jamie-lynn-short-fat-s.261899/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2019-04</date_of_first_relevance>
+<date_of_last_relevance>2019-04</date_of_last_relevance>
+<reasoning>Forum discussion referencing the Doughboy experience and providing competitor alternatives. Useful for both ride impression and competitor identification.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="39">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/never-tried-a-mervin-board-i-really-liked-what-should-i-try-next.281392/</url>
+<quote>Doughboy was completely unique and definitely a quiver board</quote>
+<quote>I really like the smooth/damp rides they provide though variable resort conditions when riding fast and hard.</quote>
+<quote>I wish Mervin would make more boards without mag and with plain old camber.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/never-tried-a-mervin-board-i-really-liked-what-should-i-try-next.281392/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2024-04</date_of_first_relevance>
+<date_of_last_relevance>2024-04</date_of_last_relevance>
+<reasoning>Forum thread with broad Mervin/Lib Tech discussion. Provides community perspective on the Doughboy as a quiver board and general Mervin ride characteristics.</reasoning>
+<evidentiary_alignment>0.75</evidentiary_alignment>
+<source_credibility>0.4</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="40">
+<quotelist>
+<url>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url>
+<quote>Mervin (Lib Tech / Gnu) makes pretty solid boards and the construction is pretty durable.</quote>
+<quote>The top sheet gets scuffs easy but its all superficial.</quote>
+</quotelist>
+<url_with_text_link>https://thegoodride.com/snowboard-reviews/lib-tech-lib-rig-snowboard-review/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-12</date_of_first_relevance>
+<date_of_last_relevance>2025-12</date_of_last_relevance>
+<reasoning>The Good Ride reviewer commenting on general Mervin build quality. Though from a Lib Rig review, it applies to all Mervin boards including the Doughboy as they share the same factory and construction approach.</reasoning>
+<evidentiary_alignment>0.7</evidentiary_alignment>
+<source_credibility>0.75</source_credibility>
+<attribute_importance>0.7</attribute_importance>
+</citation>
+
+<citation id="41">
+<quotelist>
+<url>https://www.snowboardingforum.com/threads/lib-tech-grocer.179154/</url>
+<quote>The Doughboy Shredder was a 196 and then listed as a 200 or something.</quote>
+</quotelist>
+<url_with_text_link>https://www.snowboardingforum.com/threads/lib-tech-grocer.179154/</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2015</date_of_first_relevance>
+<date_of_last_relevance>2015</date_of_last_relevance>
+<reasoning>Forum discussion referencing historical sizing of the original Doughboy Shredder (196cm or 200cm). Informal but consistent with Whitelines' claim that the 195cm re-release is smaller than the original.</reasoning>
+<evidentiary_alignment>0.6</evidentiary_alignment>
+<source_credibility>0.3</source_credibility>
+<attribute_importance>0.3</attribute_importance>
+</citation>
+
+<citation id="42">
+<quotelist>
+<url>https://www.lib-tech.com/snowboard/mens-snowboards</url>
+<quote>T.Rice Orca II - 2627 EARLY RELEASE · $749.99 ... Golden Orca - 2627 EARLY RELEASE · $849.99 ... Doughboy 185 - 2627 EARLY RELEASE · $849.99</quote>
+</quotelist>
+<url_with_text_link>https://www.lib-tech.com/snowboard/mens-snowboards</url_with_text_link>
+<date_url_retrieved>2026-04-28</date_url_retrieved>
+<date_of_first_relevance>2025-09</date_of_first_relevance>
+<date_of_last_relevance>2026-04-28</date_of_last_relevance>
+<reasoning>Official Lib Tech men's snowboard catalog page showing comparative pricing across the lineup.</reasoning>
+<evidentiary_alignment>0.85</evidentiary_alignment>
+<source_credibility>0.92</source_credibility>
+<attribute_importance>0.75</attribute_importance>
+</citation>
+
+<citation id="MERCHANT">
+  <quotelist>
+    <url>https://www.melbournesnowboard.com.au/products/lib-tech-doughboy-2026</url>
+    <quote>AUD price: $1,349.99; manufacturer: Mervin Manufacturing; brand: Lib Tech; model name: Doughboy; model year: 2026</quote>
+  </quotelist>
+  <url_with_text_link>https://www.melbournesnowboard.com.au/products/lib-tech-doughboy-2026</url_with_text_link>
+  <date_url_retrieved>2026-04-27</date_url_retrieved>
+  <date_of_first_relevance>2025-09</date_of_first_relevance>
+  <date_of_last_relevance>2026-04-27</date_of_last_relevance>
+  <reasoning>Merchant-provided specifications from Melbourne Snowboard Centre product listing. High reliability for pricing, availability, and basic specs.</reasoning>
+  <evidentiary_alignment>1.0</evidentiary_alignment>
+  <source_credibility>0.95</source_credibility>
+  <attribute_importance>0.85</attribute_importance>
+</citation>
+</citations>
+</response>
