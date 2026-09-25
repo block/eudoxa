@@ -22,11 +22,11 @@ This is a research project and as such ongoing maintenance is expected to be int
 
 ## Whitepaper
 
-You can read the Eudoxa whitepaper [here](eudoxa_whitepaper.pdf).
+You can read the Eudoxa whitepaper [here](eudoxa_whitepaper_2026.pdf).
 
 ## Local commands
 
-The code is built to use the Anthropic API.  Place your API key in secrets/anthropic_api_key, or define ANTHROPIC_API_KEY environment variable.
+**The code is built to use the Anthropic API.  Place your API key in secrets/anthropic_api_key, or define ANTHROPIC_API_KEY environment variable.**
 
 Run the decision model (standalone):
 
